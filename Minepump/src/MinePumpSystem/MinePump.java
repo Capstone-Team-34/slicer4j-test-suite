@@ -1,6 +1,5 @@
-package MinePumpSystem; 
-
-import MinePumpSystem.Environment; 
+package MinePumpSystem;
+import tests.TestCommand;
 
 public   class  MinePump {
 	
@@ -51,7 +50,7 @@ public   class  MinePump {
 
 	void 
 processEnvironment__before__lowWaterSensor() {
-    if (tests.MineTEST.SINGLETON.get_HIGHWATERSENSOR___()) {
+    if (TestCommand.get_HIGHWATERSENSOR___()) {
         processEnvironment__role__highWaterSensor();
     } else {
         processEnvironment__before__highWaterSensor();
@@ -75,7 +74,7 @@ processEnvironment__before__lowWaterSensor() {
 
 	void 
 processEnvironment__before__methaneAlarm() {
-    if (tests.MineTEST.SINGLETON.get_LOWWATERSENSOR___()) {
+    if (TestCommand.get_LOWWATERSENSOR___()) {
         processEnvironment__role__lowWaterSensor();
     } else {
         processEnvironment__before__lowWaterSensor();
@@ -97,7 +96,7 @@ processEnvironment__before__methaneAlarm() {
 	
 	void
 processEnvironment() {
-    if (tests.MineTEST.SINGLETON.get_METHANEALARM___()) {
+    if (TestCommand.get_METHANEALARM___()) {
         processEnvironment__role__methaneAlarm();
     } else {
         processEnvironment__before__methaneAlarm();
@@ -125,7 +124,7 @@ processEnvironment() {
 	
 	void
 activatePump() {
-    if (tests.MineTEST.SINGLETON.get_METHANEQUERY___()) {
+    if (TestCommand.get_METHANEQUERY___()) {
         activatePump__role__methaneQuery();
     } else {
         activatePump__before__methaneQuery();
