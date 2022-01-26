@@ -1,0 +1,1598 @@
+
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ6
+3com.thoughtworks.acceptance.CustomSerializationTestCLASSK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ($"
+inner classfalse*CustomSerializationTest2≠
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+ 1(	2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3 9(	2∞
+Tcom.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java= S(2≠
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad h(	2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj n(	2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Ö(	2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá ã(	2·
+Çcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaé ¶(2€
+}com.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≥ …(2†
+Bcom.thoughtworks.acceptance.CustomSerializationTest.equals(Object)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ⁄(	2Ã
+ncom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java› Á(2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘ Ç(	2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ å(	2©
+Kcom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaê Æ(2∑
+Ycom.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∞ »(2∫
+\com.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java  Ô(2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸ ˇ(	2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Ñ(	2∆
+hcom.thoughtworks.acceptance.CustomSerializationTest.testObjectWithCallToDefaultWriteButNoDefaultFields()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà ì(2“
+tcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaï ª(2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬ «(	2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java… Õ(	2‘
+vcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java— „(2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ Ï(	2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ú(	2π
+[com.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˆ à(2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! "(	2∆
+jcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization(int,int,String,Software)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$ )(	2ò
+<com.thoughtworks.acceptance.CustomSerializationTest.Parent()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java[ \(	2£
+Gcom.thoughtworks.acceptance.CustomSerializationTest.Parent(int,int,int)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ b(	2ó
+;com.thoughtworks.acceptance.CustomSerializationTest.Child()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaw x(	2Æ
+Rcom.thoughtworks.acceptance.CustomSerializationTest.Child(int,int,int,int,int,int)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz (	2©
+Kcom.thoughtworks.acceptance.CustomSerializationTest.Child2(int,int,int,int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ Ø(	2ù
+?com.thoughtworks.acceptance.CustomSerializationTest.MyDate(int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Œ(	2•
+Gcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable(String)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ÷(	2£
+Ecom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaı ˆ(	2¶
+Hcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields(int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ˙(	2m
+AbstractAcceptanceTestEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java- (C¬
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!a	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$1 $(2*a2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$- $(0¬
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!b	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$8 $(9*b2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$4 $(7œ
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!c	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$B $(C*c2e
+java.lang.StringTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$; $(A«
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!e	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$N $(O*e2]
+SoftwareTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$E $(Mì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(!*parentA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(ì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^' ^(.*parentB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^# ^(&ì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^4 ^(;*parentC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^0 ^(3ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z( *parentA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z(ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz& z(-*parentB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz" z(%ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz3 z(:*parentC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz/ z(2õ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz@ z(F*childA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz< z(?õ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazL z(R*childB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazH z(Kõ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazX z(^*childC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazT z(Wõ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(!*parentA2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(õ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentB	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨' ¨(.*parentB2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨# ¨(&õ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentC	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨4 ¨(;*parentC2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨0 ¨(3ô
+Ycom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!childA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨A ¨(G*childA2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨= ¨(@â
+Kcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)!time	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(*time2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(£
+Xcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(String)!name	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘" ‘(&*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(!•
+bcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)!something	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯# ¯(,*	something2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ¯("Ó
+Tcom.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()METHODK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java= =(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWritesCustomFieldsToStream2¥
+Xcom.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()?objDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java>& >(v2º
+`com.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()?expectedXmlDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaB P(2`
+voidRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java= =(Í
+Çcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaé é(\"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*LtestIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods2Á
+àcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()?childDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaè è(42Ì
+écom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaì £(2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaè è(42b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaé é(Õ
+}com.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≥ ≥(W"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*GtestIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods2‚
+Écom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()?childDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥(.2Ë
+âcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∏ ∆(2¨
+Ucom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥(.2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≥ ≥(∂
+ncom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java› ›(H"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*8testSupportsSubclassesOfClassesThatAlreadyHaveConverters2œ
+qcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?inDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬁ ﬁ(*2–
+rcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?xmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬂ ﬂ(&2–
+rcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?in2DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‚ ‚(/2—
+scom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?xml2DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂ Â((2t
+java.util.Hashtable.put(K, V)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java„ „("2t
+java.util.Hashtable.put(K, V)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‰ ‰((2ù
+Fcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬁ ﬁ(*2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(java.lang.String)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‚ ‚(/2u
+java.lang.Integer.Integer(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‰ ‰('2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java› ›(ç
+Kcom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaê ê(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testAllowsNamedFields2≠
+Ocom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()?objDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaë ë(?2µ
+Wcom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ ´((2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaë$ ë(?2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaê ê(ä
+Ycom.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∞ ∞(3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*#testUsesDefaultIfNamedFieldNotFound2¿
+bcom.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()?inputXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¬((2æ
+`com.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()?resultDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ(X2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∞ ∞(—
+
+\com.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java   (6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testCustomStreamWithNestedCustomStream2¿
+bcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?outerDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(A2¿
+bcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?innerDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java– –(A2∆
+hcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ Ï((2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ& À(A2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java–& –(A2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java   (´
+hcom.thoughtworks.acceptance.CustomSerializationTest.testObjectWithCallToDefaultWriteButNoDefaultFields()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(B"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*2testObjectWithCallToDefaultWriteButNoDefaultFields2“
+tcom.thoughtworks.acceptance.CustomSerializationTest.testObjectWithCallToDefaultWriteButNoDefaultFields()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaã ë(2Ø
+Xcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaí í(.2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(Õ
+tcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaï ï(N"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*>testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat2ÿ
+zcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?outerDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javañ ñ(A2ÿ
+zcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?innerDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ õ(A2‚
+Écom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?oldFormatOfXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java£ ∑((2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javañ& ñ(A2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ& õ(A2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaï ï(÷
+vcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java— —(P"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*@testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem2⁄
+|com.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()?inputDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘+ ‘([2·
+Çcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ‡( 2“
+{com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.ObjectWithNamedThatMatchRealFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘3 ‘([2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java— —(Ç
+[com.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˆ ˆ(5"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*%testSupportsGetFieldsWithoutPutFields2ø
+acom.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()?inputDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘7 ˘(s2≈
+gcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()?expectedXmlDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ Ö( 2Î
+ìcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.ObjectThatReadsCustomFieldsButDoesNotWriteThem()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘? ˘(s2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˆ ˆ(¿
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+2 +(4*in2n
+java.io.ObjectInputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+  +(1≈
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java34 3(7*out2o
+java.io.ObjectOutputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3! 3(3©
+[com.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad2 d(4*in2n
+java.io.ObjectInputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad  d(1Æ
+^com.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj4 j(7*out2o
+java.io.ObjectOutputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj! j(3¨
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ2 Å(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ  Å(1±
+]com.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá4 á(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá! á(3ò
+Pcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(Object)!o	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ2 ÿ(3*o2g
+java.lang.ObjectTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ+ ÿ(1¡
+mcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘4 ˘(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘! ˘(3º
+jcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ2 Ñ(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ  Ñ(1∂
+dcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸2 ¸(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸  ¸(1ª
+gcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ4 Å(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ! Å(3Œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬4 ¬(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬! ¬(3…
+wcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…2 …(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…  …(1€
+Ücom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ4 Í(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ! Í(3÷
+Écom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ2 Ó(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ  Ó(1á
+Xcom.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()?objVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java>& >()"&
+type ObjectWithCustomSerialization*obj2¶
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerializationTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java> >(%æ
+`com.thoughtworks.acceptance.CustomSerializationTest.testWritesCustomFieldsToStream()?expectedXmlVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaB B("
+type String*expectedXml2e
+java.lang.StringTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaB B(≈
+àcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()?childVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaè è("
+type Child*child2ê
+9com.thoughtworks.acceptance.CustomSerializationTest.ChildTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaè è(2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaè è(4Ò
+écom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenParentAndChildHaveSerializationMethods()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaì ì("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaì ì(∫
+Écom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()?childVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥("
+type Child2*child2ë
+:com.thoughtworks.acceptance.CustomSerializationTest.Child2TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥(2¨
+Ucom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥(.Ï
+âcom.thoughtworks.acceptance.CustomSerializationTest.testIncludesCompleteClassHierarchyWhenOnlyParentHasSerializationMethods()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∏ ∏("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∏ ∏(ï
+qcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?inVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬁ ﬁ("
+type MyDate*in2ë
+:com.thoughtworks.acceptance.CustomSerializationTest.MyDateTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬁ ﬁ(2ù
+Fcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬁ ﬁ(*Ã
+rcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?xmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬂ ﬂ("
+type String*xml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaﬂ ﬂ(∏
+rcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?in2VARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‚ ‚("
+type MyHashtable*in22ñ
+?com.thoughtworks.acceptance.CustomSerializationTest.MyHashtableTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‚ ‚(2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(java.lang.String)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‚ ‚(/Œ
+scom.thoughtworks.acceptance.CustomSerializationTest.testSupportsSubclassesOfClassesThatAlreadyHaveConverters()?xml2VARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂ Â("
+type String*xml22g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂ Â(√
+pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚( ˚(."$
+type ObjectOutputStream.PutField*fields2z
+#java.io.ObjectOutputStream.PutFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚ ˚('2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(@2Ã
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(4º
+ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ' Ü(-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ Ü(&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(?2…
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(2≠
+Ocom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()?objVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaë ë(!"
+type ObjectWithNamedFields*obj2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaë ë(2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaë$ ë(?π
+Wcom.thoughtworks.acceptance.CustomSerializationTest.testAllowsNamedFields()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ õ("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ õ(¡
+bcom.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()?inputXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥("
+type String*inputXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¥ ¥(Ü
+`com.thoughtworks.acceptance.CustomSerializationTest.testUsesDefaultIfNamedFieldNotFound()?resultVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ($"
+type ObjectWithNamedFields*result2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ(¬
+bcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?outerVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(#"
+type ObjectWithNamedFields*outer2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ& À(A¬
+bcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?innerVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java– –(#"
+type ObjectWithNamedFields*inner2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java– –(2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java–& –(A 
+hcom.thoughtworks.acceptance.CustomSerializationTest.testCustomStreamWithNestedCustomStream()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ÿ("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ÿ(÷
+tcom.thoughtworks.acceptance.CustomSerializationTest.testObjectWithCallToDefaultWriteButNoDefaultFields()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaã ã("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaã ã(⁄
+zcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?outerVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javañ ñ(#"
+type ObjectWithNamedFields*outer2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javañ ñ(2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javañ& ñ(A⁄
+zcom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?innerVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ õ(#"
+type ObjectWithNamedFields*inner2†
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ õ(2∏
+acom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.ObjectWithNamedFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaõ& õ(AÈ
+Écom.thoughtworks.acceptance.CustomSerializationTest.testMaintainsBackwardsCompatabilityWithXStream1_1_0FieldFormat()?oldFormatOfXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java£ £("
+type String*oldFormatOfXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java£ £(ﬁ
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√( √(."$
+type ObjectOutputStream.PutField*fields2z
+#java.io.ObjectOutputStream.PutFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√ √('2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(@2⁄
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(4÷
+{com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java '  (-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java   (&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (?2÷
+com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (2ê
+|com.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()?inputVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘+ ‘(0"+
+type "ObjectWithNamedThatMatchRealFields*input2≠
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFieldsTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(*2“
+{com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.ObjectWithNamedThatMatchRealFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘3 ‘([Â
+Çcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsWritingFieldsForObjectsThatDoNotExplicitlyDefineThem()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ÿ("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ÿ(
+ácom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ' Ô(-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ Ô(&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(?2„
+ãcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(2¶
+acom.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()?inputVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘7 ˘(<"7
+type .ObjectThatReadsCustomFieldsButDoesNotWriteThem*input2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThemTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘ ˘(62Î
+ìcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.ObjectThatReadsCustomFieldsButDoesNotWriteThem()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘? ˘(s…
+gcom.thoughtworks.acceptance.CustomSerializationTest.testSupportsGetFieldsWithoutPutFields()?expectedXmlVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ ˝("
+type String*expectedXml2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ ˝(Ä
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerializationCLASSK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (5"
+inner classfalse*ObjectWithCustomSerialization2À
+ocom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(ObjectInputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+ 1(	2Õ
+qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(ObjectOutputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3 9(	2Õ
+qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! "(	2Â
+àcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$ )(	2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?aDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?bDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?cDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! ("2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?dDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! ("2Ø
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?eDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java# ($2k
+java.io.SerializableEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaX (d2e
+StandardObjectEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java> (Lú
+qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization()CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! !(,*ObjectWithCustomSerialization2≠
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerializationRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! !(,‘
+
+àcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$ $(,*ObjectWithCustomSerialization2Â
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!a	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$- $(22Â
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!b	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$4 $(92Â
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!c	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$; $(C2Â
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!e	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$E $(O2≠
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerializationRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$ $(,¬
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!a	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$1 $(2*a2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$- $(0¬
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!b	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$8 $(9*b2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$4 $(7œ
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!c	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$B $(C*c2e
+java.lang.StringTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$; $(A«
+äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.ObjectWithCustomSerialization(int,int,String,Software)!e	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$N $(O*e2]
+SoftwareTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java$E $(Mã
+ocom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(ObjectInputStream)METHODK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+ +("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2Ã
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+  +(42x
+#java.io.ObjectInputStream.readInt()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java, ,(2Ç
+-java.io.ObjectInputStream.defaultReadObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java- -("2{
+&java.io.ObjectInputStream.readObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java. .((2{
+&java.io.ObjectInputStream.readObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java/ /(2{
+&java.io.ObjectInputStream.readObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java0 0(*2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?bCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java, ,(2œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java, ,(2œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java- -(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?cCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java. .(2œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java. .(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?dCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java/ /(2œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java/ /(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?eCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java0 0(2œ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java0 0(2`
+voidRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+= +(H–
+qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(ObjectOutputStream)METHODK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3 3( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2œ
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3! 3(72}
+(java.io.ObjectOutputStream.writeInt(int)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java4 4(2Ñ
+/java.io.ObjectOutputStream.defaultWriteObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java5 5($2ç
+8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java6 6(2ç
+8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java7 7(2“
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java4 4(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?bCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java4 4(2“
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java5 5(2“
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java6 6(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?cCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java6 6(2“
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java7 7(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?dCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java7 7(2“
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java8 8(2®
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?eCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java8 8(2`
+voidRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3@ 3(K¿
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+2 +(4*in2n
+java.io.ObjectInputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java+  +(1≈
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java34 3(7*out2o
+java.io.ObjectOutputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java3! 3(3ó
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?aVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ("
+type int*a2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (ó
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?bVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ("
+type int*b2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (ß
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?cVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! (""
+type String*c2e
+java.lang.StringTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ( ß
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?dVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java! (""
+type Object*d2e
+java.lang.ObjectTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ( °
+Scom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithCustomSerialization?eVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java# ($"
+type Software*e2]
+SoftwareTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java ("§
+:com.thoughtworks.acceptance.CustomSerializationTest.ParentCLASSK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaU U("
+inner classfalse*Parent2¥
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(ObjectInputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad h(	2∂
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(ObjectOutputStream)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj n(	2ü
+Ccom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java[ \(	2™
+Ncom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ b(	2û
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentADECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaW W(%2û
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentBDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaX X(2û
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentCDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaY Y(%2k
+java.io.SerializableEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaUA U(M2e
+StandardObjectEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaU' U(5¿
+Ccom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent()CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java[ [(*Parent2ñ
+:com.thoughtworks.acceptance.CustomSerializationTest.ParentRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java[ [(Ù
+
+Ncom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(*Parent2∞
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(!2∞
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^# ^(.2∞
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^0 ^(;2≠
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int, int, int)!parentACALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java_ _("2≠
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int, int, int)!parentBCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java` `("2≠
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int, int, int)!parentCCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaa a("2ñ
+:com.thoughtworks.acceptance.CustomSerializationTest.ParentRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(ì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(!*parentA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^ ^(ì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^' ^(.*parentB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^# ^(&ì
+Vcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^4 ^(;*parentC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java^0 ^(3ˇ
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(ObjectInputStream)METHODK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad d("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2µ
+[com.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad  d(42x
+#java.io.ObjectInputStream.readInt()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javae e("2Ç
+-java.io.ObjectInputStream.defaultReadObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaf f("2x
+#java.io.ObjectInputStream.readInt()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javag g("2ó
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentACALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javae e(2∏
+ccom.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javae e(2∏
+ccom.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaf f(2ó
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentCCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javag g(2∏
+ccom.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(java.io.ObjectInputStream)!inCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javag g(2`
+voidRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad= d(Hö
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(ObjectOutputStream)METHODK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj j( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2∏
+^com.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj! j(72}
+(java.io.ObjectOutputStream.writeInt(int)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javak k(!2Ñ
+/java.io.ObjectOutputStream.defaultWriteObject()CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javal l($2}
+(java.io.ObjectOutputStream.writeInt(int)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javam m(!2ª
+fcom.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javak k(2ó
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentACALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javak k( 2ª
+fcom.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javal l(2ª
+fcom.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(java.io.ObjectOutputStream)!outCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javam m(2ó
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentCCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javam m( 2`
+voidRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj@ j(K©
+[com.thoughtworks.acceptance.CustomSerializationTest.Parent.readObject(ObjectInputStream)!in	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad2 d(4*in2n
+java.io.ObjectInputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javad  d(1Æ
+^com.thoughtworks.acceptance.CustomSerializationTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj4 j(7*out2o
+java.io.ObjectOutputStreamTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaj! j(3å
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentAVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaW W(%"
+type int*parentA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaW W(å
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentBVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaX X("
+type int*parentB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaX X(å
+Bcom.thoughtworks.acceptance.CustomSerializationTest.Parent?parentCVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaY Y(%"
+type int*parentC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaY Y(Ê
+9com.thoughtworks.acceptance.CustomSerializationTest.ChildCLASSK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaq q("
+inner classfalse*Child2µ
+Wcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Ö(	2∑
+Ycom.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá ã(	2ù
+Acom.thoughtworks.acceptance.CustomSerializationTest.Child.Child()DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaw x(	2¥
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)DECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz (	2ú
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childADECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javas s($2ú
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childBDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javat t(2ú
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childCDECLARATIONK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javau u($2ë
+:com.thoughtworks.acceptance.CustomSerializationTest.ParentEXTENDK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaq& q(,º
+Acom.thoughtworks.acceptance.CustomSerializationTest.Child.Child()CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaw w(*Child2ï
+9com.thoughtworks.acceptance.CustomSerializationTest.ChildRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaw w(—
+Xcom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)CONSTRUCTORK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z(*Child2∫
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z( 2∫
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz" z(-2∫
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz/ z(:2π
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz< z(F2π
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazH z(R2π
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazT z(^2•
+Pcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int, int, int)CALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java{ {(-2∫
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!parentACALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java{ {(2∫
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!parentBCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java{ {("2∫
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!parentCCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java{$ {(+2π
+dcom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!childACALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java| |( 2π
+dcom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!childBCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java} }( 2π
+dcom.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int, int, int, int, int, int)!childCCALLK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java~ ~( 2ï
+9com.thoughtworks.acceptance.CustomSerializationTest.ChildRETURN_TYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z(ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z( *parentA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz z(ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz& z(-*parentB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz" z(%ù
+`com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!parentC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz3 z(:*parentC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz/ z(2õ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childA	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz@ z(F*childA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaz< z(?õ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childB	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazL z(R*childB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazH z(Kõ
+_com.thoughtworks.acceptance.CustomSerializationTest.Child.Child(int,int,int,int,int,int)!childC	PARAMETERK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazX z(^*childC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javazT z(Wå
+Wcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(ObjectInputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Å("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2∂
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ  Å(42z
+#java.io.ObjectInputStream.readInt()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÇ Ç(!2Ñ
+-java.io.ObjectInputStream.defaultReadObject()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÉ É("2z
+#java.io.ObjectInputStream.readInt()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ Ñ(!2ó
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childACALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÇ Ç(2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÇ Ç(2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÉ É(2ó
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childCCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ Ñ(2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ Ñ(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ= Å(Hß
+Ycom.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(ObjectOutputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá á( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2π
+]com.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá! á(72
+(java.io.ObjectOutputStream.writeInt(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à( 2Ü
+/java.io.ObjectOutputStream.defaultWriteObject()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaâ â($2
+(java.io.ObjectOutputStream.writeInt(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaä ä( 2º
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(2ó
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childACALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(2º
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaâ â(2º
+ecom.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaä ä(2ó
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childCCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaä ä(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá@ á(K¨
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ2 Å(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ  Å(1±
+]com.thoughtworks.acceptance.CustomSerializationTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá4 á(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá! á(3â
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childAVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javas s($"
+type int*childA2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javas s(â
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childBVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javat t("
+type int*childB2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javat t(â
+@com.thoughtworks.acceptance.CustomSerializationTest.Child?childCVARIABLEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javau u($"
+type int*childC2X
+intTYPEK
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javau u(õ
+:com.thoughtworks.acceptance.CustomSerializationTest.Child2CLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java® ®("
+inner classfalse*Child22∞
+Rcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ Ø(	2ü
+Acom.thoughtworks.acceptance.CustomSerializationTest.Child2?childADECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java™ ™(2ì
+:com.thoughtworks.acceptance.CustomSerializationTest.ParentEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java®' ®(-ª
+Rcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)CONSTRUCTORM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(*Child22∂
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(!2∂
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentB	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨# ¨(.2∂
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentC	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨0 ¨(;2µ
+Ycom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!childA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨= ¨(G2ß
+Pcom.thoughtworks.acceptance.CustomSerializationTest.Parent.Parent(int, int, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≠ ≠(-2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)!parentACALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≠ ≠(2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)!parentBCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≠ ≠("2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)!parentCCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≠$ ≠(+2≥
+\com.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int, int, int, int)!childACALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÆ Æ( 2ò
+:com.thoughtworks.acceptance.CustomSerializationTest.Child2RETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(õ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(!*parentA2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨ ¨(õ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentB	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨' ¨(.*parentB2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨# ¨(&õ
+Zcom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!parentC	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨4 ¨(;*parentC2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨0 ¨(3ô
+Ycom.thoughtworks.acceptance.CustomSerializationTest.Child2.Child2(int,int,int,int)!childA	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨A ¨(G*childA2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¨= ¨(@é
+Acom.thoughtworks.acceptance.CustomSerializationTest.Child2?childAVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java™ ™("
+type int*childA2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java™ ™(¿
+:com.thoughtworks.acceptance.CustomSerializationTest.MyDateCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À("
+inner classfalse*MyDate2§
+Fcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Œ(	2g
+java.util.DateEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ  À(.à
+Fcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)CONSTRUCTORM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(*MyDate2ß
+Kcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)!time	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(2p
+java.util.Date.Date(long)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÕ Õ(2¢
+Kcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)!timeCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÕ Õ(2ò
+:com.thoughtworks.acceptance.CustomSerializationTest.MyDateRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(â
+Kcom.thoughtworks.acceptance.CustomSerializationTest.MyDate.MyDate(int)!time	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(*time2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(∞
+?com.thoughtworks.acceptance.CustomSerializationTest.MyHashtableCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java— —("
+inner classfalse*MyHashtable2¨
+Ncom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(Object)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ⁄(	2±
+Scom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(String)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ÷(	2¢
+Dcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable?nameDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java“ “(2l
+java.util.HashtableEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java—% —(8—
+Scom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(String)CONSTRUCTORM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(*MyHashtable2¥
+Xcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(String)!name	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(&2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(java.lang.String)!nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java’ ’(2ù
+?com.thoughtworks.acceptance.CustomSerializationTest.MyHashtableRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(£
+Xcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.MyHashtable(String)!name	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘" ‘(&*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java‘ ‘(!¢
+
+Ncom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(Object)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ$ ÿ(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2¨
+Pcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(Object)!o	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ+ ÿ(32É
+,java.util.Hashtable.equals(java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaŸ Ÿ("2Ä
+)java.lang.String.equals(java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaŸ& Ÿ(H2±
+Zcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(java.lang.Object)!oCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaŸ  Ÿ(!2±
+Zcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(java.lang.Object)!oCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaŸ4 Ÿ(52õ
+Dcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaŸC Ÿ(G2e
+booleanRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ ÿ(#ò
+Pcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable.equals(Object)!o	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ2 ÿ(3*o2g
+java.lang.ObjectTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÿ+ ÿ(1ü
+Dcom.thoughtworks.acceptance.CustomSerializationTest.MyHashtable?nameVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java“ “("
+type String*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java“ “(¯
+Icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFieldsCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÈ È(-"
+inner classfalse*ObjectWithNamedFields2«
+icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘ Ç(	2≈
+gcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ å(	2¨
+Ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nameDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÎ Î(2Æ
+Pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?numberDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÏ Ï(2¥
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?someSoftwareDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÌ Ì(%2≥
+Ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?polymorphicDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ó("2Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nothingDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ Ô(2æ
+`com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?serialPersistentFieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ1 ˜(	2m
+java.io.SerializableEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÈP È(\2g
+StandardObjectEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÈ6 È(Dù
+icom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘ ˘( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2…
+mcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘! ˘(72Œ
+pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)?fieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚( ˚(@2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(@2¢
+Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸ ¸('2ï
+>java.io.ObjectOutputStream.PutField.put(java.lang.String, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ ˝(+2¢
+Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˇ ˇ(52¢
+Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÄ Ä(-2
+(java.io.ObjectOutputStream.writeFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Å(2Ã
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(42•
+Ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸" ¸(&2ß
+Pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?numberCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝$ ˝(*2≠
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?someSoftwareCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˛& ˛(22¨
+Ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?polymorphicCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˇ) ˇ(42®
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nothingCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÄ% Ä(,2Ã
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Å(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘@ ˘(K‚
+gcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ Ñ("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2∆
+jcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ  Ñ(42Ã
+ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)?fieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ' Ü(?2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(?2°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá á(<2î
+=java.io.ObjectInputStream.GetField.get(java.lang.String, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(02°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaâ& â(E2°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaä ä(<2°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaã ã(42…
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(22•
+Ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaá á(2ß
+Pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?numberCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaà à(2≠
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?someSoftwareCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaâ â(2¨
+Ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?polymorphicCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaä ä(2®
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nothingCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaã ã(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ= Ñ(H¡
+mcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘4 ˘(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘! ˘(3º
+jcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ2 Ñ(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÑ  Ñ(1√
+pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(ObjectOutputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚( ˚(."$
+type ObjectOutputStream.PutField*fields2z
+#java.io.ObjectOutputStream.PutFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚ ˚('2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(@2Ã
+ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˚1 ˚(4º
+ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ' Ü(-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ Ü(&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(?2…
+rcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÜ0 Ü(2©
+Ncom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nameVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÎ Î("
+type String*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÎ Î(ù
+Pcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?numberVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÏ Ï("
+type int*number2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÏ Ï(≥
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?someSoftwareVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÌ Ì(%"
+type Software*someSoftware2_
+SoftwareTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÌ Ì(∑
+Ucom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?polymorphicVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ó(""
+type Object*polymorphic2g
+java.lang.ObjectTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ó(Ø
+Qcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?nothingVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ Ô("
+type Object*nothing2g
+java.lang.ObjectTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ Ô(Ú
+`com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedFields?serialPersistentFieldsVALUEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ1 Ò(G"
+type ObjectStreamField[]*serialPersistentFields2r
+java.io.ObjectStreamField[]TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ Ò(02¡
+jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÚ Ú(:2¡
+jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÛ Û(92¡
+jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaı ı(A2¡
+jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaˆ ˆ(=Ω
+
+Ccom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFieldsCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ Ò('"
+inner classfalse*NoDefaultFields2ø
+acom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸ ˇ(	2¡
+ccom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Ñ(	2≥
+Ucom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields()DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaı ˆ(	2∂
+Xcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ˙(	2´
+Mcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields?somethingDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÛ Û('2m
+java.io.SerializableEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒJ Ò(V2g
+StandardObjectEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ0 Ò(>Ë
+Ucom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields()CONSTRUCTORM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaı ı(*NoDefaultFields2°
+Ccom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFieldsRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaı ı(Ë
+Xcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)CONSTRUCTORM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ¯(*NoDefaultFields2æ
+bcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)!something	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ¯(,2π
+bcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)!somethingCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˘ ˘(&2°
+Ccom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFieldsRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ¯(•
+bcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.NoDefaultFields(int)!something	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯# ¯(,*	something2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¯ ¯("Ô
+
+acom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(ObjectInputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸ ¸("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2¿
+dcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸  ¸(42Ñ
+-java.io.ObjectInputStream.defaultReadObject()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ ˝("2z
+#java.io.ObjectInputStream.readInt()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˛ ˛($2√
+lcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˝ ˝(2§
+Mcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields?somethingCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˛ ˛(2√
+lcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java˛ ˛(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸= ¸(HÇ
+ccom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(ObjectOutputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ Å( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2√
+gcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ! Å(72Ü
+/java.io.ObjectOutputStream.defaultWriteObject()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÇ Ç($2
+(java.io.ObjectOutputStream.writeInt(int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÉ É(#2∆
+ocom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÇ Ç(2∆
+ocom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÉ É(2§
+Mcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields?somethingCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÉ É("2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ@ Å(K∂
+dcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸2 ¸(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¸  ¸(1ª
+gcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ4 Å(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÅ! Å(3ù
+Mcom.thoughtworks.acceptance.CustomSerializationTest.NoDefaultFields?somethingVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÛ Û('"
+type int*	something2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÛ Û(Ê	
+Vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFieldsCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaΩ Ω(:"
+inner classfalse*"ObjectWithNamedThatMatchRealFields2‘
+vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬ «(	2“
+tcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java… Õ(	2π
+[com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?nameDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaø ø(2ª
+]com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?numberDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¿ ¿(2m
+java.io.SerializableEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaΩ] Ω(i2g
+StandardObjectEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaΩC Ω(Qù
+vcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬ ¬( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2÷
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬! ¬(72€
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)?fieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√( √(@2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(@2¢
+Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ(22u
+java.lang.String.toUpperCase()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ(12ï
+>java.io.ObjectOutputStream.PutField.put(java.lang.String, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≈ ≈(.2
+(java.io.ObjectOutputStream.writeFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∆ ∆(2⁄
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(42≤
+[com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaƒ ƒ(#2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?numberCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java≈! ≈('2⁄
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java∆ ∆(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬@ ¬(K±
+tcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java… …("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2”
+wcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…  …(42Ÿ
+{com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)?fieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java '  (?2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (?2u
+java.lang.String.toLowerCase()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(I2°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(:2î
+=java.io.ObjectInputStream.GetField.get(java.lang.String, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(02÷
+com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (22≤
+[com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÀ À(2¥
+]com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?numberCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÃ Ã(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…= …(HŒ
+zcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬4 ¬(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¬! ¬(3…
+wcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…2 …(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java…  …(1ﬁ
+}com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(ObjectOutputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√( √(."$
+type ObjectOutputStream.PutField*fields2z
+#java.io.ObjectOutputStream.PutFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√ √('2}
+&java.io.ObjectOutputStream.putFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(@2⁄
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java√1 √(4÷
+{com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java '  (-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java   (&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (?2÷
+com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java 0  (2∂
+[com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?nameVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaø ø("
+type String*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaø ø(™
+]com.thoughtworks.acceptance.CustomSerializationTest.ObjectWithNamedThatMatchRealFields?numberVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¿ ¿("
+type int*number2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java¿ ¿(∞
+
+bcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThemCLASSM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂ Â(F"
+inner classfalse*.ObjectThatReadsCustomFieldsButDoesNotWriteThem2·
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(ObjectOutputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ Ï(	2ﬂ
+Äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)DECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ú(	2≈
+gcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?nameDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÁ Á(2«
+icom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?numberDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaË Ë(2m
+java.io.SerializableEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂi Â(u2g
+StandardObjectEXTENDM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÂO Â(]Ò
+Çcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(ObjectOutputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ Í( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2„
+Ücom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ! Í(72Ü
+/java.io.ObjectOutputStream.defaultWriteObject()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÎ Î($2Ê
+écom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(java.io.ObjectOutputStream)!outCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÎ Î(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ@ Í(KÜ
+Äcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)METHODM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ Ó("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2‡
+Écom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ  Ó(42Ê
+ácom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)?fieldsDECLARATIONM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ' Ô(?2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(?2°
+Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (:2î
+=java.io.ObjectInputStream.GetField.get(java.lang.String, int)CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ Ò(02„
+ãcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(22æ
+gcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?nameCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.java (2¿
+icom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?numberCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÒ Ò(2b
+voidRETURN_TYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ= Ó(H€
+Ücom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.writeObject(ObjectOutputStream)!out	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ4 Í(7*out2q
+java.io.ObjectOutputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÍ! Í(3÷
+Écom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)!in	PARAMETERM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ2 Ó(4*in2p
+java.io.ObjectInputStreamTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÓ  Ó(1
+ácom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(ObjectInputStream)?fieldsVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ' Ô(-"#
+type ObjectInputStream.GetField*fields2y
+"java.io.ObjectInputStream.GetFieldTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ Ô(&2}
+&java.io.ObjectInputStream.readFields()CALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(?2„
+ãcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem.readObject(java.io.ObjectInputStream)!inCALLM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÔ0 Ô(2¬
+gcom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?nameVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÁ Á("
+type String*name2g
+java.lang.StringTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaÁ Á(∂
+icom.thoughtworks.acceptance.CustomSerializationTest.ObjectThatReadsCustomFieldsButDoesNotWriteThem?numberVARIABLEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaË Ë("
+type int*number2Z
+intTYPEM
+Asrc/test/com/thoughtworks/acceptance/CustomSerializationTest.javaË Ë(

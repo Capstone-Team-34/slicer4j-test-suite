@@ -1,0 +1,646 @@
+
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java»
+Icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderCLASSa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java* *('"
+inner classfalse*PureJavaReflectionProvider2Œ
+\com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)DECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7 V(2‡
+ncom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)DECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX z(2€
+icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.resolveClass(ObjectStreamClass)DECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javan q(2¯
+Ñcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)DECLARATIONb
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java| å(2‰
+pcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé ò(2ﬂ
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö ú(2ﬂ
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû °(2‹
+hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£ ¶(2ÿ
+dcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(Field)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java® ±(2‘
+`com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥ µ(2·
+mcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.setFieldDictionary(FieldDictionary)DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑ π(2À
+Wcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.readResolve()DECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaª æ(2ÿ
+fcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider()DECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java/ 1(2Á
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider(FieldDictionary)DECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java3 5(2œ
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java, ,(A2À
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java- -(-2
+ReflectionProviderEXTENDa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java*3 *(E≤
+fcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider()CONSTRUCTORa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java/ /("*PureJavaReflectionProvider2ª
+Icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderRETURN_TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java/ /("∫
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider(FieldDictionary)CONSTRUCTORa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java3 3("*PureJavaReflectionProvider2ˆ
+Öcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider(FieldDictionary)!fieldDictionary	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java3# 3(B2ª
+Icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderRETURN_TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java3 3("É
+Öcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.PureJavaReflectionProvider(FieldDictionary)!fieldDictionary	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java33 3(B*fieldDictionary2z
+FieldDictionaryTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java3# 3(2¿*
+\com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)METHODa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7 7("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*newInstance2—
+acom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)!type	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7 7(%2€
+icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?constructorsDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9 9(G2–
+^com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?iDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java: :(2⁄
+hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?constructorDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java;" ;(?2î
+)java.lang.Class.getDeclaredConstructors()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9) 9(G2ú
+1java.lang.reflect.Constructor.getParameterTypes()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java< <(32ú
+1java.lang.reflect.AccessibleObject.isAccessible()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java= =(32ü
+4java.lang.reflect.Constructor.setAccessible(boolean)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java> >(72©
+>java.lang.reflect.Constructor.newInstance(java.lang.Object...)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java@ @(A2∏
+Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaC C(92„
+xcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaD D(:2Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaFF F(T2Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaJB J(P2Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaLB L(P2´
+@java.lang.reflect.InvocationTargetException.getTargetException()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaN N(&2´
+@java.lang.reflect.InvocationTargetException.getTargetException()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaO( O(>2´
+@java.lang.reflect.InvocationTargetException.getTargetException()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaP P(-2´
+@java.lang.reflect.InvocationTargetException.getTargetException()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaQ Q(32Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaSE S(S2¨
+@java.lang.reflect.InvocationTargetException.getTargetException()CALLb
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaSm S(É2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9) 9(-2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaC4 C(82÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaD5 D(92÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaFF F(J2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaJB J(F2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaLB L(F2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaSE S(I2Ç
+java.lang.ObjectRETURN_TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7 7(ﬂ=
+ncom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)METHODa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX X(0"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*instantiateUsingSerialization2„
+scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)!type	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX1 X(A2Â
+scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?dataDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[ [(D2Ê
+tcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?bytesDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java]* ](M2Á
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?streamDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java^% ^(I2„
+qcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?inDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam" r(2é
+#java.util.Map.get(java.lang.Object)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[' [(D2ì
+(java.io.DataOutputStream.writeShort(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java_ _(I2ì
+(java.io.DataOutputStream.writeShort(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java` `(K2í
+'java.io.DataOutputStream.writeByte(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaa a(E2í
+'java.io.DataOutputStream.writeByte(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javab b(H2û
+3java.io.DataOutputStream.writeUTF(java.lang.String)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javac c(32Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javac$ c(22ì
+(java.io.DataOutputStream.writeLong(long)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javad d(Z2ö
+/java.io.ObjectStreamClass.getSerialVersionUID()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javad% d(Y2∏
+Mjava.io.ObjectStreamClass.lookup(java.lang.Class<? extends java.lang.Object>)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javad% d(C2í
+'java.io.DataOutputStream.writeByte(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javae e('2ì
+(java.io.DataOutputStream.writeShort(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaf f((2í
+'java.io.DataOutputStream.writeByte(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javag g(K2í
+'java.io.DataOutputStream.writeByte(int)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javah h(C2ñ
++java.io.ByteArrayOutputStream.toByteArray()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javai i(.2Ç
+java.util.Map.put(K, V)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaj j(72¥
+Ijava.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap p(Z2é
+#java.io.ObjectStreamClass.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap- p(;2ã
+ java.lang.Class.getClassLoader()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javapD p(Y2ë
+&java.io.ObjectInputStream.readObject()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javas s(&2Ñ
+java.lang.Class.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javav? v(M2ã
+ java.lang.Throwable.getMessage()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaxC x(Q2†
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java]2 ](M2™
+?java.io.DataOutputStream.DataOutputStream(java.io.OutputStream)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java^. ^(I2´
+@java.io.ObjectInputStream.ObjectInputStream(java.io.InputStream)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam' r(2§
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam= m([2»
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaZ Z(-2»
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[' [(:2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[? [(C2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javac$ c((2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javad> d(B2»
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaj j('2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaj, j(02ë
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.Anonymous-5f6d72c9-2237-4461-82a6-73de5ac05963.resolveClass(java.io.ObjectStreamClass)!descCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap- p(12Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javapD p(H2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javav? v(C2Ç
+java.lang.ObjectRETURN_TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX X(ì
+Ñcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)METHODa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java| |('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*visitSerializableFields2¸
+ãcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)!object	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|( |(52˝
+åcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)!visitor	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|7 |(Y2Ä
+çcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?iteratorDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java} }(M2˝
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?fieldDECLARATIONa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java~ ~(12ˇ
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?valueDECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÑ Ñ(02Ü
+java.lang.Object.getClass()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java}; }(L2á
+java.util.Iterator.hasNext()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java}O }(a2Ñ
+java.util.Iterator.next()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java~" ~(12Â
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(java.lang.reflect.Field)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java (/2„
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÇ Ç(&2ö
+-java.lang.reflect.Field.get(java.lang.Object)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÑ Ñ(02é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÖ Ö(-2é
+!java.lang.reflect.Field.getType()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÖ/ Ö(>2ò
++java.lang.reflect.Field.getDeclaringClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÖ@ Ö(Y2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaáI á(Y2é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaáb á(q2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaâI â(Y2é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaâb â(q2ƒ
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java}! }(02v
+voidRETURN_TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java| |(˝%
+pcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé é("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*
+writeField2È
+wcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!object	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé é((2Ï
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé* é(:2Ë
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!value	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé< é(H2Ï
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaéJ é(Y2Í
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)?fieldDECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè è(T2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè, è(=2„
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaê ê("2¨
+?java.lang.reflect.Field.set(java.lang.Object, java.lang.Object)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaí í($2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaîE î(V2é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaî_ î(n2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javañE ñ(V2é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javañ_ ñ(n2∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè è(%2ê
+¢com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè, è(22ì
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè? è(H2ì
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!definedInCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaèJ è(S2ê
+¢com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaí í(2è
+°com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!valueCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaí í(#2ê
+¢com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaîE î(K2ê
+¢com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javañE ñ(K2x
+voidRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé é(ÿ
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö ö("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Class*getFieldType2‰
+rcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!object	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö ö(+2Á
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö- ö(=2Á
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö? ö(N2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaõ% õ(62∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaõ õ(2Ä
+ícom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(java.lang.Object, java.lang.String, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaõ% õ(+2É
+ïcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(java.lang.Object, java.lang.String, java.lang.Class)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaõ8 õ(A2É
+ïcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(java.lang.Object, java.lang.String, java.lang.Class)!definedInCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaõC õ(L2É
+java.lang.ClassRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö ö(∆
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû û(&"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*fieldDefinedInClass2Á
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû' û(72‚
+pcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)!type	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû9 û(C2Â
+qcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)?fieldDECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü ü(H2Á
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(java.lang.reflect.Field)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java†! †(?2ò
++java.lang.reflect.Modifier.isTransient(int)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java†C †(m2ì
+&java.lang.reflect.Field.getModifiers()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java†X †(l2∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü ü(%2Û
+Öcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(java.lang.String, java.lang.Class)!typeCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü2 ü(62¯
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(java.lang.String, java.lang.Class)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü8 ü(A2{
+booleanRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû û(ƒ
+hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£ £(-"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type boolean*fieldModifiersSupported2‡
+ncom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)!field	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£. £(92Ê
+rcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)?modifiersDECLARATIONc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(,2ì
+&java.lang.reflect.Field.getModifiers()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(,2ï
+(java.lang.reflect.Modifier.isStatic(int)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java• •(-2ò
++java.lang.reflect.Modifier.isTransient(int)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java•1 •(P2Ó
+Äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(2{
+booleanRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£ £(ø
+dcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(Field)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java® ®(&"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*validateFieldAccess2‹
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(Field)!field	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java®' ®(22î
+'java.lang.reflect.Modifier.isFinal(int)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java© ©(22ì
+&java.lang.reflect.Field.getModifiers()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java© ©(12õ
+.java.lang.reflect.Field.setAccessible(boolean)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java´ ´()2Ü
+java.lang.Class.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÆ Æ(=2ò
++java.lang.reflect.Field.getDeclaringClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÆ Æ(32é
+!java.lang.reflect.Field.getName()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÆF Æ(U2È
+|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java© ©("2È
+|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java´ ´(2È
+|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÆ Æ(2È
+|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÆF Æ(K2x
+voidRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java® ®(ò
+`com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥ ≥("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Field*getField2‹
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥ ≥()2‹
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥+ ≥(;2∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java¥ ¥(2Ï
+com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(java.lang.Class, java.lang.String)!definedInCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java¥% ¥(.2Ï
+com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(java.lang.Class, java.lang.String)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java¥0 ¥(92ã
+java.lang.reflect.FieldRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥ ≥(¢
+mcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.setFieldDictionary(FieldDictionary)METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑ ∑(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*setFieldDictionary2Í
+xcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.setFieldDictionary(FieldDictionary)!dictionary	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑# ∑(=2x
+voidRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑ ∑(ä
+Wcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.readResolve()METHODc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaª ª( "
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*readResolve2ê
+#java.util.WeakHashMap.WeakHashMap()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaº º(/2 
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaº º(2Ñ
+java.lang.ObjectRETURN_TYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaª ª(”
+acom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)!type	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7! 7(%*type2z
+java.lang.ClassTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java7 7( Â
+scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)!type	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX= X(A*type2z
+java.lang.ClassTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaX7 X(<Å
+ãcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)!object	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|/ |(5*object2{
+java.lang.ObjectTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|( |(.é
+åcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)!visitor	PARAMETERa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|R |(Y*visitor2Ö
+ReflectionProvider.VisitorTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java|7 |(Q
+wcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!object	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé" é((*object2}
+java.lang.ObjectTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé é(!ˆ
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé1 é(:*	fieldName2}
+java.lang.StringTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé* é(0Ó
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!value	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaéC é(H*value2}
+java.lang.ObjectTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaé< é(Bı
+zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaéP é(Y*	definedIn2|
+java.lang.ClassTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaéJ é(OÎ
+rcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!object	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö% ö(+*object2}
+java.lang.ObjectTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö ö($Ò
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö4 ö(=*	fieldName2}
+java.lang.StringTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö- ö(3
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getFieldType(Object,String,Class)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaöE ö(N*	definedIn2|
+java.lang.ClassTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaö? ö(DÒ
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû. û(7*	fieldName2}
+java.lang.StringTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû' û(-Ê
+pcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)!type	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû? û(C*type2|
+java.lang.ClassTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaû9 û(>Ó
+ncom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)!field	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£4 £(9*field2Ñ
+java.lang.reflect.FieldTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java£. £(3Í
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.validateFieldAccess(Field)!field	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java®- ®(2*field2Ñ
+java.lang.reflect.FieldTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java®' ®(,Â
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)!definedIn	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥  ≥()*	definedIn2|
+java.lang.ClassTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥ ≥(Ê
+jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(Class,String)!fieldName	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥2 ≥(;*	fieldName2}
+java.lang.StringTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java≥+ ≥(1Ù
+xcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.setFieldDictionary(FieldDictionary)!dictionary	PARAMETERc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑3 ∑(=*
+dictionary2|
+FieldDictionaryTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java∑# ∑(2˚
+icom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?constructorsVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9 9(&"
+type Constructor[]*constructors2ä
+java.lang.reflect.Constructor[]TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9 9(2î
+)java.lang.Class.getDeclaredConstructors()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9) 9(G2÷
+kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java9) 9(-Œ
+^com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?iVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java: :("
+type int*i2n
+intTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java: :(Ç
+hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.newInstance(Class)?constructorVALUEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java;" ;(-"
+type Constructor*constructor2à
+java.lang.reflect.ConstructorTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java; ;(!≥
+scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?dataVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[ [("
+type byte[]*data2q
+byte[]TYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[ [(2é
+#java.util.Map.get(java.lang.Object)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[' [(D2»
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[' [(:2Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java[? [(C∏
+tcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?bytesVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java]* ](/"
+type ByteArrayOutputStream*bytes2à
+java.io.ByteArrayOutputStreamTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java] ]()2†
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java]2 ](M∫
+ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?streamVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java^% ^(+"
+type DataOutputStream*stream2É
+java.io.DataOutputStreamTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java^ ^($2™
+?java.io.DataOutputStream.DataOutputStream(java.io.OutputStream)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java^. ^(I±
+qcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(Class)?inVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam" m($"
+type ObjectInputStream*in2Ñ
+java.io.ObjectInputStreamTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam m(!2¥
+Ijava.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap p(Z2é
+#java.io.ObjectStreamClass.getName()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap- p(;2ã
+ java.lang.Class.getClassLoader()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javapD p(Y2´
+@java.io.ObjectInputStream.ObjectInputStream(java.io.InputStream)CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam' r(2§
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javam= m([2ë
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.Anonymous-72e15b78-5314-4a1a-aad7-ad72e9d6dde9.resolveClass(java.io.ObjectStreamClass)!descCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javap- p(12Ë
+}com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.instantiateUsingSerialization(java.lang.Class)!typeCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javapD p(HÈ
+çcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?iteratorVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java} }("
+type Iterator*iterator2}
+java.util.IteratorTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java} }(2Ü
+java.lang.Object.getClass()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java}; }(L2ƒ
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java}! }(0ù
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?fieldVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java~ ~("
+type Field*field2Ç
+java.lang.reflect.FieldTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java~ ~(2Ñ
+java.util.Iterator.next()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java~" ~(1∞
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.visitSerializableFields(Object,ReflectionProvider.Visitor)?valueVARIABLEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÑ Ñ("
+type Object*value2}
+java.lang.ObjectTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÑ Ñ(2ö
+-java.lang.reflect.Field.get(java.lang.Object)CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaÑ Ñ(0ò
+vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(Object,String,Object,Class)?fieldVARIABLEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè è("
+type Field*field2Ñ
+java.lang.reflect.FieldTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè è(2à
+java.lang.Object.getClass()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè, è(=2∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè è(%2ê
+¢com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!objectCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè, è(22ì
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaè? è(H2ì
+•com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.writeField(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class)!definedInCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaèJ è(S∫
+qcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(String,Class)?fieldVARIABLEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü ü("
+type Field*field2Ñ
+java.lang.reflect.FieldTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü ü(2∆
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü ü(%2Û
+Öcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(java.lang.String, java.lang.Class)!typeCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü2 ü(62¯
+äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(java.lang.String, java.lang.Class)!fieldNameCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.javaü8 ü(Aı
+rcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(Field)?modifiersVARIABLEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §("
+type int*	modifiers2p
+intTYPEc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(2ì
+&java.lang.reflect.Field.getModifiers()CALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(,2Ó
+Äcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldModifiersSupported(java.lang.reflect.Field)!fieldCALLc
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java§ §(˙
+]com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?serializedDataCacheVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java, ,(-"
+type Map*serializedDataCache2x
+java.util.MapTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java, ,(2é
+#java.util.WeakHashMap.WeakHashMap()CALLa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java,0 ,(AÔ
+Ycom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider?fieldDictionaryVARIABLEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java- -(-"
+type FieldDictionary*fieldDictionary2z
+FieldDictionaryTYPEa
+Wsrc/java/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java- -(

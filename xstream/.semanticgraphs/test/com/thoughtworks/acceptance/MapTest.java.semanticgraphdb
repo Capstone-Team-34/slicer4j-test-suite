@@ -1,0 +1,439 @@
+
+1src/test/com/thoughtworks/acceptance/MapTest.java◊
+#com.thoughtworks.acceptance.MapTestCLASS;
+1src/test/com/thoughtworks/acceptance/MapTest.java ("
+inner classfalse*MapTest2è
+Ccom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java .(2ê
+Dcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java0 F(2ê
+Dcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaL ](2ã
+?com.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java_ m(2¢
+Ucom.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()DECLARATION<
+1src/test/com/thoughtworks/acceptance/MapTest.javav Ü(2î
+Fcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaà ¢(2ù
+Ocom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java§ ∑(2ë
+Ccom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaΩ √(2á
+9com.thoughtworks.acceptance.MapTest.testSynchronizedMap()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java≈ ⁄(2á
+9com.thoughtworks.acceptance.MapTest.testUnmodifiableMap()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java‹ „(2Ä
+2com.thoughtworks.acceptance.MapTest.testEmptyMap()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÂ Á(2ã
+=com.thoughtworks.acceptance.MapTest.testEmptyMapIsImmutable()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÈ Ú(2ã
+=com.thoughtworks.acceptance.MapTest.testEmptyMapIsSingleton()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÙ ˆ(2Ñ
+6com.thoughtworks.acceptance.MapTest.testSingletonMap()DECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java¯ à(2]
+AbstractAcceptanceTestEXTEND;
+1src/test/com/thoughtworks/acceptance/MapTest.java (3ï
+Ccom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()METHOD;
+1src/test/com/thoughtworks/acceptance/MapTest.java (-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMapCanContainBasicObjects2ì
+Gcom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()?mapDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java (2ò
+Lcom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()?expectedDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java! +(2\
+java.util.Map.put(K, V)CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java ( 2\
+java.util.Map.put(K, V)CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java ( 2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java (2P
+voidRETURN_TYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java (›
+Dcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()METHOD;
+1src/test/com/thoughtworks/acceptance/MapTest.java0 0(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMapCanContainCustomObjects2î
+Hcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()?mapDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java1 1(2ô
+Mcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()?expectedDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.java7 C(2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java1 1(2P
+voidRETURN_TYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java0 0(ﬁ
+Dcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()METHOD;
+1src/test/com/thoughtworks/acceptance/MapTest.javaL L(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testObjectCanContainMapAsField2í
+Fcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()?tDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaM M(+2ô
+Mcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()?expectedDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaR Z(#2\
+java.util.Map.put(K, V)CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaN N( 2Ñ
+?com.thoughtworks.acceptance.MapTest.ThingWithMap.ThingWithMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaM M(+2P
+voidRETURN_TYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaL L(∑
+?com.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()METHOD;
+1src/test/com/thoughtworks/acceptance/MapTest.java_ _()"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSupportsOldHashtables2ï
+Icom.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()?hashtableDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaa a(-2î
+Hcom.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()?expectedDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javad j(2b
+java.util.Hashtable.put(K, V)CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javab b('2d
+java.util.Hashtable.Hashtable()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaa a(-2P
+voidRETURN_TYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java_ _(Î
+Ucom.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()METHOD;
+1src/test/com/thoughtworks/acceptance/MapTest.javav v(?"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*/testObjectCanContainDifferentMapImplementations2ß
+[com.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()?thingDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaz& z(Q2´
+^com.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()?expectedDECLARATION<
+1src/test/com/thoughtworks/acceptance/MapTest.java| Ç(2¶
+acom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps.ThingWithDifferentTypesOfMaps()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaz. z(Q2P
+voidRETURN_TYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javav v(˛
+
+Fcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.javaà à(0"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void* testLinkedHashMapRetainsOrdering2ò
+Jcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?mapDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaâ â(%2õ
+Mcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?resultDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaé ú(%2ô
+Kcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?keysDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û(12^
+java.util.Map.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaä ä(2^
+java.util.Map.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaã ã(2^
+java.util.Map.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaå å(2^
+java.util.Set.toArray()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û(12g
+ java.util.LinkedHashMap.keySet()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û('2n
+'java.util.LinkedHashMap.LinkedHashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaâ â(%2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaà à(”
+Ocom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.java§ §(9"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*)testAllowsEntryToBeAliasedToSomethingElse2°
+Scom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()?mapDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java• •(2¶
+Xcom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()?expectedDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java© ≥(2^
+java.util.Map.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.java¶ ¶( 2^
+java.util.Map.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaß ß( 2b
+java.util.HashMap.HashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.java• •(2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java§ §(˘
+Ccom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.javaΩ Ω(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSubclassesOfMapAreHandled2ó
+Icom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?myMapDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaæ æ(!2ï
+Gcom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?xmlDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java¿ ¿()2ú
+Ncom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?myOtherMapDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java¡ ¡(72b
+java.util.HashMap.put(K, V)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaø ø(!2x
+1com.thoughtworks.acceptance.MapTest.MyMap.MyMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaæ æ(!2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaΩ Ω(±
+9com.thoughtworks.acceptance.MapTest.testSynchronizedMap()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.java≈ ≈(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSynchronizedMap2ê
+Bcom.thoughtworks.acceptance.MapTest.testSynchronizedMap()?expectedDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java∆ ∆(2Å
+:java.util.Collections.synchronizedMap(java.util.Map<K, V>)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaŸ Ÿ(A2b
+java.util.HashMap.HashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaŸ3 Ÿ(@2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java≈ ≈(≈
+9com.thoughtworks.acceptance.MapTest.testUnmodifiableMap()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.java‹ ‹(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testUnmodifiableMap2ê
+Bcom.thoughtworks.acceptance.MapTest.testUnmodifiableMap()?expectedDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java› ‡(72ï
+Njava.util.Collections.unmodifiableMap(java.util.Map<? extends K, ? extends V>)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.java‚ ‚(A2b
+java.util.HashMap.HashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.java‚3 ‚(@2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java‹ ‹(®
+2com.thoughtworks.acceptance.MapTest.testEmptyMap()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÂ Â("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEmptyMap2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÂ Â(ı
+=com.thoughtworks.acceptance.MapTest.testEmptyMapIsImmutable()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÈ È('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEmptyMapIsImmutable2ê
+Bcom.thoughtworks.acceptance.MapTest.testEmptyMapIsImmutable()?listDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÍ Í(#2\
+java.util.List.add(E)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÎ Î('2\
+java.util.List.add(E)CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÏ Ï('2f
+java.util.ArrayList.ArrayList()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÍ Í(#2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÈ È(æ
+=com.thoughtworks.acceptance.MapTest.testEmptyMapIsSingleton()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÙ Ù('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEmptyMapIsSingleton2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÙ Ù(¿
+6com.thoughtworks.acceptance.MapTest.testSingletonMap()METHOD=
+1src/test/com/thoughtworks/acceptance/MapTest.java¯ ¯( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSingletonMap2ç
+?com.thoughtworks.acceptance.MapTest.testSingletonMap()?expectedDECLARATION=
+1src/test/com/thoughtworks/acceptance/MapTest.java˘ Ö(2R
+voidRETURN_TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java¯ ¯(Ÿ
+Gcom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()?mapVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.java ("
+type Map*map2R
+java.util.MapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java (2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java (á
+Lcom.thoughtworks.acceptance.MapTest.testMapCanContainBasicObjects()?expectedVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.java! !("
+type String*expected2U
+java.lang.StringTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java! !(⁄
+Hcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()?mapVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.java1 1("
+type Map*map2R
+java.util.MapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java1 1(2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.java1 1(à
+Mcom.thoughtworks.acceptance.MapTest.testMapCanContainCustomObjects()?expectedVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.java7 7("
+type String*expected2U
+java.lang.StringTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java7 7(ß
+Fcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()?tVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaM M("
+type ThingWithMap*t2u
+0com.thoughtworks.acceptance.MapTest.ThingWithMapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaM M(2Ñ
+?com.thoughtworks.acceptance.MapTest.ThingWithMap.ThingWithMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaM M(+à
+Mcom.thoughtworks.acceptance.MapTest.testObjectCanContainMapAsField()?expectedVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaR R("
+type String*expected2U
+java.lang.StringTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaR R(Ò
+Icom.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()?hashtableVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaa a("
+type 	Hashtable*	hashtable2X
+java.util.HashtableTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaa a(2d
+java.util.Hashtable.Hashtable()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaa a(-É
+Hcom.thoughtworks.acceptance.MapTest.testSupportsOldHashtables()?expectedVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javad d("
+type String*expected2U
+java.lang.StringTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javad d(Ö
+[com.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()?thingVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaz& z(+"&
+type ThingWithDifferentTypesOfMaps*thing2Ü
+Acom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMapsTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaz z(%2¶
+acom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps.ThingWithDifferentTypesOfMaps()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaz. z(Qô
+^com.thoughtworks.acceptance.MapTest.testObjectCanContainDifferentMapImplementations()?expectedVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.java| |("
+type String*expected2U
+java.lang.StringTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.java| |(Ó
+Jcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?mapVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaâ â("
+type Map*map2T
+java.util.MapTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaâ â(2n
+'java.util.LinkedHashMap.LinkedHashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaâ â(%ò
+Mcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?resultVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaé é("
+type LinkedHashMap*result2^
+java.util.LinkedHashMapTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaé é(”
+Kcom.thoughtworks.acceptance.MapTest.testLinkedHashMapRetainsOrdering()?keysVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û("
+type Object[]*keys2Y
+java.lang.Object[]TYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û(2^
+java.util.Set.toArray()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û(12g
+ java.util.LinkedHashMap.keySet()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaû û('Î
+Scom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()?mapVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java• •("
+type Map*map2T
+java.util.MapTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java• •(2b
+java.util.HashMap.HashMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.java• •(ó
+Xcom.thoughtworks.acceptance.MapTest.testAllowsEntryToBeAliasedToSomethingElse()?expectedVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java© ©("
+type String*expected2W
+java.lang.StringTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java© ©(ó
+Icom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?myMapVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaæ æ("
+type MyMap*myMap2p
+)com.thoughtworks.acceptance.MapTest.MyMapTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaæ æ(2x
+1com.thoughtworks.acceptance.MapTest.MyMap.MyMap()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaæ æ(!Å
+Gcom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?xmlVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java¿ ¿("
+type String*xml2W
+java.lang.StringTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java¿ ¿(ß
+Ncom.thoughtworks.acceptance.MapTest.testSubclassesOfMapAreHandled()?myOtherMapVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java¡ ¡("
+type MyMap*
+myOtherMap2p
+)com.thoughtworks.acceptance.MapTest.MyMapTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java¡ ¡(˛
+Bcom.thoughtworks.acceptance.MapTest.testSynchronizedMap()?expectedVALUE=
+1src/test/com/thoughtworks/acceptance/MapTest.java∆ ∆("
+type String*expected2W
+java.lang.StringTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java∆ ∆(Å
+Bcom.thoughtworks.acceptance.MapTest.testUnmodifiableMap()?expectedVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java› ›("
+type String*expected2W
+java.lang.StringTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java› ›(·
+Bcom.thoughtworks.acceptance.MapTest.testEmptyMapIsImmutable()?listVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÍ Í("
+type List*list2U
+java.util.ListTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÍ Í(2f
+java.util.ArrayList.ArrayList()CALL=
+1src/test/com/thoughtworks/acceptance/MapTest.javaÍ Í(#˛
+?com.thoughtworks.acceptance.MapTest.testSingletonMap()?expectedVARIABLE=
+1src/test/com/thoughtworks/acceptance/MapTest.java˘ ˘("
+type String*expected2W
+java.lang.StringTYPE=
+1src/test/com/thoughtworks/acceptance/MapTest.java˘ ˘(ˆ
+0com.thoughtworks.acceptance.MapTest.ThingWithMapCLASS;
+1src/test/com/thoughtworks/acceptance/MapTest.javaH H("
+inner classfalse*ThingWithMap2Ç
+6com.thoughtworks.acceptance.MapTest.ThingWithMap?stuffDECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaI I(!2U
+StandardObjectEXTEND;
+1src/test/com/thoughtworks/acceptance/MapTest.javaH& H(4 
+6com.thoughtworks.acceptance.MapTest.ThingWithMap?stuffVARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaI I("
+type Map*stuff2R
+java.util.MapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaI I(2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaI I(!ﬂ
+Acom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMapsCLASS;
+1src/test/com/thoughtworks/acceptance/MapTest.javao o(."
+inner classfalse*ThingWithDifferentTypesOfMaps2ê
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m1DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javap p(&2ê
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m2DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javaq q((2ê
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m3DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javar r(*2ê
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m4DECLARATION;
+1src/test/com/thoughtworks/acceptance/MapTest.javas s(.2U
+StandardObjectEXTEND;
+1src/test/com/thoughtworks/acceptance/MapTest.javao7 o(E’
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m1VARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javap p("
+type Map*m12R
+java.util.MapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javap p(2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javap p(&Ÿ
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m2VARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaq q("
+type Map*m22R
+java.util.MapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javaq q(2d
+java.util.Hashtable.Hashtable()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javaq q((›
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m3VARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javar r("
+type HashMap*m32V
+java.util.HashMapTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javar r(2`
+java.util.HashMap.HashMap()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javar r(*Â
+Dcom.thoughtworks.acceptance.MapTest.ThingWithDifferentTypesOfMaps?m4VARIABLE;
+1src/test/com/thoughtworks/acceptance/MapTest.javas s("
+type 	Hashtable*m42X
+java.util.HashtableTYPE;
+1src/test/com/thoughtworks/acceptance/MapTest.javas s(2d
+java.util.Hashtable.Hashtable()CALL;
+1src/test/com/thoughtworks/acceptance/MapTest.javas s(.Í
+)com.thoughtworks.acceptance.MapTest.MyMapCLASS=
+1src/test/com/thoughtworks/acceptance/MapTest.javaπ π("
+inner classfalse*MyMap2Z
+java.util.HashMapEXTEND=
+1src/test/com/thoughtworks/acceptance/MapTest.javaπ& π(-

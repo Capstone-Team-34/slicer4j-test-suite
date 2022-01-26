@@ -1,0 +1,787 @@
+
+'src/java/featuremodel/FeatureModel.javaŒ
+featuremodel.FeatureModelCLASS1
+'src/java/featuremodel/FeatureModel.java$ $("
+inner classfalse*FeatureModel2d
+"featuremodel.FeatureModel.getCNF()DECLARATION1
+'src/java/featuremodel/FeatureModel.java2 5(2v
+4featuremodel.FeatureModel.getSolutions(Set<Integer>)DECLARATION1
+'src/java/featuremodel/FeatureModel.java> W(2i
+'featuremodel.FeatureModel.getFeatures()DECLARATION1
+'src/java/featuremodel/FeatureModel.javaY \(2j
+(featuremodel.FeatureModel.getCNF(String)DECLARATION1
+'src/java/featuremodel/FeatureModel.javar x(2â
+Ffeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)DECLARATION2
+'src/java/featuremodel/FeatureModel.javaz ó(2r
+.featuremodel.FeatureModel.getSATSolver(String)DECLARATION3
+'src/java/featuremodel/FeatureModel.javaô ∂(2Å
+=featuremodel.FeatureModel.featureCanBe(String,String,boolean)DECLARATION3
+'src/java/featuremodel/FeatureModel.java∏ –(2É
+?featuremodel.FeatureModel.getFeatureValueClause(String,boolean)DECLARATION3
+'src/java/featuremodel/FeatureModel.java“ ÿ(2y
+5featuremodel.FeatureModel.getFeatureAsInteger(String)DECLARATION3
+'src/java/featuremodel/FeatureModel.java⁄ Á(2|
+8featuremodel.FeatureModel.getFeatureValue(String,String)DECLARATION3
+'src/java/featuremodel/FeatureModel.javaÈ ˛(2l
+(featuremodel.FeatureModel.getSolutions()DECLARATION3
+'src/java/featuremodel/FeatureModel.javaä ì(2Ö
+Afeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)DECLARATION3
+'src/java/featuremodel/FeatureModel.javaï ò(2n
+*featuremodel.FeatureModel.countSolutions()DECLARATION3
+'src/java/featuremodel/FeatureModel.javaö ù(2ô
+Ufeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)DECLARATION3
+'src/java/featuremodel/FeatureModel.javaü Õ(2{
+7featuremodel.FeatureModel.getCNFWithoutComments(String)DECLARATION3
+'src/java/featuremodel/FeatureModel.java’ ‚(2}
+;featuremodel.FeatureModel.FeatureModel(List<String>,String)DECLARATION1
+'src/java/featuremodel/FeatureModel.java+ 0(2m
++featuremodel.FeatureModel?BASEFEATURE_INDEXDECLARATION1
+'src/java/featuremodel/FeatureModel.java% %(.2d
+"featuremodel.FeatureModel?featuresDECLARATION1
+'src/java/featuremodel/FeatureModel.java' '(2a
+featuremodel.FeatureModel?fmCNFDECLARATION1
+'src/java/featuremodel/FeatureModel.java( ((2e
+#featuremodel.FeatureModel?solutionsDECLARATION1
+'src/java/featuremodel/FeatureModel.java) )(%‹
+;featuremodel.FeatureModel.FeatureModel(List<String>,String)CONSTRUCTOR1
+'src/java/featuremodel/FeatureModel.java+ +(*FeatureModel2}
+=featuremodel.FeatureModel.FeatureModel(List<String>,String)!f	PARAMETER1
+'src/java/featuremodel/FeatureModel.java+ +(#2}
+=featuremodel.FeatureModel.FeatureModel(List<String>,String)!s	PARAMETER1
+'src/java/featuremodel/FeatureModel.java+% +(-2m
+2featuremodel.FeatureModel.getCNF(java.lang.String)CALL1
+'src/java/featuremodel/FeatureModel.java.
+ .(2u
+:java.util.Vector.Vector(java.util.Collection<? extends E>)CALL1
+'src/java/featuremodel/FeatureModel.java- -('2ó
+\featuremodel.FeatureModel.FeatureModel(java.util.List<java.lang.String>, java.lang.String)!fCALL1
+'src/java/featuremodel/FeatureModel.java-% -(&2Z
+featuremodel.FeatureModel?fmCNFCALL1
+'src/java/featuremodel/FeatureModel.java. .(2ó
+\featuremodel.FeatureModel.FeatureModel(java.util.List<java.lang.String>, java.lang.String)!sCALL1
+'src/java/featuremodel/FeatureModel.java. .(2[
+featuremodel.FeatureModelRETURN_TYPE1
+'src/java/featuremodel/FeatureModel.java+ +(›
+=featuremodel.FeatureModel.FeatureModel(List<String>,String)!f	PARAMETER1
+'src/java/featuremodel/FeatureModel.java+" +(#*f2[
+ java.util.List<java.lang.String>TYPE1
+'src/java/featuremodel/FeatureModel.java+ +(!Õ
+=featuremodel.FeatureModel.FeatureModel(List<String>,String)!s	PARAMETER1
+'src/java/featuremodel/FeatureModel.java+, +(-*s2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.java+% +(+‰
+"featuremodel.FeatureModel.getCNF()METHOD1
+'src/java/featuremodel/FeatureModel.java2 2("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getCNF2Z
+featuremodel.FeatureModel?fmCNFCALL1
+'src/java/featuremodel/FeatureModel.java4	 4(2R
+java.lang.StringRETURN_TYPE1
+'src/java/featuremodel/FeatureModel.java2 2(Û
+4featuremodel.FeatureModel.getSolutions(Set<Integer>)METHOD1
+'src/java/featuremodel/FeatureModel.java> >('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Set<Configuration>*getSolutions2|
+<featuremodel.FeatureModel.getSolutions(Set<Integer>)!clauses	PARAMETER1
+'src/java/featuremodel/FeatureModel.java>( >(<2|
+:featuremodel.FeatureModel.getSolutions(Set<Integer>)?solnsDECLARATION1
+'src/java/featuremodel/FeatureModel.javaE E(92x
+6featuremodel.FeatureModel.getSolutions(Set<Integer>)?cDECLARATION1
+'src/java/featuremodel/FeatureModel.javaF F(2|
+:featuremodel.FeatureModel.getSolutions(Set<Integer>)?matchDECLARATION1
+'src/java/featuremodel/FeatureModel.javaH H(2Å
+?featuremodel.FeatureModel.getSolutions(Set<Integer>)?featureValDECLARATION1
+'src/java/featuremodel/FeatureModel.javaI I(2~
+<featuremodel.FeatureModel.getSolutions(Set<Integer>)?featureDECLARATION1
+'src/java/featuremodel/FeatureModel.javaK K(;2É
+Afeaturemodel.FeatureModel.getSolutions(Set<Integer>)?featureValueDECLARATION1
+'src/java/featuremodel/FeatureModel.javaL L(W2c
+(featuremodel.FeatureModel.getSolutions()CALL1
+'src/java/featuremodel/FeatureModel.javaF F(%2R
+java.lang.Math.abs(int)CALL1
+'src/java/featuremodel/FeatureModel.javaK& K(:2ã
+Pfeaturemodel.FeatureModel.getSolutions(java.util.Set<java.lang.Integer>)!clausesCALL1
+'src/java/featuremodel/FeatureModel.javaI I("2T
+Set<Configuration>RETURN_TYPE1
+'src/java/featuremodel/FeatureModel.java> >(á
+'featuremodel.FeatureModel.getFeatures()METHOD1
+'src/java/featuremodel/FeatureModel.javaY Y( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List<String>*getFeatures2]
+"featuremodel.FeatureModel?featuresCALL1
+'src/java/featuremodel/FeatureModel.java[	 [(2b
+ java.util.List<java.lang.String>RETURN_TYPE1
+'src/java/featuremodel/FeatureModel.javaY Y(∑
+(featuremodel.FeatureModel.getCNF(String)METHOD1
+'src/java/featuremodel/FeatureModel.javar r("
+statictrue"
+finalfalse"
+access modifierprivate"
+type String*getCNF2|
+<featuremodel.FeatureModel.getCNF(String)!featureModelStrForm	PARAMETER1
+'src/java/featuremodel/FeatureModel.javar r(82o
+-featuremodel.FeatureModel.getCNF(String)?toolDECLARATION1
+'src/java/featuremodel/FeatureModel.javat t(P2s
+1featuremodel.FeatureModel.getCNF(String)?cnfModelDECLARATION1
+'src/java/featuremodel/FeatureModel.javau u((2q
+/featuremodel.FeatureModel.getCNF(String)?cnfStrDECLARATION1
+'src/java/featuremodel/FeatureModel.javav	 v(%2V
+java.lang.String.getBytes()CALL1
+'src/java/featuremodel/FeatureModel.javat0 t(N2t
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALL1
+'src/java/featuremodel/FeatureModel.javat t(O2Å
+Ffeaturemodel.FeatureModel.getCNF(java.lang.String)!featureModelStrFormCALL1
+'src/java/featuremodel/FeatureModel.javat0 t(C2R
+java.lang.StringRETURN_TYPE1
+'src/java/featuremodel/FeatureModel.javar r(™
+Ffeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)METHOD1
+'src/java/featuremodel/FeatureModel.javaz z(-"
+statictrue"
+finalfalse"
+access modifierprivate"
+type String*getCNFWithAddedClauses2ä
+Jfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)!cnf	PARAMETER1
+'src/java/featuremodel/FeatureModel.javaz. z(82é
+Nfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)!clauses	PARAMETER1
+'src/java/featuremodel/FeatureModel.javaz: z(O2è
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?newCNFDECLARATION1
+'src/java/featuremodel/FeatureModel.java|	 |(2é
+Lfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?linesDECLARATION1
+'src/java/featuremodel/FeatureModel.java~ ~("2ë
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?headerDECLARATION3
+'src/java/featuremodel/FeatureModel.javaÖ Ö(*2å
+Hfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?iDECLARATION3
+'src/java/featuremodel/FeatureModel.javaÜ
+ Ü(2å
+Hfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?iDECLARATION3
+'src/java/featuremodel/FeatureModel.javaç
+ ç(2ë
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?clauseDECLARATION3
+'src/java/featuremodel/FeatureModel.javaì ì(2c
+(java.lang.String.split(java.lang.String)CALL1
+'src/java/featuremodel/FeatureModel.java~ ~("2e
+(java.lang.String.split(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.javaÖ Ö(*2Z
+java.lang.String.valueOf(int)CALL3
+'src/java/featuremodel/FeatureModel.javaä ä(G2i
+,java.lang.Integer.parseInt(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.javaä ä(D2§
+ifeaturemodel.FeatureModel.getCNFWithAddedClauses(java.lang.String, java.util.List<java.lang.Integer>)!cnfCALL1
+'src/java/featuremodel/FeatureModel.java~ ~(2™
+mfeaturemodel.FeatureModel.getCNFWithAddedClauses(java.lang.String, java.util.List<java.lang.Integer>)!clausesCALL3
+'src/java/featuremodel/FeatureModel.javaì ì(2R
+java.lang.StringRETURN_TYPE1
+'src/java/featuremodel/FeatureModel.javaz z(µ
+.featuremodel.FeatureModel.getSATSolver(String)METHOD3
+'src/java/featuremodel/FeatureModel.javaô ô(#"
+statictrue"
+finalfalse"
+access modifierpublic"
+type ISolver*getSATSolver2t
+2featuremodel.FeatureModel.getSATSolver(String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaô$ ô(.2|
+8featuremodel.FeatureModel.getSATSolver(String)?satSolverDECLARATION3
+'src/java/featuremodel/FeatureModel.javaõ
+ õ(2y
+5featuremodel.FeatureModel.getSATSolver(String)?readerDECLARATION3
+'src/java/featuremodel/FeatureModel.java§
+ §(.2X
+java.lang.String.getBytes()CALL3
+'src/java/featuremodel/FeatureModel.java•1 •(?2b
+%java.lang.Throwable.printStackTrace()CALL3
+'src/java/featuremodel/FeatureModel.java≤ ≤(2v
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALL3
+'src/java/featuremodel/FeatureModel.java• •(@2y
+<featuremodel.FeatureModel.getSATSolver(java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java•1 •(42K
+ISolverRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaô ô(£
+=featuremodel.FeatureModel.featureCanBe(String,String,boolean)METHOD3
+'src/java/featuremodel/FeatureModel.java∏ ∏("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type boolean*featureCanBe2É
+Afeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏ ∏((2á
+Efeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏* ∏(82ä
+Hfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!truthValue	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏: ∏(L2ñ
+Rfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?canTakeTheTruthValueDECLARATION3
+'src/java/featuremodel/FeatureModel.java∫
+ ∫(&2â
+Efeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?clausesDECLARATION3
+'src/java/featuremodel/FeatureModel.javaæ æ(02à
+Dfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?newCNFDECLARATION3
+'src/java/featuremodel/FeatureModel.java¬
+ ¬(72ã
+Gfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?satSolverDECLARATION3
+'src/java/featuremodel/FeatureModel.java∆ ∆(+2R
+java.util.List.add(E)CALL3
+'src/java/featuremodel/FeatureModel.javaø ø(:2á
+Jfeaturemodel.FeatureModel.getFeatureValueClause(java.lang.String, boolean)CALL3
+'src/java/featuremodel/FeatureModel.javaø ø(92¢
+efeaturemodel.FeatureModel.getCNFWithAddedClauses(java.lang.String, java.util.List<java.lang.Integer>)CALL3
+'src/java/featuremodel/FeatureModel.java¬ ¬(72u
+8featuremodel.FeatureModel.getSATSolver(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java∆ ∆(+2V
+java.util.Vector.Vector()CALL3
+'src/java/featuremodel/FeatureModel.javaæ æ(02ò
+[featuremodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)!featureCALL3
+'src/java/featuremodel/FeatureModel.javaø% ø(,2õ
+^featuremodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)!truthValueCALL3
+'src/java/featuremodel/FeatureModel.javaø. ø(82î
+Wfeaturemodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java¬* ¬(-2K
+booleanRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.java∏	 ∏(Ò
+?featuremodel.FeatureModel.getFeatureValueClause(String,boolean)METHOD3
+'src/java/featuremodel/FeatureModel.java“ “(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getFeatureValueClause2â
+Gfeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java“" “(02á
+Efeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)!value	PARAMETER3
+'src/java/featuremodel/FeatureModel.java“2 “(?2ê
+Lfeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)?featureValueDECLARATION3
+'src/java/featuremodel/FeatureModel.java‘ ‘(12|
+?featuremodel.FeatureModel.getFeatureAsInteger(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java‘ ‘(12è
+Rfeaturemodel.FeatureModel.getFeatureValueClause(java.lang.String, boolean)!featureCALL3
+'src/java/featuremodel/FeatureModel.java‘) ‘(02ç
+Pfeaturemodel.FeatureModel.getFeatureValueClause(java.lang.String, boolean)!valueCALL3
+'src/java/featuremodel/FeatureModel.java’ ’(2G
+intRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.java“ “(≠
+5featuremodel.FeatureModel.getFeatureAsInteger(String)METHOD3
+'src/java/featuremodel/FeatureModel.java⁄ ⁄("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getFeatureAsInteger2
+=featuremodel.FeatureModel.getFeatureAsInteger(String)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java⁄  ⁄(.2Ü
+Bfeaturemodel.FeatureModel.getFeatureAsInteger(String)?featureAsIntDECLARATION3
+'src/java/featuremodel/FeatureModel.java‹ ‹(2Ñ
+Gfeaturemodel.FeatureModel.getFeatureAsInteger(java.lang.String)!featureCALL3
+'src/java/featuremodel/FeatureModel.java‡& ‡(-2G
+intRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.java⁄ ⁄(ø
+8featuremodel.FeatureModel.getFeatureValue(String,String)METHOD3
+'src/java/featuremodel/FeatureModel.javaÈ È(%"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type FeatureValue*getFeatureValue2~
+<featuremodel.FeatureModel.getFeatureValue(String,String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaÈ& È(02Ç
+@featuremodel.FeatureModel.getFeatureValue(String,String)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaÈ2 È(@2â
+Efeaturemodel.FeatureModel.getFeatureValue(String,String)?featureValueDECLARATION3
+'src/java/featuremodel/FeatureModel.javaÎ Î("2ã
+Gfeaturemodel.FeatureModel.getFeatureValue(String,String)?canBeFalseAlsoDECLARATION3
+'src/java/featuremodel/FeatureModel.javaˆ ˆ(=2ê
+Sfeaturemodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)CALL3
+'src/java/featuremodel/FeatureModel.javaÌ Ì(&2ê
+Sfeaturemodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)CALL3
+'src/java/featuremodel/FeatureModel.javaˆ ˆ(=2é
+Qfeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.javaÌ Ì(2í
+Ufeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!featureCALL3
+'src/java/featuremodel/FeatureModel.javaÌ Ì(2é
+Qfeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.javaˆ) ˆ(,2í
+Ufeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!featureCALL3
+'src/java/featuremodel/FeatureModel.javaˆ. ˆ(52P
+FeatureValueRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaÈ	 È(∂
+(featuremodel.FeatureModel.getSolutions()METHOD3
+'src/java/featuremodel/FeatureModel.javaä ä('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Set<Configuration>*getSolutions2«
+âfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.javaè è(C2`
+#featuremodel.FeatureModel?solutionsCALL3
+'src/java/featuremodel/FeatureModel.javaç ç(2`
+#featuremodel.FeatureModel?solutionsCALL3
+'src/java/featuremodel/FeatureModel.javaè è(2_
+"featuremodel.FeatureModel?featuresCALL3
+'src/java/featuremodel/FeatureModel.javaè) è(12_
+"featuremodel.FeatureModel?featuresCALL3
+'src/java/featuremodel/FeatureModel.javaè3 è(;2\
+featuremodel.FeatureModel?fmCNFCALL3
+'src/java/featuremodel/FeatureModel.javaè= è(B2`
+#featuremodel.FeatureModel?solutionsCALL3
+'src/java/featuremodel/FeatureModel.javaí	 í(2V
+Set<Configuration>RETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaä ä(Å
+
+Afeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)METHOD3
+'src/java/featuremodel/FeatureModel.javaï ï('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Set<Configuration>*getSolutions2è
+Mfeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)!allFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaï( ï(@2î
+Rfeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)!relevantFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaïB ï(_2«
+âfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.javaó	 ó(H2≥
+vfeaturemodel.FeatureModel.getSolutions(java.util.List<java.lang.String>, java.util.List<java.lang.String>)!allFeaturesCALL3
+'src/java/featuremodel/FeatureModel.javaó# ó(.2∏
+{featuremodel.FeatureModel.getSolutions(java.util.List<java.lang.String>, java.util.List<java.lang.String>)!relevantFeaturesCALL3
+'src/java/featuremodel/FeatureModel.javaó0 ó(@2\
+featuremodel.FeatureModel?fmCNFCALL3
+'src/java/featuremodel/FeatureModel.javaóB ó(G2V
+Set<Configuration>RETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaï ï(ı
+*featuremodel.FeatureModel.countSolutions()METHOD3
+'src/java/featuremodel/FeatureModel.javaö ö("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type long*countSolutions2e
+(featuremodel.FeatureModel.getSolutions()CALL3
+'src/java/featuremodel/FeatureModel.javaú	 ú(2H
+longRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaö ö(å
+Ufeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)METHOD3
+'src/java/featuremodel/FeatureModel.javaü" ü(;"
+statictrue"
+finalfalse"
+access modifierpublic"
+type Set<Configuration>*getRelevantConfigurations2£
+afeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!allFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaü< ü(T2®
+ffeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!relevantFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaüV ü(s2õ
+Yfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaüu ü(2°
+]featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?configsDECLARATION3
+'src/java/featuremodel/FeatureModel.java° °(A2¶
+bfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?relevantVarsDECLARATION3
+'src/java/featuremodel/FeatureModel.java• •(;2õ
+Wfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?fDECLARATION3
+'src/java/featuremodel/FeatureModel.java¶ ¶(2¢
+^featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?tempFileDECLARATION3
+'src/java/featuremodel/FeatureModel.java™ ™(A2†
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?solverDECLARATION3
+'src/java/featuremodel/FeatureModel.javaÆ Æ(.2ú
+Xfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?miDECLARATION3
+'src/java/featuremodel/FeatureModel.javaØ Ø(M2†
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?readerDECLARATION3
+'src/java/featuremodel/FeatureModel.java±
+ ±()2°
+]featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?problemDECLARATION3
+'src/java/featuremodel/FeatureModel.java≤ ≤(F2ü
+[featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?modelDECLARATION3
+'src/java/featuremodel/FeatureModel.java∂ ∂("2†
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?configDECLARATION3
+'src/java/featuremodel/FeatureModel.java∑ ∑(@2|
+?java.io.File.createTempFile(java.lang.String, java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java™ ™(A2~
+Afeaturemodel.FeatureModel.getCNFWithoutComments(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java´. ´(H2[
+java.io.File.getAbsolutePath()CALL3
+'src/java/featuremodel/FeatureModel.java≤+ ≤(E2b
+%java.lang.Throwable.printStackTrace()CALL3
+'src/java/featuremodel/FeatureModel.javaª ª(2b
+%java.lang.Throwable.printStackTrace()CALL3
+'src/java/featuremodel/FeatureModel.javaø ø(2j
+-java.io.PrintStream.println(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java¡ ¡(12j
+-java.io.PrintStream.println(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java√ √((2d
+'java.util.LinkedHashSet.LinkedHashSet()CALL3
+'src/java/featuremodel/FeatureModel.java• •(;2ÿ
+öfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)!relevantFeaturesCALL3
+'src/java/featuremodel/FeatureModel.java¶ ¶(!2À
+çfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java´D ´(G2”
+ïfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)!allFeaturesCALL3
+'src/java/featuremodel/FeatureModel.java∑- ∑(82V
+Set<Configuration>RETURN_TYPE3
+'src/java/featuremodel/FeatureModel.javaü ü(!ñ	
+7featuremodel.FeatureModel.getCNFWithoutComments(String)METHOD3
+'src/java/featuremodel/FeatureModel.java’ ’(,"
+statictrue"
+finalfalse"
+access modifierprivate"
+type String*getCNFWithoutComments2}
+;featuremodel.FeatureModel.getCNFWithoutComments(String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.java’- ’(72Å
+=featuremodel.FeatureModel.getCNFWithoutComments(String)?linesDECLARATION3
+'src/java/featuremodel/FeatureModel.java◊ ◊("2â
+Efeaturemodel.FeatureModel.getCNFWithoutComments(String)?cnfNoCommentsDECLARATION3
+'src/java/featuremodel/FeatureModel.javaÿ	 ÿ(2}
+9featuremodel.FeatureModel.getCNFWithoutComments(String)?lDECLARATION3
+'src/java/featuremodel/FeatureModel.javaŸ Ÿ(2e
+(java.lang.String.split(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java◊ ◊("2j
+-java.lang.String.startsWith(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java€ €(2Ç
+Efeaturemodel.FeatureModel.getCNFWithoutComments(java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java◊ ◊(2T
+java.lang.StringRETURN_TYPE3
+'src/java/featuremodel/FeatureModel.java’ ’(‚
+<featuremodel.FeatureModel.getSolutions(Set<Integer>)!clauses	PARAMETER1
+'src/java/featuremodel/FeatureModel.java>5 >(<*clauses2[
+ java.util.Set<java.lang.Integer>TYPE1
+'src/java/featuremodel/FeatureModel.java>( >(4ﬁ
+<featuremodel.FeatureModel.getCNF(String)!featureModelStrForm	PARAMETER1
+'src/java/featuremodel/FeatureModel.javar% r(8*featureModelStrForm2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.javar r($‹
+Jfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)!cnf	PARAMETER1
+'src/java/featuremodel/FeatureModel.javaz5 z(8*cnf2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.javaz. z(4ı
+Nfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)!clauses	PARAMETER1
+'src/java/featuremodel/FeatureModel.javazH z(O*clauses2\
+!java.util.List<java.lang.Integer>TYPE1
+'src/java/featuremodel/FeatureModel.javaz: z(G»
+2featuremodel.FeatureModel.getSATSolver(String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaô+ ô(.*cnf2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaô$ ô(*◊
+Afeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏% ∏((*cnf2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java∏ ∏($ﬂ
+Efeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏1 ∏(8*feature2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java∏* ∏(0‹
+Hfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)!truthValue	PARAMETER3
+'src/java/featuremodel/FeatureModel.java∏B ∏(L*
+truthValue2D
+booleanTYPE3
+'src/java/featuremodel/FeatureModel.java∏: ∏(A·
+Gfeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java“) “(0*feature2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java“" “((‘
+Efeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)!value	PARAMETER3
+'src/java/featuremodel/FeatureModel.java“: “(?*value2D
+booleanTYPE3
+'src/java/featuremodel/FeatureModel.java“2 “(9◊
+=featuremodel.FeatureModel.getFeatureAsInteger(String)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.java⁄' ⁄(.*feature2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java⁄  ⁄(&“
+<featuremodel.FeatureModel.getFeatureValue(String,String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaÈ- È(0*cnf2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaÈ& È(,⁄
+@featuremodel.FeatureModel.getFeatureValue(String,String)!feature	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaÈ9 È(@*feature2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaÈ2 È(8˚
+Mfeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)!allFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaï5 ï(@*allFeatures2]
+ java.util.List<java.lang.String>TYPE3
+'src/java/featuremodel/FeatureModel.javaï( ï(4Ö
+Rfeaturemodel.FeatureModel.getSolutions(List<String>,List<String>)!relevantFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaïO ï(_*relevantFeatures2]
+ java.util.List<java.lang.String>TYPE3
+'src/java/featuremodel/FeatureModel.javaïB ï(Nè
+afeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!allFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaüI ü(T*allFeatures2]
+ java.util.List<java.lang.String>TYPE3
+'src/java/featuremodel/FeatureModel.javaü< ü(Hô
+ffeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!relevantFeatures	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaüc ü(s*relevantFeatures2]
+ java.util.List<java.lang.String>TYPE3
+'src/java/featuremodel/FeatureModel.javaüV ü(bÔ
+Yfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.javaü| ü(*cnf2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaüu ü({—
+;featuremodel.FeatureModel.getCNFWithoutComments(String)!cnf	PARAMETER3
+'src/java/featuremodel/FeatureModel.java’4 ’(7*cnf2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java’- ’(3Ï
+:featuremodel.FeatureModel.getSolutions(Set<Integer>)?solnsVARIABLE1
+'src/java/featuremodel/FeatureModel.javaE E("
+type Set<Configuration>*solns2M
+Set<Configuration>TYPE1
+'src/java/featuremodel/FeatureModel.javaE E(⁄
+6featuremodel.FeatureModel.getSolutions(Set<Integer>)?cVARIABLE1
+'src/java/featuremodel/FeatureModel.javaF F("
+type Configuration*c2H
+ConfigurationTYPE1
+'src/java/featuremodel/FeatureModel.javaF F(÷
+:featuremodel.FeatureModel.getSolutions(Set<Integer>)?matchVARIABLE1
+'src/java/featuremodel/FeatureModel.javaH H("
+type boolean*match2B
+booleanTYPE1
+'src/java/featuremodel/FeatureModel.javaH H(
+Í
+?featuremodel.FeatureModel.getSolutions(Set<Integer>)?featureValVARIABLE1
+'src/java/featuremodel/FeatureModel.javaI I("
+type Integer*
+featureVal2L
+java.lang.IntegerTYPE1
+'src/java/featuremodel/FeatureModel.javaI I(∂
+<featuremodel.FeatureModel.getSolutions(Set<Integer>)?featureVARIABLE1
+'src/java/featuremodel/FeatureModel.javaK K("
+type String*feature2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.javaK K(
+2R
+java.lang.Math.abs(int)CALL1
+'src/java/featuremodel/FeatureModel.javaK& K(:Ó
+Afeaturemodel.FeatureModel.getSolutions(Set<Integer>)?featureValueVARIABLE1
+'src/java/featuremodel/FeatureModel.javaL L("
+type FeatureValue*featureValue2G
+FeatureValueTYPE1
+'src/java/featuremodel/FeatureModel.javaL L(î
+-featuremodel.FeatureModel.getCNF(String)?toolVARIABLE1
+'src/java/featuremodel/FeatureModel.javat t("
+type Tool*tool2?
+ToolTYPE1
+'src/java/featuremodel/FeatureModel.javat t(2V
+java.lang.String.getBytes()CALL1
+'src/java/featuremodel/FeatureModel.javat0 t(N2t
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALL1
+'src/java/featuremodel/FeatureModel.javat t(O2Å
+Ffeaturemodel.FeatureModel.getCNF(java.lang.String)!featureModelStrFormCALL1
+'src/java/featuremodel/FeatureModel.javat0 t(C“
+1featuremodel.FeatureModel.getCNF(String)?cnfModelVARIABLE1
+'src/java/featuremodel/FeatureModel.javau u("
+type CNFModel*cnfModel2C
+CNFModelTYPE1
+'src/java/featuremodel/FeatureModel.javau u(
+‘
+/featuremodel.FeatureModel.getCNF(String)?cnfStrVARIABLE1
+'src/java/featuremodel/FeatureModel.javav	 v("
+type String*cnfStr2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.javav v(Ú
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?newCNFVARIABLE1
+'src/java/featuremodel/FeatureModel.java|	 |("
+type String*newCNF2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.java| |(Ä
+Lfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?linesVARIABLE1
+'src/java/featuremodel/FeatureModel.java~ ~("
+type String[]*lines2M
+java.lang.String[]TYPE1
+'src/java/featuremodel/FeatureModel.java~ ~(
+2c
+(java.lang.String.split(java.lang.String)CALL1
+'src/java/featuremodel/FeatureModel.java~ ~("2§
+ifeaturemodel.FeatureModel.getCNFWithAddedClauses(java.lang.String, java.util.List<java.lang.Integer>)!cnfCALL1
+'src/java/featuremodel/FeatureModel.java~ ~(·
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?headerVARIABLE3
+'src/java/featuremodel/FeatureModel.javaÖ Ö("
+type String[]*header2O
+java.lang.String[]TYPE3
+'src/java/featuremodel/FeatureModel.javaÖ Ö(
+2e
+(java.lang.String.split(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.javaÖ Ö(*‹
+Hfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?iVARIABLE3
+'src/java/featuremodel/FeatureModel.javaÜ
+ Ü("
+type int*i2@
+intTYPE3
+'src/java/featuremodel/FeatureModel.javaÜ Ü(	‹
+Hfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?iVARIABLE3
+'src/java/featuremodel/FeatureModel.javaç
+ ç("
+type int*i2@
+intTYPE3
+'src/java/featuremodel/FeatureModel.javaç ç(	¯
+Mfeaturemodel.FeatureModel.getCNFWithAddedClauses(String,List<Integer>)?clauseVARIABLE3
+'src/java/featuremodel/FeatureModel.javaì ì("
+type Integer*clause2N
+java.lang.IntegerTYPE3
+'src/java/featuremodel/FeatureModel.javaì ì(‹
+8featuremodel.FeatureModel.getSATSolver(String)?satSolverVARIABLE3
+'src/java/featuremodel/FeatureModel.javaõ
+ õ("
+type ISolver*	satSolver2D
+ISolverTYPE3
+'src/java/featuremodel/FeatureModel.javaõ õ(	‘
+5featuremodel.FeatureModel.getSATSolver(String)?readerVARIABLE3
+'src/java/featuremodel/FeatureModel.java§
+ §("
+type Reader*reader2C
+ReaderTYPE3
+'src/java/featuremodel/FeatureModel.java§ §(	Å
+Rfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?canTakeTheTruthValueVARIABLE3
+'src/java/featuremodel/FeatureModel.java∫
+ ∫("
+type boolean*canTakeTheTruthValue2D
+booleanTYPE3
+'src/java/featuremodel/FeatureModel.java∫ ∫(	ﬂ
+Efeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?clausesVARIABLE3
+'src/java/featuremodel/FeatureModel.javaæ æ("
+type List<Integer>*clauses2^
+!java.util.List<java.lang.Integer>TYPE3
+'src/java/featuremodel/FeatureModel.javaæ æ(2V
+java.util.Vector.Vector()CALL3
+'src/java/featuremodel/FeatureModel.javaæ æ(0©
+Dfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?newCNFVARIABLE3
+'src/java/featuremodel/FeatureModel.java¬
+ ¬("
+type String*newCNF2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java¬ ¬(	2¢
+efeaturemodel.FeatureModel.getCNFWithAddedClauses(java.lang.String, java.util.List<java.lang.Integer>)CALL3
+'src/java/featuremodel/FeatureModel.java¬ ¬(72î
+Wfeaturemodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java¬* ¬(-‚
+Gfeaturemodel.FeatureModel.featureCanBe(String,String,boolean)?satSolverVARIABLE3
+'src/java/featuremodel/FeatureModel.java∆ ∆("
+type ISolver*	satSolver2D
+ISolverTYPE3
+'src/java/featuremodel/FeatureModel.java∆ ∆(
+2u
+8featuremodel.FeatureModel.getSATSolver(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java∆ ∆(+˚
+Lfeaturemodel.FeatureModel.getFeatureValueClause(String,boolean)?featureValueVARIABLE3
+'src/java/featuremodel/FeatureModel.java‘ ‘("
+type int*featureValue2@
+intTYPE3
+'src/java/featuremodel/FeatureModel.java‘ ‘(2|
+?featuremodel.FeatureModel.getFeatureAsInteger(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java‘ ‘(12è
+Rfeaturemodel.FeatureModel.getFeatureValueClause(java.lang.String, boolean)!featureCALL3
+'src/java/featuremodel/FeatureModel.java‘) ‘(0·
+Bfeaturemodel.FeatureModel.getFeatureAsInteger(String)?featureAsIntVARIABLE3
+'src/java/featuremodel/FeatureModel.java‹ ‹("
+type int*featureAsInt2@
+intTYPE3
+'src/java/featuremodel/FeatureModel.java‹ ‹(ˆ
+Efeaturemodel.FeatureModel.getFeatureValue(String,String)?featureValueVARIABLE3
+'src/java/featuremodel/FeatureModel.javaÎ Î("
+type FeatureValue*featureValue2I
+FeatureValueTYPE3
+'src/java/featuremodel/FeatureModel.javaÎ Î(©
+Gfeaturemodel.FeatureModel.getFeatureValue(String,String)?canBeFalseAlsoVARIABLE3
+'src/java/featuremodel/FeatureModel.javaˆ ˆ("
+type boolean*canBeFalseAlso2D
+booleanTYPE3
+'src/java/featuremodel/FeatureModel.javaˆ ˆ(
+2ê
+Sfeaturemodel.FeatureModel.featureCanBe(java.lang.String, java.lang.String, boolean)CALL3
+'src/java/featuremodel/FeatureModel.javaˆ ˆ(=2é
+Qfeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.javaˆ) ˆ(,2í
+Ufeaturemodel.FeatureModel.getFeatureValue(java.lang.String, java.lang.String)!featureCALL3
+'src/java/featuremodel/FeatureModel.javaˆ. ˆ(5ï
+]featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?configsVARIABLE3
+'src/java/featuremodel/FeatureModel.java° °("
+type Set<Configuration>*configs2O
+Set<Configuration>TYPE3
+'src/java/featuremodel/FeatureModel.java° °(ç
+bfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?relevantVarsVARIABLE3
+'src/java/featuremodel/FeatureModel.java• •("
+type Set<Integer>*relevantVars2]
+ java.util.Set<java.lang.Integer>TYPE3
+'src/java/featuremodel/FeatureModel.java• •(2d
+'java.util.LinkedHashSet.LinkedHashSet()CALL3
+'src/java/featuremodel/FeatureModel.java• •(;˚
+Wfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?fVARIABLE3
+'src/java/featuremodel/FeatureModel.java¶ ¶("
+type String*f2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.java¶ ¶(Å
+^featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?tempFileVARIABLE3
+'src/java/featuremodel/FeatureModel.java™ ™("
+type File*tempFile2I
+java.io.FileTYPE3
+'src/java/featuremodel/FeatureModel.java™ ™(2|
+?java.io.File.createTempFile(java.lang.String, java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java™ ™(A˝
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?solverVARIABLE3
+'src/java/featuremodel/FeatureModel.javaÆ Æ("
+type ISolver*solver2D
+ISolverTYPE3
+'src/java/featuremodel/FeatureModel.javaÆ Æ(
+ë
+Xfeaturemodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?miVARIABLE3
+'src/java/featuremodel/FeatureModel.javaØ Ø("
+type RelevantModelIterator*mi2R
+RelevantModelIteratorTYPE3
+'src/java/featuremodel/FeatureModel.javaØ Ø(˚
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?readerVARIABLE3
+'src/java/featuremodel/FeatureModel.java±
+ ±("
+type Reader*reader2C
+ReaderTYPE3
+'src/java/featuremodel/FeatureModel.java± ±(	ﬁ
+]featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?problemVARIABLE3
+'src/java/featuremodel/FeatureModel.java≤ ≤("
+type IProblem*problem2E
+IProblemTYPE3
+'src/java/featuremodel/FeatureModel.java≤ ≤(2[
+java.io.File.getAbsolutePath()CALL3
+'src/java/featuremodel/FeatureModel.java≤+ ≤(E˜
+[featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?modelVARIABLE3
+'src/java/featuremodel/FeatureModel.java∂ ∂("
+type int[]*model2B
+int[]TYPE3
+'src/java/featuremodel/FeatureModel.java∂ ∂(
+ﬂ
+\featuremodel.FeatureModel.getRelevantConfigurations(List<String>,List<String>,String)?configVARIABLE3
+'src/java/featuremodel/FeatureModel.java∑ ∑("
+type Configuration*config2J
+ConfigurationTYPE3
+'src/java/featuremodel/FeatureModel.java∑ ∑(2”
+ïfeaturemodel.FeatureModel.getRelevantConfigurations(java.util.List<java.lang.String>, java.util.List<java.lang.String>, java.lang.String)!allFeaturesCALL3
+'src/java/featuremodel/FeatureModel.java∑- ∑(8’
+=featuremodel.FeatureModel.getCNFWithoutComments(String)?linesVARIABLE3
+'src/java/featuremodel/FeatureModel.java◊ ◊("
+type String[]*lines2O
+java.lang.String[]TYPE3
+'src/java/featuremodel/FeatureModel.java◊ ◊(
+2e
+(java.lang.String.split(java.lang.String)CALL3
+'src/java/featuremodel/FeatureModel.java◊ ◊("2Ç
+Efeaturemodel.FeatureModel.getCNFWithoutComments(java.lang.String)!cnfCALL3
+'src/java/featuremodel/FeatureModel.java◊ ◊(ı
+Efeaturemodel.FeatureModel.getCNFWithoutComments(String)?cnfNoCommentsVARIABLE3
+'src/java/featuremodel/FeatureModel.javaÿ	 ÿ("
+type String*cnfNoComments2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaÿ ÿ(›
+9featuremodel.FeatureModel.getCNFWithoutComments(String)?lVARIABLE3
+'src/java/featuremodel/FeatureModel.javaŸ Ÿ("
+type String*l2M
+java.lang.StringTYPE3
+'src/java/featuremodel/FeatureModel.javaŸ Ÿ(»
++featuremodel.FeatureModel?BASEFEATURE_INDEXVALUE1
+'src/java/featuremodel/FeatureModel.java% %(*"
+type int*BASEFEATURE_INDEX2>
+intTYPE1
+'src/java/featuremodel/FeatureModel.java% %(ﬂ
+"featuremodel.FeatureModel?featuresVARIABLE1
+'src/java/featuremodel/FeatureModel.java' '("
+type List<String>*features2[
+ java.util.List<java.lang.String>TYPE1
+'src/java/featuremodel/FeatureModel.java'	 '(√
+featuremodel.FeatureModel?fmCNFVARIABLE1
+'src/java/featuremodel/FeatureModel.java( (("
+type String*fmCNF2K
+java.lang.StringTYPE1
+'src/java/featuremodel/FeatureModel.java(	 ((Ÿ
+#featuremodel.FeatureModel?solutionsVARIABLE1
+'src/java/featuremodel/FeatureModel.java) )(%"
+type Set<Configuration>*	solutions2M
+Set<Configuration>TYPE1
+'src/java/featuremodel/FeatureModel.java)	 )(

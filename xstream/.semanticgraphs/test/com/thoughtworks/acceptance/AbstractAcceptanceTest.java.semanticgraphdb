@@ -1,0 +1,715 @@
+
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¯
+2com.thoughtworks.acceptance.AbstractAcceptanceTestCLASSJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java" "(,"
+inner classfalse*AbstractAcceptanceTest2ù
+Bcom.thoughtworks.acceptance.AbstractAcceptanceTest.createXStream()DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java& ((2ú
+Acom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java* 9(2 
+ocom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java; R(2´
+Pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT b(2Ø
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad m(2Ω
+bcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao u(2õ
+@com.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(Object)DECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz |(2±
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)DECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ ë(2∞
+Scom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)DECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì ò(2¥
+Wcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])DECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö ú(2°
+Dcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])DECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû ®(2º
+_com.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)DECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™ “(2ï
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java$  $(92^
+TestCaseEXTENDJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java"5 "(=Ù
+Bcom.thoughtworks.acceptance.AbstractAcceptanceTest.createXStream()METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java& &(#"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type XStream*createXStream2ï
+Acom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java' '()2b
+XStreamRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java& &(’
+
+Acom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java*' *(3"
+staticfalse"
+finalfalse"
+access modifier	protected"!
+type HierarchicalStreamDriver*createDriver2£
+Hcom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()?driverDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java, ,(2°
+Fcom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()?typeDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java1 1(22Ç
+.java.lang.System.getProperty(java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java. .(92Å
+-java.io.PrintStream.println(java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java0 0(=2}
+)java.lang.Class.forName(java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java1 1(22q
+java.lang.Class.newInstance()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java22 2(D2ë
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java6 6(J2s
+HierarchicalStreamDriverRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java* *(&Å-
+ocom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java; ;(-"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*assertBothWaysNormalized2Õ
+tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;. ;(92Ã
+scom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!xml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;; ;(E2Œ
+ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!match	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;G ;(Y2◊
+~com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!templateSelect	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java< <(#2”
+zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!sortSelect	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java<% <(<2‘
+ycom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)?resultXmlDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java? @(M2’
+zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)?resultRootDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaF F(:2ﬂ
+äcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java? @(M2û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@ @(2ﬂ
+äcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaB B(S2Ω
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaG G(02≤
+^com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaJ J(+2t
+ java.lang.Throwable.getMessage()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaOF O(T2ˇ
+™com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@ @(2Ä
+´com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!matchCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@* @(/2â
+¥com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!templateSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@2 @(@2Ö
+∞com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!sortSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@B @(L2˛
+©com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!xmlCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaB B(!2Ä
+´com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!matchCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaB0 B(52â
+¥com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!templateSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaB8 B(F2Ö
+∞com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!sortSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaBH B(R2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaF  F('2ˇ
+™com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaG G(#2ˇ
+™com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaJ& J(*2k
+java.lang.ObjectRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java; ;(Ô
+Pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT T(#"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*assertBothWays2Æ
+Ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT$ T(/2≠
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)!xml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT1 T(;2µ
+Zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)?resultXmlDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW W(&2∂
+[com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)?resultRootDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java[ [(62û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW W(&2Ω
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java\ \(,2≤
+^com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java_ _('2æ
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(java.lang.Object, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW! W(%2Ω
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(java.lang.Object, java.lang.String)!xmlCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaX X(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java[ [(#2æ
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(java.lang.Object, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java\ \(2æ
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(java.lang.Object, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java_" _(&2k
+java.lang.ObjectRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT T(÷
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad d(*"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertBinarySerialization2≤
+Ycom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad+ d(62º
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?outputStreamDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaf f(H2ª
+`com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?inputStreamDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaj j(_2º
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?binaryResultDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javak k(T2
++java.io.ByteArrayOutputStream.toByteArray()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javajD j(^2Ω
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javal l(.2â
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaf- f(H2ç
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaj+ j(_2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javag g(2∑
+ccom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(java.lang.Object)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javag g(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javak k(%2∑
+ccom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(java.lang.Object)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javal l(2_
+voidRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad d(‚
+bcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao o(."
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*assertWithAsymmetricalXml2¿
+gcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao/ o(:2¡
+hcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!inXml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao< o(H2¬
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!outXml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaoJ o(W2«
+lcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)?resultXmlDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap p(&2»
+mcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)?resultRootDECLARATIONJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar r(22û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap p(&2Ω
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javas s(,2‹
+ácom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap! p(%2ﬁ
+âcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!outXmlCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaq q(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar r(#2›
+àcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!inXmlCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar, r(12‹
+ácom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javas s(2k
+java.lang.ObjectRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao o(≤
+@com.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(Object)METHODJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz z("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*toXML2û
+Ecom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(Object)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz z(&2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java{ {(2£
+Ocom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java{ {(!2k
+java.lang.StringRETURN_TYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz z(ì
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)METHODL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ Å(%"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*assertObjectsEqual2∏
+]com.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ& Å(52∂
+[com.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ7 Å(D2o
+java.lang.Class.isArray()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÜ Ü(+2q
+java.lang.Object.getClass()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÜ Ü(!2æ
+hcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaá á(32
+)java.lang.Object.equals(java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaä ä(,2»
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÇ Ç(2∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÉ É(2∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÖ0 Ö(62∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÜ Ü(2»
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaá" á(*2∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaá, á(22»
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaä ä(2∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaä% ä(+2ê
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaå6 å(=2»
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaåD å(L2ê
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaç6 ç(=2∆
+pcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaçD ç(J2a
+voidRETURN_TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ Å(Ä
+Scom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)METHODL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì ì($"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*assertArrayEquals2∑
+\com.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì% ì(42µ
+Zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì6 ì(C2≤
+Ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)?iDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaï ï(2â
+3java.lang.reflect.Array.getLength(java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaî î(.2â
+3java.lang.reflect.Array.getLength(java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaî0 î(G2â
+3java.lang.reflect.Array.getLength(java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaï ï(52ø
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(java.lang.Object, java.lang.Object)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javañ ñ(L2à
+2java.lang.reflect.Array.get(java.lang.Object, int)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javañ ñ(52à
+2java.lang.reflect.Array.get(java.lang.Object, int)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javañ7 ñ(K2«
+qcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaî% î(-2≈
+ocom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaî@ î(F2«
+qcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaï, ï(42«
+qcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javañ) ñ(12≈
+ocom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(java.lang.Object, java.lang.Object)!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javañA ñ(G2a
+voidRETURN_TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì ì(ù
+Wcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])METHODL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö ö(("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*assertByteArrayEquals2ª
+`com.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö) ö(82π
+^com.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö: ö(G2ö
+Dcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaõ õ((2ö
+Dcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaõ* õ(;2∑
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[], byte[])!expectedCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaõ õ('2µ
+_com.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[], byte[])!actualCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaõ4 õ(:2a
+voidRETURN_TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö ö(„
+Dcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])METHODL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû û("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type String*	dumpBytes2•
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytes	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû û()2®
+Kcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])?resultDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaü ü(02£
+Fcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])?iDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java† †(2y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java° °(/2x
+"java.lang.StringBuffer.append(int)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java° °(#2y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¢  ¢(22y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java£ £(12y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java§ §(12y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java• •(12w
+!java.lang.StringBuffer.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaß ß( 2{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaü ü(02†
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java† †(!2†
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java° °(2†
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¢ ¢(2†
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java£ £(2†
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java§ §(2m
+java.lang.StringRETURN_TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû û(©2
+_com.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)METHODL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™ ™(""
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*normalizedXML2æ
+ccom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!xml	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™# ™(32¬
+gcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!matches	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™5 ™(K2…
+ncom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!templateSelect	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´ ´(#2≈
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!sortSelect	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´% ´(<2¬
+ecom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?matchDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¨ ¨(52æ
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?iDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≠ ≠(2¡
+dcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?sortDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≥ ≥(42œ
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?transformerFactoryDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∫! ∫(V2»
+kcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?transformerDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaª Õ(02√
+fcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?writerDECLARATIONL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaŒ Œ(62y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaØ Ø(!2Ö
+/java.lang.StringBuffer.append(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java± ±($2Ö
+/java.lang.StringBuffer.append(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaµ µ(%2Ö
+/java.lang.StringBuffer.append(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∂ ∂(#2y
+#java.lang.StringBuffer.append(char)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∑ ∑(2ä
+4javax.xml.transform.TransformerFactory.newInstance()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∫6 ∫(V2ß
+Qjavax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaª( Õ(02w
+!java.lang.StringBuffer.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¡5 ¡(E2w
+!java.lang.StringBuffer.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaƒ; ƒ(J2∑
+ajavax.xml.transform.Transformer.transform(javax.xml.transform.Source, javax.xml.transform.Result)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaœ –(Y2u
+java.io.StringWriter.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java— —( 2{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¨# ¨(52{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≥" ≥(42ö
+Djavax.xml.transform.stream.StreamSource.StreamSource(java.io.Reader)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaº Õ(/2â
+3java.io.StringReader.StringReader(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaΩ Õ(.2y
+#java.io.StringWriter.StringWriter()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaŒ$ Œ(62ö
+Djavax.xml.transform.stream.StreamSource.StreamSource(java.io.Reader)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java– –(>2â
+3java.io.StringReader.StringReader(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java–( –(=2ö
+Djavax.xml.transform.stream.StreamResult.StreamResult(java.io.Writer)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java–@ –(X2È
+ícom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!matchesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≠ ≠(#2È
+ícom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!matchesCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java± ±( 2Ï
+ïcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!sortSelectCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¥ ¥(2Ï
+ïcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!sortSelectCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∂ ∂("2
+ôcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!templateSelectCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java√H √(V2Â
+écom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!xmlCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java–9 –(<2m
+java.lang.StringRETURN_TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´E ´(Yπ
+tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;5 ;(9*root2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;. ;(4∑
+scom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!xml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;B ;(E*xml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;; ;(Aª
+ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!match	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;T ;(Y*match2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java;M ;(SÕ
+~com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!templateSelect	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java< <(#*templateSelect2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java< <(≈
+zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)!sortSelect	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java<2 <(<*
+sortSelect2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java<+ <(1ö
+Ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT+ T(/*root2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT$ T(*ò
+Tcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)!xml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT8 T(;*xml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaT1 T(7û
+Ycom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad2 d(6*root2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javad+ d(1¨
+gcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao6 o(:*root2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao/ o(5Æ
+hcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!inXml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaoC o(H*inXml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javao< o(B∞
+icom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)!outXml	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaoQ o(W*outXml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaoJ o(Pä
+Ecom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(Object)!root	PARAMETERJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz" z(&*root2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaz z(!™
+]com.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ- Å(5*expected2f
+java.lang.ObjectTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ& Å(,¶
+[com.thoughtworks.acceptance.AbstractAcceptanceTest.assertObjectsEqual(Object,Object)!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ> Å(D*actual2f
+java.lang.ObjectTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaÅ7 Å(=©
+\com.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì, ì(4*expected2f
+java.lang.ObjectTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì% ì(+•
+Zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì= ì(C*actual2f
+java.lang.ObjectTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaì6 ì(<£
+`com.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])!expected	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö. ö(8*expected2\
+byte[]TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö) ö(8ü
+^com.thoughtworks.acceptance.AbstractAcceptanceTest.assertByteArrayEquals(byte[],byte[])!actual	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö? ö(G*actual2\
+byte[]TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaö: ö(Gä
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])!bytes	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû" û()*bytes2\
+byte[]TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaû û()´
+ccom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!xml	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™0 ™(3*xml2f
+java.lang.StringTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™) ™(/µ
+gcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!matches	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™D ™(K*matches2h
+java.lang.String[]TYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java™; ™(C¡
+ncom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!templateSelect	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´ ´(#*templateSelect2f
+java.lang.StringTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´ ´(π
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)!sortSelect	PARAMETERL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´2 ´(<*
+sortSelect2f
+java.lang.StringTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java´+ ´(1ü
+Hcom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()?driverVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java, ,("
+type String*driver2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java, ,(ò
+Fcom.thoughtworks.acceptance.AbstractAcceptanceTest.createDriver()?typeVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java1 1("
+type Class*type2c
+java.lang.ClassTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java1 1(2}
+)java.lang.Class.forName(java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java1 1(2Ô
+ycom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)?resultXmlVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java? ?("
+type String*	resultXml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java? ?(2ﬂ
+äcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java? @(M2û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@ @(2ˇ
+™com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@ @(2Ä
+´com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!matchCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@* @(/2â
+¥com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!templateSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@2 @(@2Ö
+∞com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!sortSelectCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java@B @(LÊ
+zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWaysNormalized(Object,String,String,String,String)?resultRootVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaF F("
+type Object*
+resultRoot2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaF F(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaF  F('ñ
+Zcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)?resultXmlVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW W("
+type String*	resultXml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW W(2û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW W(&2æ
+jcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(java.lang.Object, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaW! W(%«
+[com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBothWays(Object,String)?resultRootVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java[ [("
+type Object*
+resultRoot2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java[ [(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java[ [(#Ê
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?outputStreamVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaf f(*"
+type ByteArrayOutputStream*outputStream2q
+java.io.ByteArrayOutputStreamTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaf f(2â
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaf- f(HÁ
+`com.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?inputStreamVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaj j(("
+type ByteArrayInputStream*inputStream2p
+java.io.ByteArrayInputStreamTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaj j(2
++java.io.ByteArrayOutputStream.toByteArray()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javajD j(^2ç
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaj+ j(_œ
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.assertBinarySerialization(Object)?binaryResultVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javak k("
+type Object*binaryResult2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javak k(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javak k(%∆
+lcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)?resultXmlVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap p("
+type String*	resultXml2d
+java.lang.StringTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap p(2û
+Jcom.thoughtworks.acceptance.AbstractAcceptanceTest.toXML(java.lang.Object)CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap p(&2‹
+ácom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!rootCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javap! p(%π
+mcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(Object,String,String)?resultRootVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar r("
+type Object*
+resultRoot2d
+java.lang.ObjectTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar r(2é
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar r(#2›
+àcom.thoughtworks.acceptance.AbstractAcceptanceTest.assertWithAsymmetricalXml(java.lang.Object, java.lang.String, java.lang.String)!inXmlCALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javar, r(1õ
+Ucom.thoughtworks.acceptance.AbstractAcceptanceTest.assertArrayEquals(Object,Object)?iVARIABLEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaï ï("
+type int*i2Y
+intTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaï ï(Ø
+Kcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])?resultVARIABLEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaü ü("
+type StringBuffer*result2l
+java.lang.StringBufferTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaü ü(2{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaü ü(0å
+Fcom.thoughtworks.acceptance.AbstractAcceptanceTest.dumpBytes(byte[])?iVARIABLEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java† †("
+type int*i2Y
+intTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java† †(≈
+ecom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?matchVALUEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¨ ¨( "
+type StringBuffer*match2l
+java.lang.StringBufferTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¨ ¨(2{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¨# ¨(5ß
+acom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?iVARIABLEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≠ ≠("
+type int*i2Y
+intTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≠ ≠(√
+dcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?sortVALUEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≥ ≥("
+type StringBuffer*sort2l
+java.lang.StringBufferTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≥ ≥(2{
+%java.lang.StringBuffer.StringBuffer()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java≥" ≥(4Ö
+rcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?transformerFactoryVALUEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∫! ∫(3"
+type TransformerFactory*transformerFactory2|
+&javax.xml.transform.TransformerFactoryTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∫ ∫( 2ä
+4javax.xml.transform.TransformerFactory.newInstance()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java∫6 ∫(Vî
+
+kcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?transformerVALUEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaª ª(%"
+type Transformer*transformer2u
+javax.xml.transform.TransformerTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaª ª(2ß
+Qjavax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaª( Õ(02w
+!java.lang.StringBuffer.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java¡5 ¡(E2w
+!java.lang.StringBuffer.toString()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaƒ; ƒ(J2ö
+Djavax.xml.transform.stream.StreamSource.StreamSource(java.io.Reader)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaº Õ(/2â
+3java.io.StringReader.StringReader(java.lang.String)CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaΩ Õ(.2
+ôcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(java.lang.String, java.lang.String[], java.lang.String, java.lang.String)!templateSelectCALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java√H √(V√
+fcom.thoughtworks.acceptance.AbstractAcceptanceTest.normalizedXML(String,String[],String,String)?writerVALUEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaŒ Œ(!"
+type StringWriter*writer2j
+java.io.StringWriterTYPEL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaŒ Œ(2y
+#java.io.StringWriter.StringWriter()CALLL
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.javaŒ$ Œ(6£
+:com.thoughtworks.acceptance.AbstractAcceptanceTest?xstreamVARIABLEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java$  $('"
+type XStream*xstream2[
+XStreamTYPEJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java$ $(2ñ
+Bcom.thoughtworks.acceptance.AbstractAcceptanceTest.createXStream()CALLJ
+@src/test/com/thoughtworks/acceptance/AbstractAcceptanceTest.java$* $(9

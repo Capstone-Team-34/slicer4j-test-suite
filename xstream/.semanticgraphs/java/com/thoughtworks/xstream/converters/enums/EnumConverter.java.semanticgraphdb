@@ -1,0 +1,96 @@
+
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.javañ
+7com.thoughtworks.xstream.converters.enums.EnumConverterCLASSO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java ("
+inner classfalse*EnumConverter2©
+Icom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(Class)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java  "(2Ó
+scom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ &(2Ð
+pcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java( /(2d
+	ConverterEXTENDO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java& (/š	
+Icom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(Class)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java   ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¬
+Ncom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(Class)!type	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java   ((2q
+java.lang.Class.isEnum()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java! !(2¦
+Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java!  !(A2±
+Xcom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(java.lang.Class)!typeCALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java! !(2±
+Xcom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(java.lang.Class)!typeCALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java!< !(@2g
+booleanRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java   (Š	
+scom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ $("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2Ø
+zcom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ $(%2Ø
+zcom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$' $(F2Ù
+{com.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$H $(b2n
+java.lang.Enum.name()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java% %(.2d
+voidRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ $(’
+
+pcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java) )("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Õ
+wcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java) )(;2Ö
+xcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java)= )(Y2Õ
+ucom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?typeDECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java* *(.2x
+java.lang.Class.getSuperclass()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java+ +( 2x
+java.lang.Class.getSuperclass()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java, ,('2p
+java.lang.ObjectRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java) )(œ
+Ncom.thoughtworks.xstream.converters.enums.EnumConverter.canConvert(Class)!type	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java $  ((*type2h
+java.lang.ClassTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java   (#Ë
+zcom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ $(%*source2i
+java.lang.ObjectTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$ $(Ó
+zcom.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$@ $(F*writer2q
+HierarchicalStreamWriterTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$' $(?Ï
+{com.thoughtworks.xstream.converters.enums.EnumConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$[ $(b*context2k
+MarshallingContextTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java$H $(ZÐ
+wcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java)5 )(;*reader2q
+HierarchicalStreamReaderTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java) )(4Î
+xcom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java)R )(Y*context2m
+UnmarshallingContextTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java)= )(QÒ
+ucom.thoughtworks.xstream.converters.enums.EnumConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?typeVARIABLEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java* *("
+type Class*type2h
+java.lang.ClassTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/enums/EnumConverter.java* *(

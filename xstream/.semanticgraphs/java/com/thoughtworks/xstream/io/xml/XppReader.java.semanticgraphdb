@@ -1,0 +1,258 @@
+
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java¶
+)com.thoughtworks.xstream.io.xml.XppReaderCLASSA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java ("
+inner classfalse*	XppReader2ä
+8com.thoughtworks.xstream.io.xml.XppReader.createParser()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java\ h(2ã
+9com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaj (2è
+;com.thoughtworks.xstream.io.xml.XppReader.pullElementName()DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÅ É(2à
+4com.thoughtworks.xstream.io.xml.XppReader.pullText()DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÖ á(2í
+>com.thoughtworks.xstream.io.xml.XppReader.getAttribute(String)DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ ã(2è
+;com.thoughtworks.xstream.io.xml.XppReader.getAttribute(int)DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç è(2ë
+=com.thoughtworks.xstream.io.xml.XppReader.getAttributeCount()DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaë ì(2ì
+?com.thoughtworks.xstream.io.xml.XppReader.getAttributeName(int)DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï ó(2ó
+Ccom.thoughtworks.xstream.io.xml.XppReader.appendErrors(ErrorWriter)DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô õ(2Ö
+1com.thoughtworks.xstream.io.xml.XppReader.close()DECLARATIONC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaù £(2õ
+Icom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) +(2•
+Scom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 ?(2ç
+;com.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD F(2°
+Ocom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL V(2Ç
+0com.thoughtworks.xstream.io.xml.XppReader?parserDECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java  (&2Ç
+0com.thoughtworks.xstream.io.xml.XppReader?readerDECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java   (2_
+AbstractPullReaderEXTENDA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java (1È
+Icom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)CONSTRUCTORA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) )(*	XppReader2†
+Pcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) )("2†
+Pcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)!parser	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java)$ )(82{
+)com.thoughtworks.xstream.io.xml.XppReaderRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) )(∑
+Scom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)CONSTRUCTORA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 5(*	XppReader2™
+Zcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 5("2™
+Zcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!parser	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5$ 5(82≠
+]com.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!nameCoder	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5: 5(M2{
+)com.thoughtworks.xstream.io.xml.XppReaderRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 5(¬
+;com.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader)CONSTRUCTORA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD D(*	XppReader2í
+Bcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD D("2ï
+Jcom.thoughtworks.xstream.io.xml.XppReader.XppReader(java.io.Reader)!readerCALLA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaE E(2{
+)com.thoughtworks.xstream.io.xml.XppReaderRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD D(˝
+Ocom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)CONSTRUCTORA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL L(*	XppReader2¶
+Vcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL L("2®
+Xcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)!replacer	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL$ L(@2É
+8com.thoughtworks.xstream.io.xml.XppReader.createParser()CALLA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaO O(#2{
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaO O(2{
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaQ Q(2{
+)com.thoughtworks.xstream.io.xml.XppReaderRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL L(É
+Pcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) )("*reader2Y
+java.io.ReaderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java) )(Ç
+Pcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser)!parser	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java)2 )(8*parser2X
+XmlPullParserTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java)$ )(1ç
+Zcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 5("*reader2Y
+java.io.ReaderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5 5(å
+Zcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!parser	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java52 5(8*parser2X
+XmlPullParserTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5$ 5(1é
+]com.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlPullParser,NameCoder)!nameCoder	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5D 5(M*	nameCoder2T
+	NameCoderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java5: 5(Cı
+Bcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD D("*reader2Y
+java.io.ReaderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaD D(â
+Vcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)!reader	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL L("*reader2Y
+java.io.ReaderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL L(í
+Xcom.thoughtworks.xstream.io.xml.XppReader.XppReader(Reader,XmlFriendlyReplacer)!replacer	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL8 L(@*replacer2^
+XmlFriendlyReplacerTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaL$ L(7‚
+8com.thoughtworks.xstream.io.xml.XppReader.createParser()METHODA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java\ \(("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type XmlPullParser*createParser2î
+Bcom.thoughtworks.xstream.io.xml.XppReader.createParser()?exceptionDECLARATIONA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java] ]("2_
+XmlPullParserRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java\ \(∂
+9com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent()METHODA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaj j("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type int*pullNextEvent2{
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javal l(2U
+intRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaj j(–
+;com.thoughtworks.xstream.io.xml.XppReader.pullElementName()METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÅ Å($"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*pullElementName2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÇ Ç(2d
+java.lang.StringRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÅ Å(¬
+4com.thoughtworks.xstream.io.xml.XppReader.pullText()METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÖ Ö("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*pullText2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÜ Ü(2d
+java.lang.StringRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaÖ Ö(Ç
+>com.thoughtworks.xstream.io.xml.XppReader.getAttribute(String)METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ â("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ï
+Ccom.thoughtworks.xstream.io.xml.XppReader.getAttribute(String)!name	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ â(*2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaä ä(2ö
+Mcom.thoughtworks.xstream.io.xml.XppReader.getAttribute(java.lang.String)!nameCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaä> ä(B2d
+java.lang.StringRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ â(Ò
+;com.thoughtworks.xstream.io.xml.XppReader.getAttribute(int)METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç ç("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ì
+Acom.thoughtworks.xstream.io.xml.XppReader.getAttribute(int)!index	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç ç((2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaé é(2é
+Acom.thoughtworks.xstream.io.xml.XppReader.getAttribute(int)!indexCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaé( é(-2d
+java.lang.StringRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç ç(¡
+=com.thoughtworks.xstream.io.xml.XppReader.getAttributeCount()METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaë ë( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getAttributeCount2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaí í(2W
+intRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaë ë(Å
+?com.thoughtworks.xstream.io.xml.XppReader.getAttributeName(int)METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï ï(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttributeName2ó
+Ecom.thoughtworks.xstream.io.xml.XppReader.getAttributeName(int)!index	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï# ï(,2}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javañ ñ(%2í
+Ecom.thoughtworks.xstream.io.xml.XppReader.getAttributeName(int)!indexCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javañ7 ñ(<2d
+java.lang.StringRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï ï(Ë
+Ccom.thoughtworks.xstream.io.xml.XppReader.appendErrors(ErrorWriter)METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô ô("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*appendErrors2°
+Ocom.thoughtworks.xstream.io.xml.XppReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô ô(42}
+0com.thoughtworks.xstream.io.xml.XppReader?parserCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaö6 ö(<2X
+voidRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô ô(ê
+1com.thoughtworks.xstream.io.xml.XppReader.close()METHODC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaù ù("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*close2c
+java.io.Reader.close()CALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaü ü(2}
+0com.thoughtworks.xstream.io.xml.XppReader?readerCALLC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaü ü(2X
+voidRETURN_TYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaù ù(˙
+Ccom.thoughtworks.xstream.io.xml.XppReader.getAttribute(String)!name	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ& â(**name2]
+java.lang.StringTYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaâ â(%Ï
+Acom.thoughtworks.xstream.io.xml.XppReader.getAttribute(int)!index	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç# ç((*index2P
+intTYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaç ç("
+Ecom.thoughtworks.xstream.io.xml.XppReader.getAttributeName(int)!index	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï' ï(,*index2P
+intTYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaï# ï(&à
+Ocom.thoughtworks.xstream.io.xml.XppReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô) ô(4*errorWriter2X
+ErrorWriterTYPEC
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.javaô ô((ê
+Bcom.thoughtworks.xstream.io.xml.XppReader.createParser()?exceptionVARIABLEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java] ]("
+type 	Exception*	exception2^
+java.lang.ExceptionTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java] ](ˆ
+0com.thoughtworks.xstream.io.xml.XppReader?parserVALUEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java  (&"
+type XmlPullParser*parser2X
+XmlPullParserTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java (
+0com.thoughtworks.xstream.io.xml.XppReader?readerVALUEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java   ("
+type Reader*reader2Y
+java.io.ReaderTYPEA
+7src/java/com/thoughtworks/xstream/io/xml/XppReader.java   (

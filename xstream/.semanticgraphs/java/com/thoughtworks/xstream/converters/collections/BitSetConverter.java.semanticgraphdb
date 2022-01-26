@@ -1,0 +1,157 @@
+
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java»
+?com.thoughtworks.xstream.converters.collections.BitSetConverterCLASSW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java ("
+inner classfalse*BitSetConverter2¹
+Qcom.thoughtworks.xstream.converters.collections.BitSetConverter.canConvert(Class)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java  (2ã
+{com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" 1(2à
+xcom.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3 ;(2l
+	ConverterEXTENDW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java( (1
+Qcom.thoughtworks.xstream.converters.collections.BitSetConverter.canConvert(Class)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¼
+Vcom.thoughtworks.xstream.converters.collections.BitSetConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java ((2Š
+)java.lang.Object.equals(java.lang.Object)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java ((2Á
+`com.thoughtworks.xstream.converters.collections.BitSetConverter.canConvert(java.lang.Class)!typeCALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java (2o
+booleanRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java (­
+{com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" "("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2é
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" "(%2é
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"' "(F2ê
+ƒcom.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"H "(b2ë
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?bitSetDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java# #('2ë
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?bufferDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ $(02î
+…com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?seenFirstDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java% %(!2å
+}com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java& &(2z
+java.util.BitSet.length()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java& &(+2z
+java.util.BitSet.get(int)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java' '(2„
+#java.lang.StringBuffer.append(char)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java) )(&2ƒ
+"java.lang.StringBuffer.append(int)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java- -( 2‚
+!java.lang.StringBuffer.toString()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java0 0()2†
+%java.lang.StringBuffer.StringBuffer()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ $(02l
+voidRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" "(Þ
+xcom.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3 3("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2å
+com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3 3(;2ç
+€com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3= 3(Y2ç
+com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?resultDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java4 4($2ë
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?tokenizerDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java5 5(V2æ
+~com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?indexDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7 7(?2Š
+)java.util.StringTokenizer.hasMoreTokens()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java6 6((2
+,java.lang.Integer.parseInt(java.lang.String)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7 7(?2†
+%java.util.StringTokenizer.nextToken()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7) 7(>2z
+java.util.BitSet.set(int)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java8 8(2z
+java.util.BitSet.BitSet()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java4 4($2x
+java.lang.ObjectRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3 3(´
+Vcom.thoughtworks.xstream.converters.collections.BitSetConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ ((*type2p
+java.lang.ClassTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java (#ä
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" "(%*source2q
+java.lang.ObjectTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java" "(ì
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"@ "(F*writer2y
+HierarchicalStreamWriterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"' "(?è
+ƒcom.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"[ "(b*context2s
+MarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java"H "(Zè
+com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java35 3(;*reader2y
+HierarchicalStreamReaderTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3 3(4ç
+€com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3R 3(Y*context2u
+UnmarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java3= 3(Qô
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?bitSetVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java# #("
+type BitSet*bitSet2q
+java.util.BitSetTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java# #(‰
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?bufferVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ $("
+type StringBuffer*buffer2w
+java.lang.StringBufferTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ $(2†
+%java.lang.StringBuffer.StringBuffer()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java$ $(0ò
+…com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?seenFirstVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java% %("
+type boolean*	seenFirst2h
+booleanTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java% %(Ù
+}com.thoughtworks.xstream.converters.collections.BitSetConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java& &("
+type int*i2d
+intTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java& &(ì
+com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?resultVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java4 4("
+type BitSet*result2q
+java.util.BitSetTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java4 4(2z
+java.util.BitSet.BitSet()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java4 4($‰
+‚com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?tokenizerVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java5 5(!"
+type StringTokenizer*	tokenizer2z
+java.util.StringTokenizerTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java5 5(÷
+~com.thoughtworks.xstream.converters.collections.BitSetConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?indexVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7 7("
+type int*index2d
+intTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7 7(2
+,java.lang.Integer.parseInt(java.lang.String)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7 7(?2†
+%java.util.StringTokenizer.nextToken()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/collections/BitSetConverter.java7) 7(>

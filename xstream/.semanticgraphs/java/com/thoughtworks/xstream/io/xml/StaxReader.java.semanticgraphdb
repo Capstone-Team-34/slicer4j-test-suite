@@ -1,0 +1,262 @@
+
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java¥
+*com.thoughtworks.xstream.io.xml.StaxReaderCLASSB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java ("
+inner classfalse*
+StaxReader2ç
+:com.thoughtworks.xstream.io.xml.StaxReader.pullNextEvent()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java7 J(2è
+<com.thoughtworks.xstream.io.xml.StaxReader.pullElementName()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaL P(2à
+5com.thoughtworks.xstream.io.xml.StaxReader.pullText()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaR T(2í
+?com.thoughtworks.xstream.io.xml.StaxReader.getAttribute(String)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV X(2è
+<com.thoughtworks.xstream.io.xml.StaxReader.getAttribute(int)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ \(2ë
+>com.thoughtworks.xstream.io.xml.StaxReader.getAttributeCount()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java^ `(2ì
+@com.thoughtworks.xstream.io.xml.StaxReader.getAttributeName(int)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab d(2ó
+Dcom.thoughtworks.xstream.io.xml.StaxReader.appendErrors(ErrorWriter)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf h(2Ö
+2com.thoughtworks.xstream.io.xml.StaxReader.close()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaj p(2¢
+Ocom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! #(2¨
+Ycom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( -(2∂
+ccom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 5(2Ü
+3com.thoughtworks.xstream.io.xml.StaxReader?qnameMapDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java (#2Ä
+-com.thoughtworks.xstream.io.xml.StaxReader?inDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java" ($2`
+AbstractPullReaderEXTENDB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java  (2ˇ
+Ocom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! !(*
+StaxReader2©
+Xcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! !('2£
+Rcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java!) !(;2}
+*com.thoughtworks.xstream.io.xml.StaxReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! !(”
+Ycom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( ((*
+StaxReader2≥
+bcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( (('2≠
+\com.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java() ((;2≥
+bcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java(= ((O2}
+*com.thoughtworks.xstream.io.xml.StaxReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( ((˚
+ccom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 3(*
+StaxReader2Ω
+lcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 3('2∑
+fcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3) 3(;2Ω
+lcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3= 3(Y2}
+*com.thoughtworks.xstream.io.xml.StaxReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 3(â
+Xcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! !('*qnameMap2T
+QNameMapTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java! !(ï
+Rcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java!9 !(;*in2l
+ javax.xml.stream.XMLStreamReaderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java!) !(8ì
+bcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( (('*qnameMap2T
+QNameMapTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java( ((ü
+\com.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java(9 ((;*in2l
+ javax.xml.stream.XMLStreamReaderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java() ((8î
+bcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,NameCoder)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java(G ((O*replacer2U
+	NameCoderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java(= ((Fù
+lcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!qnameMap	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 3('*qnameMap2T
+QNameMapTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3 3(©
+fcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java39 3(;*in2l
+ javax.xml.stream.XMLStreamReaderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3) 3(8®
+lcom.thoughtworks.xstream.io.xml.StaxReader.StaxReader(QNameMap,XMLStreamReader,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3Q 3(Y*replacer2_
+XmlFriendlyReplacerTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java3= 3(P¨
+:com.thoughtworks.xstream.io.xml.StaxReader.pullNextEvent()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java7 7("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type int*pullNextEvent2s
+'javax.xml.stream.XMLStreamReader.next()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java9 9(2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java9 9(2V
+intRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java7 7(‹
+<com.thoughtworks.xstream.io.xml.StaxReader.pullElementName()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaL L($"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*pullElementName2ï
+Bcom.thoughtworks.xstream.io.xml.StaxReader.pullElementName()?qnameDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N("2v
+*javax.xml.stream.XMLStreamReader.getName()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N("2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N(2
+3com.thoughtworks.xstream.io.xml.StaxReader?qnameMapCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaO O(2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaL L(µ
+5com.thoughtworks.xstream.io.xml.StaxReader.pullText()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaR R("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*pullText2v
+*javax.xml.stream.XMLStreamReader.getText()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaS S(2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaS S(2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaR R(˝
+?com.thoughtworks.xstream.io.xml.StaxReader.getAttribute(String)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV V("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ï
+Dcom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV V(*2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaW W(2ö
+Ncom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaW: W(>2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV V(Ú
+<com.thoughtworks.xstream.io.xml.StaxReader.getAttribute(int)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ Z("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ì
+Bcom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ Z((2É
+7javax.xml.stream.XMLStreamReader.getAttributeValue(int)CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java[ [(*2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java[ [(2é
+Bcom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(int)!indexCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java[$ [()2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ Z(ø
+>com.thoughtworks.xstream.io.xml.StaxReader.getAttributeCount()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java^ ^( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getAttributeCount2Ä
+4javax.xml.stream.XMLStreamReader.getAttributeCount()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java_ _(%2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java_ _(2V
+intRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java^ ^(Ü
+@com.thoughtworks.xstream.io.xml.StaxReader.getAttributeName(int)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab b(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttributeName2ó
+Fcom.thoughtworks.xstream.io.xml.StaxReader.getAttributeName(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab# b(,2á
+;javax.xml.stream.XMLStreamReader.getAttributeLocalName(int)CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javac c(>2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javac c(!2í
+Fcom.thoughtworks.xstream.io.xml.StaxReader.getAttributeName(int)!indexCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javac8 c(=2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab b(¡
+Dcom.thoughtworks.xstream.io.xml.StaxReader.appendErrors(ErrorWriter)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf f("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*appendErrors2°
+Pcom.thoughtworks.xstream.io.xml.StaxReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf f(42i
+java.lang.String.valueOf(int)CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javag' g(W2u
+)javax.xml.stream.Location.getLineNumber()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javag6 g(V2z
+.javax.xml.stream.XMLStreamReader.getLocation()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javag6 g(F2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javag6 g(82W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf f(ú
+2com.thoughtworks.xstream.io.xml.StaxReader.close()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaj j("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*close2t
+(javax.xml.stream.XMLStreamReader.close()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javal l(2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javal l(2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaj j(˘
+Dcom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV& V(**name2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaV V(%Î
+Bcom.thoughtworks.xstream.io.xml.StaxReader.getAttribute(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ# Z((*index2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaZ Z("Ô
+Fcom.thoughtworks.xstream.io.xml.StaxReader.getAttributeName(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab' b(,*index2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javab# b(&á
+Pcom.thoughtworks.xstream.io.xml.StaxReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf) f(4*errorWriter2W
+ErrorWriterTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaf f((É
+Bcom.thoughtworks.xstream.io.xml.StaxReader.pullElementName()?qnameVARIABLEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N("
+type QName*qname2e
+javax.xml.namespace.QNameTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N(2v
+*javax.xml.stream.XMLStreamReader.getName()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N("2y
+-com.thoughtworks.xstream.io.xml.StaxReader?inCALLB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.javaN N(Û
+3com.thoughtworks.xstream.io.xml.StaxReader?qnameMapVALUEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java (#"
+type QNameMap*qnameMap2T
+QNameMapTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java (Ü
+-com.thoughtworks.xstream.io.xml.StaxReader?inVALUEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java" ($"
+type XMLStreamReader*in2l
+ javax.xml.stream.XMLStreamReaderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/StaxReader.java (!

@@ -1,0 +1,503 @@
+
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java·
+5com.thoughtworks.xstream.core.util.ObjectIdDictionaryCLASSM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java ("
+inner classfalse*ObjectIdDictionary2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! !(2¢
+Dcom.thoughtworks.xstream.core.util.ObjectIdDictionary.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(#2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java# #(2™
+;com.thoughtworks.xstream.core.util.ObjectIdDictionary.get()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java$ $(2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java1 3(	2¢
+Dcom.thoughtworks.xstream.core.util.ObjectIdDictionary.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 7(	2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java9 ;(	2™
+;com.thoughtworks.xstream.core.util.ObjectIdDictionary.get()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java= ?(	2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaK M(	2¢
+Dcom.thoughtworks.xstream.core.util.ObjectIdDictionary.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO Q(	2ž
+@com.thoughtworks.xstream.core.util.ObjectIdDictionary.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaS V(	2®
+Pcom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY \(2¤
+Fcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^ a(2¦
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac f(2¤
+Fcom.thoughtworks.xstream.core.util.ObjectIdDictionary.removeId(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah k(2š
+<com.thoughtworks.xstream.core.util.ObjectIdDictionary.size()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javam p(2
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javar x(2¥
+Gcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, /(	2©
+Kcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF I(	2—
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java ()2™
+;com.thoughtworks.xstream.core.util.ObjectIdDictionary?queueDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! (=2¡
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapperDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaB W(Ÿ
+Ucom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java,  ,(#*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, ,(§
+]com.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF$ F('*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF F(#¨
+Pcom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY Y("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*associateId2°
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY Y(&2¯
+Scom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)!id	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY( Y(12n
+java.util.Map.put(K, V)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaZ Z(+2–
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java[ [(2º
+ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaZ Z(&2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaZ Z(2À
+icom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(java.lang.Object, java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaZ" Z(%2¿
+hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(java.lang.Object, java.lang.Object)!idCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaZ( Z(*2b
+voidRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY Y(«
+
+Fcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^ ^("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*lookupId2¦
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^ ^(%2§
+Icom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)?idDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(/2z
+#java.util.Map.get(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(/2²
+[com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(.2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(2«
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_* _(-2n
+java.lang.ObjectRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^ ^(·
+
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac c("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+containsId2©
+Mcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)!item	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac c()2¨
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)?bDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(82‚
++java.util.Map.containsKey(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(82²
+[com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad$ d(72
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(2®
+Wcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(java.lang.Object)!itemCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad2 d(62e
+booleanRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac c(‘
+
+Fcom.thoughtworks.xstream.core.util.ObjectIdDictionary.removeId(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah h("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*removeId2§
+Kcom.thoughtworks.xstream.core.util.ObjectIdDictionary.removeId(Object)!item	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah h($2}
+&java.util.Map.remove(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javai i('2–
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaj j(2²
+[com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javai i(&2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javai i(2¬
+Ucom.thoughtworks.xstream.core.util.ObjectIdDictionary.removeId(java.lang.Object)!itemCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javai! i(%2b
+voidRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah h(á
+<com.thoughtworks.xstream.core.util.ObjectIdDictionary.size()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javam m("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*size2–
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javan n(2k
+java.util.Map.size()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javao o(2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javao o(2a
+intRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javam m(œ
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javar r("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*cleanup2¥
+Gcom.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()?wrapperDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javas s(2z
+#java.lang.ref.ReferenceQueue.poll()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javat) t(52}
+&java.util.Map.remove(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javav v(2’
+;com.thoughtworks.xstream.core.util.ObjectIdDictionary?queueCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javat) t(.2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javav v(2b
+voidRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javar r(š
+Pcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.equals(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(!*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "( 
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5% 5(**other2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 5($¤
+Xcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO% O(**other2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO O($ž
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY# Y(&*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY Y("œ
+Scom.thoughtworks.xstream.core.util.ObjectIdDictionary.associateId(Object,Object)!id	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY/ Y(1*id2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaY( Y(.”
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^" ^(%*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java^ ^(!˜
+Mcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)!item	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac% c()*item2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javac c($–
+Kcom.thoughtworks.xstream.core.util.ObjectIdDictionary.removeId(Object)!item	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah  h($*item2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javah h(¢
+Rcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.toString()?objVARIABLEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T("
+type Object*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(2t
+java.lang.ref.Reference.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(”
+Icom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(Object)?idVARIABLEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _("
+type Object*id2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(2z
+#java.util.Map.get(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(/2²
+[com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(.2
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_ _(2«
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.lookupId(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java_* _(-˜
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(Object)?bVARIABLEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d("
+type boolean*b2^
+booleanTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(2‚
++java.util.Map.containsKey(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(82²
+[com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad$ d(72
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad d(2®
+Wcom.thoughtworks.xstream.core.util.ObjectIdDictionary.containsId(java.lang.Object)!itemCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javad2 d(6à
+Gcom.thoughtworks.xstream.core.util.ObjectIdDictionary.cleanup()?wrapperVARIABLEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javas s("
+type WeakIdWrapper*wrapper2š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapperTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javas s(þ
+9com.thoughtworks.xstream.core.util.ObjectIdDictionary?mapVALUEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java ("
+type Map*map2d
+java.util.MapTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java (2r
+java.util.HashMap.HashMap()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java ()¯
+;com.thoughtworks.xstream.core.util.ObjectIdDictionary?queueVALUEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! (&"
+type ReferenceQueue*queue2s
+java.lang.ref.ReferenceQueueTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java ( 2„
+-java.lang.ref.ReferenceQueue.ReferenceQueue()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java) (=×
+=com.thoughtworks.xstream.core.util.ObjectIdDictionary.WrapperTRAITM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java   ($"
+inner classfalse*Wrapper2¦
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! !(2ª
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(#2¦
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java# #(2¡
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.get()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java$ $(á
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.hashCode()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! !("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type int*hashCode2a
+intRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java! !(š
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.equals(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type boolean*equals2¬
+Pcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.equals(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(!2e
+booleanRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(ñ
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.toString()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java# #("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type String*toString2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java# #(ç
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.get()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java$ $("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Object*get2n
+java.lang.ObjectRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java$ $(š
+Pcom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.equals(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(!*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java" "(û
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapperCLASSM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java' '(""
+inner classfalse*	IdWrapper2¨
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java1 3(	2¬
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 7(	2¨
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java9 ;(	2£
+Ecom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.get()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java= ?(	2¯
+Qcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, /(	2¡
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?objDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java) )( 2¦
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?hashCodeDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java* *("2–
+=com.thoughtworks.xstream.core.util.ObjectIdDictionary.WrapperEXTENDM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java'. '(5¯	
+Qcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(Object)CONSTRUCTORM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, ,(*	IdWrapper2±
+Ucom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, ,(#2Š
+3java.lang.System.identityHashCode(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java- -(32Ÿ
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?hashCodeCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java- -(2¶
+_com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java-/ -(22¶
+_com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java. .(2
+?com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapperRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, ,(Ÿ
+Ucom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.IdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java,  ,(#*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java, ,(ü
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.hashCode()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java1 1("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*hashCode2Ÿ
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?hashCodeCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java2 2(2a
+intRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java1 1(‰
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 5("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2°
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 5(*2š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java6 6(02š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java6 6(2µ
+^com.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(java.lang.Object)!otherCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java6$ 6()2e
+booleanRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 5(û
+Jcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.toString()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java9 9("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*toString2r
+java.lang.Object.toString()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java: :(!2š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java: :(2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java9 9(ý
+Ecom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.get()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java= =("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*get2š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java> >(2n
+java.lang.ObjectRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java= =( 
+Tcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5% 5(**other2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java5 5($š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?objVALUEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java) )( "
+type Object*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java) )(”
+Hcom.thoughtworks.xstream.core.util.ObjectIdDictionary.IdWrapper?hashCodeVALUEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java* *(""
+type int*hashCode2Z
+intTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.java* *(Æ
+
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapperCLASSM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaB B("
+inner classtrue*WeakIdWrapper2¬
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.hashCode()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaK M(	2°
+Rcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO Q(	2¬
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.toString()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaS V(	2·
+Ycom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(Object)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF I(	2ª
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper?hashCodeDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaD D("2–
+=com.thoughtworks.xstream.core.util.ObjectIdDictionary.WrapperEXTENDM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaBA B(H2t
+java.lang.ref.WeakReferenceEXTENDM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaB( B(5Š
+Ycom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(Object)CONSTRUCTORM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF F(*WeakIdWrapper2¹
+]com.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF F('2Š
+3java.lang.System.identityHashCode(java.lang.Object)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaH H(32¬
+Ujava.lang.ref.WeakReference.WeakReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaG G(2¾
+gcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaG G(2£
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper?hashCodeCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaH H(2¾
+gcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(java.lang.Object)!objCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaH/ H(22¡
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapperRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF F(§
+]com.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.WeakIdWrapper(Object)!obj	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF$ F('*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaF F(#„
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.hashCode()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaK K("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*hashCode2£
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper?hashCodeCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaL L(2a
+intRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaK K(î
+Rcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(Object)METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO O("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2´
+Xcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO O(*2t
+java.lang.ref.Reference.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaP P(2š
+Ccom.thoughtworks.xstream.core.util.ObjectIdDictionary.Wrapper.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaP P(22¹
+bcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(java.lang.Object)!otherCALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaP& P(+2e
+booleanRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO O(‹
+Ncom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.toString()METHODM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaS S("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*toString2°
+Rcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.toString()?objDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(2t
+java.lang.ref.Reference.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(2r
+java.lang.Object.toString()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaU, U(:2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaS S(¤
+Xcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.equals(Object)!other	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO% O(**other2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaO O($¢
+Rcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper.toString()?objVARIABLEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T("
+type Object*obj2g
+java.lang.ObjectTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(2t
+java.lang.ref.Reference.get()CALLM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaT T(˜
+Lcom.thoughtworks.xstream.core.util.ObjectIdDictionary.WeakIdWrapper?hashCodeVALUEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaD D(""
+type int*hashCode2Z
+intTYPEM
+Csrc/java/com/thoughtworks/xstream/core/util/ObjectIdDictionary.javaD D(

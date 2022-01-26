@@ -1,0 +1,303 @@
+
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaò
+8com.thoughtworks.xstream.core.util.OrderRetainingMapTestCLASSP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (""
+inner classfalse*OrderRetainingMapTest2ª
+Zcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (2«
+fcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (2∞
+Ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(Iterator)DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java! #(2°
+@com.thoughtworks.xstream.core.util.OrderRetainingMapTest.setUp()DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java% ,(2∂
+Ucom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfKeySet()DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java. 5(2∂
+Ucom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfValues()DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java7 >(2∑
+Vcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntries()DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java@ G(2ƒ
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntriesAfterCopyCtor()DECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaI P(2ù
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (2d
+TestCaseEXTENDP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java+ (3∆
+Zcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (!"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertNextEquals2¬
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)!expected	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java" (12¬
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java3 (D2v
+java.util.Iterator.hasNext()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaS (e2s
+java.util.Iterator.next()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (.2“
+xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)!expectedCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaI (Q2“
+xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaS ([2“
+xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)!expectedCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (2“
+xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java ('2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (’
+fcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (&"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertNextEntryEquals2—
+rcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!expectedKey	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (92”
+tcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!expectedValue	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java; (O2Œ
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaQ (b2Œ
+mcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)?actualDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (62v
+java.util.Iterator.hasNext()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javal (~2s
+java.util.Iterator.next()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (62v
+java.util.Map.Entry.getKey()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java" (12x
+java.util.Map.Entry.getValue()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java$ (52Ì
+ícom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!expectedKeyCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaI (T2Ô
+îcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!expectedValueCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java] (j2Í
+ècom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javal (t2Í
+ècom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (/2Ì
+ícom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!expectedKeyCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java ( 2Ô
+îcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!expectedValueCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java ("2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (›
+Ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(Iterator)METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java! !("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertNoMore2∑
+Xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java! !(/2v
+java.util.Iterator.hasNext()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java"; "(M2º
+bcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java"; "(C2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java! !(°
+@com.thoughtworks.xstream.core.util.OrderRetainingMapTest.setUp()METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java% %("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2q
+java.util.Map.put(K, V)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java( ((2q
+java.util.Map.put(K, V)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java) )(2q
+java.util.Map.put(K, V)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java* *(!2q
+java.util.Map.put(K, V)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java+ +(2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' '(2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java( ((2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java) )(2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java* *(2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java+ +(2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java%" %(+¨
+Ucom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfKeySet()METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java. .(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMaintainsOrderOfKeySet2≈
+dcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfKeySet()?keySetIteratorDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/ /(92r
+java.util.Set.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(92p
+java.util.Map.keySet()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(.2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java0 0(/2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java1 1(/2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java2 2(12…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java3 3(02≥
+Ycom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java4 4($2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(%2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java. .(≥
+Ucom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfValues()METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java7 7(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMaintainsOrderOfValues2≈
+dcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfValues()?valuesIteratorDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8 8(92y
+java.util.Collection.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(92p
+java.util.Map.values()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(.2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java9 9(/2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java: :(/2…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java; ;(12…
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java< <(02≥
+Ycom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java= =($2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(%2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java7 7(ì
+Vcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntries()METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java@ @(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMaintainsOrderOfEntries2»
+gcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntries()?entrySetIteratorDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA A(=2r
+java.util.Set.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A(=2r
+java.util.Map.entrySet()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A(22·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaB B(=2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaC C(=2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaD D(A2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaE E(?2≥
+Ycom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaF F(&2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A('2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java@ @(“
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntriesAfterCopyCtor()METHODP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaI I(8"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*(testMaintainsOrderOfEntriesAfterCopyCtor2’
+tcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntriesAfterCopyCtor()?entrySetIteratorDECLARATIONP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaJ J(T2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaK K(=2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaL L(=2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaM M(A2·
+Ücom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaN N(?2≥
+Ycom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(java.util.Iterator)CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaO O(&2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaJ: J(=2e
+voidRETURN_TYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaI I(∏
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)!expected	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java) (1*expected2j
+java.lang.ObjectTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java" ((∫
+ccom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEquals(Object,Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java< (D*iterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java3 (; 
+rcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!expectedKey	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java. (9*expectedKey2j
+java.lang.ObjectTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (-Œ
+tcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!expectedValue	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaB (O*expectedValue2j
+java.lang.ObjectTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java; (A∆
+ocom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaZ (b*iterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaQ (YØ
+Xcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNoMore(Iterator)!iterator	PARAMETERP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java!' !(/*iterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java! !(&∏
+mcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(Object,Object,Iterator)?actualVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java ("
+type 	Map.Entry*actual2m
+java.util.Map.EntryTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (2s
+java.util.Iterator.next()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (62Í
+ècom.thoughtworks.xstream.core.util.OrderRetainingMapTest.assertNextEntryEquals(java.lang.Object, java.lang.Object, java.util.Iterator)!iteratorCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java' (/“
+dcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfKeySet()?keySetIteratorVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/ /("
+type Iterator*keySetIterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/ /(2r
+java.util.Set.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(92p
+java.util.Map.keySet()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(.2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java/" /(%Ÿ
+dcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfValues()?valuesIteratorVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8 8("
+type Iterator*valuesIterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8 8(2y
+java.util.Collection.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(92p
+java.util.Map.values()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(.2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java8" 8(%Ÿ
+gcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntries()?entrySetIteratorVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA A(!"
+type Iterator*entrySetIterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA A(2r
+java.util.Set.iterator()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A(=2r
+java.util.Map.entrySet()CALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A(22ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaA$ A('˛
+tcom.thoughtworks.xstream.core.util.OrderRetainingMapTest.testMaintainsOrderOfEntriesAfterCopyCtor()?entrySetIteratorVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaJ J(!"
+type Iterator*entrySetIterator2l
+java.util.IteratorTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaJ J(2ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapCALLP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.javaJ: J(=ñ
+<com.thoughtworks.xstream.core.util.OrderRetainingMapTest?mapVARIABLEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java ("
+type Map*map2g
+java.util.MapTYPEP
+Fsrc/test/com/thoughtworks/xstream/core/util/OrderRetainingMapTest.java (

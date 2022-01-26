@@ -1,0 +1,115 @@
+
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.javaÁ
+
+?com.thoughtworks.xstream.converters.extended.ThrowableConverterCLASSW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java ("
+inner classfalse*ThrowableConverter2¹
+Qcom.thoughtworks.xstream.converters.extended.ThrowableConverter.canConvert(Class)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java! #(2ã
+{com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% 0(2à
+xcom.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2 4(2Å
+]com.thoughtworks.xstream.converters.extended.ThrowableConverter.ThrowableConverter(Converter)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (2¸
+Pcom.thoughtworks.xstream.converters.extended.ThrowableConverter?defaultConverterDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (&2l
+	ConverterEXTENDW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java+ (4Ú
+]com.thoughtworks.xstream.converters.extended.ThrowableConverter.ThrowableConverter(Converter)CONSTRUCTORW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (*ThrowableConverter2Ô
+ncom.thoughtworks.xstream.converters.extended.ThrowableConverter.ThrowableConverter(Converter)!defaultConverter	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (82§
+?com.thoughtworks.xstream.converters.extended.ThrowableConverterRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (Ò
+ncom.thoughtworks.xstream.converters.extended.ThrowableConverter.ThrowableConverter(Converter)!defaultConverter	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java( (8*defaultConverter2j
+	ConverterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java ('³
+Qcom.thoughtworks.xstream.converters.extended.ThrowableConverter.canConvert(Class)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java! !("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¼
+Vcom.thoughtworks.xstream.converters.extended.ThrowableConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java! !(.2®
+Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java" "(52Á
+`com.thoughtworks.xstream.converters.extended.ThrowableConverter.canConvert(java.lang.Class)!typeCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java"0 "(42o
+booleanRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java! !(¨
+{com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% %("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2é
+‚com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% %(%2é
+‚com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%' %(F2ê
+ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%H %(b2î
+…com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?throwableDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java& &(02
+java.lang.Throwable.getCause()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java' '( 2“
+2java.lang.Throwable.initCause(java.lang.Throwable)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java) )()2„
+#java.lang.Throwable.getStackTrace()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java. .(!2±
+Pcom.thoughtworks.xstream.converters.extended.ThrowableConverter?defaultConverterCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java/ /(2l
+voidRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% %(³
+xcom.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2 2("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2å
+com.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2 2(;2ç
+€com.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2= 2(Y2±
+Pcom.thoughtworks.xstream.converters.extended.ThrowableConverter?defaultConverterCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java3 3(2x
+java.lang.ObjectRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2 2(´
+Vcom.thoughtworks.xstream.converters.extended.ThrowableConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java!* !(.*type2p
+java.lang.ClassTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java!$ !()ä
+‚com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% %(%*source2q
+java.lang.ObjectTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java% %(ì
+‚com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%@ %(F*writer2y
+HierarchicalStreamWriterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%' %(?è
+ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%[ %(b*context2s
+MarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java%H %(Zè
+com.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java25 2(;*reader2y
+HierarchicalStreamReaderTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2 2(4ç
+€com.thoughtworks.xstream.converters.extended.ThrowableConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2R 2(Y*context2u
+UnmarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java2= 2(Q€
+…com.thoughtworks.xstream.converters.extended.ThrowableConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?throwableVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java& &("
+type 	Throwable*	throwable2t
+java.lang.ThrowableTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java& &(Ç
+Pcom.thoughtworks.xstream.converters.extended.ThrowableConverter?defaultConverterVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (&"
+type 	Converter*defaultConverter2j
+	ConverterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/ThrowableConverter.java (

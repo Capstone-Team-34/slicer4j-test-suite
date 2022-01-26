@@ -1,0 +1,302 @@
+
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaà
+*com.thoughtworks.xstream.io.xml.JDomReaderCLASSB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ("
+inner classfalse*
+JDomReader2ú
+Icom.thoughtworks.xstream.io.xml.JDomReader.reassignCurrentElement(Object)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@ B(2â
+6com.thoughtworks.xstream.io.xml.JDomReader.getParent()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaD N(2ã
+8com.thoughtworks.xstream.io.xml.JDomReader.getChild(int)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP R(2ç
+:com.thoughtworks.xstream.io.xml.JDomReader.getChildCount()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaT V(2ã
+8com.thoughtworks.xstream.io.xml.JDomReader.getNodeName()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaX Z(2à
+5com.thoughtworks.xstream.io.xml.JDomReader.getValue()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java\ ^(2í
+?com.thoughtworks.xstream.io.xml.JDomReader.getAttribute(String)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java` b(2è
+<com.thoughtworks.xstream.io.xml.JDomReader.getAttribute(int)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad f(2ë
+>com.thoughtworks.xstream.io.xml.JDomReader.getAttributeCount()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javah j(2ì
+@com.thoughtworks.xstream.io.xml.JDomReader.getAttributeName(int)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal n(2ç
+:com.thoughtworks.xstream.io.xml.JDomReader.peekNextChild()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javap v(2ë
+>com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (2í
+?com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java  (2õ
+Hcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% '(2ú
+Icom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, .(2•
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 6(2¶
+Scom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< >(2å
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ("2d
+AbstractDocumentReaderEXTENDB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java  (6≥
+>com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (*
+JDomReader2î
+Ccom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ("2}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (π
+?com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (*
+JDomReader2ô
+Hcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ('2}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (Ì
+Hcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% %(*
+JDomReader2û
+Mcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% %("2£
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java%$ %(72}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% %(Ù
+Icom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, ,(*
+JDomReader2£
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, ,('2§
+Scom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java,) ,(<2}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, ,(ä
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 4(*
+JDomReader2®
+Wcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 4("2¨
+[com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4$ 4(@2}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 4(ë
+Scom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< <(*
+JDomReader2≠
+\com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< <('2≠
+\com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java<) <(E2}
+*com.thoughtworks.xstream.io.xml.JDomReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< <(Ô
+Ccom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ("*root2S
+ElementTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (˘
+Hcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java ('*document2T
+DocumentTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (˘
+Mcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% %("*root2S
+ElementTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java% %(Ö
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java%. %(7*	nameCoder2U
+	NameCoderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java%$ %(-É
+Rcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, ,('*document2T
+DocumentTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java, ,(Ü
+Scom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java,3 ,(<*	nameCoder2U
+	NameCoderTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java,) ,(2É
+Wcom.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)!root	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 4("*root2S
+ElementTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4 4(ó
+[com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Element,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java48 4(@*replacer2_
+XmlFriendlyReplacerTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java4$ 4(7ç
+\com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)!document	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< <('*document2T
+DocumentTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java< <(ò
+\com.thoughtworks.xstream.io.xml.JDomReader.JDomReader(Document,XmlFriendlyReplacer)!replacer	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java<= <(E*replacer2_
+XmlFriendlyReplacerTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java<) <(<≠
+Icom.thoughtworks.xstream.io.xml.JDomReader.reassignCurrentElement(Object)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@ @()"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*reassignCurrentElement2¢
+Qcom.thoughtworks.xstream.io.xml.JDomReader.reassignCurrentElement(Object)!current	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@* @(82Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaA A(2ß
+[com.thoughtworks.xstream.io.xml.JDomReader.reassignCurrentElement(java.lang.Object)!currentCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaA# A(*2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@ @(Ã
+6com.thoughtworks.xstream.io.xml.JDomReader.getParent()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaD D("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*	getParent2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaF F(2c
+java.lang.ObjectRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaD D(Ï
+8com.thoughtworks.xstream.io.xml.JDomReader.getChild(int)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP P("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*getChild2è
+>com.thoughtworks.xstream.io.xml.JDomReader.getChild(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP P('2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaQ Q(2ä
+>com.thoughtworks.xstream.io.xml.JDomReader.getChild(int)!indexCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaQ0 Q(52c
+java.lang.ObjectRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP P(ƒ
+:com.thoughtworks.xstream.io.xml.JDomReader.getChildCount()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaT T("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type int*getChildCount2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaU U(2V
+intRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaT T(Õ
+8com.thoughtworks.xstream.io.xml.JDomReader.getNodeName()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaX X("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getNodeName2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaY Y((2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaX X(«
+5com.thoughtworks.xstream.io.xml.JDomReader.getValue()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java\ \("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getValue2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java] ](2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java\ \(ä
+?com.thoughtworks.xstream.io.xml.JDomReader.getAttribute(String)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java` `("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ï
+Dcom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java` `(*2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaa a(2ö
+Ncom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaa@ a(D2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java` `(˘
+<com.thoughtworks.xstream.io.xml.JDomReader.getAttribute(int)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad d("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2ì
+Bcom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad d((2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javae e(*2é
+Bcom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(int)!indexCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javae? e(D2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad d(…
+>com.thoughtworks.xstream.io.xml.JDomReader.getAttributeCount()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javah h( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getAttributeCount2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javai i(2V
+intRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javah h(â
+@com.thoughtworks.xstream.io.xml.JDomReader.getAttributeName(int)METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal l(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttributeName2ó
+Fcom.thoughtworks.xstream.io.xml.JDomReader.getAttributeName(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal# l(,2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javam, m(:2í
+Fcom.thoughtworks.xstream.io.xml.JDomReader.getAttributeName(int)!indexCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javamO m(T2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal l(±
+:com.thoughtworks.xstream.io.xml.JDomReader.peekNextChild()METHODB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javap p("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*peekNextChild2í
+?com.thoughtworks.xstream.io.xml.JDomReader.peekNextChild()?listDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaq q(02d
+java.util.List.isEmpty()CALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javar r(*2c
+java.util.List.get(int)CALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javau% u(02Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaq q("2c
+java.lang.StringRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javap p(â
+Qcom.thoughtworks.xstream.io.xml.JDomReader.reassignCurrentElement(Object)!current	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@1 @(8*current2\
+java.lang.ObjectTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java@* @(0Á
+>com.thoughtworks.xstream.io.xml.JDomReader.getChild(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP" P('*index2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaP P(!˘
+Dcom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java`& `(**name2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java` `(%Î
+Bcom.thoughtworks.xstream.io.xml.JDomReader.getAttribute(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad# d((*index2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javad d("Ô
+Fcom.thoughtworks.xstream.io.xml.JDomReader.getAttributeName(int)!index	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal' l(,*index2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javal# l(&à
+?com.thoughtworks.xstream.io.xml.JDomReader.peekNextChild()?listVARIABLEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaq q("
+type List*list2Z
+java.util.ListTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaq q(2Ö
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementCALLB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.javaq q("Ä
+9com.thoughtworks.xstream.io.xml.JDomReader?currentElementVARIABLEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (""
+type Element*currentElement2S
+ElementTYPEB
+8src/java/com/thoughtworks/xstream/io/xml/JDomReader.java (

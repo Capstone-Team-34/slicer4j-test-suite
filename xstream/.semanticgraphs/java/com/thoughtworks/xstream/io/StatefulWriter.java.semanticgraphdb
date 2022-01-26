@@ -1,0 +1,343 @@
+
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java≤
+*com.thoughtworks.xstream.io.StatefulWriterCLASSB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java ("
+inner classfalse*StatefulWriter2è
+<com.thoughtworks.xstream.io.StatefulWriter.startNode(String)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM P(2ï
+Bcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR U(2è
+<com.thoughtworks.xstream.io.StatefulWriter.startNodeCommon()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaW `(2ô
+Fcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab q(2é
+;com.thoughtworks.xstream.io.StatefulWriter.setValue(String)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas |(2à
+4com.thoughtworks.xstream.io.StatefulWriter.endNode()DECLARATIONC
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java~ Ü(2á
+2com.thoughtworks.xstream.io.StatefulWriter.flush()DECLARATIOND
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaà ã(2á
+2com.thoughtworks.xstream.io.StatefulWriter.close()DECLARATIOND
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaç î(2ç
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()DECLARATIOND
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javañ ö(2á
+2com.thoughtworks.xstream.io.StatefulWriter.state()DECLARATIOND
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaß ©(2ç
+8com.thoughtworks.xstream.io.StatefulWriter.readResolve()DECLARATIOND
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java´ Æ(2¶
+Scom.thoughtworks.xstream.io.StatefulWriter.StatefulWriter(HierarchicalStreamWriter)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH K(2à
+5com.thoughtworks.xstream.io.StatefulWriter?STATE_OPENDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java$ $($2é
+;com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_STARTDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java* *(*2â
+6com.thoughtworks.xstream.io.StatefulWriter?STATE_VALUEDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java0 0(%2å
+9com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_ENDDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java6 6((2ä
+7com.thoughtworks.xstream.io.StatefulWriter?STATE_CLOSEDDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java< <(&2É
+0com.thoughtworks.xstream.io.StatefulWriter?stateDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java> >(,2Ö
+2com.thoughtworks.xstream.io.StatefulWriter?balanceDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java? ?(!2à
+5com.thoughtworks.xstream.io.StatefulWriter?attributesDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java@  @(*2[
+WriterWrapperEXTENDB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java$ (1Ë
+Scom.thoughtworks.xstream.io.StatefulWriter.StatefulWriter(HierarchicalStreamWriter)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH H(*StatefulWriter2¨
+[com.thoughtworks.xstream.io.StatefulWriter.StatefulWriter(HierarchicalStreamWriter)!wrapped	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH H(@2Å
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaJ J(2}
+*com.thoughtworks.xstream.io.StatefulWriterRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH H(õ
+[com.thoughtworks.xstream.io.StatefulWriter.StatefulWriter(HierarchicalStreamWriter)!wrapped	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH9 H(@*wrapped2d
+HierarchicalStreamWriterTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaH  H(8Û
+<com.thoughtworks.xstream.io.StatefulWriter.startNode(String)METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM M("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	startNode2í
+Acom.thoughtworks.xstream.io.StatefulWriter.startNode(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM M(+2à
+<com.thoughtworks.xstream.io.StatefulWriter.startNodeCommon()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaN N(2ó
+Kcom.thoughtworks.xstream.io.StatefulWriter.startNode(java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaO O(2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM M(ÿ
+Bcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR R("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	startNode2ò
+Gcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR R(+2ô
+Hcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)!clazz	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR- R(>2à
+<com.thoughtworks.xstream.io.StatefulWriter.startNodeCommon()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaS S(2®
+\com.thoughtworks.xstream.io.StatefulWriter.startNode(java.lang.String, java.lang.Class)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaT T(2©
+]com.thoughtworks.xstream.io.StatefulWriter.startNode(java.lang.String, java.lang.Class)!clazzCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaT T(#2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR R(’
+<com.thoughtworks.xstream.io.StatefulWriter.startNodeCommon()METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaW W( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*startNodeCommon2Ñ
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaX X(2ì
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java[& [(b2g
+java.util.HashSet.HashSet()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java_ _(%2|
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaY Y(2Ç
+6com.thoughtworks.xstream.io.StatefulWriter?STATE_VALUECALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaY Y( 2|
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java] ](2á
+;com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_STARTCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java] ]( 2~
+2com.thoughtworks.xstream.io.StatefulWriter?balanceCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java^
+ ^(2Å
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java_ _(2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaW W(Â
+Fcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab b("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*addAttribute2ú
+Kcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab b((2ù
+Lcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)!value	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab* b(62´
+Xcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)?currentAttributesDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javai i(62Ñ
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javac c(2t
+(java.util.Set.contains(java.lang.Object)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaj j(,2`
+java.util.Set.add(E)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javao o(#2ì
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javae& g(12ì
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javak& m( 2|
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javad d(2á
+;com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_STARTCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javad d(%2¨
+`com.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaf f(2Å
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javai% i(/2¨
+`com.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaj' j(+2¨
+`com.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javal l(2¨
+`com.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javao o("2¨
+`com.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javap p(2≠
+acom.thoughtworks.xstream.io.StatefulWriter.addAttribute(java.lang.String, java.lang.String)!valueCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javap! p(&2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab b(å
+;com.thoughtworks.xstream.io.StatefulWriter.setValue(String)METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas s("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*setValue2ë
+@com.thoughtworks.xstream.io.StatefulWriter.setValue(String)!text	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas s($2Ñ
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javat t(2ì
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaw& x(:2|
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javau u(2á
+;com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_STARTCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javau u(%2|
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaz z(2Ç
+6com.thoughtworks.xstream.io.StatefulWriter?STATE_VALUECALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaz z(2ñ
+Jcom.thoughtworks.xstream.io.StatefulWriter.setValue(java.lang.String)!textCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java{ {(2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas s(·
+4com.thoughtworks.xstream.io.StatefulWriter.endNode()METHODB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java~ ~("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*endNode2Ñ
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()CALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java (2ï
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaÅ& Å(R2Ä
+2com.thoughtworks.xstream.io.StatefulWriter?balanceCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaÄ Ä(2É
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaÉ É(2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaÑ Ñ(2á
+9com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_ENDCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaÑ Ñ(2W
+voidRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java~ ~(∏
+2com.thoughtworks.xstream.io.StatefulWriter.flush()METHODD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaà à("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*flush2Ü
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()CALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaâ â(2Y
+voidRETURN_TYPED
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaà à(«
+2com.thoughtworks.xstream.io.StatefulWriter.close()METHODD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaç ç("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*close2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaé é(2á
+9com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_ENDCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaé é(#2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaé' é(,2É
+5com.thoughtworks.xstream.io.StatefulWriter?STATE_OPENCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaé0 é(:2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaí í(2Ö
+7com.thoughtworks.xstream.io.StatefulWriter?STATE_CLOSEDCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaí í(2Y
+voidRETURN_TYPED
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaç ç(≈
+8com.thoughtworks.xstream.io.StatefulWriter.checkClosed()METHODD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javañ ñ("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*checkClosed2
+1java.io.IOException.IOException(java.lang.String)CALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaò& ò(S2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaó ó(2Ö
+7com.thoughtworks.xstream.io.StatefulWriter?STATE_CLOSEDCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaó ó(!2Y
+voidRETURN_TYPED
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javañ ñ(≠
+2com.thoughtworks.xstream.io.StatefulWriter.state()METHODD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaß ß("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*state2~
+0com.thoughtworks.xstream.io.StatefulWriter?stateCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java® ®(2X
+intRETURN_TYPED
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaß ß(–
+8com.thoughtworks.xstream.io.StatefulWriter.readResolve()METHODD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java´ ´("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*readResolve2É
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLD
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java¨ ¨(2e
+java.lang.ObjectRETURN_TYPED
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java´ ´(ˆ
+Acom.thoughtworks.xstream.io.StatefulWriter.startNode(String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM' M(+*name2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaM  M(&¸
+Gcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR' R(+*name2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR  R(&˝
+Hcom.thoughtworks.xstream.io.StatefulWriter.startNode(String,Class)!clazz	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR9 R(>*clazz2[
+java.lang.ClassTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javaR3 R(8Ä
+Kcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)!name	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab$ b((*name2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab b(#Ç
+Lcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)!value	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab1 b(6*value2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javab* b(0ı
+@com.thoughtworks.xstream.io.StatefulWriter.setValue(String)!text	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas  s($*text2\
+java.lang.StringTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javas s(®
+Xcom.thoughtworks.xstream.io.StatefulWriter.addAttribute(String,String)?currentAttributesVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javai i("
+type Set*currentAttributes2Y
+java.util.SetTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javai i(2Å
+5com.thoughtworks.xstream.io.StatefulWriter?attributesCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.javai% i(/
+5com.thoughtworks.xstream.io.StatefulWriter?STATE_OPENVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java$ $( "
+type int*
+STATE_OPEN2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java$ $(¸
+;com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_STARTVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java* *(&"
+type int*STATE_NODE_START2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java* *(Ú
+6com.thoughtworks.xstream.io.StatefulWriter?STATE_VALUEVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java0 0(!"
+type int*STATE_VALUE2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java0 0(¯
+9com.thoughtworks.xstream.io.StatefulWriter?STATE_NODE_ENDVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java6 6($"
+type int*STATE_NODE_END2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java6 6(Ù
+7com.thoughtworks.xstream.io.StatefulWriter?STATE_CLOSEDVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java< <(""
+type int*STATE_CLOSED2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java< <(Í
+0com.thoughtworks.xstream.io.StatefulWriter?stateVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java> >("
+type int*state2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java> >(2Å
+5com.thoughtworks.xstream.io.StatefulWriter?STATE_OPENCALLB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java>" >(,Í
+2com.thoughtworks.xstream.io.StatefulWriter?balanceVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java? ?(!"
+type int*balance2O
+intTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java? ?(¸
+5com.thoughtworks.xstream.io.StatefulWriter?attributesVARIABLEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java@  @(*"
+type 	FastStack*
+attributes2U
+	FastStackTYPEB
+8src/java/com/thoughtworks/xstream/io/StatefulWriter.java@ @(

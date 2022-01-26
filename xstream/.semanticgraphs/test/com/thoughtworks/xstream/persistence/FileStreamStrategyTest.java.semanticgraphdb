@@ -1,0 +1,908 @@
+
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java™4
+;com.thoughtworks.xstream.persistence.FileStreamStrategyTestCLASSS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (#"
+inner classfalse*FileStreamStrategyTest2ß
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest.setUp()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java "(2™
+Fcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.tearDown()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java$ '(2´
+Gcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) 6(2”
+ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileGettingAFilename()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java8 ;(2—
+mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileExtractingAKey()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java= @(2÷
+rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileExtractingAKey()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaB E(2ÿ
+tcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileGettingAFilename()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaG J(2‹
+xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileGettingAFilename()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaL O(2⁄
+vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileExtractingAKey()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaQ T(2À
+gcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileGettingAFilename()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaV Y(2…
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileExtractingAKey()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java[ ^(2…
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileGettingAFileName()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java` c(2∆
+bcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileExtractingKey()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javae h(2∑
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaj o(2¥
+Pcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesTwoFiles()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaq w(2∫
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()DECLARATIONT
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javay Ä(2º
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÇ Ü(2µ
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasZeroLength()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaà ã(2≤
+Lcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasOneItem()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaç ë(2≥
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasTwoItems()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaì ò(2≤
+Lcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsNotEmpty()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaö û(2π
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testDoesNotContainKey()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java† £(2≥
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsKey()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java• ©(2±
+Kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java´ ±(2π
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java≥ ∑(2ª
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaπ ¿(2Ø
+Icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsEmpty()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¬ ≈(2∏
+Rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java« —(2€
+ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‘ ›(2≈
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaﬂ Í(2µ
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesAFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÏ Ò(2œ
+icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testPutReturnsTheOldValueWhenRewritingAFile()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÛ ˜(2ß
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (72g
+TestCaseEXTENDS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java, (4·	
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest.setUp()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (2¨
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(java.io.File)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (2r
+java.io.File.mkdirs()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java! !(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java! !(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java" (+π
+Fcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.tearDown()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java$ $("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*tearDown2¨
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(java.io.File)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java& &(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java& &(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java$% $(.Ä
+Gcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) )("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*clear2≠
+Kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)!dir	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) )(2±
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?filesDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(&2≠
+Icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?iDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java+ +(2≥
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?deletedDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java- -(32u
+java.io.File.listFiles()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(&2r
+java.io.File.isFile()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java, ,(!2r
+java.io.File.delete()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java-" -(32{
+java.io.File.getAbsolutePath()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java1 1(82r
+java.io.File.delete()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java5 5(2ö
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java/ 1(92∞
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(java.io.File)!dirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(2∞
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(java.io.File)!dirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java5 5(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) )(∏
+ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileGettingAFilename()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java8 8(A"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*1testConcatenatesXmlExtensionWhileGettingAFilename2‹
+xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileGettingAFilename()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java9 9(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java9= 9(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java8 8(≤
+mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileExtractingAKey()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java= =(?"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*/testConcatenatesXmlExtensionWhileExtractingAKey2⁄
+vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileExtractingAKey()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java> >(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java>= >(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java= =(¡
+rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileExtractingAKey()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaB B(D"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*4testEscapesNonAcceptableCharacterWhileExtractingAKey2ﬂ
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileExtractingAKey()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaC C(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaC= C(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaB B(«
+tcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileGettingAFilename()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaG G(F"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*6testEscapesNonAcceptableCharacterWhileGettingAFilename2·
+}com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileGettingAFilename()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaH H(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaH= H(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaG G(‘
+xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileGettingAFilename()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaL L(J"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*:testEscapesUTF8NonAcceptableCharacterWhileGettingAFilename2Ê
+Åcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileGettingAFilename()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaM M(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaM= M(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaL L(Õ
+vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileExtractingAKey()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaQ Q(H"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*8testEscapesUTF8NonAcceptableCharacterWhileExtractingAKey2„
+com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileExtractingAKey()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaR R(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaR= R(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaQ Q(†
+gcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileGettingAFilename()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaV V(9"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*)testEscapesUnderlineWhileGettingAFilename2‘
+pcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileGettingAFilename()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaW W(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaW= W(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaV V(ö
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileExtractingAKey()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java[ [(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testEscapesUnderlineWhileExtractingAKey2“
+ncom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileExtractingAKey()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java\ \(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java\= \(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java[ [(ö
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileGettingAFileName()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java` `(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testEscapesNullKeyWhileGettingAFileName2“
+ncom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileGettingAFileName()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaa a(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaa= a(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java` `(ë
+bcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileExtractingKey()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javae e(4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*$testEscapesNullKeyWhileExtractingKey2œ
+kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileExtractingKey()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaf f(E2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaf= f(D2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javae e(À
+
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaj j(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWritesASingleFile2¿
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javak k(E2º
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()?fileDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m(62r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javan n( 2é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m(62†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javak= k(D2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m($2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaj j(´
+Pcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesTwoFiles()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaq q(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWritesTwoFiles2Ω
+Ycom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesTwoFiles()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javar r(E2r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javau u(>2r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javav v(=2é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javau u(52é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javav v(42†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javar= r(D2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javau u(#2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javav v(#2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaq q(Ç
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()METHODS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javay y('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testRemovesAWrittenFile2¬
+^com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()?strategyDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaz z(E2≈
+acom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()?aCuteStringDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java} }(A2r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java| |(>2r
+java.io.File.exists()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (?2é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java| |(52é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (62†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaz= z(D2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java| |(#2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java ($2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javay y(¿
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÇ Ç(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testRemovesAnInvalidFile2≈
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÉ É(E2»
+bcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()?aCuteStringDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÑ Ñ(A2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÉ= É(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÇ Ç(‡
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasZeroLength()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaà à(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHasZeroLength2æ
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasZeroLength()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaâ â(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaâ= â(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaà à(◊
+Lcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasOneItem()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaç ç("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHasOneItem2ª
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasOneItem()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaé é(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaé= é(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaç ç(⁄
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasTwoItems()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaì ì("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHasTwoItems2º
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasTwoItems()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaî î(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaî= î(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaì ì(◊
+Lcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsNotEmpty()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaö ö("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testIsNotEmpty2ª
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsNotEmpty()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaõ õ(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaõ= õ(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaö ö(Ï
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testDoesNotContainKey()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java† †(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testDoesNotContainKey2¬
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testDoesNotContainKey()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java° °(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java°= °(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java† †(⁄
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsKey()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java• •("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testContainsKey2º
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsKey()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¶ ¶(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¶= ¶(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java• •(¬
+
+Kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java´ ´("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testGetsAFile2∫
+Tcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¨ ¨(E2Ω
+Wcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()?aCuteStringDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaØ Ø(>2t
+java.io.File.exists()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÆ Æ(>2ê
+1java.io.File.File(java.io.File, java.lang.String)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÆ Æ(52¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¨= ¨(D2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÆ Æ(#2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java´ ´(¥
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java≥ ≥(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testGetsAnInvalidFile2¬
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¥ ¥(E2≈
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()?aCuteStringDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaµ µ(>2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¥= ¥(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java≥ ≥(„
+
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaπ π('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testRewritesASingleFile2ƒ
+^com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java∫ ∫(E2¿
+Zcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()?fileDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º(62t
+java.io.File.exists()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaΩ Ω( 2ê
+1java.io.File.File(java.io.File, java.lang.String)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º(62¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java∫= ∫(D2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º($2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaπ π(Œ
+Icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsEmpty()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¬ ¬("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testIsEmpty2∏
+Rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsEmpty()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java√ √(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java√= √(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¬ ¬(¿
+Rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java« «($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testContainsAllItems2¡
+[com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?originalDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java» »($2¡
+[com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÀ À(E2Ω
+Wcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?iterDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(92v
+java.util.Map.put(K, V)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java… …(02v
+java.util.Map.put(K, V)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java   (52w
+java.util.Set.iterator()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(92u
+java.util.Map.keySet()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(.2{
+java.util.Iterator.hasNext()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ; Œ(I2x
+java.util.Iterator.next()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaœ, œ(72z
+java.util.HashMap.HashMap()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java» »($2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÀ= À(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java« «(ñ
+ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‘ ‘(G"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*7testIteratesOverEntryAndChecksItsKeyWithAnotherInstance2‰
+~com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java’ ’(E2·
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?builtDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÿ ÿ(B2‡
+zcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?iterDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŸ Ÿ(02·
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?entryDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java⁄ ⁄(42{
+java.util.Iterator.hasNext()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŸ2 Ÿ(@2x
+java.util.Iterator.next()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java⁄) ⁄(42{
+java.util.Map.Entry.getKey()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java€) €(72¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java’= ’(D2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÿ: ÿ(A2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‘ ‘(¶
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaﬂ ﬂ(1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testRemovesAnItemThroughIteration2Œ
+hcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‡ ‡(E2 
+dcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?iterDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java„ „(02À
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?entryDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‰ ‰(42{
+java.util.Iterator.hasNext()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java„2 „(@2x
+java.util.Iterator.next()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‰) ‰(42à
+)java.lang.Object.equals(java.lang.Object)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÂ Â(22{
+java.util.Map.Entry.getKey()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÂ Â(2z
+java.util.Iterator.remove()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÊ Ê(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‡= ‡(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaﬂ ﬂ(‡
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesAFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÏ Ï(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testRewritesAFile2æ
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesAFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÌ Ì(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÌ= Ì(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÏ Ï(Æ
+icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testPutReturnsTheOldValueWhenRewritingAFile()METHODU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÛ Û(;"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*+testPutReturnsTheOldValueWhenRewritingAFile2ÿ
+rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testPutReturnsTheOldValueWhenRewritingAFile()?strategyDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÙ Ù(E2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÙ= Ù(D2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÛ Û(ù
+Kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)!dir	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) )(*dir2i
+java.io.FileTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java) )(›
+Mcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?filesVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *("
+type File[]*files2k
+java.io.File[]TYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(2u
+java.io.File.listFiles()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(&2∞
+Scom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(java.io.File)!dirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java* *(ù
+Icom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?iVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java+ +("
+type int*i2`
+intTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java+ +(•
+Ocom.thoughtworks.xstream.persistence.FileStreamStrategyTest.clear(File)?deletedVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java- -("
+type boolean*deleted2d
+booleanTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java- -(2r
+java.io.File.delete()CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java-" -(3î
+xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileGettingAFilename()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java9 9(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java9 9(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java9= 9(Dí
+vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testConcatenatesXmlExtensionWhileExtractingAKey()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java> >(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java> >(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java>= >(Dó
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileExtractingAKey()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaC C(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaC C(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaC= C(Dô
+}com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNonAcceptableCharacterWhileGettingAFilename()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaH H(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaH H(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaH= H(Dû
+Åcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileGettingAFilename()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaM M(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaM M(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaM= M(Dõ
+com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUTF8NonAcceptableCharacterWhileExtractingAKey()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaR R(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaR R(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaR= R(Då
+pcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileGettingAFilename()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaW W(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaW W(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaW= W(Dä
+ncom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesUnderlineWhileExtractingAKey()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java\ \(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java\ \(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java\= \(Dä
+ncom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileGettingAFileName()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaa a(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaa a(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaa= a(Dá
+kcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testEscapesNullKeyWhileExtractingKey()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaf f(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaf f(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaf= f(D¯
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javak k(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javak k(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javak= k(DÌ
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesASingleFile()?fileVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m("
+type File*file2i
+java.io.FileTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m(2é
+1java.io.File.File(java.io.File, java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m(62†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javam m($ı
+Ycom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testWritesTwoFiles()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javar r(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javar r(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javar= r(D˙
+^com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()?strategyVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaz z(#"
+type FileStreamStrategy*strategy2o
+FileStreamStrategyTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaz z(2†
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaz= z(Dœ
+acom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAWrittenFile()?aCuteStringVARIABLES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java} }("
+type String*aCuteString2m
+java.lang.StringTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java} }(Å
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÉ É(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÉ É(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÉ= É(D‘
+bcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnInvalidFile()?aCuteStringVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÑ Ñ("
+type String*aCuteString2o
+java.lang.StringTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÑ Ñ(˙
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasZeroLength()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaâ â(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaâ â(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaâ= â(D˜
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasOneItem()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaé é(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaé é(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaé= é(D¯
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testHasTwoItems()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaî î(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaî î(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaî= î(D˜
+Ucom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsNotEmpty()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaõ õ(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaõ õ(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaõ= õ(D˛
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testDoesNotContainKey()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java° °(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java° °(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java°= °(D¯
+Vcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsKey()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¶ ¶(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¶ ¶(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¶= ¶(Dˆ
+Tcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¨ ¨(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¨ ¨(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¨= ¨(D…
+Wcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAFile()?aCuteStringVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaØ Ø("
+type String*aCuteString2o
+java.lang.StringTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaØ Ø(˛
+\com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¥ ¥(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¥ ¥(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java¥= ¥(D—
+_com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testGetsAnInvalidFile()?aCuteStringVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaµ µ("
+type String*aCuteString2o
+java.lang.StringTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaµ µ(Ä
+^com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java∫ ∫(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java∫ ∫(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java∫= ∫(D˜
+Zcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesASingleFile()?fileVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º("
+type File*file2k
+java.io.FileTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º(2ê
+1java.io.File.File(java.io.File, java.lang.String)CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º(62¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaº º($Ù
+Rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIsEmpty()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java√ √(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java√ √(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java√= √(D¿
+[com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?originalVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java» »("
+type Map*original2l
+java.util.MapTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java» »(2z
+java.util.HashMap.HashMap()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java» »($˝
+[com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÀ À(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÀ À(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÀ= À(D∂
+Wcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testContainsAllItems()?iterVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ("
+type Iterator*iter2q
+java.util.IteratorTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(2w
+java.util.Set.iterator()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(92u
+java.util.Map.keySet()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŒ Œ(.†
+~com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java’ ’(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java’ ’(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java’= ’(Dö
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?builtVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÿ ÿ( "
+type FileStreamStrategy*built2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÿ ÿ(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÿ: ÿ(AÈ
+zcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?iterVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŸ Ÿ("
+type Iterator*iter2q
+java.util.IteratorTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaŸ Ÿ(Á
+{com.thoughtworks.xstream.persistence.FileStreamStrategyTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?entryVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java⁄ ⁄("
+type 	Map.Entry*entry2r
+java.util.Map.EntryTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java⁄ ⁄(2x
+java.util.Iterator.next()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java⁄) ⁄(4ä
+hcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‡ ‡(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‡ ‡(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‡= ‡(D”
+dcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?iterVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java„ „("
+type Iterator*iter2q
+java.util.IteratorTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java„ „(—
+ecom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRemovesAnItemThroughIteration()?entryVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‰ ‰("
+type 	Map.Entry*entry2r
+java.util.Map.EntryTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‰ ‰(2x
+java.util.Iterator.next()CALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java‰) ‰(4˙
+Xcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testRewritesAFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÌ Ì(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÌ Ì(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÌ= Ì(Dî
+rcom.thoughtworks.xstream.persistence.FileStreamStrategyTest.testPutReturnsTheOldValueWhenRewritingAFile()?strategyVARIABLEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÙ Ù(#"
+type FileStreamStrategy*strategy2q
+FileStreamStrategyTYPEU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÙ Ù(2¢
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirCALLU
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.javaÙ= Ù(Dß
+Ccom.thoughtworks.xstream.persistence.FileStreamStrategyTest?baseDirVALUES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java ("
+type File*baseDir2i
+java.io.FileTYPES
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java (2Ä
+#java.io.File.File(java.lang.String)CALLS
+Isrc/test/com/thoughtworks/xstream/persistence/FileStreamStrategyTest.java! (7

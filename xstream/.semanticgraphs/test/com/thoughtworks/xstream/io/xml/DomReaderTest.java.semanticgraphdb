@@ -1,0 +1,202 @@
+
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java¢
+-com.thoughtworks.xstream.io.xml.DomReaderTestCLASSE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java ("
+inner classfalse*DomReaderTest2ò
+Bcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(String)DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java (2ô
+Ccom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java  &(2¨
+Vcom.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java( 7(2Ø
+Ycom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java9 R(2f
+AbstractXMLReaderTestEXTENDE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java# (8—
+Bcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(String)METHODE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java' (3"
+staticfalse"
+finalfalse"
+access modifier	protected"!
+type HierarchicalStreamReader*createReader2ö
+Fcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(String)!xml	PARAMETERE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java4 (>2ú
+Mcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(java.lang.String)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java (/2ü
+Pcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(java.lang.String)!xmlCALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java+ (.2n
+HierarchicalStreamReaderRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaG (P‹
+Ccom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)METHODE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java   (""
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Document*buildDocument2õ
+Gcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)!xml	PARAMETERE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java #  (-2∞
+Zcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentBuilderFactoryDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java! !(\2©
+Scom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentBuilderDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java" "(U2•
+Ocom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?inputStreamDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java# #(S2¢
+Lcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java$ $(>2Ö
+6javax.xml.parsers.DocumentBuilderFactory.newInstance()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java!8 !(\2å
+=javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java"* "(U2j
+java.lang.String.getBytes()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#D #(R2ã
+<javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java$ $(>2à
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#+ #(S2†
+Qcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(java.lang.String)!xmlCALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#D #(G2^
+DocumentRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java 6  (?ª
+Vcom.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java( ((6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testCanReadFromElementOfLargerDocument2µ
+_com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?documentDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java) 0(2≤
+\com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?smallDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java1 1(e2∂
+`com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?xmlReaderDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java3! 3(A2ú
+Mcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(java.lang.String)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java) 0(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java(@ ((I˘
+Ycom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java9 9(9"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*)testExposesAttributesKeysAndValuesByIndex2π
+ccom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?xmlReaderDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java=! =(l2¬
+lcom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?expectedAttributesDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaA A(.2¿
+jcom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?actualAttributesDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaF F(,2±
+[com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?iDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaG G(2¥
+^com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?nameDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaH H(72µ
+_com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?valueDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaI I(42õ
+Lcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(java.lang.String)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java=- =(l2f
+java.util.Map.put(K, V)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaB B(02f
+java.util.Map.put(K, V)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaC C((2f
+java.util.Map.put(K, V)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaD D((2f
+java.util.Map.put(K, V)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaJ J(-2j
+java.util.HashMap.HashMap()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaA! A(.2j
+java.util.HashMap.HashMap()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaF F(,2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java9C 9(LÄ
+Fcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(String)!xml	PARAMETERE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java; (>*xml2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java4 (:Å
+Gcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)!xml	PARAMETERE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java *  (-*xml2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java #  ()Á
+Zcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentBuilderFactoryVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java! !(5"
+type DocumentBuilderFactory*documentBuilderFactory2w
+(javax.xml.parsers.DocumentBuilderFactoryTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java! !(2Ö
+6javax.xml.parsers.DocumentBuilderFactory.newInstance()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java!8 !(\“
+Scom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentBuilderVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java" "('"
+type DocumentBuilder*documentBuilder2p
+!javax.xml.parsers.DocumentBuilderTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java" "(2å
+=javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java"* "(U’
+Ocom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?inputStreamVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java# #(("
+type ByteArrayInputStream*inputStream2k
+java.io.ByteArrayInputStreamTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java# #(2j
+java.lang.String.getBytes()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#D #(R2à
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#+ #(S2†
+Qcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(java.lang.String)!xmlCALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java#D #(G£
+Lcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(String)?documentVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java$ $("
+type Document*document2W
+DocumentTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java$ $(2ã
+<javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java$ $(>«
+_com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?documentVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java) )("
+type Document*document2W
+DocumentTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java) )(2ú
+Mcom.thoughtworks.xstream.io.xml.DomReaderTest.buildDocument(java.lang.String)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java) 0(†
+\com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?smallVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java1 1("
+type Element*small2V
+ElementTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java1 1( 
+`com.thoughtworks.xstream.io.xml.DomReaderTest.testCanReadFromElementOfLargerDocument()?xmlReaderVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java3! 3(*"!
+type HierarchicalStreamReader*	xmlReader2g
+HierarchicalStreamReaderTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java3 3( Î
+ccom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?xmlReaderVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java=! =(*"!
+type HierarchicalStreamReader*	xmlReader2g
+HierarchicalStreamReaderTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java= =( 2õ
+Lcom.thoughtworks.xstream.io.xml.DomReaderTest.createReader(java.lang.String)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.java=- =(l´
+lcom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?expectedAttributesVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaA A("
+type Map*expectedAttributes2\
+java.util.MapTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaA A(2j
+java.util.HashMap.HashMap()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaA! A(.ß
+jcom.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?actualAttributesVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaF F("
+type Map*actualAttributes2\
+java.util.MapTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaF F(2j
+java.util.HashMap.HashMap()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaF F(,ì
+[com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?iVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaG G("
+type int*i2R
+intTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaG G(©
+^com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?nameVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaH H("
+type String*name2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaH H(´
+_com.thoughtworks.xstream.io.xml.DomReaderTest.testExposesAttributesKeysAndValuesByIndex()?valueVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaI I("
+type String*value2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/DomReaderTest.javaI I(

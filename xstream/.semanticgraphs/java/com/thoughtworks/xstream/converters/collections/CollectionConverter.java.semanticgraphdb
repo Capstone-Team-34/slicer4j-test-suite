@@ -1,0 +1,258 @@
+
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaÂ
+Ccom.thoughtworks.xstream.converters.collections.CollectionConverterCLASS[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java$ $( "
+inner classfalse*CollectionConverter2¡
+Ucom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(Class)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java* 0(2Î
+com.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 8(2Ë
+|com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java: >(2˝
+êcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@ B(2à
+õcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD J(2ì
+¶com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaL P(2À
+_com.thoughtworks.xstream.converters.collections.CollectionConverter.CollectionConverter(Mapper)DECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java& ((2Ç
+AbstractCollectionConverterEXTEND[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java$) $(DÂ
+_com.thoughtworks.xstream.converters.collections.CollectionConverter.CollectionConverter(Mapper)CONSTRUCTOR[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java& &(*CollectionConverter2–
+fcom.thoughtworks.xstream.converters.collections.CollectionConverter.CollectionConverter(Mapper)!mapper	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java& &(,2Ø
+Ccom.thoughtworks.xstream.converters.collections.CollectionConverterRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java& &(≈
+fcom.thoughtworks.xstream.converters.collections.CollectionConverter.CollectionConverter(Mapper)!mapper	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java&& &(,*mapper2k
+MapperTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java& &(%£
+Ucom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(Class)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java* *("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2ƒ
+Zcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(Class)!type	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java* *((2é
+)java.lang.Object.equals(java.lang.Object)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java+ +(+2é
+)java.lang.Object.equals(java.lang.Object)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java, ,(-2é
+)java.lang.Object.equals(java.lang.Object)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java- -(02é
+)java.lang.Object.equals(java.lang.Object)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java. .(,2é
+)java.lang.String.equals(java.lang.Object)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java/" /(R2~
+java.lang.Class.getName()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java/" /(02…
+dcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(java.lang.Class)!typeCALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java+ +(2…
+dcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(java.lang.Class)!typeCALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java, ,(2…
+dcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(java.lang.Class)!typeCALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java- -(2…
+dcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(java.lang.Class)!typeCALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java. .(2…
+dcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(java.lang.Class)!typeCALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java/" /(&2s
+booleanRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java* *(˙
+com.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 2("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2Ò
+Ücom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 2(%2Ò
+Ücom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2' 2(F2Ú
+ácom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2H 2(b2˜
+äcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?collectionDECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java3 3(32ı
+àcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iteratorDECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java4 4(62Ò
+Ñcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?itemDECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java5 5()2Ñ
+java.util.Collection.iterator()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java4! 4(62Å
+java.util.Iterator.hasNext()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java48 4(J2~
+java.util.Iterator.next()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java5 5()2p
+voidRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 2(ì	
+|com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java: :("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Ó
+Écom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java: :(;2Ô
+Ñcom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java:= :(Y2Ù
+ácom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?collectionDECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java; ;(X2|
+java.lang.ObjectRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java: :(‡	
+êcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@ @(%"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*populateCollection2Ç
+ócom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@& @(E2É
+òcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@G @(c2Ü
+õcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@e @(z2p
+voidRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@ @(ù
+õcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD D(%"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*populateCollection2ç
+¢com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD& D(E2é
+£com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDG D(c2ë
+¶com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDe D(z2é
+¢com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!target	PARAMETER\
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD| D(ç2p
+voidRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD D(¸
+¶com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)METHOD[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaL L(0"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*addCurrentElementToCollection2ò
+≠com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaL1 L(P2ô
+Æcom.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaLR L(n2ú
+±com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM M(2ò
+≠com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!target	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM M(02ò
+´com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)?itemDECLARATION[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaN N(;2Ä
+java.util.Collection.add(E)CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaO O(2p
+voidRETURN_TYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaL L(¿
+Zcom.thoughtworks.xstream.converters.collections.CollectionConverter.canConvert(Class)!type	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java*$ *((*type2t
+java.lang.ClassTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java* *(#
+Ücom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 2(%*source2u
+java.lang.ObjectTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2 2(¯
+Ücom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2@ 2(F*writer2}
+HierarchicalStreamWriterTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2' 2(?Ù
+ácom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2[ 2(b*context2w
+MarshallingContextTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java2H 2(Zı
+Écom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java:5 :(;*reader2}
+HierarchicalStreamReaderTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java: :(4Û
+Ñcom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java:R :(Y*context2y
+UnmarshallingContextTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java:= :(Qâ
+ócom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@? @(E*reader2}
+HierarchicalStreamReaderTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@& @(>á
+òcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@\ @(c*context2y
+UnmarshallingContextTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@G @([ç
+õcom.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@p @(z*
+collection2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java@e @(oî
+¢com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD? D(E*reader2}
+HierarchicalStreamReaderTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD& D(>í
+£com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD\ D(c*context2y
+UnmarshallingContextTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDG D([ò
+¶com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDp D(z*
+collection2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDe D(oì
+¢com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!target	PARAMETER]
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaDá D(ç*target2z
+java.util.CollectionTYPE\
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaD| D(Üü
+≠com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!reader	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaLJ L(P*reader2}
+HierarchicalStreamReaderTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaL1 L(Iù
+Æcom.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!context	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaLg L(n*context2y
+UnmarshallingContextTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaLR L(f£
+±com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!collection	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM M(*
+collection2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM M(õ
+≠com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)!target	PARAMETER[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM* M(0*target2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaM M()ê
+äcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?collectionVARIABLE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java3 3("
+type 
+Collection*
+collection2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java3 3(è
+àcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iteratorVARIABLE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java4 4("
+type Iterator*iterator2w
+java.util.IteratorTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java4 4(2Ñ
+java.util.Collection.iterator()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java4! 4(6¸
+Ñcom.thoughtworks.xstream.converters.collections.CollectionConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?itemVARIABLE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java5 5("
+type Object*item2u
+java.lang.ObjectTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java5 5(2~
+java.util.Iterator.next()CALL[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java5 5()ç
+ácom.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?collectionVARIABLE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java; ;("
+type 
+Collection*
+collection2y
+java.util.CollectionTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.java; ;(£
+´com.thoughtworks.xstream.converters.collections.CollectionConverter.addCurrentElementToCollection(HierarchicalStreamReader,UnmarshallingContext,Collection,Collection)?itemVARIABLE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaN N("
+type Object*item2u
+java.lang.ObjectTYPE[
+Qsrc/java/com/thoughtworks/xstream/converters/collections/CollectionConverter.javaN N(

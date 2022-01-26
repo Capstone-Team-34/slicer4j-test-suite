@@ -1,0 +1,126 @@
+
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.javaÃ
+-com.thoughtworks.xstream.mapper.CachingMapperCLASSE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java ("
+inner classfalse*CachingMapper2ï
+?com.thoughtworks.xstream.mapper.CachingMapper.realClass(String)DECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# /(2ê
+:com.thoughtworks.xstream.mapper.CachingMapper.flushCache()DECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java1 3(2ë
+;com.thoughtworks.xstream.mapper.CachingMapper.readResolve()DECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java5 8(2ô
+Ccom.thoughtworks.xstream.mapper.CachingMapper.CachingMapper(Mapper)DECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java !(2í
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheDECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java ((2X
+CachingEXTENDE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java< (C2^
+MapperWrapperEXTENDE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# (0›
+Ccom.thoughtworks.xstream.mapper.CachingMapper.CachingMapper(Mapper)CONSTRUCTORE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java (*CachingMapper2ü
+Kcom.thoughtworks.xstream.mapper.CachingMapper.CachingMapper(Mapper)!wrapped	PARAMETERE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java ('2ä
+;com.thoughtworks.xstream.mapper.CachingMapper.readResolve()CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java   (2É
+-com.thoughtworks.xstream.mapper.CachingMapperRETURN_TYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java (ˇ
+Kcom.thoughtworks.xstream.mapper.CachingMapper.CachingMapper(Mapper)!wrapped	PARAMETERE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java  ('*wrapped2U
+MapperTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java (®
+?com.thoughtworks.xstream.mapper.CachingMapper.realClass(String)METHODE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# #("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Class*	realClass2ü
+Kcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)!elementName	PARAMETERE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# #(-2ü
+Icom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?referenceDECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$ $(Q2ú
+Fcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?cachedDECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java& &(22ú
+Fcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?resultDECLARATIONE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java, ,(32r
+#java.util.Map.get(java.lang.Object)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$2 $(Q2l
+java.lang.ref.Reference.get()CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java&# &(22f
+java.util.Map.put(K, V)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java- -(B2{
+,java.lang.ref.WeakReference.WeakReference(T)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java-( -(A2ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$2 $(@2§
+Ucom.thoughtworks.xstream.mapper.CachingMapper.realClass(java.lang.String)!elementNameCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$E $(P2§
+Ucom.thoughtworks.xstream.mapper.CachingMapper.realClass(java.lang.String)!elementNameCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java,' ,(22ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java- -(2§
+Ucom.thoughtworks.xstream.mapper.CachingMapper.realClass(java.lang.String)!elementNameCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java- -(&2e
+java.lang.ClassRETURN_TYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# #(≤
+:com.thoughtworks.xstream.mapper.CachingMapper.flushCache()METHODE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java1 1("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*
+flushCache2d
+java.util.Map.clear()CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java2 2(2ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java2 2(2Z
+voidRETURN_TYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java1 1(ÿ
+;com.thoughtworks.xstream.mapper.CachingMapper.readResolve()METHODE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java5 5("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*readResolve2â
+:java.util.Collections.synchronizedMap(java.util.Map<K, V>)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java6 6(F2m
+java.util.HashMap.HashMap(int)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java65 6(E2ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java6 6(2f
+java.lang.ObjectRETURN_TYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java5 5(ç
+Kcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)!elementName	PARAMETERE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java#" #(-*elementName2_
+java.lang.StringTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java# #(!‘
+Icom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?referenceVARIABLEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$ $("
+type WeakReference*	reference2j
+java.lang.ref.WeakReferenceTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$ $(2r
+#java.util.Map.get(java.lang.Object)CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$2 $(Q2ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$2 $(@2§
+Ucom.thoughtworks.xstream.mapper.CachingMapper.realClass(java.lang.String)!elementNameCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java$E $(Pˇ
+Fcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?cachedVARIABLEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java& &("
+type Class*cached2^
+java.lang.ClassTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java& &(2l
+java.lang.ref.Reference.get()CALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java&# &(2∏
+Fcom.thoughtworks.xstream.mapper.CachingMapper.realClass(String)?resultVARIABLEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java, ,("
+type Class*result2^
+java.lang.ClassTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java, ,(2§
+Ucom.thoughtworks.xstream.mapper.CachingMapper.realClass(java.lang.String)!elementNameCALLE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java,' ,(2ã
+<com.thoughtworks.xstream.mapper.CachingMapper?realClassCacheVARIABLEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java (("
+type Map*realClassCache2\
+java.util.MapTYPEE
+;src/java/com/thoughtworks/xstream/mapper/CachingMapper.java (

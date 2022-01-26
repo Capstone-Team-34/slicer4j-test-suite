@@ -1,0 +1,302 @@
+
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaì
+,com.thoughtworks.xstream.io.binary.TokenTestCLASSD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java ("
+inner classfalse*	TokenTest2â
+4com.thoughtworks.xstream.io.binary.TokenTest.setUp()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java !(2°
+Lcom.thoughtworks.xstream.io.binary.TokenTest.testDoesNotSupportNegativeIds()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java# +(2∏
+ccom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForIdsThatCanBeRepresentedAsByte()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java- 2(2∫
+ecom.thoughtworks.xstream.io.binary.TokenTest.testUsesTwoExtraBytesForIdsThatCanBeRepresentedAsShort()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java4 9(2ª
+fcom.thoughtworks.xstream.io.binary.TokenTest.testUsesFourExtraBytesForIdsThatCanBeRepresentedAsShort()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java; @(2ª
+fcom.thoughtworks.xstream.io.binary.TokenTest.testUsesEightExtraBytesForIdsThatCanBeRepresentedAsLong()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaB G(2π
+dcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith1ByteCharacters()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaI N(2π
+dcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith2ByteCharacters()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaP U(2¨
+Wcom.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaW b(2ê
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javad f(2ñ
+Acom.thoughtworks.xstream.io.binary.TokenTest.writeOneToken(Token)DECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah j(2ê
+;com.thoughtworks.xstream.io.binary.TokenTest?tokenFormatterDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (*2à
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java" ((2Ö
+0com.thoughtworks.xstream.io.binary.TokenTest?outDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (2X
+TestCaseEXTENDD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java ('ﬁ
+4com.thoughtworks.xstream.io.binary.TokenTest.setUp()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2É
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (,2ç
+?java.io.DataOutputStream.DataOutputStream(java.io.OutputStream)CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java   (*2â
+;com.thoughtworks.xstream.io.binary.TokenTest?tokenFormatterCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (2~
+0com.thoughtworks.xstream.io.binary.TokenTest?outCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java   (2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java #  ()2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java" (+ã
+Lcom.thoughtworks.xstream.io.binary.TokenTest.testDoesNotSupportNegativeIds()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java# #(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testDoesNotSupportNegativeIds2ß
+Rcom.thoughtworks.xstream.io.binary.TokenTest.testDoesNotSupportNegativeIds()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java$ $(72Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java# #(‘
+ccom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForIdsThatCanBeRepresentedAsByte()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java- -(D"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*4testUsesOneExtraByteForIdsThatCanBeRepresentedAsByte2æ
+icom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForIdsThatCanBeRepresentedAsByte()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java. .(82r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java0 0(%2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java1 1(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java0 0(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java-N -(Y⁄
+ecom.thoughtworks.xstream.io.binary.TokenTest.testUsesTwoExtraBytesForIdsThatCanBeRepresentedAsShort()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java4 4(F"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*6testUsesTwoExtraBytesForIdsThatCanBeRepresentedAsShort2¿
+kcom.thoughtworks.xstream.io.binary.TokenTest.testUsesTwoExtraBytesForIdsThatCanBeRepresentedAsShort()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java5 5(:2r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java7 7(%2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java8 8(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java7 7(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java4P 4([›
+fcom.thoughtworks.xstream.io.binary.TokenTest.testUsesFourExtraBytesForIdsThatCanBeRepresentedAsShort()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java; ;(G"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*7testUsesFourExtraBytesForIdsThatCanBeRepresentedAsShort2¡
+lcom.thoughtworks.xstream.io.binary.TokenTest.testUsesFourExtraBytesForIdsThatCanBeRepresentedAsShort()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java< <(F2r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java> >(%2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java? ?(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java> >(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java;Q ;(\›
+fcom.thoughtworks.xstream.io.binary.TokenTest.testUsesEightExtraBytesForIdsThatCanBeRepresentedAsLong()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaB B(G"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*7testUsesEightExtraBytesForIdsThatCanBeRepresentedAsLong2¡
+lcom.thoughtworks.xstream.io.binary.TokenTest.testUsesEightExtraBytesForIdsThatCanBeRepresentedAsLong()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaC C(B2r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaE E(%2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaF F(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaE E(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaBQ B(\◊
+dcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith1ByteCharacters()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaI I(E"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*5testUsesOneExtraByteForUtf8StringsWith1ByteCharacters2ø
+jcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith1ByteCharacters()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaJ J(42r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaL L(%2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaM M(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaL L(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaIO I(Z◊
+dcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith2ByteCharacters()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaP P(E"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*5testUsesOneExtraByteForUtf8StringsWith2ByteCharacters2ø
+jcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith2ByteCharacters()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaQ Q(M2r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaS S(&2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaT T(*2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaS S(2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaPO P(Zú
+Wcom.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaW W(8"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*(testUsesIdForStringsWithMoreThen64KBytes2¥
+_com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?builderDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaX X(12Æ
+Ycom.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?iDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaY Y(2≥
+^com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?stringDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java\ \(*2≤
+]com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?tokenDECLARATIOND
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java^ ^(32}
+/java.lang.StringBuffer.append(java.lang.String)CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaZ Z(<2o
+!java.lang.StringBuffer.toString()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java\ \(*2g
+java.lang.String.length()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java] ](+2r
+$java.io.ByteArrayOutputStream.size()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java` `()2â
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaa a(*2s
+%java.lang.StringBuffer.StringBuffer()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaX X(12Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java` `("2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaWB W(M‰
+;com.thoughtworks.xstream.io.binary.TokenTest.readOneToken()METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javad d("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Token*readOneToken2y
++java.io.ByteArrayOutputStream.toByteArray()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaeP e(d2ä
+<java.io.DataInputStream.DataInputStream(java.io.InputStream)CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javae# e(f2á
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javae7 e(e2â
+;com.thoughtworks.xstream.io.binary.TokenTest?tokenFormatterCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javae e(2Å
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaeP e(V2Z
+TokenRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javad( d(3
+Acom.thoughtworks.xstream.io.binary.TokenTest.writeOneToken(Token)METHODD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah h("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeOneToken2ö
+Gcom.thoughtworks.xstream.io.binary.TokenTest.writeOneToken(Token)!token	PARAMETERD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah h(*2â
+;com.thoughtworks.xstream.io.binary.TokenTest?tokenFormatterCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javai i(2~
+0com.thoughtworks.xstream.io.binary.TokenTest?outCALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javai i( 2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah3 h(>ˆ
+Gcom.thoughtworks.xstream.io.binary.TokenTest.writeOneToken(Token)!token	PARAMETERD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah% h(**token2S
+TokenTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javah h($§
+Rcom.thoughtworks.xstream.io.binary.TokenTest.testDoesNotSupportNegativeIds()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java$ $("
+type Token.StartNode*token2]
+Token.StartNodeTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java$ $(ª
+icom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForIdsThatCanBeRepresentedAsByte()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java. .("
+type Token.StartNode*token2]
+Token.StartNodeTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java. .(Ω
+kcom.thoughtworks.xstream.io.binary.TokenTest.testUsesTwoExtraBytesForIdsThatCanBeRepresentedAsShort()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java5 5("
+type Token.StartNode*token2]
+Token.StartNodeTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java5 5(æ
+lcom.thoughtworks.xstream.io.binary.TokenTest.testUsesFourExtraBytesForIdsThatCanBeRepresentedAsShort()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java< <("
+type Token.StartNode*token2]
+Token.StartNodeTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java< <(æ
+lcom.thoughtworks.xstream.io.binary.TokenTest.testUsesEightExtraBytesForIdsThatCanBeRepresentedAsLong()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaC C("
+type Token.StartNode*token2]
+Token.StartNodeTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaC C(¥
+jcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith1ByteCharacters()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaJ J("
+type Token.Value*token2Y
+Token.ValueTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaJ J(¥
+jcom.thoughtworks.xstream.io.binary.TokenTest.testUsesOneExtraByteForUtf8StringsWith2ByteCharacters()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaQ Q("
+type Token.Value*token2Y
+Token.ValueTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaQ Q(¨
+_com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?builderVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaX X("
+type StringBuffer*builder2d
+java.lang.StringBufferTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaX X(2s
+%java.lang.StringBuffer.StringBuffer()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaX X(1è
+Ycom.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?iVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaY Y("
+type int*i2Q
+intTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.javaY Y(ö
+^com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?stringVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java\ \("
+type String*string2^
+java.lang.StringTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java\ \(2o
+!java.lang.StringBuffer.toString()CALLD
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java\ \(*ß
+]com.thoughtworks.xstream.io.binary.TokenTest.testUsesIdForStringsWithMoreThen64KBytes()?tokenVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java^ ^("
+type Token.Value*token2Y
+Token.ValueTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java^ ^(ñ
+;com.thoughtworks.xstream.io.binary.TokenTest?tokenFormatterVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (*"
+type Token.Formatter*tokenFormatter2]
+Token.FormatterTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (ö
+3com.thoughtworks.xstream.io.binary.TokenTest?bufferVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java" (("
+type ByteArrayOutputStream*buffer2k
+java.io.ByteArrayOutputStreamTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (!˛
+0com.thoughtworks.xstream.io.binary.TokenTest?outVARIABLED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java ("
+type 
+DataOutput*out2`
+java.io.DataOutputTYPED
+:src/test/com/thoughtworks/xstream/io/binary/TokenTest.java (

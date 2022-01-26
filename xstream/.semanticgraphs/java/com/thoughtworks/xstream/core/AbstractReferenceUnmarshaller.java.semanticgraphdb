@@ -1,0 +1,207 @@
+
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaÌ
+;com.thoughtworks.xstream.core.AbstractReferenceUnmarshallerCLASSS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java (3"
+inner classfalse*AbstractReferenceUnmarshaller2ø
+[com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)DECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java) G(2∑
+Scom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(String)DECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI I(@2∏
+Tcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getCurrentReferenceKey()DECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaJ J(72ˆ
+ëcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)DECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$ '(2§
+@com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?NULLDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java    (32¶
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java! !(&2´
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java" "(52o
+TreeUnmarshallerEXTENDS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java< (L∂
+ëcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)CONSTRUCTORS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$ $((*AbstractReferenceUnmarshaller2˘
+ñcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!root	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$) $(42˚
+òcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!reader	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$6 $(U2Ñ
+°com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!converterLookup	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%% %(D2˚
+òcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!mapper	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%F %(S2ü
+;com.thoughtworks.xstream.core.AbstractReferenceUnmarshallerRETURN_TYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$ $((Ó
+ñcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!root	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$0 $(4*root2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$) $(/˙
+òcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!reader	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$O $(U*reader2u
+HierarchicalStreamReaderTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java$6 $(NÉ
+°com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!converterLookup	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%5 %(D*converterLookup2l
+ConverterLookupTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%% %(4Ë
+òcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.AbstractReferenceUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!mapper	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%M %(S*mapper2c
+MapperTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java%F %(LÀ&
+[com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)METHODS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java) )("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*convert2ƒ
+bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!parent	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java) )(*2¬
+`com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!type	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java), )(62«
+ecom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!converter	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java)8 )(K2“
+ncom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?parentReferenceKeyDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java+ +(:2∆
+bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?resultDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java2 2(2Õ
+icom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?attributeNameDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java3 3(O2…
+ecom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?referenceDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java4 4(\2≈
+acom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?cacheDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(A2¬
+^com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?exDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java8* 8([2”
+ocom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?currentReferenceKeyDECLARATIONS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java> >(A2à
++java.util.Map.containsKey(java.lang.Object)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java- -(;2t
+java.util.Map.put(K, V)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java. .(:2Ä
+#java.util.Map.get(java.lang.Object)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(A2∫
+]com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(java.lang.String)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6& 6(@2±
+Tcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getCurrentReferenceKey()CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java>) >(A2t
+java.util.Map.put(K, V)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaB B(O2§
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java* *(2§
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java+( +(32ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java- -(2ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java. .(2ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(!2ù
+@com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?NULLCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java< <("2§
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java? ?(2ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaB B(2ù
+@com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?NULLCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaBA B(E2§
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaD D(2t
+java.lang.ObjectRETURN_TYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java) )(À
+Scom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(String)METHODS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI I(-"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*getReferenceKey2ø
+]com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(String)!reference	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI. I(>2t
+java.lang.ObjectRETURN_TYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI I(ë
+Tcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getCurrentReferenceKey()METHODS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaJ J(4"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type Object*getCurrentReferenceKey2t
+java.lang.ObjectRETURN_TYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaJ J(ª
+bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!parent	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java)$ )(**parent2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java) )(#∂
+`com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!type	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java)2 )(6*type2l
+java.lang.ClassTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java), )(1∫
+ecom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)!converter	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java)B )(K*	converter2f
+	ConverterTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java)8 )(Aπ
+]com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(String)!reference	PARAMETERS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI5 I(>*	reference2m
+java.lang.StringTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.javaI. I(4ä
+ncom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?parentReferenceKeyVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java+ +(%"
+type Object*parentReferenceKey2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java+ +(2§
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java+( +(3»
+bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?resultVALUES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java2 2("
+type Object*result2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java2 2(Ÿ
+icom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?attributeNameVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java3 3("
+type String*attributeName2m
+java.lang.StringTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java3 3(—
+ecom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?referenceVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java4 4("
+type String*	reference2m
+java.lang.StringTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java4 4(´
+acom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?cacheVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6("
+type Object*cache2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(2Ä
+#java.util.Map.get(java.lang.Object)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(A2∫
+]com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getReferenceKey(java.lang.String)CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6& 6(@2ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesCALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java6 6(!–
+^com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?exVALUES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java8* 8(,"
+type ConversionException*ex2p
+ConversionExceptionTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java8 8()ô
+ocom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(Object,Class,Converter)?currentReferenceKeyVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java> >(&"
+type Object*currentReferenceKey2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java> >(2±
+Tcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.getCurrentReferenceKey()CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java>) >(Aú
+@com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?NULLVALUES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java    ($"
+type Object*NULL2m
+java.lang.ObjectTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java   (2v
+java.lang.Object.Object()CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java '  (3ü
+Bcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?valuesVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java! !("
+type Map*values2j
+java.util.MapTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java! !(2x
+java.util.HashMap.HashMap()CALLS
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java! !(&±
+Gcom.thoughtworks.xstream.core.AbstractReferenceUnmarshaller?parentStackVARIABLES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java" "(!"
+type 	FastStack*parentStack2f
+	FastStackTYPES
+Isrc/java/com/thoughtworks/xstream/core/AbstractReferenceUnmarshaller.java" "(

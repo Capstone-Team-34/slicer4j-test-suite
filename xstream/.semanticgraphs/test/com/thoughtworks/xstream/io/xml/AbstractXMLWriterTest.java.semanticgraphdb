@@ -1,0 +1,321 @@
+
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java‘
+5com.thoughtworks.xstream.io.xml.AbstractXMLWriterTestCLASSM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (+"
+inner classfalse*AbstractXMLWriterTest2¯
+Qcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(String)DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (A2´
+Vcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java "(2­
+Ocom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testProducesXmlElements()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java$ *(2°
+Rcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsNestedElements()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java, A(2«
+Mcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsEmptyTags()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaC H(2¬
+Ncom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsAttributes()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaJ Q(2¹
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testAttributesAreResettedForNewNode()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaS _(2¸
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesXmlUnfriendlyCharacters()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaa h(2¼
+^com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesWhitespaceCharactersInValue()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaj s(2À
+bcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesWhitespaceCharactersInAttribute()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javau {(2²
+Scom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsEmptyNestedTags()DECLARATIONN
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java} „(2š
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java' (-2a
+TestCaseEXTENDM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java4 (<ª
+Qcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(String)METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (/"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*assertXmlProducedIs2¶
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(String)!expected	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java0 (?2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (ã
+Vcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*
+replaceAll2´
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!s	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java  ((2¼
+`com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!occurance	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java* (@2¾
+bcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!replacement	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaB (Z2¸
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?lenDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (*2¸
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?incDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (22¶
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?iDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2¹
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?buffDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (52p
+java.lang.String.length()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (*2p
+java.lang.String.length()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (22†
+/java.lang.String.indexOf(java.lang.String, int)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (>2x
+!java.lang.StringBuffer.toString()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("2‘
+:java.lang.StringBuffer.replace(int, int, java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (12x
+!java.lang.StringBuffer.toString()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java! !(2Œ
+5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java" (52Ø
+€com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!occuranceCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (!2Ú
+‚com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!replacementCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ()2Ï
+xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!sCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java3 (42Ø
+€com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!occuranceCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java+ (42Ú
+‚com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!replacementCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java% (02n
+java.lang.StringRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (ç
+Ocom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testProducesXmlElements()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java$ $('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testProducesXmlElements2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java) )(32“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java% %(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java& &(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java' '(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java$ $(É
+Rcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsNestedElements()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java, ,(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSupportsNestedElements2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java@ @(M2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java. .(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java0 0(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java1 1(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java2 2(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java4 4(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java5 5(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java6 6(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java8 8(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java9 9(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java: :(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java; ;(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java< <(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java> >(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java, ,(Í
+Mcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsEmptyTags()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaC C(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSupportsEmptyTags2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaG G('2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaD D(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaE E(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaC C(û
+Ncom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsAttributes()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaJ J(&"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSupportsAttributes2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaP P(N2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaK K(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaL L(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaM M(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaN N(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaJ J(ƒ
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testAttributesAreResettedForNewNode()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaS S(3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*#testAttributesAreResettedForNewNode2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java^ ^(z2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaT T(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaU U(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaV V(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaW W(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaX X(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaY Y(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaZ Z(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java[ [(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java\ \(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaS S(“	
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesXmlUnfriendlyCharacters()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaa a(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testEscapesXmlUnfriendlyCharacters2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javag g(p2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javab b(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javac c(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javad d(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javae e(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaa a(…
+^com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesWhitespaceCharactersInValue()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaj j(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testEscapesWhitespaceCharactersInValue2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javao r(.2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javak k(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javal l(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javam m(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaj j(
+bcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testEscapesWhitespaceCharactersInAttribute()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javau u(:"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void**testEscapesWhitespaceCharactersInAttribute2²
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaz z(o2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javav v(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaw w(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javax x(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javau u(‹	
+Scom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.testSupportsEmptyNestedTags()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java} }(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSupportsEmptyNestedTags2´
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaƒ ƒ(82“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java~ ~(2“
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2•
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java€ €(2•
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerCALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java} }(©
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.assertXmlProducedIs(String)!expected	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java7 (?*expected2g
+java.lang.StringTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java0 (6 
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!s	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java' ((*s2g
+java.lang.StringTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java  (&°
+`com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!occurance	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java7 (@*	occurance2g
+java.lang.StringTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java0 (6´
+bcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)!replacement	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaO (Z*replacement2g
+java.lang.StringTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.javaH (Nî
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?lenVALUEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("
+type int*len2Z
+intTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2p
+java.lang.String.length()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (*2Ø
+€com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!occuranceCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (!ð
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?incVALUEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("
+type int*inc2Z
+intTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2p
+java.lang.String.length()CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (22Ú
+‚com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!replacementCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java () 
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?iVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("
+type int*i2Z
+intTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ( 
+[com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(String,String,String)?buffVALUEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java ("
+type StringBuffer*buff2m
+java.lang.StringBufferTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (2Œ
+5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java" (52Ï
+xcom.thoughtworks.xstream.io.xml.AbstractXMLWriterTest.replaceAll(java.lang.String, java.lang.String, java.lang.String)!sCALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java3 (4³
+<com.thoughtworks.xstream.io.xml.AbstractXMLWriterTest?writerVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java' (-"!
+type HierarchicalStreamWriter*writer2o
+HierarchicalStreamWriterTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLWriterTest.java (&

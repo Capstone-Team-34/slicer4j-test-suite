@@ -1,0 +1,170 @@
+
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java©
+)com.thoughtworks.xstream.io.WriterWrapperCLASSA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (#"
+inner classfalse*WriterWrapper2ç
+;com.thoughtworks.xstream.io.WriterWrapper.startNode(String)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (2ì
+Acom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java !(2Ö
+3com.thoughtworks.xstream.io.WriterWrapper.endNode()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java# %(2ó
+Ecom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' )(2å
+:com.thoughtworks.xstream.io.WriterWrapper.setValue(String)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+ -(2É
+1com.thoughtworks.xstream.io.WriterWrapper.flush()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java/ 1(2É
+1com.thoughtworks.xstream.io.WriterWrapper.close()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java3 5(2é
+<com.thoughtworks.xstream.io.WriterWrapper.underlyingWriter()DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java7 9(2£
+Qcom.thoughtworks.xstream.io.WriterWrapper.WriterWrapper(HierarchicalStreamWriter)DECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (2É
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedDECLARATIONA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' (.2m
+ ExtendedHierarchicalStreamWriterEXTENDA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java/ (O€
+Qcom.thoughtworks.xstream.io.WriterWrapper.WriterWrapper(HierarchicalStreamWriter)CONSTRUCTORA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (*WriterWrapper2©
+Ycom.thoughtworks.xstream.io.WriterWrapper.WriterWrapper(HierarchicalStreamWriter)!wrapped	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (<2{
+)com.thoughtworks.xstream.io.WriterWrapperRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (ó
+Ycom.thoughtworks.xstream.io.WriterWrapper.WriterWrapper(HierarchicalStreamWriter)!wrapped	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java5 (<*wrapped2c
+HierarchicalStreamWriterTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (4ﬂ
+;com.thoughtworks.xstream.io.WriterWrapper.startNode(String)METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	startNode2ê
+@com.thoughtworks.xstream.io.WriterWrapper.startNode(String)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (%2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (2ï
+Jcom.thoughtworks.xstream.io.WriterWrapper.startNode(java.lang.String)!nameCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (¿
+Acom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	startNode2ñ
+Fcom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (%2ó
+Gcom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)!clazz	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' (22|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ,  (32¶
+[com.thoughtworks.xstream.io.WriterWrapper.startNode(java.lang.String, java.lang.Class)!nameCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ?  (C2ß
+\com.thoughtworks.xstream.io.WriterWrapper.startNode(java.lang.String, java.lang.Class)!clazzCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java E  (J2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (™
+3com.thoughtworks.xstream.io.WriterWrapper.endNode()METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java# #("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*endNode2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java$ $(2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java# #(’
+Ecom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' '("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*addAttribute2ô
+Icom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)!key	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' '('2õ
+Kcom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)!value	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java') '(52|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java( ((2©
+^com.thoughtworks.xstream.io.WriterWrapper.addAttribute(java.lang.String, java.lang.String)!keyCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java( (( 2´
+`com.thoughtworks.xstream.io.WriterWrapper.addAttribute(java.lang.String, java.lang.String)!valueCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java(" (('2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' '(€
+:com.thoughtworks.xstream.io.WriterWrapper.setValue(String)METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+ +("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*setValue2è
+?com.thoughtworks.xstream.io.WriterWrapper.setValue(String)!text	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+ +($2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java, ,(2î
+Icom.thoughtworks.xstream.io.WriterWrapper.setValue(java.lang.String)!textCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java, ,(2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+ +(¶
+1com.thoughtworks.xstream.io.WriterWrapper.flush()METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java/ /("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*flush2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java0 0(2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java/ /(¶
+1com.thoughtworks.xstream.io.WriterWrapper.close()METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java3 3("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*close2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java4 4(2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java3 3(‰
+<com.thoughtworks.xstream.io.WriterWrapper.underlyingWriter()METHODA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java7$ 7(4"
+staticfalse"
+finalfalse"
+access modifierpublic"!
+type HierarchicalStreamWriter*underlyingWriter2|
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedCALLA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java8 8(2j
+HierarchicalStreamWriterRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java7 7(#Û
+@com.thoughtworks.xstream.io.WriterWrapper.startNode(String)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java! (%*name2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ( ˘
+Fcom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java! (%*name2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java ( ˙
+Gcom.thoughtworks.xstream.io.WriterWrapper.startNode(String,Class)!clazz	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java- (2*clazz2Z
+java.lang.ClassTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' (,˚
+Icom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)!key	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java'$ '('*key2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' '(#ˇ
+Kcom.thoughtworks.xstream.io.WriterWrapper.addAttribute(String,String)!value	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java'0 '(5*value2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java') '(/Ú
+?com.thoughtworks.xstream.io.WriterWrapper.setValue(String)!text	PARAMETERA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+  +($*text2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java+ +(ë
+1com.thoughtworks.xstream.io.WriterWrapper?wrappedVARIABLEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java' (."!
+type HierarchicalStreamWriter*wrapped2c
+HierarchicalStreamWriterTYPEA
+7src/java/com/thoughtworks/xstream/io/WriterWrapper.java (&

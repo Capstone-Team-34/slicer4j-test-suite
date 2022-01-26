@@ -1,0 +1,126 @@
+
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.javaï
+=com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTestCLASSU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java ()"
+inner classfalse*HierarchicalStreamCopierTest2¸
+Rcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)DECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java" ,(2»
+Ucom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()DECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java. :(2ª
+Dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest?copierDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java% (L2v
+AbstractXMLReaderTestEXTENDU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java2 (GÎ
+Rcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)METHODU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java"' "(3"
+staticfalse"
+finalfalse"
+access modifier	protected"!
+type HierarchicalStreamReader*createReader2º
+Vcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)!xml	PARAMETERU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java"4 "(>2Å
+_com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?sourceReaderDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java#! $(D2¿
+Ycom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?bufferDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java& &(02Ê
+dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?destinationWriterDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java'! '(N2~
+java.io.StringWriter.toString()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java+. +(?2’
+3java.io.StringReader.StringReader(java.lang.String)CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java$. $(C2‚
+#java.io.StringWriter.StringWriter()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java& &(02’
+3java.io.StringReader.StringReader(java.lang.String)CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java+ +(@2¿
+`com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(java.lang.String)!xmlCALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java$? $(B2£
+Dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest?copierCALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java) )(2~
+HierarchicalStreamReaderRETURN_TYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java"G "(P¯
+Ucom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()METHODU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java. .(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSkipsValueIfEmpty2Á
+[com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?inputDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java/ /([2Ä
+^com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?expectedDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java0 0(V2È
+bcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?sourceReaderDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java1! 2(F2Â
+\com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?bufferDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java4 4(02Í
+gcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?destinationWriterDECLARATIONU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java5! 5(N2~
+java.io.StringWriter.toString()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java9 9(02’
+3java.io.StringReader.StringReader(java.lang.String)CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java2 2(#2‚
+#java.io.StringWriter.StringWriter()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java4 4(02£
+Dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest?copierCALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java7 7(2j
+voidRETURN_TYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java./ .(E°
+Vcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)!xml	PARAMETERU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java"; "(>*xml2o
+java.lang.StringTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java"4 "(:Ã
+_com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?sourceReaderVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java#! #(-"!
+type HierarchicalStreamReader*sourceReader2w
+HierarchicalStreamReaderTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java# #( 2’
+3java.io.StringReader.StringReader(java.lang.String)CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java$. $(C2¿
+`com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(java.lang.String)!xmlCALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java$? $(BÕ
+Ycom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?bufferVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java& &("
+type StringWriter*buffer2s
+java.io.StringWriterTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java& &(2‚
+#java.io.StringWriter.StringWriter()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java& &(0ö
+dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.createReader(String)?destinationWriterVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java'! '(2"!
+type HierarchicalStreamWriter*destinationWriter2w
+HierarchicalStreamWriterTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java' '( Ç
+[com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?inputVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java/ /("
+type String*input2o
+java.lang.StringTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java/ /(Í
+^com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?expectedVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java0 0("
+type String*expected2o
+java.lang.StringTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java0 0(„
+bcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?sourceReaderVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java1! 1(-"!
+type HierarchicalStreamReader*sourceReader2w
+HierarchicalStreamReaderTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java1 1( 2’
+3java.io.StringReader.StringReader(java.lang.String)CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java2 2(#Ø
+\com.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?bufferVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java4 4("
+type StringWriter*buffer2s
+java.io.StringWriterTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java4 4(2‚
+#java.io.StringWriter.StringWriter()CALLU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java4 4(0ù
+gcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest.testSkipsValueIfEmpty()?destinationWriterVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java5! 5(2"!
+type HierarchicalStreamWriter*destinationWriter2w
+HierarchicalStreamWriterTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java5 5( Ë
+Dcom.thoughtworks.xstream.io.copy.HierarchicalStreamCopierTest?copierVARIABLEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java% (+"!
+type HierarchicalStreamCopier*copier2w
+HierarchicalStreamCopierTYPEU
+Ksrc/test/com/thoughtworks/xstream/io/copy/HierarchicalStreamCopierTest.java ($

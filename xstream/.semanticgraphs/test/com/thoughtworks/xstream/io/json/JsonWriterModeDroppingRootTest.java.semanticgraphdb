@@ -1,0 +1,144 @@
+
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java·
+?com.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTestCLASSW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java (+"
+inner classfalse*JsonWriterModeDroppingRootTest2¯
+Gcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.setUp()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java #(2¶
+Ncom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.createDriver()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java% -(2¼
+Tcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.createWriter(Writer)DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java( +(2Ä
+\com.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(String)DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/ 2(2¼
+Tcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java4 B(2Ò
+jcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testBracesAndSquareBracketsAreNotEscaped()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaD J(2Ø
+pcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaL `(2¸
+Pcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testStrictJSON()DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javab p(2¼
+Tcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.createWriter(Writer)DECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javae h(2ƒ
+ JsonHierarchicalStreamDriverTestEXTENDW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java4 (Tí
+Gcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.setUp()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2l
+voidRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java" (+¬
+Ncom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.createDriver()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java%+ %(7"
+staticfalse"
+finalfalse"
+access modifier	protected"%
+type JsonHierarchicalStreamDriver*createDriver2„
+JsonHierarchicalStreamDriverRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java% %(*ø
+\com.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(String)METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/ /()"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type String*normalizeExpectation2Ë
+ecom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(String)!expected	PARAMETERW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/* /(?2…
+$java.lang.String.substring(int, int)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java0* 1(>2‹
+*java.lang.String.indexOf(java.lang.String)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java1 1("2z
+java.lang.String.length()CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java1( 1(92Ð
+ocom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(java.lang.String)!expectedCALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java0* 0(22Ð
+ocom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(java.lang.String)!expectedCALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java1 1(2Ð
+ocom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(java.lang.String)!expectedCALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java1( 1(02x
+java.lang.StringRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/ /(Œ
+Tcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java4 4(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCanMarshalSets2Á
+Ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()?menuDECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java9 9(22Á
+Ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()?jsonDECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java; ;(/2l
+voidRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java4 4(–
+jcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testBracesAndSquareBracketsAreNotEscaped()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaD D(8"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*(testBracesAndSquareBracketsAreNotEscaped2Û
+scom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testBracesAndSquareBracketsAreNotEscaped()?expectedDECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaE H(%2…
+$java.lang.String.replace(char, char)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaE  H(%2l
+voidRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaD D(È
+pcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaL L(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*.testWillWriteTagValueAsDefaultValueIfNecessary2Û
+scom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()?saDECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaQ Q(42á
+ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()?expectedDECLARATIONW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaV ](2Ç
+fcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(java.lang.String)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaV ](2l
+voidRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaL L(ý
+Pcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testStrictJSON()METHODW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javab b("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testStrictJSON2
+java.lang.Integer.Integer(int)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javak k(*2l
+voidRETURN_TYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javab b(È
+ecom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(String)!expected	PARAMETERW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/7 /(?*expected2q
+java.lang.StringTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java/0 /(6Å
+Ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()?menuVALUEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java9 9("
+type MenuWithSet*menu2l
+MenuWithSetTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java9 9(Å
+Ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testCanMarshalSets()?jsonVALUEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java; ;("
+type String*json2q
+java.lang.StringTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.java; ;(ë
+scom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testBracesAndSquareBracketsAreNotEscaped()?expectedVALUEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaE E("
+type String*expected2q
+java.lang.StringTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaE E(2…
+$java.lang.String.replace(char, char)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaE  H(%ê
+scom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()?saVARIABLEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaQ Q("
+type SystemAttributes*sa2q
+SystemAttributesTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaQ Q(¶
+ycom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.testWillWriteTagValueAsDefaultValueIfNecessary()?expectedVARIABLEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaV V("
+type String*expected2q
+java.lang.StringTYPEW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaV V(2Ç
+fcom.thoughtworks.xstream.io.json.JsonWriterModeDroppingRootTest.normalizeExpectation(java.lang.String)CALLW
+Msrc/test/com/thoughtworks/xstream/io/json/JsonWriterModeDroppingRootTest.javaV ](

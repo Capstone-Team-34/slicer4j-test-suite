@@ -1,0 +1,500 @@
+
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaƒ!
+5com.thoughtworks.xstream.io.binary.BinaryStreamReaderCLASSM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java# #("
+inner classfalse*BinaryStreamReader2•
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.hasMoreChildren()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java1 3(2°
+Ccom.thoughtworks.xstream.io.binary.BinaryStreamReader.getNodeName()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java5 7(2û
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.getValue()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java9 ;(2®
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(String)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java= ?(2•
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(int)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA C(2ß
+Icom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeCount()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaE G(2©
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeName(int)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI K(2ß
+Icom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeNames()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaM O(2û
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaQ p(2ù
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()DECLARATIONN
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javar ï(2°
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaó ™(2•
+Ecom.thoughtworks.xstream.io.binary.BinaryStreamReader.pushBack(Token)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ≥(2ù
+=com.thoughtworks.xstream.io.binary.BinaryStreamReader.close()DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaµ ª(2•
+Ecom.thoughtworks.xstream.io.binary.BinaryStreamReader.peekNextChild()DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaΩ ¬(2®
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.underlyingReader()DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaƒ ∆(2Ø
+Ocom.thoughtworks.xstream.io.binary.BinaryStreamReader.appendErrors(ErrorWriter)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java»  (2¶
+Fcom.thoughtworks.xstream.io.binary.BinaryStreamReader.put(long,String)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– “(	2ü
+?com.thoughtworks.xstream.io.binary.BinaryStreamReader.get(long)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ €(	2≥
+Ucom.thoughtworks.xstream.io.binary.BinaryStreamReader.BinaryStreamReader(InputStream)DECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java, /(2ñ
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java%" %($2û
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java&# &(F2û
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?idRegistryDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java' '(:2ú
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java) )(2¢
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader?tokenFormatterDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java*" *(H2y
+ ExtendedHierarchicalStreamReaderEXTENDM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java#+ #(K¢	
+Ucom.thoughtworks.xstream.io.binary.BinaryStreamReader.BinaryStreamReader(InputStream)CONSTRUCTORM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java, ,(*BinaryStreamReader2Ω
+acom.thoughtworks.xstream.io.binary.BinaryStreamReader.BinaryStreamReader(InputStream)!inputStream	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java, ,(52ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java. .(2ì
+<java.io.DataInputStream.DataInputStream(java.io.InputStream)CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java- -(-2è
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java- -(
+2¿
+icom.thoughtworks.xstream.io.binary.BinaryStreamReader.BinaryStreamReader(java.io.InputStream)!inputStreamCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java-! -(,2ì
+5com.thoughtworks.xstream.io.binary.BinaryStreamReaderRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java, ,(∂
+acom.thoughtworks.xstream.io.binary.BinaryStreamReader.BinaryStreamReader(InputStream)!inputStream	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java,* ,(5*inputStream2j
+java.io.InputStreamTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java, ,()Ä
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.hasMoreChildren()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java1 1(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*hasMoreChildren2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java2 2(2e
+booleanRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java1 1(Ä
+Ccom.thoughtworks.xstream.io.binary.BinaryStreamReader.getNodeName()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java5 5("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getNodeName2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java6 6(2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java5 5(˙
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.getValue()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java9 9("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getValue2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java: :(2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java9 9(È
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(String)METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java= =("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2´
+Ocom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(String)!name	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java= =(*2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java> >(2∞
+Ycom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(java.lang.String)!nameCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java>' >(+2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java= =(ÿ
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(int)METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA A("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttribute2©
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(int)!index	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA A((2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaB B(2§
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(int)!indexCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaB' B(,2n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA A(¸
+Icom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeCount()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaE E( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*getAttributeCount2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaF F(2a
+intRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaE E(Ë
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeName(int)METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI I(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getAttributeName2≠
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeName(int)!index	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI# I(,2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaJ J(2®
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeName(int)!indexCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaJ+ J(02n
+java.lang.StringRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI I(ê
+Icom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeNames()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaM M(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Iterator*getAttributeNames2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaN N(2p
+java.util.IteratorRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaM M(˘
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaQ Q("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*moveDown2©
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()?firstTokenDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaS S(&2®
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()?nextTokenDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java\ \()2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaS S(&2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java\ \()2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaR R(2b
+voidRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaQ Q(ô
+
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()METHODM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javar r("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*moveUp2¢
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?depthDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javau u(2¶
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?nextTokenDECLARATIONM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javax x()2®
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?nextTokenDECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaâ â(%2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javax x()2ö
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaâ â(%2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javas s(2b
+voidRETURN_TYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javar r(œ
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaó ó("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Token*	readToken2ß
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()?tokenDECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö ö(52®
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()?resultDECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¶ ¶(#2ö
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaû û(*2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaò ò(2ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader?tokenFormatterCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö ö(,2ë
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö2 ö(42ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¶ ¶(#2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaß ß(2e
+TokenRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaó ó(æ
+Ecom.thoughtworks.xstream.io.binary.BinaryStreamReader.pushBack(Token)METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ¨("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*pushBack2©
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.pushBack(Token)!token	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ¨($2Ä
+'java.lang.Error.Error(java.lang.String)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java± ±(C2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java≠ ≠(2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaÆ Æ(2d
+voidRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ¨(‡
+=com.thoughtworks.xstream.io.binary.BinaryStreamReader.close()METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaµ µ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*close2z
+!java.io.FilterInputStream.close()CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java∑ ∑(2ë
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java∑ ∑(2d
+voidRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaµ µ(¿
+Ecom.thoughtworks.xstream.io.binary.BinaryStreamReader.peekNextChild()METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaΩ Ω("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*peekNextChild2ô
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaæ æ(2ô
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?idRegistryCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaø ø(2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaø" ø(*2p
+java.lang.StringRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaΩ Ω(é
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.underlyingReader()METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaƒ$ ƒ(4"
+staticfalse"
+finalfalse"
+access modifierpublic"!
+type HierarchicalStreamReader*underlyingReader2x
+HierarchicalStreamReaderRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaƒ ƒ(#•
+Ocom.thoughtworks.xstream.io.binary.BinaryStreamReader.appendErrors(ErrorWriter)METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java» »("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*appendErrors2π
+[com.thoughtworks.xstream.io.binary.BinaryStreamReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java» »(42d
+voidRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java» »(ö
+Ocom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(String)!name	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java=& =(**name2g
+java.lang.StringTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java= =(%å
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttribute(int)!index	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA# A((*index2Z
+intTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaA A("ê
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.getAttributeName(int)!index	PARAMETERM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI' I(,*index2Z
+intTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaI# I(&ê
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.pushBack(Token)!token	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ¨($*token2^
+TokenTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¨ ¨(¨
+[com.thoughtworks.xstream.io.binary.BinaryStreamReader.appendErrors(ErrorWriter)!errorWriter	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java») »(4*errorWriter2d
+ErrorWriterTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java» »((ï
+Tcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(*id2]
+longTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(ß
+Wcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!value	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java–( –(-*value2i
+java.lang.StringTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java–! –('é
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(!*id2]
+longTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(ª
+Kcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()?firstTokenVARIABLEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaS S("
+type Token*
+firstToken2\
+TokenTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaS S(2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaS S(&π
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveDown()?nextTokenVARIABLEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java\ \("
+type Token*	nextToken2\
+TokenTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java\ \(2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java\ \()ê
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?depthVARIABLEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javau u("
+type int*depth2Z
+intTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javau u(∑
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?nextTokenVARIABLEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javax x("
+type Token*	nextToken2\
+TokenTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javax x(2ò
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javax x()Ω
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.moveUp()?nextTokenVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaâ â("
+type Token*	nextToken2^
+TokenTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaâ â(2ö
+Acom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaâ â(%œ
+Gcom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()?tokenVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö ö("
+type Token*token2^
+TokenTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö ö(2ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader?tokenFormatterCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö ö(,2ë
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaö2 ö(4∑
+Hcom.thoughtworks.xstream.io.binary.BinaryStreamReader.readToken()?resultVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¶ ¶("
+type Token*result2^
+TokenTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¶ ¶(2ó
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java¶ ¶(#Ì
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)?resultVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’ ’("
+type String*result2i
+java.lang.StringTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’ ’(2|
+#java.util.Map.get(java.lang.Object)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’(:2r
+java.lang.Long.Long(long)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’- ’(92ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’((2¶
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!idCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’6 ’(8û
+8com.thoughtworks.xstream.io.binary.BinaryStreamReader?inVALUEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java%" %($"
+type DataInputStream*in2n
+java.io.DataInputStreamTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java% %(!®
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?depthStateVALUEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java&# &(-"
+type ReaderDepthState*
+depthState2g
+ReaderDepthStateTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java& &("˙
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader?idRegistryVALUEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java' '('"
+type 
+IdRegistry*
+idRegistry2ó
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistryTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java' '(2§
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.IdRegistry()CALLM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java'* '(:ë
+>com.thoughtworks.xstream.io.binary.BinaryStreamReader?pushbackVARIABLEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java) )("
+type Token*pushback2\
+TokenTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java) )(Æ
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader?tokenFormatterVALUEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java*" *(0"
+type Token.Formatter*tokenFormatter2f
+Token.FormatterTYPEM
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java* *(!ƒ
+@com.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistryCLASSO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaÃ Ã(#"
+inner classfalse*
+IdRegistry2±
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– “(	2™
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)DECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ €(	2§
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapDECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaŒ Œ('Œ
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*put2≤
+Tcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(2µ
+Wcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!value	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java–! –(-2p
+java.util.Map.put(K, V)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java— —((2r
+java.lang.Long.Long(long)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java— —( 2ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java— —(2∏
+_com.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long, java.lang.String)!idCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java— —(2ª
+bcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long, java.lang.String)!valueCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java—" —('2d
+voidRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(Ø
+Jcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)METHODO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*get2´
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(!2±
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)?resultDECLARATIONO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’ ’(:2|
+#java.util.Map.get(java.lang.Object)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’(:2r
+java.lang.Long.Long(long)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’- ’(92ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’((2¶
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!idCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’6 ’(82¶
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!idCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java◊< ◊(>2p
+java.lang.StringRETURN_TYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(ï
+Tcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(*id2]
+longTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java– –(ß
+Wcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.put(long,String)!value	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java–( –(-*value2i
+java.lang.StringTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java–! –('é
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!id	PARAMETERO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(!*id2]
+longTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java‘ ‘(Ì
+Qcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)?resultVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’ ’("
+type String*result2i
+java.lang.StringTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’ ’(2|
+#java.util.Map.get(java.lang.Object)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’(:2r
+java.lang.Long.Long(long)CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’- ’(92ù
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’% ’((2¶
+Mcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry.get(long)!idCALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.java’6 ’(8í
+Dcom.thoughtworks.xstream.io.binary.BinaryStreamReader.IdRegistry?mapVARIABLEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaŒ Œ("
+type Map*map2f
+java.util.MapTYPEO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaŒ Œ(2t
+java.util.HashMap.HashMap()CALLO
+Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamReader.javaŒ Œ('

@@ -1,0 +1,206 @@
+
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaÌ
+7com.thoughtworks.acceptance.BeanIDCircularReferenceTestCLASSO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (("
+inner classfalse*BeanIDCircularReferenceTest2‚
+Åcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java ,(	2§
+Dcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.next(Object)DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java  *(2ü
+?com.thoughtworks.acceptance.BeanIDCircularReferenceTest.setUp()DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java0 4(2≤
+Rcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java6 F(2∏
+Xcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaH S(2∂
+Vcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaU o(2Ø
+Ocom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testReplacedReference()DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaq (2´
+Kcom.thoughtworks.acceptance.BeanIDCircularReferenceTest?marshallingStrategyDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java4 (G2p
+AbstractReferenceTestEXTENDO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java1 (Fâ
+?com.thoughtworks.acceptance.BeanIDCircularReferenceTest.setUp()METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java0 0("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2„
+âcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.ReferenceByFirstnameMarshallingStrategy()CALLO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java2 2(K2§
+Kcom.thoughtworks.acceptance.BeanIDCircularReferenceTest?marshallingStrategyCALLO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java2 2(2§
+Kcom.thoughtworks.acceptance.BeanIDCircularReferenceTest?marshallingStrategyCALLO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java3' 3(:2d
+voidRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java0" 0(+©
+Rcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java6 6(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReferenceXml2∂
+Vcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?bobDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java7 7(&2∑
+Wcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?janeDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java8 8((2ª
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?expectedDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java< C(2d
+voidRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java6 6(á
+Xcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaH H(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReferenceToSelfXml2º
+\com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()?bobDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaI I(&2¡
+acom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()?expectedDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaL P(2d
+voidRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaH H(ö
+
+Vcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaU U(,"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCanAvoidMemberIfUsedAsId2∫
+Zcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?bobDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaX X(&2ª
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?janeDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaY Y((2ø
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?expectedDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java] b(2ø
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?bobAgainDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javal l(;2ò
+?com.thoughtworks.acceptance.BeanIDCircularReferenceTest.setUp()CALLO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javah h(2d
+voidRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaU6 U(?∞
+Ocom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testReplacedReference()METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaq q(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testReplacedReference2ª
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testReplacedReference()?expectedXmlDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javar |(2d
+voidRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaq q(ä
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!writer	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaS (Y*writer2q
+HierarchicalStreamWriterTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java: (Rì
+πcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!converterLookup	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (+*converterLookup2h
+ConverterLookupTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (¯
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!mapper	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java4 (:*mapper2_
+MapperTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java- (3˝
+¨com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)?idVALUEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java!% !('"
+type String*id2_
+StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java! !($™
+Vcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?bobVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java7 7("
+type Person*bob2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java7 7(¨
+Wcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?janeVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java8 8("
+type Person*jane2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java8 8(æ
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceXml()?expectedVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java< <("
+type String*expected2i
+java.lang.StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java< <(∞
+\com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()?bobVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaI I("
+type Person*bob2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaI I(ƒ
+acom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCircularReferenceToSelfXml()?expectedVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaL L("
+type String*expected2i
+java.lang.StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaL L(Æ
+Zcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?bobVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaX X("
+type Person*bob2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaX X(∞
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?janeVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaY Y("
+type Person*jane2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaY Y(¬
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?expectedVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java] ]("
+type String*expected2i
+java.lang.StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java] ](∏
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testCanAvoidMemberIfUsedAsId()?bobAgainVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javal l("
+type Person*bobAgain2_
+PersonTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javal l(¡
+[com.thoughtworks.acceptance.BeanIDCircularReferenceTest.testReplacedReference()?expectedXmlVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javar r("
+type String*expectedXml2i
+java.lang.StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javar r(™
+Kcom.thoughtworks.acceptance.BeanIDCircularReferenceTest?marshallingStrategyVARIABLEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java4 (G"0
+type 'ReferenceByFirstnameMarshallingStrategy*marshallingStrategy2∏
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategyTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (3—
+_com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategyCLASSO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (F"
+inner classfalse*'ReferenceByFirstnameMarshallingStrategy2ä
+©com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java ,(	2Ã
+lcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.next(Object)DECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java  *(2{
+ ReferenceByIdMarshallingStrategyEXTENDO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java ((∂
+©com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)METHODO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java! (9"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type TreeMarshaller*createMarshallingContext2è
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!writer	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java: (Y2ò
+πcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!converterLookup	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (+2è
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!mapper	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java- (:2ç
+¨com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)?idDECLARATIONO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java!% !('2n
+TreeMarshallerRETURN_TYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java ( ä
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!writer	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.javaS (Y*writer2q
+HierarchicalStreamWriterTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java: (Rì
+πcom.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!converterLookup	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (+*converterLookup2h
+ConverterLookupTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java (¯
+∞com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)!mapper	PARAMETERO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java4 (:*mapper2_
+MapperTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java- (3˝
+¨com.thoughtworks.acceptance.BeanIDCircularReferenceTest.ReferenceByFirstnameMarshallingStrategy.createMarshallingContext(HierarchicalStreamWriter,ConverterLookup,Mapper)?idVALUEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java!% !('"
+type String*id2_
+StringTYPEO
+Esrc/test/com/thoughtworks/acceptance/BeanIDCircularReferenceTest.java! !($

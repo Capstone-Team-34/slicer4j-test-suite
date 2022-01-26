@@ -1,0 +1,220 @@
+
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaÈ
+.com.thoughtworks.acceptance.BufferedImagesTestCLASSF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java# #("
+inner classfalse*BufferedImagesTest2ç
+6com.thoughtworks.acceptance.BufferedImagesTest.suite()DECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java% )(2ü
+Hcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()DECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java+ @(2°
+Jcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()DECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaB W(2h
+AbstractAcceptanceTestEXTENDF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java#( #(>÷
+6com.thoughtworks.acceptance.BufferedImagesTest.suite()METHODF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java% %(!"
+statictrue"
+finalfalse"
+access modifierpublic"
+type 	TestSuite*suite2ì
+<com.thoughtworks.acceptance.BufferedImagesTest.suite()?suiteDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java& &(D2`
+	TestSuiteRETURN_TYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java% %(·
+Hcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()METHODF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java+ +('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testInBWCanBeMarshalled2™
+Scom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?isHeadlessDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(m2•
+Ncom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?imageDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java.  .(_2®
+Qcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?graphicsDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java/ /(>2¨
+Ucom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?baosOriginalDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java5( 5(R2£
+Lcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?xmlDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java9 9(32Æ
+Wcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?baosSerializedDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java;( ;(T2p
+ java.lang.Boolean.booleanValue()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(m2{
++java.lang.Boolean.valueOf(java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(^2ê
+@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java,- ,(]2}
+-java.awt.image.BufferedImage.createGraphics()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java/( /(>2Å
+1java.awt.Graphics2D.setBackground(java.awt.Color)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java0 0(/2
+/java.awt.Graphics.clearRect(int, int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java1 1(*2z
+*java.awt.Graphics.setColor(java.awt.Color)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java2 2(*2~
+.java.awt.Graphics.drawLine(int, int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java3 3()2±
+ajavax.imageio.ImageIO.write(java.awt.image.RenderedImage, java.lang.String, java.io.OutputStream)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java6 6(62±
+ajavax.imageio.ImageIO.write(java.awt.image.RenderedImage, java.lang.String, java.io.OutputStream)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java< <(V2{
++java.io.ByteArrayOutputStream.toByteArray()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java> >(82{
++java.io.ByteArrayOutputStream.toByteArray()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java>: >(V2â
+9java.awt.image.BufferedImage.BufferedImage(int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java.( .(_2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java57 5(R2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java;9 ;(T2[
+voidRETURN_TYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java+1 +(<Ò
+Jcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()METHODF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaB B()"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testInRGBACanBeMarshalled2¨
+Ucom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?isHeadlessDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(m2ß
+Pcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?imageDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaE  E(\2™
+Scom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?graphicsDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaF F(>2Æ
+Wcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?baosOriginalDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaL( L(R2•
+Ncom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?xmlDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaP P(32∞
+Ycom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?baosSerializedDECLARATIONF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaR( R(T2p
+ java.lang.Boolean.booleanValue()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(m2{
++java.lang.Boolean.valueOf(java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(^2ê
+@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC- C(]2}
+-java.awt.image.BufferedImage.createGraphics()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaF( F(>2Å
+1java.awt.Graphics2D.setBackground(java.awt.Color)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaG G(/2
+/java.awt.Graphics.clearRect(int, int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaH H(*2z
+*java.awt.Graphics.setColor(java.awt.Color)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaI I((2~
+.java.awt.Graphics.drawLine(int, int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaJ J()2±
+ajavax.imageio.ImageIO.write(java.awt.image.RenderedImage, java.lang.String, java.io.OutputStream)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaM M(52±
+ajavax.imageio.ImageIO.write(java.awt.image.RenderedImage, java.lang.String, java.io.OutputStream)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaS S(U2{
++java.io.ByteArrayOutputStream.toByteArray()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaU U(82{
++java.io.ByteArrayOutputStream.toByteArray()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaU: U(V2â
+9java.awt.image.BufferedImage.BufferedImage(int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaE( E(\2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaL7 L(R2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaR9 R(T2[
+voidRETURN_TYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaB3 B(>É
+<com.thoughtworks.acceptance.BufferedImagesTest.suite()?suiteVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java& &("
+type 	TestSuite*suite2Y
+	TestSuiteTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java& &(†
+Scom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?isHeadlessVARIABLEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,("
+type boolean*
+isHeadless2W
+booleanTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(2p
+ java.lang.Boolean.booleanValue()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(m2{
++java.lang.Boolean.valueOf(java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java, ,(^2ê
+@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java,- ,(]∏
+Ncom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?imageVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java.  .(%"
+type BufferedImage*image2l
+java.awt.image.BufferedImageTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java. .(2â
+9java.awt.image.BufferedImage.BufferedImage(int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java.( .(_•
+Qcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?graphicsVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java/ /(%"
+type 
+Graphics2D*graphics2c
+java.awt.Graphics2DTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java/ /(2}
+-java.awt.image.BufferedImage.createGraphics()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java/( /(>À
+Ucom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?baosOriginalVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java5( 5(4"
+type ByteArrayOutputStream*baosOriginal2m
+java.io.ByteArrayOutputStreamTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java5 5('2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java57 5(Rï
+Lcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?xmlVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java9 9("
+type String*xml2`
+java.lang.StringTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java9 9(œ
+Wcom.thoughtworks.acceptance.BufferedImagesTest.testInBWCanBeMarshalled()?baosSerializedVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java;( ;(6"
+type ByteArrayOutputStream*baosSerialized2m
+java.io.ByteArrayOutputStreamTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java; ;('2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.java;9 ;(T¢
+Ucom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?isHeadlessVARIABLEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C("
+type boolean*
+isHeadless2W
+booleanTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(2p
+ java.lang.Boolean.booleanValue()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(m2{
++java.lang.Boolean.valueOf(java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC C(^2ê
+@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaC- C(]∫
+Pcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?imageVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaE  E(%"
+type BufferedImage*image2l
+java.awt.image.BufferedImageTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaE E(2â
+9java.awt.image.BufferedImage.BufferedImage(int, int, int)CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaE( E(\ß
+Scom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?graphicsVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaF F(%"
+type 
+Graphics2D*graphics2c
+java.awt.Graphics2DTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaF F(2}
+-java.awt.image.BufferedImage.createGraphics()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaF( F(>Õ
+Wcom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?baosOriginalVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaL( L(4"
+type ByteArrayOutputStream*baosOriginal2m
+java.io.ByteArrayOutputStreamTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaL L('2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaL7 L(Ró
+Ncom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?xmlVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaP P("
+type String*xml2`
+java.lang.StringTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaP P(—
+Ycom.thoughtworks.acceptance.BufferedImagesTest.testInRGBACanBeMarshalled()?baosSerializedVALUEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaR( R(6"
+type ByteArrayOutputStream*baosSerialized2m
+java.io.ByteArrayOutputStreamTYPEF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaR R('2Ö
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLF
+<src/test/com/thoughtworks/acceptance/BufferedImagesTest.javaR9 R(T

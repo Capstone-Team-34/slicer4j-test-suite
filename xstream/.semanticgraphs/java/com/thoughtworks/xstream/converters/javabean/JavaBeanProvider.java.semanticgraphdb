@@ -1,0 +1,220 @@
+
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.javaí
+=com.thoughtworks.xstream.converters.javabean.JavaBeanProviderTRAITU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (!"
+inner classfalse*JavaBeanProvider2¶
+Pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.newInstance(Class)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (#2Ï
+icom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (E2Ç
+acom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (I2Â
+\com.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (62È
+bcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (<2¹
+Scom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.canInstantiate(Class)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! !('2½
+Wcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.shouldVisit(String,Class)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $(:2Ä
+^com.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visit(String,Class,Class,Object)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(KÈ
+Pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.newInstance(Class)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java ("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Object*newInstance2¹
+Ucom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.newInstance(Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (!2v
+java.lang.ObjectRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (
+Ö
+icom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java	 ($"
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*visitSerializableProperties2Ô
+pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% (22Õ
+qcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)!visitor	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java4 (C2j
+voidRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (ƒ
+acom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java	 ("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*writeProperty2Ì
+hcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java ($2Ò
+ncom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!propertyName	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java& (92Ë
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!value	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java; (G2j
+voidRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (¬
+\com.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java
+ ("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Class*getPropertyType2Ç
+ccom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java ('2Å
+acom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java) (42u
+java.lang.ClassRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (	½
+bcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (""
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type boolean*propertyDefinedInClass2Ë
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java# (.2Ë
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java0 (:2m
+booleanRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (É
+Scom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.canInstantiate(Class)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! !("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type boolean*canInstantiate2¼
+Xcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.canInstantiate(Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! !(%2m
+booleanRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! !(¯
+Ucom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.newInstance(Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (!*type2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (Í
+pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java, (2*object2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% (+…
+qcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.visitSerializableProperties(Object,Visitor)!visitor	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java< (C*visitor2¤
+Ecom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.VisitorTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java4 (;Å
+hcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java ($*object2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java (Ñ
+ncom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!propertyName	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java- (9*propertyName2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java& (,Ã
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.writeProperty(Object,String,Object)!value	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.javaB (G*value2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java; (AÀ
+ccom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)!object	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! ('*object2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java ( ¼
+acom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.getPropertyType(Object,String)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java0 (4*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java) (/Â
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java* (.*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java# ()Á
+gcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.propertyDefinedInClass(String,Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java6 (:*type2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java0 (5²
+Xcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.canInstantiate(Class)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java!! !(%*type2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java! !( ¿
+dcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$# $('*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $("È
+icom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$/ $(8*	definedIn2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$) $(.Æ
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(Å
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%& %(**type2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%  %(%Ï
+pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%2 %(;*	definedIn2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%, %(1È
+lcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%D %(I*value2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%= %(CÛ
+Ecom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.VisitorTRAITU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java# #("
+inner classfalse*Visitor2Å
+_com.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $(:2Ì
+fcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)DECLARATIONU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(K®
+_com.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type boolean*shouldVisit2È
+dcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $('2Í
+icom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$) $(82m
+booleanRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $(Ü	
+fcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)METHODU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*visit2Ï
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(2Ï
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%  %(*2Ô
+pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%, %(;2Ð
+lcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%= %(I2j
+voidRETURN_TYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(¿
+dcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$# $('*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$ $("È
+icom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.shouldVisit(String,Class)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$/ $(8*	definedIn2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java$) $(.Æ
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(*name2o
+java.lang.StringTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java% %(Å
+kcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%& %(**type2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%  %(%Ï
+pcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%2 %(;*	definedIn2n
+java.lang.ClassTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%, %(1È
+lcom.thoughtworks.xstream.converters.javabean.JavaBeanProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%D %(I*value2o
+java.lang.ObjectTYPEU
+Ksrc/java/com/thoughtworks/xstream/converters/javabean/JavaBeanProvider.java%= %(C

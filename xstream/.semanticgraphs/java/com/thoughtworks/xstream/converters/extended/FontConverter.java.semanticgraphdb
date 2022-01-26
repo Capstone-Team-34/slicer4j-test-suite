@@ -1,0 +1,126 @@
+
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.javaå
+:com.thoughtworks.xstream.converters.extended.FontConverterCLASSR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java ("
+inner classfalse*FontConverter2Ø
+Lcom.thoughtworks.xstream.converters.extended.FontConverter.canConvert(Class)DECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (2Ÿ
+vcom.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java  &(2÷
+scom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java( 2(2g
+	ConverterEXTENDR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java& (/ó
+Lcom.thoughtworks.xstream.converters.extended.FontConverter.canConvert(Class)METHODR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2≤
+Qcom.thoughtworks.xstream.converters.extended.FontConverter.canConvert(Class)!type	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java ((2Ö
+)java.lang.String.equals(java.lang.Object)CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (52u
+java.lang.Class.getName()CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (2Ö
+)java.lang.String.equals(java.lang.Object)CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java9 (q2u
+java.lang.Class.getName()CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java9 (G2∑
+[com.thoughtworks.xstream.converters.extended.FontConverter.canConvert(java.lang.Class)!typeCALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (2∑
+[com.thoughtworks.xstream.converters.extended.FontConverter.canConvert(java.lang.Class)!typeCALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java9 (=2j
+booleanRETURN_TYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (˘
+vcom.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java   ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2ﬁ
+}com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java   (%2ﬁ
+}com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java '  (F2ﬂ
+~com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java H  (b2ﬁ
+{com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?fontDECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java! !(!2Â
+Åcom.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?attributesDECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java" "(-2y
+java.awt.Font.getAttributes()CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java" "(-2g
+voidRETURN_TYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java   (ì
+scom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java( (("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2€
+zcom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java( ((;2‹
+{com.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java(= ((Y2·
+~com.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?attributesDECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java* *(F2€
+xcom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?fontDECLARATIONR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java, ,(,2◊
+{java.awt.Font.getFont(java.util.Map<? extends java.text.AttributedCharacterIterator.Attribute, ? extends java.lang.Object>)CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java, ,(,2ô
+=javax.swing.plaf.FontUIResource.FontUIResource(java.awt.Font)CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java. .(+2s
+java.lang.ObjectRETURN_TYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java( ((•
+Qcom.thoughtworks.xstream.converters.extended.FontConverter.canConvert(Class)!type	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java$ ((*type2k
+java.lang.ClassTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java (#‘
+}com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java   (%*source2l
+java.lang.ObjectTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java   (‹
+}com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java @  (F*writer2t
+HierarchicalStreamWriterTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java '  (?ÿ
+~com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java [  (b*context2n
+MarshallingContextTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java H  (ZŸ
+zcom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java(5 ((;*reader2t
+HierarchicalStreamReaderTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java( ((4◊
+{com.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java(R ((Y*context2p
+UnmarshallingContextTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java(= ((Q€
+{com.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?fontVARIABLER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java! !("
+type Font*font2i
+java.awt.FontTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java! !(‚
+Åcom.thoughtworks.xstream.converters.extended.FontConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?attributesVARIABLER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java" "("
+type Map*
+attributes2i
+java.util.MapTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java" "(2y
+java.awt.Font.getAttributes()CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java" "(-„
+~com.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?attributesVARIABLER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java* *("
+type Map*
+attributes2i
+java.util.MapTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java* *(≤
+xcom.thoughtworks.xstream.converters.extended.FontConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?fontVARIABLER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java, ,("
+type Font*font2i
+java.awt.FontTYPER
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java, ,(2◊
+{java.awt.Font.getFont(java.util.Map<? extends java.text.AttributedCharacterIterator.Attribute, ? extends java.lang.Object>)CALLR
+Hsrc/java/com/thoughtworks/xstream/converters/extended/FontConverter.java, ,(,

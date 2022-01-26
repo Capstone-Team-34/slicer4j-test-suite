@@ -1,0 +1,288 @@
+
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java·
+4com.thoughtworks.xstream.core.util.Base64EncoderTestCLASSL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ("
+inner classfalse*Base64EncoderTest2¶
+Ycom.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (2«
+Ncom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java #(2Ã
+fcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java% *(2Ã
+fcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java, 1(2µ
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java3 8(2¯
+Rcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java: B(2¯
+Rcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaD L(2§
+Jcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaN S(2»
+^com.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()DECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaU Z(2™
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (72n
+AbstractAcceptanceTestEXTENDL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java' (=¡	
+Ycom.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testEncodesEntireByteArrayAsString2¼
+_com.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (/2¿
+bcom.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (,2q
+java.lang.String.getBytes()CALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (/2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java% (,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (õ
+Ncom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWrapsLinesAt76Chars2±
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ({2´
+Wcom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java  ($2q
+java.lang.String.getBytes()CALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ({2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java! !(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java"% "(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (â
+fcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java% %(?"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*/testPadsSingleMissingByteWhenNotMultipleOfThree2É
+lcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java& &((2Ì
+ocom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java' '($2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java( ((&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java)% )(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java% %(â
+fcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java, ,(?"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*/testPadsDoubleMissingByteWhenNotMultipleOfThree2É
+lcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java- -(&2Ì
+ocom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java. .($2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java/ /(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java0% 0(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java, ,(ª
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java3 3(1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testDoesNotPadWhenMultipleOfThree2»
+^com.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java4 4(+2¾
+acom.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java5 5($2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java6 6(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java7% 7(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java3 3(Æ	
+Rcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java: :(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHandlesAllPositiveBytes2µ
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java; ;($2±
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?iDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java< <(2¸
+[com.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java= ?((2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java@ @(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaA% A(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java: :(Æ	
+Rcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaD D(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHandlesAllNegativeBytes2µ
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaE E($2±
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?iDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaF F(2¸
+[com.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaG I((2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaJ J(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaK% K(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaD D(ò
+Jcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaN N(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHandlesZeroByte2­
+Pcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaO O(%2°
+Scom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaP P($2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaQ Q(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaR% R(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaN N(Â
+^com.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()METHODL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaU U(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testProducesEmptyStringWhenNoBytesGiven2Á
+dcom.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()?inputDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaV V("2Ä
+gcom.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()?expectedDECLARATIONL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaW W(2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaX X(&2’
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderCALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaY% Y(,2a
+voidRETURN_TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaU U(¢
+_com.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (2q
+java.lang.String.getBytes()CALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (/¿
+bcom.thoughtworks.xstream.core.util.Base64EncoderTest.testEncodesEntireByteArrayAsString()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (—
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (2q
+java.lang.String.getBytes()CALLL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ({´
+Wcom.thoughtworks.xstream.core.util.Base64EncoderTest.testWrapsLinesAt76Chars()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java ("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (¼
+lcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java& &("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java& &(Ì
+ocom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsSingleMissingByteWhenNotMultipleOfThree()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java' '("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java' '(¼
+lcom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java- -("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java- -(Ì
+ocom.thoughtworks.xstream.core.util.Base64EncoderTest.testPadsDoubleMissingByteWhenNotMultipleOfThree()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java. .("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java. .(®
+^com.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java4 4("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java4 4(¾
+acom.thoughtworks.xstream.core.util.Base64EncoderTest.testDoesNotPadWhenMultipleOfThree()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java5 5("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java5 5(¨
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java; ;("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java; ;(š
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?iVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java< <("
+type int*i2Y
+intTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java< <(¸
+[com.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllPositiveBytes()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java= =("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java= =(¨
+Xcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaE E("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaE E(š
+Tcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?iVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaF F("
+type int*i2Y
+intTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaF F(¸
+[com.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesAllNegativeBytes()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaG G("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaG G( 
+Pcom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaO O("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaO O(°
+Scom.thoughtworks.xstream.core.util.Base64EncoderTest.testHandlesZeroByte()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaP P("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaP P(´
+dcom.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()?inputVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaV V("
+type byte[]*input2\
+byte[]TYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaV V(Ä
+gcom.thoughtworks.xstream.core.util.Base64EncoderTest.testProducesEmptyStringWhenNoBytesGiven()?expectedVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaW W("
+type String*expected2f
+java.lang.StringTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.javaW W(œ
+<com.thoughtworks.xstream.core.util.Base64EncoderTest?encoderVARIABLEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (!"
+type Base64Encoder*encoder2c
+Base64EncoderTYPEL
+Bsrc/test/com/thoughtworks/xstream/core/util/Base64EncoderTest.java (

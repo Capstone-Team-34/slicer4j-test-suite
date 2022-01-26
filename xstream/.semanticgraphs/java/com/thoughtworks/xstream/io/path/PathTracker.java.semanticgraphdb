@@ -1,0 +1,429 @@
+
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï
+,com.thoughtworks.xstream.io.path.PathTrackerCLASSD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java- -("
+inner classfalse*PathTracker2ï
+@com.thoughtworks.xstream.io.path.PathTracker.pushElement(String)DECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ [(2é
+9com.thoughtworks.xstream.io.path.PathTracker.popElement()DECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java` e(2è
+:com.thoughtworks.xstream.io.path.PathTracker.peekElement()DECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javam o(2ì
+=com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)DECLARATIONE
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay â(2ã
+4com.thoughtworks.xstream.io.path.PathTracker.depth()DECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaë ì(2ï
+>com.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)DECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï û(2ç
+6com.thoughtworks.xstream.io.path.PathTracker.getPath()DECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java£ Æ(2è
+:com.thoughtworks.xstream.io.path.PathTracker.PathTracker()DECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java6 8(2í
+=com.thoughtworks.xstream.io.path.PathTracker.PathTracker(int)DECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? C(2â
+4com.thoughtworks.xstream.io.path.PathTracker?pointerDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java/ /(2ä
+5com.thoughtworks.xstream.io.path.PathTracker?capacityDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java0 0(2ã
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java1 1(2è
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java2 2(2ç
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java4 4(†
+:com.thoughtworks.xstream.io.path.PathTracker.PathTracker()CONSTRUCTORD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java6 6(*PathTracker2Å
+,com.thoughtworks.xstream.io.path.PathTrackerRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java6 6(Ó	
+=com.thoughtworks.xstream.io.path.PathTracker.PathTracker(int)CONSTRUCTORD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? ?(*PathTracker2†
+Mcom.thoughtworks.xstream.io.path.PathTracker.PathTracker(int)!initialCapacity	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? ?(*2j
+java.lang.Math.max(int, int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java@ @(42õ
+Mcom.thoughtworks.xstream.io.path.PathTracker.PathTracker(int)!initialCapacityCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java@$ @(32Ñ
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaA A(2É
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaA A('2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaB B(2É
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaB  B((2Å
+,com.thoughtworks.xstream.io.path.PathTrackerRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? ?(Ñ
+Mcom.thoughtworks.xstream.io.path.PathTracker.PathTracker(int)!initialCapacity	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? ?(**initialCapacity2Q
+intTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java? ?(Ë
+@com.thoughtworks.xstream.io.path.PathTracker.pushElement(String)METHODD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ J("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*pushElement2ò
+Ecom.thoughtworks.xstream.io.path.PathTracker.pushElement(String)!name	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ J('2û
+Icom.thoughtworks.xstream.io.path.PathTracker.pushElement(String)?indexMapDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO O(-2å
+>com.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaL L(&2y
++java.util.Map.containsKey(java.lang.Object)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaT T(&2e
+java.util.Map.put(K, V)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaU U(Z2j
+java.lang.Integer.intValue()CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaU+ U(T2q
+#java.util.Map.get(java.lang.Object)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaU6 U(H2e
+java.util.Map.put(K, V)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaW W(.2i
+java.util.HashMap.HashMap()CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaQ Q($2l
+java.lang.Integer.Integer(int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaU U(Y2l
+java.lang.Integer.Integer(int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaW W(-2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaK K(2É
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaK K(#2É
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaL L(!2Ñ
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaN N(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaN N(2ù
+Ocom.thoughtworks.xstream.io.path.PathTracker.pushElement(java.lang.String)!nameCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaN N(!2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO O($2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO% O(,2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaR R(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaR R(!2ù
+Ocom.thoughtworks.xstream.io.path.PathTracker.pushElement(java.lang.String)!nameCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaT! T(%2ù
+Ocom.thoughtworks.xstream.io.path.PathTracker.pushElement(java.lang.String)!nameCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaU U(2ù
+Ocom.thoughtworks.xstream.io.path.PathTracker.pushElement(java.lang.String)!nameCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaUC U(G2ù
+Ocom.thoughtworks.xstream.io.path.PathTracker.pushElement(java.lang.String)!nameCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaW W(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaY Y(2Ü
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaZ Z(2Y
+voidRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ J(Â
+9com.thoughtworks.xstream.io.path.PathTracker.popElement()METHODD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java` `("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*
+popElement2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaa a(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaa a(2Ñ
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javab b(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javab b(2Ü
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javac c(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javad d(2Y
+voidRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java` `(Ÿ
+:com.thoughtworks.xstream.io.path.PathTracker.peekElement()METHODD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javam m("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*peekElement2ã
+=com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javan n(2e
+java.lang.StringRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javam m(ô
+=com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)METHODD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay y("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*peekElement2í
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!i	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay y(#2ñ
+Acom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?idxDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(!2ó
+Bcom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?nameDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java~ ~(2ö
+Ecom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?integerDECLARATIOND
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java (L2ö
+Ccom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?indexDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÄ Ä(&2ö
+Ccom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?chunkDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ Ç(N2q
+#java.util.Map.get(java.lang.Object)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java% (K2l
+java.lang.Integer.intValue()CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÄ Ä(&2i
+java.lang.String.length()CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ2 Ç(I2s
+#java.lang.StringBuffer.append(char)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÉ É(N2r
+"java.lang.StringBuffer.append(int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÉ É(B2s
+#java.lang.StringBuffer.append(char)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÉ É(42
+/java.lang.StringBuffer.append(java.lang.String)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÉ É((2q
+!java.lang.StringBuffer.toString()CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÑ Ñ(#2ö
+Ljava.lang.ArrayIndexOutOfBoundsException.ArrayIndexOutOfBoundsException(int)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java{ {(72x
+(java.lang.StringBuffer.StringBuffer(int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ! Ç(N2ç
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!iCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaz z(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaz z(2ç
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!iCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaz z(2ç
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!iCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java{5 {(62Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(2ç
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!iCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java% (22Ñ
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java< (E2Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ2 Ç(;2Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÉ É("2Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÜ Ü(2e
+java.lang.StringRETURN_TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay y(∫
+4com.thoughtworks.xstream.io.path.PathTracker.depth()METHODF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaë ë("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*depth2Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaí í(2Z
+intRETURN_TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaë ë(±
+>com.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)METHODF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï ï("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*resizeStacks2ü
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacity	PARAMETERF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï ï(-2¢
+Kcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?newPathStackDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javañ ñ(72¶
+Ocom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?newIndexMapStackDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaó ó(52ô
+Bcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?minDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(12l
+java.lang.Math.min(int, int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(12ù
+Mjava.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaô ô(<2ù
+Mjava.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaö ö(D2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javañ+ ñ(62ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaó) ó(42Ö
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(#2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò% ò(02Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaô ô("2ä
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaö ö(&2Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaõ õ(2ä
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaú ú(2Ö
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaù ù(2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaù ù(2[
+voidRETURN_TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï ï(Ω
+6com.thoughtworks.xstream.io.path.PathTracker.getPath()METHODF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java£ £("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Path*getPath2î
+=com.thoughtworks.xstream.io.path.PathTracker.getPath()?chunksDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java• •(52è
+8com.thoughtworks.xstream.io.path.PathTracker.getPath()?iDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaß ß(!2í
+;com.thoughtworks.xstream.io.path.PathTracker.getPath()?nameDECLARATIONF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java® ®(22ç
+=com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java®$ ®(22à
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java§ §(2Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java•) •(02Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaß ß(!2Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java© ©("2à
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java´ ´(2à
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java≠ ≠(2[
+PathRETURN_TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java£ £(˛
+Ecom.thoughtworks.xstream.io.path.PathTracker.pushElement(String)!name	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ# J('*name2^
+java.lang.StringTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaJ J("Ë
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!i	PARAMETERD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay" y(#*i2Q
+intTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javay y(!Å
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacity	PARAMETERF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï" ï(-*newCapacity2S
+intTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaï ï(!†
+Icom.thoughtworks.xstream.io.path.PathTracker.pushElement(String)?indexMapVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO O("
+type Map*indexMap2[
+java.util.MapTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO O(2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO O($2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaO% O(,é
+Acom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?idxVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }("
+type int*idx2Q
+intTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(2Ç
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(2ç
+?com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)!iCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java} }(à
+Bcom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?nameVALUED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java~ ~("
+type String*name2^
+java.lang.StringTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java~ ~(ò
+Ecom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?integerVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java ("
+type Integer*integer2_
+java.lang.IntegerTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java (2q
+#java.util.Map.get(java.lang.Object)CALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java% (K2à
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java% (22Ñ
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLD
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java< (EÔ
+Ccom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?indexVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÄ Ä("
+type int*index2S
+intTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÄ Ä(2l
+java.lang.Integer.intValue()CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÄ Ä(&ã
+Ccom.thoughtworks.xstream.io.path.PathTracker.peekElement(int)?chunkVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ Ç("
+type StringBuffer*chunk2f
+java.lang.StringBufferTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ Ç(2i
+java.lang.String.length()CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ2 Ç(I2x
+(java.lang.StringBuffer.StringBuffer(int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ! Ç(N2Ü
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaÇ2 Ç(;¡
+Kcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?newPathStackVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javañ ñ("
+type String[]*newPathStack2b
+java.lang.String[]TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javañ ñ(2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javañ+ ñ(6√
+Ocom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?newIndexMapStackVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaó ó("
+type Map[]*newIndexMapStack2_
+java.util.Map[]TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaó ó(2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaó) ó(4ë
+Bcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)?minVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò("
+type int*min2S
+intTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(2l
+java.lang.Math.min(int, int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(12Ö
+5com.thoughtworks.xstream.io.path.PathTracker?capacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò ò(#2ö
+Jcom.thoughtworks.xstream.io.path.PathTracker.resizeStacks(int)!newCapacityCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaò% ò(0ó
+=com.thoughtworks.xstream.io.path.PathTracker.getPath()?chunksVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java• •("
+type String[]*chunks2b
+java.lang.String[]TYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java• •(2Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java•) •(0˘
+8com.thoughtworks.xstream.io.path.PathTracker.getPath()?iVARIABLEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaß ß("
+type int*i2S
+intTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaß ß(2Ñ
+4com.thoughtworks.xstream.io.path.PathTracker?pointerCALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.javaß ß(!ï
+;com.thoughtworks.xstream.io.path.PathTracker.getPath()?nameVALUEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java® ®(!"
+type String*name2`
+java.lang.StringTYPEF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java® ®(2ç
+=com.thoughtworks.xstream.io.path.PathTracker.peekElement(int)CALLF
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java®$ ®(2
+4com.thoughtworks.xstream.io.path.PathTracker?pointerVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java/ /("
+type int*pointer2Q
+intTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java/ /(Ú
+5com.thoughtworks.xstream.io.path.PathTracker?capacityVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java0 0("
+type int*capacity2Q
+intTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java0 0(à
+6com.thoughtworks.xstream.io.path.PathTracker?pathStackVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java1 1("
+type String[]*	pathStack2`
+java.lang.String[]TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java1 1(ä
+:com.thoughtworks.xstream.io.path.PathTracker?indexMapStackVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java2 2("
+type Map[]*indexMapStack2]
+java.util.Map[]TYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java2 2(˙
+8com.thoughtworks.xstream.io.path.PathTracker?currentPathVARIABLED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java4 4("
+type Path*currentPath2R
+PathTYPED
+:src/java/com/thoughtworks/xstream/io/path/PathTracker.java4 4(

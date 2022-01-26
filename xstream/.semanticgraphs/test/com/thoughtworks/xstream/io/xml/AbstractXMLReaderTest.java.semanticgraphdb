@@ -1,0 +1,413 @@
+
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaƒ
+5com.thoughtworks.xstream.io.xml.AbstractXMLReaderTestCLASSM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java (+"
+inner classfalse*AbstractXMLReaderTest2®
+Jcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(String)DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java (Z2©
+Kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testStartsAtRootTag()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java (2π
+[com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanNavigateDownChildTagsByIndex()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java I(2ª
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testChildTagsCanBeMixedWithOtherNodes()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaK Y(2∏
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAttributesCanBeFetchedFromTags()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java[ j(2≥
+Ucom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testTextCanBeExtractedFromTag()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javal v(2ª
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testDoesNotIgnoreWhitespaceAroundText()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javax |(2π
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()DECLARATIONN
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java~ Ñ(2„
+Çcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsLastResultForHasMoreChildrenIfCalledRepeatedlyWithoutMovingNode()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÜ å(2¡
+acom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAndValuesByIndex()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaé û(2ª
+[com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java† ∑(2»
+hcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAllowsValueToBeReadWithoutDisturbingChildren()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaπ ”(2 
+jcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesTextValueOfCurrentElementButNotChildren()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java’ ‹(2≥
+Scom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadLineFeedInString()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬁ ·(2≥
+Scom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadEncodedAttribute()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java„ Ê(2¡
+acom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadAttributeWithEncodedWhitespace()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaË Î(2∏
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.todoTestCanReadNullValueInString()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÓ Ò(2a
+TestCaseEXTENDM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java4 (<∏
+Jcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(String)METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java0 (<"
+staticfalse"
+finalfalse"
+access modifier	protected"!
+type HierarchicalStreamReader*createReader2™
+Ncom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(String)!xml	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java= (G2v
+HierarchicalStreamReaderRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaP (YÃ
+Kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testStartsAtRootTag()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java (#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testStartsAtRootTag2≥
+Ucom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testStartsAtRootTag()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java! (E2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java- (E2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java- (6¸
+[com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanNavigateDownChildTagsByIndex()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java (3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*#testCanNavigateDownChildTagsByIndex2√
+ecom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanNavigateDownChildTagsByIndex()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java !  (^2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java -  (^2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java= (FÇ
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testChildTagsCanBeMixedWithOtherNodes()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaK K(5"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*%testChildTagsCanBeMixedWithOtherNodes2≈
+gcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testChildTagsCanBeMixedWithOtherNodes()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaL! L(u2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaL- L(u2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaK? K(H˘
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAttributesCanBeFetchedFromTags()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java[ [(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testAttributesCanBeFetchedFromTags2¬
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAttributesCanBeFetchedFromTags()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java\! _(2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java\- _(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java[< [(EÏ
+Ucom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testTextCanBeExtractedFromTag()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javal l(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testTextCanBeExtractedFromTag2æ
+_com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testTextCanBeExtractedFromTag()?xmlReaderDECLARATIONN
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javam! m(à2¨
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLN
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javam- m(à2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javal7 l(@Ç
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testDoesNotIgnoreWhitespaceAroundText()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javax x(5"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*%testDoesNotIgnoreWhitespaceAroundText2≈
+gcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testDoesNotIgnoreWhitespaceAroundText()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javay! y(W2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javay- y(W2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javax? x(Hª
+Zcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()METHODM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java~ ~(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testReturnsEmptyStringForEmptyTags2¬
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()?xmlReaderDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java! (J2ø
+_com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()?textDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÅ Å(*2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java- (J2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java~< ~(E˚
+Çcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsLastResultForHasMoreChildrenIfCalledRepeatedlyWithoutMovingNode()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÜ Ü(Z"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*JtestReturnsLastResultForHasMoreChildrenIfCalledRepeatedlyWithoutMovingNode2Ì
+åcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsLastResultForHasMoreChildrenIfCalledRepeatedlyWithoutMovingNode()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaá! á(W2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaá- á(W2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÜd Ü(mñ
+acom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAndValuesByIndex()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaé é(9"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*)testExposesAttributesKeysAndValuesByIndex2À
+kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAndValuesByIndex()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaè! è(l2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaè- è(l2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaéC é(Lƒ
+[com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java† †(3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*#testExposesAttributesKeysAsIterator2≈
+ecom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java°! °(l2ƒ
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?expectedDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java£ £($2¬
+bcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?actualDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java® ®("2ƒ
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?iteratorDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java© ©(2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java°- °(l2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java§ §(2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java• •(2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java¶ ¶(2u
+java.util.Iterator.hasNext()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java¨ ¨( 2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java≠ ≠('2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java≠ ≠(&2u
+java.util.Iterator.hasNext()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java≥ ≥( 2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java¥ ¥('2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java¥ ¥(&2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java£ £($2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java® ®("2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java†= †(F´
+hcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAllowsValueToBeReadWithoutDisturbingChildren()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaπ π(@"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*0testAllowsValueToBeReadWithoutDisturbingChildren2“
+rcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAllowsValueToBeReadWithoutDisturbingChildren()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java∫! ª(V2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaª ª(V2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaπJ π(S±
+jcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesTextValueOfCurrentElementButNotChildren()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java’ ’(B"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*2testExposesTextValueOfCurrentElementButNotChildren2‘
+tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesTextValueOfCurrentElementButNotChildren()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java÷! ◊(H2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java◊ ◊(H2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java’L ’(UÏ
+Scom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadLineFeedInString()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬁ ﬁ(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCanReadLineFeedInString2Ω
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadLineFeedInString()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬂ! ﬂ(R2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬂ- ﬂ(R2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬁ5 ﬁ(>Ï
+Scom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadEncodedAttribute()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java„ „(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCanReadEncodedAttribute2Ω
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadEncodedAttribute()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java‰! ‰(U2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java‰- ‰(U2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java„5 „(>ñ
+acom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadAttributeWithEncodedWhitespace()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaË Ë(9"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*)testCanReadAttributeWithEncodedWhitespace2À
+kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadAttributeWithEncodedWhitespace()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÈ! È(l2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÈ- È(l2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaËC Ë(L˚
+Xcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.todoTestCanReadNullValueInString()METHODO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÓ Ó(0"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void* todoTestCanReadNullValueInString2¬
+bcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.todoTestCanReadNullValueInString()?xmlReaderDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÔ! Ô(S2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÔ- Ô(S2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÓ: Ó(Cò
+Ncom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(String)!xml	PARAMETERM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaD (G*xml2g
+java.lang.StringTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java= (C˝
+Ucom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testStartsAtRootTag()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java! (*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java ( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java- (Eç
+ecom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanNavigateDownChildTagsByIndex()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java !  (*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java   ( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java -  (^è
+gcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testChildTagsCanBeMixedWithOtherNodes()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaL! L(*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaL L( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaL- L(uå
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAttributesCanBeFetchedFromTags()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java\! \(*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java\ \( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java\- _(à
+_com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testTextCanBeExtractedFromTag()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javam! m(*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javam m( 2¨
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLN
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javam- m(àè
+gcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testDoesNotIgnoreWhitespaceAroundText()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javay! y(*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javay y( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javay- y(Wå
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()?xmlReaderVARIABLEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java! (*"!
+type HierarchicalStreamReader*	xmlReader2o
+HierarchicalStreamReaderTYPEM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java ( 2´
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLM
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java- (Jæ
+_com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsEmptyStringForEmptyTags()?textVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÅ Å("
+type String*text2i
+java.lang.StringTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÅ Å(ª
+åcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testReturnsLastResultForHasMoreChildrenIfCalledRepeatedlyWithoutMovingNode()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaá! á(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaá á( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaá- á(Wô
+kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAndValuesByIndex()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaè! è(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaè è( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaè- è(lì
+ecom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java°! °(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java° °( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java°- °(l∑
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?expectedVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java£ £("
+type Set*expected2f
+java.util.SetTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java£ £(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java£ £($≥
+bcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?actualVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java® ®("
+type Set*actual2f
+java.util.SetTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java® ®(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java® ®("À
+dcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesAttributesKeysAsIterator()?iteratorVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java© ©("
+type Iterator*iterator2k
+java.util.IteratorTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java© ©(†
+rcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testAllowsValueToBeReadWithoutDisturbingChildren()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java∫! ∫(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java∫ ∫( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaª ª(V¢
+tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testExposesTextValueOfCurrentElementButNotChildren()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java÷! ÷(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java÷ ÷( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java◊ ◊(Hã
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadLineFeedInString()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬂ! ﬂ(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬂ ﬂ( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaﬂ- ﬂ(Rã
+]com.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadEncodedAttribute()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java‰! ‰(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java‰ ‰( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.java‰- ‰(Uô
+kcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.testCanReadAttributeWithEncodedWhitespace()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÈ! È(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÈ È( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÈ- È(lê
+bcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.todoTestCanReadNullValueInString()?xmlReaderVARIABLEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÔ! Ô(*"!
+type HierarchicalStreamReader*	xmlReader2q
+HierarchicalStreamReaderTYPEO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÔ Ô( 2≠
+Tcom.thoughtworks.xstream.io.xml.AbstractXMLReaderTest.createReader(java.lang.String)CALLO
+Csrc/test/com/thoughtworks/xstream/io/xml/AbstractXMLReaderTest.javaÔ- Ô(S

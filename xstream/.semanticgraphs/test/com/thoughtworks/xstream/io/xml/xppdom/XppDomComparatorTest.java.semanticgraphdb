@@ -1,0 +1,622 @@
+
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaì
+;com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTestCLASSS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java (!"
+inner classfalse*XppDomComparatorTest2§
+Ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.setUp()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java" &(2Æ
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java( ,(2º
+Vcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java3 9(2Å
+acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java@ G(2Ã
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaN U(2¶
+Rcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java\ b(2Æ
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javai n(2¹
+Ucom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javau |(2À
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaƒ Š(2È
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‘ ˜(2Ã
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaŸ ¥(2Æ
+`com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¬ ³(2»
+Ucom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaº Á(2¾
+Xcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÈ Ï(2Å
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÖ Ý(2Ä
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaä ë(2¿
+Ycom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaò ù(2¥
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java (2ª
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java ('2g
+TestCaseEXTENDS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java* (2Ì
+Ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.setUp()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java" "("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2€
+#java.lang.ThreadLocal.ThreadLocal()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java$ $(!2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java$ $(2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java% %(2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java%* %(/2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java"" "(+ò
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java( (("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertEquals2Ï
+mcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!comparator	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java( ((32Ç
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!o1	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(5 ((>2Ç
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!o2	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(@ ((I2
+"java.util.Comparator.compare(T, T)CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java) )(&2ë
+com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(java.util.Comparator, java.lang.Object, java.lang.Object)!comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java) )(2ã
+…com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(java.util.Comparator, java.lang.Object, java.lang.Object)!o1CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java) )(!2ã
+…com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(java.util.Comparator, java.lang.Object, java.lang.Object)!o2CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java)# )(%2ã
+…com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(java.util.Comparator, java.lang.Object, java.lang.Object)!o1CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java*( *(*2ã
+…com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(java.util.Comparator, java.lang.Object, java.lang.Object)!o2CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java*J *(L2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java( ((Š
+Vcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java3 3(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEqualsEmptyDocuments2¾
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?xmlDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java4 4(#2¿
+[com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java5 5(.2¿
+[com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java6 6(.2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java8 8(2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java7 7(2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java8 8(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java32 3(;¶
+acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java@ @(3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*#testSortsElementsWithDifferentValue2Ê
+fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaA A(>2Ê
+fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaB B(>2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaD% D(02x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaF% F(02£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaC C(#2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaD% D(*2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaE E("2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaF% F(*2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java@= @(F®
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaN N(1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testSortsElementsWithValueAndNull2È
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaO O(32È
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaP P(=2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaR% R(02x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaT% T(02£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaQ Q(#2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaR% R(*2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaS S("2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaT% T(*2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaN; N(Dö
+
+Rcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java\ \($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEqualsAttributes2º
+Vcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?xmlDECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java] ](/2»
+Wcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java^ ^(.2»
+Wcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java_ _(.2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaa a(2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java` `(2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaa a(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java\. \(7ù	
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javai i(4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*$testEqualsAttributesInDifferentOrder2Ë
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaj j(?2Ë
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javak k(?2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javam m(2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javal l(2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javam m(2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javai> i(G†
+Ucom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()METHODS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javau u('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSortsSameAttributes2¾
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()?dom1DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javav v(?2¾
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()?dom2DECLARATIONS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaw w(?2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javay! y(,2x
+java.lang.ThreadLocal.get()CALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java{! {(,2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javax x(#2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javay! y(&2£
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaz z("2ž
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java{! {(&2h
+voidRETURN_TYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javau1 u(:®
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaƒ ƒ(,"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSortsDifferentAttributes2Å
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java„ „(92Å
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java… …(92z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‡" ‡(-2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‰" ‰(-2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java† †(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‡" ‡('2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaˆ ˆ("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‰" ‰('2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaƒ6 ƒ(?Î
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‘ ‘(4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*$testSortsAccordingNumberOfAttributes2Í
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java’ ’(32Í
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java“ “(92z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java•( •(32z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java—( —(32¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java” ”(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java•( •(-2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java– –("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java—( —(-2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java‘> ‘(G½
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaŸ Ÿ(/"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEqualsDocumentsWithChildren2Ç
+acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?xmlDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java   (,2È
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¡ ¡(.2È
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¢ ¢(.2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¤ ¤(2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java£ £(2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¤ ¤(2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaŸ9 Ÿ(BÆ
+`com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¬ ¬(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testSortsAccordingNumberOfChildren2Ë
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java­ ­(32Ë
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java® ®(<2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java°' °(22z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java²' ²(22¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¯ ¯(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java°' °(,2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java± ±("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java²' ²(,2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¬< ¬(Eš
+Ucom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaº º('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSortsElementsByName2À
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java» »(<2À
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¼ ¼(<2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¾# ¾(.2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÀ# À(.2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java½ ½(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¾# ¾((2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¿ ¿("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÀ# À((2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaº1 º(:¦
+Xcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÈ È(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testSortsElementsByNthName2Ã
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÉ É(H2Ã
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÊ Ê(H2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÌ# Ì(.2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÎ# Î(.2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaË Ë(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÌ# Ì((2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÍ Í("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÎ# Î((2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÈ4 È(=Â
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÖ Ö(1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testSortsAttributesBeforeElements2Ê
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java× ×(B2Ê
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaØ Ø(B2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÚ! Ú(,2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÜ! Ü(,2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÙ Ù(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÚ! Ú(&2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÛ Û("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÜ! Ü(&2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÖ; Ö(D¾
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaä ä(0"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void* testWillResetXPathAfterRecursion2É
+ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaå å(S2É
+ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaæ æ(S2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaè& è(12z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaê& ê(12¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaç ç(#2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaè& è(+2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaé é("2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaê& ê(+2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaä: ä(CÑ
+Ycom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()METHODU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaò ò(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCompareWithoutReference2Ã
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?xmlDECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaô ô(#2Ä
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?dom1DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaõ õ(.2Ä
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?dom2DECLARATIONU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaö ö(.2z
+java.lang.ThreadLocal.get()CALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaø ø(2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaó ó(2¥
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java÷ ÷(2 
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathCALLU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaø ø(2j
+voidRETURN_TYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaò5 ò(>Î
+mcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!comparator	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java() ((3*
+comparator2q
+java.util.ComparatorTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java( (((º
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!o1	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(< ((>*o12m
+java.lang.ObjectTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(5 ((;º
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.assertEquals(Comparator,Object,Object)!o2	PARAMETERS
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(G ((I*o22m
+java.lang.ObjectTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java(@ ((F½
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?xmlVALUES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java4 4("
+type String*xml2m
+java.lang.StringTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java4 4(¸
+[com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java5 5("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java5 5(¸
+[com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsEmptyDocuments()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java6 6("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java6 6(Ã
+fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaA A("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaA A(Ã
+fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithDifferentValue()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaB B("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaB B(Á
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaO O("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaO O(Á
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsWithValueAndNull()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaP P("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaP P(¹
+Vcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?xmlVALUES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java] ]("
+type String*xml2m
+java.lang.StringTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java] ](´
+Wcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java^ ^("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java^ ^(´
+Wcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributes()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java_ _("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java_ _(Ä
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaj j("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaj j(Ä
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsAttributesInDifferentOrder()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javak k("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javak k(·
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()?dom1VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javav v("
+type XppDom*dom12c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javav v(·
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsSameAttributes()?dom2VARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaw w("
+type XppDom*dom22c
+XppDomTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaw w(À
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java„ „("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java„ „(À
+_com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsDifferentAttributes()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java… …("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java… …(È
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java’ ’("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java’ ’(È
+gcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfAttributes()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java“ “("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java“ “(È
+acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?xmlVALUEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java   ("
+type String*xml2o
+java.lang.StringTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java   (Ã
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¡ ¡("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¡ ¡(Ã
+bcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testEqualsDocumentsWithChildren()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¢ ¢("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¢ ¢(Æ
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java­ ­("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java­ ­(Æ
+ecom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAccordingNumberOfChildren()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java® ®("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java® ®(»
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java» »("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java» »(»
+Zcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByName()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¼ ¼("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java¼ ¼(¾
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÉ É("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÉ É(¾
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsElementsByNthName()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÊ Ê("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaÊ Ê(Å
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java× ×("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java× ×(Å
+dcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testSortsAttributesBeforeElements()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaØ Ø("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaØ Ø(Ä
+ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaå å("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaå å(Ä
+ccom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testWillResetXPathAfterRecursion()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaæ æ("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaæ æ(Ä
+]com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?xmlVALUEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaô ô("
+type String*xml2o
+java.lang.StringTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaô ô(¿
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?dom1VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaõ õ("
+type XppDom*dom12e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaõ õ(¿
+^com.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest.testCompareWithoutReference()?dom2VARIABLEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaö ö("
+type XppDom*dom22e
+XppDomTYPEU
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.javaö ö(³
+Acom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?xpathVARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java ("
+type ThreadLocal*xpath2r
+java.lang.ThreadLocalTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java (½
+Fcom.thoughtworks.xstream.io.xml.xppdom.XppDomComparatorTest?comparatorVARIABLES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java ('"
+type XppDomComparator*
+comparator2m
+XppDomComparatorTYPES
+Isrc/test/com/thoughtworks/xstream/io/xml/xppdom/XppDomComparatorTest.java (

@@ -1,0 +1,165 @@
+
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.javaº
+
+7com.thoughtworks.xstream.converters.basic.CharConverterCLASSO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java ("
+inner classfalse*CharConverter2©
+Icom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(Class)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java (2Ó
+scom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! #(2Ð
+pcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java% ,(2ª
+Jcom.thoughtworks.xstream.converters.basic.CharConverter.fromString(String)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java. 4(2¨
+Hcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)DECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6 9(2d
+	ConverterEXTENDO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java& (/2o
+SingleValueConverterEXTENDO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java1 (Eˆ	
+Icom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(Class)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¬
+Ncom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(Class)!type	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java ((2‚
+)java.lang.Object.equals(java.lang.Object)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java (&2‚
+)java.lang.Object.equals(java.lang.Object)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java* (F2±
+Xcom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(java.lang.Class)!typeCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java (2±
+Xcom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(java.lang.Class)!typeCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java* (.2g
+booleanRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java (È	
+scom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! !("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2Ø
+zcom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! !(%2Ø
+zcom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java!' !(F2Ù
+{com.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java!H !(b2«
+Rcom.thoughtworks.xstream.converters.basic.CharConverter.toString(java.lang.Object)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java" "((2d
+voidRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! !(ª
+
+pcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java% %("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Õ
+wcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java% %(;2Ö
+xcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java%= %(Y2Þ
+~com.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?nullAttributeDECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java& &(:2‚
+)java.lang.String.equals(java.lang.Object)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java'% '(A2|
+#java.lang.Character.Character(char)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java( ((&2p
+java.lang.ObjectRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java% %(î
+
+Jcom.thoughtworks.xstream.converters.basic.CharConverter.fromString(String)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java. .("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*
+fromString2¬
+Ncom.thoughtworks.xstream.converters.basic.CharConverter.fromString(String)!str	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java. .('2r
+java.lang.String.length()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java/ /(2u
+java.lang.String.charAt(int)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java2! 2(.2|
+#java.lang.Character.Character(char)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java0 0(&2|
+#java.lang.Character.Character(char)CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java2 2(/2±
+Xcom.thoughtworks.xstream.converters.basic.CharConverter.fromString(java.lang.String)!strCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java/ /(2±
+Xcom.thoughtworks.xstream.converters.basic.CharConverter.fromString(java.lang.String)!strCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java2! 2($2p
+java.lang.ObjectRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java. .(›
+
+Hcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)METHODO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6 6("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*toString2ª
+Lcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)!obj	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6 6(%2«
+Kcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)?chDECLARATIONO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(.2x
+java.lang.Character.charValue()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(.2t
+java.lang.Object.toString()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java8! 8(/2¯
+Vcom.thoughtworks.xstream.converters.basic.CharConverter.toString(java.lang.Object)!objCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(!2¯
+Vcom.thoughtworks.xstream.converters.basic.CharConverter.toString(java.lang.Object)!objCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java8! 8($2p
+java.lang.StringRETURN_TYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6 6(œ
+Ncom.thoughtworks.xstream.converters.basic.CharConverter.canConvert(Class)!type	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java$ ((*type2h
+java.lang.ClassTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java (#Ë
+zcom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! !(%*source2i
+java.lang.ObjectTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java! !(Ó
+zcom.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java!@ !(F*writer2q
+HierarchicalStreamWriterTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java!' !(?Ï
+{com.thoughtworks.xstream.converters.basic.CharConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java![ !(b*context2k
+MarshallingContextTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java!H !(ZÐ
+wcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java%5 %(;*reader2q
+HierarchicalStreamReaderTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java% %(4Î
+xcom.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java%R %(Y*context2m
+UnmarshallingContextTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java%= %(Qœ
+Ncom.thoughtworks.xstream.converters.basic.CharConverter.fromString(String)!str	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java.$ .('*str2i
+java.lang.StringTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java. .(#š
+Lcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)!obj	PARAMETERO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6" 6(%*obj2i
+java.lang.ObjectTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java6 6(!æ
+~com.thoughtworks.xstream.converters.basic.CharConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?nullAttributeVARIABLEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java& &("
+type String*nullAttribute2i
+java.lang.StringTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java& &(Æ
+Kcom.thoughtworks.xstream.converters.basic.CharConverter.toString(Object)?chVARIABLEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7("
+type char*ch2]
+charTYPEO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(2x
+java.lang.Character.charValue()CALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(.2¯
+Vcom.thoughtworks.xstream.converters.basic.CharConverter.toString(java.lang.Object)!objCALLO
+Esrc/java/com/thoughtworks/xstream/converters/basic/CharConverter.java7 7(!

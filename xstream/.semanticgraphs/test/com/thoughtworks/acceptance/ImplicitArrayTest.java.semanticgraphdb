@@ -1,0 +1,861 @@
+
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java•$
+-com.thoughtworks.acceptance.ImplicitArrayTestCLASSE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java ("
+inner classfalse*ImplicitArrayTest2ã
+5com.thoughtworks.acceptance.ImplicitArrayTest.setUp()DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java (2ï
+?com.thoughtworks.acceptance.ImplicitArrayTest.compareTo(Object)DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* ,(	2ò
+Bcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java/ B(2≠
+Wcom.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaH [(2¿
+jcom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java] w(2¡
+jcom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()DECLARATIONF
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javay å(2ë
+9com.thoughtworks.acceptance.ImplicitArrayTest.getPeople()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaí î(	2ê
+8com.thoughtworks.acceptance.ImplicitArrayTest.getRooms()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javañ ò(	2Æ
+Vcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¨ ·(2•
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÏ Ñ(2≈
+mcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè £(2¡
+icom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• ∫(2À
+scom.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaº —(2¨
+Tcom.thoughtworks.acceptance.ImplicitArrayTest.testCanBeDeclaredOnlyForMatchingType()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java” ⁄(2µ
+]com.thoughtworks.acceptance.ImplicitArrayTest.testCanBeDeclaredOnlyForMatchingComponentType()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‹ „(2õ
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÂ ˙(2£
+Kcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¸ ç(2û
+Fcom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaì †(2ß
+Ocom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java® ø(2™
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¡ ÿ(2™
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java⁄ Ô(2í
+<com.thoughtworks.acceptance.ImplicitArrayTest.Animal(String)DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& ((	2í
+:com.thoughtworks.acceptance.ImplicitArrayTest.Room(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû †(	2î
+<com.thoughtworks.acceptance.ImplicitArrayTest.Person(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ©(	2ó
+?com.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom(int)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ È(	2ñ
+>com.thoughtworks.acceptance.ImplicitArrayTest.Aquarium(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä å(	2g
+AbstractAcceptanceTestEXTENDE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java' (=É
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(String)!name	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(!*name2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(É
+Dcom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(á
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(!*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(á
+Scom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)!number	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ  Ê(&*number2T
+intTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(ã
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(#*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(∑
+5com.thoughtworks.acceptance.ImplicitArrayTest.setUp()METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java" (+€
+Bcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java/ /(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWithDirectType2ù
+Gcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()?farmDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java0 0(2°
+Kcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()?expectedDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java6 >(2à
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java0 0(2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java2 2(2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java3 3(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java/ /(∑	
+Wcom.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaH H(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testInheritsImplicitArrayFromSuperclass2≤
+\com.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()?farmDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaI I("2∂
+`com.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()?expectedDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaO W(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaI I("2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaK K(2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaL L(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaH H(É
+
+jcom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java] ](J"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*:testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce2≈
+ocom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()?farmDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java^ ^(&2…
+scom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()?expectedDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javah r(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java^ ^(&2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java` `(2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaa a(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java] ](Ö
+
+jcom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javay y(J"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*:testAllowsSubclassToOverrideImplicitCollectionInSuperclass2≈
+ocom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()?farmDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaz z("2À
+scom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÄ à(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaz z("2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java| |(2ú
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java} }(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javay y(Ó
+Vcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¨ ¨(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testMultipleArraysBasedOnDifferentType2¥
+\com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?houseDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠(!2≤
+Zcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?joeDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≤ ≤(&2µ
+]com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?jaimieDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∑ ∑(,2∑
+_com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬ ’(2æ
+fcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?serializedHouseDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaﬁ ﬁ(F2ê
+?com.thoughtworks.acceptance.ImplicitArrayTest.House.getPeople()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaﬂ ﬂ(&2ê
+?com.thoughtworks.acceptance.ImplicitArrayTest.House.getPeople()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaﬂ( ﬂ(C2è
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‡ ‡(%2è
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‡' ‡(A2å
+;com.thoughtworks.acceptance.ImplicitArrayTest.House.House()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠(!2ö
+Icom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaØ Ø(2ö
+Icom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∞ ∞( 2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≤ ≤(&2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∑ ∑(,2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¨ ¨(Ô
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÏ Ï(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testArraysWithDerivedElements2´
+Scom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?houseDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì(!2Æ
+Vcom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÛ ˚(2µ
+]com.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?serializedHouseDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÇ Ç(F2è
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÉ É(%2è
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÉ' É(A2å
+;com.thoughtworks.acceptance.ImplicitArrayTest.House.House()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì(!2ö
+Icom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÔ Ô(2ù
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java ( 2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÏ Ï(Ô
+mcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è(M"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*=testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray2Œ
+vcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()?aquariumDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(42Œ
+vcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ù(2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(42\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è(ﬂ
+icom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •(I"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*9testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray2 
+rcom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()?aquariumDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¶ ¶(42 
+rcom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≥(2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¶ ¶(42\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •(á
+scom.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaº º(S"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*CtestWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray2‘
+|com.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()?aquariumDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaΩ Ω(42‘
+|com.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaƒ  (2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaΩ Ω(42\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaº º(ˆ
+Tcom.thoughtworks.acceptance.ImplicitArrayTest.testCanBeDeclaredOnlyForMatchingType()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java” ”(4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*$testCanBeDeclaredOnlyForMatchingType2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java” ”(à
+]com.thoughtworks.acceptance.ImplicitArrayTest.testCanBeDeclaredOnlyForMatchingComponentType()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‹ ‹(="
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*-testCanBeDeclaredOnlyForMatchingComponentType2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‹ ‹(Ì
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÂ Â(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWithNullElement2†
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()?farmDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(2§
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ ˆ(2ä
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaË Ë(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÍ Í(2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÂ Â(Ï
+Kcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¸ ¸(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWithNullElementAnsAlias2®
+Pcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()?farmDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java˝ ˝(2¨
+Tcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÉ â(2ä
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java˝ ˝(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÄ Ä(2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¸ ¸(…
+Fcom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaì ì(&"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWithPrimitiveArray2°
+Icom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()?paDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaî î(02ß
+Ocom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó õ(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArray.PrimitiveArray()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaî î(02\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaì ì(Ö
+Ocom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java® ®(/"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMultiDimensionalDirectArray2∞
+Xcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()?multiDimDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java©  ©(H2∞
+Xcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaØ ∫(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java©+ ©(H2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java® ®(ë
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¡ ¡(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testMultiDimensionalPrimitiveArray2≥
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()?multiDimDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬  ¬(H2≥
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java» ”(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬+ ¬(H2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¡ ¡(ë
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java⁄ ⁄(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testMultiDimensionalArrayWithAlias2≥
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()?multiDimDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java€  €(H2≥
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()?expectedDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java· Í(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java€+ €(H2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java⁄ ⁄(Ä
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(Object)!o	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java*$ *(%*o2_
+java.lang.ObjectTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* *(#æ
+Gcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()?farmVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java0 0("
+type Farm*farm2Å
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java0 0(2à
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java0 0(ö
+Kcom.thoughtworks.acceptance.ImplicitArrayTest.testWithDirectType()?expectedVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java6 6("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java6 6(€
+\com.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()?farmVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaI I("
+type Farm*farm2Å
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaI I(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaI I("Ø
+`com.thoughtworks.acceptance.ImplicitArrayTest.testInheritsImplicitArrayFromSuperclass()?expectedVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaO O("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaO O(ˆ
+ocom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()?farmVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java^ ^("
+type MegaFarm*farm2Ö
+6com.thoughtworks.acceptance.ImplicitArrayTest.MegaFarmTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java^ ^(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java^ ^(&¬
+scom.thoughtworks.acceptance.ImplicitArrayTest.testSupportsInheritedAndDirectDeclaredImplicitArraysAtOnce()?expectedVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javah h("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javah h(Ó
+ocom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()?farmVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaz z("
+type Farm*farm2Å
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaz z(2ê
+Acom.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm.MegaFarm()CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaz z("∆
+scom.thoughtworks.acceptance.ImplicitArrayTest.testAllowsSubclassToOverrideImplicitCollectionInSuperclass()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÄ Ä("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÄ Ä(ﬁ
+\com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?houseVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠("
+type House*house2Ñ
+3com.thoughtworks.acceptance.ImplicitArrayTest.HouseTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠(2å
+;com.thoughtworks.acceptance.ImplicitArrayTest.House.House()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠(!Ó
+Zcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?joeVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≤ ≤("
+type Person*joe2Ö
+4com.thoughtworks.acceptance.ImplicitArrayTest.PersonTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≤ ≤(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≤ ≤(&Ù
+]com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?jaimieVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∑ ∑("
+type Person*jaimie2Ö
+4com.thoughtworks.acceptance.ImplicitArrayTest.PersonTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∑ ∑(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java∑ ∑(,≤
+_com.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬ ¬("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬ ¬(„
+fcom.thoughtworks.acceptance.ImplicitArrayTest.testMultipleArraysBasedOnDifferentType()?serializedHouseVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaﬁ ﬁ("
+type House*serializedHouse2Ñ
+3com.thoughtworks.acceptance.ImplicitArrayTest.HouseTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaﬁ ﬁ(’
+Scom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?houseVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì("
+type House*house2Ñ
+3com.thoughtworks.acceptance.ImplicitArrayTest.HouseTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì(2å
+;com.thoughtworks.acceptance.ImplicitArrayTest.House.House()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì(!©
+Vcom.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÛ Û("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÛ Û(⁄
+]com.thoughtworks.acceptance.ImplicitArrayTest.testArraysWithDerivedElements()?serializedHouseVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÇ Ç("
+type House*serializedHouse2Ñ
+3com.thoughtworks.acceptance.ImplicitArrayTest.HouseTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÇ Ç(ó
+vcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()?aquariumVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê("
+type Aquarium*aquarium2á
+6com.thoughtworks.acceptance.ImplicitArrayTest.AquariumTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(4…
+vcom.thoughtworks.acceptance.ImplicitArrayTest.testWithExplicitItemNameMatchingTheNameOfTheFieldWithTheArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ó("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ó(ì
+rcom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()?aquariumVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¶ ¶("
+type Aquarium*aquarium2á
+6com.thoughtworks.acceptance.ImplicitArrayTest.AquariumTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¶ ¶(2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¶ ¶(4≈
+rcom.thoughtworks.acceptance.ImplicitArrayTest.testWithImplicitNameMatchingTheNameOfTheFieldWithTheArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java≠ ≠(ù
+|com.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()?aquariumVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaΩ Ω("
+type Aquarium*aquarium2á
+6com.thoughtworks.acceptance.ImplicitArrayTest.AquariumTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaΩ Ω(2¢
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaΩ Ω(4œ
+|com.thoughtworks.acceptance.ImplicitArrayTest.testWithAliasedItemNameMatchingTheAliasedNameOfTheFieldWithTheArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaƒ ƒ("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaƒ ƒ(≈
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()?farmVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê("
+type Farm*farm2É
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(2ä
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(ü
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElement()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÌ Ì(Õ
+Pcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()?farmVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java˝ ˝("
+type Farm*farm2É
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java˝ ˝(2ä
+9com.thoughtworks.acceptance.ImplicitArrayTest.Farm.Farm()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java˝ ˝(ß
+Tcom.thoughtworks.acceptance.ImplicitArrayTest.testWithNullElementAnsAlias()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÉ É("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÉ É(Ï
+Icom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()?paVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaî î("
+type PrimitiveArray*pa2ç
+<com.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArrayTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaî î(2û
+Mcom.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArray.PrimitiveArray()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaî î(0¢
+Ocom.thoughtworks.acceptance.ImplicitArrayTest.testWithPrimitiveArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ó("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ó(•
+Xcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()?multiDimVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java©  ©((" 
+type MultiDimenstionalArrays*multiDim2ñ
+Ecom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArraysTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java© ©(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java©+ ©(H´
+Xcom.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalDirectArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaØ Ø("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaØ Ø(®
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()?multiDimVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬  ¬((" 
+type MultiDimenstionalArrays*multiDim2ñ
+Ecom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArraysTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬ ¬(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¬+ ¬(HÆ
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalPrimitiveArray()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java» »("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java» »(®
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()?multiDimVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java€  €((" 
+type MultiDimenstionalArrays*multiDim2ñ
+Ecom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArraysTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java€ €(2∞
+_com.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays.MultiDimenstionalArrays()CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java€+ €(HÆ
+[com.thoughtworks.acceptance.ImplicitArrayTest.testMultiDimensionalArrayWithAlias()?expectedVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java· ·("
+type String*expected2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java· ·(°
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmCLASSE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java ("
+inner classfalse*Farm2å
+6com.thoughtworks.acceptance.ImplicitArrayTest.Farm?idxDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java (!2ê
+:com.thoughtworks.acceptance.ImplicitArrayTest.Farm?animalsDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java   (2_
+StandardObjectEXTENDE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java% (3
+6com.thoughtworks.acceptance.ImplicitArrayTest.Farm?idxVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java (!"
+type int*idx2R
+intTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java (±
+:com.thoughtworks.acceptance.ImplicitArrayTest.Farm?animalsVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java   ("
+type Animal[]*animals2Ö
+6com.thoughtworks.acceptance.ImplicitArrayTest.Animal[]TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java   (∑
+4com.thoughtworks.acceptance.ImplicitArrayTest.AnimalCLASSE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java# #("
+inner classfalse*Animal2ú
+Fcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(Object)DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* ,(	2ô
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(String)DECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& ((	2è
+9com.thoughtworks.acceptance.ImplicitArrayTest.Animal?nameDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java$ $(2e
+java.lang.ComparableEXTENDE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java#A #(K2_
+StandardObjectEXTENDE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java#' #(5Ò
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(String)CONSTRUCTORE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(*Animal2ú
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(String)!name	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(!2°
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(java.lang.String)!nameCALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java' '(2ä
+4com.thoughtworks.acceptance.ImplicitArrayTest.AnimalRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(É
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.Animal(String)!name	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(!*name2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java& &(í
+Fcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(Object)METHODE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* *("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*	compareTo2ú
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(Object)!o	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* *(%2{
+,java.lang.String.compareTo(java.lang.String)CALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java+ +(32à
+9com.thoughtworks.acceptance.ImplicitArrayTest.Animal?nameCALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java+ +(2°
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(java.lang.Object)!oCALLE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java++ +(,2Y
+intRETURN_TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* *(Ä
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Animal.compareTo(Object)!o	PARAMETERE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java*$ *(%*o2_
+java.lang.ObjectTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java* *(#Ñ
+9com.thoughtworks.acceptance.ImplicitArrayTest.Animal?nameVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java$ $("
+type String*name2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java$ $(¡
+6com.thoughtworks.acceptance.ImplicitArrayTest.MegaFarmCLASSE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaD D( "
+inner classfalse*MegaFarm2í
+<com.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm?namesDECLARATIONE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaE E(2É
+2com.thoughtworks.acceptance.ImplicitArrayTest.FarmEXTENDE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaD) D(-å
+<com.thoughtworks.acceptance.ImplicitArrayTest.MegaFarm?namesVARIABLEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaE E("
+type String[]*names2a
+java.lang.String[]TYPEE
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaE E(·
+3com.thoughtworks.acceptance.ImplicitArrayTest.HouseCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaé é("
+inner classfalse*House2ó
+?com.thoughtworks.acceptance.ImplicitArrayTest.House.getPeople()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaí î(	2ñ
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javañ ò(	2ë
+9com.thoughtworks.acceptance.ImplicitArrayTest.House?roomsDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è(2í
+:com.thoughtworks.acceptance.ImplicitArrayTest.House?peopleDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(2a
+StandardObjectEXTENDG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaé& é(4Œ
+?com.thoughtworks.acceptance.ImplicitArrayTest.House.getPeople()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaí í("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List*	getPeople2n
+java.util.Arrays.asList(T...)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaì ì((2ã
+:com.thoughtworks.acceptance.ImplicitArrayTest.House?peopleCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaì! ì('2f
+java.util.ListRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaí í(À
+>com.thoughtworks.acceptance.ImplicitArrayTest.House.getRooms()METHODG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javañ ñ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List*getRooms2n
+java.util.Arrays.asList(T...)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó ó('2ä
+9com.thoughtworks.acceptance.ImplicitArrayTest.House?roomsCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaó! ó(&2f
+java.util.ListRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javañ ñ(Æ
+9com.thoughtworks.acceptance.ImplicitArrayTest.House?roomsVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è("
+type Room[]*rooms2Ö
+4com.thoughtworks.acceptance.ImplicitArrayTest.Room[]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è(¥
+:com.thoughtworks.acceptance.ImplicitArrayTest.House?peopleVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê("
+type Person[]*people2á
+6com.thoughtworks.acceptance.ImplicitArrayTest.Person[]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(Ø
+2com.thoughtworks.acceptance.ImplicitArrayTest.RoomCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaõ õ("
+inner classfalse*Room2ó
+?com.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû †(	2è
+7com.thoughtworks.acceptance.ImplicitArrayTest.Room?nameDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaú ú(2a
+StandardObjectEXTENDG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaõ% õ(3È
+?com.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(String)CONSTRUCTORG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(*Room2ö
+Dcom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(2ü
+Ncom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(java.lang.String)!nameCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaü ü(2ä
+2com.thoughtworks.acceptance.ImplicitArrayTest.RoomRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(É
+Dcom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaû û(Ü
+7com.thoughtworks.acceptance.ImplicitArrayTest.Room?nameVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaú ú("
+type String*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaú ú(◊
+4com.thoughtworks.acceptance.ImplicitArrayTest.PersonCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java£ £("
+inner classfalse*Person2õ
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ©(	2ë
+9com.thoughtworks.acceptance.ImplicitArrayTest.Person?nameDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §(2õ
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Person?emailAddressesDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •('2a
+StandardObjectEXTENDG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java£' £(5˘
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(String)CONSTRUCTORG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(*Person2û
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(!2£
+Rcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(java.lang.String)!nameCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java® ®(2å
+4com.thoughtworks.acceptance.ImplicitArrayTest.PersonRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(á
+Hcom.thoughtworks.acceptance.ImplicitArrayTest.Person.Person(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(!*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaß ß(à
+9com.thoughtworks.acceptance.ImplicitArrayTest.Person?nameVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §("
+type String*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §(†
+Ccom.thoughtworks.acceptance.ImplicitArrayTest.Person?emailAddressesVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •('"
+type String[]*emailAddresses2c
+java.lang.String[]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •(˚
+:com.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoomCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java„ „($"
+inner classfalse*NumberedRoom2§
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ È(	2ô
+Acom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom?numberDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‰ ‰(2Ö
+2com.thoughtworks.acceptance.ImplicitArrayTest.RoomEXTENDG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java„- „(1∑
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)CONSTRUCTORG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(*NumberedRoom2©
+Scom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)!number	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(&2ö
+Icom.thoughtworks.acceptance.ImplicitArrayTest.Room.Room(java.lang.String)CALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÁ Á(2§
+Scom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)!numberCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaË Ë( 2í
+:com.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoomRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(á
+Scom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom.NumberedRoom(int)!number	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ  Ê(&*number2T
+intTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÊ Ê(Ç
+Acom.thoughtworks.acceptance.ImplicitArrayTest.NumberedRoom?numberVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‰ ‰("
+type int*number2T
+intTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java‰ ‰(Ÿ
+6com.thoughtworks.acceptance.ImplicitArrayTest.AquariumCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÜ Ü( "
+inner classfalse*Aquarium2ü
+Gcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(String)DECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä å(	2ì
+;com.thoughtworks.acceptance.ImplicitArrayTest.Aquarium?nameDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaá á(2ì
+;com.thoughtworks.acceptance.ImplicitArrayTest.Aquarium?fishDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaà à(2a
+StandardObjectEXTENDG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaÜ) Ü(7â
+Gcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(String)CONSTRUCTORG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(*Aquarium2¢
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(#2ß
+Vcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(java.lang.String)!nameCALLG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaã ã(2é
+6com.thoughtworks.acceptance.ImplicitArrayTest.AquariumRETURN_TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(ã
+Lcom.thoughtworks.acceptance.ImplicitArrayTest.Aquarium.Aquarium(String)!name	PARAMETERG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(#*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaä ä(ä
+;com.thoughtworks.acceptance.ImplicitArrayTest.Aquarium?nameVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaá á("
+type String*name2a
+java.lang.StringTYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaá á(é
+;com.thoughtworks.acceptance.ImplicitArrayTest.Aquarium?fishVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaà à("
+type String[]*fish2c
+java.lang.String[]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaà à(–
+<com.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArrayCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaè è("
+inner classfalse*PrimitiveArray2ô
+Acom.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArray?intsDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(Ñ
+Acom.thoughtworks.acceptance.ImplicitArrayTest.PrimitiveArray?intsVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê("
+type int[]*ints2V
+int[]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.javaê ê(«
+Ecom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArraysCLASSG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java¢ ¢(("
+inner classfalse*MultiDimenstionalArrays2©
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiObjectDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java£ £(2©
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiStringDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §(2¶
+Ncom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiIntDECLARATIONG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •(Ø
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiObjectVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java£ £("
+type 
+Object[][]*multiObject2e
+java.lang.Object[][]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java£ £(Ø
+Qcom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiStringVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §("
+type 
+String[][]*multiString2e
+java.lang.String[][]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java§ §(ô
+Ncom.thoughtworks.acceptance.ImplicitArrayTest.MultiDimenstionalArrays?multiIntVARIABLEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •("
+type int[][]*multiInt2X
+int[][]TYPEG
+;src/test/com/thoughtworks/acceptance/ImplicitArrayTest.java• •(

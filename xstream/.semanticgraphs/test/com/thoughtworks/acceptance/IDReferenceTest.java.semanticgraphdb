@@ -1,0 +1,161 @@
+
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaµ	
++com.thoughtworks.acceptance.IDReferenceTestCLASSC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java ("
+inner classfalse*IDReferenceTest2á
+3com.thoughtworks.acceptance.IDReferenceTest.setUp()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java (2ù
+Icom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java 4(2ö
+Fcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java6 F(2†
+Lcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaH S(2ó
+Ccom.thoughtworks.acceptance.IDReferenceTest.testReplacedReference()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaU c(2®
+Tcom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javae p(2d
+AbstractReferenceTestEXTENDC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java% (:±
+3com.thoughtworks.acceptance.IDReferenceTest.setUp()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java" (+Ì
+Icom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java (+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testXmlContainsReferenceIds2ß
+Scom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?sameThingDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java   (,2™
+Vcom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?anotherThingDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java! !(/2¢
+Ncom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?listDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java# #(#2¶
+Rcom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?expectedDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java( 1(2l
+java.util.ArrayList.ArrayList()CALLC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java# #(#2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java (Ω
+Fcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java6 6(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReferenceXml2û
+Jcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?bobDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java7 7(&2ü
+Kcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?janeDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java8 8((2£
+Ocom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?expectedDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java< C(2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java6 6(≥
+Lcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaH H(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReferenceToSelfXml2§
+Pcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()?bobDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaI I(&2©
+Ucom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()?expectedDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaL P(2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaH H(Ù
+Ccom.thoughtworks.acceptance.IDReferenceTest.testReplacedReference()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaU U(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testReplacedReference2£
+Ocom.thoughtworks.acceptance.IDReferenceTest.testReplacedReference()?expectedXmlDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaV `(2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaU U(ˇ
+Tcom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()METHODC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javae e(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testCanReferenceDeserializedNullValues2¨
+Xcom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()?xmlDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javag k(2≠
+Ycom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()?listDECLARATIONC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javal l(.2b
+java.util.List.size()CALLC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javam m(#2d
+java.util.List.get(int)CALLC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javan n(2d
+java.util.List.get(int)CALLC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javao o(2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javae e(ì
+Scom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?sameThingVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java   ("
+type Thing*	sameThing2R
+ThingTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java   (ô
+Vcom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?anotherThingVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java! !("
+type Thing*anotherThing2R
+ThingTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java! !(ˇ
+Ncom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?listVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java# #("
+type List*list2[
+java.util.ListTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java# #(2l
+java.util.ArrayList.ArrayList()CALLC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java# #(#ù
+Rcom.thoughtworks.acceptance.IDReferenceTest.testXmlContainsReferenceIds()?expectedVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java( (("
+type String*expected2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java( ((Ü
+Jcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?bobVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java7 7("
+type Person*bob2S
+PersonTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java7 7(à
+Kcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?janeVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java8 8("
+type Person*jane2S
+PersonTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java8 8(ö
+Ocom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceXml()?expectedVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java< <("
+type String*expected2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.java< <(å
+Pcom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()?bobVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaI I("
+type Person*bob2S
+PersonTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaI I(†
+Ucom.thoughtworks.acceptance.IDReferenceTest.testCircularReferenceToSelfXml()?expectedVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaL L("
+type String*expected2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaL L(ù
+Ocom.thoughtworks.acceptance.IDReferenceTest.testReplacedReference()?expectedXmlVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaV V("
+type String*expectedXml2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javaV V(û
+Xcom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()?xmlVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javag g("
+type String*xml2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javag g(ú
+Ycom.thoughtworks.acceptance.IDReferenceTest.testCanReferenceDeserializedNullValues()?listVARIABLEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javal l("
+type List*list2[
+java.util.ListTYPEC
+9src/test/com/thoughtworks/acceptance/IDReferenceTest.javal l(

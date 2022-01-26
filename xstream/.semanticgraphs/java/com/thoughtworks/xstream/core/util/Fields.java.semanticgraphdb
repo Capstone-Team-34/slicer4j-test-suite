@@ -1,0 +1,144 @@
+
+7src/java/com/thoughtworks/xstream/core/util/Fields.javaÎ
+)com.thoughtworks.xstream.core.util.FieldsCLASSA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java ("
+inner classfalse*Fields2Ž
+<com.thoughtworks.xstream.core.util.Fields.find(Class,String)DECLARATIONA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java '(2–
+Dcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)DECLARATIONA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) /(2Ž
+<com.thoughtworks.xstream.core.util.Fields.read(Field,Object)DECLARATIONA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 7(û
+<com.thoughtworks.xstream.core.util.Fields.find(Class,String)METHODA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java ("
+statictrue"
+finalfalse"
+access modifierpublic"
+type Field*find2‘
+Acom.thoughtworks.xstream.core.util.Fields.find(Class,String)!type	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java ('2‘
+Acom.thoughtworks.xstream.core.util.Fields.find(Class,String)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) (42•
+Ccom.thoughtworks.xstream.core.util.Fields.find(Class,String)?resultDECLARATIONA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (62}
+2java.lang.Class.getDeclaredField(java.lang.String)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (62|
+1java.lang.reflect.AccessibleObject.isAccessible()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (&2y
+.java.lang.reflect.Field.setAccessible(boolean)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (*2d
+java.lang.Class.getName()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java! !( 2k
+ java.lang.Throwable.getMessage()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java% %( 2˜
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java  %(!2¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!typeCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (2¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!nameCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 (52¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!typeCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java! !(2¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!nameCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java# #(2i
+java.lang.reflect.FieldRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (¦
+Dcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)METHODA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) )("
+statictrue"
+finalfalse"
+access modifierpublic"
+type void*write2š
+Jcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!field	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) )((2
+Mcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!instance	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java)* )(92š
+Jcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!value	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java); )(G2Š
+?java.lang.reflect.Field.set(java.lang.Object, java.lang.Object)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java+ +(&2d
+java.lang.Class.getName()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java-A -(Z2l
+!java.lang.reflect.Field.getType()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java-A -(P2l
+!java.lang.reflect.Field.getName()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java-c -(r2½
+rcom.thoughtworks.xstream.core.util.Fields.write(java.lang.reflect.Field, java.lang.Object, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java+ +(2À
+ucom.thoughtworks.xstream.core.util.Fields.write(java.lang.reflect.Field, java.lang.Object, java.lang.Object)!instanceCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java+ +(2½
+rcom.thoughtworks.xstream.core.util.Fields.write(java.lang.reflect.Field, java.lang.Object, java.lang.Object)!valueCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java+  +(%2½
+rcom.thoughtworks.xstream.core.util.Fields.write(java.lang.reflect.Field, java.lang.Object, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java-A -(F2½
+rcom.thoughtworks.xstream.core.util.Fields.write(java.lang.reflect.Field, java.lang.Object, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java-c -(h2V
+voidRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) )(ß
+<com.thoughtworks.xstream.core.util.Fields.read(Field,Object)METHODA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 1("
+statictrue"
+finalfalse"
+access modifierpublic"
+type Object*read2’
+Bcom.thoughtworks.xstream.core.util.Fields.read(Field,Object)!field	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 1()2•
+Ecom.thoughtworks.xstream.core.util.Fields.read(Field,Object)!instance	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1+ 1(:2x
+-java.lang.reflect.Field.get(java.lang.Object)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java3 3(&2d
+java.lang.Class.getName()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java5@ 5(Y2l
+!java.lang.reflect.Field.getType()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java5@ 5(O2l
+!java.lang.reflect.Field.getName()CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java5b 5(q2ª
+_com.thoughtworks.xstream.core.util.Fields.read(java.lang.reflect.Field, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java3 3(2­
+bcom.thoughtworks.xstream.core.util.Fields.read(java.lang.reflect.Field, java.lang.Object)!instanceCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java3 3(%2ª
+_com.thoughtworks.xstream.core.util.Fields.read(java.lang.reflect.Field, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java5@ 5(E2ª
+_com.thoughtworks.xstream.core.util.Fields.read(java.lang.reflect.Field, java.lang.Object)!fieldCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java5b 5(g2b
+java.lang.ObjectRETURN_TYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 1(ó
+Acom.thoughtworks.xstream.core.util.Fields.find(Class,String)!type	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java# ('*type2Z
+java.lang.ClassTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java ("ô
+Acom.thoughtworks.xstream.core.util.Fields.find(Class,String)!name	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java0 (4*name2[
+java.lang.StringTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) (/…
+Jcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!field	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java)# )((*field2b
+java.lang.reflect.FieldTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java) )("„
+Mcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!instance	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java)1 )(9*instance2[
+java.lang.ObjectTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java)* )(0þ
+Jcom.thoughtworks.xstream.core.util.Fields.write(Field,Object,Object)!value	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java)B )(G*value2[
+java.lang.ObjectTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java); )(Aý
+Bcom.thoughtworks.xstream.core.util.Fields.read(Field,Object)!field	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1$ 1()*field2b
+java.lang.reflect.FieldTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 1(#ü
+Ecom.thoughtworks.xstream.core.util.Fields.read(Field,Object)!instance	PARAMETERA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java12 1(:*instance2[
+java.lang.ObjectTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1+ 1(1Õ
+Ccom.thoughtworks.xstream.core.util.Fields.find(Class,String)?resultVARIABLEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java ("
+type Field*result2b
+java.lang.reflect.FieldTYPEA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (2}
+2java.lang.Class.getDeclaredField(java.lang.String)CALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (62¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!typeCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java (2¡
+Vcom.thoughtworks.xstream.core.util.Fields.find(java.lang.Class, java.lang.String)!nameCALLA
+7src/java/com/thoughtworks/xstream/core/util/Fields.java1 (5

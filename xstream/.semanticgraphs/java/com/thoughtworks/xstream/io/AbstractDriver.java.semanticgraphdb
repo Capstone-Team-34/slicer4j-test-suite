@@ -1,0 +1,91 @@
+
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaÌ
+*com.thoughtworks.xstream.io.AbstractDriverCLASSB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java ($"
+inner classfalse*AbstractDriver2å
+9com.thoughtworks.xstream.io.AbstractDriver.getNameCoder()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java3 5(2è
+<com.thoughtworks.xstream.io.AbstractDriver.createReader(URL)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java: B(2ê
+=com.thoughtworks.xstream.io.AbstractDriver.createReader(File)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG M(2é
+;com.thoughtworks.xstream.io.AbstractDriver.AbstractDriver()DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java& ((2ó
+Dcom.thoughtworks.xstream.io.AbstractDriver.AbstractDriver(NameCoder)DECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/ 1(2Ü
+3com.thoughtworks.xstream.io.AbstractDriver?replacerDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java! !(2f
+HierarchicalStreamDriverEXTENDB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java0 (Hù
+;com.thoughtworks.xstream.io.AbstractDriver.AbstractDriver()CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java& &(*AbstractDriver2}
+*com.thoughtworks.xstream.io.AbstractDriverRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java& &(»
+Dcom.thoughtworks.xstream.io.AbstractDriver.AbstractDriver(NameCoder)CONSTRUCTORB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/ /(*AbstractDriver2ü
+Ncom.thoughtworks.xstream.io.AbstractDriver.AbstractDriver(NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/ /(-2}
+*com.thoughtworks.xstream.io.AbstractDriverRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/ /(Å
+Ncom.thoughtworks.xstream.io.AbstractDriver.AbstractDriver(NameCoder)!nameCoder	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/$ /(-*	nameCoder2U
+	NameCoderTYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java/ /(#«
+9com.thoughtworks.xstream.io.AbstractDriver.getNameCoder()METHODB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java3 3($"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type 	NameCoder*getNameCoder2
+3com.thoughtworks.xstream.io.AbstractDriver?replacerCALLB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java4 4(2\
+	NameCoderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java3 3(é
+<com.thoughtworks.xstream.io.AbstractDriver.createReader(URL)METHODB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java:$ :(0"
+staticfalse"
+finalfalse"
+access modifierpublic"!
+type HierarchicalStreamReader*createReader2ê
+?com.thoughtworks.xstream.io.AbstractDriver.createReader(URL)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java:1 :(72ñ
+Ccom.thoughtworks.xstream.io.AbstractDriver.createReader(URL)?streamDECLARATIONB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java; ;(!2e
+java.net.URL.openStream()CALLB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java= =($2î
+Hcom.thoughtworks.xstream.io.AbstractDriver.createReader(java.net.URL)!inCALLB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java= =(2k
+HierarchicalStreamReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java: :(#î
+=com.thoughtworks.xstream.io.AbstractDriver.createReader(File)METHODB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG$ G(0"
+staticfalse"
+finalfalse"
+access modifierpublic"!
+type HierarchicalStreamReader*createReader2ë
+@com.thoughtworks.xstream.io.AbstractDriver.createReader(File)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG1 G(82Å
+5java.io.FileInputStream.FileInputStream(java.io.File)CALLB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaI  I(72î
+Hcom.thoughtworks.xstream.io.AbstractDriver.createReader(java.io.File)!inCALLB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaI4 I(62k
+HierarchicalStreamReaderRETURN_TYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG G(#Ó
+?com.thoughtworks.xstream.io.AbstractDriver.createReader(URL)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java:5 :(7*in2X
+java.net.URLTYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java:1 :(4Ô
+@com.thoughtworks.xstream.io.AbstractDriver.createReader(File)!in	PARAMETERB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG6 G(8*in2X
+java.io.FileTYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.javaG1 G(5í
+Ccom.thoughtworks.xstream.io.AbstractDriver.createReader(URL)?streamVARIABLEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java; ;("
+type InputStream*stream2_
+java.io.InputStreamTYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java; ;(¯
+3com.thoughtworks.xstream.io.AbstractDriver?replacerVARIABLEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java! !("
+type 	NameCoder*replacer2U
+	NameCoderTYPEB
+8src/java/com/thoughtworks/xstream/io/AbstractDriver.java! !(

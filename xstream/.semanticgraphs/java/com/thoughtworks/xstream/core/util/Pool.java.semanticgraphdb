@@ -1,0 +1,198 @@
+
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaŸ
+'com.thoughtworks.xstream.core.util.PoolCLASS?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ("
+inner classfalse*Pool2Ö
+5com.thoughtworks.xstream.core.util.Pool.newInstance()DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ($2á
+7com.thoughtworks.xstream.core.util.Pool.fetchFromPool()DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% >(2â
+9com.thoughtworks.xstream.core.util.Pool.putInPool(Object)DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@ E(2Ö
+5com.thoughtworks.xstream.core.util.Pool.readResolve()DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaG J(2ç
+=com.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java #(2á
+7com.thoughtworks.xstream.core.util.Pool?initialPoolSizeDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (%2É
+3com.thoughtworks.xstream.core.util.Pool?maxPoolSizeDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (!2
+/com.thoughtworks.xstream.core.util.Pool?factoryDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (!2|
+,com.thoughtworks.xstream.core.util.Pool?poolDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (#2Ö
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ('2}
+-com.thoughtworks.xstream.core.util.Pool?mutexDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (1ó
+
+=com.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)CONSTRUCTOR?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (*Pool2õ
+Mcom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!initialPoolSize	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (#2ó
+Icom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!maxPoolSize	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% (42ì
+Ecom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!factory	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java6 (E2¿
+wcom.thoughtworks.xstream.core.util.Pool.Pool(int, int, com.thoughtworks.xstream.core.util.Pool.Factory)!initialPoolSizeCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java   (.2º
+scom.thoughtworks.xstream.core.util.Pool.Pool(int, int, com.thoughtworks.xstream.core.util.Pool.Factory)!maxPoolSizeCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java! !(&2∏
+ocom.thoughtworks.xstream.core.util.Pool.Pool(int, int, com.thoughtworks.xstream.core.util.Pool.Factory)!factoryCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java" "(2w
+'com.thoughtworks.xstream.core.util.PoolRETURN_TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (˙
+Mcom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!initialPoolSize	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (#*initialPoolSize2L
+intTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (Ú
+Icom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!maxPoolSize	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java) (4*maxPoolSize2L
+intTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% ((ñ
+Ecom.thoughtworks.xstream.core.util.Pool.Pool(int,int,Factory)!factory	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java> (E*factory2x
+/com.thoughtworks.xstream.core.util.Pool.FactoryTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java6 (=ü
+7com.thoughtworks.xstream.core.util.Pool.fetchFromPool()METHOD?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% %("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*fetchFromPool2é
+>com.thoughtworks.xstream.core.util.Pool.fetchFromPool()?resultDECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java& &(2å
+Ccom.thoughtworks.xstream.core.util.Pool.putInPool(java.lang.Object)CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java+ +(42Ü
+=com.thoughtworks.xstream.core.util.Pool.Factory.newInstance()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java+ +(32`
+java.lang.Object.wait()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java0 0( 2i
+ java.lang.Throwable.getMessage()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java3? 3(M2Ü
+=com.thoughtworks.xstream.core.util.Pool.Factory.newInstance()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java8 8(.2å
+Ccom.thoughtworks.xstream.core.util.Pool.putInPool(java.lang.Object)CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java9 9(!2Ü
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java2 3(N2v
+-com.thoughtworks.xstream.core.util.Pool?mutexCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java' '(2u
+,com.thoughtworks.xstream.core.util.Pool?poolCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java( ((2u
+,com.thoughtworks.xstream.core.util.Pool?poolCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java) )(2|
+3com.thoughtworks.xstream.core.util.Pool?maxPoolSizeCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java)" )(-2~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java* *("2Ä
+7com.thoughtworks.xstream.core.util.Pool?initialPoolSizeCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java*% *(42~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java*6 *(C2x
+/com.thoughtworks.xstream.core.util.Pool?factoryCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java+ +(%2~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java. .( 2|
+3com.thoughtworks.xstream.core.util.Pool?maxPoolSizeCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java.$ .(/2v
+-com.thoughtworks.xstream.core.util.Pool?mutexCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java0 0(2u
+,com.thoughtworks.xstream.core.util.Pool?poolCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java6 6(2~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java6 6('2x
+/com.thoughtworks.xstream.core.util.Pool?factoryCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java8 8( 2~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java: :(2`
+java.lang.ObjectRETURN_TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% %(•	
+9com.thoughtworks.xstream.core.util.Pool.putInPool(Object)METHOD?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@ @("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*	putInPool2é
+@com.thoughtworks.xstream.core.util.Pool.putInPool(Object)!object	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@ @(*2b
+java.lang.Object.notify()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaC C(2v
+-com.thoughtworks.xstream.core.util.Pool?mutexCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaA A(2u
+,com.thoughtworks.xstream.core.util.Pool?poolCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaB B(2~
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaB B( 2ì
+Jcom.thoughtworks.xstream.core.util.Pool.putInPool(java.lang.Object)!objectCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaB$ B(*2v
+-com.thoughtworks.xstream.core.util.Pool?mutexCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaC C(2T
+voidRETURN_TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@ @(ô
+5com.thoughtworks.xstream.core.util.Pool.readResolve()METHOD?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaG G("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*readResolve2b
+java.lang.Object.Object()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaH H(2v
+-com.thoughtworks.xstream.core.util.Pool?mutexCALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaH H(2`
+java.lang.ObjectRETURN_TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.javaG G(Ò
+@com.thoughtworks.xstream.core.util.Pool.putInPool(Object)!object	PARAMETER?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@$ @(**object2Y
+java.lang.ObjectTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java@ @(#ˇ
+>com.thoughtworks.xstream.core.util.Pool.fetchFromPool()?resultVARIABLE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java& &("
+type Object*result2Y
+java.lang.ObjectTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java& &(Ó
+7com.thoughtworks.xstream.core.util.Pool?initialPoolSizeVALUE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (%"
+type int*initialPoolSize2L
+intTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (Ê
+3com.thoughtworks.xstream.core.util.Pool?maxPoolSizeVALUE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (!"
+type int*maxPoolSize2L
+intTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (é
+/com.thoughtworks.xstream.core.util.Pool?factoryVALUE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (!"
+type Factory*factory2x
+/com.thoughtworks.xstream.core.util.Pool.FactoryTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (Ô
+,com.thoughtworks.xstream.core.util.Pool?poolVARIABLE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (#"
+type Object[]*pool2[
+java.lang.Object[]TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (Ì
+5com.thoughtworks.xstream.core.util.Pool?nextAvailableVARIABLE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ('"
+type int*nextAvailable2L
+intTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (—
+-com.thoughtworks.xstream.core.util.Pool?mutexVARIABLE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (""
+type Object*mutex2Y
+java.lang.ObjectTYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (2b
+java.lang.Object.Object()CALL?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java% (1®
+/com.thoughtworks.xstream.core.util.Pool.FactoryTRAIT?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ("
+inner classfalse*Factory2ç
+=com.thoughtworks.xstream.core.util.Pool.Factory.newInstance()DECLARATION?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java ($ƒ
+=com.thoughtworks.xstream.core.util.Pool.Factory.newInstance()METHOD?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*newInstance2`
+java.lang.ObjectRETURN_TYPE?
+5src/java/com/thoughtworks/xstream/core/util/Pool.java (

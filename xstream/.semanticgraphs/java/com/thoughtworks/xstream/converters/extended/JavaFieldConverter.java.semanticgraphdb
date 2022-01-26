@@ -1,0 +1,141 @@
+
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java≈
+
+?com.thoughtworks.xstream.converters.extended.JavaFieldConverterCLASSW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java ("
+inner classfalse*JavaFieldConverter2π
+Qcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.canConvert(Class)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java# %(2„
+{com.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' 1(2‡
+xcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3 H(2«
+_com.thoughtworks.xstream.converters.extended.JavaFieldConverter.JavaFieldConverter(ClassLoader)DECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java !(2∫
+Rcom.thoughtworks.xstream.converters.extended.JavaFieldConverter?javaClassConverterDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' (92l
+	ConverterEXTENDW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java+ (4≤
+_com.thoughtworks.xstream.converters.extended.JavaFieldConverter.JavaFieldConverter(ClassLoader)CONSTRUCTORW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java (*JavaFieldConverter2—
+kcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.JavaFieldConverter(ClassLoader)!classLoader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java (52÷
+ucom.thoughtworks.xstream.converters.extended.JavaFieldConverter.JavaFieldConverter(java.lang.ClassLoader)!classLoaderCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java 9  (D2ß
+?com.thoughtworks.xstream.converters.extended.JavaFieldConverterRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java (÷
+kcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.JavaFieldConverter(ClassLoader)!classLoader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java* (5*classLoader2v
+java.lang.ClassLoaderTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java ()è
+Qcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.canConvert(Class)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java# #("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2º
+Vcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java# #((2ä
+)java.lang.Object.equals(java.lang.Object)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java$ $('2¡
+`com.thoughtworks.xstream.converters.extended.JavaFieldConverter.canConvert(java.lang.Class)!typeCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java$ $(2o
+booleanRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java# #(ú
+{com.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' '("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2È
+Çcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' '(%2È
+Çcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'' '(F2Í
+Écom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'H '(b2Í
+Åcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?fieldDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java( (($2Ç
+!java.lang.reflect.Field.getName()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java+ +('2å
++java.lang.reflect.Field.getDeclaringClass()CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java/4 /(M2≥
+Rcom.thoughtworks.xstream.converters.extended.JavaFieldConverter?javaClassConverterCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java/ /(*2l
+voidRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' '(§
+xcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3 3("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Â
+com.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3 3(;2Á
+Äcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3= 3(Y2Ï
+Écom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?methodNameDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java4 4( 2Ù
+ãcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?declaringClassNameDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java5 5((2
+ácom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?declaringClassDECLARATIONW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaB B(W2ì
+2java.lang.Class.getDeclaredField(java.lang.String)CALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaD D(>2≥
+Rcom.thoughtworks.xstream.converters.extended.JavaFieldConverter?javaClassConverterCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaB& B(82x
+java.lang.ObjectRETURN_TYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3 3(¥
+Vcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.canConvert(Class)!type	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java#$ #((*type2p
+java.lang.ClassTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java# #(#‰
+Çcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' '(%*source2q
+java.lang.ObjectTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' '(Ï
+Çcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'@ '(F*writer2y
+HierarchicalStreamWriterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'' '(?Ë
+Écom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'[ '(b*context2s
+MarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java'H '(ZË
+com.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java35 3(;*reader2y
+HierarchicalStreamReaderTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3 3(4Á
+Äcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3R 3(Y*context2u
+UnmarshallingContextTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java3= 3(Q¯
+Åcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?fieldVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java( (("
+type Field*field2x
+java.lang.reflect.FieldTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java( ((˘
+Écom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?methodNameVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java4 4("
+type String*
+methodName2q
+java.lang.StringTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java4 4(â
+ãcom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?declaringClassNameVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java5 5(!"
+type String*declaringClassName2q
+java.lang.StringTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java5 5(µ
+ácom.thoughtworks.xstream.converters.extended.JavaFieldConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?declaringClassVARIABLEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaB B("
+type Class*declaringClass2p
+java.lang.ClassTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaB B(2≥
+Rcom.thoughtworks.xstream.converters.extended.JavaFieldConverter?javaClassConverterCALLW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.javaB& B(8ﬁ
+Rcom.thoughtworks.xstream.converters.extended.JavaFieldConverter?javaClassConverterVALUEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java' (9"
+type SingleValueConverter*javaClassConverter2u
+SingleValueConverterTYPEW
+Msrc/java/com/thoughtworks/xstream/converters/extended/JavaFieldConverter.java (&

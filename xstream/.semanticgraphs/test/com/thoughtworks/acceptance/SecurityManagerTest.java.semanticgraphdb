@@ -1,0 +1,663 @@
+
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaß
+/com.thoughtworks.acceptance.SecurityManagerTestCLASSG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java) )( "
+inner classfalse*SecurityManagerTest2è
+7com.thoughtworks.acceptance.SecurityManagerTest.setUp()DECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java/ G(2í
+:com.thoughtworks.acceptance.SecurityManagerTest.tearDown()DECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaI L(2ë
+9com.thoughtworks.acceptance.SecurityManagerTest.runTest()DECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaN X(2÷
+~com.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithXppDriverAndSun14ReflectionProviderAndActiveSecurityManager()DECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaZ r(2€
+Åcom.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithXppDriverAndPureJavaReflectionProviderAndActiveSecurityManager()DECLARATIONH
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javat á(2‹
+Åcom.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithDomDriverAndPureJavaReflectionProviderAndActiveSecurityManager()DECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaâ £(2ö
+@com.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()DECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java• ∂(2è
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java+ +(2ä
+2com.thoughtworks.acceptance.SecurityManagerTest?smDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java,# ,(%2é
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java- -(2[
+TestCaseEXTENDG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java)) )(1æ1
+7com.thoughtworks.acceptance.SecurityManagerTest.setUp()METHODG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java/ /("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2ñ
+>com.thoughtworks.acceptance.SecurityManagerTest.setUp()?policyDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java5 5(*2õ
+Ccom.thoughtworks.acceptance.SecurityManagerTest.setUp()?mainClassesDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9 9(W2õ
+Ccom.thoughtworks.acceptance.SecurityManagerTest.setUp()?testClassesDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java: :(\2ù
+Ecom.thoughtworks.acceptance.SecurityManagerTest.setUp()?javaClassPathDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java; ;(q2ò
+@com.thoughtworks.acceptance.SecurityManagerTest.setUp()?javaHomeDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java< <(F2ë
+9com.thoughtworks.acceptance.SecurityManagerTest.setUp()?iDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaB B(2è
+>java.lang.System.setSecurityManager(java.lang.SecurityManager)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java1 1('2e
+java.net.URI.toURL()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java2  2(B2e
+java.io.File.toURI()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java2  2(:2q
+ java.security.Policy.getPolicy()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java5 5(*2é
+=java.security.Policy.getPermissions(java.security.CodeSource)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java6" 6(?2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9$ 9(B2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java:$ :(B2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java;3 ;(X2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java<! <(@2h
+java.io.File.toString()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java?4 ?(J2h
+java.io.File.toString()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java@4 @(J2h
+java.io.File.toString()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaA4 A(G2|
++java.lang.String.endsWith(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaC C(12§
+Sjava.security.CodeSource.CodeSource(java.net.URL, java.security.cert.Certificate[])CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java2 2(X2t
+#java.io.File.File(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java2  2(22ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java7! 7(L2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9 9(W2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java: :(\2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java< <(F2ö
+Ijava.io.FilePermission.FilePermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java?! ?(S2ö
+Ijava.io.FilePermission.FilePermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java@! @(S2ö
+Ijava.io.FilePermission.FilePermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaA! A(P2ö
+Ijava.io.FilePermission.FilePermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaD) D(U2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java2 2(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java4 4(
+2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java6 6(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java6 6( 2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java68 6(>2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java7 7(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java7 7(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java? ?(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java? ?(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java@ @(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java@ @(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaA A(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaA A(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaD D(2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaD! D('2\
+voidRETURN_TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java/" /(+’
+:com.thoughtworks.acceptance.SecurityManagerTest.tearDown()METHODG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaI I("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*tearDown2è
+>java.lang.System.setSecurityManager(java.lang.SecurityManager)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaJ J('2\
+voidRETURN_TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaI% I(.–	
+9com.thoughtworks.acceptance.SecurityManagerTest.runTest()METHODG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaN N("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*runTest2ñ
+>com.thoughtworks.acceptance.SecurityManagerTest.runTest()?iterDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaR  R(K2ú
+Dcom.thoughtworks.acceptance.SecurityManagerTest.runTest()?permissionDECLARATIONG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaS! S(E2m
+java.util.Iterator.hasNext()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaRM R([2j
+java.util.Iterator.next()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaS: S(E2~
+-java.io.PrintStream.println(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaT T(\2t
+#java.security.Permission.toString()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaTF T([2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaR' R()2\
+voidRETURN_TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaN$ N(-ã:
+~com.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithXppDriverAndSun14ReflectionProviderAndActiveSecurityManager()METHODG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaZ Z(\"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*LtestSerializeWithXppDriverAndSun14ReflectionProviderAndActiveSecurityManager2ë
+@com.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaq q(2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java[! [(Z2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java\! \(W2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java]! ](O2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java^! ^(K2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java_! _(K2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java`! `(Q2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaa! a(X2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javab! b(L2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javac! c(V2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javad! d(e2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javae! e(M2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaf! f(V2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javag! g(^2ò
+Gjava.lang.reflect.ReflectPermission.ReflectPermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javah! h(N2á
+6java.net.NetPermission.NetPermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javai! i(J2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java[ [(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java[ [(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java\ \(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java\ \(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java] ](
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java] ](2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java^ ^(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java^ ^(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java_ _(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java_ _(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java` `(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java` `(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaa a(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaa a(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javab b(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javab b(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javac c(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javac c(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javad d(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javad d(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javae e(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javae e(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaf f(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaf f(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javag g(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javag g(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javah h(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javah h(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javai i(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javai i(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaj j(
+2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javak" k($2à
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javao o(2\
+voidRETURN_TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaZ Z(∑0
+Åcom.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithXppDriverAndPureJavaReflectionProviderAndActiveSecurityManager()METHODG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javat t(_"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*OtestSerializeWithXppDriverAndPureJavaReflectionProviderAndActiveSecurityManager2ì
+@com.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÜ Ü(2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javau! u(O2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javav! v(K2ê
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaw! w(K2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javax! x(X2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javay! y(L2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaz! z(V2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java{! {(e2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java|! |(M2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java}! }(V2§
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java~! ~(^2ò
+Gjava.lang.reflect.ReflectPermission.ReflectPermission(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java! (N2â
+6java.net.NetPermission.NetPermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÄ! Ä(J2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javau u(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javau u(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javav v(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javav v(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaw w(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaw w(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javax x(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javax x(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javay y(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javay y(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaz z(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaz z(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java{ {(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java{ {(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java| |(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java| |(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java} }(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java} }(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java~ ~(
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java~ ~(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java (
+2á
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java (2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÄ Ä(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÄ Ä(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÅ Å(
+2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÇ" Ç($2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaÑ Ñ(2\
+voidRETURN_TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javat t(ïI
+Åcom.thoughtworks.acceptance.SecurityManagerTest.testSerializeWithDomDriverAndPureJavaReflectionProviderAndActiveSecurityManager()METHODI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaâ â(_"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*OtestSerializeWithDomDriverAndPureJavaReflectionProviderAndActiveSecurityManager2ì
+@com.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java¢ ¢(2í
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaä! ä(O2í
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaã! ã(K2í
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaå! å(K2í
+?java.lang.RuntimePermission.RuntimePermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaç! ç(Q2ß
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLJ
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaé! é(á2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaè! è(X2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaê! ê(W2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaë! ë(x2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaí! í(X2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaì! ì(L2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaî! î(V2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaï! ï(e2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javañ! ñ(k2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaó! ó(M2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaò! ò(P2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaô! ô(V2¶
+Sjava.util.PropertyPermission.PropertyPermission(java.lang.String, java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaö! ö(^2â
+6java.net.NetPermission.NetPermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaõ! õ(J2ö
+Gjava.lang.reflect.ReflectPermission.ReflectPermission(java.lang.String)CALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaú! ú(N2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaä ä(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaä ä(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaã ã(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaã ã(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaå å(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaå å(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaç ç(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaç ç(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaé é(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaé é(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaè è(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaè è(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaê ê(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaê ê(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaë ë(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaë ë(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaí í(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaí í(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaì ì(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaì ì(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaî î(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaî î(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaï ï(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaï ï(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javañ ñ(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javañ ñ(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaó ó(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaó ó(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaò ò(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaò ò(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaô ô(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaô ô(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaö ö(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaö ö(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaõ õ(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaõ õ(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaú ú(
+2â
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaú ú(2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaù ù(
+2Ö
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaû" û($2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java† †(2^
+voidRETURN_TYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaâ â(¢
+@com.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()METHODI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java• •("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*assertBothWays2ù
+Ccom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?swDECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java© ©(62û
+Dcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?xmlDECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java™ ≠(2§
+Jcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?resultXmlDECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaØ Ø(,2•
+Kcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?resultRootDECLARATIONI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java± ±(62ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaß ß(2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaØ Ø("2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java± ±(#2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java¥ ¥(2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java¥C ¥(J2^
+voidRETURN_TYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java• •(Ü
+>com.thoughtworks.acceptance.SecurityManagerTest.setUp()?policyVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java5 5("
+type Policy*policy2e
+java.security.PolicyTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java5 5(2q
+ java.security.Policy.getPolicy()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java5 5(*ù
+Ccom.thoughtworks.acceptance.SecurityManagerTest.setUp()?mainClassesVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9 9("
+type File*mainClasses2]
+java.io.FileTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9 9(2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9$ 9(B2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java9 9(Wù
+Ccom.thoughtworks.acceptance.SecurityManagerTest.setUp()?testClassesVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java: :("
+type File*testClasses2]
+java.io.FileTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java: :(2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java:$ :(B2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java: :(\¢
+Ecom.thoughtworks.acceptance.SecurityManagerTest.setUp()?javaClassPathVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java; ;("
+type String[]*javaClassPath2c
+java.lang.String[]TYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java; ;(2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java;3 ;(Xó
+@com.thoughtworks.acceptance.SecurityManagerTest.setUp()?javaHomeVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java< <("
+type File*javaHome2]
+java.io.FileTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java< <(2
+.java.lang.System.getProperty(java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java<! <(@2Ü
+5java.io.File.File(java.lang.String, java.lang.String)CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java< <(Fı
+9com.thoughtworks.acceptance.SecurityManagerTest.setUp()?iVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaB B("
+type int*i2T
+intTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaB B(î
+>com.thoughtworks.acceptance.SecurityManagerTest.runTest()?iterVALUEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaR  R($"
+type Iterator*iter2c
+java.util.IteratorTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaR R(2É
+2com.thoughtworks.acceptance.SecurityManagerTest?smCALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaR' R()é
+Dcom.thoughtworks.acceptance.SecurityManagerTest.runTest()?permissionVALUEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaS! S(+"
+type 
+Permission*
+permission2i
+java.security.PermissionTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaS S( 2j
+java.util.Iterator.next()CALLG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaS: S(Eã
+Ccom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?swVALUEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java© ©("
+type Software*sw2[
+SoftwareTYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java© ©(ì
+Dcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?xmlVALUEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java™ ™("
+type String*xml2c
+java.lang.StringTYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java™ ™(Ø
+Jcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?resultXmlVARIABLEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaØ Ø("
+type String*	resultXml2c
+java.lang.StringTYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaØ Ø(2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.javaØ Ø("±
+Kcom.thoughtworks.acceptance.SecurityManagerTest.assertBothWays()?resultRootVARIABLEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java± ±("
+type Object*
+resultRoot2c
+java.lang.ObjectTYPEI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java± ±(2ä
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamCALLI
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java± ±(#Å
+7com.thoughtworks.acceptance.SecurityManagerTest?xstreamVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java+ +("
+type XStream*xstream2X
+XStreamTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java+ +(ï
+2com.thoughtworks.acceptance.SecurityManagerTest?smVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java,# ,(%"
+type DynamicSecurityManager*sm2g
+DynamicSecurityManagerTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java, ,("ì
+6com.thoughtworks.acceptance.SecurityManagerTest?sourceVARIABLEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java- -("
+type 
+CodeSource*source2i
+java.security.CodeSourceTYPEG
+=src/test/com/thoughtworks/acceptance/SecurityManagerTest.java- -(

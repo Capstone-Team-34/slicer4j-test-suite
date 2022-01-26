@@ -1,0 +1,118 @@
+
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.javaÓ
+
+Bcom.thoughtworks.xstream.converters.extended.RegexPatternConverterCLASSZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java (""
+inner classfalse*RegexPatternConverter2ø
+Tcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.canConvert(Class)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java  "(2È
+~com.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ &(2Ê
+{com.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java( +(2Œ
+ccom.thoughtworks.xstream.converters.extended.RegexPatternConverter.RegexPatternConverter(Converter)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java (2æ
+Scom.thoughtworks.xstream.converters.extended.RegexPatternConverter?defaultConverterDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java (&2o
+	ConverterEXTENDZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java. (7ı
+ccom.thoughtworks.xstream.converters.extended.RegexPatternConverter.RegexPatternConverter(Converter)CONSTRUCTORZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java ( *RegexPatternConverter2›
+tcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.RegexPatternConverter(Converter)!defaultConverter	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java! (;2≠
+Bcom.thoughtworks.xstream.converters.extended.RegexPatternConverterRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java ( ﬁ
+tcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.RegexPatternConverter(Converter)!defaultConverter	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java+ (;*defaultConverter2m
+	ConverterTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java! (*ß
+Tcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.canConvert(Class)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java   ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¬
+Ycom.thoughtworks.xstream.converters.extended.RegexPatternConverter.canConvert(Class)!type	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java   (.2ç
+)java.lang.Object.equals(java.lang.Object)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java! !()2«
+ccom.thoughtworks.xstream.converters.extended.RegexPatternConverter.canConvert(java.lang.Class)!typeCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java! !(2r
+booleanRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java   (∫
+
+~com.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ $("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2Ô
+Öcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ $(%2Ô
+Öcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$' $(F2
+Ücom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$H $(b2∑
+Scom.thoughtworks.xstream.converters.extended.RegexPatternConverter?defaultConverterCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java% %(2o
+voidRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ $(
+{com.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java( (("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Ï
+Çcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java( ((;2Ì
+Écom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java(= ((Y2Û
+ácom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?notCompiledDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java) )(S2ö
+6java.util.regex.Pattern.compile(java.lang.String, int)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java* *(J2Ö
+!java.util.regex.Pattern.pattern()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java* *(42É
+java.util.regex.Pattern.flags()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java*6 *(I2∑
+Scom.thoughtworks.xstream.converters.extended.RegexPatternConverter?defaultConverterCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java)( )(82{
+java.lang.ObjectRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java( ((Ω
+Ycom.thoughtworks.xstream.converters.extended.RegexPatternConverter.canConvert(Class)!type	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java *  (.*type2s
+java.lang.ClassTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java $  ()Ì
+Öcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ $(%*source2t
+java.lang.ObjectTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$ $(ı
+Öcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$@ $(F*writer2|
+HierarchicalStreamWriterTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$' $(?Ò
+Ücom.thoughtworks.xstream.converters.extended.RegexPatternConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$[ $(b*context2v
+MarshallingContextTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java$H $(ZÚ
+Çcom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java(5 ((;*reader2|
+HierarchicalStreamReaderTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java( ((4
+Écom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java(R ((Y*context2x
+UnmarshallingContextTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java(= ((Q∆
+ácom.thoughtworks.xstream.converters.extended.RegexPatternConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?notCompiledVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java) )("
+type Pattern*notCompiled2{
+java.util.regex.PatternTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java) )(2∑
+Scom.thoughtworks.xstream.converters.extended.RegexPatternConverter?defaultConverterCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java)( )(8–
+Scom.thoughtworks.xstream.converters.extended.RegexPatternConverter?defaultConverterVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java (&"
+type 	Converter*defaultConverter2m
+	ConverterTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/RegexPatternConverter.java (

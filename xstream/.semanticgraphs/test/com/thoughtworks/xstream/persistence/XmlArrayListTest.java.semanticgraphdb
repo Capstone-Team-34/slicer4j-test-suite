@@ -1,0 +1,882 @@
+
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java„4
+5com.thoughtworks.xstream.persistence.XmlArrayListTestCLASSM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ("
+inner classfalse*XmlArrayListTest2õ
+=com.thoughtworks.xstream.persistence.XmlArrayListTest.setUp()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (2≠
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObject()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java #(2¿
+bcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInANegativePosition()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java% -(2º
+^com.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInFirstPosition()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java/ 3(2™
+Lcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjects()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java5 =(2«
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjectsGuaranteesItsEnumerationOrder()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java? E(2Œ
+pcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASecondObjectInAPositionHigherThanTheListsSize()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaG P(2Ø
+Qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObject()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaR W(2…
+kcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaY ^(2«
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java` d(2∑
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasZeroLengthWhenInstantiated()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaf i(2§
+Fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasOneItem()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javak o(2•
+Gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasTwoItems()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaq v(2§
+Fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsNotEmpty()DECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javax |(2¨
+Mcom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainKey()DECLARATIONN
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java~ Å(2ß
+Gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsKey()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÉ á(2®
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaâ é(2Æ
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheFirstObject()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê î(2Ø
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheSecondObject()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javañ õ(2ø
+_com.thoughtworks.xstream.persistence.XmlArrayListTest.testInsertsAnObjectInTheMiddleOfTheList()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaù •(2Ω
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaß Æ(2£
+Ccom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsEmpty()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∞ ≥(2¨
+Lcom.thoughtworks.xstream.persistence.XmlArrayListTest.testClearsItsObjects()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaµ ª(2Ø
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaΩ ƒ(2≤
+Rcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsASpecificValue()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∆  (2∏
+Xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainASpecificValue()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÃ œ(2¥
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java— Ÿ(2…
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‹ Â(2¬
+bcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÁ Ò(2π
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÛ ˛(2†
+@com.thoughtworks.xstream.persistence.XmlArrayListTest.iterator()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ü(2ú
+<com.thoughtworks.xstream.persistence.XmlArrayListTest.size()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaà ä(2°
+Acom.thoughtworks.xstream.persistence.XmlArrayListTest.get(Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå é(2®
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.put(Object,Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê í(2§
+Dcom.thoughtworks.xstream.persistence.XmlArrayListTest.remove(Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî ñ(2ú
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ( 2a
+TestCaseEXTENDM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java& (.ì
+=com.thoughtworks.xstream.persistence.XmlArrayListTest.setUp()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*setUp2¨
+Ucom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.MockedStrategy()CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (!2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (
+2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (%«
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObject()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWritesASingleObject2µ
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObject()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java   (82Ñ
+-java.util.Map.containsValue(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java" "(42ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java" "(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (·
+bcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInANegativePosition()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java% %(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void**testWritesASingleObjectInANegativePosition2»
+jcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInANegativePosition()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java& &(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java% %(È
+^com.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInFirstPosition()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java/ /(3"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testWritesASingleObjectInFirstPosition2ƒ
+fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInFirstPosition()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java0 0(82Ç
++java.util.Map.containsKey(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java2 2(52u
+java.lang.Integer.Integer(int)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java2& 2(42ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java2 2(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java/ /(Ö
+Lcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjects()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java5 5(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWritesTwoObjects2≤
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjects()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java6 6(82Ñ
+-java.util.Map.containsValue(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java9 9(42Ñ
+-java.util.Map.containsValue(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java: :(32Ç
++java.util.Map.containsKey(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java; ;(52Ç
++java.util.Map.containsKey(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java< <(52u
+java.lang.Integer.Integer(int)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java;& ;(42u
+java.lang.Integer.Integer(int)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java<& <(42ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java9 9(2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java: :(2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java; ;(2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java< <(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java5 5(å
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjectsGuaranteesItsEnumerationOrder()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java? ?(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*1testWritesTwoObjectsGuaranteesItsEnumerationOrder2œ
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjectsGuaranteesItsEnumerationOrder()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java@ @(82z
+#java.util.Map.get(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaC C(<2z
+#java.util.Map.get(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaD D(;2u
+java.lang.Integer.Integer(int)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaC- C(;2u
+java.lang.Integer.Integer(int)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaD, D(:2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaC C($2ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaD D(#2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java? ?(ã
+pcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASecondObjectInAPositionHigherThanTheListsSize()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaG G(E"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*8testWritesASecondObjectInAPositionHigherThanTheListsSize2÷
+xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASecondObjectInAPositionHigherThanTheListsSize()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaH H(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaG G(Õ
+Qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObject()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaR R(&"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testRemovesAWrittenObject2∑
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObject()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaS S(82Ñ
+-java.util.Map.containsValue(java.lang.Object)CALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaV V(52ï
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyCALLM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaV V(2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaR R(–
+kcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaY Y(@"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*3testRemovesAWrittenObjectImplyingInAChangeInTheList2—
+scom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaZ Z(82—
+scom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()?changedDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java\
+ \(/2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaY Y(»
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java` `(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*1testRemovesAnInvalidObjectWithoutAffectingTheList2œ
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaa a(82œ
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()?removedDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javab
+ b(/2b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java` `(∆
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasZeroLengthWhenInstantiated()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaf f(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testHasZeroLengthWhenInstantiated2ø
+acom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasZeroLengthWhenInstantiated()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javag g(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaf f(ç
+Fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasOneItem()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javak k("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHasOneItem2¨
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasOneItem()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javal l(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javak k(ê
+Gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasTwoItems()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaq q("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testHasTwoItems2≠
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasTwoItems()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javar r(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaq q(ç
+Fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsNotEmpty()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javax x("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testIsNotEmpty2¨
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsNotEmpty()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javay y(82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javax x(¢
+Mcom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainKey()METHODM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java~ ~(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testDoesNotContainKey2≥
+Ucom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainKey()?xmlListDECLARATIONM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (82b
+voidRETURN_TYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java~ ~(ñ
+Gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsKey()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÉ É("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testContainsKey2Ø
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsKey()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ñ(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÉ É(Œ
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaâ â("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testGetsAnObject2∞
+Pcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaä ä(82≤
+Rcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()?onlyValueDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå	 å(.2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaâ â(´
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheFirstObject()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testGetsTheFirstObject2∂
+Vcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheFirstObject()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë ë(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(Æ
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheSecondObject()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javañ ñ($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testGetsTheSecondObject2∑
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheSecondObject()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaó ó(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javañ ñ(ﬁ
+_com.thoughtworks.xstream.persistence.XmlArrayListTest.testInsertsAnObjectInTheMiddleOfTheList()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaù ù(4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testInsertsAnObjectInTheMiddleOfTheList2«
+gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testInsertsAnObjectInTheMiddleOfTheList()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaû û(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaù ù(É
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaß ß(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*%testIteratingGuaranteesItsEnumeration2≈
+ecom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java® ®(82¿
+`com.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()?itDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java´ ´("2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¨ ¨(%2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java≠ ≠($2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaß ß(ä
+Ccom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsEmpty()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∞ ∞("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testIsEmpty2´
+Kcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsEmpty()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java± ±(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∞ ∞(•
+Lcom.thoughtworks.xstream.persistence.XmlArrayListTest.testClearsItsObjects()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaµ µ(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testClearsItsObjects2¥
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testClearsItsObjects()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∂ ∂(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaµ µ(Ω
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaΩ Ω($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testPutsAllAddsTwoItems2∏
+Xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()?originalDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaæ æ(2∑
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¡ ¡(82m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaø ø(2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¿ ¿(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaæ æ(2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaΩ Ω(∑
+Rcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsASpecificValue()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∆ ∆('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testContainsASpecificValue2∫
+Zcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsASpecificValue()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java« «(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∆ ∆(…
+Xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainASpecificValue()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÃ Ã(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void* testDoesNotContainASpecificValue2¿
+`com.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainASpecificValue()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÕ Õ(82d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÃ Ã(—
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java— —()"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEntrySetContainsAllItems2Ω
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()?originalDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java“ “(2º
+\com.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java’ ’(82m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java” ”(2m
+java.util.Set.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‘ ‘(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java“ “(2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java— —(‹
+icom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‹ ‹(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*1testIteratesOverEntryAndChecksWithAnotherInstance2—
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java› ›(82œ
+ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?builtDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‡ ‡(62Œ
+ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?iterDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java· ·()2œ
+ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?entryDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‚
+ ‚(2u
+java.util.Iterator.hasNext()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java·+ ·(92r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‚ ‚(2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‹ ‹(ú
+bcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÁ Á(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void**testIteratesOverEntrySetContainingTwoItems2 
+jcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaË Ë(82»
+hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?builtDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÎ Î(2«
+gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?iterDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÏ Ï()2»
+hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?entryDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÌ
+ Ì(2u
+java.util.Iterator.hasNext()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÏ+ Ï(92r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÌ Ì(2n
+java.util.List.add(E)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÓ Ó(2x
+java.util.ArrayList.ArrayList()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÎ Î(2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÁ Á(µ
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÛ Û(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testRemovesAnItemThroughIteration2¡
+acom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?xmlListDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÙ Ù(82æ
+^com.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?iterDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˜ ˜()2ø
+_com.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?entryDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¯
+ ¯(2u
+java.util.Iterator.hasNext()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˜+ ˜(92r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¯ ¯(2Ç
+)java.lang.Object.equals(java.lang.Object)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˘ ˘( 2t
+java.util.Iterator.remove()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˙ ˙(2d
+voidRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÛ Û(¢
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(©
+[com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(≠
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!value	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê' ê(,*value2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê  ê(&•
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î(!*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î(∑
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObject()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java   ("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java   ( 
+jcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInANegativePosition()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java& &("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java& &(∆
+fcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASingleObjectInFirstPosition()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java0 0("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java0 0(¥
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjects()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java6 6("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java6 6(—
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesTwoObjectsGuaranteesItsEnumerationOrder()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java@ @("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java@ @(ÿ
+xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testWritesASecondObjectInAPositionHigherThanTheListsSize()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaH H("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaH H(π
+Ycom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObject()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaS S("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaS S(”
+scom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaZ Z("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaZ Z(…
+scom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAWrittenObjectImplyingInAChangeInTheList()?changedVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java\
+ \("
+type boolean*changed2^
+booleanTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java\ \(	—
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaa a("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaa a(«
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnInvalidObjectWithoutAffectingTheList()?removedVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javab
+ b("
+type boolean*removed2^
+booleanTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javab b(	¡
+acom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasZeroLengthWhenInstantiated()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javag g("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javag g(Æ
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasOneItem()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javal l("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javal l(Ø
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testHasTwoItems()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javar r("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javar r(Æ
+Ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsNotEmpty()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javay y("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javay y(µ
+Ucom.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainKey()?xmlListVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ("
+type XmlArrayList*xmlList2c
+XmlArrayListTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java (≥
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsKey()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ñ("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ñ(¥
+Pcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaä ä("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaä ä(∂
+Rcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsAnObject()?onlyValueVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå	 å("
+type Object*	onlyValue2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(∫
+Vcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheFirstObject()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë ë("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë ë(ª
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testGetsTheSecondObject()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaó ó("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaó ó(À
+gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testInsertsAnObjectInTheMiddleOfTheList()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaû û("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaû û(…
+ecom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java® ®("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java® ®(¡
+`com.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratingGuaranteesItsEnumeration()?itVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java´ ´("
+type Iterator*it2k
+java.util.IteratorTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java´ ´(
+Ø
+Kcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIsEmpty()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java± ±("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java± ±(∏
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.testClearsItsObjects()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∂ ∂("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java∂ ∂(´
+Xcom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()?originalVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaæ æ("
+type Set*original2f
+java.util.SetTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaæ æ(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaæ æ(ª
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.testPutsAllAddsTwoItems()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¡ ¡("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¡ ¡(æ
+Zcom.thoughtworks.xstream.persistence.XmlArrayListTest.testContainsASpecificValue()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java« «("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java« «(ƒ
+`com.thoughtworks.xstream.persistence.XmlArrayListTest.testDoesNotContainASpecificValue()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÕ Õ("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÕ Õ(∞
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()?originalVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java“ “("
+type Set*original2f
+java.util.SetTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java“ “(2t
+java.util.HashSet.HashSet()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java“ “(¿
+\com.thoughtworks.xstream.persistence.XmlArrayListTest.testEntrySetContainsAllItems()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java’ ’("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java’ ’(’
+qcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java› ›("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java› ›(—
+ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?builtVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‡ ‡("
+type XmlArrayList*built2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‡ ‡(—
+ncom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?iterVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java· ·("
+type Iterator*iter2k
+java.util.IteratorTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java· ·(√
+ocom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntryAndChecksWithAnotherInstance()?entryVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‚
+ ‚("
+type Object*entry2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‚ ‚(	2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java‚ ‚(Œ
+jcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaË Ë("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaË Ë(æ
+hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?builtVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÎ Î("
+type List*built2g
+java.util.ListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÎ Î(2x
+java.util.ArrayList.ArrayList()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÎ Î( 
+gcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?iterVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÏ Ï("
+type Iterator*iter2k
+java.util.IteratorTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÏ Ï(º
+hcom.thoughtworks.xstream.persistence.XmlArrayListTest.testIteratesOverEntrySetContainingTwoItems()?entryVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÌ
+ Ì("
+type Object*entry2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÌ Ì(	2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÌ Ì(≈
+acom.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?xmlListVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÙ Ù("
+type XmlArrayList*xmlList2e
+XmlArrayListTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÙ Ù(¡
+^com.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?iterVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˜ ˜("
+type Iterator*iter2k
+java.util.IteratorTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java˜ ˜(≥
+_com.thoughtworks.xstream.persistence.XmlArrayListTest.testRemovesAnItemThroughIteration()?entryVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¯
+ ¯("
+type Object*entry2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¯ ¯(	2r
+java.util.Iterator.next()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java¯ ¯(⁄
+>com.thoughtworks.xstream.persistence.XmlArrayListTest?strategyVARIABLEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java ( "
+type MockedStrategy*strategy2õ
+Dcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategyTYPEM
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.java	 (‚
+
+Dcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategyCLASSO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÄ Ä($"
+inner classfalse*MockedStrategy2Ø
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.iterator()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ü(2´
+Kcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.size()DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaà ä(2∞
+Pcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå é(2∑
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê í(2≥
+Scom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(Object)DECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî ñ(2®
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapDECLARATIONO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÇ Ç(!2n
+PersistenceStrategyEXTENDO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÄ0 Ä(CÅ
+Ocom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.iterator()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ Ñ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Iterator*iterator2q
+java.util.Set.iterator()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÖ
+ Ö(#2q
+java.util.Map.entrySet()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÖ
+ Ö(2°
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÖ
+ Ö(2r
+java.util.IteratorRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÑ	 Ñ(Ó
+Kcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.size()METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaà à("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*size2m
+java.util.Map.size()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaâ
+ â(2°
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaâ
+ â(2c
+intRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaà	 à(Ä
+Pcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(Object)METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*get2≤
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(2|
+#java.util.Map.get(java.lang.Object)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaç
+ ç(2°
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaç
+ ç(2∑
+^com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(java.lang.Object)!keyCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaç ç(2p
+java.lang.ObjectRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå	 å(†
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*put2π
+[com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(2ª
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!value	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê  ê(,2p
+java.util.Map.put(K, V)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë
+ ë(2°
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë
+ ë(2…
+pcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!keyCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë ë(2À
+rcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!valueCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaë ë(2p
+java.lang.ObjectRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê	 ê(è
+Scom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(Object)METHODO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*remove2µ
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î(!2
+&java.util.Map.remove(java.lang.Object)CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaï
+ ï(2°
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaï
+ ï(2∫
+acom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(java.lang.Object)!keyCALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaï ï(2p
+java.lang.ObjectRETURN_TYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî	 î(¢
+Tcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.get(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaå å(©
+[com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê ê(≠
+]com.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.put(Object,Object)!value	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê' ê(,*value2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaê  ê(&•
+Wcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy.remove(Object)!key	PARAMETERO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î(!*key2i
+java.lang.ObjectTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaî î(ñ
+Hcom.thoughtworks.xstream.persistence.XmlArrayListTest.MockedStrategy?mapVARIABLEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÇ Ç("
+type Map*map2f
+java.util.MapTYPEO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÇ
+ Ç(2t
+java.util.HashMap.HashMap()CALLO
+Csrc/test/com/thoughtworks/xstream/persistence/XmlArrayListTest.javaÇ Ç(!

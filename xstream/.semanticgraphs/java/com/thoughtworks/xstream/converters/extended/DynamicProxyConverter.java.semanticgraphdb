@@ -1,0 +1,310 @@
+
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaò
+Bcom.thoughtworks.xstream.converters.extended.DynamicProxyConverterCLASSZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java$ $(""
+inner classfalse*DynamicProxyConverter2Ã
+acom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.invoke(Object,Method,Object[])DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java* ,(	2ø
+Tcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(Class)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC E(2È
+~com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG Q(2·
+vcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS [(2Ê
+{com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java] y(2À
+`com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java: <(2◊
+lcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)DECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java> A(2π
+Ncom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?classLoaderDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java& &(#2¥
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java' '(2µ
+Jcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?HANDLERDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java( ((&2≥
+Hcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?DUMMYDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java)+ -(2o
+	ConverterEXTENDZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java$. $(7Ï
+`com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper)CONSTRUCTORZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java: :( *DynamicProxyConverter2–
+gcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper)!mapper	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java:! :(.2Ñ
+ java.lang.Class.getClassLoader()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java; ;(A2≠
+Bcom.thoughtworks.xstream.converters.extended.DynamicProxyConverterRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java: :( ·
+lcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)CONSTRUCTORZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java> >( *DynamicProxyConverter2‹
+scom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)!mapper	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>! >(.2·
+xcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)!classLoader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>0 >(G2≠
+Bcom.thoughtworks.xstream.converters.extended.DynamicProxyConverterRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java> >( ƒ
+gcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper)!mapper	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java:( :(.*mapper2j
+MapperTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java:! :('–
+scom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)!mapper	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>( >(.*mapper2j
+MapperTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>! >('È
+xcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.DynamicProxyConverter(Mapper,ClassLoader)!classLoader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>< >(G*classLoader2y
+java.lang.ClassLoaderTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java>0 >(;ô	
+Tcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(Class)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC C("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2¬
+Ycom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(Class)!type	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC C((2µ
+Qjava.lang.reflect.Proxy.isProxyClass(java.lang.Class<? extends java.lang.Object>)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaDE D(]2«
+ccom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(java.lang.Class)!typeCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaD D(2«
+ccom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(java.lang.Class)!typeCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaDX D(\2r
+booleanRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC C(Ä
+~com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG G("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*marshal2Ô
+Öcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG G(%2Ô
+Öcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG' G(F2
+Ücom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaGH G(b2¸
+êcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?invocationHandlerDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaH H(P2¯
+åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?attributeNameDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaK K(F2¢
+>java.lang.reflect.Proxy.getInvocationHandler(java.lang.Object)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaH. H(P2
+java.lang.Object.getClass()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaMF M(b2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaK K(%2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaM/ M(52o
+voidRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG G(Ç
+vcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS S(#"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*addInterfacesToXml2Ê
+}com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS$ S(12Ê
+}com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS3 S(R2Ì
+Åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?interfacesDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(>2„
+xcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?iDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaU U(2Û
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?currentInterfaceDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaV V(22É
+java.lang.Class.getInterfaces()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(>2
+java.lang.Object.getClass()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(.2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaX X("2o
+voidRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS S(é$
+{com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java] ]("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*	unmarshal2Ï
+Çcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java] ](;2Ì
+Écom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java]= ](Y2Ú
+Ücom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?interfacesDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java^ ^()2Ô
+Écom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?handlerDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java_ _((2Û
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?handlerTypeDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java` `( 2Û
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?elementNameDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javac c(52ı
+âcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?attributeNameDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javag g(N2˘
+çcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?interfacesAsArrayDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javar r(@2Ì
+Åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?proxyDECLARATIONZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat t(T2ç
+)java.lang.String.equals(java.lang.Object)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javad d(/2ç
+)java.lang.String.equals(java.lang.Object)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaf f(42y
+java.util.List.size()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javar. r(?2
+java.util.List.toArray(T[])CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javas s(-2¯
+ìjava.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader, java.lang.Class<? extends java.lang.Object>[], java.lang.reflect.InvocationHandler)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat t(T2É
+java.util.ArrayList.ArrayList()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java^ ^()2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javae e(%2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javag' g(-2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javai" i((2≤
+Ncom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?classLoaderCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat. t(92¨
+Hcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?DUMMYCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javatN t(S2Æ
+Jcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?HANDLERCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaw w(2{
+java.lang.ObjectRETURN_TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java] ](Ω
+Ycom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.canConvert(Class)!type	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC$ C((*type2s
+java.lang.ClassTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaC C(#Ì
+Öcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG G(%*source2t
+java.lang.ObjectTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG G(ı
+Öcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG@ G(F*writer2|
+HierarchicalStreamWriterTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG' G(?Ò
+Ücom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaG[ G(b*context2v
+MarshallingContextTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaGH G(Z‰
+}com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)!source	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS+ S(1*source2t
+java.lang.ObjectTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS$ S(*Ï
+}com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)!writer	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaSL S(R*writer2|
+HierarchicalStreamWriterTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaS3 S(KÚ
+Çcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java]5 ](;*reader2|
+HierarchicalStreamReaderTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java] ](4
+Écom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java]R ](Y*context2x
+UnmarshallingContextTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java]= ](Q◊
+êcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?invocationHandlerVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaH H(+"
+type InvocationHandler*invocationHandler2á
+#java.lang.reflect.InvocationHandlerTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaH H(2¢
+>java.lang.reflect.Proxy.getInvocationHandler(java.lang.Object)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaH. H(Pª
+åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?attributeNameVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaK K("
+type String*attributeName2t
+java.lang.StringTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaK K(2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaK K(%Ü
+Åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?interfacesVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T("
+type Class[]*
+interfaces2u
+java.lang.Class[]TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(2É
+java.lang.Class.getInterfaces()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(>2
+java.lang.Object.getClass()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaT T(.⁄
+xcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?iVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaU U("
+type int*i2g
+intTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaU U(á
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.addInterfacesToXml(Object,HierarchicalStreamWriter)?currentInterfaceVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaV V(""
+type Class*currentInterface2s
+java.lang.ClassTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javaV V(Ñ
+Ücom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?interfacesVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java^ ^("
+type List*
+interfaces2r
+java.util.ListTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java^ ^(2É
+java.util.ArrayList.ArrayList()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java^ ^()õ
+Écom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?handlerVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java_ _(!"
+type InvocationHandler*handler2á
+#java.lang.reflect.InvocationHandlerTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java_ _(Ç
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?handlerTypeVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java` `("
+type Class*handlerType2s
+java.lang.ClassTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java` `(Ñ
+ácom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?elementNameVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javac c("
+type String*elementName2t
+java.lang.StringTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javac c(∏
+âcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?attributeNameVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javag g($"
+type String*attributeName2t
+java.lang.StringTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javag g(2≠
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javag' g(-ç
+çcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?interfacesAsArrayVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javar r(!"
+type Class[]*interfacesAsArray2u
+java.lang.Class[]TYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javar r(2y
+java.util.List.size()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javar. r(?◊
+Åcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?proxyVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat t("
+type Object*proxy2t
+java.lang.ObjectTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat t(2¯
+ìjava.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader, java.lang.Class<? extends java.lang.Object>[], java.lang.reflect.InvocationHandler)CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat t(T2≤
+Ncom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?classLoaderCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javat. t(92¨
+Hcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?DUMMYCALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.javatN t(S‘
+Ncom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?classLoaderVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java& &(#"
+type ClassLoader*classLoader2y
+java.lang.ClassLoaderTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java& &(∂
+Icom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?mapperVARIABLEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java' '("
+type Mapper*mapper2j
+MapperTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java' '(≈
+Jcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?HANDLERVALUEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java( ((&"
+type Field*HANDLER2{
+java.lang.reflect.FieldTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java( ((‰
+Hcom.thoughtworks.xstream.converters.extended.DynamicProxyConverter?DUMMYVALUEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java)+ )(0"
+type InvocationHandler*DUMMY2á
+#java.lang.reflect.InvocationHandlerTYPEZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java) )(*2á
+¢com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.Anonymous-a7a24af8-6137-4a36-ba41-9d7a2656ea3d.Anonymous-a7a24af8-6137-4a36-ba41-9d7a2656ea3d()CALLZ
+Psrc/java/com/thoughtworks/xstream/converters/extended/DynamicProxyConverter.java)3 -(

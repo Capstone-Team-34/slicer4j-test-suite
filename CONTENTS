@@ -1,0 +1,14 @@
+The .zip file in "versions.alt" contains the subject and the tests. The class "tests.xRUN" is the entry point (i.e. has main method), where x is the name of the subject. The entry point is where the following are specified (how they are specified will be obvious from the "main" method):
+
+- Application arguments (e.g. input graph and root for GPL)
+
+- Test case (reflection is used to call a method with the naming convention "testX", where X is the test ID). Each subject has three tests
+
+- Feature model file (.m file located in "docs" SIR directory, also located under the root directory of the .zip file).
+The features in the feature model correspond to the feature variables in the class "tests.xTEST", where x is the name of the subject. For our purposes, a feature is simply a boolean flag that is referenced in program execution.
+
+- File listing configurations to run. Must be a subset of feature model solutions. If blank, runs all configurations. Each configuration is a bit vector with the RHS feature corresponding to to the feature variables. Each configuration is separated by a newline. A test run at the end prints the configurations explored in the same format that can simply be copied and pasted into a file and loaded. "configurations" SIR directory also lists configuration files (i.e. one configuration per file).
+
+In Windows, using Eclipse is recommended so that it can automatically set the classspath. Go to File > Import > Existing Projects into Workspace > Select Archive File > The .zip file. After automatic building completes, right-click on "tests.xTEST.java" and select "Run As > "Java Application".
+
+In Unix, extract .zip file. Open "runX" (where X is the subject) and replace "/u/chpkim/X" with the directory where X is located. Save and close the file. Type "ant". Type "chmod +x runX". Type "./runX".

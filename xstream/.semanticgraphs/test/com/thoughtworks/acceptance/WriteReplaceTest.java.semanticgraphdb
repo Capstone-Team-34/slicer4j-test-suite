@@ -1,0 +1,682 @@
+
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÍ!
+,com.thoughtworks.acceptance.WriteReplaceTestCLASSD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java ("
+inner classfalse*WriteReplaceTest2ê
+;com.thoughtworks.acceptance.WriteReplaceTest.writeReplace()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java, .(	2è
+:com.thoughtworks.acceptance.WriteReplaceTest.readResolve()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java0 2(	2õ
+Fcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java6 N(2™
+Ucom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaP \(2∞
+[com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java^ m(2≥
+]com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()DECLARATIONE
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javas É(2ù
+Fcom.thoughtworks.acceptance.WriteReplaceTest.readExternal(ObjectInput)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà ä(	2ü
+Hcom.thoughtworks.acceptance.WriteReplaceTest.writeExternal(ObjectOutput)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå é(	2º
+ecom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaë °(2¿
+icom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java£ Ø(2∆
+ocom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java± ¿(2»
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¬ “(2–
+ycom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‘ ‰(2í
+;com.thoughtworks.acceptance.WriteReplaceTest.writeReplace()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java Ú(	2°
+Jcom.thoughtworks.acceptance.WriteReplaceTest.readObject(ObjectInputStream)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ ˆ(	2ë
+:com.thoughtworks.acceptance.WriteReplaceTest.readResolve()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÉ Ö(	2°
+Jcom.thoughtworks.acceptance.WriteReplaceTest.readObject(ObjectInputStream)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá â(	2»
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå ú(2â
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java$ %(	2ê
+;com.thoughtworks.acceptance.WriteReplaceTest.Thing(int,int)DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' *(	2ö
+Ccom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÈ Í(	2†
+Icom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable(String)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ Ó(	2ö
+Ccom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¸ ˝(	2†
+Icom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable(String)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ Å(	2f
+AbstractAcceptanceTestEXTENDD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java& (<Ï
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!a	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(*a2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(Ï
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!b	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java'  '(!*b2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(≤
+lcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(String)!originalValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ+ Ï(8*originalValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ$ Ï(*≤
+lcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(String)!replacedValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ+ ˇ(8*replacedValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ$ ˇ(*“
+Fcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java6 6('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testReplacesAndResolves2°
+Lcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?thingDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java7 7(%2†
+Kcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?baosDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java: :(@2ü
+Jcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?oosDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java; ;(=2†
+Kcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?baisDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java? ?(P2ü
+Jcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?iosDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@ @(;2ß
+Rcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?expectedXmlDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaG K(2Ü
+8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java< <(2p
+"java.io.ObjectOutputStream.close()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java= =(2y
++java.io.ByteArrayOutputStream.toByteArray()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java?= ?(O2t
+&java.io.ObjectInputStream.readObject()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaA A(,2o
+!java.io.ObjectInputStream.close()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaB B(2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java7 7(%2É
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java:% :(@2ë
+Cjava.io.ObjectOutputStream.ObjectOutputStream(java.io.OutputStream)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java;! ;(=2á
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java?$ ?(P2é
+@java.io.ObjectInputStream.ObjectInputStream(java.io.InputStream)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@  @(;2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java61 6(<‹
+Ucom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaP P(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testAllowsDifferentTypeToBeSubstituted2≠
+Xcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()?inDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaT T(12∂
+acom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()?expectedXmlDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaV Y(%2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaP P(„
+[com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java^ ^(<"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*,testAllowsDifferentTypeToBeSubstitutedInList2≥
+^com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()?inDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javab b(!2º
+gcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()?expectedXmlDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javae j(2m
+java.util.ArrayList.ArrayList()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javab b(!2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java^ ^(ê
+]com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javas s(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*.testAllowsDifferentTypeToBeSubstitutedAsMember2µ
+`com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()?inDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javax x(&2ø
+icom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()?expectedXmlDECLARATIONE
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java{ Ä( 2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Container.Container()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javax x(&2Y
+voidRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javas s(”
+ecom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaë ë(F"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*6testAllowsDifferentTypeToBeSubstitutedInExternalizable2ø
+hcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javañ ñ(@2»
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()?expectedXmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaô û( 2¨
+\com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.ExtenalizableContainer()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javañ$ ñ(@2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaë ë(¨
+icom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java£ £(J"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*:testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass2√
+lcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaß ß(12ƒ
+mcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()?xmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java© ¨(%2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java£ £(µ
+ocom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java± ±(P"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*@testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList2…
+rcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaµ µ(!2 
+scom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()?xmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java∏ Ω(2o
+java.util.ArrayList.ArrayList()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaµ µ(!2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java± ±(·
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¬ ¬(R"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*BtestAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember2À
+tcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java« «(&2Ã
+ucom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()?xmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java  œ( 2í
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Container.Container()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java« «(&2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¬ ¬(õ
+ycom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‘ ‘(Z"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*JtestAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable2”
+|com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaŸ Ÿ(@2‘
+}com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()?xmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‹ ·( 2¨
+\com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.ExtenalizableContainer()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaŸ$ Ÿ(@2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‘ ‘(è
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå å(R"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*BtestAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects2À
+tcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()?inDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaê ê(I2‘
+}com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()?expectedXmlDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaí ô(22∏
+hcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(java.lang.String)CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaê" ê(I2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå å(û
+`com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(ObjectInput)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà- à(/*in2c
+java.io.ObjectInputTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà! à(,£
+ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(ObjectOutput)!out	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå/ å(2*out2d
+java.io.ObjectOutputTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå" å(.¶
+bcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ2 Ù(4*in2i
+java.io.ObjectInputStreamTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ  Ù(1¶
+bcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá2 á(4*in2i
+java.io.ObjectInputStreamTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá  á(1À
+Lcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?thingVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java7 7("
+type Thing*thing2Ä
+2com.thoughtworks.acceptance.WriteReplaceTest.ThingTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java7 7(2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java7 7(%∂
+Kcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?baosVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java: :(""
+type ByteArrayOutputStream*baos2k
+java.io.ByteArrayOutputStreamTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java: :(2É
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java:% :(@º
+Jcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?oosVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java; ;("
+type ObjectOutputStream*oos2h
+java.io.ObjectOutputStreamTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java; ;(2ë
+Cjava.io.ObjectOutputStream.ObjectOutputStream(java.io.OutputStream)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java;! ;(=≥
+Kcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?baisVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java? ?(!"
+type ByteArrayInputStream*bais2j
+java.io.ByteArrayInputStreamTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java? ?(2y
++java.io.ByteArrayOutputStream.toByteArray()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java?= ?(O2á
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java?$ ?(P∑
+Jcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?iosVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@ @("
+type ObjectInputStream*ios2g
+java.io.ObjectInputStreamTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@ @(2é
+@java.io.ObjectInputStream.ObjectInputStream(java.io.InputStream)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@  @(;¢
+Rcom.thoughtworks.acceptance.WriteReplaceTest.testReplacesAndResolves()?expectedXmlVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaG G("
+type String*expectedXml2^
+java.lang.StringTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaG G(ô
+Xcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()?inVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaT T("
+type Original*in2V
+OriginalTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaT T(±
+acom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstituted()?expectedXmlVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaV V("
+type String*expectedXml2^
+java.lang.StringTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaV V(ê
+^com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()?inVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javab b("
+type List*in2\
+java.util.ListTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javab b(2m
+java.util.ArrayList.ArrayList()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javab b(!∑
+gcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInList()?expectedXmlVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javae e("
+type String*expectedXml2^
+java.lang.StringTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javae e(‰
+`com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()?inVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javax x("
+type 	Container*in2Ñ
+6com.thoughtworks.acceptance.WriteReplaceTest.ContainerTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javax x(2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Container.Container()CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javax x(&π
+icom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedAsMember()?expectedXmlVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java{ {("
+type String*expectedXml2^
+java.lang.StringTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java{ {(¶
+hcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javañ ñ(!"
+type ExtenalizableContainer*in2ì
+Ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainerTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javañ ñ(2¨
+\com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.ExtenalizableContainer()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javañ$ ñ(@≈
+qcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedInExternalizable()?expectedXmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaô ô("
+type String*expectedXml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaô ô(±
+lcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaß ß("
+type Original*in2X
+OriginalTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaß ß(π
+mcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClass()?xmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java© ©("
+type String*xml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java© ©(™
+rcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaµ µ("
+type List*in2^
+java.util.ListTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaµ µ(2o
+java.util.ArrayList.ArrayList()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaµ µ(!ø
+scom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInList()?xmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java∏ ∏("
+type String*xml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java∏ ∏(˛
+tcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java« «("
+type 	Container*in2Ü
+6com.thoughtworks.acceptance.WriteReplaceTest.ContainerTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java« «(2í
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Container.Container()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java« «(&¡
+ucom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassAsMember()?xmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java   ("
+type String*xml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java   (∫
+|com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaŸ Ÿ(!"
+type ExtenalizableContainer*in2ì
+Ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainerTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaŸ Ÿ(2¨
+\com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.ExtenalizableContainer()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaŸ$ Ÿ(@…
+}com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedWithNonExistingClassInExternalizable()?xmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‹ ‹("
+type String*xml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java‹ ‹(∫
+tcom.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()?inVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaê ê("
+type OriginalSerializable*in2ë
+Acom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializableTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaê ê(2∏
+hcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(java.lang.String)CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaê" ê(I—
+}com.thoughtworks.acceptance.WriteReplaceTest.testAllowsDifferentTypeToBeSubstitutedForCustomSerializableObjects()?expectedXmlVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaí í("
+type String*expectedXml2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaí í(ÿ	
+2com.thoughtworks.acceptance.WriteReplaceTest.ThingCLASSD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java ("
+inner classfalse*Thing2ñ
+Acom.thoughtworks.acceptance.WriteReplaceTest.Thing.writeReplace()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java, .(	2ï
+@com.thoughtworks.acceptance.WriteReplaceTest.Thing.readResolve()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java0 2(	2è
+:com.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing()DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java$ %(	2ñ
+Acom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)DECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' *(	2â
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?aDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java! !(2â
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?bDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java" "(2d
+java.io.SerializableEXTENDD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java@ (L2^
+StandardObjectEXTENDD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java& (4†
+:com.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing()CONSTRUCTORD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java$ $(*Thing2á
+2com.thoughtworks.acceptance.WriteReplaceTest.ThingRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java$ $(É
+Acom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)CONSTRUCTORD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(*Thing2ñ
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!a	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(2ñ
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!b	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(!2í
+Dcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)!aCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java( ((2í
+Dcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)!bCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java) )(2á
+2com.thoughtworks.acceptance.WriteReplaceTest.ThingRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(Ï
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!a	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(*a2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(Ï
+Ccom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int,int)!b	PARAMETERD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java'  '(!*b2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java' '(Ò
+Acom.thoughtworks.acceptance.WriteReplaceTest.Thing.writeReplace()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java, ,(#"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*writeReplace2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java- -(02Ç
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?aCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java- -(2Ç
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?bCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java-' -((2e
+java.lang.ObjectRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java, ,(Ô
+@com.thoughtworks.acceptance.WriteReplaceTest.Thing.readResolve()METHODD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java0 0(""
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*readResolve2ê
+Bcom.thoughtworks.acceptance.WriteReplaceTest.Thing.Thing(int, int)CALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java1 1(02Ç
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?aCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java1 1(2Ç
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?bCALLD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java1' 1((2e
+java.lang.ObjectRETURN_TYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java0 0(Í
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?aVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java! !("
+type int*a2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java! !(Í
+4com.thoughtworks.acceptance.WriteReplaceTest.Thing?bVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java" "("
+type int*b2Q
+intTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java" "(ù
+6com.thoughtworks.acceptance.WriteReplaceTest.ContainerCLASSD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javao o(!"
+inner classfalse*	Container2î
+?com.thoughtworks.acceptance.WriteReplaceTest.Container?originalDECLARATIOND
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javap p(2^
+StandardObjectEXTENDD
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javao* o(8Ü
+?com.thoughtworks.acceptance.WriteReplaceTest.Container?originalVARIABLED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javap p("
+type Original*original2V
+OriginalTYPED
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javap p(§
+Ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainerCLASSF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÖ Ö(."
+inner classfalse*ExtenalizableContainer2¥
+]com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(ObjectInput)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà ä(	2∂
+_com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(ObjectOutput)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå é(	2£
+Lcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer?originalDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÜ Ü(2h
+java.io.ExternalizableEXTENDF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÖQ Ö(_2`
+StandardObjectEXTENDF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÖ7 Ö(EÈ
+]com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(ObjectInput)METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà à( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*readExternal2µ
+`com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(ObjectInput)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà! à(/2p
+ java.io.ObjectInput.readObject()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaâ! â(02ú
+Lcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer?originalCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaâ â(2∏
+hcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(java.io.ObjectInput)!inCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaâ! â(#2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà8 à(CÄ
+_com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(ObjectOutput)METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå å(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*writeExternal2∏
+ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(ObjectOutput)!out	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå" å(22ª
+kcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(java.io.ObjectOutput)!outCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaç ç(2ú
+Lcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer?originalCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaç ç($2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå; å(Fû
+`com.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.readExternal(ObjectInput)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà- à(/*in2c
+java.io.ObjectInputTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà! à(,£
+ccom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer.writeExternal(ObjectOutput)!out	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå/ å(2*out2d
+java.io.ObjectOutputTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaå" å(.ó
+Lcom.thoughtworks.acceptance.WriteReplaceTest.ExtenalizableContainer?originalVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÜ Ü("
+type Original*original2X
+OriginalTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÜ Ü(ñ	
+Acom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializableCLASSF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÊ Ê(,"
+inner classfalse*OriginalSerializable2ß
+Pcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.writeReplace()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java Ú(	2∂
+_com.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(ObjectInputStream)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ ˆ(	2Ø
+Xcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÈ Í(	2µ
+^com.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(String)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ Ó(	2¶
+Ocom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable?originalValueDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÁ Á(2`
+StandardObjectEXTENDF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÊ5 Ê(C‡
+Xcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable()CONSTRUCTORF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÈ È(#*OriginalSerializable2ò
+Acom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializableRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÈ È(#Û
+^com.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(String)CONSTRUCTORF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ Ï(#*OriginalSerializable2¡
+lcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(String)!originalValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ$ Ï(82∆
+vcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(java.lang.String)!originalValueCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÌ! Ì(.2ò
+Acom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializableRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ Ï(#≤
+lcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(String)!originalValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ+ Ï(8*originalValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÏ$ Ï(*¥
+Pcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.writeReplace()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java (#"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*writeReplace2n
+java.lang.String.toUpperCase()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÒ, Ò(G2∏
+hcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(java.lang.String)CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÒ Ò(H2ü
+Ocom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable?originalValueCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÒ, Ò(92g
+java.lang.ObjectRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java (‹
+_com.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(ObjectInputStream)METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ Ù("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2∑
+bcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ  Ù(42}
+-java.io.ObjectInputStream.defaultReadObject()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaı ı("2∫
+jcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(java.io.ObjectInputStream)!inCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaı ı(2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ= Ù(H¶
+bcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ2 Ù(4*in2i
+java.io.ObjectInputStreamTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÙ  Ù(1•
+Ocom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable?originalValueVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÁ Á("
+type String*originalValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÁ Á(ï	
+Acom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializableCLASSF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java˘ ˘(,"
+inner classfalse*ReplacedSerializable2¶
+Ocom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readResolve()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÉ Ö(	2∂
+_com.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(ObjectInputStream)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá â(	2Ø
+Xcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable()DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¸ ˝(	2µ
+^com.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(String)DECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ Å(	2¶
+Ocom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable?replacedValueDECLARATIONF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java˙ ˙(2`
+StandardObjectEXTENDF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java˘5 ˘(C‡
+Xcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable()CONSTRUCTORF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¸ ¸(#*ReplacedSerializable2ò
+Acom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializableRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java¸ ¸(#Û
+^com.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(String)CONSTRUCTORF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ ˇ(#*ReplacedSerializable2¡
+lcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(String)!replacedValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ$ ˇ(82∆
+vcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(java.lang.String)!replacedValueCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÄ! Ä(.2ò
+Acom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializableRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ ˇ(#≤
+lcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.ReplacedSerializable(String)!replacedValue	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ+ ˇ(8*replacedValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaˇ$ ˇ(*≤
+Ocom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readResolve()METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÉ É(""
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*readResolve2n
+java.lang.String.toLowerCase()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÑ, Ñ(G2∏
+hcom.thoughtworks.acceptance.WriteReplaceTest.OriginalSerializable.OriginalSerializable(java.lang.String)CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÑ Ñ(H2ü
+Ocom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable?replacedValueCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÑ, Ñ(92g
+java.lang.ObjectRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaÉ É(‹
+_com.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(ObjectInputStream)METHODF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá á("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2∑
+bcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá  á(42}
+-java.io.ObjectInputStream.defaultReadObject()CALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà à("2∫
+jcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(java.io.ObjectInputStream)!inCALLF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaà à(2[
+voidRETURN_TYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá= á(H¶
+bcom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable.readObject(ObjectInputStream)!in	PARAMETERF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá2 á(4*in2i
+java.io.ObjectInputStreamTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.javaá  á(1•
+Ocom.thoughtworks.acceptance.WriteReplaceTest.ReplacedSerializable?replacedValueVARIABLEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java˙ ˙("
+type String*replacedValue2`
+java.lang.StringTYPEF
+:src/test/com/thoughtworks/acceptance/WriteReplaceTest.java˙ ˙(

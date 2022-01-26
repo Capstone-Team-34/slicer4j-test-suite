@@ -1,0 +1,178 @@
+
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java’
+
+Gcom.thoughtworks.xstream.converters.extended.StackTraceElementConverterCLASS_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java ('"
+inner classfalse*StackTraceElementConverter2…
+Ycom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.canConvert(Class)DECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$ &(2»
+Xcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)DECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java( ,(2 
+Zcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)DECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java. C(2ø
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?PATTERNDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java!! !(g2ø
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java"2 "(Z2á
+AbstractSingleValueConverterEXTEND_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java0 (Lœ
+Ycom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.canConvert(Class)METHOD_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$ $("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*
+canConvert2Ã
+^com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.canConvert(Class)!type	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$ $((2í
+)java.lang.Object.equals(java.lang.Object)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java% %(32—
+hcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.canConvert(java.lang.Class)!typeCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java%. %(22w
+booleanRETURN_TYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$ $(∂	
+Xcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)METHOD_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java( (("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*toString2 
+\com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)!obj	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java( ((%2 
+Zcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)?sDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java) )(&2™
+Ajava.lang.String.replaceFirst(java.lang.String, java.lang.String)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java+ +(/2œ
+fcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(java.lang.Object)!objCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java)" )(%2Ä
+java.lang.StringRETURN_TYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java( ((Æ#
+Zcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)METHOD_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java. .("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Object*
+fromString2Ã
+^com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)!str	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java. .('2“
+bcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?matcherDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(.2Ÿ
+icom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?declaringClassDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java1 1(42’
+ecom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?methodNameDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java2 2(02”
+ccom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?fileNameDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java3 3(.2’
+ecom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?lineNumberDECLARATION_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java: :(G2†
+7java.util.regex.Pattern.matcher(java.lang.CharSequence)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(.2ä
+!java.util.regex.Matcher.matches()CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java0 0(2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java1$ 1(42ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java2  2(02ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java3 3(.2í
+)java.lang.String.equals(java.lang.Object)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java4 4(12í
+)java.lang.String.equals(java.lang.Object)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java6 6(72ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java9 9($2ï
+,java.lang.Integer.parseInt(java.lang.String)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java:% :(G2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java:6 :(F2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?PATTERNCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(!2—
+hcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(java.lang.String)!strCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/* /(-2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java5 5(2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java7 7(2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java; ;("2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java= =("2—
+hcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(java.lang.String)!strCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.javaAS A(V2Ä
+java.lang.ObjectRETURN_TYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java. .(Ã
+^com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.canConvert(Class)!type	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$$ $((*type2x
+java.lang.ClassTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java$ $(# 
+\com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)!obj	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java(" ((%*obj2y
+java.lang.ObjectTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java( ((!Ã
+^com.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)!str	PARAMETER_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java.$ .('*str2y
+java.lang.StringTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java. .(#®
+Zcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(Object)?sVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java) )("
+type String*s2y
+java.lang.StringTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java) )(2œ
+fcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.toString(java.lang.Object)!objCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java)" )(%ü
+bcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?matcherVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /("
+type Matcher*matcher2Ä
+java.util.regex.MatcherTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(2†
+7java.util.regex.Pattern.matcher(java.lang.CharSequence)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(.2∏
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?PATTERNCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/ /(!2—
+hcom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(java.lang.String)!strCALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java/* /(-Ä
+icom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?declaringClassVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java1 1(!"
+type String*declaringClass2y
+java.lang.StringTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java1 1(2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java1$ 1(4¯
+ecom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?methodNameVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java2 2("
+type String*
+methodName2y
+java.lang.StringTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java2 2(2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java2  2(0Ù
+ccom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?fileNameVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java3 3("
+type String*fileName2y
+java.lang.StringTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java3 3(2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java3 3(.Ä
+ecom.thoughtworks.xstream.converters.extended.StackTraceElementConverter.fromString(String)?lineNumberVARIABLE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java: :(""
+type int*
+lineNumber2l
+intTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java: :(2ï
+,java.lang.Integer.parseInt(java.lang.String)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java:% :(G2ã
+"java.util.regex.Matcher.group(int)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java:6 :(FÙ
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?PATTERNVALUE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java!! !(("
+type Pattern*PATTERN2Ä
+java.util.regex.PatternTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java! !( 2ö
+1java.util.regex.Pattern.compile(java.lang.String)CALL_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java!+ !(gÈ
+Ocom.thoughtworks.xstream.converters.extended.StackTraceElementConverter?FACTORYVALUE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java"2 "(9"!
+type StackTraceElementFactory*FACTORY2Å
+StackTraceElementFactoryTYPE_
+Usrc/java/com/thoughtworks/xstream/converters/extended/StackTraceElementConverter.java" "(1

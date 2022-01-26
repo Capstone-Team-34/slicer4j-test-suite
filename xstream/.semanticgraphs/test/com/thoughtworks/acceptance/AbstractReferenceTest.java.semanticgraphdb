@@ -1,0 +1,1466 @@
+
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá5
+1com.thoughtworks.acceptance.AbstractReferenceTestCLASSI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java (+"
+inner classfalse*AbstractReferenceTest2ì
+9com.thoughtworks.acceptance.AbstractReferenceTest.setUp()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java !(2¶
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java# 1(2º
+bcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java3 J(2ª
+acom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java\ d(2π
+_com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaf p(2¥
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javar (2ø
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToImplicitCollectionIsNotPossible()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÅ í(2∆
+jcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî °(2…
+mcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java£ ∞(2≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testThrowsForInvalidReference()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ ¡(2•
+Icom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÁ ˜(2´
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ Ç(2™
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ ¶(2´
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.readObject(ObjectInputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ∞(	2≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.writeObject(ObjectOutputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ µ(	2´
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.readObject(ObjectInputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ª(2≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.writeObject(ObjectOutputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ ø(2™
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ·(2õ
+?com.thoughtworks.acceptance.AbstractReferenceTest.add(TreeData)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ ˆ(	2ò
+<com.thoughtworks.acceptance.AbstractReferenceTest.hashCode()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¯ ˛(	2ú
+@com.thoughtworks.acceptance.AbstractReferenceTest.equals(Object)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ å(	2ú
+@com.thoughtworks.acceptance.AbstractReferenceTest.writeReplace()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaé ì(	2•
+Icom.thoughtworks.acceptance.AbstractReferenceTest.testReplacedReference()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ(12ß
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò §(2∏
+\com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ √(2¥
+Xcom.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java  ÿ(2ì
+9com.thoughtworks.acceptance.AbstractReferenceTest.Thing()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaO P(	2ô
+?com.thoughtworks.acceptance.AbstractReferenceTest.Thing(String)DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR T(	2ñ
+:com.thoughtworks.acceptance.AbstractReferenceTest.Person()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java» …(	2ú
+@com.thoughtworks.acceptance.AbstractReferenceTest.Person(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ Õ(	2£
+Gcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ÷(	2ß
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement(StringBuffer)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ‡(	2°
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‰(	2û
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Î(	2†
+Dcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData(TreeData)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ò(	2õ
+?com.thoughtworks.acceptance.AbstractReferenceTest.Email(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ¨(	2°
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.Email(String,Email)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ∞(	2k
+AbstractAcceptanceTestEXTENDI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java4 (J2§
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThingDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∑ ¡(	è
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(String)!field	PARAMETERI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(!*field2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(ì
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(!*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(°
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(!*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(©
+\com.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(StringBuffer)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ! ﬁ(%*name2k
+java.lang.StringBufferTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ﬁ( ù
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(ó
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(String)!data	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(#*data2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(∆
+Scom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(TreeData)!clone	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ" Ì('*clone2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì(!ì
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(*email2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(ô
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(*email2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(¡
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!alias	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠" ≠('*alias2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(!√
+9com.thoughtworks.acceptance.AbstractReferenceTest.setUp()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java ("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java" (+÷
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java# #(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testReferencesAreWorking2∞
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?sameThingDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java% %(,2≥
+Ycom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?anotherThingDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java& &(/2´
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?listDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java( ((#2™
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?xmlDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java- -((2≠
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?resultDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java. .(02h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java) )(2h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java* *(2h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java+ +(2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java% %(,2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java& &(/2r
+java.util.ArrayList.ArrayList()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java( ((#2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java# #(˙
+bcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java3 3(>"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*.testReferencesAreTheSameObjectWhenDeserialized2∆
+lcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?sameThingDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java5 5(,2…
+ocom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?anotherThingDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java6 6(/2¡
+gcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?listDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java8 8(#2¿
+fcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?xmlDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java= =((2√
+icom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?resultDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java> >(02ø
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t0DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java@ @('2ø
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t1DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaA A('2ø
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t2DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaB B('2h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java9 9(2h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java: :(2h
+java.util.List.add(E)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java; ;(2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java@ @('2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaA A('2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaB B('2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java5 5(,2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java6 6(/2r
+java.util.ArrayList.ArrayList()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java8 8(#2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java3 3(Ó
+acom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java\ \(="
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*-testMultipleReferencesToObjectsWithNoChildren2æ
+dcom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?inDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java] ]("2ø
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?xmlDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java` `(&2ø
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?outDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaa a(32ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java] ]("2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java\ \(◊	
+_com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaf f(;"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*+testReferencesNotUsedForImmutableValueTypes2º
+bcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?inDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javag g("2Ω
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?xmlDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javak k(&2Ω
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?outDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javal l(32ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javag g("2q
+java.lang.Integer.Integer(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javah h(2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaf f(â
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()METHODI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javar r(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testReferencesUsedForMutableValueTypes2∑
+]com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?inDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javas s("2∏
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?xmlDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaw w(&2∏
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?outDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javax x(32ª
+acom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?bufferDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaz z(22Ç
+/java.lang.StringBuffer.append(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java{ {(2n
+java.lang.Object.toString()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java} }(/2ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javas s("2à
+5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javat t(&2^
+voidRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javar r(ﬁ
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToImplicitCollectionIsNotPossible()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÅ Å(?"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*/testReferencesToImplicitCollectionIsNotPossible2√
+gcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToImplicitCollectionIsNotPossible()?wlsDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ö(?2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÅ Å(ç
+jcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî î(F"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*6testReferencesToElementsOfImplicitCollectionIsPossible2 
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?wlsDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ò(?2 
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaù ù('2 
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?outDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaû û(C2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî î(ú
+mcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java£ £(I"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*9testReferencesToElementsOfNthImplicitCollectionIsPossible2Õ
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?wlsDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¶ ß(\2Õ
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ¨('2Õ
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?outDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(C2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java£ £(®
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testThrowsForInvalidReference()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ ≤(-"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testThrowsForInvalidReference2±
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testThrowsForInvalidReference()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ π(2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ ≤(ö
+Icom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÁ Á(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReference2©
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?bobDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(&2™
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?janeDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È((2©
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì('2¨
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?bobOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÔ Ô(42≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?janeOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÒ Ò(%2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(&2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È((2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÁ Á(≤
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘(+"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCircularReferenceToSelf2Ø
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?bobDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(&2Ø
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˝ ˝('2≤
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?bobOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaˇ ˇ(42¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(&2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘(Ÿ
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testDeepCircularReferences2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?bobDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÖ Ö(&2Ø
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?janeDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÜ Ü((2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?annDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á(&2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?pooDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaà à(&2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaì ì('2±
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?bobOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî î(42≤
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?janeOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaï ï(%2±
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?annOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ(&2±
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?pooOutDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ó(&2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÖ Ö(&2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÜ Ü((2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á(&2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaà à(&2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(°
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ƒ(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testWeirdCircularReference2≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?inDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷((2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaŸ Ÿ(&2Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?outDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java› ›(92û
+Icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.WeirdThing()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷((2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ƒ(‰
+Icom.thoughtworks.acceptance.AbstractReferenceTest.testReplacedReference()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ(."
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testReplacedReference2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ(ı
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò ò(!"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*replacedReference2±
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)!expectedXml	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò" ò(42Æ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)?parentDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaô ô(02≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)?cloneDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¢ ¢(?2œ
+zcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaö ú(
+2p
+java.lang.Object.getClass()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaü+ ü(L2l
+java.util.List.get(int)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaü+ ü(A2™
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaô ô(02™
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaö ú(	2∂
+acom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(java.lang.String)!expectedXmlCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java° °( 2∂
+acom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(java.lang.String)!expectedXmlCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¢3 ¢(>2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò ò(å
+\com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ∏(8"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*(testReferenceElementInImplicitCollection2ø
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()?emailsDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π(*2º
+`com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¡ ¡(*2j
+java.util.List.add(E)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∫ ∫(@2j
+java.util.List.add(E)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaª ª(<2j
+java.util.List.add(E)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaº º(F2j
+java.util.List.add(E)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ Ω(_2l
+java.util.List.get(int)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩF Ω(]2l
+java.util.List.get(int)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaæ æ(42ú
+Gcom.thoughtworks.acceptance.AbstractReferenceTest.EmailList.EmailList()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π(*2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∫ ∫(?2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaª ª(;2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaº º(E2ﬁ
+àcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String, com.thoughtworks.acceptance.AbstractReferenceTest.Email)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ Ω(^2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ∏(Ø
+Xcom.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java   (4"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*$testReferenceElementInImplicitArrays2ª
+_com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?emailsDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(,2∫
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?aliasDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã(>2∏
+\com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?xmlDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷(*2û
+Icom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray.EmailArray()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(,2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã(>2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaŒ Œ(.2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaœ œ(*2ﬁ
+àcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String, com.thoughtworks.acceptance.AbstractReferenceTest.Email)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java— —(42`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java   (´
+]com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨2 ¨(4*in2n
+java.io.ObjectInputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨  ¨(1∞
+`com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤4 ≤(7*out2o
+java.io.ObjectOutputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤! ≤(3∑
+icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏6 ∏(8*in2n
+java.io.ObjectInputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏$ ∏(5º
+lcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ8 Ω(;*out2o
+java.io.ObjectOutputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ% Ω(7¡
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(TreeData)!child	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ! Û(&*child2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ Û( ì
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)!obj	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ% Ä((*obj2e
+java.lang.ObjectTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ Ä($•
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)!expectedXml	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò) ò(4*expectedXml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaò" ò((˙
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?sameThingVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java% %("
+type Thing*	sameThing2ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java% %(2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java% %(,Ä
+Ycom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?anotherThingVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java& &("
+type Thing*anotherThing2ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java& &(2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java& &(/î
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?listVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java( (("
+type List*list2a
+java.util.ListTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java( ((2r
+java.util.ArrayList.ArrayList()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java( ((#¢
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?xmlVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java- -("
+type String*xml2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java- -(§
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreWorking()?resultVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java. .("
+type List*result2a
+java.util.ListTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java. .(ê
+lcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?sameThingVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java5 5("
+type Thing*	sameThing2ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java5 5(2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java5 5(,ñ
+ocom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?anotherThingVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java6 6("
+type Thing*anotherThing2ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java6 6(2¢
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java6 6(/™
+gcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?listVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java8 8("
+type List*list2a
+java.util.ListTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java8 8(2r
+java.util.ArrayList.ArrayList()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java8 8(#∏
+fcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?xmlVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java= =("
+type String*xml2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java= =(∫
+icom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?resultVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java> >("
+type List*result2a
+java.util.ListTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java> >(…
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t0VARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java@ @("
+type Thing*t02ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java@ @(2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java@ @('…
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t1VARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaA A("
+type Thing*t12ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaA A(2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaA A('…
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesAreTheSameObjectWhenDeserialized()?t2VARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaB B("
+type Thing*t22ä
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaB B(2j
+java.util.List.get(int)CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaB B('˘
+dcom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?inVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java] ]("
+type MultRef*in2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java] ](2ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java] ]("∑
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?xmlVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java` `("
+type String*xml2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java` `(‚
+ecom.thoughtworks.acceptance.AbstractReferenceTest.testMultipleReferencesToObjectsWithNoChildren()?outVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaa a("
+type MultRef*out2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaa a(˜
+bcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?inVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javag g("
+type MultRef*in2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javag g(2ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javag g("µ
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?xmlVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javak k("
+type String*xml2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javak k(‡
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesNotUsedForImmutableValueTypes()?outVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javal l("
+type MultRef*out2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javal l(Ú
+]com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?inVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javas s("
+type MultRef*in2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javas s(2ñ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.MultRef.MultRef()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javas s("∞
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?xmlVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaw w("
+type String*xml2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaw w(€
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?outVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javax x("
+type MultRef*out2å
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javax x(¬
+acom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesUsedForMutableValueTypes()?bufferVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaz z("
+type StringBuffer*buffer2i
+java.lang.StringBufferTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaz z(≈
+gcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToImplicitCollectionIsNotPossible()?wlsVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ("
+type WithNamedList[]*wls2d
+WithNamedList[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(Ã
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?wlsVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ó("
+type WithNamedList[]*wls2d
+WithNamedList[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ó(ƒ
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaù ù("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaù ù(Ã
+ncom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfImplicitCollectionIsPossible()?outVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaû û("
+type WithNamedList[]*out2d
+WithNamedList[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaû û(œ
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?wlsVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¶ ¶("
+type WithNamedList[]*wls2d
+WithNamedList[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¶ ¶(«
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ¨("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ¨(œ
+qcom.thoughtworks.acceptance.AbstractReferenceTest.testReferencesToElementsOfNthImplicitCollectionIsPossible()?outVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠("
+type WithNamedList[]*out2d
+WithNamedList[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(´
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testThrowsForInvalidReference()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ ≥("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ ≥(ı
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?bobVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë("
+type Person*bob2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(&˜
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?janeVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È("
+type Person*jane2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È((£
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì(“
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?bobOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÔ Ô("
+type Person*bobOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÔ Ô(‘
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReference()?janeOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÒ Ò("
+type Person*janeOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÒ Ò(˚
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?bobVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙("
+type Person*bob2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(&©
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˝ ˝("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˝ ˝(ÿ
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testCircularReferenceToSelf()?bobOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaˇ ˇ("
+type Person*bobOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaˇ ˇ(˙
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?bobVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÖ Ö("
+type Person*bob2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÖ Ö(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÖ Ö(&¸
+Scom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?janeVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÜ Ü("
+type Person*jane2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÜ Ü(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÜ Ü((˙
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?annVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á("
+type Person*ann2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á(&˙
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?pooVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaà à("
+type Person*poo2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaà à(2¶
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaà à(&®
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaì ì("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaì ì(◊
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?bobOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî î("
+type Person*bobOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaî î(Ÿ
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?janeOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaï ï("
+type Person*janeOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaï ï(◊
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?annOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ("
+type Person*annOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javañ ñ(◊
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.testDeepCircularReferences()?pooOutVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ó("
+type Person*pooOut2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaó ó(¯
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?inVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷("
+type 
+WeirdThing*in2ë
+<com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThingTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷(2û
+Icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.WeirdThing()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷((®
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaŸ Ÿ("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaŸ Ÿ(Ÿ
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.testWeirdCircularReference()?outVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java› ›("
+type 
+WeirdThing*out2ë
+<com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThingTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java› ›(ê
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?primeVALUEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘("
+type int*prime2X
+intTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘(ï
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?resultVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙("
+type int*result2X
+intTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(É
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)?otherVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ("
+type TreeData*other2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(2¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ' Ñ(*Ö
+Rcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)?parentVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaô ô("
+type TreeData*parent2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaô ô(2™
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaô ô(0è
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(String)?cloneVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¢ ¢("
+type TreeData*clone2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¢ ¢(2∂
+acom.thoughtworks.acceptance.AbstractReferenceTest.replacedReference(java.lang.String)!expectedXmlCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¢3 ¢(>ä
+ccom.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()?emailsVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π("
+type 	EmailList*emails2ê
+;com.thoughtworks.acceptance.AbstractReferenceTest.EmailListTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π(2ú
+Gcom.thoughtworks.acceptance.AbstractReferenceTest.EmailList.EmailList()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π(*∂
+`com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitCollection()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¡ ¡("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¡ ¡(ä
+_com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?emailsVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À("
+type 
+EmailArray*emails2ë
+<com.thoughtworks.acceptance.AbstractReferenceTest.EmailArrayTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(2û
+Icom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray.EmailArray()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(,Ñ
+^com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?aliasVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã("
+type Email*alias2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã(2§
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã(>≤
+\com.thoughtworks.acceptance.AbstractReferenceTest.testReferenceElementInImplicitArrays()?xmlVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷("
+type String*xml2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java÷ ÷(Â
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingCLASSI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaL L("
+inner classfalse*Thing2ô
+?com.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing()DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaO P(	2ü
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(String)DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR T(	2ó
+=com.thoughtworks.acceptance.AbstractReferenceTest.Thing?fieldDECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaM M(2c
+StandardObjectEXTENDI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaL& L(4¥
+?com.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing()CONSTRUCTORI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaO O(*Thing2ë
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaO O(ã
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(String)CONSTRUCTORI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(*Thing2£
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(String)!field	PARAMETERI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(!2®
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(java.lang.String)!fieldCALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaS S(2ë
+7com.thoughtworks.acceptance.AbstractReferenceTest.ThingRETURN_TYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(è
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Thing.Thing(String)!field	PARAMETERI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(!*field2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaR R(ë
+=com.thoughtworks.acceptance.AbstractReferenceTest.Thing?fieldVARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaM M("
+type String*field2c
+java.lang.StringTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaM M(ﬁ
+9com.thoughtworks.acceptance.AbstractReferenceTest.MultRefCLASSI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaW W("
+inner classfalse*MultRef2ñ
+<com.thoughtworks.acceptance.AbstractReferenceTest.MultRef?s1DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaX X('2ñ
+<com.thoughtworks.acceptance.AbstractReferenceTest.MultRef?s2DECLARATIONI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaY Y(˚
+<com.thoughtworks.acceptance.AbstractReferenceTest.MultRef?s1VARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaX X("
+type Object*s12c
+java.lang.ObjectTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaX X(2l
+java.lang.Object.Object()CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaX X('ü
+<com.thoughtworks.acceptance.AbstractReferenceTest.MultRef?s2VARIABLEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaY Y("
+type Object*s22c
+java.lang.ObjectTYPEI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaY Y(2è
+<com.thoughtworks.acceptance.AbstractReferenceTest.MultRef?s1CALLI
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaY Y(œ
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java√ √("
+inner classfalse*Person2ù
+Acom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java» …(	2£
+Gcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ Õ(	2û
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.Person?firstnameDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ƒ(2ö
+>com.thoughtworks.acceptance.AbstractReferenceTest.Person?likesDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≈ ≈(2ú
+@com.thoughtworks.acceptance.AbstractReferenceTest.Person?loathesDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆(º
+Acom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person()CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java» »(*Person2î
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java» »(ô
+Gcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(String)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(*Person2¶
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(!2´
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(java.lang.String)!nameCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÃ Ã(!2î
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(ì
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.Person.Person(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(!*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÀ À(û
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.Person?firstnameVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ƒ("
+type String*	firstname2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaƒ ƒ(ø
+>com.thoughtworks.acceptance.AbstractReferenceTest.Person?likesVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≈ ≈("
+type Person*likes2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≈ ≈(√
+@com.thoughtworks.acceptance.AbstractReferenceTest.Person?loathesVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆("
+type Person*loathes2ç
+8com.thoughtworks.acceptance.AbstractReferenceTest.PersonTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆(¥
+?com.thoughtworks.acceptance.AbstractReferenceTest.LinkedElementCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java– –("
+inner classfalse*LinkedElement2±
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ÷(	2†
+Dcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement?nameDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java— —(2†
+Dcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement?nextDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java“ “(—
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(String)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(*LinkedElement2¥
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(!2π
+dcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(java.lang.String)!nameCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java’ ’(2õ
+?com.thoughtworks.acceptance.AbstractReferenceTest.LinkedElementRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(°
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement.LinkedElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(!*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‘ ‘(õ
+Dcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement?nameVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java— —("
+type String*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java— —(“
+Dcom.thoughtworks.acceptance.AbstractReferenceTest.LinkedElement?nextVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java“ “("
+type LinkedElement*next2î
+?com.thoughtworks.acceptance.AbstractReferenceTest.LinkedElementTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java“ “(Ä
+=com.thoughtworks.acceptance.AbstractReferenceTest.TreeElementCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaŸ Ÿ("
+inner classfalse*TreeElement2≥
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(StringBuffer)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ‡(	2≠
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‰(	2û
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?nameDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java⁄ ⁄(2û
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?leftDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java€ €(2ü
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?rightDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‹ ‹(”
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(StringBuffer)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ﬁ(*TreeElement2∂
+\com.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(StringBuffer)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ﬁ(%2ª
+fcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(java.lang.StringBuffer)!nameCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬂ ﬂ(2ô
+=com.thoughtworks.acceptance.AbstractReferenceTest.TreeElementRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ﬁ(Œ
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(String)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(*TreeElement2∞
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(2ä
+5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java„ „(.2µ
+`com.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(java.lang.String)!nameCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java„) „(-2ô
+=com.thoughtworks.acceptance.AbstractReferenceTest.TreeElementRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(©
+\com.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(StringBuffer)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ! ﬁ(%*name2k
+java.lang.StringBufferTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaﬁ ﬁ( ù
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement.TreeElement(String)!name	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(*name2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‚ ‚(•
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?nameVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java⁄ ⁄("
+type StringBuffer*name2k
+java.lang.StringBufferTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java⁄ ⁄(Ã
+Bcom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?leftVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java€ €("
+type TreeElement*left2í
+=com.thoughtworks.acceptance.AbstractReferenceTest.TreeElementTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java€ €(Œ
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeElement?rightVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‹ ‹("
+type TreeElement*right2í
+=com.thoughtworks.acceptance.AbstractReferenceTest.TreeElementTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‹ ‹(Ä
+<com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThingCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java® ®(""
+inner classfalse*
+WeirdThing2∂
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ∞(	2∏
+\com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ µ(	2∂
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ª(2∏
+\com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ ø(2¶
+Jcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?anotherObjectDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java©  ©(-2§
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?nestedThingDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(;2k
+java.io.SerializableEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java®. ®(:2§
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThingDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∑ ¡(	√
+
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨ ¨("
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2∑
+]com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨  ¨(42Ç
+-java.io.ObjectInputStream.defaultReadObject()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÆ Æ("2{
+&java.io.ObjectInputStream.readObject()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaØ Ø(+2∫
+ecom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(java.io.ObjectInputStream)!inCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÆ Æ(2ü
+Jcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?anotherObjectCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaØ Ø(2∫
+ecom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(java.io.ObjectInputStream)!inCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaØ Ø(2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(‰
+
+\com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤ ≤( "
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2∫
+`com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤! ≤(72Ñ
+/java.io.ObjectOutputStream.defaultWriteObject()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ ≥($2ç
+8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥(*2Ω
+hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(java.io.ObjectOutputStream)!outCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ ≥(2Ω
+hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(java.io.ObjectOutputStream)!outCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥(2ü
+Jcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?anotherObjectCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥()2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤@ ≤(K´
+]com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨2 ¨(4*in2n
+java.io.ObjectInputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¨  ¨(1∞
+`com.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤4 ≤(7*out2o
+java.io.ObjectOutputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≤! ≤(3∑
+icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏6 ∏(8*in2n
+java.io.ObjectInputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏$ ∏(5º
+lcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ8 Ω(;*out2o
+java.io.ObjectOutputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ% Ω(7™
+Jcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?anotherObjectVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java©  ©(-"
+type Object*anotherObject2e
+java.lang.ObjectTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java© ©(í
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing?nestedThingVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™('"
+type NestedThing*nestedThing2ù
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThingTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(2´
+Vcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.NestedThing()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™* ™(;π
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThingCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∑ ∑(!"
+inner classtrue*NestedThing2¬
+fcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ª(2ƒ
+hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ ø(2k
+java.io.SerializableEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∑- ∑(9ã
+fcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏ ∏(#"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*
+readObject2√
+icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏$ ∏(82Ç
+-java.io.ObjectInputStream.defaultReadObject()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∫ ∫(&2∆
+qcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(java.io.ObjectInputStream)!inCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∫ ∫(2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaπ π("ñ
+hcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ Ω($"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type void*writeObject2∆
+lcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ% Ω(;2Ñ
+/java.io.ObjectOutputStream.defaultWriteObject()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaæ æ((2…
+tcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(java.io.ObjectOutputStream)!outCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaæ æ(2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩD Ω(O∑
+icom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.readObject(ObjectInputStream)!in	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏6 ∏(8*in2n
+java.io.ObjectInputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∏$ ∏(5º
+lcom.thoughtworks.acceptance.AbstractReferenceTest.WeirdThing.NestedThing.writeObject(ObjectOutputStream)!out	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ8 Ω(;*out2o
+java.io.ObjectOutputStreamTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaΩ% Ω(7Ó
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java„ „( "
+inner classfalse*TreeData2§
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(TreeData)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ ˆ(	2°
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¯ ˛(	2•
+Icom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ å(	2•
+Icom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.writeReplace()DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaé ì(	2ß
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Î(	2©
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(TreeData)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ò(	2õ
+?com.thoughtworks.acceptance.AbstractReferenceTest.TreeData?dataDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‰ ‰(2ù
+Acom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?parentDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÂ Â(2ü
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?childrenDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÊ Ê(2k
+java.io.SerializableEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java„, „(8∫
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(String)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(*TreeData2™
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(String)!data	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(#2t
+java.util.ArrayList.ArrayList()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÍ Í(&2Ø
+Zcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(java.lang.String)!dataCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÈ È(2ò
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?childrenCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÍ Í(2ñ
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(·
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(TreeData)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì(*TreeData2≠
+Scom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(TreeData)!clone	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì('2î
+?com.thoughtworks.acceptance.AbstractReferenceTest.TreeData?dataCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÓ Ó(2€
+Öcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)!cloneCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÓ Ó(2ñ
+Acom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?parentCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÔ Ô(2€
+Öcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)!cloneCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÔ Ô(2ò
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?childrenCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java (2€
+Öcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)!cloneCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java (2ñ
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì(ó
+Pcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(String)!data	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(#*data2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaË Ë(∆
+Scom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(TreeData)!clone	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ" Ì('*clone2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÌ Ì(!µ	
+Hcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(TreeData)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ Û("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*add2®
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(TreeData)!child	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ Û(&2j
+java.util.List.add(E)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaı ı(2÷
+Äcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)!childCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÙ Ù(2ò
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?childrenCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaı ı(2÷
+Äcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)!childCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaı ı(2`
+voidRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ Û(à
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¯ ¯("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type int*hashCode2ß
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?primeDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘( 2®
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?resultDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(2n
+java.util.List.hashCode()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˚E ˚(]2p
+java.lang.String.hashCode()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¸A ¸(U2_
+intRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¯ ¯(Ì
+Icom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ Ä("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2ß
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)!obj	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ Ä((2´
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)?otherDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(*2|
+'java.util.List.equals(java.lang.Object)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaá á(<2~
+)java.lang.String.equals(java.lang.Object)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaä ä(42¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÅ Å(2¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÇ Ç(2¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÉ É(2¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ' Ñ(*2c
+booleanRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ Ä(≥
+Icom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.writeReplace()METHODK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaé é(#"
+staticfalse"
+finalfalse"
+access modifierprivate"
+type Object*writeReplace2p
+java.lang.Object.getClass()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaè è(2‘
+com.thoughtworks.acceptance.AbstractReferenceTest.TreeData.TreeData(com.thoughtworks.acceptance.AbstractReferenceTest.TreeData)CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaí í(%2l
+java.lang.ObjectRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaé é(¡
+Ncom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.add(TreeData)!child	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ! Û(&*child2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÛ Û( ì
+Mcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)!obj	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ% Ä((*obj2e
+java.lang.ObjectTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÄ Ä($ê
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?primeVALUEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘("
+type int*prime2X
+intTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˘ ˘(ï
+Lcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.hashCode()?resultVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙("
+type int*result2X
+intTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java˙ ˙(É
+Ocom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(Object)?otherVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ("
+type TreeData*other2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ Ñ(2¨
+Wcom.thoughtworks.acceptance.AbstractReferenceTest.TreeData.equals(java.lang.Object)!objCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÑ' Ñ(*ñ
+?com.thoughtworks.acceptance.AbstractReferenceTest.TreeData?dataVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‰ ‰("
+type String*data2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java‰ ‰(«
+Acom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?parentVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÂ Â("
+type TreeData*parent2è
+:com.thoughtworks.acceptance.AbstractReferenceTest.TreeDataTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÂ Â(ö
+Ccom.thoughtworks.acceptance.AbstractReferenceTest.TreeData?childrenVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÊ Ê("
+type List*children2c
+java.util.ListTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÊ Ê(ó
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¶ ¶("
+inner classfalse*Email2°
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ¨(	2ß
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)DECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ∞(	2ô
+=com.thoughtworks.acceptance.AbstractReferenceTest.Email?emailDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaß ß(2ô
+=com.thoughtworks.acceptance.AbstractReferenceTest.Email?aliasDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java® ®(!2e
+StandardObjectEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¶ ¶(-ì
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(*Email2•
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(2™
+Ucom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String)!emailCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java´ ´(2ì
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(Ó
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)CONSTRUCTORK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(*Email2´
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(2´
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!alias	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠('2‰
+écom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String, com.thoughtworks.acceptance.AbstractReferenceTest.Email)!emailCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaÆ Æ(2‰
+écom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(java.lang.String, com.thoughtworks.acceptance.AbstractReferenceTest.Email)!aliasCALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaØ Ø(2ì
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailRETURN_TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(ì
+Kcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(*email2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java™ ™(ô
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!email	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(*email2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(¡
+Qcom.thoughtworks.acceptance.AbstractReferenceTest.Email.Email(String,Email)!alias	PARAMETERK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠" ≠('*alias2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≠ ≠(!ï
+=com.thoughtworks.acceptance.AbstractReferenceTest.Email?emailVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaß ß("
+type String*email2e
+java.lang.StringTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaß ß(π
+=com.thoughtworks.acceptance.AbstractReferenceTest.Email?aliasVALUEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java® ®(!"
+type Email*alias2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java® ®(‹
+;com.thoughtworks.acceptance.AbstractReferenceTest.EmailListCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥ ≥("
+inner classfalse*	EmailList2°
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.EmailList?addressesDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥((2ú
+@com.thoughtworks.acceptance.AbstractReferenceTest.EmailList?mainDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaµ µ(2e
+StandardObjectEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≥# ≥(1ì
+Ecom.thoughtworks.acceptance.AbstractReferenceTest.EmailList?addressesVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥("
+type List*	addresses2c
+java.util.ListTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥(2t
+java.util.ArrayList.ArrayList()CALLK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java¥ ¥((æ
+@com.thoughtworks.acceptance.AbstractReferenceTest.EmailList?mainVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaµ µ("
+type Email*main2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.javaµ µ(‡
+<com.thoughtworks.acceptance.AbstractReferenceTest.EmailArrayCLASSK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≈ ≈("
+inner classfalse*
+EmailArray2¢
+Fcom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray?addressesDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆(2ù
+Acom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray?mainDECLARATIONK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java« «(2e
+StandardObjectEXTENDK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java≈$ ≈(2Õ
+Fcom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray?addressesVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆("
+type Email[]*	addresses2é
+9com.thoughtworks.acceptance.AbstractReferenceTest.Email[]TYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java∆ ∆(ø
+Acom.thoughtworks.acceptance.AbstractReferenceTest.EmailArray?mainVARIABLEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java« «("
+type Email*main2å
+7com.thoughtworks.acceptance.AbstractReferenceTest.EmailTYPEK
+?src/test/com/thoughtworks/acceptance/AbstractReferenceTest.java« «(

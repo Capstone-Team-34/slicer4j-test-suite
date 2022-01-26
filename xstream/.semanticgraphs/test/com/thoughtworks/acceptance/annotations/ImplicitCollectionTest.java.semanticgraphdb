@@ -1,0 +1,451 @@
+
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÇ
+>com.thoughtworks.acceptance.annotations.ImplicitCollectionTestCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (#"
+inner classfalse*ImplicitCollectionTest2µ
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.createXStream()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java  %(2∂
+Ocom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java' 1(2«
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java3 =(2Œ
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationFailsForInvalidFieldType()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java? F(2±
+Jcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.getValues()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaM O(	2Ω
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.setValues(List<String>)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ S(	2±
+Jcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.getValues()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java[ ](	2Ω
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.setValues(List<String>)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ a(	2∞
+Icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.getValue()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javai k(	2∂
+Ocom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.setValue(String)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam o(	2—
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()DECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÖ ë(2Ã
+ccom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()DECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaô ¢(2…
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()DECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÆ µ(2µ
+Mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point(int,int)DECLARATIONW
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java Ç(	2±
+Hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped()DECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java© ´(	2x
+AbstractAcceptanceTestEXTENDV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java, (B¢
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!x	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (*x2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (¢
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!y	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java  (!*y2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (¿
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.createXStream()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java! !(#"
+staticfalse"
+finalfalse"
+access modifier	protected"
+type XStream*createXStream2Ω
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.createXStream()?xstreamDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java" "(/2n
+XStreamRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java! !(¨
+Ocom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java' '("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testAnnotation2ø
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()?expectedDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java( ,(2√
+\com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()?implicitRootDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java- -(<2u
+java.util.List.add(E)CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java. .(+2∫
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.getValues()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java. .( 2u
+java.util.List.add(E)CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java/ /(+2∫
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.getValues()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java/ /( 2¿
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.ImplicitRootOne()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java-' -(<2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java' '(
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java3 3(/"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testAnnotationWithItemFieldName2–
+icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()?expectedDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java4 8(2‘
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()?implicitRootDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java9 9(<2u
+java.util.List.add(E)CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java: :(+2∫
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.getValues()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java: :( 2u
+java.util.List.add(E)CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java; ;(+2∫
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.getValues()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java; ;( 2¿
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.ImplicitRootTwo()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java9' 9(<2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java3 3(©
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationFailsForInvalidFieldType()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java? ?(6"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*&testAnnotationFailsForInvalidFieldType2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java? ?(ˆ
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()METHODX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÖ Ö(7"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*'testAnnotationHandlesParameterizedTypes2’
+lcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()?xmlDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÜ ã(2÷
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()?rootDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaå" å(H2|
+java.util.ArrayList.add(E)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaé é(72|
+java.util.ArrayList.add(E)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaè è(92~
+java.util.ArrayList.get(int)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaè è("2÷
+tcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedType.ImplicitParameterizedType()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaå) å(H2Å
+java.util.ArrayList.ArrayList()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaç ç(?2Å
+java.util.ArrayList.ArrayList()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaé  é(62∂
+Tcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int, int)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaè' è(82m
+voidRETURN_TYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÖ Ö(™
+ccom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()METHODX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaô ô(2"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*"testWorksForTypesThatAreInterfaces2—
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()?typeDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaö$ ö(L2–
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()?xmlDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaù †(2|
+java.util.ArrayList.add(E)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaú ú($2⁄
+xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterface.ParametrizedTypeIsInterface()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaö+ ö(L2Å
+java.util.ArrayList.ArrayList()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaõ õ((2}
+java.util.HashMap.HashMap()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaú ú(#2m
+voidRETURN_TYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaô ô(¯
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()METHODX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÆ Æ(/"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testCanHandleUntypedCollections2—
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()?untypedDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaØ Ø('2Õ
+dcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()?xmlDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java∞ ≥(2≤
+Pcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped.Untyped()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaØ Ø('2m
+voidRETURN_TYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÆ Æ(›
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ+ Q(1*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ Q(*›
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_+ _(1*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ _(*«
+icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(String)!value	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam$ m()*value2p
+java.lang.StringTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam m(#æ
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.createXStream()?xstreamVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java" "("
+type XStream*xstream2g
+XStreamTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java" "(…
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()?expectedVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java( (("
+type String*expected2p
+java.lang.StringTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java( ((‹
+\com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotation()?implicitRootVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java- -($"
+type ImplicitRootOne*implicitRoot2Æ
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOneTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java- -(2¿
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.ImplicitRootOne()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java-' -(<⁄
+icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()?expectedVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java4 4("
+type String*expected2p
+java.lang.StringTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java4 4(Ì
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationWithItemFieldName()?implicitRootVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java9 9($"
+type ImplicitRootTwo*implicitRoot2Æ
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwoTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java9 9(2¿
+`com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.ImplicitRootTwo()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java9' 9(<‹
+lcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()?xmlVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÜ Ü("
+type String*xml2r
+java.lang.StringTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÜ Ü(ì
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testAnnotationHandlesParameterizedTypes()?rootVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaå" å(&""
+type ImplicitParameterizedType*root2∫
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedTypeTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaå å(!2÷
+tcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedType.ImplicitParameterizedType()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaå) å(Hñ
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()?typeVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaö$ ö(("$
+type ParametrizedTypeIsInterface*type2º
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterfaceTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaö ö(#2⁄
+xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterface.ParametrizedTypeIsInterface()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaö+ ö(L◊
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testWorksForTypesThatAreInterfaces()?xmlVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaù ù("
+type String*xml2r
+java.lang.StringTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaù ù(…
+hcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()?untypedVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaØ Ø("
+type Untyped*untyped2®
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.UntypedTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaØ Ø(2≤
+Pcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped.Untyped()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaØ Ø('‘
+dcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.testCanHandleUntypedCollections()?xmlVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java∞ ∞("
+type String*xml2r
+java.lang.StringTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java∞ ∞(©
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOneCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaI I('"
+inner classfalse*ImplicitRootOne2¡
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.getValues()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaM O(	2Õ
+fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(List<String>)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ S(	2º
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne?valuesDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaK K(=‹
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.getValues()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaM M(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List<String>*	getValues2µ
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne?valuesCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaN N(2á
+ java.util.List<java.lang.String>RETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaM M(≈
+fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(List<String>)METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ Q("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	setValues2“
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ Q(12‚
+Åcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(java.util.List<java.lang.String>)!valuesCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaR R( 2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ Q(›
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ+ Q(1*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaQ Q(*‹
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootOne?valuesVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaK K(#"
+type List<String>*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaK K(2
+java.util.ArrayList.ArrayList()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaK& K(=©
+Ncom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwoCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaW W('"
+inner classfalse*ImplicitRootTwo2¡
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.getValues()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java[ ](	2Õ
+fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(List<String>)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ a(	2º
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo?valuesDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaY Y(=‹
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.getValues()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java[ [(%"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List<String>*	getValues2µ
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo?valuesCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java\ \(2á
+ java.util.List<java.lang.String>RETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java[ [(≈
+fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(List<String>)METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ _("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*	setValues2“
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ _(12‚
+Åcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(java.util.List<java.lang.String>)!valuesCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java` `( 2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ _(›
+mcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo.setValues(List<String>)!values	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_+ _(1*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java_ _(*‹
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitRootTwo?valuesVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaY Y(#"
+type List<String>*values2Ä
+ java.util.List<java.lang.String>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaY Y(2
+java.util.ArrayList.ArrayList()CALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaY& Y(=¥
+Rcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRootCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javae e(+"
+inner classfalse*InvalidImplicitRoot2ƒ
+]com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.getValue()DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javai k(	2 
+ccom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(String)DECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam o(	2ø
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot?valueDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javag g( 
+]com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.getValue()METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javai i("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getValue2∏
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot?valueCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaj j(2w
+java.lang.StringRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javai i(Æ
+ccom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(String)METHODV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam m("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*setValue2Œ
+icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(String)!value	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam m()2”
+scom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(java.lang.String)!valueCALLV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javan n(2k
+voidRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam m(«
+icom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot.setValue(String)!value	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam$ m()*value2p
+java.lang.StringTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javam m(#∆
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.InvalidImplicitRoot?valueVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javag g("
+type String*value2p
+java.lang.StringTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javag g(ª
+Xcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedTypeCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javas s(1"
+inner classfalse*ImplicitParameterizedType2Œ
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedType?signatureLinesDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javau, u(:“
+gcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ImplicitParameterizedType?signatureLinesVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javau, u(:"$
+type ArrayList<ArrayList<Point>>*signatureLines2Œ
+njava.util.ArrayList<java.util.ArrayList<com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point>>TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javau u(+‡
+Dcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.PointCLASSV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javay y("
+inner classfalse*Point2ª
+Scom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)DECLARATIONW
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java Ç(	2≠
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point?xDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java{ {(2≠
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point?yDECLARATIONV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java} }(ﬂ
+Scom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)CONSTRUCTORV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (*Point2∫
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!x	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (2∫
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!y	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (!2∏
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int, int)!xCALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÄ Ä(2∏
+Vcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int, int)!yCALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaÅ Å(2´
+Dcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.PointRETURN_TYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (¢
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!x	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (*x2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (¢
+Ucom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point.Point(int,int)!y	PARAMETERV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java  (!*y2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java (†
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point?xVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java{ {("
+type int*x2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java{ {(†
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Point?yVARIABLEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java} }("
+type int*y2c
+intTYPEV
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java} }(ª
+Zcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterfaceCLASSX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaî î(3"
+inner classfalse*ParametrizedTypeIsInterface2»
+_com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterface?listDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javañ ñ(:Ô
+_com.thoughtworks.acceptance.annotations.ImplicitCollectionTest.ParametrizedTypeIsInterface?listVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javañ ñ(#"
+type ArrayList<Map>*list2Ñ
+"java.util.ArrayList<java.util.Map>TYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javañ ñ(2Å
+java.util.ArrayList.ArrayList()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javañ& ñ(:ª
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.UntypedCLASSX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java• •( "
+inner classfalse*Untyped2π
+Pcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped.Untyped()DECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java© ´(	2¥
+Kcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped?listDECLARATIONX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaß ß(+ù
+Pcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped.Untyped()CONSTRUCTORX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java© ©(*Untyped2w
+java.util.List.add(E)CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java™ ™(2≠
+Kcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped?listCALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java™ ™(2Ø
+Fcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.UntypedRETURN_TYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.java© ©(º
+Kcom.thoughtworks.acceptance.annotations.ImplicitCollectionTest.Untyped?listVARIABLEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaß ß("
+type List*list2p
+java.util.ListTYPEX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaß ß(2Å
+java.util.ArrayList.ArrayList()CALLX
+Lsrc/test/com/thoughtworks/acceptance/annotations/ImplicitCollectionTest.javaß ß(+

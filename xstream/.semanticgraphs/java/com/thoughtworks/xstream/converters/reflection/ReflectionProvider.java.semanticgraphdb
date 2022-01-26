@@ -1,0 +1,209 @@
+
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.javaï
+Acom.thoughtworks.xstream.converters.reflection.ReflectionProviderTRAITY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (#"
+inner classfalse*ReflectionProvider2¾
+Tcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.newInstance(Class)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (#2Ó
+icom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (A2Ò
+hcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java   (T2Í
+ccom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java" "(I2Í
+ccom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$ $(>2Ì
+bcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visit(String,Class,Class,Object)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(K2Â
+Xcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <(3Ü
+Tcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.newInstance(Class)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java ("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Object*newInstance2Á
+Ycom.thoughtworks.xstream.converters.reflection.ReflectionProvider.newInstance(Class)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (!2z
+java.lang.ObjectRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (
+â
+icom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java	 ( "
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*visitSerializableFields2Ø
+pcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java! (.2Ù
+qcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)!visitor	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java0 (?2n
+voidRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (Š
+
+hcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java 	  ("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*
+writeField2×
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java   (!2Ú
+rcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java #  (32Ö
+ncom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!value	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java 5  (A2Ú
+rcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java C  (R2n
+voidRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java   («
+ccom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"
+ "("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Class*getFieldType2Ò
+jcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java" "($2Õ
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"& "(62Õ
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"8 "(G2y
+java.lang.ClassRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java" "(	Ò
+ccom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$ $("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type boolean*fieldDefinedInClass2Õ
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$  $(02Ð
+hcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$2 $(<2q
+booleanRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$ $(º
+Xcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type Field*getField2Ê
+bcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <(2Ê
+bcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java<! <(12
+java.lang.reflect.FieldRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <(»
+Ycom.thoughtworks.xstream.converters.reflection.ReflectionProvider.newInstance(Class)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (!*type2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java (Õ
+pcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java( (.*object2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java! ('‘
+qcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.visitSerializableFields(Object,Visitor)!visitor	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java8 (?*visitor2¬
+Icom.thoughtworks.xstream.converters.reflection.ReflectionProvider.VisitorTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java0 (7Ô
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java   (!*object2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java   (Ú
+rcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java *  (3*	fieldName2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java #  ()Ò
+ncom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!value	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java <  (A*value2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java 5  (;Ù
+rcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.writeField(Object,String,Object,Class)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java I  (R*	definedIn2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java C  (HÏ
+jcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!object	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java" "($*object2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java" "(Õ
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"- "(6*	fieldName2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"& "(,Ô
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getFieldType(Object,String,Class)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"> "(G*	definedIn2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java"8 "(=Õ
+mcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$' $(0*	fieldName2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$  $(&Ê
+hcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.fieldDefinedInClass(String,Class)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$8 $(<*type2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java$2 $(7Ò
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(*name2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(Ñ
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3& 3(**type2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3  3(%Û
+tcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java32 3(;*	definedIn2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3, 3(1Ô
+pcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3D 3(I*value2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3= 3(CÉ
+bcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <(*	definedIn2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java< <(Ê
+bcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.getField(Class,String)!fieldName	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java<( <(1*	fieldName2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java<! <('£
+Icom.thoughtworks.xstream.converters.reflection.ReflectionProvider.VisitorTRAITY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java* *("
+inner classfalse*Visitor2Ô
+jcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)DECLARATIONY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(Kˆ
+
+jcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)METHODY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3("
+staticfalse"
+finalfalse""
+access modifierpackage_private"
+type void*visit2×
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(2×
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3  3(*2Ü
+tcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3, 3(;2Ø
+pcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3= 3(I2n
+voidRETURN_TYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(Ò
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!name	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(*name2s
+java.lang.StringTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3 3(Ñ
+ocom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!type	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3& 3(**type2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3  3(%Û
+tcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!definedIn	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java32 3(;*	definedIn2r
+java.lang.ClassTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3, 3(1Ô
+pcom.thoughtworks.xstream.converters.reflection.ReflectionProvider.Visitor.visit(String,Class,Class,Object)!value	PARAMETERY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3D 3(I*value2s
+java.lang.ObjectTYPEY
+Osrc/java/com/thoughtworks/xstream/converters/reflection/ReflectionProvider.java3= 3(C

@@ -1,0 +1,433 @@
+
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaª
++com.thoughtworks.acceptance.InheritanceTestCLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ("
+inner classfalse*InheritanceTest2£
+Ocom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java "(2è
+;com.thoughtworks.acceptance.InheritanceTest.getParentName()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java. 0(	2é
+:com.thoughtworks.acceptance.InheritanceTest.getChildName()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java> @(	2ä
+6com.thoughtworks.acceptance.InheritanceTest.toString()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaB D(	2é
+:com.thoughtworks.acceptance.InheritanceTest.equals(Object)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF H(	2≠
+Ycom.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaK [(2∑
+ccom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javah t(2ê
+<com.thoughtworks.acceptance.InheritanceTest.getParentStuff()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javay {(	2ë
+;com.thoughtworks.acceptance.InheritanceTest.getChildStuff()DECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÅ É(	2ê
+:com.thoughtworks.acceptance.InheritanceTest.equals(Object)DECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ è(	2•
+Ocom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()DECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaí •(2ç
+9com.thoughtworks.acceptance.InheritanceTest.ParentClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java' ((	2ì
+?com.thoughtworks.acceptance.InheritanceTest.ParentClass(String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* ,(	2å
+8com.thoughtworks.acceptance.InheritanceTest.ChildClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java6 7(	2ô
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass(String,String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 <(	2í
+>com.thoughtworks.acceptance.InheritanceTest.StaticChildClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java` a(	2ò
+Dcom.thoughtworks.acceptance.InheritanceTest.StaticChildClass(String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac e(	2e
+AbstractAcceptanceTestEXTENDC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java% (;á
+Pcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(String)!name	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java*" *(&*name2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* *(!ò
+[com.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9! 9(+*
+parentName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 9( ñ
+Zcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!childName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java94 9(=*	childName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9- 9(3ù
+`com.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac' c(1*
+parentName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac  c(&…
+Ocom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testHandlesInheritanceHierarchies2∂
+bcom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()?openSourceSoftwareDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (g2ß
+Scom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()?xmlDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ( 	
+Ycom.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaK K(;"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*+testInheritanceHidingPrivateFieldOfSameName2≥
+_com.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()?childDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaO O(<2∂
+bcom.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()?expectedDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaT X(2î
+Gcom.thoughtworks.acceptance.InheritanceTest.ParentClass.getParentName()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaQ Q(42í
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.getChildName()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaR R(22≤
+ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(java.lang.String, java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaO O(<2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaK K(◊
+ccom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javah h(E"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*5testHandlesStaticFieldInChildDoesNotHideFieldInParent2Ω
+icom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()?childDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javak k(?2¿
+lcom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()?expectedDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javal o(2î
+Gcom.thoughtworks.acceptance.InheritanceTest.ParentClass.getParentName()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javar r(42¨
+_com.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javak! k(?2X
+voidRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javah h(◊
+Ocom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()METHODE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaí í(1"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*!testHiddenFieldsWithDifferentType2¨
+Vcom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()?childADECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaï ï($2Æ
+Xcom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()?expectedDECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaò £(2ä
+;com.thoughtworks.acceptance.InheritanceTest.ChildA.ChildA()CALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaï ï($2Z
+voidRETURN_TYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaí í(ˇ
+Icom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(Object)!obj	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF% F((*obj2]
+java.lang.ObjectTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF F($ˇ
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)!obj	PARAMETERE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ% Ö((*obj2_
+java.lang.ObjectTYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ Ö($≈
+bcom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()?openSourceSoftwareVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (-"
+type OpenSourceSoftware*openSourceSoftware2_
+OpenSourceSoftwareTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (ô
+Scom.thoughtworks.acceptance.InheritanceTest.testHandlesInheritanceHierarchies()?xmlVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ("
+type String*xml2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (á
+_com.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()?childVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaO O("
+type 
+ChildClass*child2É
+6com.thoughtworks.acceptance.InheritanceTest.ChildClassTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaO O(2≤
+ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(java.lang.String, java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaO O(<≠
+bcom.thoughtworks.acceptance.InheritanceTest.testInheritanceHidingPrivateFieldOfSameName()?expectedVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaT T("
+type String*expected2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaT T(ó
+icom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()?childVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javak k("
+type StaticChildClass*child2â
+<com.thoughtworks.acceptance.InheritanceTest.StaticChildClassTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javak k(2¨
+_com.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javak! k(?∑
+lcom.thoughtworks.acceptance.InheritanceTest.testHandlesStaticFieldInChildDoesNotHideFieldInParent()?expectedVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javal l("
+type String*expected2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javal l(œ
+Ccom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)?aVARIABLEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ Ü("
+type ChildA*a2Å
+2com.thoughtworks.acceptance.InheritanceTest.ChildATYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ Ü(2û
+Ocom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(java.lang.Object)!objCALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ  Ü(#”
+Vcom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()?childAVARIABLEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaï ï("
+type ChildA*childA2Å
+2com.thoughtworks.acceptance.InheritanceTest.ChildATYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaï ï(2ä
+;com.thoughtworks.acceptance.InheritanceTest.ChildA.ChildA()CALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaï ï($ß
+Xcom.thoughtworks.acceptance.InheritanceTest.testHiddenFieldsWithDifferentType()?expectedVARIABLEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaò ò("
+type String*expected2_
+java.lang.StringTYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaò ò(ó
+7com.thoughtworks.acceptance.InheritanceTest.ParentClassCLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java$ $(#"
+inner classfalse*ParentClass2õ
+Gcom.thoughtworks.acceptance.InheritanceTest.ParentClass.getParentName()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java. 0(	2ô
+Ecom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java' ((	2ü
+Kcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* ,(	2ê
+<com.thoughtworks.acceptance.InheritanceTest.ParentClass?nameDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java% %(¥
+Ecom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass()CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java' '(*ParentClass2ã
+7com.thoughtworks.acceptance.InheritanceTest.ParentClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java' '(â
+Kcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(String)CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* *(*ParentClass2¢
+Pcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(String)!name	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* *(&2ß
+Zcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(java.lang.String)!nameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java+ +(2ã
+7com.thoughtworks.acceptance.InheritanceTest.ParentClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* *(á
+Pcom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(String)!name	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java*" *(&*name2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java* *(!‰
+Gcom.thoughtworks.acceptance.InheritanceTest.ParentClass.getParentName()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java. .(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getParentName2â
+<com.thoughtworks.acceptance.InheritanceTest.ParentClass?nameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java/ /(2d
+java.lang.StringRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java. .(É
+<com.thoughtworks.acceptance.InheritanceTest.ParentClass?nameVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java% %("
+type String*name2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java% %(“	
+6com.thoughtworks.acceptance.InheritanceTest.ChildClassCLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java3 3(""
+inner classfalse*
+ChildClass2ô
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.getChildName()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java> @(	2ï
+Acom.thoughtworks.acceptance.InheritanceTest.ChildClass.toString()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaB D(	2ô
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(Object)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF H(	2ó
+Ccom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java6 7(	2§
+Pcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 <(	2è
+;com.thoughtworks.acceptance.InheritanceTest.ChildClass?nameDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java4 4(2Ü
+7com.thoughtworks.acceptance.InheritanceTest.ParentClassEXTENDC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java3+ 3(6∞
+Ccom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass()CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java6 6(*
+ChildClass2ä
+6com.thoughtworks.acceptance.InheritanceTest.ChildClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java6 6(¿	
+Pcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 9(*
+ChildClass2≠
+[com.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 9(+2¨
+Zcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!childName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9- 9(=2¢
+Ucom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java: :(2Ω
+pcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(java.lang.String, java.lang.String)!parentNameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java: :(2º
+ocom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(java.lang.String, java.lang.String)!childNameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java; ;(!2ä
+6com.thoughtworks.acceptance.InheritanceTest.ChildClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 9(ò
+[com.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9! 9(+*
+parentName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9 9( ñ
+Zcom.thoughtworks.acceptance.InheritanceTest.ChildClass.ChildClass(String,String)!childName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java94 9(=*	childName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java9- 9(3‡
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.getChildName()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java> >(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*getChildName2à
+;com.thoughtworks.acceptance.InheritanceTest.ChildClass?nameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java? ?(2d
+java.lang.StringRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java> >(˘
+Acom.thoughtworks.acceptance.InheritanceTest.ChildClass.toString()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaB B("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type String*toString2î
+Gcom.thoughtworks.acceptance.InheritanceTest.ParentClass.getParentName()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaC C("2í
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.getChildName()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaC+ C(92d
+java.lang.StringRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaB B(˚
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(Object)METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF F("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2õ
+Icom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(Object)!obj	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF F((2v
+)java.lang.String.equals(java.lang.Object)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaG G(42é
+Acom.thoughtworks.acceptance.InheritanceTest.ChildClass.toString()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaG G(2h
+java.lang.Object.toString()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaG% G(32†
+Scom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(java.lang.Object)!objCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaG% G((2[
+booleanRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF F(ˇ
+Icom.thoughtworks.acceptance.InheritanceTest.ChildClass.equals(Object)!obj	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF% F((*obj2]
+java.lang.ObjectTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaF F($Ç
+;com.thoughtworks.acceptance.InheritanceTest.ChildClass?nameVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java4 4("
+type String*name2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java4 4(•
+<com.thoughtworks.acceptance.InheritanceTest.StaticChildClassCLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java] ](("
+inner classfalse*StaticChildClass2£
+Ocom.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java` a(	2©
+Ucom.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(String)DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac e(	2ï
+Acom.thoughtworks.acceptance.InheritanceTest.StaticChildClass?nameDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java^ ^(,2Ü
+7com.thoughtworks.acceptance.InheritanceTest.ParentClassEXTENDC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java]1 ](<»
+Ocom.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass()CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java` `(*StaticChildClass2ê
+<com.thoughtworks.acceptance.InheritanceTest.StaticChildClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java` `(‚
+Ucom.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(String)CONSTRUCTORC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac c(*StaticChildClass2≤
+`com.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac  c(12¢
+Ucom.thoughtworks.acceptance.InheritanceTest.ParentClass.ParentClass(java.lang.String)CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javad d(2∑
+jcom.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(java.lang.String)!parentNameCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javad d(2ê
+<com.thoughtworks.acceptance.InheritanceTest.StaticChildClassRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac c(ù
+`com.thoughtworks.acceptance.InheritanceTest.StaticChildClass.StaticChildClass(String)!parentName	PARAMETERC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac' c(1*
+parentName2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javac  c(&à
+Acom.thoughtworks.acceptance.InheritanceTest.StaticChildClass?nameVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java^ ^(""
+type String*name2]
+java.lang.StringTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java^ ^(™
+3com.thoughtworks.acceptance.InheritanceTest.ParentACLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javav v("
+inner classfalse*ParentA2ò
+Dcom.thoughtworks.acceptance.InheritanceTest.ParentA.getParentStuff()DECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javay {(	2ç
+9com.thoughtworks.acceptance.InheritanceTest.ParentA?stuffDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaw w(,2]
+StandardObjectEXTENDC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javav( v(6€
+Dcom.thoughtworks.acceptance.InheritanceTest.ParentA.getParentStuff()METHODC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javay y(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type List*getParentStuff2Ü
+9com.thoughtworks.acceptance.InheritanceTest.ParentA?stuffCALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaz z(2b
+java.util.ListRETURN_TYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javay y(Î
+9com.thoughtworks.acceptance.InheritanceTest.ParentA?stuffVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaw w("
+type List*stuff2[
+java.util.ListTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaw w(2l
+java.util.ArrayList.ArrayList()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaw w(,Á
+2com.thoughtworks.acceptance.InheritanceTest.ChildACLASSC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java~ ~("
+inner classfalse*ChildA2ò
+Bcom.thoughtworks.acceptance.InheritanceTest.ChildA.getChildStuff()DECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÅ É(	2ó
+Acom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)DECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ è(	2å
+8com.thoughtworks.acceptance.InheritanceTest.ChildA?stuffDECLARATIONC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ()2Ç
+3com.thoughtworks.acceptance.InheritanceTest.ParentAEXTENDC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java~' ~(.€
+Bcom.thoughtworks.acceptance.InheritanceTest.ChildA.getChildStuff()METHODE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÅ Å( "
+staticfalse"
+finalfalse"
+access modifierpublic"
+type Map*getChildStuff2á
+8com.thoughtworks.acceptance.InheritanceTest.ChildA?stuffCALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÇ Ç(2c
+java.util.MapRETURN_TYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÅ Å(†
+Acom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)METHODE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ Ö("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type boolean*equals2ô
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)!obj	PARAMETERE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ Ö((2ô
+Ccom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)?aDECLARATIONE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ Ü(#2û
+Ocom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(java.lang.Object)!objCALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ  Ü(#2]
+booleanRETURN_TYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ Ö(ˇ
+Ecom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)!obj	PARAMETERE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ% Ö((*obj2_
+java.lang.ObjectTYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÖ Ö($œ
+Ccom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(Object)?aVARIABLEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ Ü("
+type ChildA*a2Å
+2com.thoughtworks.acceptance.InheritanceTest.ChildATYPEE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ Ü(2û
+Ocom.thoughtworks.acceptance.InheritanceTest.ChildA.equals(java.lang.Object)!objCALLE
+9src/test/com/thoughtworks/acceptance/InheritanceTest.javaÜ  Ü(#‰
+8com.thoughtworks.acceptance.InheritanceTest.ChildA?stuffVARIABLEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ("
+type Map*stuff2Z
+java.util.MapTYPEC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java (2h
+java.util.HashMap.HashMap()CALLC
+9src/test/com/thoughtworks/acceptance/InheritanceTest.java ()

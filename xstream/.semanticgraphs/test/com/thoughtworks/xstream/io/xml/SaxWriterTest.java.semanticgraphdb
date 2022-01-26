@@ -1,0 +1,462 @@
+
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java·
+-com.thoughtworks.xstream.io.xml.SaxWriterTestCLASSE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java' '("
+inner classfalse*SaxWriterTest2ã
+5com.thoughtworks.xstream.io.xml.SaxWriterTest.setUp()DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java= J(2ù
+Gcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaL a(2≤
+\com.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()DECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javac u(2ü
+Hcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()DECLARATIONF
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaw à(2ú
+Dcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceObject()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaä í(2ö
+Bcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceList()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaî ú(2õ
+Ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceList()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaû ¶(2¢
+Jcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaπ —(2£
+Kcom.thoughtworks.xstream.io.xml.SaxWriterTest.warning(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ⁄(	2°
+Icom.thoughtworks.xstream.io.xml.SaxWriterTest.error(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ﬁ(	2¶
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.fatalError(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ „(	2ô
+Acom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‘ ÷(	2ó
+Acom.thoughtworks.xstream.io.xml.SaxWriterTest?IDENTITY_STYLESHEETDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java)  7(2ã
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java9 9(2ç
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java: :(2ñ
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java; ;((2Y
+TestCaseEXTENDE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java'# '(+‰
+5com.thoughtworks.xstream.io.xml.SaxWriterTest.setUp()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java= =("
+staticfalse"
+finalfalse"
+access modifier	protected"
+type void*setUp2ü
+Ojavax.xml.transform.TransformerFactory.newTemplates(javax.xml.transform.Source)CALLF
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaI I(É2É
+4javax.xml.transform.TransformerFactory.newInstance()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaI I(=2î
+Djavax.xml.transform.stream.StreamSource.StreamSource(java.io.Reader)CALLF
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaIK I(Ç2É
+3java.io.StringReader.StringReader(java.lang.String)CALLF
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaI\ I(Å2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java? ?(2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java@ @(2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaA A(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaC C(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaD D(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaE E(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaF F(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaG G(2è
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaI I(2ë
+Acom.thoughtworks.xstream.io.xml.SaxWriterTest?IDENTITY_STYLESHEETCALLF
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaIm I(Ä2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java=" =(+È
+Gcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaL L('"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMarshalsObjectToSAX2¶
+Pcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?expectedDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaM U(2§
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?bufferDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaW W(*2§
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?writerDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaX X(*2ß
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?outputterDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaY Y(=2j
+java.lang.Object.toString()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java` `(02r
+#java.io.StringWriter.StringWriter()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaW W(*2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java^ ^(2Ü
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java^ ^(!2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaL L(π
+\com.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javac c(<"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*,testAllowsStartAndEndDocCallbacksToBeSkipped2ª
+ecom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?expectedDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javad g( 2π
+ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?bufferDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javai i(*2π
+ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?writerDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaj j(/2º
+fcom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?outputterDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javak k(=2j
+java.lang.Object.toString()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javat t(02r
+#java.io.StringWriter.StringWriter()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javai i(*2m
+java.lang.Integer.Integer(int)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javap p(&2m
+java.lang.Integer.Integer(int)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaq q(&2m
+java.lang.Integer.Integer(int)CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javar r(&2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javap p(2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaq q(2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javar r(2Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javac c(ß
+Hcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()METHODE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaw w(("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testMarshalsObjectToTrAX2ß
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?expectedDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javax |(-2©
+Scom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?traxSourceDECLARATIONE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java~ ~(02ß
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?bufferDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÇ Ç(*2¨
+Tcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?transformerDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ É(E2n
+java.util.Arrays.asList(T...)CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÄ# Ä(]2
+.javax.xml.transform.Templates.newTransformer()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ" É(E2l
+java.lang.Object.toString()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaá á(02t
+#java.io.StringWriter.StringWriter()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÇ Ç(*2ï
+Djavax.xml.transform.stream.StreamResult.StreamResult(java.io.Writer)CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÖ* Ö(B2Ñ
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamCALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java (%2à
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÄ> Ä(G2à
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÄI Ä(R2ë
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ" É(42Z
+voidRETURN_TYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaw2 w(;Ä
+Dcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceObject()METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaä ä($"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testNullSourceObject2ß
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceObject()?traxSourceDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaã ã(02\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaä ä(˙
+Bcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceList()METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaî î(""
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testNullSourceList2•
+Mcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceList()?traxSourceDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaï ï(02\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaî î(˝
+Ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceList()METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaû û(#"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEmptySourceList2¶
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceList()?traxSourceDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaü ü(02\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaû û(·
+Jcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaπ π(*"
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*testEmptySourceListAtParse2≠
+Ucom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?traxSourceDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java∫ ∫(02©
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?bufferDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaª ª(*2ß
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?listDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaΩ Ω(#2Æ
+Vcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?transformerDECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√ √(E2g
+java.util.List.clear()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java¡ ¡(2
+.javax.xml.transform.Templates.newTransformer()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√" √(E2§
+Sjavax.xml.transform.Transformer.setErrorListener(javax.xml.transform.ErrorListener)CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaƒ ƒ(=2|
++java.lang.String.endsWith(java.lang.String)CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÀ À(U2q
+ java.lang.Throwable.getMessage()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÀ À(.2t
+#java.io.StringWriter.StringWriter()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaª ª(*2p
+java.util.ArrayList.ArrayList()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaΩ Ω(#2§
+Scom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.TrAXErrorListener()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaƒ% ƒ(<2ï
+Djavax.xml.transform.stream.StreamResult.StreamResult(java.io.Writer)CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java«. «(F2à
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaæ æ(2ë
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√" √(42\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaπ4 π(=≥
+_com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.warning(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ1 ÿ(2*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ÿ(0±
+]com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.error(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹/ ‹(0*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ‹(.∂
+bcom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡4 ‡(5*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ ‡(3ü
+Pcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?expectedVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaM M("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaM M(ç
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?bufferVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaW W("
+type Writer*buffer2]
+java.io.WriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaW W(2r
+#java.io.StringWriter.StringWriter()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaW W(*ó
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?writerVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaX X("
+type 	SaxWriter*writer2X
+	SaxWriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaX X(ü
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToSAX()?outputterVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaY Y("
+type 
+DataWriter*	outputter2Y
+
+DataWriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaY Y(¥
+ecom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?expectedVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javad d("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javad d(¢
+ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?bufferVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javai i("
+type Writer*buffer2]
+java.io.WriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javai i(2r
+#java.io.StringWriter.StringWriter()CALLE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javai i(*¨
+ccom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?writerVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaj j("
+type 	SaxWriter*writer2X
+	SaxWriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaj j(¥
+fcom.thoughtworks.xstream.io.xml.SaxWriterTest.testAllowsStartAndEndDocCallbacksToBeSkipped()?outputterVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javak k("
+type 
+DataWriter*	outputter2Y
+
+DataWriterTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javak k(†
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?expectedVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javax x("
+type String*expected2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javax x(¢
+Scom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?traxSourceVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java~ ~("
+type 
+TraxSource*
+traxSource2Y
+
+TraxSourceTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java~ ~(î
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?bufferVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÇ Ç("
+type Writer*buffer2_
+java.io.WriterTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÇ Ç(2t
+#java.io.StringWriter.StringWriter()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÇ Ç(*”
+Tcom.thoughtworks.xstream.io.xml.SaxWriterTest.testMarshalsObjectToTrAX()?transformerVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ É("
+type Transformer*transformer2p
+javax.xml.transform.TransformerTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ É(2
+.javax.xml.transform.Templates.newTransformer()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ" É(E2ë
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÉ" É(4¢
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceObject()?traxSourceVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaã ã("
+type 
+TraxSource*
+traxSource2[
+
+TraxSourceTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaã ã(†
+Mcom.thoughtworks.xstream.io.xml.SaxWriterTest.testNullSourceList()?traxSourceVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaï ï("
+type 
+TraxSource*
+traxSource2[
+
+TraxSourceTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaï ï(°
+Ncom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceList()?traxSourceVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaü ü("
+type 
+TraxSource*
+traxSource2[
+
+TraxSourceTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaü ü(®
+Ucom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?traxSourceVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java∫ ∫("
+type 
+TraxSource*
+traxSource2[
+
+TraxSourceTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java∫ ∫(ñ
+Qcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?bufferVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaª ª("
+type Writer*buffer2_
+java.io.WriterTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaª ª(2t
+#java.io.StringWriter.StringWriter()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaª ª(*å
+Ocom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?listVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaΩ Ω("
+type List*list2_
+java.util.ListTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaΩ Ω(2p
+java.util.ArrayList.ArrayList()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaΩ Ω(#’
+Vcom.thoughtworks.xstream.io.xml.SaxWriterTest.testEmptySourceListAtParse()?transformerVARIABLEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√ √("
+type Transformer*transformer2p
+javax.xml.transform.TransformerTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√ √(2
+.javax.xml.transform.Templates.newTransformer()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√" √(E2ë
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java√" √(4ò
+Acom.thoughtworks.xstream.io.xml.SaxWriterTest?IDENTITY_STYLESHEETVALUEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java)  )(3"
+type String*IDENTITY_STYLESHEET2_
+java.lang.StringTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java) )(˚
+5com.thoughtworks.xstream.io.xml.SaxWriterTest?xstreamVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java9 9("
+type XStream*xstream2V
+XStreamTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java9 9(Û
+7com.thoughtworks.xstream.io.xml.SaxWriterTest?testInputVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java: :("
+
+type X*	testInput2P
+XTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java: :(©
+@com.thoughtworks.xstream.io.xml.SaxWriterTest?identityStylesheetVARIABLEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java; ;(("
+type 	Templates*identityStylesheet2l
+javax.xml.transform.TemplatesTYPEE
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java; ;(á
+?com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListenerCLASSG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java” ”(*"
+inner classfalse*TrAXErrorListener2µ
+]com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.warning(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ⁄(	2≥
+[com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.error(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ﬁ(	2∏
+`com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(TransformerException)DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ „(	2´
+Scom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.TrAXErrorListener()DECLARATIONG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‘ ÷(	2t
+!javax.xml.transform.ErrorListenerEXTENDG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java”6 ”(Cƒ
+Scom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.TrAXErrorListener()CONSTRUCTORG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‘ ‘( *TrAXErrorListener2j
+java.lang.Object.Object()CALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java’ ’(2ó
+?com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListenerRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‘ ‘( ö
+]com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.warning(TransformerException)METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ÿ("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*warning2µ
+_com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.warning(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ÿ(22\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ÿ(î
+[com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.error(TransformerException)METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ‹("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*error2≥
+]com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.error(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ‹(02\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ‹(Ì
+`com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(TransformerException)METHODG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ ‡("
+staticfalse"
+finalfalse"
+access modifierpublic"
+type void*
+fatalError2∏
+bcom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ ‡(52«
+vcom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(javax.xml.transform.TransformerException)!eCALLG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‚ ‚(2\
+voidRETURN_TYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java· ·(+≥
+_com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.warning(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ1 ÿ(2*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.javaÿ ÿ(0±
+]com.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.error(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹/ ‹(0*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‹ ‹(.∂
+bcom.thoughtworks.xstream.io.xml.SaxWriterTest.TrAXErrorListener.fatalError(TransformerException)!e	PARAMETERG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡4 ‡(5*e2y
+(javax.xml.transform.TransformerExceptionTYPEG
+;src/test/com/thoughtworks/xstream/io/xml/SaxWriterTest.java‡ ‡(3

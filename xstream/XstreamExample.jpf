@@ -1,0 +1,14 @@
+########## Where you have downloaded shared execution tool jars
+jpfhome=c:\\eclipse\\workspace\\jpf-core
+apphome=c:\\eclipse\\workspace\\xstream
+
+########## JPF configuration options
+target = chpkim.XstreamExample
+
+classpath=${apphome}\\target\\classes;${apphome}\\target\\test-classes;${jpfhome}\\build\\jpf.jar;${jpfhome}\\build\\jpf-annotations.jar;${jpfhome}\\build\\jpf-classes.jar;${jpfhome}\\build\\RunAnt.jar;${jpfhome}\\build\\RunJPF.jar;${jpfhome}\\build\\RunTest.jar;
+
+native_classpath = ${jpfhome}\\build\\jpf.jar;${jpfhome}\\build\\jpf-annotations.jar;${jpfhome}\\build\\jpf-classes.jar;${jpfhome}\\build\\RunAnt.jar;${jpfhome}\\build\\RunJPF.jar;${jpfhome}\\build\\RunTest.jar;${jpfhome}\\lib\\bcel.jar;${jpfhome}\\lib\\jakarta.jar;${jpfhome}\\lib\\org.sat4j.core.jar;${jpfhome}\\lib\\saxon8-dom.jar;${jpfhome}\\lib\\saxon8-xpath.jar;${jpfhome}\\lib\\saxon8.jar;
+
+search.class = .search.DFSearch
+vm.max_alloc_gc = 1000
+listener = chpkim.sharedexecution.MainListener
