@@ -1,303 +1,0 @@
-
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java∏
-Icom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTestCLASSa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java ('"
-inner classfalse*SortableFieldKeySorterTest2‡
-ncom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (2÷
-dcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java  +(2‰
-rcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testComplainsIfSomeFieldIsNotSpecified()DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java- 6(2Ê
-tcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java8 C(2À
-Ycom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE Q(2u
-TestCaseEXTENDa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java0 (8”
-
-ncom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()METHODa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testDoesNotAffectUnregisteredTypes2Á
-ucom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?sorterDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (D2Ï
-zcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?originalMapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (.2‰
-rcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?mapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (62Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (.2v
-voidRETURN_TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java („
-dcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()METHODa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java   (("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIgnoresUnknownFields2›
-kcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?sorterDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java! !(D2·
-ocom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?fieldOrderDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java" "(T2‚
-pcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?originalMapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java$ $(/2⁄
-hcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?mapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java% %(72›
-kcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?fieldsDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java& &(M2ÿ
-fcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?iDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java( ((2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java$ $(/2å
-!java.util.Collection.toArray(T[])CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&" &(M2Å
-java.util.Map.values()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&" &(.2
-java.util.Map.size()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&A &(K2å
-!java.lang.reflect.Field.getName()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java)( )(?2v
-voidRETURN_TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java   (â
-rcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testComplainsIfSomeFieldIsNotSpecified()METHODa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java- -(6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testComplainsIfSomeFieldIsNotSpecified2Î
-ycom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testComplainsIfSomeFieldIsNotSpecified()?sorterDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java. .(D2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java1$ 1(82v
-voidRETURN_TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java- -(‰
-tcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()METHODa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java8 8(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testSortsMapAccordingToDefinedFieldOrder2Ì
-{com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?sorterDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java9 9(D2Ò
-com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?fieldOrderDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java: :(H2Û
-Äcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?originalMapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java< <(/2Í
-xcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?mapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java= =(72Ì
-{com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?fieldsDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java> >(M2Ë
-vcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?iDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java@ @(2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java< <(/2å
-!java.util.Collection.toArray(T[])CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>" >(M2Å
-java.util.Map.values()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>" >(.2
-java.util.Map.size()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>A >(K2å
-!java.lang.reflect.Field.getName()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaA( A(;2v
-voidRETURN_TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java8 8(§
-Ycom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)METHODa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE E("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Map*buildMap2Œ
-^com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)!type	PARAMETERa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE E(#2œ
-]com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?mapDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaF F()2œ
-]com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?clsDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaG G(2“
-`com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?fieldsDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaI I(42Õ
-[com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?iDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaJ J(2—
-_com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?fieldDECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaK K('2î
-)java.lang.Object.equals(java.lang.Object)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaH H((2é
-#java.lang.Class.getDeclaredFields()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaI I(42å
-!java.lang.reflect.Field.getName()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaL% L(42ä
-java.lang.Class.getSuperclass()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaN N(%2”
-hcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)!typeCALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaG G(2
-java.util.MapRETURN_TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE E(–
-^com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)!type	PARAMETERa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE E(#*type2z
-java.lang.ClassTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaE E(ë
-ucom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?sorterVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (%"
-type SortableFieldKeySorter*sorter2Å
-SortableFieldKeySorterTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (œ
-zcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?originalMapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java ("
-type Map*originalMap2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (.Ó
-rcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testDoesNotAffectUnregisteredTypes()?mapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java ("
-type Map*map2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java (á
-kcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?sorterVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java! !(%"
-type SortableFieldKeySorter*sorter2Å
-SortableFieldKeySorterTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java! !(¸
-ocom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?fieldOrderVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java" "("
-type String[]*
-fieldOrder2}
-java.lang.String[]TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java" "(≈
-pcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?originalMapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java$ $("
-type Map*originalMap2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java$ $(2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java$ $(/‰
-hcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?mapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java% %("
-type Map*map2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java% %(è
-kcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?fieldsVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java& &("
-type Field[]*fields2Ñ
-java.lang.reflect.Field[]TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java& &(2å
-!java.util.Collection.toArray(T[])CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&" &(M2Å
-java.util.Map.values()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&" &(.2
-java.util.Map.size()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java&A &(K÷
-fcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testIgnoresUnknownFields()?iVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java( (("
-type int*i2n
-intTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java( ((ï
-ycom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testComplainsIfSomeFieldIsNotSpecified()?sorterVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java. .(%"
-type SortableFieldKeySorter*sorter2Å
-SortableFieldKeySorterTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java. .(ó
-{com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?sorterVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java9 9(%"
-type SortableFieldKeySorter*sorter2Å
-SortableFieldKeySorterTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java9 9(å
-com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?fieldOrderVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java: :("
-type String[]*
-fieldOrder2}
-java.lang.String[]TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java: :(÷
-Äcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?originalMapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java< <("
-type Map*originalMap2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java< <(2Œ
-ccom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java< <(/Ù
-xcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?mapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java= =("
-type Map*map2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java= =(ü
-{com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?fieldsVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java> >("
-type Field[]*fields2Ñ
-java.lang.reflect.Field[]TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java> >(2å
-!java.util.Collection.toArray(T[])CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>" >(M2Å
-java.util.Map.values()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>" >(.2
-java.util.Map.size()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java>A >(KÊ
-vcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.testSortsMapAccordingToDefinedFieldOrder()?iVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java@ @("
-type int*i2n
-intTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java@ @(Ÿ
-]com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?mapVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaF F("
-type Map*map2x
-java.util.MapTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaF F(≥
-]com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?clsVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaG G("
-type Class*cls2z
-java.lang.ClassTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaG G(2”
-hcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(java.lang.Class)!typeCALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaG G(Å
-`com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?fieldsVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaI I("
-type Field[]*fields2Ñ
-java.lang.reflect.Field[]TYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaI I(2é
-#java.lang.Class.getDeclaredFields()CALLa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaI I(4À
-[com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?iVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaJ J("
-type int*i2n
-intTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaJ J(Í
-_com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.buildMap(Class)?fieldVARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaK K("
-type Field*field2Ç
-java.lang.reflect.FieldTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaK K(‡
-Ncom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.BaseCLASSa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaS S("
-inner classfalse*Base2«
-Ucom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Base?field3DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaT T(2Ω
-Pcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.MotherEXTENDa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaS S($⁄
-Ucom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Base?field3VARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaT T("
-type String*field32{
-java.lang.StringTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaT T(ñ
-Ocom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.ChildCLASSa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaW W("
-inner classfalse*Child2ª
-Ncom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.BaseEXTENDa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaW W(#Ú
-Pcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.MotherCLASSa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.javaZ Z("
-inner classfalse*Mother2…
-Wcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Mother?field1DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [(2…
-Wcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Mother?field2DECLARATIONa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [(‹
-Wcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Mother?field1VARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [("
-type String*field12{
-java.lang.StringTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [(‹
-Wcom.thoughtworks.xstream.converters.reflection.SortableFieldKeySorterTest.Mother?field2VARIABLEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [("
-type String*field22{
-java.lang.StringTYPEa
-Wsrc/test/com/thoughtworks/xstream/converters/reflection/SortableFieldKeySorterTest.java[ [(

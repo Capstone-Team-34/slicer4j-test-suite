@@ -1,235 +1,0 @@
-
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaÒ
-Ccom.thoughtworks.xstream.converters.collections.PropertiesConverterCLASS[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java, ,( "
-inner classfalse*PropertiesConverter2¡
-Ucom.thoughtworks.xstream.converters.collections.PropertiesConverter.canConvert(Class)DECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD F(2Î
-com.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH Z(2Ë
-|com.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\ q(2≈
-Ycom.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter()DECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java< >(2Ã
-`com.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter(boolean)DECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@ B(2Ω
-Qcom.thoughtworks.xstream.converters.collections.PropertiesConverter?defaultsFieldDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java. .(,2¥
-Hcom.thoughtworks.xstream.converters.collections.PropertiesConverter?sortDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java: :(2p
-	ConverterEXTEND[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java,, ,(5å
-Ycom.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter()CONSTRUCTOR[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java< <(*PropertiesConverter2Ø
-Ccom.thoughtworks.xstream.converters.collections.PropertiesConverterRETURN_TYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java< <(≤
-`com.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter(boolean)CONSTRUCTOR[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@ @(*PropertiesConverter2œ
-ecom.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter(boolean)!sort	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@ @(+2 
-ecom.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter(boolean)!sortCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaA A(2Ø
-Ccom.thoughtworks.xstream.converters.collections.PropertiesConverterRETURN_TYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@ @(√
-ecom.thoughtworks.xstream.converters.collections.PropertiesConverter.PropertiesConverter(boolean)!sort	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@' @(+*sort2l
-booleanTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java@ @(&û
-Ucom.thoughtworks.xstream.converters.collections.PropertiesConverter.canConvert(Class)METHOD[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD D("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2ƒ
-Zcom.thoughtworks.xstream.converters.collections.PropertiesConverter.canConvert(Class)!type	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD D((2…
-dcom.thoughtworks.xstream.converters.collections.PropertiesConverter.canConvert(java.lang.Class)!typeCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaE# E('2s
-booleanRETURN_TYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD D(π 
-com.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHOD[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH H("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2Ò
-Ücom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH H(%2Ò
-Ücom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH' H(F2Ú
-ácom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaHH H(b2˜
-äcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?propertiesDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaI I(92
-Écom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?mapDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(G2ı
-àcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iteratorDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK K(:2Ú
-Öcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?entryDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaL L(92ı
-àcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?defaultsDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaS S(T2}
-java.util.Set.iterator()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK! K(:2}
-java.util.Map.entrySet()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK! K(/2Å
-java.util.Iterator.hasNext()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK< K(N2~
-java.util.Iterator.next()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaL* L(92Ä
-java.lang.Object.toString()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaN( N(A2Å
-java.util.Map.Entry.getKey()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaN( N(62Ä
-java.lang.Object.toString()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaO) O(D2É
-java.util.Map.Entry.getValue()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaO) O(92ß
-Bjava.util.TreeMap.TreeMap(java.util.Map<? extends K, ? extends V>)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(52≠
-Hcom.thoughtworks.xstream.converters.collections.PropertiesConverter?sortCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(2∂
-Qcom.thoughtworks.xstream.converters.collections.PropertiesConverter?defaultsFieldCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaR R(2∂
-Qcom.thoughtworks.xstream.converters.collections.PropertiesConverter?defaultsFieldCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaS: S(G2p
-voidRETURN_TYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH H(ä
-|com.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHOD[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\ \("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2Ó
-Écom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\ \(;2Ô
-Ñcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\= \(Y2Ù
-ácom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?propertiesDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java] ](02Ú
-Öcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?defaultsDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java^ ^("2Ó
-Åcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?nameDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javad d(92Ô
-Çcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?valueDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javae e(;2Ä
-ìcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?propertiesWithDefaultsDECLARATION[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javam m(H2©
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaf f(32«
-bjava.util.Properties.putAll(java.util.Map<? extends java.lang.Object, ? extends java.lang.Object>)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javan n(52Ü
-!java.util.Properties.Properties()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java]  ](02ö
-5java.util.Properties.Properties(java.util.Properties)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javam0 m(H2|
-java.lang.ObjectRETURN_TYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\ \(¿
-Zcom.thoughtworks.xstream.converters.collections.PropertiesConverter.canConvert(Class)!type	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD$ D((*type2t
-java.lang.ClassTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaD D(#
-Ücom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH H(%*source2u
-java.lang.ObjectTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH H(¯
-Ücom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH@ H(F*writer2}
-HierarchicalStreamWriterTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH' H(?Ù
-ácom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaH[ H(b*context2w
-MarshallingContextTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaHH H(Zı
-Écom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\5 \(;*reader2}
-HierarchicalStreamReaderTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\ \(4Û
-Ñcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETER[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\R \(Y*context2y
-UnmarshallingContextTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java\= \(Qç
-äcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?propertiesVALUE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaI I(#"
-type 
-Properties*
-properties2y
-java.util.PropertiesTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaI I(Œ
-Écom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?mapVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J("
-type Map*map2r
-java.util.MapTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(2ß
-Bjava.util.TreeMap.TreeMap(java.util.Map<? extends K, ? extends V>)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(52≠
-Hcom.thoughtworks.xstream.converters.collections.PropertiesConverter?sortCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaJ J(Ü
-àcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?iteratorVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK K("
-type Iterator*iterator2w
-java.util.IteratorTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK K(2}
-java.util.Set.iterator()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK! K(:2}
-java.util.Map.entrySet()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaK! K(/Ñ
-Öcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?entryVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaL L("
-type 	Map.Entry*entry2x
-java.util.Map.EntryTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaL L(2~
-java.util.Iterator.next()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaL* L(9≈
-àcom.thoughtworks.xstream.converters.collections.PropertiesConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?defaultsVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaS S("
-type 
-Properties*defaults2y
-java.util.PropertiesTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaS S(2∂
-Qcom.thoughtworks.xstream.converters.collections.PropertiesConverter?defaultsFieldCALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javaS: S(Gñ
-ácom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?propertiesVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java] ]("
-type 
-Properties*
-properties2y
-java.util.PropertiesTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java] ](2Ü
-!java.util.Properties.Properties()CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java]  ](0â
-Öcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?defaultsVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java^ ^("
-type 
-Properties*defaults2y
-java.util.PropertiesTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java^ ^(˘
-Åcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?nameVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javad d("
-type String*name2u
-java.lang.StringTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javad d(˚
-Çcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?valueVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javae e("
-type String*value2u
-java.lang.StringTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javae e(¬
-ìcom.thoughtworks.xstream.converters.collections.PropertiesConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?propertiesWithDefaultsVARIABLE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javam m(-"
-type 
-Properties*propertiesWithDefaults2y
-java.util.PropertiesTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javam m(2ö
-5java.util.Properties.Properties(java.util.Properties)CALL[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.javam0 m(H‘
-Qcom.thoughtworks.xstream.converters.collections.PropertiesConverter?defaultsFieldVALUE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java. .(,"
-type Field*defaultsField2|
-java.lang.reflect.FieldTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java. .(¥
-Hcom.thoughtworks.xstream.converters.collections.PropertiesConverter?sortVALUE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java: :("
-type boolean*sort2l
-booleanTYPE[
-Qsrc/java/com/thoughtworks/xstream/converters/collections/PropertiesConverter.java: :(

@@ -1,811 +1,0 @@
-
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java£%
-?com.thoughtworks.acceptance.SerializationNestedWriteObjectsTestCLASSW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java! !(0"
-inner classfalse*#SerializationNestedWriteObjectsTest2Æ
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.getI()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java+ -(	2Õ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.readObject(java.io.ObjectInputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/ 2(	2«
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.writeObject(ObjectOutputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4 6(	2≤
-Jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.getChild()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaD F(	2±
-Icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.getName()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaH J(	2Õ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.readObject(java.io.ObjectInputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL P(	2«
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.writeObject(ObjectOutputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR U(	2ø
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaX u(2¡
-Xcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()DECLARATIONX
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaw î(2µ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javañ Æ(2∞
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.getS()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∏ ∫(	2œ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.readObject(java.io.ObjectInputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº ¡(	2…
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.writeObject(ObjectOutputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√ «(	2¡
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java  ‚(2…
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.writeObject(ObjectOutputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ Î(	2∑
-Mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.readResolve()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÓ ı(	2∏
-Ncom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.writeReplace()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˚ ˇ(	2À
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÇ •(2≤
-Jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child(int)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' )(	2º
-Tcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent(String,Child)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? B(	2ª
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString(String)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ∂(	2±
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÊ Ë(	2≥
-Icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¯ ˙(	2y
-AbstractAcceptanceTestEXTENDW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java!9 !(O°
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)!i	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(*i2d
-intTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(ø
-`com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!name	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(!*name2q
-java.lang.StringTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(˜
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!child	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java?) ?(.*child2¶
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java?# ?((Ω
-]com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(String)!s	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥  ¥(!*s2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ¥(≠
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaX X(%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testObjectInputStream2…
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?sourceXmlDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java\ l($2—
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?objectInputStreamDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javan o(2∆
-^com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?parentDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaq q(?2á
-&java.io.ObjectInputStream.readObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaq! q(?2±
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getName()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javas  s(02≠
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.getI()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javat t(02≤
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getChild()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javat t()2î
-3java.io.StringReader.StringReader(java.lang.String)CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javanN o(2l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaX/ X(8ê
-Xcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaw w(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testObjectOutputStream2Õ
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?expectedXmlDECLARATIONX
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java{ ã($2…
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?parentDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç ç(;2œ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?stringWriterDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaé é(62≈
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?osDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaè è(N2Ã
-bcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?actualXmlDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(>2õ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaê ê(2Ö
-"java.io.ObjectOutputStream.close()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaë ë(2Ñ
-!java.lang.StringBuffer.toString()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(>2É
- java.io.StringWriter.getBuffer()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(32ä
-¶com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç ç(;2≥
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç. ç(:2Ü
-#java.io.StringWriter.StringWriter()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaé$ é(62l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaw0 w(9π	
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javañ ñ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*	testToXML2æ
-Tcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()?expectedDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaõ ©(2º
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()?parentDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´ ´(;2ä
-¶com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´ ´(;2≥
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´. ´(:2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javañ ñ( 
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java   (%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanHandleRawBytes2Õ
-ccom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?expectedXmlDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÕ ’( 2Œ
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?stringWriterDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java◊ ◊(62ƒ
-Zcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?osDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÿ ÿ(N2À
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?actualXmlDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(>2”
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?objectInputStreamDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaﬁ ﬁ(j2À
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?rawStringDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‡ ‡(H2õ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaŸ Ÿ(02Ö
-"java.io.ObjectOutputStream.close()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java⁄ ⁄(2Ñ
-!java.lang.StringBuffer.toString()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(>2É
- java.io.StringWriter.getBuffer()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(32â
-&java.io.ObjectInputStream.readObject()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‡* ‡(H2≥
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.getS()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java·  ·(02Ü
-#java.io.StringWriter.StringWriter()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java◊$ ◊(62»
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(java.lang.String)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaŸ Ÿ(/2ñ
-3java.io.StringReader.StringReader(java.lang.String)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaﬁN ﬁ(i2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java /  (:π
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÇ Ç(/"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCachingInheritedWriteObject2◊
-mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()?expectedXmlDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaá õ("2“
-hcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()?storesDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaù †(	2x
-java.util.List.add(E)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java° °("2x
-java.util.List.add(E)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¢ ¢("2¥
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaû û(2∫
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.OtherStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaü ü(2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÇ9 Ç(B‘
-ncom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/: /(<*in2z
-java.io.ObjectInputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/  /(9—
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java44 4(7*out2{
-java.io.ObjectOutputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4! 4(3’
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL: L(<*in2z
-java.io.ObjectInputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL  L(9“
-jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR4 R(7*out2{
-java.io.ObjectOutputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR! R(3‹
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!in	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº: º(<*in2|
-java.io.ObjectInputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº  º(9Ÿ
-mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√4 √(7*out2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√! √(3’
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ4 È(7*out2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ! È(3’
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?sourceXmlVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java\ \("
-type String*	sourceXml2q
-java.lang.StringTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java\ \(ê
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?objectInputStreamVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javan n(+"
-type ObjectInputStream*objectInputStream2z
-java.io.ObjectInputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javan n(2î
-3java.io.StringReader.StringReader(java.lang.String)CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javanN o(ê
-^com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectInputStream()?parentVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaq q("
-type Parent*parent2ß
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ParentTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaq q(2á
-&java.io.ObjectInputStream.readObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaq! q(?⁄
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?expectedXmlVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java{ {("
-type String*expectedXml2q
-java.lang.StringTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java{ {(Œ
-_com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?parentVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç ç("
-type Parent*parent2©
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ParentTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç ç(2ä
-¶com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç ç(;2≥
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaç. ç(:Û
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?stringWriterVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaé é(!"
-type StringWriter*stringWriter2w
-java.io.StringWriterTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaé é(2Ü
-#java.io.StringWriter.StringWriter()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaé$ é(6‚
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?osVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaè è("
-type ObjectOutputStream*os2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaè è(Á
-bcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testObjectOutputStream()?actualXmlVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í("
-type String*	actualXml2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(2Ñ
-!java.lang.StringBuffer.toString()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(>2É
- java.io.StringWriter.getBuffer()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaí í(3À
-Tcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()?expectedVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaõ õ("
-type String*expected2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaõ õ(¡
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testToXML()?parentVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´ ´("
-type Parent*parent2©
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ParentTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´ ´(2ä
-¶com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´ ´(;2≥
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java´. ´(:Ø
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?iVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω("
-type int*i2f
-intTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2É
- java.io.ObjectInputStream.read()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2’
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!inCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(◊
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?bVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaæ æ("
-type byte[]*b2i
-byte[]TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaæ æ(Ç
-kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)?bVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ("
-type byte[]*b2i
-byte[]TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(2~
-java.lang.String.getBytes()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(#2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(›
-ccom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?expectedXmlVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÕ Õ("
-type String*expectedXml2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÕ Õ(Ú
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?stringWriterVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java◊ ◊(!"
-type StringWriter*stringWriter2w
-java.io.StringWriterTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java◊ ◊(2Ü
-#java.io.StringWriter.StringWriter()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java◊$ ◊(6·
-Zcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?osVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÿ ÿ("
-type ObjectOutputStream*os2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÿ ÿ(Ê
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?actualXmlVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €("
-type String*	actualXml2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(2Ñ
-!java.lang.StringBuffer.toString()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(>2É
- java.io.StringWriter.getBuffer()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java€ €(3ñ
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?objectInputStreamVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaﬁ ﬁ(+"
-type ObjectInputStream*objectInputStream2|
-java.io.ObjectInputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaﬁ ﬁ(2ñ
-3java.io.StringReader.StringReader(java.lang.String)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaﬁN ﬁ(i¢
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCanHandleRawBytes()?rawStringVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‡ ‡("
-type 	RawString*	rawString2¨
-Icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawStringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‡ ‡(2â
-&java.io.ObjectInputStream.readObject()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‡* ‡(H 
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.readResolve()?replacementVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java (!"
-type Store*replacement2®
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java (2¥
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java$ (1Œ
-bcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.writeReplace()?replacementVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸ ¸("
-type Store*replacement2®
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸ ¸(2∫
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.OtherStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸  ¸(0Á
-mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()?expectedXmlVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaá á("
-type String*expectedXml2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaá á(ä
-hcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.testCachingInheritedWriteObject()?storesVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaù ù("
-type Store[]*stores2™
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store[]TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaù ù(2¥
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaû û(2∫
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.OtherStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaü ü(á
-
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildCLASSW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java# #("
-inner classfalse*Child2¥
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.getI()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java+ -(	2”
-kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/ 2(	2Õ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(ObjectOutputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4 6(	2∏
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' )(	2Ø
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child?iDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java% %(2w
-java.io.SerializableEXTENDW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java#) #(5‡
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)CONSTRUCTORW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(*Child2∏
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)!i	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(2≥
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)!iCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java( ((2≠
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(°
-Rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.Child(int)!i	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(*i2d
-intTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java' '(ó
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.getI()METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java+ +("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*getI2®
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child?iCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java, ,(2k
-intRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java+ +(Œ
-kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/ /("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2‘
-ncom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/  /(<2é
--java.io.ObjectInputStream.defaultReadObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java1 1("2œ
-ncom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)!inCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java1 1(2l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/E /(P…
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(ObjectOutputStream)METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4 4( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2œ
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4! 4(72ê
-/java.io.ObjectOutputStream.defaultWriteObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java5 5($2“
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(java.io.ObjectOutputStream)!outCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java5 5(2l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4@ 4(K‘
-ncom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/: /(<*in2z
-java.io.ObjectInputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java/  /(9—
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java44 4(7*out2{
-java.io.ObjectOutputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java4! 4(3£
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child?iVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java% %("
-type int*i2d
-intTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java% %(ë
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ParentCLASSW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java9 9("
-inner classfalse*Parent2π
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getChild()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaD F(	2∏
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getName()DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaH J(	2‘
-lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL P(	2Œ
-fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(ObjectOutputStream)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR U(	2√
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)DECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? B(	2≥
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?nameDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java; ;(2¥
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?childDECLARATIONW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java=  =(%2w
-java.io.SerializableEXTENDW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java9* 9(6∞
-
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)CONSTRUCTORW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(*Parent2∆
-`com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!name	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(!2«
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!child	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java?# ?(.2ç
-´com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)!nameCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java@ @(2é
-¨com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(java.lang.String, com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Child)!childCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaA A(2Æ
-Fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ParentRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(ø
-`com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!name	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(!*name2q
-java.lang.StringTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java? ?(˜
-acom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.Parent(String,Child)!child	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java?) ?(.*child2¶
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java?# ?((Í
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getChild()METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaD D("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Child*getChild2≠
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?childCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaE E(2≠
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaD D(≤
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.getName()METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaH H("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getName2¨
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?nameCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaI I(2x
-java.lang.StringRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaH H(Æ
-
-lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL L("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2’
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL  L(<2á
-&java.io.ObjectInputStream.readObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaN! N(02é
--java.io.ObjectInputStream.defaultReadObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaO O("2–
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)!inCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaN! N(#2–
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)!inCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaO O(2l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaLE L(Pæ
-
-fcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(ObjectOutputStream)METHODW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR R( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2–
-jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR! R(72ô
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaS S('2ê
-/java.io.ObjectOutputStream.defaultWriteObject()CALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaT T($2”
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(java.io.ObjectOutputStream)!outCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaS S(2”
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(java.io.ObjectOutputStream)!outCALLW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaT T(2l
-voidRETURN_TYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR@ R(K’
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.readObject(java.io.ObjectInputStream)!in	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL: L(<*in2z
-java.io.ObjectInputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaL  L(9“
-jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent.writeObject(ObjectOutputStream)!out	PARAMETERW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR4 R(7*out2{
-java.io.ObjectOutputStreamTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaR! R(3∫
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?nameVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java; ;("
-type String*name2q
-java.lang.StringTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java; ;(Ò
-Lcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Parent?childVARIABLEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java=  =(%"
-type Child*child2¶
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.ChildTYPEW
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java= =(∏
-
-Icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawStringCLASSY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∞ ∞(!"
-inner classfalse*	RawString2∫
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.getS()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∏ ∫(	2Ÿ
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº ¡(	2”
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√ «(	2≈
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(String)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ∂(	2µ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java≤ ≤(2y
-java.io.SerializableEXTENDY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∞- ∞(9õ
-[com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(String)CONSTRUCTORY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ¥(*	RawString2≈
-]com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(String)!s	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ¥(!2 
-gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(java.lang.String)!sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaµ µ(2≥
-Icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawStringRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ¥(Ω
-]com.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.RawString(String)!s	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥  ¥(!*s2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¥ ¥(µ
-Pcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.getS()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∏ ∏("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getS2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaπ π(2z
-java.lang.StringRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∏ ∏(ß
-ocom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº º("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2⁄
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!in	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº  º(<2€
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?iDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2€
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?bDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaæ æ("2É
- java.io.ObjectInputStream.read()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2É
- java.io.InputStream.read(byte[])CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaø ø(2Ç
-java.lang.String.String(byte[])CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¿ ¿(2’
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!inCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2’
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!inCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaø ø(2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¿ ¿(2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaºE º(P«
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√ √( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2’
-mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√! √(72’
-kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)?bDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(#2~
-java.lang.String.getBytes()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(#2à
-%java.io.ObjectOutputStream.write(int)CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java≈ ≈(2ã
-(java.io.ObjectOutputStream.write(byte[])CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∆ ∆(2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(2ÿ
-ucom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(java.io.ObjectOutputStream)!outCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java≈ ≈(2ÿ
-ucom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(java.io.ObjectOutputStream)!outCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java∆ ∆(2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√@ √(K‹
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!in	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº: º(<*in2|
-java.io.ObjectInputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaº  º(9Ÿ
-mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√4 √(7*out2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java√! √(3Ø
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?iVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω("
-type int*i2f
-intTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2É
- java.io.ObjectInputStream.read()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(2’
-rcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)!inCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaΩ Ω(◊
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.readObject(java.io.ObjectInputStream)?bVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaæ æ("
-type byte[]*b2i
-byte[]TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaæ æ(Ç
-kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString.writeObject(ObjectOutputStream)?bVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ("
-type byte[]*b2i
-byte[]TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(2~
-java.lang.String.getBytes()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(#2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaƒ ƒ(ª
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.RawString?sVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java≤ ≤("
-type String*s2s
-java.lang.StringTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java≤ ≤(Ö
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreCLASSY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‰ ‰("
-inner classfalse*Store2œ
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(ObjectOutputStream)DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ Î(	2∑
-Mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.Store()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÊ Ë(	2µ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store?storeDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÂ Â(2y
-java.io.SerializableEXTENDY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java‰" ‰(.¶
-Mcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.Store()CONSTRUCTORY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÊ Ê(*Store2Ç
-java.util.ArrayList.ArrayList()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÁ Á(#2Æ
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store?storeCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÁ Á(2Ø
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÊ Ê(”
-ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(ObjectOutputStream)METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ È( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2—
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ! È(72í
-/java.io.ObjectOutputStream.defaultWriteObject()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÍ Í($2‘
-qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(java.io.ObjectOutputStream)!outCALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÍ Í(2n
-voidRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ@ È(K’
-icom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store.writeObject(ObjectOutputStream)!out	PARAMETERY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ4 È(7*out2}
-java.io.ObjectOutputStreamTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÈ! È(3ª
-Kcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.Store?storeVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÂ Â("
-type List*store2q
-java.util.ListTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÂ Â(¬
-Jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStoreCLASSY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÌ Ì("
-inner classfalse*
-OtherStore2¬
-Xcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.readResolve()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÓ ı(	2™
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreEXTENDY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÌ$ Ì()ú
-Xcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.readResolve()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÓ Ó(""
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2Œ
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.readResolve()?replacementDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java (12¥
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java$ (12z
-java.lang.ObjectRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.javaÓ Ó( 
-dcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.readResolve()?replacementVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java (!"
-type Store*replacement2®
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java (2¥
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java$ (1˝
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStoreCLASSY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˜ ˜("
-inner classfalse*MyStore2¿
-Vcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.writeReplace()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˚ ˇ(	2ª
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()DECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¯ ˙(	2Ø
-Jcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStoreEXTENDY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˜! ˜(+ˇ
-Qcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.MyStore()CONSTRUCTORY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¯ ¯(*MyStore2Ñ
-!java.util.LinkedList.LinkedList()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˘ ˘($2±
-Gcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStoreRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¯ ¯(ü
-Vcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.writeReplace()METHODY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˚ ˚(#"
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*writeReplace2Ã
-bcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.writeReplace()?replacementDECLARATIONY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸ ¸(02∫
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.OtherStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸  ¸(02z
-java.lang.ObjectRETURN_TYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java˚ ˚(Œ
-bcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.MyStore.writeReplace()?replacementVARIABLEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸ ¸("
-type Store*replacement2®
-Ecom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.StoreTYPEY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸ ¸(2∫
-Wcom.thoughtworks.acceptance.SerializationNestedWriteObjectsTest.OtherStore.OtherStore()CALLY
-Msrc/test/com/thoughtworks/acceptance/SerializationNestedWriteObjectsTest.java¸  ¸(0

@@ -1,166 +1,0 @@
-
-.src/java/featuremodel/FeatureModelBuilder.java“
- featuremodel.FeatureModelBuilderCLASS8
-.src/java/featuremodel/FeatureModelBuilder.java ( "
-inner classfalse*FeatureModelBuilder2‡
->featuremodel.FeatureModelBuilder.getFeatureModelString(String)DECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java (2|
-3featuremodel.FeatureModelBuilder.getFeatures(Class)DECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java( :(2}
-4featuremodel.FeatureModelBuilder.getFeatures(String)DECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java< M(2|
-3featuremodel.FeatureModelBuilder?FEATURES_FILE_NAMEDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java (? 
->featuremodel.FeatureModelBuilder.getFeatureModelString(String)METHOD8
-.src/java/featuremodel/FeatureModelBuilder.java (+"
-statictrue"
-finalfalse"
-access modifierpublic".
-type %// String classWithMainMethod)
-String*getFeatureModelString2Ž
-Gfeaturemodel.FeatureModelBuilder.getFeatureModelString(String)!inputDir	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java, (;2—
-Nfeaturemodel.FeatureModelBuilder.getFeatureModelString(String)?featureModelStrDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java	 (2“
-Qfeaturemodel.FeatureModelBuilder.getFeatureModelString(java.lang.String)!inputDirCALL8
-.src/java/featuremodel/FeatureModelBuilder.java9 (A2Y
-java.lang.StringRETURN_TYPE8
-.src/java/featuremodel/FeatureModelBuilder.java (¬
-3featuremodel.FeatureModelBuilder.getFeatures(Class)METHOD8
-.src/java/featuremodel/FeatureModelBuilder.java( (('"
-statictrue"
-finalfalse"
-access modifierpublic"
-type List<String>*getFeatures2„
-=featuremodel.FeatureModelBuilder.getFeatures(Class)!mainClass	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java(( ((72…
-<featuremodel.FeatureModelBuilder.getFeatures(Class)?featuresDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java* *(.2~
-5featuremodel.FeatureModelBuilder.getFeatures(Class)?fDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java- -(2e
-#java.lang.Class.getDeclaredFields()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java- -(-2c
-!java.lang.reflect.Field.getName()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java/ /((2W
-java.util.List.add(E)CALL8
-.src/java/featuremodel/FeatureModelBuilder.java1 1(2c
-!java.lang.reflect.Field.getName()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java1 1(2g
-%java.lang.Throwable.printStackTrace()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java7 7(2[
-java.util.Vector.Vector()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java* *(.2‰
-Gfeaturemodel.FeatureModelBuilder.getFeatures(java.lang.Class)!mainClassCALL8
-.src/java/featuremodel/FeatureModelBuilder.java- -(2i
- java.util.List<java.lang.String>RETURN_TYPE8
-.src/java/featuremodel/FeatureModelBuilder.java( ((Á
-4featuremodel.FeatureModelBuilder.getFeatures(String)METHOD8
-.src/java/featuremodel/FeatureModelBuilder.java< <(&"
-statictrue"
-finalfalse"
-access modifierpublic"
-type Set<String>*getFeatures2…
->featuremodel.FeatureModelBuilder.getFeatures(String)!inputPath	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java<' <(72†
-=featuremodel.FeatureModelBuilder.getFeatures(String)?featuresDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.java> >(42
-8featuremodel.FeatureModelBuilder.getFeatures(String)?strDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.javaA	 A(z2„
-;featuremodel.FeatureModelBuilder.getFeatures(String)?tokensDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.javaB B(%2
-6featuremodel.FeatureModelBuilder.getFeatures(String)?iDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.javaD
- D(2ƒ
-:featuremodel.FeatureModelBuilder.getFeatures(String)?tokenDECLARATION8
-.src/java/featuremodel/FeatureModelBuilder.javaF
- F(2p
-.java.lang.System.getProperty(java.lang.String)CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaA@ A(d2j
-(java.lang.String.split(java.lang.String)CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaB B(%2\
-java.lang.String.isEmpty()CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaH H(2Y
-java.lang.String.trim()CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaH H(2V
-java.util.Set.add(E)CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaI I(2i
-'java.util.LinkedHashSet.LinkedHashSet()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java> >(42Š
-Hfeaturemodel.FeatureModelBuilder.getFeatures(java.lang.String)!inputPathCALL8
-.src/java/featuremodel/FeatureModelBuilder.javaA4 A(=2u
-3featuremodel.FeatureModelBuilder?FEATURES_FILE_NAMECALL8
-.src/java/featuremodel/FeatureModelBuilder.javaAg A(y2h
-java.util.Set<java.lang.String>RETURN_TYPE8
-.src/java/featuremodel/FeatureModelBuilder.java< <(ì
-Gfeaturemodel.FeatureModelBuilder.getFeatureModelString(String)!inputDir	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java3 (;*inputDir2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java, (2â
-=featuremodel.FeatureModelBuilder.getFeatures(Class)!mainClass	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java(. ((7*	mainClass2Q
-java.lang.ClassTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java(( ((-ä
->featuremodel.FeatureModelBuilder.getFeatures(String)!inputPath	PARAMETER8
-.src/java/featuremodel/FeatureModelBuilder.java<. <(7*	inputPath2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java<' <(-Š
-Nfeaturemodel.FeatureModelBuilder.getFeatureModelString(String)?featureModelStrVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.java	 ("
-type String*featureModelStr2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java (ä
-<featuremodel.FeatureModelBuilder.getFeatures(Class)?featuresVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.java* *("
-type List<String>*features2b
- java.util.List<java.lang.String>TYPE8
-.src/java/featuremodel/FeatureModelBuilder.java* *(2[
-java.util.Vector.Vector()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java* *(.é
-5featuremodel.FeatureModelBuilder.getFeatures(Class)?fVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.java- -("
-type Field*f2Y
-java.lang.reflect.FieldTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java- -(ñ
-=featuremodel.FeatureModelBuilder.getFeatures(String)?featuresVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.java> >("
-type Set<String>*features2a
-java.util.Set<java.lang.String>TYPE8
-.src/java/featuremodel/FeatureModelBuilder.java> >(2i
-'java.util.LinkedHashSet.LinkedHashSet()CALL8
-.src/java/featuremodel/FeatureModelBuilder.java> >(4Þ
-8featuremodel.FeatureModelBuilder.getFeatures(String)?strVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.javaA	 A("
-type String*str2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.javaA A(2p
-.java.lang.System.getProperty(java.lang.String)CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaA@ A(d2Š
-Hfeaturemodel.FeatureModelBuilder.getFeatures(java.lang.String)!inputPathCALL8
-.src/java/featuremodel/FeatureModelBuilder.javaA4 A(=2u
-3featuremodel.FeatureModelBuilder?FEATURES_FILE_NAMECALL8
-.src/java/featuremodel/FeatureModelBuilder.javaAg A(yÞ
-;featuremodel.FeatureModelBuilder.getFeatures(String)?tokensVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.javaB B("
-type String[]*tokens2T
-java.lang.String[]TYPE8
-.src/java/featuremodel/FeatureModelBuilder.javaB B(
-2j
-(java.lang.String.split(java.lang.String)CALL8
-.src/java/featuremodel/FeatureModelBuilder.javaB B(%Ô
-6featuremodel.FeatureModelBuilder.getFeatures(String)?iVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.javaD
- D("
-type int*i2E
-intTYPE8
-.src/java/featuremodel/FeatureModelBuilder.javaD D(	ì
-:featuremodel.FeatureModelBuilder.getFeatures(String)?tokenVARIABLE8
-.src/java/featuremodel/FeatureModelBuilder.javaF
- F("
-type String*token2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.javaF F(	ï
-3featuremodel.FeatureModelBuilder?FEATURES_FILE_NAMEVALUE8
-.src/java/featuremodel/FeatureModelBuilder.java (."
-type String*FEATURES_FILE_NAME2R
-java.lang.StringTYPE8
-.src/java/featuremodel/FeatureModelBuilder.java (

@@ -1,278 +1,0 @@
-
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaƒ
-)com.thoughtworks.xstream.io.xml.DomWriterCLASSA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java ("
-inner classfalse*	DomWriter2é
-<com.thoughtworks.xstream.io.xml.DomWriter.createNode(String)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR \(2ó
-Ecom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^ `(2å
-:com.thoughtworks.xstream.io.xml.DomWriter.setValue(String)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab d(2Å
-/com.thoughtworks.xstream.io.xml.DomWriter.top()DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaf h(2è
-=com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (2é
-<com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java !(2ô
-Gcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java& ((2°
-Ocom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java- 1(2ò
-Fcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6 8(2£
-Qcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java> @(2´
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF H(2¢
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)DECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN P(2Ñ
-2com.thoughtworks.xstream.io.xml.DomWriter?documentDECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (#2ä
-8com.thoughtworks.xstream.io.xml.DomWriter?hasRootElementDECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java ("2c
-AbstractDocumentWriterEXTENDA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (5∞
-=com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (*	DomWriter2ñ
-Fcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (,2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (±
-<com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (*	DomWriter2ò
-Hcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (.2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (Ë
-Gcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java& &(*	DomWriter2†
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java& &(,2°
-Qcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java&. &(G2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java& &(∞
-Ocom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java- -(*	DomWriter2ß
-Wcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!element	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java- -(*2®
-Xcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-, -(C2©
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-E -(^2É
-8com.thoughtworks.xstream.io.xml.DomWriter?hasRootElementCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java0 0(2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java- -(Ë
-Fcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6 6(*	DomWriter2¢
-Rcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6 6(.2†
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java60 6(I2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6 6(Ö
-Qcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java> >(*	DomWriter2™
-Zcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java> >(,2™
-Zcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java>. >(P2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java> >(—
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF F(*	DomWriter2±
-acom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!element	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF F(*2≤
-bcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF, F(C2≤
-bcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaFE F(g2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF F(Ö
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)CONSTRUCTORA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN N(*	DomWriter2¨
-\com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN N(.2©
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN0 N(R2{
-)com.thoughtworks.xstream.io.xml.DomWriterRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN N(ı
-Fcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java$ (,*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (#˘
-Hcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java# (.*rootElement2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java ("ˇ
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java&$ &(,*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java& &(#Ç
-Qcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java&> &(G*	nameCoder2T
-	NameCoderTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java&4 &(=Ñ
-Wcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!element	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-# -(**element2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java- -("á
-Xcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-; -(C*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-2 -(:ä
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-U -(^*	nameCoder2T
-	NameCoderTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java-K -(TÉ
-Rcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6# 6(.*rootElement2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6 6("Å
-Pcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,NameCoder)!nameCoder	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java6@ 6(I*	nameCoder2T
-	NameCoderTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java66 6(?â
-Zcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java>$ >(,*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java> >(#î
-Zcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Document,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java>H >(P*replacer2^
-XmlFriendlyReplacerTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java>4 >(Gé
-acom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!element	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF# F(**element2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF F("ë
-bcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!document	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF; F(C*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF2 F(:ú
-bcom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,Document,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaF_ F(g*replacer2^
-XmlFriendlyReplacerTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaFK F(^ç
-\com.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)!rootElement	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN# N(.*rootElement2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN N("ì
-Ycom.thoughtworks.xstream.io.xml.DomWriter.DomWriter(Element,XmlFriendlyReplacer)!replacer	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaNJ N(R*replacer2^
-XmlFriendlyReplacerTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaN6 N(I§
-<com.thoughtworks.xstream.io.xml.DomWriter.createNode(String)METHODA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR R("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type Object*
-createNode2ë
-Acom.thoughtworks.xstream.io.xml.DomWriter.createNode(String)!name	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR  R(12î
-Bcom.thoughtworks.xstream.io.xml.DomWriter.createNode(String)?childDECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS S(F2í
-@com.thoughtworks.xstream.io.xml.DomWriter.createNode(String)?topDECLARATIONA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaT T(!2z
-/com.thoughtworks.xstream.io.xml.DomWriter.top()CALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaT T(!2z
-/com.thoughtworks.xstream.io.xml.DomWriter.top()CALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaV V(2}
-2com.thoughtworks.xstream.io.xml.DomWriter?documentCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS S(&2ñ
-Kcom.thoughtworks.xstream.io.xml.DomWriter.createNode(java.lang.String)!nameCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS@ S(D2É
-8com.thoughtworks.xstream.io.xml.DomWriter?hasRootElementCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaW W("2}
-2com.thoughtworks.xstream.io.xml.DomWriter?documentCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaX X(2É
-8com.thoughtworks.xstream.io.xml.DomWriter?hasRootElementCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaY Y(2b
-java.lang.ObjectRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR R(’
-Ecom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)METHODA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^ ^("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addAttribute2ö
-Jcom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)!name	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^ ^(.2õ
-Kcom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)!value	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^0 ^(B2z
-/com.thoughtworks.xstream.io.xml.DomWriter.top()CALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java_ _(2™
-_com.thoughtworks.xstream.io.xml.DomWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java_+ _(/2´
-`com.thoughtworks.xstream.io.xml.DomWriter.addAttribute(java.lang.String, java.lang.String)!valueCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java_2 _(72V
-voidRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^ ^(ÿ
-:com.thoughtworks.xstream.io.xml.DomWriter.setValue(String)METHODA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab b("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setValue2è
-?com.thoughtworks.xstream.io.xml.DomWriter.setValue(String)!text	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab b(*2z
-/com.thoughtworks.xstream.io.xml.DomWriter.top()CALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javac c(2}
-2com.thoughtworks.xstream.io.xml.DomWriter?documentCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javac c("2î
-Icom.thoughtworks.xstream.io.xml.DomWriter.setValue(java.lang.String)!textCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javac2 c(62V
-voidRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab b(´
-/com.thoughtworks.xstream.io.xml.DomWriter.top()METHODA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaf f("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Element*top2Y
-ElementRETURN_TYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaf f(Ù
-Acom.thoughtworks.xstream.io.xml.DomWriter.createNode(String)!name	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR- R(1*name2[
-java.lang.StringTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaR& R(,˝
-Jcom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)!name	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^* ^(.*name2[
-java.lang.StringTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^# ^()ˇ
-Kcom.thoughtworks.xstream.io.xml.DomWriter.addAttribute(String,String)!value	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^= ^(B*value2[
-java.lang.StringTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java^6 ^(<Ú
-?com.thoughtworks.xstream.io.xml.DomWriter.setValue(String)!text	PARAMETERA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab& b(**text2[
-java.lang.StringTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javab b(%ì
-Bcom.thoughtworks.xstream.io.xml.DomWriter.createNode(String)?childVALUEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS S("
-type Element*child2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS S(2}
-2com.thoughtworks.xstream.io.xml.DomWriter?documentCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS S(&2ñ
-Kcom.thoughtworks.xstream.io.xml.DomWriter.createNode(java.lang.String)!nameCALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaS@ S(DÛ
-@com.thoughtworks.xstream.io.xml.DomWriter.createNode(String)?topVALUEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaT T("
-type Element*top2R
-ElementTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaT T(2z
-/com.thoughtworks.xstream.io.xml.DomWriter.top()CALLA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.javaT T(!
-2com.thoughtworks.xstream.io.xml.DomWriter?documentVALUEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (#"
-type Document*document2S
-DocumentTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (˝
-8com.thoughtworks.xstream.io.xml.DomWriter?hasRootElementVARIABLEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (""
-type boolean*hasRootElement2R
-booleanTYPEA
-7src/java/com/thoughtworks/xstream/io/xml/DomWriter.java (

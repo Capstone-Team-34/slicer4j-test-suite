@@ -1,125 +1,0 @@
-
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java“
-+com.thoughtworks.acceptance.ReadResolveTestCLASSC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java ("
-inner classfalse*ReadResolveTest2©
-Ucom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java ,(2ú
-Hcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java. 5(2e
-AbstractAcceptanceTestEXTENDC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java% (;Î
-Ucom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()METHODC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*'testReadResolveWithDefaultSerialization2∞
-\com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?statusDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (.2Æ
-Zcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?boutDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (@2¨
-Xcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?osDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (<2∞
-\com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?bArrayDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java" "(*2±
-]com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?rStatusDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java# #(!2¨
-Xcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?inDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java$ $(#2≠
-Ycom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?binDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java& &(C2x
-+java.io.ByteArrayOutputStream.toByteArray()CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java" "(*2s
-&java.io.ObjectInputStream.readObject()CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java( ((.2Ç
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java% (@2ê
-Cjava.io.ObjectOutputStream.ObjectOutputStream(java.io.OutputStream)CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java  (<2Ü
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java&# &(C2ç
-@java.io.ObjectInputStream.ObjectInputStream(java.io.InputStream)CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java' '('2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.javaA (L»
-Hcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()METHODC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java. .(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReadResolveWithXStream2£
-Ocom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?statusDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java/ /(.2†
-Lcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?xmlDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java1 1(*2§
-Pcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?rStatusDECLARATIONC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java2 2(>2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java. .(£
-\com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?statusVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java ("
-type 
-StatusEnum*status2W
-
-StatusEnumTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (¬
-Zcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?boutVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (""
-type ByteArrayOutputStream*bout2j
-java.io.ByteArrayOutputStreamTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (2Ç
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java% (@∆
-Xcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?osVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java ("
-type ObjectOutputStream*os2g
-java.io.ObjectOutputStreamTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java (2ê
-Cjava.io.ObjectOutputStream.ObjectOutputStream(java.io.OutputStream)CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java  (<ï
-\com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?bArrayVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java" "("
-type byte[]*bArray2S
-byte[]TYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java" "(2x
-+java.io.ByteArrayOutputStream.toByteArray()CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java" "(*•
-]com.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?rStatusVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java# #("
-type 
-StatusEnum*rStatus2W
-
-StatusEnumTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java# #(±
-Xcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?inVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java$ $("
-type ObjectInputStream*in2f
-java.io.ObjectInputStreamTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java$ $(¬
-Ycom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithDefaultSerialization()?binVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java& &( "
-type ByteArrayInputStream*bin2i
-java.io.ByteArrayInputStreamTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java& &(2Ü
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java&# &(Cñ
-Ocom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?statusVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java/ /("
-type 
-StatusEnum*status2W
-
-StatusEnumTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java/ /(í
-Lcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?xmlVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java1 1("
-type String*xml2]
-java.lang.StringTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java1 1(ò
-Pcom.thoughtworks.acceptance.ReadResolveTest.testReadResolveWithXStream()?rStatusVARIABLEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java2 2("
-type 
-StatusEnum*rStatus2W
-
-StatusEnumTYPEC
-9src/test/com/thoughtworks/acceptance/ReadResolveTest.java2 2(

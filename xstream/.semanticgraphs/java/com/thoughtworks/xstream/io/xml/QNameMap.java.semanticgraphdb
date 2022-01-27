@@ -1,264 +1,0 @@
-
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java‹
-(com.thoughtworks.xstream.io.xml.QNameMapCLASS@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java ("
-inner classfalse*QNameMap2ë
-@com.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java' /(2ä
-9com.thoughtworks.xstream.io.xml.QNameMap.getQName(String)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6 >(2ó
-Fcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC L(2ñ
-Ecom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ S(2è
->com.thoughtworks.xstream.io.xml.QNameMap.getDefaultNamespace()DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaU W(2ï
-Dcom.thoughtworks.xstream.io.xml.QNameMap.setDefaultNamespace(String)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY [(2å
-;com.thoughtworks.xstream.io.xml.QNameMap.getDefaultPrefix()DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java] _(2í
-Acom.thoughtworks.xstream.io.xml.QNameMap.setDefaultPrefix(String)DECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa c(2Ö
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (2Ö
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (2á
-6com.thoughtworks.xstream.io.xml.QNameMap?defaultPrefixDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (%2ä
-9com.thoughtworks.xstream.io.xml.QNameMap?defaultNamespaceDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java   ((≤
-@com.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java' '(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getJavaClassName2ï
-Fcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java'# '(.2ò
-Gcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)?answerDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java) )(;2m
-#java.util.Map.get(java.lang.Object)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)% )(;2r
-(javax.xml.namespace.QName.getLocalPart()CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java. .(#2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java( ((2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)% )(02§
-Zcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(javax.xml.namespace.QName)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)5 )(:2§
-Zcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(javax.xml.namespace.QName)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java. .(2a
-java.lang.StringRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java' '( 
-9com.thoughtworks.xstream.io.xml.QNameMap.getQName(String)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6 6("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type QName*getQName2ñ
-Gcom.thoughtworks.xstream.io.xml.QNameMap.getQName(String)!javaClassName	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6 6(.2ë
-@com.thoughtworks.xstream.io.xml.QNameMap.getQName(String)?answerDECLARATION@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8 8(A2m
-#java.util.Map.get(java.lang.Object)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8# 8(A2ü
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java= =(H2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java7 7(2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8# 8(.2õ
-Qcom.thoughtworks.xstream.io.xml.QNameMap.getQName(java.lang.String)!javaClassNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java83 8(@2É
-9com.thoughtworks.xstream.io.xml.QNameMap?defaultNamespaceCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java= =()2õ
-Qcom.thoughtworks.xstream.io.xml.QNameMap.getQName(java.lang.String)!javaClassNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java=+ =(82Ä
-6com.thoughtworks.xstream.io.xml.QNameMap?defaultPrefixCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java=: =(G2j
-javax.xml.namespace.QNameRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6 6(õ
-Fcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC C(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*registerMapping2õ
-Lcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC- C(82£
-Tcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)!javaClassName	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC: C(N2Ñ
-:java.util.Collections.synchronizedMap(java.util.Map<K, V>)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaE E(D2Ñ
-:java.util.Collections.synchronizedMap(java.util.Map<K, V>)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaH H(D2a
-java.util.Map.put(K, V)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaJ J(-2a
-java.util.Map.put(K, V)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaK K(-2e
-java.util.HashMap.HashMap()CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaE6 E(C2e
-java.util.HashMap.HashMap()CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaH6 H(C2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaD D(2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaE E(2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaG G(2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaH H(2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaJ J(2Ω
-scom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.String)!javaClassNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaJ J(%2µ
-kcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.String)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaJ' J(,2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaK K(2µ
-kcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.String)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaK K(2Ω
-scom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.String)!javaClassNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaK K(,2U
-voidRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC C(Å
-
-Ecom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ Q(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*registerMapping2ö
-Kcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ- Q(82ô
-Jcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)!type	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ: Q(D2Ø
-ecom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.String)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaR R(.2c
-java.lang.Class.getName()CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaR R(-2¥
-jcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.Class)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaR R(2≥
-icom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(javax.xml.namespace.QName, java.lang.Class)!typeCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaR R(#2U
-voidRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ Q(’
->com.thoughtworks.xstream.io.xml.QNameMap.getDefaultNamespace()METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaU U(%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getDefaultNamespace2É
-9com.thoughtworks.xstream.io.xml.QNameMap?defaultNamespaceCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaV V(2a
-java.lang.StringRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaU U(ö
-Dcom.thoughtworks.xstream.io.xml.QNameMap.setDefaultNamespace(String)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY Y(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setDefaultNamespace2§
-Ucom.thoughtworks.xstream.io.xml.QNameMap.setDefaultNamespace(String)!defaultNamespace	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY$ Y(;2©
-_com.thoughtworks.xstream.io.xml.QNameMap.setDefaultNamespace(java.lang.String)!defaultNamespaceCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaZ  Z(02U
-voidRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY Y(Ã
-;com.thoughtworks.xstream.io.xml.QNameMap.getDefaultPrefix()METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java] ](""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getDefaultPrefix2Ä
-6com.thoughtworks.xstream.io.xml.QNameMap?defaultPrefixCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java^ ^(2a
-java.lang.StringRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java] ](à
-Acom.thoughtworks.xstream.io.xml.QNameMap.setDefaultPrefix(String)METHOD@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa a( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setDefaultPrefix2û
-Ocom.thoughtworks.xstream.io.xml.QNameMap.setDefaultPrefix(String)!defaultPrefix	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa! a(52£
-Ycom.thoughtworks.xstream.io.xml.QNameMap.setDefaultPrefix(java.lang.String)!defaultPrefixCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javab b(*2U
-voidRETURN_TYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa a(Å
-Fcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java') '(.*qname2c
-javax.xml.namespace.QNameTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java'# '((Å
-Gcom.thoughtworks.xstream.io.xml.QNameMap.getQName(String)!javaClassName	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6! 6(.*javaClassName2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java6 6( á
-Lcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC3 C(8*qname2c
-javax.xml.namespace.QNameTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC- C(2é
-Tcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,String)!javaClassName	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaCA C(N*javaClassName2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaC: C(@Ü
-Kcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)!qname	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ3 Q(8*qname2c
-javax.xml.namespace.QNameTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ- Q(2˙
-Jcom.thoughtworks.xstream.io.xml.QNameMap.registerMapping(QName,Class)!type	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ@ Q(D*type2Y
-java.lang.ClassTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaQ: Q(?í
-Ucom.thoughtworks.xstream.io.xml.QNameMap.setDefaultNamespace(String)!defaultNamespace	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY+ Y(;*defaultNamespace2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaY$ Y(*â
-Ocom.thoughtworks.xstream.io.xml.QNameMap.setDefaultPrefix(String)!defaultPrefix	PARAMETER@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa( a(5*defaultPrefix2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.javaa! a('†
-Gcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(QName)?answerVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java) )("
-type String*answer2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java) )(2m
-#java.util.Map.get(java.lang.Object)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)% )(;2~
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)% )(02§
-Zcom.thoughtworks.xstream.io.xml.QNameMap.getJavaClassName(javax.xml.namespace.QName)!qnameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java)5 )(:ò
-@com.thoughtworks.xstream.io.xml.QNameMap.getQName(String)?answerVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8 8("
-type QName*answer2c
-javax.xml.namespace.QNameTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8 8(2m
-#java.util.Map.get(java.lang.Object)CALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8# 8(A2~
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java8# 8(.2õ
-Qcom.thoughtworks.xstream.io.xml.QNameMap.getQName(java.lang.String)!javaClassNameCALL@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java83 8(@ˆ
-4com.thoughtworks.xstream.io.xml.QNameMap?qnameToJavaVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java ("
-type Map*qnameToJava2W
-java.util.MapTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (ˆ
-4com.thoughtworks.xstream.io.xml.QNameMap?javaToQNameVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java ("
-type Map*javaToQName2W
-java.util.MapTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (Ä
-6com.thoughtworks.xstream.io.xml.QNameMap?defaultPrefixVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java ( "
-type String*defaultPrefix2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java (Ü
-9com.thoughtworks.xstream.io.xml.QNameMap?defaultNamespaceVARIABLE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java   (#"
-type String*defaultNamespace2Z
-java.lang.StringTYPE@
-6src/java/com/thoughtworks/xstream/io/xml/QNameMap.java   (

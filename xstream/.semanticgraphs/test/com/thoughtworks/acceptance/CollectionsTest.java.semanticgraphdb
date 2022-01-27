@@ -1,581 +1,0 @@
-
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java†
-+com.thoughtworks.acceptance.CollectionsTestCLASSC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java! !("
-inner classfalse*CollectionsTest2¢
-Ncom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java# G(2°
-Mcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaI \(2ô
-Ecom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java^ j(2ò
-Dcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()DECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javal x(2ç
-8com.thoughtworks.acceptance.CollectionsTest.testVector()DECLARATIOND
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaz Ñ(2ó
-Acom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÜ ´(2ú
-Fcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ “(2ë
-;com.thoughtworks.acceptance.CollectionsTest.testEmptyList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‘ ÷(2ê
-:com.thoughtworks.acceptance.CollectionsTest.testEmptySet()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÿ ⁄(2ú
-Fcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsImmutable()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‹ Â(2õ
-Ecom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsImmutable()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÁ (2ú
-Fcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsSingleton()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÚ Ù(2õ
-Ecom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsSingleton()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaˆ ¯(2ï
-?com.thoughtworks.acceptance.CollectionsTest.testSingletonList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java˙ ˇ(2î
->com.thoughtworks.acceptance.CollectionsTest.testSingletonSet()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÅ Ü(2û
-Hcom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaà ô(2ò
-Bcom.thoughtworks.acceptance.CollectionsTest.testUnmodifiableList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaõ ™(2§
-Ncom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¨ Ω(2õ
-Ecom.thoughtworks.acceptance.CollectionsTest.testListFromArrayAsList()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaø …(2¶
-Pcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÀ €(2®
-Rcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› Ï(2®
-Rcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()DECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÓ â(2e
-AbstractAcceptanceTestEXTENDC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java!% !(;Ω
-Ncom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()METHODC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java# #(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testListsCanContainCustomObjects2®
-Tcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()?listsDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java$ $(-2´
-Wcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()?expectedDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java. D(2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java# #(¶
-Mcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()METHODC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaI I(/"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testListsCanContainBasicObjects2ß
-Scom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()?listsDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaJ J(-2™
-Vcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()?expectedDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaQ Y(2k
-java.lang.Integer.Integer(int)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaL L(%2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaI I(⁄
-Ecom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()METHODC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java^ ^('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testListCanBeRootObject2û
-Jcom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()?listDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java_ _()2¢
-Ncom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()?expectedDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javac g(2h
-java.util.Collection.add(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java` `(2h
-java.util.Collection.add(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaa a(2l
-java.util.ArrayList.ArrayList()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java_ _()2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java^ ^(—
-Dcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()METHODC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javal l(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSetCanBeRootObject2ú
-Hcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()?setDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javam m(&2°
-Mcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()?expectedDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaq u(2h
-java.util.Collection.add(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javan n(2h
-java.util.Collection.add(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javao o(2h
-java.util.HashSet.HashSet()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javam m(&2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javal l(ê
-8com.thoughtworks.acceptance.CollectionsTest.testVector()METHODC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaz z("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*
-testVector2ì
-?com.thoughtworks.acceptance.CollectionsTest.testVector()?vectorDECLARATIONC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java{ {($2k
-java.util.Vector.addElement(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java| |(2k
-java.util.Vector.addElement(E)CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java} }(2f
-java.util.Vector.Vector()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java{ {($2X
-voidRETURN_TYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaz z(Ó
-Acom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÜ Ü(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSyncronizedList2õ
-Ecom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()?xmlDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaá á(2ú
-Fcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß ß(B2à
-9java.util.Collections.synchronizedList(java.util.List<T>)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß ß(B2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java® ®(2p
-!java.util.LinkedList.LinkedList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß1 ß(A2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÜ Ü(Ä
-Fcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSyncronizedArrayList2†
-Jcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()?xmlDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÆ Æ(2°
-Kcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(A2à
-9java.util.Collections.synchronizedList(java.util.List<T>)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(A2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaœ œ(2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ1 Œ(@2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(¬
-;com.thoughtworks.acceptance.CollectionsTest.testEmptyList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‘ ‘("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptyList2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‘ ‘(¿
-:com.thoughtworks.acceptance.CollectionsTest.testEmptySet()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÿ ÿ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptySet2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÿ ÿ(∏
-Fcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsImmutable()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‹ ‹(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptyListIsImmutable2°
-Kcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsImmutable()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(#2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ((2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬂ ﬂ((2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(#2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‹ ‹(µ
-Ecom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsImmutable()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÁ Á('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptySetIsImmutable2†
-Jcom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsImmutable()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaË Ë(#2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÈ È('2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÍ Í('2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaË Ë(#2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÁ Á(ÿ
-Fcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsSingleton()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÚ Ú(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptyListIsSingleton2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÚ Ú(÷
-Ecom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsSingleton()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaˆ ˆ('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmptySetIsSingleton2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaˆ ˆ(¡
-?com.thoughtworks.acceptance.CollectionsTest.testSingletonList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java˙ ˙(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSingletonList2u
-&java.util.Collections.singletonList(T)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java˚ ˚(;2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java˙ ˙(ª
->com.thoughtworks.acceptance.CollectionsTest.testSingletonSet()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÅ Å( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSingletonSet2q
-"java.util.Collections.singleton(T)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÇ Ç(72Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÅ Å(É
-Hcom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaà à(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testPropertiesWithDefaults2ß
-Qcom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()?defaultsDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaâ â(.2©
-Scom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()?propertiesDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaå å(82ì
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaä ä((2ì
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaã ã((2ì
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaç ç((2ì
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaé é(*2p
-!java.util.Properties.Properties()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaâ â(.2Ñ
-5java.util.Properties.Properties(java.util.Properties)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaå  å(82Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaà à(€
-Bcom.thoughtworks.acceptance.CollectionsTest.testUnmodifiableList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaõ õ($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testUnmodifiableList2ù
-Gcom.thoughtworks.acceptance.CollectionsTest.testUnmodifiableList()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaü ü(#2d
-java.util.List.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java† †(2í
-Cjava.util.Collections.unmodifiableList(java.util.List<? extends T>)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java° °(12n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaü ü(#2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaõ õ(ç
-Ncom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¨ ¨(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testLinkedHashSetRetainsOrdering2®
-Rcom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?setDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(%2´
-Ucom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?resultDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≤ ∑(%2´
-Ucom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?valuesDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaπ π(*2c
-java.util.Set.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÆ Æ(2c
-java.util.Set.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaØ Ø(2c
-java.util.Set.add(E)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java∞ ∞(2u
-&java.util.AbstractCollection.toArray()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaπ π(*2v
-'java.util.LinkedHashSet.LinkedHashSet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(%2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¨ ¨(Á
-Ecom.thoughtworks.acceptance.CollectionsTest.testListFromArrayAsList()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaø ø('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testListFromArrayAsList2†
-Jcom.thoughtworks.acceptance.CollectionsTest.testListFromArrayAsList()?listDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¿ ¿(=2l
-java.util.Arrays.asList(T...)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¿ ¿(=2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaø ø(Ì
-Pcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÀ À(2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testKeySetOfHashMapCanBeSerialized2™
-Tcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()?mapDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÃ Ã(%2™
-Tcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()?setDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(+2f
-java.util.Map.put(K, V)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÕ Õ(2e
-java.util.Map.keySet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(+2j
-java.lang.Object.getClass()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java–! –(/2j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÃ Ã(%2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÀ À(ı
-Rcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testValueSetOfHashMapCanBeSerialized2¨
-Vcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()?mapDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ(%2¨
-Vcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()?setDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‡ ‡(+2f
-java.util.Map.put(K, V)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬂ ﬂ(&2e
-java.util.Map.values()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‡ ‡(+2j
-java.lang.Object.getClass()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java·# ·(12j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ(%2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(Ò
-
-Rcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()METHODE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÓ Ó(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testEntrySetOfHashMapCanBeSerialized2¨
-Vcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()?mapDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÔ Ô(%2¨
-Vcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()?setDECLARATIONE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÒ Ò(-2f
-java.util.Map.put(K, V)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java (&2g
-java.util.Map.entrySet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÒ Ò(-2j
-java.lang.Object.getClass()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÚ# Ú(12y
-*java.lang.String.indexOf(java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÙ Ù(M2}
-.java.lang.System.getProperty(java.lang.String)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÙ Ù(>2j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÔ Ô(%2Z
-voidRETURN_TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÓ Ó(ú
-Tcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()?listsVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java$ $("
-type SampleLists*lists2X
-SampleListsTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java$ $(¢
-Wcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainCustomObjects()?expectedVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java. .("
-type String*expected2]
-java.lang.StringTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java. .(õ
-Scom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()?listsVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaJ J("
-type SampleLists*lists2X
-SampleListsTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaJ J(°
-Vcom.thoughtworks.acceptance.CollectionsTest.testListsCanContainBasicObjects()?expectedVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaQ Q("
-type String*expected2]
-java.lang.StringTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaQ Q(á
-Jcom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()?listVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java_ _("
-type 
-Collection*list2a
-java.util.CollectionTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java_ _(2l
-java.util.ArrayList.ArrayList()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java_ _()ô
-Ncom.thoughtworks.acceptance.CollectionsTest.testListCanBeRootObject()?expectedVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javac c("
-type String*expected2]
-java.lang.StringTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javac c(Ä
-Hcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()?setVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javam m("
-type 
-Collection*set2a
-java.util.CollectionTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javam m(2h
-java.util.HashSet.HashSet()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javam m(&ò
-Mcom.thoughtworks.acceptance.CollectionsTest.testSetCanBeRootObject()?expectedVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaq q("
-type String*expected2]
-java.lang.StringTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaq q(
-?com.thoughtworks.acceptance.CollectionsTest.testVector()?vectorVARIABLEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java{ {("
-type Vector*vector2]
-java.util.VectorTYPEC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java{ {(2f
-java.util.Vector.Vector()CALLC
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java{ {($å
-Ecom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()?xmlVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaá á("
-type String*xml2_
-java.lang.StringTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaá á(ä
-Fcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedList()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß ß("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß ß(2à
-9java.util.Collections.synchronizedList(java.util.List<T>)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß ß(B2p
-!java.util.LinkedList.LinkedList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaß1 ß(Aë
-Jcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()?xmlVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÆ Æ("
-type String*xml2_
-java.lang.StringTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÆ Æ(ç
-Kcom.thoughtworks.acceptance.CollectionsTest.testSyncronizedArrayList()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(2à
-9java.util.Collections.synchronizedList(java.util.List<T>)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(A2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ1 Œ(@Ç
-Kcom.thoughtworks.acceptance.CollectionsTest.testEmptyListIsImmutable()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java› ›(#Å
-Jcom.thoughtworks.acceptance.CollectionsTest.testEmptySetIsImmutable()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaË Ë("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaË Ë(2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaË Ë(#ö
-Qcom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()?defaultsVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaâ â("
-type 
-Properties*defaults2c
-java.util.PropertiesTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaâ â(2p
-!java.util.Properties.Properties()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaâ â(.≥
-Scom.thoughtworks.acceptance.CollectionsTest.testPropertiesWithDefaults()?propertiesVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaå å("
-type 
-Properties*
-properties2c
-java.util.PropertiesTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaå å(2Ñ
-5java.util.Properties.Properties(java.util.Properties)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaå  å(8˛
-Gcom.thoughtworks.acceptance.CollectionsTest.testUnmodifiableList()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaü ü("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaü ü(2n
-java.util.ArrayList.ArrayList()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaü ü(#é
-Rcom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?setVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠("
-type Set*set2\
-java.util.SetTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(2v
-'java.util.LinkedHashSet.LinkedHashSet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≠ ≠(%∞
-Ucom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?resultVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≤ ≤("
-type LinkedHashSet*result2f
-java.util.LinkedHashSetTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java≤ ≤(ù
-Ucom.thoughtworks.acceptance.CollectionsTest.testLinkedHashSetRetainsOrdering()?valuesVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaπ π("
-type Object[]*values2a
-java.lang.Object[]TYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaπ π(2u
-&java.util.AbstractCollection.toArray()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaπ π(*ˇ
-Jcom.thoughtworks.acceptance.CollectionsTest.testListFromArrayAsList()?listVARIABLEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¿ ¿("
-type List*list2]
-java.util.ListTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¿ ¿(2l
-java.util.Arrays.asList(T...)CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java¿ ¿(=Å
-Tcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()?mapVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÃ Ã("
-type Map*map2\
-java.util.MapTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÃ Ã(2j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÃ Ã(%ä
-Tcom.thoughtworks.acceptance.CollectionsTest.testKeySetOfHashMapCanBeSerialized()?setVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ("
-type 
-Collection*set2c
-java.util.CollectionTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(2e
-java.util.Map.keySet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaŒ Œ(+É
-Vcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()?mapVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ("
-type Map*map2\
-java.util.MapTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ(2j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaﬁ ﬁ(%å
-Vcom.thoughtworks.acceptance.CollectionsTest.testValueSetOfHashMapCanBeSerialized()?setVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‡ ‡("
-type 
-Collection*set2c
-java.util.CollectionTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‡ ‡(2e
-java.util.Map.values()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.java‡ ‡(+É
-Vcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()?mapVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÔ Ô("
-type Map*map2\
-java.util.MapTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÔ Ô(2j
-java.util.HashMap.HashMap()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÔ Ô(%é
-Vcom.thoughtworks.acceptance.CollectionsTest.testEntrySetOfHashMapCanBeSerialized()?setVALUEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÒ Ò("
-type 
-Collection*set2c
-java.util.CollectionTYPEE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÒ Ò(2g
-java.util.Map.entrySet()CALLE
-9src/test/com/thoughtworks/acceptance/CollectionsTest.javaÒ Ò(-

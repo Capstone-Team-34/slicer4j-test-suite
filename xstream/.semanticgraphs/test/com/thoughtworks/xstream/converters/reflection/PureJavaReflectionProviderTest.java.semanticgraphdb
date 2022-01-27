@@ -1,221 +1,0 @@
-
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaï!
-Mcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTestCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (+"
-inner classfalse*PureJavaReflectionProviderTest2ﬁ
-hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.createReflectionProvider()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (2Ï
-vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testCanCreatePrivateStaticInnerClasses()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java  (2˙
-Écom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testIsNotCapableOfConstructingNonStaticInnerClasses()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java, /(2Ù
-~com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testUnfortunatelyExecutesCodeInsideConstructor()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java; B(2Ö
-écom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testIsNotCapableOfConstructingClassesWithoutDefaultConstructor()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaM O(2Î
-ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testUsesPrivateConstructorIfNecessary()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java^ `(2å
-ïcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testBypassesConstructorForSerializableObjectsWithNoDefaultConstructor()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javas v(2‚
-lcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithConstructorThatDoesStuff()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java6 8(	2Â
-ocom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI J(	2È
-scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV X(	2„
-mcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaZ [(	2Ò
-{com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah j(	2˚
-Ñcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan p(	2è
-AbstractReflectionProviderTestEXTENDe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java4 (R2›
-gcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.PublicNonStaticInnerClassDECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java& '(2ﬁ
-hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.PrivateNonStaticInnerClassDECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java) *(2Ú
-|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructorDECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javam q(à
-çcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor.WithoutDefaultConstructor(String)!arg	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI0 I(3*arg2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI) I(/î
-ócom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV5 V(:*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV. V(4§
-ßcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor.SerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah< h(A*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah5 h(;∂
-πcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor.NonStaticSerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javanE n(J*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan> n(D◊
-hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.createReflectionProvider()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type ReflectionProvider*createReflectionProvider2à
-ReflectionProviderRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (÷
-vcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testCanCreatePrivateStaticInnerClasses()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testCanCreatePrivateStaticInnerClasses2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (Ò
-Écom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testIsNotCapableOfConstructingNonStaticInnerClasses()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java, ,(C"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*3testIsNotCapableOfConstructingNonStaticInnerClasses2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java, ,(Ê
-~com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testUnfortunatelyExecutesCodeInsideConstructor()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java; ;(>"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*.testUnfortunatelyExecutesCodeInsideConstructor2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java; ;(á
-écom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testIsNotCapableOfConstructingClassesWithoutDefaultConstructor()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaM M(N"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*>testIsNotCapableOfConstructingClassesWithoutDefaultConstructor2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaM M(‘
-ucom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testUsesPrivateConstructorIfNecessary()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java^ ^(5"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*%testUsesPrivateConstructorIfNecessary2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java^ ^(ï
-ïcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.testBypassesConstructorForSerializableObjectsWithNoDefaultConstructor()METHODe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javas s(U"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*EtestBypassesConstructorForSerializableObjectsWithNoDefaultConstructor2z
-voidRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javas s(Ñ
-ecom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.PrivateStaticInnerClassCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java (0"
-inner classfalse*PrivateStaticInnerClassá
-gcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.PublicNonStaticInnerClassCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java& &(*"
-inner classtrue*PublicNonStaticInnerClassâ
-hcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.PrivateNonStaticInnerClassCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java) )(,"
-inner classtrue*PrivateNonStaticInnerClassë
-jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithConstructorThatDoesStuffCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java5 5(4"
-inner classfalse*WithConstructorThatDoesStuff2Ä
-âcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithConstructorThatDoesStuff.WithConstructorThatDoesStuff()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java6 8(	 
-âcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithConstructorThatDoesStuff.WithConstructorThatDoesStuff()CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java6 6(+*WithConstructorThatDoesStuff2∆
-Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java7 7(I2‡
-jcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithConstructorThatDoesStuffRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.java6 6(+ã
-gcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructorCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaH H(1"
-inner classfalse*WithoutDefaultConstructor2Ä
-âcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor.WithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI J(	Ä
-âcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor.WithoutDefaultConstructor(String)CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI I((*WithoutDefaultConstructor2Ç
-çcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor.WithoutDefaultConstructor(String)!arg	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI) I(32›
-gcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructorRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI I((à
-çcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithoutDefaultConstructor.WithoutDefaultConstructor(String)!arg	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI0 I(3*arg2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaI) I(/†
-kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructorCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaU U(5"
-inner classfalse*WithPrivateDefaultConstructor2à
-ëcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV X(	2Ç
-ãcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor()DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaZ [(	„
-ëcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor(String)CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV V(-*WithPrivateDefaultConstructor2å
-ócom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV. V(:2∆
-Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaW W(O2·
-kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructorRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV V(-Ö
-ãcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor()CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaZ Z(-*WithPrivateDefaultConstructor2·
-kcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructorRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaZ Z(-î
-ócom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.WithPrivateDefaultConstructor.WithPrivateDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV5 V(:*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaV. V(4©	
-scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructorCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javaf f(>"
-inner classfalse*%SerializableWithoutDefaultConstructor2ò
-°com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor.SerializableWithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah j(	2
-zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor?field1DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g(2
-zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor?field2DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g("2Ö
-java.io.SerializableEXTENDe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javafJ f(Vì
-°com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor.SerializableWithoutDefaultConstructor(String)CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah h(4*%SerializableWithoutDefaultConstructor2ú
-ßcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor.SerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah5 h(A2∆
-Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javai i(I2È
-scom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructorRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah h(4§
-ßcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor.SerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah< h(A*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javah5 h(;˜
-zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor?field1VARIABLEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g("
-type int*field12r
-intTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g(˜
-zcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.SerializableWithoutDefaultConstructor?field2VARIABLEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g(""
-type int*field22r
-intTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javag g(Ê
-|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructorCLASSe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javam m(@"
-inner classtrue*.NonStaticSerializableWithoutDefaultConstructor2™
-≥com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor.NonStaticSerializableWithoutDefaultConstructor(String)DECLARATIONe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan p(	2Ö
-java.io.SerializableEXTENDe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javamL m(X…
-≥com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor.NonStaticSerializableWithoutDefaultConstructor(String)CONSTRUCTORe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan n(=*.NonStaticSerializableWithoutDefaultConstructor2Æ
-πcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor.NonStaticSerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan> n(J2∆
-Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javao o(I2Ú
-|com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructorRETURN_TYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan n(=∂
-πcom.thoughtworks.xstream.converters.reflection.PureJavaReflectionProviderTest.NonStaticSerializableWithoutDefaultConstructor.NonStaticSerializableWithoutDefaultConstructor(String)!thing	PARAMETERe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javanE n(J*thing2
-java.lang.StringTYPEe
-[src/test/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProviderTest.javan> n(D

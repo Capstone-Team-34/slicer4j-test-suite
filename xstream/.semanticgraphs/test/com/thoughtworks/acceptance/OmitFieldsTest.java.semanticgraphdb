@@ -1,527 +1,0 @@
-
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ
-*com.thoughtworks.acceptance.OmitFieldsTestCLASSB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java ("
-inner classfalse*OmitFieldsTest2¶
-Scom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()DECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java 0(2™
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()DECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java2 G(2∂
-ccom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()DECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaM e(2™
-Vcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()DECLARATIONC
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javan ï(2£
-Ncom.thoughtworks.acceptance.OmitFieldsTest.shouldSerializeMember(Class,String)DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ Ç(2ô
-Dcom.thoughtworks.acceptance.OmitFieldsTest.wrapMapper(MapperWrapper)DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÜ à(2†
-Kcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaó •(2≠
-Xcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaß µ(2≤
-]com.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∑ ≈(2¢
-Mcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java« ‘(2õ
-Fcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java÷ Ê(2ª
-fcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaË ˆ(2ë
-<com.thoughtworks.acceptance.OmitFieldsTest.setHidden(String)DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˝(	2ª
-fcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ ô(2¢
-Ocom.thoughtworks.acceptance.OmitFieldsTest.OmitFieldsWithMyPrefixMapper(Mapper)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java| ~(2d
-AbstractAcceptanceTestEXTENDB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java$ (:˜
-IOmitFieldsWithMyPrefixMapper.OmitFieldsWithMyPrefixMapper(Mapper)!wrapped	PARAMETERB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java|7 |(>*wrapped2R
-MapperTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java|0 |(6µ	
-Scom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()METHODB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testTransientFieldsAreOmittedByDefault2©
-Vcom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?inDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (2≤
-_com.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?expectedXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java! %(2∞
-]com.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?actualXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java) )(,2™
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?outDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java, ,(52Ñ
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (Õ	
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()METHODB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java2 2(:"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testAdditionalFieldsCanBeExplicitlyOmitted2≠
-Zcom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?inDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java3 3(2∂
-ccom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?expectedXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java8 ;(2¥
-acom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?actualXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java@ @(,2Æ
-[com.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?outDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaC C(52Ñ
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java3 3(2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java2 2(£
-
-ccom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()METHODB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaM M(F"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*6testInheritedFieldsCanBeExplicitlyOmittedThroughFacade2π
-fcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?inDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaN N(,2¬
-ocom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?expectedXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaT X(2¿
-mcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?actualXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java] ](,2∫
-gcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?outDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java` `(C2í
-Fcom.thoughtworks.acceptance.OmitFieldsTest.DerivedThing.DerivedThing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaN N(,2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaM M(≤
-Vcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()METHODB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javan n(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testFieldsCanBeIgnoredUsingCustomStrategy2¨
-Ycom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?inDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javao o(,2µ
-bcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?expectedXmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javau y(2µ
-`com.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?actualXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaç ç(,2Ø
-Zcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaê ê(C2{
--java.lang.String.startsWith(java.lang.String)CALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ Å(22í
-Fcom.thoughtworks.acceptance.OmitFieldsTest.AnotherThing.AnotherThing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javao o(,2Ÿ
-äcom.thoughtworks.acceptance.OmitFieldsTest.OmitFieldsWithMyPrefixMapper.shouldSerializeMember(java.lang.Class, java.lang.String)!fieldNameCALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ Å(!2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javan n(∑
-Kcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaó ó(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDeletedElementCanBeOmitted2¨
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaò ù(2§
-Ocom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¢ ¢(72Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaó ó(Î
-Xcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaß ß(;"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*+testDeletedElementWithReferenceCanBeOmitted2π
-dcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java® ≠(2±
-\com.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java≤ ≤(72Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaß ß(ˇ
-]com.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∑ ∑(@"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*0testDeletedElementWithClassAttributeCanBeOmitted2æ
-icom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∏ Ω(2∂
-acom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¬ ¬(72Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∑ ∑(ø
-Mcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java« «(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testDeletedAttributeCanBeOmitted2Æ
-Ycom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java» Ã(2¶
-Qcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java— —(72Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java« «(Õ
-Fcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java÷ ÷()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAttributeCanBeOmitted2ß
-Rcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java◊ ◊(92û
-Icom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?inDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java› ›(2ü
-Jcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java„ „(72Ü
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java› ›(2Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java÷ ÷(°
-fcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaË Ë(I"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*9testExistingFieldsCanBeExplicitlyOmittedAtDeserialization2≈
-pcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()?actualXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÈ Ì(2ø
-jcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÚ Ú(52Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaË Ë(ø
-
-fcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ Å(I"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*9todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous2æ
-icom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?inDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÇ Ç((2«
-rcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?expectedXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaã è(2≈
-pcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?actualXmlDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaë ë(,2ø
-jcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?outDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaî î(A2ê
-Bcom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.ThingAgain()CALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÇ Ç((2Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÅ Å(á
-JOmitFieldsWithMyPrefixMapper.shouldSerializeMember(Class,String)!definedIn	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ7 Ä(@*	definedIn2]
-java.lang.ClassTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ1 Ä(6à
-JOmitFieldsWithMyPrefixMapper.shouldSerializeMember(Class,String)!fieldName	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄI Ä(R*	fieldName2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄB Ä(Hˇ
-Icom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(String)!s	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(*s2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(ø
-Vcom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?inVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java ("
-type Thing*in2|
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (2Ñ
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (´
-_com.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?expectedXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java! !("
-type String*expectedXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java! !(ß
-]com.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?actualXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java) )("
-type String*	actualXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java) )(∫
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testTransientFieldsAreOmittedByDefault()?outVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java, ,("
-type Thing*out2|
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java, ,(√
-Zcom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?inVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java3 3("
-type Thing*in2|
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java3 3(2Ñ
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java3 3(Ø
-ccom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?expectedXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java8 8("
-type String*expectedXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java8 8(´
-acom.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?actualXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java@ @("
-type String*	actualXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java@ @(æ
-[com.thoughtworks.acceptance.OmitFieldsTest.testAdditionalFieldsCanBeExplicitlyOmitted()?outVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaC C("
-type Thing*out2|
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaC C(Ï
-fcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?inVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaN N("
-type DerivedThing*in2É
-7com.thoughtworks.acceptance.OmitFieldsTest.DerivedThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaN N(2í
-Fcom.thoughtworks.acceptance.OmitFieldsTest.DerivedThing.DerivedThing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaN N(,ª
-ocom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?expectedXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaT T("
-type String*expectedXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaT T(∑
-mcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?actualXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java] ]("
-type String*	actualXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java] ](Ÿ
-gcom.thoughtworks.acceptance.OmitFieldsTest.testInheritedFieldsCanBeExplicitlyOmittedThroughFacade()?outVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java` `("
-type DerivedThing*out2É
-7com.thoughtworks.acceptance.OmitFieldsTest.DerivedThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java` `(ﬂ
-Ycom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?inVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javao o("
-type AnotherThing*in2É
-7com.thoughtworks.acceptance.OmitFieldsTest.AnotherThingTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javao o(2í
-Fcom.thoughtworks.acceptance.OmitFieldsTest.AnotherThing.AnotherThing()CALLB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javao o(,Æ
-bcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?expectedXmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javau u("
-type String*expectedXml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javau u(Æ
-`com.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?actualXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaç ç("
-type String*	actualXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaç ç(–
-Zcom.thoughtworks.acceptance.OmitFieldsTest.testFieldsCanBeIgnoredUsingCustomStrategy()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaê ê("
-type AnotherThing*out2Ö
-7com.thoughtworks.acceptance.OmitFieldsTest.AnotherThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaê ê(ß
-Wcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaò ò("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaò ò(∂
-Ocom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementCanBeOmitted()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¢ ¢("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¢ ¢(¥
-dcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java® ®("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java® ®(√
-\com.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithReferenceCanBeOmitted()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java≤ ≤("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java≤ ≤(π
-icom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∏ ∏("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java∏ ∏(»
-acom.thoughtworks.acceptance.OmitFieldsTest.testDeletedElementWithClassAttributeCanBeOmitted()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¬ ¬("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¬ ¬(©
-Ycom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java» »("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java» »(∏
-Qcom.thoughtworks.acceptance.OmitFieldsTest.testDeletedAttributeCanBeOmitted()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java— —("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java— —(¢
-Rcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java◊ ◊("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java◊ ◊(∏
-Icom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?inVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java› ›("
-type Thing*in2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java› ›(2Ü
-8com.thoughtworks.acceptance.OmitFieldsTest.Thing.Thing()CALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java› ›(±
-Jcom.thoughtworks.acceptance.OmitFieldsTest.testAttributeCanBeOmitted()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java„ „("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java„ „(æ
-pcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()?actualXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÈ È("
-type String*	actualXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÈ È(—
-jcom.thoughtworks.acceptance.OmitFieldsTest.testExistingFieldsCanBeExplicitlyOmittedAtDeserialization()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÚ Ú("
-type Thing*out2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÚ Ú(Ì
-icom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?inVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÇ Ç("
-type 
-ThingAgain*in2É
-5com.thoughtworks.acceptance.OmitFieldsTest.ThingAgainTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÇ Ç(2ê
-Bcom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.ThingAgain()CALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÇ Ç((¬
-rcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?expectedXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaã ã("
-type String*expectedXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaã ã(æ
-pcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?actualXmlVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaë ë("
-type String*	actualXml2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaë ë(‹
-jcom.thoughtworks.acceptance.OmitFieldsTest.todoTestAnOmittedFieldMakesADefinedInAttributeSuperfluous()?outVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaî î("
-type 
-ThingAgain*out2É
-5com.thoughtworks.acceptance.OmitFieldsTest.ThingAgainTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaî î(≥
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingCLASSB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java ("
-inner classfalse*Thing2ê
-=com.thoughtworks.acceptance.OmitFieldsTest.Thing?alwaysIgnoreDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (%2ì
-@com.thoughtworks.acceptance.OmitFieldsTest.Thing?sometimesIgnoreDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (2è
-<com.thoughtworks.acceptance.OmitFieldsTest.Thing?neverIgnoreDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (2\
-StandardObjectEXTENDB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java& (4ä
-=com.thoughtworks.acceptance.OmitFieldsTest.Thing?alwaysIgnoreVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (%"
-type String*alwaysIgnore2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (ê
-@com.thoughtworks.acceptance.OmitFieldsTest.Thing?sometimesIgnoreVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java ("
-type String*sometimesIgnore2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (à
-<com.thoughtworks.acceptance.OmitFieldsTest.Thing?neverIgnoreVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java ("
-type String*neverIgnore2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java (Ω
-7com.thoughtworks.acceptance.OmitFieldsTest.DerivedThingCLASSB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaI I($"
-inner classfalse*DerivedThing2í
-?com.thoughtworks.acceptance.OmitFieldsTest.DerivedThing?derivedDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaJ J(2~
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingEXTENDB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaI- I(2á
-?com.thoughtworks.acceptance.OmitFieldsTest.DerivedThing?derivedVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaJ J("
-type String*derived2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaJ J(ÿ
-7com.thoughtworks.acceptance.OmitFieldsTest.AnotherThingCLASSB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javag g($"
-inner classfalse*AnotherThing2ê
-=com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?stuffDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javah h(2ë
->com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?cheeseDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javai i(2í
-?com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?myStuffDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaj j(2ì
-@com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?myCheeseDECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javak k(2\
-StandardObjectEXTENDB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javag- g(;É
-=com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?stuffVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javah h("
-type String*stuff2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javah h(Ö
->com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?cheeseVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javai i("
-type String*cheese2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javai i(á
-?com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?myStuffVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaj j("
-type String*myStuff2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaj j(â
-@com.thoughtworks.acceptance.OmitFieldsTest.AnotherThing?myCheeseVARIABLEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javak k("
-type String*myCheese2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javak k(©
-OmitFieldsWithMyPrefixMapperCLASSB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java{ {(*"
-inner classfalse*OmitFieldsWithMyPrefixMapper2ï
-@OmitFieldsWithMyPrefixMapper.shouldSerializeMember(Class,String)DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ Ç(2î
-AOmitFieldsWithMyPrefixMapper.OmitFieldsWithMyPrefixMapper(Mapper)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java| ~(2[
-MapperWrapperEXTENDB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java{3 {(@˜
-IOmitFieldsWithMyPrefixMapper.OmitFieldsWithMyPrefixMapper(Mapper)!wrapped	PARAMETERB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java|7 |(>*wrapped2R
-MapperTYPEB
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java|0 |(6á
-JOmitFieldsWithMyPrefixMapper.shouldSerializeMember(Class,String)!definedIn	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ7 Ä(@*	definedIn2]
-java.lang.ClassTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄ1 Ä(6à
-JOmitFieldsWithMyPrefixMapper.shouldSerializeMember(Class,String)!fieldName	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄI Ä(R*	fieldName2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.javaÄB Ä(HÂ
-5com.thoughtworks.acceptance.OmitFieldsTest.ThingAgainCLASSD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¯ ¯("
-inner classfalse*
-ThingAgain2ú
-Gcom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(String)DECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˝(	2ö
-Ecom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain?sometimesIgnoreDECLARATIOND
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˘ ˘(2Ä
-0com.thoughtworks.acceptance.OmitFieldsTest.ThingEXTENDD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¯$ ¯()î
-Gcom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(String)METHODD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚("
-staticfalse"
-finalfalse""
-access modifierpackage_private"
-type void*	setHidden2ú
-Icom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(String)!s	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(2°
-Scom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(java.lang.String)!sCALLD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java¸$ ¸(%2Y
-voidRETURN_TYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(ˇ
-Icom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain.setHidden(String)!s	PARAMETERD
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(*s2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˚ ˚(ô
-Ecom.thoughtworks.acceptance.OmitFieldsTest.ThingAgain?sometimesIgnoreVARIABLED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˘ ˘("
-type String*sometimesIgnore2^
-java.lang.StringTYPED
-8src/test/com/thoughtworks/acceptance/OmitFieldsTest.java˘ ˘(

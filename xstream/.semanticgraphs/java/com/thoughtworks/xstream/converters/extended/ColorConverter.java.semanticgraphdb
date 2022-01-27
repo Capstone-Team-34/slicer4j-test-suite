@@ -1,154 +1,0 @@
-
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.javaã
-;com.thoughtworks.xstream.converters.extended.ColorConverterCLASSS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java ("
-inner classfalse*ColorConverter2±
-Mcom.thoughtworks.xstream.converters.extended.ColorConverter.canConvert(Class)DECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java  $(2Û
-wcom.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& ,(2Ø
-tcom.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java. 9(2Ê
-fcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)DECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ?(2h
-	ConverterEXTENDS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java' (0ç
-Mcom.thoughtworks.xstream.converters.extended.ColorConverter.canConvert(Class)METHODS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java   ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2´
-Rcom.thoughtworks.xstream.converters.extended.ColorConverter.canConvert(Class)!type	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java   ((2†
-)java.lang.String.equals(java.lang.Object)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java# #(62v
-java.lang.Class.getName()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java# #(2¹
-\com.thoughtworks.xstream.converters.extended.ColorConverter.canConvert(java.lang.Class)!typeCALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java# #(2k
-booleanRETURN_TYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java   (ÿ
-wcom.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& &("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2à
-~com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& &(%2à
-~com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&' &(F2á
-com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&H &(b2á
-}com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?colorDECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java' '($2t
-java.awt.Color.getRed()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java( ((#2v
-java.awt.Color.getGreen()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java) )('2u
-java.awt.Color.getBlue()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java* *(%2v
-java.awt.Color.getAlpha()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java+ +('2h
-voidRETURN_TYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& &(À
-tcom.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java. .("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2Ý
-{com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java. .(;2Þ
-|com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java.= .(Y2á
-}com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?elementsDECLARATIONS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java/ /($2y
-java.lang.Integer.intValue()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java5 5(C2€
-#java.util.Map.get(java.lang.Object)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java5$ 5(72y
-java.lang.Integer.intValue()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java6 6(<2€
-#java.util.Map.get(java.lang.Object)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java6 6(02y
-java.lang.Integer.intValue()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java7 7(;2€
-#java.util.Map.get(java.lang.Object)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java7 7(/2y
-java.lang.Integer.intValue()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java8 8(<2€
-#java.util.Map.get(java.lang.Object)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java8 8(02x
-java.util.HashMap.HashMap()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java/ /($2…
-(java.awt.Color.Color(int, int, int, int)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java5 8(=2t
-java.lang.ObjectRETURN_TYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java. .(ö
-fcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)METHODS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ;("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*write2Ò
-pcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!fieldName	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ;('2Î
-lcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!value	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;) ;(22Ï
-mcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!writer	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;4 ;(S2z
-java.lang.String.valueOf(int)CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java= =(-2h
-voidRETURN_TYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ;(¨
-Rcom.thoughtworks.xstream.converters.extended.ColorConverter.canConvert(Class)!type	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java $  ((*type2l
-java.lang.ClassTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java   (#×
-~com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& &(%*source2m
-java.lang.ObjectTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java& &(ß
-~com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&@ &(F*writer2u
-HierarchicalStreamWriterTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&' &(?Û
-com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&[ &(b*context2o
-MarshallingContextTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java&H &(ZÜ
-{com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java.5 .(;*reader2u
-HierarchicalStreamReaderTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java. .(4Ú
-|com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java.R .(Y*context2q
-UnmarshallingContextTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java.= .(QÌ
-pcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!fieldName	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ;('*	fieldName2m
-java.lang.StringTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java; ;(·
-lcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!value	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;- ;(2*value2`
-intTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;) ;(,Î
-mcom.thoughtworks.xstream.converters.extended.ColorConverter.write(String,int,HierarchicalStreamWriter)!writer	PARAMETERS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;M ;(S*writer2u
-HierarchicalStreamWriterTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java;4 ;(Lâ
-}com.thoughtworks.xstream.converters.extended.ColorConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?colorVARIABLES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java' '("
-type Color*color2k
-java.awt.ColorTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java' '(Ü
-}com.thoughtworks.xstream.converters.extended.ColorConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?elementsVARIABLES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java/ /("
-type Map*elements2j
-java.util.MapTYPES
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java/ /(2x
-java.util.HashMap.HashMap()CALLS
-Isrc/java/com/thoughtworks/xstream/converters/extended/ColorConverter.java/ /($

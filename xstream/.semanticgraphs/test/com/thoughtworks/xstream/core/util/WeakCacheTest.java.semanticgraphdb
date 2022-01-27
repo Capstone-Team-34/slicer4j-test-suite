@@ -1,564 +1,0 @@
-
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶
-0com.thoughtworks.xstream.core.util.WeakCacheTestCLASSH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java ("
-inner classfalse*WeakCacheTest2ñ
-=com.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()DECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java! 6(2∏
-_com.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()DECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java8 I(2«
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()DECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaK \(2∫
-acom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()DECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java^ o(2 
-pcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()DECLARATIONI
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaq É(2¿
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()DECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÖ °(2≤
-Wcom.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()DECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java£ ¥(2\
-TestCaseEXTENDH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java# (+Õ 
-=com.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()METHODH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java! !("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*
-testIsAMap2ö
-Acom.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()?mapDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java" "(!2õ
-Bcom.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()?copyDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java. .(#2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java# #("2i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java$ $(*2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java% %("2u
-#java.util.Map.get(java.lang.Object)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java& &(,2}
-+java.util.Map.containsKey(java.lang.Object)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java' '(52
--java.util.Map.containsValue(java.lang.Object)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java( ((92k
-java.util.Iterator.next()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java) )(<2q
-java.util.Collection.iterator()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java) )(52h
-java.util.Map.values()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java) )(*2k
-java.util.Iterator.next()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java* *(:2j
-java.util.Set.iterator()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java* *(32h
-java.util.Map.keySet()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java* *((2p
-java.util.Map.Entry.getValue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java+ +(V2k
-java.util.Iterator.next()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java+* +(J2j
-java.util.Set.iterator()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java+* +(C2j
-java.util.Map.entrySet()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java+* +(82n
-java.util.Map.Entry.getKey()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java, ,(R2k
-java.util.Iterator.next()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java,( ,(H2j
-java.util.Set.iterator()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java,( ,(A2j
-java.util.Map.entrySet()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java,( ,(62i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java- -(42x
-&java.util.Map.remove(java.lang.Object)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java/ /(.2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java0 0("2è
-=java.util.Map.putAll(java.util.Map<? extends K, ? extends V>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java1 1(2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java2 2("2u
-#java.util.Map.get(java.lang.Object)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java3 3(+2g
-java.util.Map.clear()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java4 4(2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java5 5("2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java'# '(42{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java(% ((82î
-Bjava.util.HashMap.HashMap(java.util.Map<? extends K, ? extends V>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java. .(#2]
-voidRETURN_TYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java! !(ã
-_com.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()METHODH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java8 8(<"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*,testEntriesAreRemovedIfKeyIsGarbageCollected2º
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?keyDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java9 9(&2¡
-hcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?refQueueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java: :(62º
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?refDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java; ;(;2º
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?mapDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java= =(!2∫
-acom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?iDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaA A(2i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java> >(2u
-#java.lang.ref.ReferenceQueue.poll()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaB B(2o
-java.lang.ref.Reference.get()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaC C(2n
-java.lang.Thread.sleep(long)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaE E(2g
-java.lang.System.gc()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaF F(2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaH H("2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java9 9(&2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java:" :(62≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java; ;(;2]
-voidRETURN_TYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java8F 8(ZÍ
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()METHODH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaK K(K"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*;testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected2À
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?keyDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaL L(&2–
-wcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?refQueueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaM M(62À
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?refDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaN N(;2À
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?mapDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaP P(!2…
-pcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?iDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaT T(2i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaQ Q(02t
-"java.util.Collections.singleton(T)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaQ Q(/2u
-#java.lang.ref.ReferenceQueue.poll()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaU U(2o
-java.lang.ref.Reference.get()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaV V(2n
-java.lang.Thread.sleep(long)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaX X(2g
-java.lang.System.gc()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaY Y(2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java[ [("2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaL L(&2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaM" M(62≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaN N(;2]
-voidRETURN_TYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaKU K(iõ
-acom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()METHODH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java^ ^(>"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*.testEntriesAreRemovedIfValueIsGarbageCollected2¿
-gcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?valueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java_ _(*2√
-jcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?refQueueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java` `(62æ
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?refDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaa a(=2æ
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?mapDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javac c(!2º
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?iDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javag g(2i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javad d(2u
-#java.lang.ref.ReferenceQueue.poll()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javah h(2o
-java.lang.ref.Reference.get()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javai i(2n
-java.lang.Thread.sleep(long)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javak k(2g
-java.lang.System.gc()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javal l(2f
-java.util.Map.size()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javan n("2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java_ _(*2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java`" `(62≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaa a(=2]
-voidRETURN_TYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java^H ^(\Œ
-pcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()METHODH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaq q(M"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*=testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected2Õ
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?keyDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javar r(&2œ
-vcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?valueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javas s(.2“
-ycom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?refQueueDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javat t(62Õ
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?refDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javau u(=2Õ
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?mapDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaw w(!2À
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?iDECLARATIONH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java{ {(2t
-"java.util.Collections.singleton(T)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javas s(.2i
-java.util.Map.put(K, V)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javax x(2u
-#java.lang.ref.ReferenceQueue.poll()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java| |(2o
-java.lang.ref.Reference.get()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java} }(2n
-java.lang.Thread.sleep(long)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java (2i
-java.lang.System.gc()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÄ Ä(2h
-java.util.Map.size()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÇ Ç("2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javar r(&2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javat" t(62≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javau u(=2]
-voidRETURN_TYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaqW q(k≠
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()METHODJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÖ Ö(B"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*2testSelfReferencingEntriesWithObjectsFromPermSpace2 
-ocom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?proxyToysDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÜ Ü(C2Ã
-qcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?classLoaderDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá á(w2‘
-ycom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?simpleReferenceTypeDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaà à(g2…
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?instanceDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaâ â(I2…
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?refQueueDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaã ã(62ƒ
-icom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?refDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaå å(@2ƒ
-icom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?mapDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaé é(!2¬
-gcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?iDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaì ì(2h
-java.net.URI.toURL()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá? á(X2h
-java.io.File.toURI()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá? á(P2Ö
-1java.lang.ClassLoader.loadClass(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaà$ à(g2Ü
-2java.lang.Class.getDeclaredField(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaâ â(I2k
-java.util.Map.put(K, V)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaè è(.2w
-#java.lang.ref.ReferenceQueue.poll()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaî î(2q
-java.lang.ref.Reference.get()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaï ï(2p
-java.lang.Thread.sleep(long)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaõ õ(2i
-java.lang.System.gc()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaú ú(2h
-java.util.Map.size()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java† †("2w
-#java.io.File.File(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÜ Ü(C2Å
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaã" ã(62Ø
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaå å(@2_
-voidRETURN_TYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÖL Ö(aÁ
-Wcom.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()METHODJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java£ £(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testCanUseDifferentMapImplementation2∏
-]com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?valueDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java§ §(*2ª
-`com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?refQueueDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java• •(62∂
-[com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?refDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶ ¶(=2∂
-[com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?mapDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java® ®(.2¥
-Ycom.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?iDECLARATIONJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¨ ¨(2k
-java.util.Map.put(K, V)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java© ©(2w
-#java.lang.ref.ReferenceQueue.poll()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java≠ ≠(2q
-java.lang.ref.Reference.get()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÆ Æ(2p
-java.lang.Thread.sleep(long)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java∞ ∞(2i
-java.lang.System.gc()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java± ±(2h
-java.util.Map.size()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java≥ ≥("2}
-)java.lang.String.String(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java§ §(*2Å
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java•" •(62Ø
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶ ¶(=2o
-java.util.TreeMap.TreeMap()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java®  ®(-2_
-voidRETURN_TYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java£> £(Rã
-Acom.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()?mapVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java" "("
-type Map*map2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java" "(§
-Bcom.thoughtworks.xstream.core.util.WeakCacheTest.testIsAMap()?copyVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java. .("
-type Map*copy2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java. .(2î
-Bjava.util.HashMap.HashMap(java.util.Map<? extends K, ? extends V>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java. .(#∞
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?keyVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java9 9("
-type String*key2b
-java.lang.StringTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java9 9(2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java9 9(&“
-hcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?refQueueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java: :("
-type ReferenceQueue*refQueue2n
-java.lang.ref.ReferenceQueueTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java: :(2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java:" :(6Ì
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?refVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java; ;("
-type 	Reference*ref2i
-java.lang.ref.ReferenceTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java; ;(2≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java; ;(;≠
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?mapVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java= =("
-type Map*map2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java= =(ü
-acom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfKeyIsGarbageCollected()?iVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaA A("
-type int*i2U
-intTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaA A(ø
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?keyVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaL L("
-type String*key2b
-java.lang.StringTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaL L(2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaL L(&·
-wcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?refQueueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaM M("
-type ReferenceQueue*refQueue2n
-java.lang.ref.ReferenceQueueTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaM M(2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaM" M(6¸
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?refVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaN N("
-type 	Reference*ref2i
-java.lang.ref.ReferenceTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaN N(2≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaN N(;º
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?mapVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaP P("
-type Map*map2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaP P(Æ
-pcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfKeyIsGarbageCollected()?iVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaT T("
-type int*i2U
-intTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaT T(∂
-gcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?valueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java_ _("
-type String*value2b
-java.lang.StringTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java_ _(2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java_ _(*‘
-jcom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?refQueueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java` `("
-type ReferenceQueue*refQueue2n
-java.lang.ref.ReferenceQueueTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java` `(2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java`" `(6Ô
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?refVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaa a("
-type 	Reference*ref2i
-java.lang.ref.ReferenceTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaa a(2≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaa a(=Ø
-ecom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?mapVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javac c("
-type Map*map2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javac c(°
-ccom.thoughtworks.xstream.core.util.WeakCacheTest.testEntriesAreRemovedIfValueIsGarbageCollected()?iVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javag g("
-type int*i2U
-intTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javag g(¡
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?keyVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javar r("
-type String*key2b
-java.lang.StringTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javar r(2{
-)java.lang.String.String(java.lang.String)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javar r(&∏
-vcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?valueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javas s("
-type Set*value2_
-java.util.SetTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javas s(2t
-"java.util.Collections.singleton(T)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javas s(.„
-ycom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?refQueueVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javat t("
-type ReferenceQueue*refQueue2n
-java.lang.ref.ReferenceQueueTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javat t(2
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javat" t(6˛
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?refVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javau u("
-type 	Reference*ref2i
-java.lang.ref.ReferenceTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javau u(2≠
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javau u(=æ
-tcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?mapVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaw w("
-type Map*map2_
-java.util.MapTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaw w(∞
-rcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesAreRemovedIfValueIsGarbageCollected()?iVARIABLEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java{ {("
-type int*i2U
-intTYPEH
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java{ {(º
-ocom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?proxyToysVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÜ Ü("
-type File*	proxyToys2`
-java.io.FileTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÜ Ü(2w
-#java.io.File.File(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaÜ Ü(C´
-qcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?classLoaderVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá á("
-type ClassLoader*classLoader2i
-java.lang.ClassLoaderTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá á(2h
-java.net.URI.toURL()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá? á(X2h
-java.io.File.toURI()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaá? á(P„
-ycom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?simpleReferenceTypeVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaà à(!"
-type Class*simpleReferenceType2c
-java.lang.ClassTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaà à(2Ö
-1java.lang.ClassLoader.loadClass(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaà$ à(g÷
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?instanceVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaâ â("
-type Field*instance2k
-java.lang.reflect.FieldTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaâ â(2Ü
-2java.lang.Class.getDeclaredField(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaâ â(Iﬂ
-ncom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?refQueueVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaã ã("
-type ReferenceQueue*refQueue2p
-java.lang.ref.ReferenceQueueTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaã ã(2Å
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaã" ã(6˘
-icom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?refVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaå å("
-type 	Reference*ref2k
-java.lang.ref.ReferenceTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaå å(2Ø
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaå å(@∑
-icom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?mapVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaé é("
-type Map*map2a
-java.util.MapTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaé é(©
-gcom.thoughtworks.xstream.core.util.WeakCacheTest.testSelfReferencingEntriesWithObjectsFromPermSpace()?iVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaì ì("
-type int*i2W
-intTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.javaì ì(≤
-]com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?valueVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java§ §("
-type String*value2d
-java.lang.StringTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java§ §(2}
-)java.lang.String.String(java.lang.String)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java§ §(*—
-`com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?refQueueVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java• •("
-type ReferenceQueue*refQueue2p
-java.lang.ref.ReferenceQueueTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java• •(2Å
--java.lang.ref.ReferenceQueue.ReferenceQueue()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java•" •(6Î
-[com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?refVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶ ¶("
-type 	Reference*ref2k
-java.lang.ref.ReferenceTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶ ¶(2Ø
-[java.lang.ref.PhantomReference.PhantomReference(T, java.lang.ref.ReferenceQueue<? super T>)CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¶ ¶(=ö
-[com.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?mapVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java® ®("
-type Map*map2a
-java.util.MapTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java® ®(2o
-java.util.TreeMap.TreeMap()CALLJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java®  ®(-õ
-Ycom.thoughtworks.xstream.core.util.WeakCacheTest.testCanUseDifferentMapImplementation()?iVARIABLEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¨ ¨("
-type int*i2W
-intTYPEJ
->src/test/com/thoughtworks/xstream/core/util/WeakCacheTest.java¨ ¨(

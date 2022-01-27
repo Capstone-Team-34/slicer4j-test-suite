@@ -1,694 +1,0 @@
-
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÑ$
-/com.thoughtworks.xstream.persistence.XmlSetTestCLASSG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java ("
-inner classfalse*
-XmlSetTest2è
-7com.thoughtworks.xstream.persistence.XmlSetTest.setUp()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (2°
-Icom.thoughtworks.xstream.persistence.XmlSetTest.testWritesASingleObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java  (2û
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesTwoObjects()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java" ((2£
-Kcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java* 1(2§
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java3 7(2õ
-Ccom.thoughtworks.xstream.persistence.XmlSetTest.testHasZeroLength()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java9 <(2ò
-@com.thoughtworks.xstream.persistence.XmlSetTest.testHasOneItem()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java> B(2ô
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testHasTwoItems()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaD I(2ò
-@com.thoughtworks.xstream.persistence.XmlSetTest.testIsNotEmpty()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaK O(2ü
-Gcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainKey()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaQ T(2ô
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testContainsKey()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaV Z(2ö
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java\ a(2ï
-=com.thoughtworks.xstream.persistence.XmlSetTest.testIsEmpty()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javac f(2û
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testClearsItsObjects()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javah n(2°
-Icom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javap w(2§
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testContainsASpecificValue()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javay }(2´
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainASpecificValue()DECLARATIONH
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java Ç(2®
-Ncom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÑ å(2Ω
-ccom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaè ò(2∂
-\com.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaö §(2≠
-Scom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¶ ±(2î
-:com.thoughtworks.xstream.persistence.XmlSetTest.iterator()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∑ π(2ê
-6com.thoughtworks.xstream.persistence.XmlSetTest.size()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaª Ω(2ï
-;com.thoughtworks.xstream.persistence.XmlSetTest.get(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ¡(2ú
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.put(Object,Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ ≈(2ò
->com.thoughtworks.xstream.persistence.XmlSetTest.remove(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« …(2ê
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java ( 2[
-TestCaseEXTENDG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java  ((È
-7com.thoughtworks.xstream.persistence.XmlSetTest.setUp()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setUp2†
-Ocom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.MockedStrategy()CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (!2â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (
-2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (%í
-Icom.thoughtworks.xstream.persistence.XmlSetTest.testWritesASingleObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java ($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWritesASingleObject2•
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesASingleObject()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java	 ((2~
--java.util.Map.containsValue(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (42â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (ï
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesTwoObjects()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java" "(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWritesTwoObjects2¢
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesTwoObjects()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java#	 #((2~
--java.util.Map.containsValue(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java& &(42~
--java.util.Map.containsValue(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java' '(32â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java& &(2â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java' '(2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java" "(“	
-Kcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java* *(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRemovesAWrittenObject2ß
-Ocom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java+	 +((2´
-Scom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()?changedDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java.
- .(+2~
--java.util.Map.containsValue(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java- -(42~
--java.util.Map.containsValue(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java0 0(52â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java- -(2â
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java0 0(2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java* *(æ
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java3 3('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRemovesAnInvalidObject2®
-Pcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java4	 4((2¨
-Tcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()?removedDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java5
- 5(*2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java3 3(Ù
-Ccom.thoughtworks.xstream.persistence.XmlSetTest.testHasZeroLength()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java9 9("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasZeroLength2ü
-Gcom.thoughtworks.xstream.persistence.XmlSetTest.testHasZeroLength()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java:	 :((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java9 9(Î
-@com.thoughtworks.xstream.persistence.XmlSetTest.testHasOneItem()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java> >("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasOneItem2ú
-Dcom.thoughtworks.xstream.persistence.XmlSetTest.testHasOneItem()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java?	 ?((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java> >(Ó
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testHasTwoItems()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaD D("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasTwoItems2ù
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.testHasTwoItems()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaE	 E((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaD D(Î
-@com.thoughtworks.xstream.persistence.XmlSetTest.testIsNotEmpty()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaK K("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIsNotEmpty2ú
-Dcom.thoughtworks.xstream.persistence.XmlSetTest.testIsNotEmpty()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaL	 L((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaK K(Ä
-Gcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainKey()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaQ Q(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesNotContainKey2£
-Kcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainKey()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaR	 R((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaQ Q(Ó
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testContainsKey()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaV V("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testContainsKey2ù
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.testContainsKey()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaW	 W((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaV V(ò
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java\ \("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testGetsAnObject2û
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java]	 ]((2§
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()?onlyValueDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java_	 _(+2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java\ \(‚
-=com.thoughtworks.xstream.persistence.XmlSetTest.testIsEmpty()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javac c("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIsEmpty2ô
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testIsEmpty()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javad	 d((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javac c(˝
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testClearsItsObjects()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javah h(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testClearsItsObjects2¢
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.testClearsItsObjects()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javai	 i((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javah h(Ô
-Icom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javap p($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testPutsAllAddsTwoItems2™
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()?originalDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaq q(2•
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javat	 t((2e
-java.util.Set.add(E)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javar r(2e
-java.util.Set.add(E)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javas s(2l
-java.util.HashSet.HashSet()CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaq q(2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javap p(è
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testContainsASpecificValue()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javay y('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testContainsASpecificValue2®
-Pcom.thoughtworks.xstream.persistence.XmlSetTest.testContainsASpecificValue()?setDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaz	 z((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javay y(£
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainASpecificValue()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testDoesNotContainASpecificValue2∞
-Vcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainASpecificValue()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÄ	 Ä((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (ë
-Ncom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÑ Ñ()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEntrySetContainsAllItems2±
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()?originalDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÖ Ö(2¨
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaà	 à((2g
-java.util.Set.add(E)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÜ Ü(2g
-java.util.Set.add(E)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaá á(2n
-java.util.HashSet.HashSet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÖ Ö(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÑ Ñ(ä
-ccom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaè è(>"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*1testIteratesOverEntryAndChecksWithAnotherInstance2¡
-gcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaê	 ê((2√
-icom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?builtDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaì	 ì(*2¬
-hcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaî î(%2√
-icom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaï
- ï(2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaî' î(52l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaï ï(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaè è(π
-\com.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaö ö(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testIteratesOverEntrySetContainingTwoItems2∫
-`com.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaõ	 õ((2º
-bcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?builtDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaû û(2ª
-acom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaü ü(%2º
-bcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java†
- †(2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaü' ü(52l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java† †(2g
-java.util.Set.add(E)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java° °(2n
-java.util.HashSet.HashSet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaû û(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaö ö(‚
-
-Scom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¶ ¶(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testRemovesAnItemThroughIteration2±
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaß	 ß((2≤
-Xcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java™ ™(%2≥
-Ycom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java´
- ´(2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java™' ™(52l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java´ ´(2|
-)java.lang.Object.equals(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¨ ¨( 2n
-java.util.Iterator.remove()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java≠ ≠(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¶ ¶(ê
-Ncom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø(ó
-Ucom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √(õ
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√' √(,*value2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√  √(&ì
-Qcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «(!*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «(ë
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesASingleObject()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java	 ("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java (é
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.testWritesTwoObjects()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java#	 #("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java# #(ì
-Ocom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java+	 +("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java+ +(ù
-Scom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAWrittenObject()?changedVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java.
- .("
-type boolean*changed2X
-booleanTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java. .(	î
-Pcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java4	 4("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java4 4(û
-Tcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnInvalidObject()?removedVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java5
- 5("
-type boolean*removed2X
-booleanTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java5 5(	ã
-Gcom.thoughtworks.xstream.persistence.XmlSetTest.testHasZeroLength()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java:	 :("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java: :(à
-Dcom.thoughtworks.xstream.persistence.XmlSetTest.testHasOneItem()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java?	 ?("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java? ?(â
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.testHasTwoItems()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaE	 E("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaE E(à
-Dcom.thoughtworks.xstream.persistence.XmlSetTest.testIsNotEmpty()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaL	 L("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaL L(è
-Kcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainKey()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaR	 R("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaR R(â
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.testContainsKey()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaW	 W("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaW W(ä
-Fcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java]	 ]("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java] ](†
-Lcom.thoughtworks.xstream.persistence.XmlSetTest.testGetsAnObject()?onlyValueVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java_	 _("
-type Object*	onlyValue2a
-java.lang.ObjectTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java_ _(Ö
-Acom.thoughtworks.xstream.persistence.XmlSetTest.testIsEmpty()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javad	 d("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javad d(é
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.testClearsItsObjects()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javai	 i("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javai i(ç
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()?originalVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaq q("
-type Set*original2^
-java.util.SetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaq q(2l
-java.util.HashSet.HashSet()CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaq q(ë
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.testPutsAllAddsTwoItems()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javat	 t("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javat t(î
-Pcom.thoughtworks.xstream.persistence.XmlSetTest.testContainsASpecificValue()?setVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaz	 z("
-type XmlSet*set2W
-XmlSetTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaz z(û
-Vcom.thoughtworks.xstream.persistence.XmlSetTest.testDoesNotContainASpecificValue()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÄ	 Ä("
-type XmlSet*set2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÄ Ä(ò
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()?originalVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÖ Ö("
-type Set*original2`
-java.util.SetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÖ Ö(2n
-java.util.HashSet.HashSet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaÖ Ö(ö
-Rcom.thoughtworks.xstream.persistence.XmlSetTest.testEntrySetContainsAllItems()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaà	 à("
-type XmlSet*set2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaà à(Ø
-gcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaê	 ê("
-type XmlSet*set2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaê ê(≥
-icom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?builtVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaì	 ì("
-type XmlSet*built2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaì ì(ø
-hcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaî î("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaî î(´
-icom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntryAndChecksWithAnotherInstance()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaï
- ï("
-type Object*entry2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaï ï(	2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaï ï(®
-`com.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaõ	 õ("
-type XmlSet*set2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaõ õ(†
-bcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?builtVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaû û("
-type Set*built2`
-java.util.SetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaû û(2n
-java.util.HashSet.HashSet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaû û(∏
-acom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaü ü("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaü ü(§
-bcom.thoughtworks.xstream.persistence.XmlSetTest.testIteratesOverEntrySetContainingTwoItems()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java†
- †("
-type Object*entry2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java† †(	2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java† †(ü
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaß	 ß("
-type XmlSet*set2Y
-XmlSetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaß ß(Ø
-Xcom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java™ ™("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java™ ™(õ
-Ycom.thoughtworks.xstream.persistence.XmlSetTest.testRemovesAnItemThroughIteration()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java´
- ´("
-type Object*entry2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java´ ´(	2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java´ ´(¬
-8com.thoughtworks.xstream.persistence.XmlSetTest?strategyVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java ( "
-type MockedStrategy*strategy2è
->com.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategyTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java	 (à
-
->com.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategyCLASSI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java≥ ≥($"
-inner classfalse*MockedStrategy2£
-Icom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.iterator()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∑ π(2ü
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.size()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaª Ω(2§
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ¡(2´
-Qcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ ≈(2ß
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« …(2ú
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaµ µ(!2h
-PersistenceStrategyEXTENDI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java≥0 ≥(C◊
-Icom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.iterator()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∑ ∑("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Iterator*iterator2k
-java.util.Set.iterator()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∏
- ∏(#2k
-java.util.Map.entrySet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∏
- ∏(2ï
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∏
- ∏(2l
-java.util.IteratorRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java∑	 ∑( 
-Ecom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.size()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaª ª("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*size2g
-java.util.Map.size()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaº
- º(2ï
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaº
- º(2]
-intRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaª	 ª(ƒ
-Jcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*get2¶
-Ncom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø(2v
-#java.util.Map.get(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¿
- ¿(2ï
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¿
- ¿(2´
-Xcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java¿ ¿(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø	 ø(Ã
-
-Qcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*put2≠
-Ucom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √(2Ø
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√  √(,2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaƒ
- ƒ(2ï
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaƒ
- ƒ(2Ω
-jcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaƒ ƒ(2ø
-lcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!valueCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaƒ ƒ(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√	 √(”
-Mcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*remove2©
-Qcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «(!2y
-&java.util.Map.remove(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java»
- »(2ï
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java»
- »(2Æ
-[com.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java» »(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java«	 «(ê
-Ncom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaø ø(ó
-Ucom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√ √(õ
-Wcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√' √(,*value2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java√  √(&ì
-Qcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «(!*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.java« «(˛
-Bcom.thoughtworks.xstream.persistence.XmlSetTest.MockedStrategy?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaµ µ("
-type Map*map2`
-java.util.MapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaµ
- µ(2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlSetTest.javaµ µ(!

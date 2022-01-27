@@ -1,130 +1,0 @@
-
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java…
-
-?com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapperCLASSW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (5"
-inner classfalse*AbstractAttributeAliasingMapper2Â
-Zcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)DECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java "(2µ
-Mcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()DECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java$ +(2Ï
-gcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.AbstractAttributeAliasingMapper(Mapper)DECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (2³
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameDECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (32³
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?nameToAliasDECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (72p
-MapperWrapperEXTENDW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java> (Kò
-gcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.AbstractAttributeAliasingMapper(Mapper)CONSTRUCTORW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (**AbstractAttributeAliasingMapper2Õ
-ocom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.AbstractAttributeAliasingMapper(Mapper)!wrapped	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java+ (92§
-?com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapperRETURN_TYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (*Ç
-ocom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.AbstractAttributeAliasingMapper(Mapper)!wrapped	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java2 (9*wrapped2g
-MapperTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java+ (1ã
-Zcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)METHODW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addAliasFor2Î
-hcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)!attributeName	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (62Æ
-`com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)!alias	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java8 (J2x
-java.util.Map.put(K, V)CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java   (-2x
-java.util.Map.put(K, V)CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java! !(-2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java   (2Ö
-ucom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(java.lang.String, java.lang.String)!aliasCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java   (2Þ
-}com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(java.lang.String, java.lang.String)!attributeNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java   (,2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?nameToAliasCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java! !(2Þ
-}com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(java.lang.String, java.lang.String)!attributeNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java! !(%2Ö
-ucom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(java.lang.String, java.lang.String)!aliasCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java!' !(,2l
-voidRETURN_TYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (ª
-Mcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()METHODW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java$ $("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2º
-Rcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()?iterDECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java& &(B2»
-Scom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()?aliasDECLARATIONW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java' '(,2y
-java.util.Set.iterator()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(B2w
-java.util.Map.keySet()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(72}
-java.util.Iterator.hasNext()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&D &(R2z
-java.util.Iterator.next()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java'! '(,2x
-java.util.Map.put(K, V)CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java( ((:2„
-#java.util.Map.get(java.lang.Object)CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java( ((22|
-java.util.HashMap.HashMap()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java% %(#2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?nameToAliasCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java% %(2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(.2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?nameToAliasCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java( ((2¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java( (('2x
-java.lang.ObjectRETURN_TYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java$ $(Ð
-hcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)!attributeName	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java) (6*attributeName2q
-java.lang.StringTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java" ((À
-`com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.addAliasFor(String,String)!alias	PARAMETERW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.javaE (J*alias2q
-java.lang.StringTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java> (Då
-Rcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()?iterVALUEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java& &( "
-type Iterator*iter2s
-java.util.IteratorTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java& &(2y
-java.util.Set.iterator()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(B2w
-java.util.Map.keySet()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(72¬
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameCALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java&# &(.¼
-Scom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper.readResolve()?aliasVALUEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java' '("
-type Object*alias2q
-java.lang.ObjectTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java' '(2z
-java.util.Iterator.next()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java'! '(,¶
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?aliasToNameVALUEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (#"
-type Map*aliasToName2n
-java.util.MapTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (2|
-java.util.HashMap.HashMap()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java& (3¹
-Kcom.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper?nameToAliasVARIABLEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java ('"
-type Map*nameToAlias2n
-java.util.MapTYPEW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java (2|
-java.util.HashMap.HashMap()CALLW
-Msrc/java/com/thoughtworks/xstream/mapper/AbstractAttributeAliasingMapper.java* (7

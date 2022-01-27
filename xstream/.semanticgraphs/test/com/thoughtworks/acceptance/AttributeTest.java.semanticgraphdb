@@ -1,1083 +1,0 @@
-
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÇ.
-)com.thoughtworks.acceptance.AttributeTestCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java ("
-inner classfalse*AttributeTest2É
-1com.thoughtworks.acceptance.AttributeTest.setUp()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java !(2Ü
-4com.thoughtworks.acceptance.AttributeTest.tearDown()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java# &(2Ö
-3com.thoughtworks.acceptance.AttributeTest.setID(ID)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, .(	2Ö
-3com.thoughtworks.acceptance.AttributeTest.setID(ID)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(2ç
-;com.thoughtworks.acceptance.AttributeTest.canConvert(Class)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH J(	2å
-:com.thoughtworks.acceptance.AttributeTest.toString(Object)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL N(	2é
-<com.thoughtworks.acceptance.AttributeTest.fromString(String)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP R(	2∞
-^com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javag u(2¿
-mcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()DECLARATIONB
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaw Ü(2Æ
-Zcom.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaâ ô(2±
-]com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaõ ¶(2©
-Ucom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ∂(2™
-Vcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java∏ ≈(2û
-Jcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java« ÷(2ó
-Ccom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ ‚(2ú
-Hcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‰ Ï(2¶
-Rcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÖ ë(2≠
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaì ü(2≥
-_com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÆ ª(2Ω
-icom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaΩ »(2å
-8com.thoughtworks.acceptance.AttributeTest.equals(Object)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ Ÿ(	2–
-|com.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‹ Á(2•
-Qcom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ ˙(2Ü
-4com.thoughtworks.acceptance.AttributeTest.ID(String)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ B(	2
--com.thoughtworks.acceptance.AttributeTest.C()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java[ ](	2é
-<com.thoughtworks.acceptance.AttributeTest.C(Date,String,int)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ d(	2Ñ
-0com.thoughtworks.acceptance.AttributeTest.Name()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java Ú(	2ä
-6com.thoughtworks.acceptance.AttributeTest.Name(String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ ı(	2Ü
-2com.thoughtworks.acceptance.AttributeTest.Camera()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¸ ˛(	2å
-8com.thoughtworks.acceptance.AttributeTest.Camera(String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ç(	2í
->com.thoughtworks.acceptance.AttributeTest.PersonalizedCamera()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java§ ¶(	2ü
-Kcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera(String,String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ´(	2ê
-<com.thoughtworks.acceptance.AttributeTest.TransientIdField()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŒ –(	2ù
-Icom.thoughtworks.acceptance.AttributeTest.TransientIdField(String,String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“ ’(	2Ü
-2com.thoughtworks.acceptance.AttributeTest.Person()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÏ Ï(2ê
-<com.thoughtworks.acceptance.AttributeTest.Person(String,int)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ (	2c
-AbstractAcceptanceTestEXTENDA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java# (9Ò
-=com.thoughtworks.acceptance.AttributeTest.ID.ID(String)!value	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(*value2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!dt	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(*dt2Y
-java.util.DateTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_
- _(Ú
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!st	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(*st2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(„
-@com.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!i	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_" _(#*i2N
-intTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(!˜
-@com.thoughtworks.acceptance.AttributeTest.Name.Name(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(˚
-Dcom.thoughtworks.acceptance.AttributeTest.Camera.Camera(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(ö
-ccom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®" ®(&*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(!ú
-dcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!owner	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®/ ®(4*owner2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®( ®(.í
-]com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!id	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“' “()*id2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“  “(&ñ
-_com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“2 “(6*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“+ “(1ˇ
-Hcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(
-Gcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!age	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ  Ì(#*age2P
-intTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(´
-1com.thoughtworks.acceptance.AttributeTest.setUp()METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java ("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java" (+±
-4com.thoughtworks.acceptance.AttributeTest.tearDown()METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java# #("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*tearDown2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java#% #(.ô
-
-^com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javag g(B"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*2testAllowsAttributeWithCustomConverterAndFieldName2¥
-bcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()?oneDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javah h(2π
-gcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()?expectedDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javap s(2~
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javah h(2~
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javai i(2å
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaj j(!2í
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javan" n(52V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javag g(◊
-
-mcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaw w(Q"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*AtestDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName2√
-qcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()?oneDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javax x(2 
-vcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ñ(2~
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javax x(2~
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javay y(2å
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaz z(!2í
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java~" ~(52V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaw w(‡
-Zcom.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaâ â(>"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*.todoTestHidingMemberCanBeWrittenIfAliasDiffers2≥
-_com.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()?fourDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä(2∑
-ccom.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaî ó(2Æ
-acom.thoughtworks.acceptance.AttributeTest.One.setID(com.thoughtworks.acceptance.AttributeTest.ID)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaç ç(2Ç
-5com.thoughtworks.acceptance.AttributeTest.Four.Four()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä(2Ä
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaã ã(2é
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaå å(2é
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaç ç(2î
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaí" í(52X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaâ â(≈
-
-]com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaõ õ(A"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*1testAllowsAttributeWithKnownConverterAndFieldName2∑
-ccom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?threeDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaú ú(!2∏
-dcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?formatDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaù ù(>2∫
-fcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java£ §(92y
-,java.text.DateFormat.parse(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaû û(/2Ñ
-7com.thoughtworks.acceptance.AttributeTest.Three.Three()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaú ú(!2ä
-=java.text.SimpleDateFormat.SimpleDateFormat(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaù ù(>2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaõK õ(Tá
-
-Ucom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testAllowsAttributeWithArbitraryFieldType2≠
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()?oneDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(2≤
-^com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ¥(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(2Ä
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java™ ™(2é
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java´ ´(!2î
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaØ" Ø(52X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(˙
-Vcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java∏ ∏(:"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testDoesNotAllowAttributeWithNullAttribute2Æ
-Zcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()?oneDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaπ π(2≥
-_com.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ √(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaπ π(2Ä
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java∫ ∫(2î
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaæ" æ(52X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java∏ ∏(€	
-Jcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java« «(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAllowsAttributeToBeAliased2¢
-Ncom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()?oneDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java» »(2ß
-Scom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java— ‘(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java» »(2Ä
-3com.thoughtworks.acceptance.AttributeTest.Two.Two()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java… …(2é
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java   (!2î
-Gcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.MyIDConverter()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaœ" œ(52X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java« «(≥
-Ccom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ ÿ('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanHandleNullValues2ô
-Ecom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()?cDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŸ
- Ÿ("2†
-Lcom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java› ‡(2°
-Tcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŸ Ÿ("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ ÿ(«
-Hcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‰ ‰(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanHandlePrimitiveValues2û
-Jcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()?cDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÂ
- Â("2•
-Qcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í('2°
-Tcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÂ Â("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‰ ‰(˛
-Rcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÖ Ö(6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testAllowsAnAttributeForASpecificField2≠
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()?cameraDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaà à(,2Ø
-[com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä è(2ñ
-Icom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaà à(,2í
-Ecom.thoughtworks.acceptance.AttributeTest.Name.Name(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaâ â("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÖ Ö(ö
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaì ì(="
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*-testAllowsAnAttributeForASpecificAliasedField2¥
-`com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()?cameraDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javañ ñ(,2∂
-bcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaò ù(2ñ
-Icom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javañ ñ(,2í
-Ecom.thoughtworks.acceptance.AttributeTest.Name.Name(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaó ó("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaì ì(‹
-_com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÆ Æ(C"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*3testAllowsAnAttributeForASpecificFieldInASuperClass2∫
-fcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()?cameraDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ±(T2º
-hcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java≥ π(2¿
-scom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java±$ ±(T2í
-Ecom.thoughtworks.acceptance.AttributeTest.Name.Name(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java≤ ≤("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÆ Æ(Ñ	
-icom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaΩ Ω(M"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*=testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass2ƒ
-pcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()?cameraDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ ¿(T2∆
-rcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()?expectedDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¬ ∆(#2¿
-scom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿$ ¿(T2í
-Ecom.thoughtworks.acceptance.AttributeTest.Name.Name(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¡ ¡("2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaΩ Ω(≥
-|com.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‹ ‹(`"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*PtestAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields2◊
-Çcom.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()?fieldDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‡ ‡(D2’
-Äcom.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()?xmlDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java· ‰(2º
-ocom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‡! ‡(D2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‹ ‹(Â
-Qcom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(5"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*%testAttributeMayHaveXmlUnfriendlyName2¨
-Xcom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()?personDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˜ ˜(-2©
-Ucom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()?xmlDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¯ ¯(<2õ
-Ncom.thoughtworks.acceptance.AttributeTest.Person.Person(java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˜ ˜(-2X
-voidRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(á
-:com.thoughtworks.acceptance.AttributeTest.One.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(â
-<com.thoughtworks.acceptance.AttributeTest.HasID.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(Ä
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(Class)!type	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH( H(,*type2Z
-java.lang.ClassTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH" H('˛
-Lcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(Object)!obj	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL& L()*obj2[
-java.lang.ObjectTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL L(%Ä
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(String)!str	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP( P(+*str2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP! P('É
-Mcom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(Object)!obj	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊% ◊((*obj2]
-java.lang.ObjectTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ ◊($æ
-bcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()?oneVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javah h("
-type One*one2x
--com.thoughtworks.acceptance.AttributeTest.OneTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javah h(2~
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javah h(Æ
-gcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithCustomConverterAndFieldName()?expectedVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javap p("
-type String*expected2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javap p(Õ
-qcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()?oneVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javax x("
-type One*one2x
--com.thoughtworks.acceptance.AttributeTest.OneTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javax x(2~
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javax x(¡
-vcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithCustomConverterAndDifferentFieldName()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(«
-_com.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()?fourVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä("
-type Four*four2{
-.com.thoughtworks.acceptance.AttributeTest.FourTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä(2Ç
-5com.thoughtworks.acceptance.AttributeTest.Four.Four()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä(Æ
-ccom.thoughtworks.acceptance.AttributeTest.todoTestHidingMemberCanBeWrittenIfAliasDiffers()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaî î("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaî î(–
-ccom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?threeVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaú ú("
-type Three*three2|
-/com.thoughtworks.acceptance.AttributeTest.ThreeTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaú ú(2Ñ
-7com.thoughtworks.acceptance.AttributeTest.Three.Three()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaú ú(!¬
-dcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?formatVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaù ù("
-type 
-DateFormat*format2a
-java.text.DateFormatTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaù ù(2ä
-=java.text.SimpleDateFormat.SimpleDateFormat(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaù ù(>±
-fcom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithKnownConverterAndFieldName()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java£ £("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java£ £(º
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()?oneVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©("
-type One*one2z
--com.thoughtworks.acceptance.AttributeTest.OneTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(©
-^com.thoughtworks.acceptance.AttributeTest.testAllowsAttributeWithArbitraryFieldType()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ±("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ±(Ω
-Zcom.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()?oneVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaπ π("
-type One*one2z
--com.thoughtworks.acceptance.AttributeTest.OneTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaπ π(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaπ π(™
-_com.thoughtworks.acceptance.AttributeTest.testDoesNotAllowAttributeWithNullAttribute()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ ¿("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ ¿(±
-Ncom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()?oneVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java» »("
-type One*one2z
--com.thoughtworks.acceptance.AttributeTest.OneTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java» »(2Ä
-3com.thoughtworks.acceptance.AttributeTest.One.One()CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java» »(û
-Scom.thoughtworks.acceptance.AttributeTest.testAllowsAttributeToBeAliased()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java— —("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java— —(√
-Ecom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()?cVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŸ
- Ÿ("
-
-type C*c2x
-+com.thoughtworks.acceptance.AttributeTest.CTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŸ Ÿ(	2°
-Tcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŸ Ÿ("ó
-Lcom.thoughtworks.acceptance.AttributeTest.testCanHandleNullValues()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java› ›("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java› ›(»
-Jcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()?cVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÂ
- Â("
-
-type C*c2x
-+com.thoughtworks.acceptance.AttributeTest.CTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÂ Â(	2°
-Tcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÂ Â("ú
-Qcom.thoughtworks.acceptance.AttributeTest.testCanHandlePrimitiveValues()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í(€
-Ycom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()?cameraVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaà à("
-type Camera*camera2}
-0com.thoughtworks.acceptance.AttributeTest.CameraTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaà à(2ñ
-Icom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaà à(,¶
-[com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificField()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaä ä(‚
-`com.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()?cameraVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javañ ñ("
-type Camera*camera2}
-0com.thoughtworks.acceptance.AttributeTest.CameraTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javañ ñ(2ñ
-Icom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javañ ñ(,≠
-bcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificAliasedField()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaò ò("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaò ò(´
-fcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()?cameraVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ±(!"
-type PersonalizedCamera*camera2â
-<com.thoughtworks.acceptance.AttributeTest.PersonalizedCameraTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java± ±(2¿
-scom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java±$ ±(T≥
-hcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForASpecificFieldInASuperClass()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java≥ ≥("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java≥ ≥(µ
-pcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()?cameraVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ ¿(!"
-type PersonalizedCamera*camera2â
-<com.thoughtworks.acceptance.AttributeTest.PersonalizedCameraTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿ ¿(2¿
-scom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¿$ ¿(TΩ
-rcom.thoughtworks.acceptance.AttributeTest.testAllowsAnAttributeForAFieldOfASpecialTypeAlsoInASuperClass()?expectedVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¬ ¬("
-type String*expected2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¬ ¬(ø
-Çcom.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()?fieldVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‡ ‡("
-type TransientIdField*field2á
-:com.thoughtworks.acceptance.AttributeTest.TransientIdFieldTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‡ ‡(2º
-ocom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(java.lang.String, java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‡! ‡(D«
-Äcom.thoughtworks.acceptance.AttributeTest.testAttributeNamedLikeTransientFieldDoesNotAbortDeserializationOfFollowingFields()?xmlVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java· ·("
-type String*xml2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java· ·(ﬂ
-Xcom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()?personVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˜ ˜("
-type Person*person2}
-0com.thoughtworks.acceptance.AttributeTest.PersonTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˜ ˜(2õ
-Ncom.thoughtworks.acceptance.AttributeTest.Person.Person(java.lang.String, int)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˜ ˜(-õ
-Ucom.thoughtworks.acceptance.AttributeTest.testAttributeMayHaveXmlUnfriendlyName()?xmlVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¯ ¯("
-type String*xml2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¯ ¯(©
--com.thoughtworks.acceptance.AttributeTest.OneCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java( (("
-inner classfalse*One2â
-7com.thoughtworks.acceptance.AttributeTest.One.setID(ID)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, .(	2Ç
-0com.thoughtworks.acceptance.AttributeTest.One?idDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java) )(2É
-1com.thoughtworks.acceptance.AttributeTest.One?twoDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java* *(2|
-/com.thoughtworks.acceptance.AttributeTest.HasIDEXTENDA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java(' ((,Ì
-7com.thoughtworks.acceptance.AttributeTest.One.setID(ID)METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setID2ä
-:com.thoughtworks.acceptance.AttributeTest.One.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(2Ø
-dcom.thoughtworks.acceptance.AttributeTest.One.setID(com.thoughtworks.acceptance.AttributeTest.ID)!idCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java- -(2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(á
-:com.thoughtworks.acceptance.AttributeTest.One.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java, ,(â
-0com.thoughtworks.acceptance.AttributeTest.One?idVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java) )("
-type ID*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java) )(ç
-1com.thoughtworks.acceptance.AttributeTest.One?twoVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java* *("
-type Two*two2x
--com.thoughtworks.acceptance.AttributeTest.TwoTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java* *(¶
-/com.thoughtworks.acceptance.AttributeTest.HasIDTRAITA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java1 1(!"
-inner classfalse*HasID2ã
-9com.thoughtworks.acceptance.AttributeTest.HasID.setID(ID)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(»
-9com.thoughtworks.acceptance.AttributeTest.HasID.setID(ID)METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2("
-staticfalse"
-finalfalse""
-access modifierpackage_private"
-type void*setID2å
-<com.thoughtworks.acceptance.AttributeTest.HasID.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(â
-<com.thoughtworks.acceptance.AttributeTest.HasID.setID(ID)!id	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java2 2(î
--com.thoughtworks.acceptance.AttributeTest.TwoCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java5 5("
-inner classfalse*Two°
-/com.thoughtworks.acceptance.AttributeTest.ThreeCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java7 7("
-inner classfalse*Three2Ü
-4com.thoughtworks.acceptance.AttributeTest.Three?dateDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java8 8(Û
-4com.thoughtworks.acceptance.AttributeTest.Three?dateVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java8 8("
-type Date*date2Y
-java.util.DateTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java8 8(ò
-.com.thoughtworks.acceptance.AttributeTest.FourCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java; ;("
-inner classfalse*Four2É
-1com.thoughtworks.acceptance.AttributeTest.Four?idDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java< <(2z
--com.thoughtworks.acceptance.AttributeTest.OneEXTENDA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java;% ;((ä
-1com.thoughtworks.acceptance.AttributeTest.Four?idVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java< <("
-type ID*id2w
-,com.thoughtworks.acceptance.AttributeTest.IDTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java< <(•
-,com.thoughtworks.acceptance.AttributeTest.IDCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java? ?("
-inner classfalse*ID2â
-7com.thoughtworks.acceptance.AttributeTest.ID.ID(String)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ B(	2Ñ
-2com.thoughtworks.acceptance.AttributeTest.ID?valueDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaD D(≤
-7com.thoughtworks.acceptance.AttributeTest.ID.ID(String)CONSTRUCTORA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(*ID2ç
-=com.thoughtworks.acceptance.AttributeTest.ID.ID(String)!value	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(2í
-Gcom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)!valueCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaA A(2~
-,com.thoughtworks.acceptance.AttributeTest.IDRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(Ò
-=com.thoughtworks.acceptance.AttributeTest.ID.ID(String)!value	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(*value2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java@ @(ˆ
-2com.thoughtworks.acceptance.AttributeTest.ID?valueVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaD D("
-type String*value2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaD D(Ì
-7com.thoughtworks.acceptance.AttributeTest.MyIDConverterCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaG G(&"
-inner classfalse*MyIDConverter2õ
-Icom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(Class)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH J(	2ö
-Hcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(Object)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL N(	2ú
-Jcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(String)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP R(	2i
-AbstractSingleValueConverterEXTENDA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaG/ G(Kà
-Icom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(Class)METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH H(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2û
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(Class)!type	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH" H(,2t
-)java.lang.Object.equals(java.lang.Object)CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaI I((2£
-Xcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(java.lang.Class)!typeCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaI I(2Y
-booleanRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH H(∑
-Hcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(Object)METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL L("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2ú
-Lcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(Object)!obj	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL L()2°
-Vcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(java.lang.Object)!objCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaM M(2°
-Vcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(java.lang.Object)!objCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaM. M(12b
-java.lang.StringRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL L(™
-Jcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(String)METHODA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP P( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*
-fromString2û
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(String)!str	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP! P(+2å
-Acom.thoughtworks.acceptance.AttributeTest.ID.ID(java.lang.String)CALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaQ Q(2£
-Xcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(java.lang.String)!strCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaQ Q(2b
-java.lang.ObjectRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP P(Ä
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.canConvert(Class)!type	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH( H(,*type2Z
-java.lang.ClassTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaH" H('˛
-Lcom.thoughtworks.acceptance.AttributeTest.MyIDConverter.toString(Object)!obj	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL& L()*obj2[
-java.lang.ObjectTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaL L(%Ä
-Ncom.thoughtworks.acceptance.AttributeTest.MyIDConverter.fromString(String)!str	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP( P(+*str2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaP! P('Ø
-+com.thoughtworks.acceptance.AttributeTest.CCLASSA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaU U("
-inner classfalse*C2Å
-/com.thoughtworks.acceptance.AttributeTest.C.C()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java[ ](	2ê
->com.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ d(	2Ä
-.com.thoughtworks.acceptance.AttributeTest.C?dtDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaW W(2Å
-/com.thoughtworks.acceptance.AttributeTest.C?strDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaX X(2
--com.thoughtworks.acceptance.AttributeTest.C?iDECLARATIONA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaY Y(É
-/com.thoughtworks.acceptance.AttributeTest.C.C()CONSTRUCTORA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java[ [(	*C2}
-+com.thoughtworks.acceptance.AttributeTest.CRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java[ [(	ª	
->com.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)CONSTRUCTORA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(	*C2ë
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!dt	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_
- _(2ë
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!st	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(2ê
-@com.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!i	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(#2¢
-Wcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)!dtCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaa a(2¢
-Wcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)!stCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javab b(2°
-Vcom.thoughtworks.acceptance.AttributeTest.C.C(java.util.Date, java.lang.String, int)!iCALLA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javac c(2}
-+com.thoughtworks.acceptance.AttributeTest.CRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(	
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!dt	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(*dt2Y
-java.util.DateTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_
- _(Ú
-Acom.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!st	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(*st2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(„
-@com.thoughtworks.acceptance.AttributeTest.C.C(Date,String,int)!i	PARAMETERA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_" _(#*i2N
-intTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.java_ _(!Î
-.com.thoughtworks.acceptance.AttributeTest.C?dtVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaW W("
-type Date*dt2Y
-java.util.DateTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaW W(Ò
-/com.thoughtworks.acceptance.AttributeTest.C?strVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaX X("
-type String*str2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaX X(›
--com.thoughtworks.acceptance.AttributeTest.C?iVARIABLEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaY Y("
-type int*i2N
-intTYPEA
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaY Y(¿
-.com.thoughtworks.acceptance.AttributeTest.NameCLASSC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÓ Ó("
-inner classfalse*Name2â
-5com.thoughtworks.acceptance.AttributeTest.Name.Name()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java Ú(	2è
-;com.thoughtworks.acceptance.AttributeTest.Name.Name(String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ ı(	2á
-3com.thoughtworks.acceptance.AttributeTest.Name?nameDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÔ Ô(î
-5com.thoughtworks.acceptance.AttributeTest.Name.Name()CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java (*Name2Ç
-.com.thoughtworks.acceptance.AttributeTest.NameRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java (…
-;com.thoughtworks.acceptance.AttributeTest.Name.Name(String)CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(*Name2í
-@com.thoughtworks.acceptance.AttributeTest.Name.Name(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(2ó
-Jcom.thoughtworks.acceptance.AttributeTest.Name.Name(java.lang.String)!nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÙ Ù(2Ç
-.com.thoughtworks.acceptance.AttributeTest.NameRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(˜
-@com.thoughtworks.acceptance.AttributeTest.Name.Name(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÛ Û(˙
-3com.thoughtworks.acceptance.AttributeTest.Name?nameVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÔ Ô("
-type String*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÔ Ô(◊
-0com.thoughtworks.acceptance.AttributeTest.CameraCLASSC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¯ ¯("
-inner classfalse*Camera2ç
-9com.thoughtworks.acceptance.AttributeTest.Camera.Camera()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¸ ˛(	2ì
-?com.thoughtworks.acceptance.AttributeTest.Camera.Camera(String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ç(	2â
-5com.thoughtworks.acceptance.AttributeTest.Camera?nameDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˘ ˘(2Ü
-2com.thoughtworks.acceptance.AttributeTest.Camera?nDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˙ ˙(ú
-9com.thoughtworks.acceptance.AttributeTest.Camera.Camera()CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¸ ¸(*Camera2Ñ
-0com.thoughtworks.acceptance.AttributeTest.CameraRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¸ ¸(Ÿ
-?com.thoughtworks.acceptance.AttributeTest.Camera.Camera(String)CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(*Camera2ñ
-Dcom.thoughtworks.acceptance.AttributeTest.Camera.Camera(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(2õ
-Ncom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)!nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÅ Å(2Ñ
-0com.thoughtworks.acceptance.AttributeTest.CameraRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(˚
-Dcom.thoughtworks.acceptance.AttributeTest.Camera.Camera(String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÄ Ä(¸
-5com.thoughtworks.acceptance.AttributeTest.Camera?nameVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˘ ˘("
-type String*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˘ ˘(í
-2com.thoughtworks.acceptance.AttributeTest.Camera?nVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˙ ˙("
-type Name*n2{
-.com.thoughtworks.acceptance.AttributeTest.NameTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java˙ ˙(´
-<com.thoughtworks.acceptance.AttributeTest.PersonalizedCameraCLASSC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java° °(#"
-inner classfalse*PersonalizedCamera2•
-Qcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java§ ¶(	2≤
-^com.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ´(	2ñ
-Bcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera?ownerDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¢ ¢(2
-0com.thoughtworks.acceptance.AttributeTest.CameraEXTENDC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java°, °(2Ã
-Qcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera()CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java§ §(*PersonalizedCamera2ê
-<com.thoughtworks.acceptance.AttributeTest.PersonalizedCameraRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java§ §(Ù	
-^com.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(*PersonalizedCamera2µ
-ccom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(&2∂
-dcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!owner	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®( ®(42ñ
-Icom.thoughtworks.acceptance.AttributeTest.Camera.Camera(java.lang.String)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(2≈
-xcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)!nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java© ©(2∆
-ycom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(java.lang.String, java.lang.String)!ownerCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java™ ™(2ê
-<com.thoughtworks.acceptance.AttributeTest.PersonalizedCameraRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(ö
-ccom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®" ®(&*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java® ®(!ú
-dcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera.PersonalizedCamera(String,String)!owner	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®/ ®(4*owner2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java®( ®(.ä
-Bcom.thoughtworks.acceptance.AttributeTest.PersonalizedCamera?ownerVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¢ ¢("
-type String*owner2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java¢ ¢(œ
-:com.thoughtworks.acceptance.AttributeTest.TransientIdFieldCLASSC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java   (("
-inner classfalse*TransientIdField2ù
-Icom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(Object)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ Ÿ(	2°
-Mcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŒ –(	2Æ
-Zcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“ ’(	2ë
-=com.thoughtworks.acceptance.AttributeTest.TransientIdField?idDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÀ À(2ì
-?com.thoughtworks.acceptance.AttributeTest.TransientIdField?nameDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÃ Ã(ƒ
-Mcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField()CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŒ Œ(*TransientIdField2é
-:com.thoughtworks.acceptance.AttributeTest.TransientIdFieldRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaŒ Œ(Ω
-Zcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“ “(*TransientIdField2Ø
-]com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!id	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“  “()2±
-_com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“+ “(62ø
-rcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(java.lang.String, java.lang.String)!idCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java” ”(2¡
-tcom.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(java.lang.String, java.lang.String)!nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java‘ ‘(2é
-:com.thoughtworks.acceptance.AttributeTest.TransientIdFieldRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“ “(í
-]com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!id	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“' “()*id2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“  “(&ñ
-_com.thoughtworks.acceptance.AttributeTest.TransientIdField.TransientIdField(String,String)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“2 “(6*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java“+ “(1õ
-Icom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(Object)METHODC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ ◊("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2ü
-Mcom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(Object)!obj	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ ◊((2v
-)java.lang.String.equals(java.lang.Object)CALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ ÿ(<2å
-?com.thoughtworks.acceptance.AttributeTest.TransientIdField?nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ ÿ(2§
-Wcom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(java.lang.Object)!objCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÿ2 ÿ(52[
-booleanRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ ◊(É
-Mcom.thoughtworks.acceptance.AttributeTest.TransientIdField.equals(Object)!obj	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊% ◊((*obj2]
-java.lang.ObjectTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.java◊ ◊($Ç
-=com.thoughtworks.acceptance.AttributeTest.TransientIdField?idVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÀ À("
-type String*id2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÀ À(Ü
-?com.thoughtworks.acceptance.AttributeTest.TransientIdField?nameVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÃ Ã("
-type String*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÃ Ã(ﬂ
-0com.thoughtworks.acceptance.AttributeTest.PersonCLASSC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÈ È("
-inner classfalse*Person2ç
-9com.thoughtworks.acceptance.AttributeTest.Person.Person()DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÏ Ï(2ó
-Ccom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)DECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ (	2ä
-6com.thoughtworks.acceptance.AttributeTest.Person?_nameDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í(2â
-5com.thoughtworks.acceptance.AttributeTest.Person?_ageDECLARATIONC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÎ Î(ú
-9com.thoughtworks.acceptance.AttributeTest.Person.Person()CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÏ Ï(*Person2Ñ
-0com.thoughtworks.acceptance.AttributeTest.PersonRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÏ Ï(§
-Ccom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)CONSTRUCTORC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(*Person2ö
-Hcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(2ô
-Gcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!age	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(#2†
-Scom.thoughtworks.acceptance.AttributeTest.Person.Person(java.lang.String, int)!nameCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÓ Ó(2ü
-Rcom.thoughtworks.acceptance.AttributeTest.Person.Person(java.lang.String, int)!ageCALLC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÔ Ô(2Ñ
-0com.thoughtworks.acceptance.AttributeTest.PersonRETURN_TYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(ˇ
-Hcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!name	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(*name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(
-Gcom.thoughtworks.acceptance.AttributeTest.Person.Person(String,int)!age	PARAMETERC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ  Ì(#*age2P
-intTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÌ Ì(˛
-6com.thoughtworks.acceptance.AttributeTest.Person?_nameVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í("
-type String*_name2]
-java.lang.StringTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÍ Í(Ï
-5com.thoughtworks.acceptance.AttributeTest.Person?_ageVARIABLEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÎ Î("
-type int*_age2P
-intTYPEC
-7src/test/com/thoughtworks/acceptance/AttributeTest.javaÎ Î(

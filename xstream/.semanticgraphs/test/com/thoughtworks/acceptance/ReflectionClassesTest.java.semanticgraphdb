@@ -1,286 +1,0 @@
-
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java«
-1com.thoughtworks.acceptance.ReflectionClassesTestCLASSI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (""
-inner classfalse*ReflectionClassesTest2õ
-Acom.thoughtworks.acceptance.ReflectionClassesTest.aMethod(String)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2ò
->com.thoughtworks.acceptance.ReflectionClassesTest.aMethod(int)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2¢
-Hcom.thoughtworks.acceptance.ReflectionClassesTest.aStaticMethod(boolean)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2¢
-Hcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java" /(2®
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java1 >(2ß
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java@ L(2®
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.testSupportsPrimitiveTypes()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaN P(2°
-Gcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaR \(2ß
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java^ h(2±
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()DECLARATIONJ
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaj Ä(2†
-Fcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject(String)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2k
-AbstractAcceptanceTestEXTENDI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java+ (Aô
-Wcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.StupidObject(String)!arg	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# (&*arg2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("È
-Hcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java" "($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReflectionMethod2©
-Ocom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()?methodDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# #(Z2´
-Qcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()?expectedDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java% ,(2Æ
-[java.lang.Class.getMethod(java.lang.String, java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# #(Z2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java". "(CÅ
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java1 1(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReflectionStaticMethod2Ø
-Ucom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()?methodDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java2 2(a2±
-Wcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()?expectedDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java4 ;(2Æ
-[java.lang.Class.getMethod(java.lang.String, java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java2 2(a2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java14 1(Iı
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java@ @()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReflectionConstructor2≥
-Ycom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()?constructorDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaA A(^2∞
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()?expectedDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaC I( 2°
-Njava.lang.Class.getConstructor(java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaA" A(^2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java@3 @(HÍ
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.testSupportsPrimitiveTypes()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaN N(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSupportsPrimitiveTypes2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaN N(≤
-Gcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaR R(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReflectionField2ß
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()?fieldDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaS S(;2™
-Pcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()?expectedDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaU Y(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaS S(;2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaR- R(A 
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java^ ^()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReflectionStaticField2≠
-Scom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()?fieldDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java_ _(A2∞
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()?expectedDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaa e(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java_ _(A2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java^3 ^(GÈ
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaj j(2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testReflectionFieldMigrationFrom132∂
-\com.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()?fieldDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javak k(;2¥
-Zcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()?xmlDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javam }(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javak k(;2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaj< j(P†
-Xcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(String)!something	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# (,*	something2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("ä
-Rcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(int)!cheese	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java  (&*cheese2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (î
-Zcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aStaticMethod(boolean)!bool	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java1 (5*bool2Z
-booleanTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java) (0›
-Ocom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()?methodVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# #("
-type Method*method2k
-java.lang.reflect.MethodTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# #(2Æ
-[java.lang.Class.getMethod(java.lang.String, java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# #(Z®
-Qcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionMethod()?expectedVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java% %("
-type String*expected2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java% %(„
-Ucom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()?methodVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java2 2("
-type Method*method2k
-java.lang.reflect.MethodTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java2 2(2Æ
-[java.lang.Class.getMethod(java.lang.String, java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java2 2(aÆ
-Wcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticMethod()?expectedVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java4 4("
-type String*expected2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java4 4(È
-Ycom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()?constructorVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaA A("
-type Constructor*constructor2p
-java.lang.reflect.ConstructorTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaA A(2°
-Njava.lang.Class.getConstructor(java.lang.Class<? extends java.lang.Object>...)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaA" A(^≠
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionConstructor()?expectedVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaC C("
-type String*expected2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaC C(¶
-Mcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()?fieldVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaS S("
-type Field*field2j
-java.lang.reflect.FieldTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaS S(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaS S(;ß
-Pcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionField()?expectedVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaU U("
-type String*expected2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaU U(¨
-Scom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()?fieldVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java_ _("
-type Field*field2j
-java.lang.reflect.FieldTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java_ _(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java_ _(A≠
-Vcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionStaticField()?expectedVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaa a("
-type String*expected2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javaa a(µ
-\com.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()?fieldVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javak k("
-type Field*field2j
-java.lang.reflect.FieldTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javak k(2}
-*java.lang.Class.getField(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javak k(;¨
-Zcom.thoughtworks.acceptance.ReflectionClassesTest.testReflectionFieldMigrationFrom13()?xmlVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javam m("
-type String*xml2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.javam m(µ	
->com.thoughtworks.acceptance.ReflectionClassesTest.StupidObjectCLASSI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ($"
-inner classfalse*StupidObject2®
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(String)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2•
-Kcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(int)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2Ø
-Ucom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aStaticMethod(boolean)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2≠
-Scom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.StupidObject(String)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (	2ü
-Ecom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject?aFieldDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (2•
-Kcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject?aStaticFieldDECLARATIONI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (&à
-Scom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.StupidObject(String)CONSTRUCTORI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (*StupidObject2Ø
-Wcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.StupidObject(String)!arg	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (&2ò
->com.thoughtworks.acceptance.ReflectionClassesTest.StupidObjectRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (ô
-Wcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.StupidObject(String)!arg	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# (&*arg2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("ä
-Ncom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(String)METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*aMethod2∞
-Xcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(String)!something	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (,2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (Å
-Kcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(int)METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*aMethod2™
-Rcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(int)!cheese	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (&2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (ò
-Ucom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aStaticMethod(boolean)METHODI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (("
-statictrue"
-finalfalse"
-access modifierpublic"
-type void*aStaticMethod2≤
-Zcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aStaticMethod(boolean)!bool	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java) (52^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (†
-Xcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(String)!something	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java# (,*	something2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("ä
-Rcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aMethod(int)!cheese	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java  (&*cheese2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (î
-Zcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject.aStaticMethod(boolean)!bool	PARAMETERI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java1 (5*bool2Z
-booleanTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java) (0ö
-Ecom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject?aFieldVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java ("
-type String*aField2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (ñ
-Kcom.thoughtworks.acceptance.ReflectionClassesTest.StupidObject?aStaticFieldVARIABLEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (&"
-type int*aStaticField2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/ReflectionClassesTest.java (

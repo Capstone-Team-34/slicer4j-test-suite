@@ -1,575 +1,0 @@
-
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java„
-Ccom.thoughtworks.xstream.converters.extended.ThrowableConverterTestCLASS[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (#"
-inner classfalse*ThrowableConverterTest2Ë
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (2Ë
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java !(2Å
-Ycom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java# '(2Ã
-Wcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java) -(2Í
-acom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java/ 3(2È
-\com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesStackTrace()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java5 <(2¾
-Rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.equals(Object)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF H(	2Ë
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesExtraFields()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaL S(2ð
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithNoSelfReferenceForUninitializedCauseInJdk14()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaU _(2Û
-ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithInitializedCauseInJdk14()DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaa k(2Ú
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam y(2Ï
-ccom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertMoreSafely(Object,Object)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javap w(2Õ
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])DECLARATION\
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{ †(2Ú
-lcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)DECLARATION]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ ”(2Ñ
-ccom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertMoreSafely(Object,Object)DECLARATION]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java— —(>2Î
-bcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException(String,BigDecimal)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA D(	2}
-AbstractAcceptanceTestEXTEND[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java, (BØ
-rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!msg	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA" A(%*msg2u
-java.lang.StringTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA A(!â
-ucom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!number	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA2 A(8*number2y
-java.math.BigDecimalTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA' A(1½	
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDeserializesThrowable2Ô
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()?expectedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,2Ò
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (O2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (/2„
-java.lang.Throwable.Throwable()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (½	
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDeserializesException2Ô
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()?expectedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,2Ò
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (O2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java   (/2„
-java.lang.Exception.Exception()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (µ	
-Ycom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java# #(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIncludesMessage2Î
-bcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()?expectedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java$ $(72Ì
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java% %(O2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java& &(/2”
-/java.lang.Throwable.Throwable(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java$ $(72p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java# #(·
-
-Wcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java) )(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIncludesCause2Ì
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()?expectedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java* *(;2Ê
-^com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java+ +(O2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java, ,(/2—
-2java.lang.Throwable.Throwable(java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java* *(;2„
-java.lang.Throwable.Throwable()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java*+ *(:2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java) )(
-acom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java/ /(+"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIncludesCauseAndMessage2Ö
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()?expectedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java0 0(U2Ô
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java1 1(O2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java2 2(/2©
-Djava.lang.Throwable.Throwable(java.lang.String, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java0 0(U2”
-/java.lang.Throwable.Throwable(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java06 0(T2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java/ /(Ý
-\com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesStackTrace()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java5 5(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIncludesStackTrace2Ï
-ccom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesStackTrace()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java9 9(T2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java: :(42„
-java.lang.Exception.Exception()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java7 7(!2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java5 5(Ú	
-_com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesExtraFields()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaL L()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSerializesExtraFields2Ò
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesExtraFields()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaP P(T2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaQ Q(42é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(java.lang.String, java.math.BigDecimal)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaN N(E2Œ
-'java.math.BigDecimal.BigDecimal(double)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaN/ N(D2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaL L(þ
-
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithNoSelfReferenceForUninitializedCauseInJdk14()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaU U(M"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*=testSerializesWithNoSelfReferenceForUninitializedCauseInJdk142÷
-Šcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithNoSelfReferenceForUninitializedCauseInJdk14()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaZ Z(T2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java[ [(42ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java\ \(+2ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java] ]((2¢
-=java.lang.RuntimeException.RuntimeException(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaX X(72p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaU U(Õ
-
-ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithInitializedCauseInJdk14()METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaa a(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testSerializesWithInitializedCauseInJdk142â
-vcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithInitializedCauseInJdk14()?resultDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaf f(T2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javag g(42ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javah h(+2ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javai i((2·
-Rjava.lang.RuntimeException.RuntimeException(java.lang.String, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javad d(=2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaa a(ç"
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam m(-"
-statictrue"
-finalfalse"
-access modifierprivate"
-type void*assertThrowableEquals2Ú
-pcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)!a	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam. m(?2Ú
-pcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)!b	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javan. n(?2Ý
-qcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)?taDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar  r(22Ý
-qcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)?tbDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar4 r(F2¬
-Æcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javao x(
-2€
-java.lang.Object.getClass()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javas s(*2€
-java.lang.Object.getClass()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javas, s(92…
- java.lang.Throwable.getMessage()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javat t(,2…
- java.lang.Throwable.getMessage()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javat. t(=2é
-ƒcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javau u(C2ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javau& u(32ƒ
-java.lang.Throwable.getCause()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javau5 u(B2â
-}com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(java.lang.Object[], java.lang.Object[])CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javav v(I2ˆ
-#java.lang.Throwable.getStackTrace()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javav" v(42ˆ
-#java.lang.Throwable.getStackTrace()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javav6 v(H2‰
-£com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.Anonymous-7e1f6b2d-4dee-4bca-b341-45c8dcf85f47.Anonymous-7e1f6b2d-4dee-4bca-b341-45c8dcf85f47()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javao x(	2ë
-…com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)!aCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javao o(2ë
-…com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(java.lang.Throwable, java.lang.Throwable)!bCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javao o(2
-©com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.Anonymous-ee312620-94d6-4e6a-84cc-ef85fd64f26f.assertMoreSafely(java.lang.Object, java.lang.Object)!aCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar1 r(22
-©com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.Anonymous-7eef310e-049a-4a49-9133-ee784deacfd0.assertMoreSafely(java.lang.Object, java.lang.Object)!bCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javarE r(F2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam m(» 
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{ {()"
-statictrue"
-finalfalse"
-access modifierprivate"
-type void*assertArrayEquals2Û
-qcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])!expected	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{* {(A2Ù
-ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])!actual	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{C {(X2ã
-wcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?expectedJoinedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java| |(82á
-ucom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?actualJoinedDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java} }(62Ö
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?iDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java~ ~(2Ø
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?iDECLARATION]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (2ˆ
-#java.lang.StringBuffer.append(char)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (;2”
-/java.lang.StringBuffer.append(java.lang.Object)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (.2Š
-#java.lang.StringBuffer.append(char)CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaƒ ƒ(a2–
-/java.lang.StringBuffer.append(java.lang.String)CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaƒ ƒ(T2¨
-Ajava.lang.String.replaceFirst(java.lang.String, java.lang.String)CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaƒ  ƒ(S2‚
-java.lang.Object.toString()CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaƒ  ƒ(42ˆ
-!java.lang.StringBuffer.toString()CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java… …(.2ˆ
-!java.lang.StringBuffer.toString()CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java…0 …(G2Š
-%java.lang.StringBuffer.StringBuffer()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java|& |(82Š
-%java.lang.StringBuffer.StringBuffer()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java}$ }(62ì
-†com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(java.lang.Object[], java.lang.Object[])!expectedCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java~ ~($2ì
-†com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(java.lang.Object[], java.lang.Object[])!expectedCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java" (*2ì
-„com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(java.lang.Object[], java.lang.Object[])!actualCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("2ì
-„com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(java.lang.Object[], java.lang.Object[])!actualCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaƒ  ƒ(&2p
-voidRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{ {(Û
-lcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)METHOD]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ ˆ(""
-statictrue"
-finalfalse"
-access modifierprivate"
-type void*
-assertBoth2Ú
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!a	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ# ˆ(+2Ú
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!b	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ- ˆ(52ç
-{com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!moreAssertions	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ7 ˆ(T2ï
-‡com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(java.lang.Object, java.lang.Object)CALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java’ ’(12°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!aCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java‰ ‰(2°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!bCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaŠ Š(2°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!bCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java2 (32°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!bCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (2°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!aCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java  (!2½
-Õcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!moreAssertionsCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java’ ’(2°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!aCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java’, ’(-2°
-Ècom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(java.lang.Object, java.lang.Object, com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions)!bCALL]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java’/ ’(02r
-voidRETURN_TYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ ˆ(Ä
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(Object)!o	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF% F(&*o2u
-java.lang.ObjectTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF F($×
-pcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)!a	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam> m(?*a2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javam4 m(=×
-pcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)!b	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javan> n(?*b2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javan4 n(=Þ
-qcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])!expected	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{9 {(A*expected2w
-java.lang.Object[]TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{0 {(8Ú
-ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])!actual	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{R {(X*actual2w
-java.lang.Object[]TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java{I {(QÖ
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!a	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ* ˆ(+*a2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ# ˆ()Ö
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!b	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ4 ˆ(5*b2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ- ˆ(3³
-{com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertBoth(Object,Object,MoreAssertions)!moreAssertions	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆF ˆ(T*moreAssertions2¹
-Rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertionsTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaˆ7 ˆ(EÜ
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!a	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—+ —(,*a2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—$ —(*Ü
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!b	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—; —(<*b2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—4 —(:ð
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()?expectedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("
-type 	Throwable*expected2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (2„
-java.lang.Throwable.Throwable()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,å
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesThrowable()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (ð
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()?expectedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("
-type 	Exception*expected2x
-java.lang.ExceptionTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (2„
-java.lang.Exception.Exception()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (,å
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testDeserializesException()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (ú
-bcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()?expectedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java$ $("
-type 	Throwable*expected2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java$ $(2”
-/java.lang.Throwable.Throwable(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java$ $(7ß
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesMessage()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java% %("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java% %(‚
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()?expectedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java* *("
-type 	Throwable*expected2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java* *(2—
-2java.lang.Throwable.Throwable(java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java* *(;2„
-java.lang.Throwable.Throwable()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java*+ *(:Ý
-^com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCause()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java+ +("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java+ +(®
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()?expectedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java0 0("
-type 	Throwable*expected2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java0 0(2©
-Djava.lang.Throwable.Throwable(java.lang.String, java.lang.Throwable)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java0 0(U2”
-/java.lang.Throwable.Throwable(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java06 0(Tç
-hcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesCauseAndMessage()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java1 1("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java1 1(â
-ccom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testIncludesStackTrace()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java9 9("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java9 9(å
-fcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesExtraFields()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaP P("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaP P(Š
-Šcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithNoSelfReferenceForUninitializedCauseInJdk14()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaZ Z("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaZ Z(õ
-vcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.testSerializesWithInitializedCauseInJdk14()?resultVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaf f("
-type 	Throwable*result2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaf f(û
-qcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertThrowableEquals(Throwable,Throwable)?taVALUE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar  r(""
-type 	Throwable*ta2x
-java.lang.ThrowableTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar r(2
-©com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.Anonymous-bf4c5de9-6f55-48d1-9251-1f84cfe07eac.assertMoreSafely(java.lang.Object, java.lang.Object)!aCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javar1 r(2‘
-wcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?expectedJoinedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java| |(#"
-type StringBuffer*expectedJoined2{
-java.lang.StringBufferTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java| |(2Š
-%java.lang.StringBuffer.StringBuffer()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java|& |(8
-ucom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?actualJoinedVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java} }(!"
-type StringBuffer*actualJoined2{
-java.lang.StringBufferTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java} }(2Š
-%java.lang.StringBuffer.StringBuffer()CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java}$ }(6Î
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?iVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java~ ~("
-type int*i2h
-intTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java~ ~(Ò
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.assertArrayEquals(Object[],Object[])?iVARIABLE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java ("
-type int*i2j
-intTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java (Ã
-Ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyExceptionCLASS[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java> >(#"
-inner classfalse*MyException2Ê
-^com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(Object)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF H(	2Ú
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)DECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA D(	2Â
-Vcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException?numberDECLARATION[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java? ?(!2z
-java.lang.ExceptionEXTEND[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java>, >(5à
-ncom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)CONSTRUCTOR[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA A(*MyException2Ü
-rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!msg	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA A(%2ß
-ucom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!number	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA' A(82”
-/java.lang.Exception.Exception(java.lang.String)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaB B(2í
-‡com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(java.lang.String, java.math.BigDecimal)!msgCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaB B(2ð
-Šcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(java.lang.String, java.math.BigDecimal)!numberCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaC C( 2»
-Ocom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyExceptionRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA A(Ø
-rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!msg	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA" A(%*msg2u
-java.lang.StringTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA A(!â
-ucom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.MyException(String,BigDecimal)!number	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA2 A(8*number2y
-java.math.BigDecimalTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaA' A(1·
-^com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(Object)METHOD[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF F("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2Ê
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(Object)!o	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF F(&2Ž
-)java.lang.Object.equals(java.lang.Object)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaG G("2’
--java.math.BigDecimal.equals(java.lang.Object)CALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaGB G(h2Ï
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(java.lang.Object)!oCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaG  G(!2Ï
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(java.lang.Object)!oCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaG& G('2»
-Vcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException?numberCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaGB G(H2Ï
-jcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(java.lang.Object)!oCALL[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaG^ G(_2s
-booleanRETURN_TYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF F(Ä
-`com.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException.equals(Object)!o	PARAMETER[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF% F(&*o2u
-java.lang.ObjectTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.javaF F($×
-Vcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MyException?numberVARIABLE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java? ?(!"
-type 
-BigDecimal*number2y
-java.math.BigDecimalTYPE[
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java? ?(Ã
-Rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertionsTRAIT]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java– –($"
-inner classfalse*MoreAssertions2à
-rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)DECLARATION]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java— —(>û
-rcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)METHOD]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java— —("
-staticfalse"
-finalfalse""
-access modifierpackage_private"
-type void*assertMoreSafely2à
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!a	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java— —(,2à
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!b	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—. —(<2r
-voidRETURN_TYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java— —(Ü
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!a	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—+ —(,*a2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—$ —(*Ü
-tcom.thoughtworks.xstream.converters.extended.ThrowableConverterTest.MoreAssertions.assertMoreSafely(Object,Object)!b	PARAMETER]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—; —(<*b2w
-java.lang.ObjectTYPE]
-Qsrc/test/com/thoughtworks/xstream/converters/extended/ThrowableConverterTest.java—4 —(:

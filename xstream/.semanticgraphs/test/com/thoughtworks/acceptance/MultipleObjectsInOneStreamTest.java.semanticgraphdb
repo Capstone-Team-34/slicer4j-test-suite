@@ -1,691 +1,0 @@
-
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java·
-:com.thoughtworks.acceptance.MultipleObjectsInOneStreamTestCLASSR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java- -(+"
-inner classfalse*MultipleObjectsInOneStreamTest2 
-gcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java< k(2æ
-Zcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()DECLARATIONS
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javam ê(2…
-dcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaí ∞(2’
-pcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java≤ –(2ß
-Bcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.close()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java∂ ∏(2ß
-Bcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.flush()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java∫ º(2µ
-Pcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.write(char[],int,int)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaæ ¿(2À
-fcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java“ ‰(2ß
-Bcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.close()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java÷ ÿ(2Á
-Åcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÊ ˛(2Î
-Öcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ ã(	2Ì
-ácom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç î(	2Á
-Åcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaó ∞(2≥
-Pcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person(String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 8(	2t
-AbstractAcceptanceTestEXTENDR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java-4 -(Jª
-acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!firstName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(&*	firstName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(π
-`com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!lastName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5/ 5(7*lastName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5( 5(.
-gcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()METHODR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java< <(:"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testReadAndWriteMultipleObjectsInOneStream2—
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?bufferDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java> >(02—
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?writerDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaA! A(G2—
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?readerDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaY! Y(\2{
-java.io.StringWriter.toString()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaV V(,2{
-java.io.StringWriter.toString()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaYI Y(Z2
-#java.io.StringWriter.StringWriter()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java> >(02»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaC C(42»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaD D(42»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaE E(42è
-3java.io.StringReader.StringReader(java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaY8 Y([2»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java] ](12»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javab b(12»
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javag g(12g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java< <(Í
-Zcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()METHODR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javam m(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDrivenThroughObjectStream2ƒ
-acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?writerDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javan n(*2¡
-^com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?oosDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaq q(I2…
-fcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?expectedXmlDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaw ( 2√
-^com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?oisDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ Ñ(2Ñ
-(java.io.ObjectOutputStream.writeInt(int)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javar r(2î
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javas s( 2~
-"java.io.ObjectOutputStream.close()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javau u(2y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÅ" Å(32y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉQ Ñ(2Å
-#java.io.ObjectInputStream.readInt()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö('2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(.2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaá/ á(?2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaä ä(2
-#java.io.StringWriter.StringWriter()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javan n(*2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ@ Ñ(2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javam7 m(B≠
-dcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaí í(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*'testDrivenThroughCompressedObjectStream2Œ
-icom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?baosDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaî î(@2–
-kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?writerDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï ñ(12Õ
-hcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?oosDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaô ô(I2Œ
-icom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?dataDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java† †((2Õ
-hcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?oisDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ §(^2Ü
-(java.io.ObjectOutputStream.writeInt(int)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaö ö(2ñ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaõ õ( 2Ä
-"java.io.ObjectOutputStream.flush()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù(2Ä
-"java.io.ObjectOutputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û(2â
-+java.io.ByteArrayOutputStream.toByteArray()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java† †((2Å
-#java.io.ObjectInputStream.readInt()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java• •('2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¶ ¶(.2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaß/ ß(?2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java™ ™(2ì
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaî% î(@2≥
-Ujava.io.OutputStreamWriter.OutputStreamWriter(java.io.OutputStream, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï ñ(12√
-ejava.util.zip.DeflaterOutputStream.DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï/ ñ('2Ç
-$java.util.zip.Deflater.Deflater(int)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaïN ñ(&2∞
-Rjava.io.InputStreamReader.InputStreamReader(java.io.InputStream, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£@ §(]2¿
-bjava.util.zip.InflaterInputStream.InflaterInputStream(java.io.InputStream, java.util.zip.Inflater)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§ §(S2ó
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§$ §(B2
-!java.util.zip.Inflater.Inflater()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§D §(R2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaì ì(Ê
-pcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java≤ ≤(C"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*3testObjectOutputStreamPropagatesCloseAndFlushEvents2Ÿ
-tcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?logDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¥ ¥()2„
-~com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?loggingWriterDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaµ ¡(	2È
-Écom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?objectOutputStreamDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java   (_2Ä
-"java.io.ObjectOutputStream.flush()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÀ À("2Ä
-"java.io.ObjectOutputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÃ Ã("2u
-java.io.Writer.Writer()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaµ ¡(	2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java≤M ≤(X 
-
-fcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java“ “(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testObjectInputStreamPropegatesCloseEvent2œ
-jcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?logDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java‘ ‘()2Ÿ
-tcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?loggingReaderDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java’ Ÿ(	2›
-xcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?objectInputStreamDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaﬂ ﬂ(\2
-!java.io.ObjectInputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java‡ ‡(!2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java’ Ÿ(	2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java“C “(N˛
-Åcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÊ Ê(T"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*DtestByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream2Ì
-ácom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?aliceDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÎ Î(32Ï
-Ücom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?janeDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÏ Ï(02Ó
-àcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?writerDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java (02Î
-Öcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?outDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÒ Ò(I2Í
-Ñcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?inDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜ ¯(2ñ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÚ Ú(2ñ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÛ Û(2Ä
-"java.io.ObjectOutputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÙ Ù(2}
-java.io.StringWriter.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜P ¯(2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˘ ˘('2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˙ ˙(&2
-!java.io.ObjectInputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˚ ˚(2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÎ Î(32 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÏ Ï(02Å
-#java.io.StringWriter.StringWriter()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java (02ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜? ¯(2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÁ Á(Ï
-Åcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaó ó(T"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*DtestSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream2Ì
-ácom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?aliceDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù(32Ï
-Ücom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?janeDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û(02Ó
-àcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?writerDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¢ ¢(02Î
-Öcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?outDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ £(I2Í
-Ñcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?inDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java© ™(2ñ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§ §(2ñ
-8java.io.ObjectOutputStream.writeObject(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java• •(2Ä
-"java.io.ObjectOutputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¶ ¶(2}
-java.io.StringWriter.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java©P ™(2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java´ ´('2Ñ
-&java.io.ObjectInputStream.readObject()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¨ ¨(&2
-!java.io.ObjectInputStream.close()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java≠ ≠(2Î
-åcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.ReusingReferenceByIdMarshallingStrategy()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaö' ö(T2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù(32 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û(02Å
-#java.io.StringWriter.StringWriter()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¢ ¢(02ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java©? ™(2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaò ò(ò
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ5 Ö(;*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö(4ä
-±com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖD Ö(G*obj2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ= Ö(C°
-Ωcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(+*converterLookup2m
-ConverterLookupTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(Ü
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ4 Ü(:*mapper2d
-MapperTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ- Ü(3í
-∏com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜG Ü(Q*
-dataHolder2h
-
-DataHolderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ< Ü(Fé
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!root	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç' ç(+*root2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç  ç(&ö
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaçF ç(L*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç- ç(Eî
-∫com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé é(!*
-dataHolder2h
-
-DataHolderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé é(£
-øcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé3 é(B*converterLookup2m
-ConverterLookupTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé# é(2à
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaéK é(Q*mapper2d
-MapperTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaéD é(J‡
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?bufferVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java> >("
-type StringWriter*buffer2p
-java.io.StringWriterTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java> >(2
-#java.io.StringWriter.StringWriter()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java> >(0Ô
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?writerVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaA! A('"!
-type HierarchicalStreamWriter*writer2t
-HierarchicalStreamWriterTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaA A( ˛
-ncom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testReadAndWriteMultipleObjectsInOneStream()?readerVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaY! Y('"!
-type HierarchicalStreamReader*reader2t
-HierarchicalStreamReaderTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaY Y( 2{
-java.io.StringWriter.toString()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaYI Y(Z2è
-3java.io.StringReader.StringReader(java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaY8 Y([«
-acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?writerVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javan n("
-type Writer*writer2j
-java.io.WriterTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javan n(2
-#java.io.StringWriter.StringWriter()CALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javan n(*ÿ
-^com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?oosVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaq q("
-type ObjectOutputStream*oos2v
-java.io.ObjectOutputStreamTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaq q(“
-fcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?expectedXmlVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaw w("
-type String*expectedXml2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaw w(È
-^com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughObjectStream()?oisVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ É("
-type ObjectInputStream*ois2w
-java.io.ObjectInputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ É(2y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉQ Ñ(2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ@ Ñ(Ñ
-icom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?baosVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaî î(""
-type ByteArrayOutputStream*baos2{
-java.io.ByteArrayOutputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaî î(2ì
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaî% î(@’
-kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?writerVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï ï("
-type Writer*writer2l
-java.io.WriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï ï(2≥
-Ujava.io.OutputStreamWriter.OutputStreamWriter(java.io.OutputStream, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï ñ(12√
-ejava.util.zip.DeflaterOutputStream.DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaï/ ñ('2Ç
-$java.util.zip.Deflater.Deflater(int)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaïN ñ(&Ê
-hcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?oosVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaô ô("
-type ObjectOutputStream*oos2x
-java.io.ObjectOutputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaô ô(‘
-icom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?dataVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java† †("
-type byte[]*data2d
-byte[]TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java† †(2â
-+java.io.ByteArrayOutputStream.toByteArray()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java† †((ı
-hcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testDrivenThroughCompressedObjectStream()?oisVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ £("
-type ObjectInputStream*ois2w
-java.io.ObjectInputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ £(2∞
-Rjava.io.InputStreamReader.InputStreamReader(java.io.InputStream, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£@ §(]2¿
-bjava.util.zip.InflaterInputStream.InflaterInputStream(java.io.InputStream, java.util.zip.Inflater)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§ §(S2ó
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§$ §(B2
-!java.util.zip.Inflater.Inflater()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java§D §(R—
-tcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?logVALUET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¥ ¥("
-type CallLog*log2e
-CallLogTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¥ ¥(Â
-~com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?loggingWriterVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaµ µ("
-type Writer*loggingWriter2l
-java.io.WriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaµ µ(2u
-java.io.Writer.Writer()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaµ ¡(	ë
-Écom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectOutputStreamPropagatesCloseAndFlushEvents()?objectOutputStreamVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java   (-"
-type ObjectOutputStream*objectOutputStream2x
-java.io.ObjectOutputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java   («
-jcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?logVALUET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java‘ ‘("
-type CallLog*log2e
-CallLogTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java‘ ‘(¯
-tcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?loggingReaderVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java’ ’("
-type Reader*loggingReader2l
-java.io.ReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java’ ’(2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java’ Ÿ(	Ç
-xcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testObjectInputStreamPropegatesCloseEvent()?objectInputStreamVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaﬂ ﬂ(+"
-type ObjectInputStream*objectInputStream2w
-java.io.ObjectInputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaﬂ ﬂ(Ò
-ácom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?aliceVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÎ Î("
-type Person*alice2ü
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÎ Î(2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÎ Î(3Ô
-Ücom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?janeVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÏ Ï("
-type Person*jane2ü
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÏ Ï(2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÏ Ï(0Ç
-àcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?writerVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java ("
-type StringWriter*writer2r
-java.io.StringWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java (2Å
-#java.io.StringWriter.StringWriter()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java (0Ñ
-Öcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?outVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÒ Ò("
-type ObjectOutputStream*out2x
-java.io.ObjectOutputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÒ Ò(ì
-Ñcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testByDefaultDoesNotPreserveReferencesAcrossDifferentObjectsInStream()?inVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜ ˜("
-type ObjectInputStream*in2w
-java.io.ObjectInputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜ ˜(2}
-java.io.StringWriter.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜P ¯(2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java˜? ¯(Ò
-ácom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?aliceVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù("
-type Person*alice2ü
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù(2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaù ù(3Ô
-Ücom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?janeVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û("
-type Person*jane2ü
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û(2 
-lcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaû û(0Ç
-àcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?writerVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¢ ¢("
-type StringWriter*writer2r
-java.io.StringWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¢ ¢(2Å
-#java.io.StringWriter.StringWriter()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java¢ ¢(0Ñ
-Öcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?outVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ £("
-type ObjectOutputStream*out2x
-java.io.ObjectOutputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java£ £(ì
-Ñcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.testSupportsOptionToPreserveReferencesAcrossDifferentObjectsInStream()?inVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java© ©("
-type ObjectInputStream*in2w
-java.io.ObjectInputStreamTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java© ©(2}
-java.io.StringWriter.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java©P ™(2ë
-3java.io.StringReader.StringReader(java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java©? ™(˘
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonCLASSR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java/ /("
-inner classfalse*Person2∫
-Wcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 8(	2Æ
-Kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?firstNameDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java1 1( 2≠
-Jcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?lastNameDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java2 2(2Æ
-Kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?secretaryDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java3 3( 2l
-StandardObjectEXTENDR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java/' /(5õ	
-Wcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)CONSTRUCTORR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(*Person2¬
-acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!firstName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(&2¡
-`com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!lastName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5( 5(72“
-vcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)!firstNameCALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java6 6(&2—
-ucom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(java.lang.String, java.lang.String)!lastNameCALLR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java7 7($2§
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(ª
-acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!firstName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(&*	firstName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5 5(π
-`com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person.Person(String,String)!lastName	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5/ 5(7*lastName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java5( 5(.µ
-Kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?firstNameVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java1 1( "
-type String*	firstName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java1 1(≥
-Jcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?lastNameVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java2 2("
-type String*lastName2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java2 2(Á
-Kcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.Person?secretaryVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java3 3( "
-type Person*	secretary2ù
-Acom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.PersonTYPER
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.java3 3(œ
-
-bcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategyCLASST
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÄ Ä(8"
-inner classfalse*'ReusingReferenceByIdMarshallingStrategy2ì
-≠com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ ã(	2ï
-Øcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç î(	2“
-mcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?marshallerDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÇ( Ç(22‘
-ocom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?unmarshallerDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ* É(62s
-MarshallingStrategyEXTENDT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÄD Ä(W»
-≠com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2ò
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö(;2ï
-±com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ= Ö(G2°
-Ωcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(+2ò
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ- Ü(:2ú
-∏com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ< Ü(Q2À
-mcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?marshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaá á(2À
-mcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?marshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaà à(2À
-mcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?marshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaä ä(2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö(Î
-Øcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)METHODT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç ç("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2ò
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!root	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç  ç(+2ö
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç- ç(L2û
-∫com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé é(!2£
-øcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé# é(B2ö
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaéD é(Q2Õ
-ocom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?unmarshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaè è(2Õ
-ocom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?unmarshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaê ê(2Õ
-ocom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?unmarshallerCALLT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaì ì(2u
-java.lang.ObjectRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç ç(ò
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ5 Ö(;*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ Ö(4ä
-±com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖD Ö(G*obj2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÖ= Ö(C°
-Ωcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(+*converterLookup2m
-ConverterLookupTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ Ü(Ü
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ4 Ü(:*mapper2d
-MapperTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ- Ü(3í
-∏com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.marshal(HierarchicalStreamWriter,Object,ConverterLookup,Mapper,DataHolder)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜG Ü(Q*
-dataHolder2h
-
-DataHolderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÜ< Ü(Fé
-¥com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!root	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç' ç(+*root2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç  ç(&ö
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaçF ç(L*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaç- ç(Eî
-∫com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!dataHolder	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé é(!*
-dataHolder2h
-
-DataHolderTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé é(£
-øcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!converterLookup	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé3 é(B*converterLookup2m
-ConverterLookupTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaé# é(2à
-∂com.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy.unmarshal(Object,HierarchicalStreamReader,DataHolder,ConverterLookup,Mapper)!mapper	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaéK é(Q*mapper2d
-MapperTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaéD é(JÙ
-mcom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?marshallerVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÇ( Ç(2" 
-type ReferenceByIdMarshaller*
-marshaller2u
-ReferenceByIdMarshallerTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÇ Ç('¸
-ocom.thoughtworks.acceptance.MultipleObjectsInOneStreamTest.ReusingReferenceByIdMarshallingStrategy?unmarshallerVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ* É(6""
-type ReferenceByIdUnmarshaller*unmarshaller2w
-ReferenceByIdUnmarshallerTYPET
-Hsrc/test/com/thoughtworks/acceptance/MultipleObjectsInOneStreamTest.javaÉ É()

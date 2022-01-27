@@ -1,201 +1,0 @@
-
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java£
--com.thoughtworks.xstream.io.xml.DomWriterTestCLASSE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ("
-inner classfalse*DomWriterTest2ã
-5com.thoughtworks.xstream.io.xml.DomWriterTest.setUp()DECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java  (2£
-Mcom.thoughtworks.xstream.io.xml.DomWriterTest.createDocumentReaderFor(Object)DECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java" $(2£
-Mcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()DECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java( :(2®
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()DECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java< N(2å
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (2k
-AbstractDocumentWriterTestEXTENDE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java# (=°
-
-5com.thoughtworks.xstream.io.xml.DomWriterTest.setUp()METHODE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2¢
-Lcom.thoughtworks.xstream.io.xml.DomWriterTest.setUp()?documentBuilderFactoryDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java% (b2õ
-Ecom.thoughtworks.xstream.io.xml.DomWriterTest.setUp()?documentBuilderDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ([2Ö
-6javax.xml.parsers.DocumentBuilderFactory.newInstance()CALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java> (b2å
-=javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder()CALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java0 ([2~
-/javax.xml.parsers.DocumentBuilder.newDocument()CALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (02Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ('2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java" (+Ã
-Mcom.thoughtworks.xstream.io.xml.DomWriterTest.createDocumentReaderFor(Object)METHODE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java" "(4"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type DocumentReader*createDocumentReaderFor2¶
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.createDocumentReaderFor(Object)!node	PARAMETERE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java"5 "(F2´
-\com.thoughtworks.xstream.io.xml.DomWriterTest.createDocumentReaderFor(java.lang.Object)!nodeCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java#& #(*2d
-DocumentReaderRETURN_TYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java" "(ñ
-Mcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()METHODE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java( ((-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanWriteIntoArbitraryNode2®
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?rootDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java) )(52•
-Ocom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?aDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java+ +(/2´
-Ucom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppRootDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java/ /(12®
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppADECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java0 0(%2®
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppBDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java2 2(%2∞
-Zcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppDomWriterDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java7 7(62Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java) )(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java* *(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java+ +(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java-" -(*2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java8D 8(L2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java( ((∂
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()METHODE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java< <(2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testCanWriteIntoArbitraryNodeAgain2≠
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?rootDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java= =(52™
-Tcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?aDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java? ?(/2∞
-Zcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppRootDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaC C(12≠
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppADECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaD D(%2≠
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppBDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaF F(%2µ
-_com.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppDomWriterDECLARATIONE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaK K(62Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java= =(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java> >(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java? ?(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaLD L(L2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java< <(ç
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.createDocumentReaderFor(Object)!node	PARAMETERE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java"B "(F*node2_
-java.lang.ObjectTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java"; "(A÷
-Lcom.thoughtworks.xstream.io.xml.DomWriterTest.setUp()?documentBuilderFactoryVALUEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java% (;"
-type DocumentBuilderFactory*documentBuilderFactory2w
-(javax.xml.parsers.DocumentBuilderFactoryTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ($2Ö
-6javax.xml.parsers.DocumentBuilderFactory.newInstance()CALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java> (b¡
-Ecom.thoughtworks.xstream.io.xml.DomWriterTest.setUp()?documentBuilderVALUEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (-"
-type DocumentBuilder*documentBuilder2p
-!javax.xml.parsers.DocumentBuilderTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (2å
-=javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder()CALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java0 ([ù
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?rootVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java) )("
-type Element*root2V
-ElementTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java) )(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java) )(ó
-Ocom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?aVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java+ +("
-type Element*a2V
-ElementTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java+ +(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java+ +(ñ
-Ucom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppRootVALUEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java/ /("
-type XppDom*xppRoot2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java/ /(ì
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppAVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java0 0("
-type XppDom*xppA2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java0 0(ì
-Rcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppBVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java2 2("
-type XppDom*xppB2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java2 2(Ø
-Zcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNode()?xppDomWriterVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java7 7(!"
-type XppDomWriter*xppDomWriter2[
-XppDomWriterTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java7 7(¢
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?rootVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java= =("
-type Element*root2V
-ElementTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java= =(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java= =(ú
-Tcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?aVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java? ?("
-type Element*a2V
-ElementTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java? ?(2Ö
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentCALLE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java? ?(õ
-Zcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppRootVALUEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaC C("
-type XppDom*xppRoot2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaC C(ò
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppAVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaD D("
-type XppDom*xppA2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaD D(ò
-Wcom.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppBVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaF F("
-type XppDom*xppB2U
-XppDomTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaF F(¥
-_com.thoughtworks.xstream.io.xml.DomWriterTest.testCanWriteIntoArbitraryNodeAgain()?xppDomWriterVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaK K(!"
-type XppDomWriter*xppDomWriter2[
-XppDomWriterTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.javaK K(ˇ
-6com.thoughtworks.xstream.io.xml.DomWriterTest?documentVARIABLEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java ("
-type Document*document2W
-DocumentTYPEE
-;src/test/com/thoughtworks/xstream/io/xml/DomWriterTest.java (

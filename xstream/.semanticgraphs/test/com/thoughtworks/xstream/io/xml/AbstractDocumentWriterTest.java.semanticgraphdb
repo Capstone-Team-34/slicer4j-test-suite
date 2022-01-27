@@ -1,359 +1,0 @@
-
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaˆ
-:com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTestCLASSR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (0"
-inner classfalse*AbstractDocumentWriterTest2Ω
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(Object)DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (K2æ
-[com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom)DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (2≥
-Pcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java! 7(2¿
-]com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9 D(2∑
-Tcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testProducesDomElements()DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaF J(2∫
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaL ^(2∂
-Scom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsAttributes()DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java` e(2√
-`com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javag p(2ª
-Xcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsEmptyNestedTags()DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javar w(2∆
-bcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)DECLARATIONS
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay Ñ(2§
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java+ (R2§
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (#2f
-TestCaseEXTENDR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9 (Aﬂ
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(Object)METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java& (="
-staticfalse"
-finalfalse"
-access modifier	protected"
-type DocumentReader*createDocumentReaderFor2¿
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(Object)!node	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java> (I2q
-DocumentReaderRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (%“
-[com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom)METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (+"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*assertDocumentProducedIs2≈
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom)!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java, (A2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (ú
-Pcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java! !("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type boolean*equals2∑
-Vcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)!node1	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java! !(/2∑
-Vcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)!node2	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java!1 !(C2∫
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?value1DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java# #(22∫
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?value2DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java$ $(22∏
-Ucom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?set1DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java& &(V2∏
-Ucom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?set2DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java' '(V2Ω
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?children1DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java)# )(B2Ω
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?children2DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java*# *(B2µ
-Rcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?iDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java,! ,(&2Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java%6 %(K2Ç
-&java.util.Set.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java( ((%2j
-booleanRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java! !(¥
-]com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9 9(+"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*assertDocumentProducedIs2«
-fcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9, 9(C2¬
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?iDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java: :(2∆
-ccom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?nodesDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java= =(O2¬
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?iDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java? ?(2≈
-bcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?xpp3DECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java@ @(82¿
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaA A(92ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java; ;(2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java;7 ;(=2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java= =(%2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaA A(2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9 9(æ
-Tcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testProducesDomElements()METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaF F('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testProducesDomElements2º
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testProducesDomElements()?rootDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaG G(/2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaF F(Å	
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaL L(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSupportsNestedElements2º
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?aDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaM M((2º
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?bDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaO O("2º
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?cDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaW W((2º
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?dDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaY Y((2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaL L(Ω
-Scom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsAttributes()METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java` `(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSupportsAttributes2Ω
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsAttributes()?personDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaa a(22g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java` `(˛
-`com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javag g(3"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*#testAttributesAreResettedForNewNode2…
-fcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?rootsDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javah h(,2 
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?personDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javai i(=2À
-hcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?projectDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javal l(?2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javag g(Ã
-Xcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsEmptyNestedTags()METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javar r(+"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSupportsEmptyNestedTags2¬
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsEmptyNestedTags()?parentDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javas s(22g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javar r(Ÿ
-bcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)METHODR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay y(+"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*assertDocumentProducedIs2Ã
-kcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay, y(A2»
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)!tree	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javayC y(T2À
-hcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?nodesDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java} }(S2«
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?iDECLARATIONR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (2Ã
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?xpp3DECLARATIONT
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaÄ' Ä(@2¬
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaÅ  Å(A2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java{ {(2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java{0 {(62ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java}# }()2ü
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierCALLT
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaÅ Å(2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay y(¥
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.createDocumentReaderFor(Object)!node	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaE (I*node2l
-java.lang.ObjectTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java> (D≥
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom)!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9 (A*expected2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java2 (8¢
-Vcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)!node1	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java!* !(/*node12b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java!# !()¢
-Vcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)!node2	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java!> !(C*node22b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java!7 !(=∑
-fcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java9; 9(C*expected2d
-XppDom[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java92 9(:∫
-kcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)!expected	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay9 y(A*expected2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javay2 y(8≤
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)!tree	PARAMETERR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javayP y(T*tree2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javayI y(Oª
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?value1VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java# #("
-type String*value12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java# #(ª
-Wcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?value2VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java$ $("
-type String*value22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java$ $(±
-Ucom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?set1VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java& &("
-type Set*set12i
-java.util.SetTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java& &(±
-Ucom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?set2VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java' '("
-type Set*set22i
-java.util.SetTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java' '(ª
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?children1VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java)# )(,"
-type XppDom[]*	children12d
-XppDom[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java) )("ª
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?children2VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java*# *(,"
-type XppDom[]*	children22d
-XppDom[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java* *("§
-Rcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.equals(XppDom,XppDom)?iVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java,! ,(""
-type int*i2_
-intTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java, ,( ±
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?iVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java: :("
-type int*i2_
-intTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java: :(Í
-ccom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?nodesVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java= =("
-type Object[]*nodes2n
-java.lang.Object[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java= =(2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java= =(%±
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?iVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java? ?("
-type int*i2_
-intTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java? ?(∆
-bcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom[])?xpp3VALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java@ @(#"
-type XppDomWriter*xpp32h
-XppDomWriterTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java@ @(±
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testProducesDomElements()?rootVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaG G("
-type XppDom*root2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaG G(Æ
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?aVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaM M("
-type XppDom*a2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaM M(±
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?bVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaO O("
-type XppDom*b2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaO O(Æ
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?cVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaW W("
-type XppDom*c2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaW W(Æ
-Ycom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsNestedElements()?dVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaY Y("
-type XppDom*d2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaY Y(¥
-Zcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsAttributes()?personVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaa a("
-type XppDom*person2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaa a(√
-fcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?rootsVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javah h("
-type XppDom[]*roots2d
-XppDom[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javah h(¡
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?personVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javai i("
-type XppDom*person2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javai i(√
-hcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testAttributesAreResettedForNewNode()?projectVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javal l("
-type XppDom*project2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javal l(π
-_com.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.testSupportsEmptyNestedTags()?parentVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javas s("
-type XppDom*parent2b
-XppDomTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javas s(Ô
-hcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?nodesVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java} }( "
-type Object[]*nodes2n
-java.lang.Object[]TYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java} }(2ù
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerCALLR
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java}# }()∂
-dcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?iVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java ("
-type int*i2_
-intTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (œ
-gcom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest.assertDocumentProducedIs(XppDom,XppDom)?xpp3VALUET
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaÄ' Ä(+"
-type XppDomWriter*xpp32j
-XppDomWriterTYPET
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.javaÄ Ä(&ø
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?copierVALUER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java+ (1"!
-type HierarchicalStreamCopier*copier2t
-HierarchicalStreamCopierTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (*Æ
-Acom.thoughtworks.xstream.io.xml.AbstractDocumentWriterTest?writerVARIABLER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (#"
-type DocumentWriter*writer2j
-DocumentWriterTYPER
-Hsrc/test/com/thoughtworks/xstream/io/xml/AbstractDocumentWriterTest.java (

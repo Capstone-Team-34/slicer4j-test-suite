@@ -1,356 +1,0 @@
-
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaü
-Fcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTestCLASS^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ($"
-inner classfalse*ReflectionConverterTest2Á
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()DECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java, F(2„
-tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()DECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaN [(2Á
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()DECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java] t(2«
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.canConvert(Class)DECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javac e(2÷
-gcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.shouldUnmarshalTransientFields()DECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javag i(2˛
-çcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()DECLARATION_
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javav ï(2Ï
-{com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter(Mapper,ReflectionProvider)DECLARATION`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô õ(	2r
-TestCaseEXTEND^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- (5Ü
-úcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!mapper	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô0 ô(6*mapper2p
-MapperTYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô) ô(/™
-®com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!reflectionProvider	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaôK ô(]*reflectionProvider2|
-ReflectionProviderTYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô8 ô(JÈ
-
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()METHOD^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java, ,(?"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*/testSerializesAllPrimitiveFieldsInACustomObject2Ì
-~com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?worldDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- -(!2
-Äcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?xstreamDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java/ /(62Ò
-Åcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?expectedDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java2 C(2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World.World()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- -(!2s
-voidRETURN_TYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java, ,(Œ
-tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()METHOD^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaN N(;"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*+testDoesNotSerializeTransientOrStaticFields2Í
-{com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?fieldsDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaO O(22Ï
-}com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?expectedDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaP S(2Î
-|com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?xstreamDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaU U(62Á
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?xmlDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaX X(*2Ã
-dcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields.TypesOfFields()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaO O(22s
-voidRETURN_TYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaN N(•	
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()METHOD^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java] ](?"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*/testCanBeOverloadedToDeserializeTransientFields2
-Äcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?xstreamDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java^ ^(62Î
-|com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?xmlDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javal p(2Ó
-com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?fieldsDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javar r(B2s
-voidRETURN_TYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java] ](Á
-çcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()METHOD^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javav v(T"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*DtestCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority2Ö
-ïcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?xstreamDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaw w(62Ñ
-îcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?mapperDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javay y(E2á
-ócom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?converterDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java| |(e2É
-ìcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?worldDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (!2à
-ñcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?expectedDECLARATION`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaÅ í(2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World.World()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (!2s
-voidRETURN_TYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javav v(˜
-~com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?worldVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- -("
-type World*world2¥
-Lcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.WorldTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- -(2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World.World()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java- -(!˘
-Äcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?xstreamVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java/ /("
-type XStream*xstream2o
-XStreamTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java/ /(É
-Åcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testSerializesAllPrimitiveFieldsInACustomObject()?expectedVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java2 2("
-type String*expected2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java2 2(ï
-{com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?fieldsVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaO O("
-type TypesOfFields*fields2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFieldsTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaO O(2Ã
-dcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields.TypesOfFields()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaO O(2˛
-}com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?expectedVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaP P("
-type String*expected2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaP P(Ù
-|com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?xstreamVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaU U("
-type XStream*xstream2o
-XStreamTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaU U(Ù
-xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testDoesNotSerializeTransientOrStaticFields()?xmlVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaX X("
-type String*xml2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaX X(˘
-Äcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?xstreamVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java^ ^("
-type XStream*xstream2o
-XStreamTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java^ ^(¯
-|com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?xmlVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javal l("
-type String*xml2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javal l( 
-com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCanBeOverloadedToDeserializeTransientFields()?fieldsVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javar r("
-type TypesOfFields*fields2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFieldsTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javar r(é
-ïcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?xstreamVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaw w("
-type XStream*xstream2o
-XStreamTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaw w(ä
-îcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?mapperVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javay y("
-type Mapper*mapper2n
-MapperTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javay y(ñ
-ócom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?converterVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java| |("
-type 	Converter*	converter2q
-	ConverterTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java| |(ç
-ìcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?worldVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type World*world2¥
-Lcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.WorldTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2º
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World.World()CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (!ú
-ñcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.testCustomConverterCanBeInstantiatedAndRegisteredWithDesiredPriority()?expectedVARIABLE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaÅ Å("
-type String*expected2z
-java.lang.StringTYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaÅ Å(Û
-Lcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.WorldCLASS^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-inner classfalse*World2¡
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anIntDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2≈
-Vcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anIntegerDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (*2¬
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anCharDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2«
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anCharacterDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (22¬
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anBoolDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2≈
-Vcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anBooleanDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java   (.2¡
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aByteDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java! !(2∆
-Wcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aByteClassDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java" "('2¬
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aShortDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java# #(2«
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aShortClassDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java$ $(*2¬
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aFloatDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java% %(2«
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aFloatClassDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java& &(*2¡
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aLongDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java' '(2∆
-Wcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aLongClassDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java( (((2ƒ
-Ucom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anStringDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java) )(<2x
-StandardObjectEXTEND^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java& (4¿
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anIntVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type int*anInt2k
-intTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java („
-Vcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anIntegerVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type Integer*	anInteger2y
-java.lang.IntegerTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2Ü
-java.lang.Integer.Integer(int)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (*ƒ
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anCharVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type char*anChar2l
-charTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anCharacterVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type 	Character*anCharacter2{
-java.lang.CharacterTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (2ã
-#java.lang.Character.Character(char)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java  (2 
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anBoolVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java ("
-type boolean*anBool2o
-booleanTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java (Á
-Vcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anBooleanVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java   ("
-type Boolean*	anBoolean2y
-java.lang.BooleanTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java   (2ä
-"java.lang.Boolean.Boolean(boolean)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java   (.¬
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aByteVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java! !("
-type byte*aByte2l
-byteTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java! !(Ê
-Wcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aByteClassVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java" "("
-type Byte*
-aByteClass2v
-java.lang.ByteTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java" "(2ç
-%java.lang.Byte.Byte(java.lang.String)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java" "('∆
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aShortVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java# #("
-type short*aShort2m
-shortTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java# #(Ï
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aShortClassVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java$ $("
-type Short*aShortClass2w
-java.lang.ShortTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java$ $(2è
-'java.lang.Short.Short(java.lang.String)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java$ $(*∆
-Scom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aFloatVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java% %("
-type float*aFloat2m
-floatTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java% %(Ï
-Xcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aFloatClassVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java& &("
-type Float*aFloatClass2w
-java.lang.FloatTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java& &(2è
-'java.lang.Float.Float(java.lang.String)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java& &(*¬
-Rcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aLongVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java' '("
-type long*aLong2l
-longTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java' '(Ê
-Wcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?aLongClassVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java( (("
-type Long*
-aLongClass2v
-java.lang.LongTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java( ((2ç
-%java.lang.Long.Long(java.lang.String)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java( (((Í
-Ucom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.World?anStringVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java) )("
-type String*anString2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java) )(2ë
-)java.lang.String.String(java.lang.String)CALL^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.java) )(<¿
-Tcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFieldsCLASS^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaH H(%"
-inner classfalse*TypesOfFields2 
-[com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?normalDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaI I( 2…
-Zcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?transDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaJ J(,2»
-Ycom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?statDECLARATION^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaK K(#2x
-StandardObjectEXTEND^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaH. H(<⁄
-[com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?normalVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaI I("
-type String*normal2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaI I(ÿ
-Zcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?transVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaJ J("
-type String*trans2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaJ J(÷
-Ycom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.TypesOfFields?statVARIABLE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaK K("
-type String*stat2x
-java.lang.StringTYPE^
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaK K(á
-`com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverterCLASS`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaó ó(*"
-inner classfalse*CustomReflectionConverter2á
-ïcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)DECLARATION`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô õ(	2
-ReflectionConverterEXTEND`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaó3 ó(F†
-ïcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)CONSTRUCTOR`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô ô((*CustomReflectionConverter2å
-úcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!mapper	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô) ô(62ò
-®com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!reflectionProvider	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô8 ô(]2—
-`com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverterRETURN_TYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô ô((Ü
-úcom.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!mapper	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô0 ô(6*mapper2p
-MapperTYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô) ô(/™
-®com.thoughtworks.xstream.converters.reflection.ReflectionConverterTest.CustomReflectionConverter.CustomReflectionConverter(Mapper,ReflectionProvider)!reflectionProvider	PARAMETER`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaôK ô(]*reflectionProvider2|
-ReflectionProviderTYPE`
-Tsrc/test/com/thoughtworks/xstream/converters/reflection/ReflectionConverterTest.javaô8 ô(J

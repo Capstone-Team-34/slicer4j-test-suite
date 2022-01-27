@@ -1,1710 +1,0 @@
-
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≠>
-Acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTestCLASSY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java/ /(-"
-inner classfalse* JsonHierarchicalStreamDriverTest2≥
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.setUp()DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java5 8(2∫
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.createDriver()DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java: <(2»
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(String)DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java> @(2∆
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesNotSupportReader()DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaB I(2À
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesNotSupportInputStream()DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaK R(2«
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaT |(2√
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalLists()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ π(2ƒ
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalArrays()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaª √(2¬
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ‘(2∏
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.hashCode()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå é(	2—
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaí ª(2π
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ Î(2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ ˘(2‘
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesEscapeValuesAccordingRfc4627()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˛(2¡
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSimpleInteger()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ É(2ÿ
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testBracesAndSquareBracketsAreNotEscaped()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ à(2ÿ
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ó(2”
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalElementWithEmptyArray()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¢ ™(2≈
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ …(2»
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÀ ‰(2«
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Ü(2◊
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå ö(2’
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ¨(2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaµ ”(2Ÿ
-mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ Ê(2ﬁ
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ü(2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà ï(2‘
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaó ß(2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message(String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä å(	2≈
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem(String,String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá ä(	2π
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg(String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ü(	2≥
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamDECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java0 0(2ø
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuStartDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaè î(2π
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedNewDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaï ô(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedOpenDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö û(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCloseDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaü £(2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuEndDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java§ §(F2∂
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• ≠( 2m
-TestCaseEXTENDY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java/6 /(>Õ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(&*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(–
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!value	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á($*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(‘
-jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!onclick	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá- á(4*onclick2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá& á(,≈
-Zcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù("*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(ÿ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.setUp()METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java5 5("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2≥
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.createDriver()CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java7 7(,2¨
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java7 7(2n
-voidRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java5" 5(+≤
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.createDriver()METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java:+ :(7"
-staticfalse"
-finalfalse"
-access modifier	protected"%
-type JsonHierarchicalStreamDriver*createDriver2Ü
-JsonHierarchicalStreamDriverRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java: :(*ÿ
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(String)METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java> >()"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type String*normalizeExpectation2œ
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(String)!expected	PARAMETERY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java>* >(92á
-$java.lang.String.replace(char, char)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java? ?(*2‘
-qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)!expectedCALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java? ?(2z
-java.lang.StringRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java> >(ñ
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesNotSupportReader()METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaB B(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesNotSupportReader2n
-voidRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaB B(†
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesNotSupportInputStream()METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaK K(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesNotSupportInputStream2n
-voidRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaK K(Ÿ
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()METHODY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaT T()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalSimpleTypes2–
-fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?expectedDECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaV h(2œ
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?messageDECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javal l(.2–
-fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?message2DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javav v(12À
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaV h(2∆
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javal l(.2|
-java.lang.Long.Long(long)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javan n($2Å
-java.lang.Integer.Integer(int)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javap p(%2Ü
-#java.lang.Character.Character(char)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javat t(*2∆
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javav v(12¨
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaj j(2¨
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java{ {(&2n
-voidRETURN_TYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaT T(µ
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalLists()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ Ø(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalLists2»
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalLists()?menuDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(.2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∏ ∏(32¬
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList.MenuWithList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(.2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≥ ≥(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¥ ¥(2Ø
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∏* ∏(22Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∏5 ∏(<2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ Ø(∫
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalArrays()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaª ª($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalArrays2…
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalArrays()?menuDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(02Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¬ ¬(32ƒ
-_com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray.MenuWithArray()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(02Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaΩ Ω(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ(2Ø
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¬* ¬(22Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¬5 ¬(<2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaª ª(Ï
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ≈(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalSets2«
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()?menuDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(,2«
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()?jsonDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ()2í
--java.lang.String.startsWith(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ œ(K2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ# œ(J2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(?2â
-$java.lang.String.replace(char, char)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java–  –(>2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java— —(@2â
-$java.lang.String.replace(char, char)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java—  —(?2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java“ “(A2â
-$java.lang.String.replace(char, char)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java“  “(@2ê
-+java.lang.String.endsWith(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java” ”(D2â
-$java.lang.String.replace(char, char)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java”! ”(C2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet.MenuWithSet()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(,2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java   (2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(2∏
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuStartCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ8 œ(I2≤
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedNewCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java–  –(+2≥
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedOpenCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java—  —(,2¥
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCloseCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java“  “(-2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuEndCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java”! ”(02p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ≈(‚
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaí í(1"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testCanMarshalTypesWithPrimitives2⁄
-ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ∞(2ÿ
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()?widgetDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑($2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ∞(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget.Widget()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑($2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≤ ≤(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≥ ≥(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¥ ¥(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaµ µ(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaπ π(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaí í(é
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ﬁ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*	testColor2ƒ
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?isHeadlessDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(m2ø
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?colorDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java· ·(%2¬
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ Ë(2Ö
- java.lang.Boolean.booleanValue()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(m2ê
-+java.lang.Boolean.valueOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(^2•
-@java.lang.System.getProperty(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ- ﬂ(]2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ Ë(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ# È(*2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ﬁ(⁄	
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ Ì(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesHandleQuotesAndEscapes2÷
-jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()?stringsDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ô(Q2◊
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java ˜(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java ˜(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ Ì(ì
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesEscapeValuesAccordingRfc4627()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testDoesEscapeValuesAccordingRfc46272›
-qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesEscapeValuesAccordingRfc4627()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸(\2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸(\2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˝ ˝(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚(‡
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSimpleInteger()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ Ä(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSimpleInteger2 
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSimpleInteger()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(>2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(>2É
-java.lang.Integer.Integer(int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÇ- Ç(=2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÇ Ç(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ Ä(ü
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testBracesAndSquareBracketsAreNotEscaped()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testBracesAndSquareBracketsAreNotEscaped2·
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testBracesAndSquareBracketsAreNotEscaped()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(H2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(H2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(ù
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testCanMarshalSimpleTypesWithNullMembers2‡
-tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?messageDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã(&2·
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?message2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å($2·
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaë ï(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaë ï(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã(&2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å($2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaè è(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(ò
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalElementWithEmptyArray()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¢ ¢(3"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*#testCanMarshalElementWithEmptyArray2‹
-pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalElementWithEmptyArray()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• ®(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• ®(2‘
-ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ElementWithEmptyArray.ElementWithEmptyArray()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java©- ©(H2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java£ £(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java© ©(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¢ ¢(Ë
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ ∞(%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalJavaMap2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?entry1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± µ(2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?entry2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∫(2…
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?mapDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaº º(%2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?actualDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø(*2 
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?idx1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿((2 
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?idx2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡((2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java√ «(2|
-java.util.Map.put(K, V)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaΩ Ω(&2|
-java.util.Map.put(K, V)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ(&2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿((2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡((2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java√ «(2Ä
-java.util.HashMap.HashMap()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaº º(%2É
-java.lang.Integer.Integer(int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaΩ Ω(%2É
-java.lang.Integer.Integer(int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ(%2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø(2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ ∞(‡
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÀ À(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalProperties2œ
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?entry1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ –(2œ
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?entry2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java— ’(2”
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?propertiesDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(62œ
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?actualDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(12Õ
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?idx1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €((2Õ
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?idx2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹((2—
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ‚(2©
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ(*2©
-Djava.util.Properties.setProperty(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(*2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €((2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹((2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ‚(2Ü
-!java.util.Properties.Properties()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊& ◊(62Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÀ À(Í
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Í('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalNestedMap2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?entry1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÏ (2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?entry2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÒ ı(2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?holderDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˜ ˜(02Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?actualDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˙ ˙(-2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?idx1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚((2Ã
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?idx2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸((2–
-dcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˛ Ñ(2|
-java.util.Map.put(K, V)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯(-2|
-java.util.Map.put(K, V)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˘ ˘(-2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚((2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸((2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˛ Ñ(2º
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolder.MapHolder()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˜! ˜(02É
-java.lang.Integer.Integer(int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯(,2É
-java.lang.Integer.Integer(int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˘ ˘(,2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÎ Î(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˙ ˙(2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Í(Å
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*'testIgnoresAttributeForCollectionMember2‡
-tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaé î(2ﬁ
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()?holderDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ(>2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaé î(2Ä
-java.util.Collection.add(E)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaó ó(2Ä
-java.util.Collection.add(E)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaò ò(2 
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeper.CollectionKeeper()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ( ñ(>2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaç ç(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaô ô(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å(¡
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(5"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*%testDoesWriteAttributesAsStringValues2ﬁ
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java° ¶(2‹
-pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()?windowDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java® ®(*2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java° ¶(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window.Window()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java® ®(*2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaû û(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaü ü(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java† †(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java´ ´(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(–
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaµ µ(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanWriteEmbeddedCalendar2’
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ «(2”
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?personDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …($2—
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?listDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(#2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ «(2ó
-2java.util.Calendar.getInstance(java.util.TimeZone)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(X2ï
-0java.util.TimeZone.getTimeZone(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ2 Ã(W2
-java.util.Calendar.clear()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÕ Õ("2ä
-%java.util.Calendar.set(int, int, int)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(;2|
-java.util.Map.put(K, V)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ œ($2z
-java.util.List.add(E)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java— —(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person.Person()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …($2Ñ
-java.util.ArrayList.ArrayList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(#2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java“ “(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaµ µ(Ç
-mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testSupportsAllConvertersWithASingleValue2‚
-vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‡(2ﬂ
-scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()?valueDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚(-2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‡(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue.SingleValue()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚(-2á
-"java.net.URL.URL(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‰ ‰(42Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÂ Â(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄C ⁄(Xı
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ó(>"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*.testWillWriteTagValueAsDefaultValueIfNecessary2·
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()?saDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(42Á
-{com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ É(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ É(2 
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes.SystemAttributes()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(42Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÔ Ô(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java (2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÒ Ò(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ó(˛
-
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanMarshalExternalizable2œ
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()?inDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã  ã(Q2’
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå í(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå í(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaî î(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(û
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaó ó(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testCanMarshalEmbeddedExternalizable2◊
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()?inDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(>2›
-qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()?expectedDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaú §(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaú §(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaò ò(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¶ ¶(&2p
-voidRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaó ó(Œ
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(String)!expected	PARAMETERY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java>1 >(9*expected2s
-java.lang.StringTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java>* >(0´
-fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?expectedVARIABLEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaV V("
-type String*expected2s
-java.lang.StringTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaV V(2À
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaV h(ﬂ
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?messageVARIABLEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javal l("
-type Message*message2¨
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MessageTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javal l(2∆
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javal l(.·
-fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypes()?message2VARIABLEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javav v("
-type Message*message22¨
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MessageTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javav v(2∆
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(java.lang.String)CALLY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javav v(1›
-\com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalLists()?menuVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂("
-type MenuWithList*menu2≥
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithListTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(2¬
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList.MenuWithList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(.‚
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalArrays()?menuVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿("
-type MenuWithArray*menu2¥
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArrayTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(2ƒ
-_com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray.MenuWithArray()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(0ÿ
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()?menuVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã("
-type MenuWithSet*menu2≤
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSetTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet.MenuWithSet()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(,É
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSets()?jsonVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ("
-type String*json2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(π
-ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ∞(◊
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalTypesWithPrimitives()?widgetVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑("
-type Widget*widget2≠
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.WidgetTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget.Widget()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑($ê
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?isHeadlessVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ("
-type boolean*
-isHeadless2l
-booleanTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(2Ö
- java.lang.Boolean.booleanValue()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(m2ê
-+java.lang.Boolean.valueOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ ﬂ(^2•
-@java.lang.System.getProperty(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬂ- ﬂ(]»
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?colorVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java· ·("
-type Color*color2s
-java.awt.ColorTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java· ·(°
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testColor()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ Ë(Ë
-jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()?stringsVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ó("
-type String[]*strings2w
-java.lang.String[]TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ó(∂
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesHandleQuotesAndEscapes()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java ("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java (2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java ˜(º
-qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesEscapeValuesAccordingRfc4627()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸(\©
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSimpleInteger()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(>¿
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testBracesAndSquareBracketsAreNotEscaped()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(H‰
-tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?messageVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã("
-type Msg*message2™
-Ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MsgTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã(&Ê
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?message2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å("
-type Msg*message22™
-Ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MsgTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å($¿
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalSimpleTypesWithNullMembers()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaë ë("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaë ë(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaë ï(ª
-pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalElementWithEmptyArray()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• •("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• •(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• ®(Ÿ
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?entry1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± ±("
-type String*entry12u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± ±(Ÿ
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?entry2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂("
-type String*entry22u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∂ ∂(Õ
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?mapVALUE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaº º("
-type Map*map2r
-java.util.MapTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaº º(2Ä
-java.util.HashMap.HashMap()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaº º(%ä
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?actualVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø("
-type String*actual2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø(◊
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?idx1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿("
-type int*idx12h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿((◊
-^com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?idx2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡("
-type int*idx22h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡((≠
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalJavaMap()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java√ √("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java√ √(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java√ «(‹
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?entry1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã("
-type String*entry12u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(‹
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?entry2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java— —("
-type String*entry22u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java— —(Ú
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?propertiesVALUE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(#"
-type 
-Properties*
-properties2y
-java.util.PropertiesTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(2Ü
-!java.util.Properties.Properties()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊& ◊(6ç
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?actualVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄("
-type String*actual2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(⁄
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?idx1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €("
-type int*idx12h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €((⁄
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?idx2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹("
-type int*idx22h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹((∞
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalProperties()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ﬁ("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ﬁ(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaﬁ ‚(€
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?entry1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÏ Ï("
-type String*entry12u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÏ Ï(€
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?entry2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÒ Ò("
-type String*entry22u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÒ Ò(÷
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?holderVALUE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˜ ˜("
-type 	MapHolder*holder2∞
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolderTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˜ ˜(2º
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolder.MapHolder()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˜! ˜(0å
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?actualVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˙ ˙("
-type String*actual2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˙ ˙(2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˙ ˙(Ÿ
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?idx1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚("
-type int*idx12h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˚ ˚((Ÿ
-`com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?idx2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸("
-type int*idx22h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸(2è
-*java.lang.String.indexOf(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¸ ¸((Ø
-dcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalNestedMap()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˛ ˛("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˛ ˛(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˛ Ñ(ø
-tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaé é("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaé é(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaé î(Ç
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testIgnoresAttributeForCollectionMember()?holderVALUE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ(%"
-type CollectionKeeper*holder2∑
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeperTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ ñ(2 
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeper.CollectionKeeper()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javañ( ñ(>Ω
-rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java° °("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java° °(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java° ¶(ÿ
-pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testDoesWriteAttributesAsStringValues()?windowVALUE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java® ®("
-type Window*window2≠
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.WindowTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java® ®(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window.Window()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java® ®(*¥
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ ∑(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∑ «(“
-gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?personVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …("
-type Person*person2≠
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PersonTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person.Person()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java… …($ﬂ
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanWriteEmbeddedCalendar()?listVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –("
-type List*list2s
-java.util.ListTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(2Ñ
-java.util.ArrayList.ArrayList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(#¡
-vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‡(Ò
-scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testSupportsAllConvertersWithASingleValue()?valueVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚("
-type SingleValue*value2≤
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValueTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚(2¿
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue.SingleValue()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‚ ‚(-Ñ
-ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()?saVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û("
-type SystemAttributes*sa2∑
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributesTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(2 
-ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes.SystemAttributes()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(4∆
-{com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testWillWriteTagValueAsDefaultValueIfNecessary()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ É(
-ccom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()?inVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã  ã("" 
-type SomethingExternalizable*in2|
-SomethingExternalizableTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã(¥
-icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalExternalizable()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå í(Ù
-kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()?inVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö( "
-type OwnerOfExternalizable*in2z
-OwnerOfExternalizableTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(º
-qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.testCanMarshalEmbeddedExternalizable()?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaú ú("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaú ú(2Õ
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.normalizeExpectation(java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaú §(∑
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?xstreamVARIABLEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java0 0("
-type XStream*xstream2j
-XStreamTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java0 0(◊
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuStartVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaè è(&"
-type String*expectedMenuStart2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaè è(À
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedNewVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaï ï( "
-type String*expectedNew2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaï ï(Õ
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedOpenVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(!"
-type String*expectedOpen2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(œ
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCloseVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaü ü(""
-type String*expectedClose2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaü ü(”
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuEndVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java§ §($"
-type String*expectedMenuEnd2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java§ §(€	
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• •("
-type String*expected2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java• •(2∏
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuStartCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¶
- ¶(2≤
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedNewCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java®
- ®(2≥
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedOpenCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java™
- ™(2¥
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedCloseCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¨
- ¨(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest?expectedMenuEndCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≠ ≠( Ö
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MessageCLASSY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java~ ~("
-inner classfalse*Message2≈
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä å(	2π
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?long1DECLARATIONY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java (2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?long2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ Ä(2æ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?greetingDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?num1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÇ Ç(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?num2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÉ É(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?boolDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?bool2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?char1DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?char2DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(2¬
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?innerMessageDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(©
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(String)CONSTRUCTOR[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(*Message2Ã
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(&2—
-lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(java.lang.String)!greetingCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaã ã($2µ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MessageRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(Õ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message.Message(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(&*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaä ä(µ
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?long1VARIABLEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java ("
-type long*long12g
-longTYPEY
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java (√
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?long2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ Ä("
-type Long*long22s
-java.lang.LongTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÄ Ä(Õ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?greetingVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å("
-type String*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÅ Å(µ
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?num1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÇ Ç("
-type int*num12h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÇ Ç(«
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?num2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÉ É("
-type Integer*num22v
-java.lang.IntegerTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÉ É(Ω
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?boolVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ("
-type boolean*bool2l
-booleanTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ(…
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?bool2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö("
-type Boolean*bool22v
-java.lang.BooleanTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(π
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?char1VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü("
-type char*char12i
-charTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÜ Ü(Õ
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?char2VARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á("
-type 	Character*char22x
-java.lang.CharacterTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(ê
-Vcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Message?innerMessageVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à("
-type Message*innerMessage2Æ
-Icom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MessageTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(û
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithListCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷($"
-inner classfalse*MenuWithList2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?idDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(2¿
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?valueDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ(2¿
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?popupDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(1∆
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?idVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊("
-type String*id2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(Ã
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?valueVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ("
-type String*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ(⁄
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithList?popupVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ("
-type PopupWithList*popup2¥
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithListTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(2ƒ
-_com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithList.PopupWithList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(1°
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithListCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‹ ‹(%"
-inner classfalse*PopupWithList2ƒ
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithList?menuitemDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java› ›(œ
-Xcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithList?menuitemVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java› ›("
-type List*menuitem2s
-java.util.ListTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java› ›(£
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArrayCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÊ Ê(%"
-inner classfalse*MenuWithArray2æ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?idDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á(2¡
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?valueDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaË Ë(2¡
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?popupDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È(3«
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?idVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á("
-type String*id2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á(Õ
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?valueVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaË Ë("
-type String*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaË Ë(ﬂ
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithArray?popupVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È("
-type PopupWithArray*popup2µ
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithArrayTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È(2∆
-acom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithArray.PopupWithArray()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È(3§
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithArrayCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÏ Ï(&"
-inner classfalse*PopupWithArray2≈
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithArray?menuitemDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ Ô(0≤
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithArray?menuitemVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ Ì("
-type 
-MenuItem[]*menuitem2±
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem[]TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÌ Ì(2‹
-wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ Ó(12‹
-wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÓ3 Ó(T2‹
-wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(java.lang.String, java.lang.String)CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÔ Ô(/ô
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSetCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÚ Ú(#"
-inner classfalse*MenuWithSet2º
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?idDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(2ø
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?valueDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÙ Ù(2ø
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?popupDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaı ı(/≈
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?idVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û("
-type String*id2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÛ Û(À
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?valueVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÙ Ù("
-type String*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÙ Ù(’
-Scom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuWithSet?popupVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaı ı("
-type PopupWithSet*popup2≥
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithSetTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaı ı(2¬
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithSet.PopupWithSet()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaı ı(/û
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithSetCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¯ ¯($"
-inner classfalse*PopupWithSet2√
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithSet?menuitemDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˘ ˘(Ã
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PopupWithSet?menuitemVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˘ ˘("
-type Set*menuitem2r
-java.util.SetTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java˘ ˘(Â
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItemCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÉ É( "
-inner classfalse*MenuItem2¡
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.hashCode()DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå é(	2Œ
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá ä(	2º
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem?valueDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ(2æ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem?onclickDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(â
-
-bcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)CONSTRUCTOR[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(*MenuItem2“
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!value	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á($2‘
-jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!onclick	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá& á(42‚
-}com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(java.lang.String, java.lang.String)!valueCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(2‰
-com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(java.lang.String, java.lang.String)!onclickCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â("2∂
-Jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItemRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(–
-hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!value	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á($*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá á(‘
-jcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.MenuItem(String,String)!onclick	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá- á(4*onclick2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaá& á(,º
-Ucom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem.hashCode()METHOD[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*hashCode2Ä
-java.lang.String.hashCode()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaç ç(#2µ
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem?valueCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaç ç(2o
-intRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaå å(»
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem?valueVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ("
-type String*value2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÑ Ñ(Ã
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MenuItem?onclickVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö("
-type String*onclick2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÖ Ö(¿
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.WidgetCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaΩ Ω("
-inner classfalse*Widget2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?debugDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?windowDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø($2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?imageDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(!2π
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?textDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡(∆
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?debugVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ("
-type String*debug2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaæ æ(∫
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?windowVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø("
-type Window*window2≠
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.WindowTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø(2∂
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window.Window()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaø ø($¥
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?imageVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿("
-type Image*image2¨
-Gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ImageTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(2¥
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image.Image()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¿ ¿(!Æ
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Widget?textVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡("
-type Text*text2´
-Fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.TextTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡(2≤
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text.Text()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¡ ¡(¿
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.WindowCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaƒ ƒ("
-inner classfalse*Window2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?titleDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ≈(32π
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?nameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∆ ∆(#2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?widthDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java« «(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?heightDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java» »(∆
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?titleVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ≈("
-type String*title2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≈ ≈(ƒ
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?nameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∆ ∆("
-type String*name2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∆ ∆(∂
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?widthVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java« «("
-type int*width2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java« «(∏
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Window?heightVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java» »("
-type int*height2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java» »(˚
-Gcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ImageCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÀ À("
-inner classfalse*Image2∑
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?srcDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(%2∏
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?nameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÕ Õ(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?hOffsetDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?vOffsetDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ œ(2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?alignmentDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(#¡
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?srcVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã("
-type String*src2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÃ Ã(√
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?nameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÕ Õ("
-type String*name2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÕ Õ(π
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?hOffsetVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ("
-type int*hOffset2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŒ Œ(π
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?vOffsetVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ œ("
-type int*vOffset2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaœ œ(Õ
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Image?alignmentVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –("
-type String*	alignment2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java– –(©
-Fcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.TextCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java” ”("
-inner classfalse*Text2∑
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?dataDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‘ ‘("2∑
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?sizeDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java’ ’(2∏
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?styleDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷(2∑
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?nameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?hOffsetDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ(2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?vOffsetDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(2º
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?alignmentDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(#2º
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?onMouseUpDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €(F¬
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?dataVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‘ ‘("
-type String*data2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java‘ ‘(≤
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?sizeVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java’ ’("
-type int*size2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java’ ’(ƒ
-Lcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?styleVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷("
-type String*style2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷(¬
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?nameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊("
-type String*name2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(∏
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?hOffsetVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ("
-type int*hOffset2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÿ ÿ(∏
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?vOffsetVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ("
-type int*vOffset2h
-intTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaŸ Ÿ(Ã
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?alignmentVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄("
-type String*	alignment2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java⁄ ⁄(Ã
-Pcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Text?onMouseUpVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €("
-type String*	onMouseUp2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java€ €(Ñ
-Ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MsgCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaô ô("
-inner classfalse*Msg2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(String)DECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ü(	2∫
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg?greetingDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(2æ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg?innerMessageDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaõ õ(â
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(String)CONSTRUCTOR[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(*Msg2ƒ
-Zcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù("2…
-dcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(java.lang.String)!greetingCALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaû û($2±
-Ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MsgRETURN_TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(≈
-Zcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg.Msg(String)!greeting	PARAMETER[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù("*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaù ù(…
-Ncom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg?greetingVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö("
-type String*greeting2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaö ö(Ñ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Msg?innerMessageVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaõ õ("
-type Msg*innerMessage2™
-Ecom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MsgTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaõ õ(∂
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ElementWithEmptyArrayCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java¨ ¨(-"
-inner classfalse*ElementWithEmptyArray2…
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ElementWithEmptyArray?arrayDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≠ ≠(&Ÿ
-]com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.ElementWithEmptyArray?arrayVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≠ ≠("
-type String[]*array2w
-java.lang.String[]TYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≠ ≠(ê
-Kcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolderCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÊ Ê( "
-inner classfalse*	MapHolder2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolder?mapDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á('¬
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.MapHolder?mapVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á("
-type Map*map2r
-java.util.MapTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á(2Ä
-java.util.HashMap.HashMap()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÁ Á('¶
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeperCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaà à(!"
-inner classfalse*CollectionKeeper2√
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeper?collDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â()›
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.CollectionKeeper?collVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â("
-type 
-Collection*coll2y
-java.util.CollectionTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â(2Ñ
-java.util.ArrayList.ArrayList()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaâ â()Œ
-Hcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.PersonCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÆ Æ("
-inner classfalse*Person2æ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?firstNameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ Ø(2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?lastNameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ ∞(2¿
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?dateOfBirthDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± ±(2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?titlesDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≤ ≤("Œ
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?firstNameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ Ø("
-type String*	firstName2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaØ Ø(Ã
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?lastNameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ ∞("
-type String*lastName2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java∞ ∞(÷
-Tcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?dateOfBirthVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± ±("
-type Calendar*dateOfBirth2w
-java.util.CalendarTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java± ±(≈
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.Person?titlesVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≤ ≤("
-type Map*titles2r
-java.util.MapTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≤ ≤(2Ä
-java.util.TreeMap.TreeMap()CALL[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java≤ ≤("‘
-Mcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValueCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java’ ’("
-inner classfalse*SingleValue2ª
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue?lDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷(2Ω
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue?urlDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(µ
-Ocom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue?lVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷("
-type long*l2i
-longTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java÷ ÷(¿
-Qcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SingleValue?urlVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊("
-type URL*url2q
-java.net.URLTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.java◊ ◊(∏
-Rcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributesCLASS[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaË Ë(!"
-inner classfalse*SystemAttributes2√
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?nameDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È(2≈
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?objectDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Í(2«
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?originalDECLARATION[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÎ Î(Œ
-Wcom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?nameVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È("
-type String*name2u
-java.lang.StringTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÈ È(“
-Ycom.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?objectVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Í("
-type Object*object2u
-java.lang.ObjectTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÍ Í(–
-[com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriverTest.SystemAttributes?originalVARIABLE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÎ Î("
-type Original*original2m
-OriginalTYPE[
-Osrc/test/com/thoughtworks/xstream/io/json/JsonHierarchicalStreamDriverTest.javaÎ Î(

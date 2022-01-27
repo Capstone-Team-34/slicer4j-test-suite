@@ -1,249 +1,0 @@
-
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java¹
-0com.thoughtworks.xstream.core.util.Base64EncoderCLASSH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java ("
-inner classfalse*Base64Encoder2˜
-?com.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])DECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9 C(2˜
-?com.thoughtworks.xstream.core.util.Base64Encoder.decode(String)DECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE R(2ž
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)DECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT \(2›
-Acom.thoughtworks.xstream.core.util.Base64Encoder?SIXTY_FOUR_CHARSDECLARATIONI
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java2  2(ƒ2™
-@com.thoughtworks.xstream.core.util.Base64Encoder?REVERSE_MAPPINGDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java3 3(=®
-?com.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])METHODH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9 9("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*encode2œ
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9 9(%2Ÿ
-Fcom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?resultDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java: :(02¨
-Ocom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?outputCharCountDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java; ;(2š
-Acom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?iDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java< <(2¢
-Icom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?remainingDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java= =(92¦
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?oneBigNumberDECLARATIONI
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java> >(•2š
-Acom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?jDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java? ?(2n
-java.lang.Math.min(int, int)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java= =(92v
-#java.lang.StringBuffer.append(char)CALLI
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java?( ?(…2u
-#java.lang.StringBuffer.append(char)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java@2 @(E2s
-!java.lang.StringBuffer.toString()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaB B( 2w
-%java.lang.StringBuffer.StringBuffer()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java: :(02—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java< <(!2—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java=( =(-2—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java>  >(%2—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java>O >(T2™
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLJ
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java> >(†2“
-Acom.thoughtworks.xstream.core.util.Base64Encoder?SIXTY_FOUR_CHARSCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java?J ?(Z2i
-java.lang.StringRETURN_TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9 9(Ý
-?com.thoughtworks.xstream.core.util.Base64Encoder.decode(String)METHODH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE E("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type byte[]*decode2œ
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE E(%2œ
-Ccom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?outDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaG" G(C2›
-Bcom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?inDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH H(52š
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?iDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaI I(2š
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?aDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ J(b2¥
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?oneBigNumberDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaK K(q2š
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?jDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaL L(2k
-java.lang.String.length()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaI  I(.2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ J(+2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ- J(=2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ? J(O2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJQ J(a2z
-(java.io.ByteArrayOutputStream.write(int)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaL? L(l2}
-+java.io.ByteArrayOutputStream.toByteArray()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaN N($2r
- java.lang.Throwable.getMessage()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaP' P(52‡
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaG( G(C2…
-3java.io.StringReader.StringReader(java.lang.String)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH H(52y
-'java.lang.Error.Error(java.lang.String)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaP P(62¡
-Ocom.thoughtworks.xstream.core.util.Base64Encoder.decode(java.lang.String)!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH/ H(42¡
-Ocom.thoughtworks.xstream.core.util.Base64Encoder.decode(java.lang.String)!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaI  I(%2_
-byte[]RETURN_TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE E(æ	
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)METHODH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT T("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type int*mapCharToInt2¢
-Kcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT T()2 
-Gcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)?cDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaU U(2¥
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)?resultDECLARATIONH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaW W(+2g
-java.io.Reader.read()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaV V( 2¥
-Scom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaV V(2’
-@com.thoughtworks.xstream.core.util.Base64Encoder?REVERSE_MAPPINGCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaW W((2\
-intRETURN_TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT2 T(=ý
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9  9(%*input2X
-byte[]TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java9 9(‡
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE  E(%*input2b
-java.lang.StringTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaE E(‹
-Kcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)!input	PARAMETERH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT$ T()*input2`
-java.io.ReaderTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaT T(#ž
-Fcom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?resultVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java: :("
-type StringBuffer*result2h
-java.lang.StringBufferTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java: :(2w
-%java.lang.StringBuffer.StringBuffer()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java: :(0›
-Ocom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?outputCharCountVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java; ;("
-type int*outputCharCount2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java; ;(ÿ
-Acom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?iVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java< <("
-type int*i2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java< <(™
-Icom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?remainingVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java= =("
-type int*	remaining2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java= =(2n
-java.lang.Math.min(int, int)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java= =(92—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java=( =(-å
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?oneBigNumberVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java> >("
-type int*oneBigNumber2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java> >(2—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java>  >(%2—
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java>O >(T2™
-Ecom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])!inputCALLJ
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java> >(†ÿ
-Acom.thoughtworks.xstream.core.util.Base64Encoder.encode(byte[])?jVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java? ?("
-type int*j2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java? ?(¹
-Ccom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?outVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaG" G(%"
-type ByteArrayOutputStream*out2o
-java.io.ByteArrayOutputStreamTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaG G(!2‡
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaG( G(CÇ
-Bcom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?inVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH H("
-type StringReader*in2f
-java.io.StringReaderTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH H(2…
-3java.io.StringReader.StringReader(java.lang.String)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH H(52¡
-Ocom.thoughtworks.xstream.core.util.Base64Encoder.decode(java.lang.String)!inputCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaH/ H(4ÿ
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?iVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaI I("
-type int*i2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaI I(‹
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?aVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ J("
-type int[]*a2W
-int[]TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ J(2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ J(+2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ- J(=2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJ? J(O2Ÿ
-Mcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(java.io.Reader)CALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaJQ J(a•
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?oneBigNumberVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaK K( "
-type int*oneBigNumber2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaK K(ÿ
-Acom.thoughtworks.xstream.core.util.Base64Encoder.decode(String)?jVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaL L("
-type int*j2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaL L(…
-Gcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)?cVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaU U("
-type int*c2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaU U(¤
-Lcom.thoughtworks.xstream.core.util.Base64Encoder.mapCharToInt(Reader)?resultVARIABLEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaW W("
-type int*result2U
-intTYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaW W(2’
-@com.thoughtworks.xstream.core.util.Base64Encoder?REVERSE_MAPPINGCALLH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.javaW W((„
-Acom.thoughtworks.xstream.core.util.Base64Encoder?SIXTY_FOUR_CHARSVALUEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java2  2(0"
-type char[]*SIXTY_FOUR_CHARS2X
-char[]TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java2 2(2q
-java.lang.String.toCharArray()CALLI
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java23 2(ƒ
-@com.thoughtworks.xstream.core.util.Base64Encoder?REVERSE_MAPPINGVALUEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java3 3(."
-type int[]*REVERSE_MAPPING2W
-int[]TYPEH
->src/java/com/thoughtworks/xstream/core/util/Base64Encoder.java3 3(

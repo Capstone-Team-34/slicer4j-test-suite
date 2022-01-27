@@ -1,157 +1,0 @@
-
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.javaß
-3com.thoughtworks.xstream.io.binary.BinaryStreamTestCLASSK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java ("
-inner classfalse*BinaryStreamTest2ó
-;com.thoughtworks.xstream.io.binary.BinaryStreamTest.setUp()DECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java (2§
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)DECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java  *(2´
-Ocom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()DECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java, L(2ñ
-:com.thoughtworks.xstream.io.binary.BinaryStreamTest?copierDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java% (L2l
-AbstractXMLReaderTestEXTENDK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java& (;…
-;com.thoughtworks.xstream.io.binary.BinaryStreamTest.setUp()METHODK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java ("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2`
-voidRETURN_TYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java" (+≠
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)METHODK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java '  (3"
-staticfalse"
-finalfalse"
-access modifier	protected"!
-type HierarchicalStreamReader*createReader2¶
-Lcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)!xml	PARAMETERK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java 4  (>2Æ
-Rcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?xmlReaderDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java"! #(D2´
-Ocom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?bufferDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java% %(B2±
-Ucom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?binaryWriterDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java&! &(N2Ä
-+java.io.ByteArrayOutputStream.toByteArray()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java)? )(S2à
-3java.io.StringReader.StringReader(java.lang.String)CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java#. #(C2ä
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java%' %(B2é
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java)& )(T2´
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(java.lang.String)!xmlCALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java#? #(B2è
-:com.thoughtworks.xstream.io.binary.BinaryStreamTest?copierCALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java' '(2t
-HierarchicalStreamReaderRETURN_TYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java G  (PÆ
-Ocom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()METHODK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java, ,()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHandlesMoreThan256Ids2±
-Ucom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?countDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java- -(2≤
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?bufferDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java/ /(B2∏
-\com.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?binaryWriterDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java0! 0(N2≠
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java2 2(2≠
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java6 6(2∏
-\com.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?binaryReaderDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java<! =(X2≠
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java? ?(2≠
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iDECLARATIONK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.javaE E(2Ä
-+java.io.ByteArrayOutputStream.toByteArray()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java=B =(V2ä
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java/' /(B2é
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java=) =(W2`
-voidRETURN_TYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java, ,(í
-Lcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)!xml	PARAMETERK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java ;  (>*xml2e
-java.lang.StringTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java 4  (:Å
-Rcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?xmlReaderVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java"! "(*"!
-type HierarchicalStreamReader*	xmlReader2m
-HierarchicalStreamReaderTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java" "( 2à
-3java.io.StringReader.StringReader(java.lang.String)CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java#. #(C2´
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(java.lang.String)!xmlCALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java#? #(B—
-Ocom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?bufferVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java% %($"
-type ByteArrayOutputStream*buffer2r
-java.io.ByteArrayOutputStreamTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java% %(2ä
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java%' %(BŒ
-Ucom.thoughtworks.xstream.io.binary.BinaryStreamTest.createReader(String)?binaryWriterVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java&! &(-"!
-type HierarchicalStreamWriter*binaryWriter2m
-HierarchicalStreamWriterTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java& &( ù
-Ucom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?countVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java- -("
-type int*count2X
-intTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java- -(ÿ
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?bufferVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java/ /($"
-type ByteArrayOutputStream*buffer2r
-java.io.ByteArrayOutputStreamTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java/ /(2ä
-5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java/' /(B’
-\com.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?binaryWriterVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java0! 0(-"!
-type HierarchicalStreamWriter*binaryWriter2m
-HierarchicalStreamWriterTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java0 0( ï
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java2 2("
-type int*i2X
-intTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java2 2(ï
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java6 6("
-type int*i2X
-intTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java6 6(È
-\com.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?binaryReaderVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java<! <(-"!
-type HierarchicalStreamReader*binaryReader2m
-HierarchicalStreamReaderTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java< <( 2Ä
-+java.io.ByteArrayOutputStream.toByteArray()CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java=B =(V2é
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java=) =(Wï
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java? ?("
-type int*i2X
-intTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java? ?(ï
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamTest.testHandlesMoreThan256Ids()?iVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.javaE E("
-type int*i2X
-intTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.javaE E(≠
-:com.thoughtworks.xstream.io.binary.BinaryStreamTest?copierVARIABLEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java% (+"!
-type HierarchicalStreamCopier*copier2m
-HierarchicalStreamCopierTYPEK
-Asrc/test/com/thoughtworks/xstream/io/binary/BinaryStreamTest.java ($

@@ -1,319 +1,0 @@
-
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÂ
-6com.thoughtworks.acceptance.XStream12CompatibilityTestCLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java$ $('"
-inner classfalse*XStream12CompatibilityTest2†
-Acom.thoughtworks.acceptance.XStream12CompatibilityTest.toString()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java6 8(	2÷
-wcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java; G(2¶
-Gcom.thoughtworks.acceptance.XStream12CompatibilityTest.getParentStuff()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaL N(	2•
-Fcom.thoughtworks.acceptance.XStream12CompatibilityTest.getChildStuff()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaT V(	2€
-|com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaY l(2ƒ
-ecom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javan z(2¡
-`com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÜ ü(2Î
-âcom.thoughtworks.acceptance.XStream12CompatibilityTest.createUnmarshallingContext(Object,HierarchicalStreamReader,ConverterLookup,Mapper)DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaâ å(2¢
-Ccom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java- /(	2Ø
-Pcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass(String,String)DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 4(	2ı
-îcom.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)DECLARATIONO
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java~ É(	2p
-AbstractAcceptanceTestEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java$0 $(F2º
-\com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshallerDECLARATIONO
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java| Ñ(±
-bcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!parent	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1  1(&*parent2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 1(Ø
-acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!child	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java15 1(:*child2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1. 1(4ç
-øcom.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!root	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (*root2h
-java.lang.ObjectTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (ô
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!reader	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java2 (8*reader2p
-HierarchicalStreamReaderTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (1¢
- com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!converterLookup	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ (Y*converterLookup2g
-ConverterLookupTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java: (Iã
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!mapper	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÄ Ä(*mapper2`
-MapperTYPEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÄ Ä(£
-wcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java; ;(N"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*>testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream112Ÿ
-zcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()?inDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java? C(2‹
-}com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()?childDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaE E(@2§
-Lcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.toString()CALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaF% F(52c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java; ;(ô
-|com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaY Y(S"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*CtestCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream112Â
-Öcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()?expectedDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java\ g(2„
-Écom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()?childADECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javai i(92c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaY Y(¬
-ecom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javan n(<"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*,testCanWriteInheritanceHierarchiesInOldOrder2◊
-xcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()?openSourceSoftwareDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javap p(g2»
-icom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()?xmlDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaq v(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javan n(π
-`com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()METHODP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÜ Ü(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*'testCanReadXmlUnfriendlyXPathReferences2≈
-dcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()?xmlDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaë ó(2∆
-ecom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()?listDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaô ô(.2o
-java.util.List.size()CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaö ö(#2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaõ õ(2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaõ  õ(+2u
-java.lang.Object.toString()CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaú ú(22q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaú ú('2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaù ù(2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaù  ù(+2u
-java.lang.Object.toString()CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaû û(22q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaû û('2e
-voidRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÜ Ü(“
-zcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()?inVALUEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java? ?("
-type String*in2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java? ?(é
-}com.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithSameTypeWrittenWithXStream11()?childVALUEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaE E("
-type 
-ChildClass*child2ô
-Acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClassTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaE E(Á
-Öcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java\ \("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java\ \(ë
-Écom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanDeserializeHiddenFieldsWithDifferentTypeWrittenWithXStream11()?childAVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javai i("
-type ChildA*childA2ï
-=com.thoughtworks.acceptance.XStream12CompatibilityTest.ChildATYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javai i(Ò
-xcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()?openSourceSoftwareVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javap p(-"
-type OpenSourceSoftware*openSourceSoftware2j
-OpenSourceSoftwareTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javap p(≈
-icom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanWriteInheritanceHierarchiesInOldOrder()?xmlVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaq q("
-type String*xml2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaq q(ƒ
-dcom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()?xmlVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaë ë("
-type String*xml2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaë ë(¬
-ecom.thoughtworks.acceptance.XStream12CompatibilityTest.testCanReadXmlUnfriendlyXPathReferences()?listVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaô ô("
-type List*list2h
-java.util.ListTYPEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaô ô(Á
-Bcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentClassCLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java& &(#"
-inner classfalse*ParentClass2¶
-Gcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentClass?nameDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java' '(§
-Gcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentClass?nameVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java' '("
-type String*name2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java' '(û
-Acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClassCLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java* *(""
-inner classfalse*
-ChildClass2´
-Lcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.toString()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java6 8(	2≠
-Ncom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java- /(	2∫
-[com.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 4(	2•
-Fcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass?nameDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java+ +(2ú
-Bcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentClassEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java*+ *(6‹
-Ncom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass()CONSTRUCTORN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java- -(*
-ChildClass2†
-Acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClassRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java- -(∞
-
-[com.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)CONSTRUCTORN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 1(*
-ChildClass2ø
-bcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!parent	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 1(&2æ
-acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!child	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1( 1(:2œ
-wcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(java.lang.String, java.lang.String)!parentCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java2' 2(-2û
-Fcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass?nameCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java3 3(2Œ
-vcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(java.lang.String, java.lang.String)!childCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java3 3(2†
-Acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClassRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 1(±
-bcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!parent	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1  1(&*parent2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1 1(Ø
-acom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.ChildClass(String,String)!child	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java15 1(:*child2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java1. 1(4è
-Lcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass.toString()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java6 6("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2û
-Fcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass?nameCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java74 7(82o
-java.lang.StringRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java6 6(£
-Fcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildClass?nameVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java+ +("
-type String*name2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java+ +(˜
->com.thoughtworks.acceptance.XStream12CompatibilityTest.ParentACLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaI I("
-inner classfalse*ParentA2Æ
-Ocom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentA.getParentStuff()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaL N(	2£
-Dcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentA?stuffDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ J(,2h
-StandardObjectEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaI( I(6í
-Ocom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentA.getParentStuff()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaL L(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type List*getParentStuff2ú
-Dcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentA?stuffCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaM M(2m
-java.util.ListRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaL L(ó
-Dcom.thoughtworks.acceptance.XStream12CompatibilityTest.ParentA?stuffVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ J("
-type List*stuff2f
-java.util.ListTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ J(2w
-java.util.ArrayList.ArrayList()CALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ J(,£
-=com.thoughtworks.acceptance.XStream12CompatibilityTest.ChildACLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaQ Q("
-inner classfalse*ChildA2¨
-Mcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildA.getChildStuff()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaT V(	2¢
-Ccom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildA?stuffDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaR R()2ò
->com.thoughtworks.acceptance.XStream12CompatibilityTest.ParentAEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaQ' Q(.å
-Mcom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildA.getChildStuff()METHODN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaT T( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Map*getChildStuff2õ
-Ccom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildA?stuffCALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaU U(2l
-java.util.MapRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaT T(ê
-Ccom.thoughtworks.acceptance.XStream12CompatibilityTest.ChildA?stuffVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaR R("
-type Map*stuff2e
-java.util.MapTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaR R(2s
-java.util.HashMap.HashMap()CALLN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaR R()á
-\com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshallerCLASSN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java| |(="
-inner classtrue*%XStream12ReferenceByXPathUnmarshaller2õ
-∫com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)DECLARATIONO
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java~ É(	2v
-ReferenceByXPathUnmarshallerEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java} }($ê
-∫com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)CONSTRUCTORN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java~ ~(5*%XStream12ReferenceByXPathUnmarshaller2ù
-øcom.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!root	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (2ü
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!reader	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (82®
- com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!converterLookup	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java: (Y2°
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!mapper	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÄ Ä(2ª
-\com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshallerRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java~ ~(5ç
-øcom.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!root	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (*root2h
-java.lang.ObjectTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (ô
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!reader	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java2 (8*reader2p
-HierarchicalStreamReaderTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java (1¢
- com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!converterLookup	PARAMETERN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaJ (Y*converterLookup2g
-ConverterLookupTYPEN
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.java: (Iã
-¡com.thoughtworks.acceptance.XStream12CompatibilityTest.XStream12ReferenceByXPathUnmarshaller.XStream12ReferenceByXPathUnmarshaller(Object,HierarchicalStreamReader,ConverterLookup,Mapper)!mapper	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÄ Ä(*mapper2`
-MapperTYPEP
-Dsrc/test/com/thoughtworks/acceptance/XStream12CompatibilityTest.javaÄ Ä(

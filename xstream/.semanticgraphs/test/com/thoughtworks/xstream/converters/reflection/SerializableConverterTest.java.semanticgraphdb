@@ -1,853 +1,0 @@
-
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‚*
-Hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTestCLASS`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (&"
-inner classfalse*SerializableConverterTest2¬
-Qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.getOne()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java! #(	2»
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.setOne(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% '(	2¬
-Qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.getTwo()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java) +(	2»
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.setTwo(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- /(	2Ÿ
-hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.writeObject(ObjectOutputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1 3(	2◊
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.readObject(ObjectInputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5 8(	2€
-jcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java; O(2›
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaQ f(2ƒ
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.getThree()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javak m(	2 
-Ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.setThree(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao q(	2Ÿ
-hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.writeObject(ObjectOutputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas u(	2◊
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.readObject(ObjectInputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw z(	2Â
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()DECLARATIONa
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java} ò(2Ë
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaö ∂(2ƒ
-Qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.getOne()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaΩ ø(	2 
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.setOne(String)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ √(	2ƒ
-Qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.getTwo()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java≈ «(	2 
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.setTwo(String)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… À(	2€
-hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.writeObject(ObjectOutputStream)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“ ÿ(	2Ÿ
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.readObject(ObjectInputStream)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄ ﬂ(	2‚
-ocom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‚ ˆ(2‰
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¯ é(2œ
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaê ß(2‘
-acom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java© ¿(2t
-TestCaseEXTEND`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java/ (7Ã
-jcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java; ;(/"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanOmitFieldAtSerialization2„
-rcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?xstreamDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java< <('2‰
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?expectedDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java@ G(2‚
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?simpleDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaI I(,2ﬂ
-ncom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?xmlDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaM M(*2÷
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(java.lang.String)CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaJ J(2÷
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(java.lang.String)CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaK K(2 
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaI I(,2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java; ;(Å
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaQ Q(1"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testCanOmitFieldAtDeserialization2Â
-tcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?xstreamDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaR R('2·
-pcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?xmlDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaW _(2‰
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?simpleDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaa a(,2Ë
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?serializedDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javad d(@2÷
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(java.lang.String)CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javab b(2 
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaa a(,2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaQ Q(ﬁ
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java} }(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testCanOmitInheritedFieldAtSerialization2Ï
-{com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?xstreamDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java~ ~('2Ô
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?expectedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÉ è(2Ô
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?extendedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë(22Í
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javañ ñ(,2–
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.ExtendedType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë  ë(22u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java} }(Û
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaö ö(:"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testCanOmitInheritedFieldAtDeserialization2
-}com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?xstreamDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaõ õ('2Ï
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java° Æ(2Ò
-~com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?extendedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∞ ∞(22Ù
-Äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?serializedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¥ ¥(@2–
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.ExtendedType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∞  ∞(22w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaö ö(®
-ocom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‚ ‚(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testCanOmitNamedFieldAtSerialization2Í
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?xstreamDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java„ „('2Î
-xcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?expectedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÁ Ó(2È
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?simpleDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (B2Ê
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÙ Ù(*2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÒ Ò(2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÚ Ú(2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java' (B2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‚ ‚(∂
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¯ ¯(6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testCanOmitNamedFieldAtDeserialization2Ï
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?xstreamDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˘ ˘('2Ë
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˛ Ü(2Î
-xcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?simpleDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaà à(B2Ô
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?serializedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaå å(V2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaâ â(2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaä ä(2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaà' à(B2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¯ ¯(Á
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaê ê(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanAliasField2◊
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?xstreamDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë('2ÿ
-ecom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?expectedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaï ù(2÷
-ccom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?simpleDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaü ü(,2”
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java£ £(*2⁄
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?serializedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java• •(@2ÿ
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java† †(2ÿ
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java° °(2Ã
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaü ü(,2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaê ê(∂
-acom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java© ©(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanAliasNamedField2‹
-icom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?xstreamDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java™ ™('2›
-jcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?expectedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÆ ∂(2€
-hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?simpleDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏ ∏(B2ÿ
-ecom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?xmlDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaº º(*2ﬂ
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?serializedDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaæ æ(V2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaπ π(2„
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(java.lang.String)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∫ ∫(2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏' ∏(B2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java© ©(÷
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(String)!one	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java%" %(%*one2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% %(!÷
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(String)!two	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java-" -(%*two2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- -(!Ú
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1: 1(=*out2Ñ
-java.io.ObjectOutputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1' 1(9Ì
-tcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java58 5(:*in2É
-java.io.ObjectInputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5& 5(7ﬁ
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(String)!three	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao$ o()*three2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao o(#Ù
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas: s(=*out2Ñ
-java.io.ObjectOutputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas' s(9Ô
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw8 w(:*in2É
-java.io.ObjectInputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw& w(7Â
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(String)!one	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡" ¡(%*one2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ ¡(!Â
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(String)!two	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java…" …(%*two2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… …(!Ç
-Çcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)!out	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“4 “(7*out2Ü
-java.io.ObjectOutputStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“! “(3¸
-com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)!in	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄2 ⁄(4*in2Ö
-java.io.ObjectInputStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄  ⁄(1Ó
-rcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?xstreamVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java< <("
-type XStream*xstream2q
-XStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java< <(¯
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?expectedVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java@ @("
-type String*expected2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java@ @(â
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?simpleVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaI I("
-type 
-SimpleType*simple2Ω
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaI I(2 
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaI I(,Ó
-ncom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtSerialization()?xmlVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaM M("
-type String*xml2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaM M(
-tcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?xstreamVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaR R("
-type XStream*xstream2q
-XStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaR R(
-pcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?xmlVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaW W("
-type String*xml2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaW W(ã
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?simpleVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaa a("
-type 
-SimpleType*simple2Ω
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaa a(2 
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaa a(,∆
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitFieldAtDeserialization()?serializedVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javad d("
-type 
-SimpleType*
-serialized2Ω
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javad d(˜
-{com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?xstreamVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java~ ~("
-type XStream*xstream2q
-XStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java~ ~(Ö
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?expectedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÉ É("
-type String*expected2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÉ É(§
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?extendedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë("
-type ExtendedType*extended2¡
-Ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë(2–
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.ExtendedType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë  ë(2˚
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtSerialization()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javañ ñ("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javañ ñ(˝
-}com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?xstreamVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaõ õ("
-type XStream*xstream2s
-XStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaõ õ(˝
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java° °("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java° °(¶
-~com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?extendedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∞ ∞("
-type ExtendedType*extended2¡
-Ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∞ ∞(2–
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.ExtendedType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∞  ∞(2‘
-Äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitInheritedFieldAtDeserialization()?serializedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¥ ¥("
-type 
-SimpleType*
-serialized2ø
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¥ ¥(≈
-Öcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)?fieldsVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘( ‘(."$
-type ObjectOutputStream.PutField*fields2è
-#java.io.ObjectOutputStream.PutFieldTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘ ‘('2í
-&java.io.ObjectOutputStream.putFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(@2˜
-äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(java.io.ObjectOutputStream)!outCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(4æ
-Écom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)?fieldsVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹' ‹(-"#
-type ObjectInputStream.GetField*fields2é
-"java.io.ObjectInputStream.GetFieldTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹ ‹(&2í
-&java.io.ObjectInputStream.readFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(?2Ù
-ácom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(java.io.ObjectInputStream)!inCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(2˜
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?xstreamVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java„ „("
-type XStream*xstream2s
-XStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java„ „(Å
-xcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?expectedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÁ Á("
-type String*expected2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÁ Á(¿
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?simpleVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java ($"
-type SimpleNamedFieldsType*simple2 
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java' (B˜
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtSerialization()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÙ Ù("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÙ Ù(˘
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?xstreamVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˘ ˘("
-type XStream*xstream2s
-XStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˘ ˘(˘
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˛ ˛("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java˛ ˛(¬
-xcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?simpleVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaà à($"
-type SimpleNamedFieldsType*simple2 
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaà à(2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaà' à(BÂ
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanOmitNamedFieldAtDeserialization()?serializedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaå å(("
-type SimpleNamedFieldsType*
-serialized2 
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaå å(‰
-dcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?xstreamVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë("
-type XStream*xstream2s
-XStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaë ë(Ó
-ecom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?expectedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaï ï("
-type String*expected2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaï ï(Å
-ccom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?simpleVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaü ü("
-type 
-SimpleType*simple2ø
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaü ü(2Ã
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.SimpleType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaü ü(,‰
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java£ £("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java£ £(∫
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasField()?serializedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java• •("
-type 
-SimpleType*
-serialized2ø
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java• •(È
-icom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?xstreamVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java™ ™("
-type XStream*xstream2s
-XStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java™ ™(Û
-jcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?expectedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÆ Æ("
-type String*expected2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÆ Æ(≤
-hcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?simpleVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏ ∏($"
-type SimpleNamedFieldsType*simple2 
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏ ∏(2‚
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.SimpleNamedFieldsType()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏' ∏(BÈ
-ecom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?xmlVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaº º("
-type String*xml2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaº º(’
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.testCanAliasNamedField()?serializedVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaæ æ(("
-type SimpleNamedFieldsType*
-serialized2 
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaæ æ(ä
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeCLASS`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java ("
-inner classfalse*
-SimpleType2Õ
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.getOne()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java! #(	2”
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% '(	2Õ
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.getTwo()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java) +(	2”
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- /(	2‰
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(ObjectOutputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1 3(	2‚
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(ObjectInputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5 8(	2»
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType?oneDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (2»
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType?twoDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (2z
-StandardObjectEXTEND`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java$ (2°
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.getOne()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java! !("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getOne2Å
-java.lang.StringRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java! !(Õ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(String)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% %("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setOne2’
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(String)!one	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% %(%2⁄
-pcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(java.lang.String)!oneCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java& &(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% %(°
-\com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.getTwo()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java) )("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getTwo2Å
-java.lang.StringRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java) )(Õ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(String)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- -("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setTwo2’
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(String)!two	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- -(%2⁄
-pcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(java.lang.String)!twoCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java. .(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- -(†
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(ObjectOutputStream)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1 1( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2Ê
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1! 1(=2ô
-/java.io.ObjectOutputStream.defaultWriteObject()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java2 2($2È
-com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(java.io.ObjectOutputStream)!outCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java2 2(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1F 1(Qï
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(ObjectInputStream)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5 5("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2„
-tcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5  5(:2ó
--java.io.ObjectInputStream.defaultReadObject()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java7 7("2Ê
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(java.io.ObjectInputStream)!inCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java7 7(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java6 6(÷
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setOne(String)!one	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java%" %(%*one2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java% %(!÷
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.setTwo(String)!two	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java-" -(%*two2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java- -(!Ú
-wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1: 1(=*out2Ñ
-java.io.ObjectOutputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java1' 1(9Ì
-tcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java58 5(:*in2É
-java.io.ObjectInputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java5& 5(7◊
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType?oneVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java ("
-type String*one2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (◊
-Wcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleType?twoVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java ("
-type String*two2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java (Û
-Ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedTypeCLASS`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javah h("
-inner classfalse*ExtendedType2—
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.getThree()DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javak m(	2◊
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(String)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao q(	2Ê
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(ObjectOutputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas u(	2‰
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(ObjectInputStream)DECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw z(	2Ã
-[com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType?threeDECLARATION`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javai i(2ø
-Scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleTypeEXTEND`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javah& h(0ß
-`com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.getThree()METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javak k("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getThree2Å
-java.lang.StringRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javak k(ﬂ
-fcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(String)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao o("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setThree2€
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(String)!three	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao o()2‡
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(java.lang.String)!threeCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javap p(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao o(ß
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(ObjectOutputStream)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas s( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2Ë
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas! s(=2ô
-/java.io.ObjectOutputStream.defaultWriteObject()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javat t($2Ï
-Åcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(java.io.ObjectOutputStream)!outCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javat t(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javasF s(Qõ
-scom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(ObjectInputStream)METHOD`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw w("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2Â
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw  w(:2ó
--java.io.ObjectInputStream.defaultReadObject()CALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javay y("2Ë
-~com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(java.io.ObjectInputStream)!inCALL`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javay y(2u
-voidRETURN_TYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javax x(ﬁ
-lcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.setThree(String)!three	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao$ o()*three2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javao o(#Ù
-ycom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.writeObject(ObjectOutputStream)!out	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas: s(=*out2Ñ
-java.io.ObjectOutputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javas' s(9Ô
-vcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType.readObject(ObjectInputStream)!in	PARAMETER`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw8 w(:*in2É
-java.io.ObjectInputStreamTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaw& w(7›
-[com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.ExtendedType?threeVARIABLE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javai i("
-type String*three2z
-java.lang.StringTYPE`
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javai i(¸
-^com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsTypeCLASSb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏ ∏(-"
-inner classfalse*SimpleNamedFieldsType2⁄
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.getOne()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaΩ ø(	2‡
-mcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(String)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ √(	2⁄
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.getTwo()DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java≈ «(	2‡
-mcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(String)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… À(	2Ò
-~com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“ ÿ(	2Ô
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)DECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄ ﬂ(	2’
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?oneDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∫ ∫(2’
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?twoDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaª ª(2Ë
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?serialPersistentFieldsDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÕ1 –(	2Ç
-java.io.SerializableEXTENDb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏P ∏(\2|
-StandardObjectEXTENDb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∏6 ∏(D∞
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.getOne()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaΩ Ω("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getOne2É
-java.lang.StringRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaΩ Ω(ˆ
-mcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(String)METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ ¡("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setOne2‚
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(String)!one	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ ¡(%2Á
-{com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(java.lang.String)!oneCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¬ ¬(2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ ¡(∞
-gcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.getTwo()METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java≈ ≈("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*getTwo2É
-java.lang.StringRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java≈ ≈(ˆ
-mcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(String)METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… …("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setTwo2‚
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(String)!two	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… …(%2Á
-{com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(java.lang.String)!twoCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java   (2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… …(Á
-~com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“ “( "
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*writeObject2Ù
-Çcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)!out	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“! “(72˘
-Öcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)?fieldsDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘( ‘(@2í
-&java.io.ObjectOutputStream.putFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(@2∑
-Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java’ ’(!2∑
-Kjava.io.ObjectOutputStream.PutField.put(java.lang.String, java.lang.Object)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java÷ ÷(!2î
-(java.io.ObjectOutputStream.writeFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java◊ ◊(2˜
-äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(java.io.ObjectOutputStream)!outCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(42Œ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?oneCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java’ ’( 2Œ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?twoCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java÷ ÷( 2˜
-äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(java.io.ObjectOutputStream)!outCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java◊ ◊(2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“@ “(K»
-|com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)METHODb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄ ⁄("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*
-readObject2
-com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)!in	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄  ⁄(42˜
-Écom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)?fieldsDECLARATIONb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹' ‹(?2í
-&java.io.ObjectInputStream.readFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(?2∂
-Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java› ›(02∂
-Jjava.io.ObjectInputStream.GetField.get(java.lang.String, java.lang.Object)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaﬁ ﬁ(02Ù
-ácom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(java.io.ObjectInputStream)!inCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(22Œ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?oneCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java› ›(2Œ
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?twoCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaﬁ ﬁ(2w
-voidRETURN_TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄= ⁄(HÂ
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setOne(String)!one	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡" ¡(%*one2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java¡ ¡(!Â
-qcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.setTwo(String)!two	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java…" …(%*two2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java… …(!Ç
-Çcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)!out	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“4 “(7*out2Ü
-java.io.ObjectOutputStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java“! “(3¸
-com.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)!in	PARAMETERb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄2 ⁄(4*in2Ö
-java.io.ObjectInputStreamTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java⁄  ⁄(1≈
-Öcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(ObjectOutputStream)?fieldsVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘( ‘(."$
-type ObjectOutputStream.PutField*fields2è
-#java.io.ObjectOutputStream.PutFieldTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘ ‘('2í
-&java.io.ObjectOutputStream.putFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(@2˜
-äcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.writeObject(java.io.ObjectOutputStream)!outCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‘1 ‘(4æ
-Écom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(ObjectInputStream)?fieldsVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹' ‹(-"#
-type ObjectInputStream.GetField*fields2é
-"java.io.ObjectInputStream.GetFieldTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹ ‹(&2í
-&java.io.ObjectInputStream.readFields()CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(?2Ù
-ácom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType.readObject(java.io.ObjectInputStream)!inCALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java‹0 ‹(2Ê
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?oneVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∫ ∫("
-type String*one2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.java∫ ∫(Ê
-bcom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?twoVARIABLEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaª ª("
-type String*two2|
-java.lang.StringTYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaª ª(‘
-ucom.thoughtworks.xstream.converters.reflection.SerializableConverterTest.SimpleNamedFieldsType?serialPersistentFieldsVALUEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÕ1 Õ(G"
-type ObjectStreamField[]*serialPersistentFields2á
-java.io.ObjectStreamField[]TYPEb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaÕ Õ(02÷
-jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaŒ Œ(52÷
-jjava.io.ObjectStreamField.ObjectStreamField(java.lang.String, java.lang.Class<? extends java.lang.Object>)CALLb
-Vsrc/test/com/thoughtworks/xstream/converters/reflection/SerializableConverterTest.javaœ œ(5

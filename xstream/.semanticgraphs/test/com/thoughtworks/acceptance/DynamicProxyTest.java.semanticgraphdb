@@ -1,102 +1,0 @@
-
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javañ
-,com.thoughtworks.acceptance.DynamicProxyTestCLASSD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java ("
-inner classfalse*DynamicProxyTest2–
-Acom.thoughtworks.acceptance.DynamicProxyTest.testCanBeMarshaled()DECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java $(2•
-@com.thoughtworks.acceptance.DynamicProxyTest.testAsFieldMember()DECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java& 8(2˜
-Ccom.thoughtworks.acceptance.DynamicProxyTest.testTypeCanBeAliased()DECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java: G(2—
-Bcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()DECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaI Y(2f
-AbstractAcceptanceTestEXTENDD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java& (<Ë
-Acom.thoughtworks.acceptance.DynamicProxyTest.testCanBeMarshaled()METHODD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java (""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanBeMarshaled2Y
-voidRETURN_TYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java (“
-@com.thoughtworks.acceptance.DynamicProxyTest.testAsFieldMember()METHODD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java& &(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAsFieldMember2ž
-Icom.thoughtworks.acceptance.DynamicProxyTest.testAsFieldMember()?expectedDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java' '(B2¦
-Xcom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember.ClassWithProxyMember()CALLD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java'( '(B2Y
-voidRETURN_TYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java& &(ó
-Ccom.thoughtworks.acceptance.DynamicProxyTest.testTypeCanBeAliased()METHODD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java: :($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testTypeCanBeAliased2¡
-Lcom.thoughtworks.acceptance.DynamicProxyTest.testTypeCanBeAliased()?expectedDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java> E(2Y
-voidRETURN_TYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java: :(à
-Bcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()METHODD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaI I(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanBeReferenced2œ
-Gcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()?listDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaJ J(#2
-Hcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()?proxyDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaK K(;2c
-java.util.List.add(E)CALLD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaL L(2m
-java.util.ArrayList.ArrayList()CALLD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaJ J(#2Y
-voidRETURN_TYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaI I(ÿ
-Icom.thoughtworks.acceptance.DynamicProxyTest.testAsFieldMember()?expectedVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java' '(%"
-type ClassWithProxyMember*expected2
-Acom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMemberTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java' '(2¦
-Xcom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember.ClassWithProxyMember()CALLD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java'( '(B™
-Lcom.thoughtworks.acceptance.DynamicProxyTest.testTypeCanBeAliased()?expectedVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java> >("
-type String*expected2^
-java.lang.StringTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java> >(û
-Gcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()?listVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaJ J("
-type List*list2\
-java.util.ListTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaJ J(2m
-java.util.ArrayList.ArrayList()CALLD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaJ J(#’
-Hcom.thoughtworks.acceptance.DynamicProxyTest.testCanBeReferenced()?proxyVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaK K("
-type Object*proxy2^
-java.lang.ObjectTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.javaK K(ö
-Acom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMemberCLASSD
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java (,"
-inner classfalse*ClassWithProxyMember2š
-Ecom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember?oneDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java( (+2š
-Ecom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember?twoDECLARATIOND
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java( (+µ
-Ecom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember?oneVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java( (+"(
-type SampleDynamicProxy.InterfaceOne*one2m
-SampleDynamicProxy.InterfaceOneTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java ('µ
-Ecom.thoughtworks.acceptance.DynamicProxyTest.ClassWithProxyMember?twoVARIABLED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java( (+"(
-type SampleDynamicProxy.InterfaceTwo*two2m
-SampleDynamicProxy.InterfaceTwoTYPED
-:src/test/com/thoughtworks/acceptance/DynamicProxyTest.java ('
