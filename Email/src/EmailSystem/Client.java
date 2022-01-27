@@ -1,10 +1,9 @@
-package EmailSystem; 
+package EmailSystem;
 
-import java.util.ArrayList; 
-import java.util.Collections; 
-import java.util.List; 
-
-import TestSpecifications.SpecificationManager; 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import tests.TestCommand;
 
 public   class  Client {
 	
@@ -49,7 +48,7 @@ public   class  Client {
 	// incoming emails are processed by this method before delivery.
 	static void 
 incoming__before__forward(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_AUTORESPONDER___()) {
+    if (TestCommand.get_AUTORESPONDER___()) {
         incoming__role__autoresponder(client, msg);
     } else {
         incoming__before__autoresponder(client, msg);
@@ -75,7 +74,7 @@ incoming__before__forward(Client client, Email msg) {
 
 	static void 
 incoming__before__verify(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_FORWARD___()) {
+    if (TestCommand.get_FORWARD___()) {
         incoming__role__forward(client, msg);
     } else {
         incoming__before__forward(client, msg);
@@ -96,7 +95,7 @@ incoming__before__verify(Client client, Email msg) {
 
 	static void 
 incoming__before__decrypt(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_VERIFY___()) {
+    if (TestCommand.get_VERIFY___()) {
         incoming__role__verify(client, msg);
     } else {
         incoming__before__verify(client, msg);
@@ -127,7 +126,7 @@ incoming__before__decrypt(Client client, Email msg) {
 	
 	public static void
 incoming(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_DECRYPT___()) {
+    if (TestCommand.get_DECRYPT___()) {
         incoming__role__decrypt(client, msg);
     } else {
         incoming__before__decrypt(client, msg);
@@ -179,7 +178,7 @@ incoming(Client client, Email msg) {
 	// emails to be sent are processed by this method before being mailed.
 	static void 
 outgoing__before__addressbook(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_ENCRYPT___()) {
+    if (TestCommand.get_ENCRYPT___()) {
         outgoing__role__encrypt(client, msg);
     } else {
         outgoing__before__encrypt(client, msg);
@@ -216,7 +215,7 @@ outgoing__before__addressbook(Client client, Email msg) {
 
 	static void 
 outgoing__before__sign(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_ADDRESSBOOK___()) {
+    if (TestCommand.get_ADDRESSBOOK___()) {
         outgoing__role__addressbook(client, msg);
     } else {
         outgoing__before__addressbook(client, msg);
@@ -237,7 +236,7 @@ outgoing__before__sign(Client client, Email msg) {
 	
 	static void
 outgoing(Client client, Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_SIGN___()) {
+    if (TestCommand.get_SIGN___()) {
         outgoing__role__sign(client, msg);
     } else {
         outgoing__before__sign(client, msg);
@@ -569,6 +568,5 @@ outgoing(Client client, Email msg) {
 			msg.setIsSignatureVerified(true);
 		}
 	}
-
 
 }
