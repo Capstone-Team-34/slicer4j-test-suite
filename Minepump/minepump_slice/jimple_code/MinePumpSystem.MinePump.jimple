@@ -1,0 +1,453 @@
+public class MinePumpSystem.MinePump extends java.lang.Object
+{
+    boolean pumpRunning;
+    boolean systemActive;
+    MinePumpSystem.Environment env;
+    static final boolean $assertionsDisabled;
+
+    public void <init>(MinePumpSystem.Environment)
+    {
+        MinePumpSystem.Environment env;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        env := @parameter0: MinePumpSystem.Environment;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        this.<MinePumpSystem.MinePump: boolean pumpRunning> = 0;
+
+        this.<MinePumpSystem.MinePump: boolean systemActive> = 1;
+
+        this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env> = env;
+
+        return;
+    }
+
+    public void timeShift()
+    {
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePump this;
+        boolean $stack1, $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack1 == 0 goto label1;
+
+        $stack3 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+     label1:
+        $stack2 = this.<MinePumpSystem.MinePump: boolean systemActive>;
+
+        if $stack2 == 0 goto label2;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment()>();
+
+     label2:
+        return;
+    }
+
+    void processEnvironment__before__highWaterSensor()
+    {
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        return;
+    }
+
+    public void processEnvironment__role__highWaterSensor()
+    {
+        MinePumpSystem.MinePump this;
+        boolean $stack1, $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack1 != 0 goto label1;
+
+        $stack2 = virtualinvoke this.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack2 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void activatePump()>();
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__highWaterSensor()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__highWaterSensor()>();
+
+     label2:
+        return;
+    }
+
+    void processEnvironment__before__lowWaterSensor()
+    {
+        boolean $stack1;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = staticinvoke <tests.TestCommand: boolean get_HIGHWATERSENSOR___()>();
+
+        if $stack1 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__role__highWaterSensor()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__highWaterSensor()>();
+
+     label2:
+        return;
+    }
+
+    public void processEnvironment__role__lowWaterSensor()
+    {
+        MinePumpSystem.MinePump this;
+        boolean $stack1, $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = virtualinvoke this.<MinePumpSystem.MinePump: boolean isLowWaterLevel()>();
+
+        if $stack2 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void deactivatePump()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__lowWaterSensor()>();
+
+     label2:
+        return;
+    }
+
+    void processEnvironment__before__methaneAlarm()
+    {
+        boolean $stack1;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = staticinvoke <tests.TestCommand: boolean get_LOWWATERSENSOR___()>();
+
+        if $stack1 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__role__lowWaterSensor()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__lowWaterSensor()>();
+
+     label2:
+        return;
+    }
+
+    public void processEnvironment__role__methaneAlarm()
+    {
+        MinePumpSystem.MinePump this;
+        boolean $stack1, $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack1 == 0 goto label1;
+
+        $stack2 = virtualinvoke this.<MinePumpSystem.MinePump: boolean isMethaneAlarm()>();
+
+        if $stack2 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void deactivatePump()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__methaneAlarm()>();
+
+     label2:
+        return;
+    }
+
+    void processEnvironment()
+    {
+        boolean $stack1;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = staticinvoke <tests.TestCommand: boolean get_METHANEALARM___()>();
+
+        if $stack1 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__role__methaneAlarm()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void processEnvironment__before__methaneAlarm()>();
+
+     label2:
+        return;
+    }
+
+    void activatePump__before__methaneQuery()
+    {
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        this.<MinePumpSystem.MinePump: boolean pumpRunning> = 1;
+
+        return;
+    }
+
+    void activatePump__role__methaneQuery()
+    {
+        MinePumpSystem.MinePump this;
+        boolean $stack1;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = virtualinvoke this.<MinePumpSystem.MinePump: boolean isMethaneAlarm()>();
+
+        if $stack1 != 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void activatePump__before__methaneQuery()>();
+
+     label1:
+        return;
+    }
+
+    void activatePump()
+    {
+        boolean $stack1;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = staticinvoke <tests.TestCommand: boolean get_METHANEQUERY___()>();
+
+        if $stack1 == 0 goto label1;
+
+        virtualinvoke this.<MinePumpSystem.MinePump: void activatePump__role__methaneQuery()>();
+
+        goto label2;
+
+     label1:
+        virtualinvoke this.<MinePumpSystem.MinePump: void activatePump__before__methaneQuery()>();
+
+     label2:
+        return;
+    }
+
+    void deactivatePump()
+    {
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        this.<MinePumpSystem.MinePump: boolean pumpRunning> = 0;
+
+        return;
+    }
+
+    boolean isMethaneAlarm()
+    {
+        MinePumpSystem.Environment $stack1;
+        MinePumpSystem.MinePump this;
+        boolean $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        $stack2 = virtualinvoke $stack1.<MinePumpSystem.Environment: boolean isMethaneLevelCritical()>();
+
+        return $stack2;
+    }
+
+    public java.lang.String toString()
+    {
+        MinePumpSystem.MinePump this;
+        MinePumpSystem.Environment $stack6;
+        java.lang.StringBuilder $stack1, $stack2, $stack4, $stack5, $stack8;
+        java.lang.String $stack7, $stack9, $stack10;
+        boolean $stack3;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = new java.lang.StringBuilder;
+
+        specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>();
+
+        $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Pump(System:On,Pump:");
+
+        $stack3 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack3 == 0 goto label1;
+
+        $stack10 = "On";
+
+        goto label2;
+
+     label1:
+        $stack10 = "Off";
+
+     label2:
+        $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack10);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(") ");
+
+        $stack6 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        $stack7 = virtualinvoke $stack6.<MinePumpSystem.Environment: java.lang.String toString()>();
+
+        $stack8 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack7);
+
+        $stack9 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        return $stack9;
+    }
+
+    private MinePumpSystem.Environment getEnv()
+    {
+        MinePumpSystem.Environment $stack1;
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        return $stack1;
+    }
+
+    boolean isHighWaterLevel()
+    {
+        MinePumpSystem.Environment $stack1;
+        MinePumpSystem.MinePump this;
+        boolean $stack2, $stack3;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        $stack2 = virtualinvoke $stack1.<MinePumpSystem.Environment: boolean isHighWaterSensorDry()>();
+
+        if $stack2 != 0 goto label1;
+
+        $stack3 = 1;
+
+        goto label2;
+
+     label1:
+        $stack3 = 0;
+
+     label2:
+        return $stack3;
+    }
+
+    boolean isLowWaterLevel()
+    {
+        MinePumpSystem.Environment $stack1;
+        MinePumpSystem.MinePump this;
+        boolean $stack2, $stack3;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = this.<MinePumpSystem.MinePump: MinePumpSystem.Environment env>;
+
+        $stack2 = virtualinvoke $stack1.<MinePumpSystem.Environment: boolean isLowWaterSensorDry()>();
+
+        if $stack2 != 0 goto label1;
+
+        $stack3 = 1;
+
+        goto label2;
+
+     label1:
+        $stack3 = 0;
+
+     label2:
+        return $stack3;
+    }
+
+    public void stopSystem()
+    {
+        MinePumpSystem.MinePump this;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        this.<MinePumpSystem.MinePump: boolean systemActive> = 0;
+
+        return;
+    }
+
+    public void startSystem()
+    {
+        MinePumpSystem.MinePump this;
+        java.lang.AssertionError $stack5;
+        boolean $stack1, $stack2;
+
+        this := @this: MinePumpSystem.MinePump;
+
+        $stack1 = <MinePumpSystem.MinePump: boolean $assertionsDisabled>;
+
+        if $stack1 != 0 goto label1;
+
+        $stack2 = this.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack2 == 0 goto label1;
+
+        $stack5 = new java.lang.AssertionError;
+
+        specialinvoke $stack5.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack5;
+
+     label1:
+        this.<MinePumpSystem.MinePump: boolean systemActive> = 1;
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.Class $stack0;
+        boolean $stack1, $stack2;
+
+        $stack0 = class "LMinePumpSystem/MinePump;";
+
+        $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>();
+
+        if $stack1 != 0 goto label1;
+
+        $stack2 = 1;
+
+        goto label2;
+
+     label1:
+        $stack2 = 0;
+
+     label2:
+        <MinePumpSystem.MinePump: boolean $assertionsDisabled> = $stack2;
+
+        return;
+    }
+}

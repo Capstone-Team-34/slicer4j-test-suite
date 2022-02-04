@@ -1,4 +1,4 @@
-package MinePumpSystem; 
+package MinePumpSystem;
 
 public   class  Environment {
 	

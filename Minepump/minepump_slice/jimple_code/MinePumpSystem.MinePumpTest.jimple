@@ -1,0 +1,759 @@
+class MinePumpSystem.MinePumpTest extends java.lang.Object
+{
+    static final boolean $assertionsDisabled;
+
+    void <init>()
+    {
+        MinePumpSystem.MinePumpTest this;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    void setUp()
+    {
+        MinePumpSystem.MinePumpTest this;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        return;
+    }
+
+    void isHighWaterLevel()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack10, $stack16, $stack22, $stack26;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack8, $stack9, $stack11, $stack17, $stack23;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack23 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack23 == 0 goto label1;
+
+        $stack26 = new java.lang.AssertionError;
+
+        specialinvoke $stack26.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack26;
+
+     label1:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack17 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack17 != 0 goto label2;
+
+        $stack22 = new java.lang.AssertionError;
+
+        specialinvoke $stack22.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack22;
+
+     label2:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void startSystem()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        $stack7 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack11 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack11 == 0 goto label3;
+
+        $stack16 = new java.lang.AssertionError;
+
+        specialinvoke $stack16.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack16;
+
+     label3:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        $stack8 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack8 != 0 goto label4;
+
+        $stack9 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack9 == 0 goto label4;
+
+        $stack10 = new java.lang.AssertionError;
+
+        specialinvoke $stack10.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack10;
+
+     label4:
+        return;
+    }
+
+    void isLowWaterLevel()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack8, $stack13;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack9;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack9 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isLowWaterLevel()>();
+
+        if $stack9 != 0 goto label1;
+
+        $stack13 = new java.lang.AssertionError;
+
+        specialinvoke $stack13.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack13;
+
+     label1:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack7 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isLowWaterLevel()>();
+
+        if $stack7 == 0 goto label2;
+
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label2:
+        return;
+    }
+
+    void isMethaneAlarm()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack8, $stack11;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack9;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack9 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isMethaneAlarm()>();
+
+        if $stack9 == 0 goto label1;
+
+        $stack11 = new java.lang.AssertionError;
+
+        specialinvoke $stack11.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack11;
+
+     label1:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void changeMethaneLevel()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack7 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isMethaneAlarm()>();
+
+        if $stack7 != 0 goto label2;
+
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label2:
+        return;
+    }
+
+    void timeShift()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack9, $stack14, $stack19;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack8, $stack10, $stack15;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack15 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack15 != 0 goto label1;
+
+        $stack19 = new java.lang.AssertionError;
+
+        specialinvoke $stack19.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack19;
+
+     label1:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void startSystem()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack10 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack10 != 0 goto label2;
+
+        $stack14 = new java.lang.AssertionError;
+
+        specialinvoke $stack14.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack14;
+
+     label2:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void timeShift()>();
+
+        $stack7 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack8 = virtualinvoke $stack4.<MinePumpSystem.MinePump: boolean isHighWaterLevel()>();
+
+        if $stack8 == 0 goto label3;
+
+        $stack9 = new java.lang.AssertionError;
+
+        specialinvoke $stack9.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack9;
+
+     label3:
+        return;
+    }
+
+    void activatePump()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack8, $stack11;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack9;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack9 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack9 == 0 goto label1;
+
+        $stack11 = new java.lang.AssertionError;
+
+        specialinvoke $stack11.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack11;
+
+     label1:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack7 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack7 != 0 goto label2;
+
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label2:
+        return;
+    }
+
+    void deactivatePump()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack9, $stack12, $stack15;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack8, $stack10, $stack13;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack13 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack13 == 0 goto label1;
+
+        $stack15 = new java.lang.AssertionError;
+
+        specialinvoke $stack15.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack15;
+
+     label1:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack10 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack10 != 0 goto label2;
+
+        $stack12 = new java.lang.AssertionError;
+
+        specialinvoke $stack12.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack12;
+
+     label2:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void deactivatePump()>();
+
+        $stack7 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack8 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack8 == 0 goto label3;
+
+        $stack9 = new java.lang.AssertionError;
+
+        specialinvoke $stack9.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack9;
+
+     label3:
+        return;
+    }
+
+    void testToString()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack14, $stack18, $stack22, $stack26, $stack30, $stack34, $stack38;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        java.lang.String $stack12, $stack15, $stack19, $stack23, $stack27, $stack31, $stack35;
+        boolean $stack5, $stack6, $stack7, $stack8, $stack9, $stack10, $stack11, $stack13, $stack16, $stack20, $stack24, $stack28, $stack32, $stack36;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label1;
+
+        $stack35 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack36 = virtualinvoke $stack35.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:Off) Env(Water:normal,Meth:OK)");
+
+        if $stack36 != 0 goto label1;
+
+        $stack38 = new java.lang.AssertionError;
+
+        specialinvoke $stack38.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack38;
+
+     label1:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label2;
+
+        $stack31 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack32 = virtualinvoke $stack31.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)");
+
+        if $stack32 != 0 goto label2;
+
+        $stack34 = new java.lang.AssertionError;
+
+        specialinvoke $stack34.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack34;
+
+     label2:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void waterRise()>();
+
+        $stack7 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack27 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack28 = virtualinvoke $stack27.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:On) Env(Water:high,Meth:OK)");
+
+        if $stack28 != 0 goto label3;
+
+        $stack30 = new java.lang.AssertionError;
+
+        specialinvoke $stack30.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack30;
+
+     label3:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        $stack8 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack8 != 0 goto label4;
+
+        $stack23 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack24 = virtualinvoke $stack23.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)");
+
+        if $stack24 != 0 goto label4;
+
+        $stack26 = new java.lang.AssertionError;
+
+        specialinvoke $stack26.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack26;
+
+     label4:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void lowerWaterLevel()>();
+
+        $stack9 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack9 != 0 goto label5;
+
+        $stack19 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack20 = virtualinvoke $stack19.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:On) Env(Water:low,Meth:OK)");
+
+        if $stack20 != 0 goto label5;
+
+        $stack22 = new java.lang.AssertionError;
+
+        specialinvoke $stack22.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack22;
+
+     label5:
+        virtualinvoke $stack3.<MinePumpSystem.Environment: void changeMethaneLevel()>();
+
+        $stack10 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack10 != 0 goto label6;
+
+        $stack15 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack16 = virtualinvoke $stack15.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:On,Pump:On) Env(Water:low,Meth:CRIT)");
+
+        if $stack16 != 0 goto label6;
+
+        $stack18 = new java.lang.AssertionError;
+
+        specialinvoke $stack18.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack18;
+
+     label6:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void stopSystem()>();
+
+        $stack11 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack11 != 0 goto label7;
+
+        $stack12 = virtualinvoke $stack4.<MinePumpSystem.MinePump: java.lang.String toString()>();
+
+        $stack13 = virtualinvoke $stack12.<java.lang.String: boolean equals(java.lang.Object)>("Pump(System:Off,Pump:Off) Env(Water:low,Meth:CRIT)");
+
+        if $stack13 != 0 goto label7;
+
+        $stack14 = new java.lang.AssertionError;
+
+        specialinvoke $stack14.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack14;
+
+     label7:
+        return;
+    }
+
+    void stopSystem()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack8, $stack11;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack9, $stack10, $stack12;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label2;
+
+        $stack10 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack10 != 0 goto label1;
+
+        $stack12 = $stack4.<MinePumpSystem.MinePump: boolean systemActive>;
+
+        if $stack12 != 0 goto label2;
+
+     label1:
+        $stack11 = new java.lang.AssertionError;
+
+        specialinvoke $stack11.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack11;
+
+     label2:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void stopSystem()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void startSystem()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label4;
+
+        $stack7 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack9 = $stack4.<MinePumpSystem.MinePump: boolean systemActive>;
+
+        if $stack9 != 0 goto label4;
+
+     label3:
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label4:
+        return;
+    }
+
+    void startSystem()
+    {
+        MinePumpSystem.MinePump $stack4;
+        java.lang.AssertionError $stack8, $stack11;
+        MinePumpSystem.Environment $stack3;
+        MinePumpSystem.MinePumpTest this;
+        boolean $stack5, $stack6, $stack7, $stack9, $stack10, $stack12;
+
+        this := @this: MinePumpSystem.MinePumpTest;
+
+        $stack3 = new MinePumpSystem.Environment;
+
+        specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>();
+
+        $stack4 = new MinePumpSystem.MinePump;
+
+        specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3);
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void stopSystem()>();
+
+        $stack5 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label2;
+
+        $stack10 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack10 != 0 goto label1;
+
+        $stack12 = $stack4.<MinePumpSystem.MinePump: boolean systemActive>;
+
+        if $stack12 == 0 goto label2;
+
+     label1:
+        $stack11 = new java.lang.AssertionError;
+
+        specialinvoke $stack11.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack11;
+
+     label2:
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void startSystem()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void activatePump()>();
+
+        virtualinvoke $stack4.<MinePumpSystem.MinePump: void stopSystem()>();
+
+        $stack6 = <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label4;
+
+        $stack7 = $stack4.<MinePumpSystem.MinePump: boolean pumpRunning>;
+
+        if $stack7 != 0 goto label3;
+
+        $stack9 = $stack4.<MinePumpSystem.MinePump: boolean systemActive>;
+
+        if $stack9 == 0 goto label4;
+
+     label3:
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label4:
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.Class $stack0;
+        boolean $stack1, $stack2;
+
+        $stack0 = class "LMinePumpSystem/MinePumpTest;";
+
+        $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>();
+
+        if $stack1 != 0 goto label1;
+
+        $stack2 = 1;
+
+        goto label2;
+
+     label1:
+        $stack2 = 0;
+
+     label2:
+        <MinePumpSystem.MinePumpTest: boolean $assertionsDisabled> = $stack2;
+
+        return;
+    }
+}
