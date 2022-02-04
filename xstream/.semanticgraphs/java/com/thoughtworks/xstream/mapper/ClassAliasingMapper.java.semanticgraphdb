@@ -1,427 +1,0 @@
-
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java÷
-3com.thoughtworks.xstream.mapper.ClassAliasingMapperCLASSK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java ( "
-inner classfalse*ClassAliasingMapper2«
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# &(2´
-Xcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+ -(2ª
-Ncom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/ 2(2¦
-Jcom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4 A(2¡
-Ecom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC O(2ª
-Ncom.thoughtworks.xstream.mapper.ClassAliasingMapper.itemTypeAsAttribute(Class)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ S(2¨
-Lcom.thoughtworks.xstream.mapper.ClassAliasingMapper.aliasIsAttribute(String)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU W(2
-Acom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaY d(2«
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.ClassAliasingMapper(Mapper)DECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java !(2š
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (02›
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (12š
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (42d
-MapperWrapperEXTENDK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java) (6†
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.ClassAliasingMapper(Mapper)CONSTRUCTORK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (*ClassAliasingMapper2±
-Wcom.thoughtworks.xstream.mapper.ClassAliasingMapper.ClassAliasingMapper(Mapper)!wrapped	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (-2
-3com.thoughtworks.xstream.mapper.ClassAliasingMapperRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (—
-Wcom.thoughtworks.xstream.mapper.ClassAliasingMapper.ClassAliasingMapper(Mapper)!wrapped	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java& (-*wrapped2[
-MapperTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (%±
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# #("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addClassAlias2®
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# #()2®
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java#+ #(52l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ $(,2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ $(+2l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java% %(-2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java% %(&2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ $(2¾
-icom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(java.lang.String, java.lang.Class)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ $(2¾
-icom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(java.lang.String, java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ $(!2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java% %(2¾
-icom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(java.lang.String, java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java% %(2¾
-icom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(java.lang.String, java.lang.Class)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java%( %(,2`
-voidRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# #(¸
-
-Xcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+ +(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addClassAttributeAlias2·
-]com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+' +(22·
-]com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+4 +(>2¹
-dcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(java.lang.String, java.lang.Class)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java, ,(!2Ç
-rcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(java.lang.String, java.lang.Class)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java, ,(2Ç
-rcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(java.lang.String, java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java, ,( 2`
-voidRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+ +(¸
-Ncom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/ /("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addTypeAlias2­
-Scom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/ /((2­
-Scom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/* /(42l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java0 0(,2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java0 0(+2l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java1 1("2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java0 0(2½
-hcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(java.lang.String, java.lang.Class)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java0 0(2½
-hcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(java.lang.String, java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java0 0(!2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java1 1(2½
-hcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(java.lang.String, java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java1 1(2½
-hcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(java.lang.String, java.lang.Class)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java1 1(!2`
-voidRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/ /(Ì
-Jcom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4 4(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*serializedClass2©
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4" 4(,2¬
-Pcom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?aliasDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5 5(?2«
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?iterDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9  9(E2µ
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?compatibleTypeDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java: :(?2x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5  5(?2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java50 5(>2m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(E2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(:2q
-java.util.Iterator.hasNext()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9G 9(U2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java:4 :(?2¢
-Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java; ;(92x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java<# <(A2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5  5(+2®
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java50 5(42“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(12®
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java;4 ;(82“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java<# <(-2®
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java?) ?(-2l
-java.lang.StringRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4 4(
-Ecom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC C("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Class*	realClass2«
-Qcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)!elementName	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC C(-2¬
-Pcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)?mappedNameDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD D(@2¦
-Jcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)?typeDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaG G(=2x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD% D(@2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD% D(/2°
-[com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(java.lang.String)!elementNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD4 D(?2°
-[com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(java.lang.String)!elementNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaK K(2°
-[com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(java.lang.String)!elementNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaN N(*2k
-java.lang.ClassRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC C(î
-Ncom.thoughtworks.xstream.mapper.ClassAliasingMapper.itemTypeAsAttribute(Class)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ Q(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*itemTypeAsAttribute2®
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.itemTypeAsAttribute(Class)!clazz	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ' Q(22€
-+java.util.Map.containsKey(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaR R(-2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaR R(2³
-^com.thoughtworks.xstream.mapper.ClassAliasingMapper.itemTypeAsAttribute(java.lang.Class)!clazzCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaR' R(,2c
-booleanRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ Q(â
-Lcom.thoughtworks.xstream.mapper.ClassAliasingMapper.aliasIsAttribute(String)METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU U(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*aliasIsAttribute2«
-Qcom.thoughtworks.xstream.mapper.ClassAliasingMapper.aliasIsAttribute(String)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU$ U(/2€
-+java.util.Map.containsKey(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaV V(+2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaV V(2°
-[com.thoughtworks.xstream.mapper.ClassAliasingMapper.aliasIsAttribute(java.lang.String)!nameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaV& V(*2c
-booleanRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU U(Á
-Acom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()METHODK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaY Y("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2¢
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?iterDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[ [(B2¢
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?typeDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java\ \(+2¢
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?iterDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_ _(A2¢
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?typeDECLARATIONK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java` `(12m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(B2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(72q
-java.util.Iterator.hasNext()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[D [(R2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java\  \(+2l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java] ](72x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java] ](02m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(A2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(62q
-java.util.Iterator.hasNext()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_C _(Q2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java`& `(12l
-java.util.Map.put(K, V)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaa a(@2x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaa a(/2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaa1 a(?2p
-java.util.HashMap.HashMap()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaZ Z("2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaZ Z(2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(.2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java] ](2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java] ](&2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(-2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaa a(2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaa a(%2l
-java.lang.ObjectRETURN_TYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaY Y(›
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java#% #()*name2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# #($š
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java#1 #(5*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java#+ #(0¤
-]com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+. +(2*name2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+' +(-£
-]com.thoughtworks.xstream.mapper.ClassAliasingMapper.addClassAttributeAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+: +(>*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java+4 +(9š
-Scom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/$ /((*name2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/ /(#™
-Scom.thoughtworks.xstream.mapper.ClassAliasingMapper.addTypeAlias(String,Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/0 /(4*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java/* /(/•
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)!type	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4( 4(,*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java4" 4('Ÿ
-Qcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)!elementName	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC" C(-*elementName2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaC C(!›
-Tcom.thoughtworks.xstream.mapper.ClassAliasingMapper.itemTypeAsAttribute(Class)!clazz	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ- Q(2*clazz2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaQ' Q(,˜
-Qcom.thoughtworks.xstream.mapper.ClassAliasingMapper.aliasIsAttribute(String)!name	PARAMETERK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU+ U(/*name2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaU$ U(*Ú
-Pcom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?aliasVARIABLEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5 5("
-type String*alias2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5 5(2x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5  5(?2n
-java.lang.Class.getName()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java50 5(>2”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java5  5(+2®
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(java.lang.Class)!typeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java50 5(4™
-Ocom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?iterVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9  9($"
-type Iterator*iter2g
-java.util.IteratorTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9 9(2m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(E2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(:2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java9' 9(1¥
-Ycom.thoughtworks.xstream.mapper.ClassAliasingMapper.serializedClass(Class)?compatibleTypeVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java: :(*"
-type Class*compatibleType2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java: :(2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java:4 :(?ð
-Pcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)?mappedNameVARIABLEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD D("
-type String*
-mappedName2e
-java.lang.StringTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD D(2x
-#java.util.Map.get(java.lang.Object)CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD% D(@2“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD% D(/2°
-[com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(java.lang.String)!elementNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaD4 D(?Ÿ
-Jcom.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(String)?typeVARIABLEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaG G("
-type Class*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.javaG G(‘
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?iterVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[ [( "
-type Iterator*iter2g
-java.util.IteratorTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[ [(2m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(B2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(72”
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java[# [(.Š
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?typeVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java\ \("
-type Object*type2e
-java.lang.ObjectTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java\ \(2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java\  \(+
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?iterVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_ _( "
-type Iterator*iter2g
-java.util.IteratorTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_ _(2m
-java.util.Set.iterator()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(A2k
-java.util.Map.keySet()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(62“
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameCALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java_# _(-ˆ
-Fcom.thoughtworks.xstream.mapper.ClassAliasingMapper.readResolve()?typeVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java` `("
-type Class*type2d
-java.lang.ClassTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java` `(2n
-java.util.Iterator.next()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java`& `(1„
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?typeToNameVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java ( "
-type Map*
-typeToName2b
-java.util.MapTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (2p
-java.util.HashMap.HashMap()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java# (0†
-?com.thoughtworks.xstream.mapper.ClassAliasingMapper?classToNameVALUEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (!"
-type Map*classToName2b
-java.util.MapTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (2p
-java.util.HashMap.HashMap()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java$ (1‡
->com.thoughtworks.xstream.mapper.ClassAliasingMapper?nameToTypeVARIABLEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java ($"
-type Map*
-nameToType2b
-java.util.MapTYPEK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java (2p
-java.util.HashMap.HashMap()CALLK
-Asrc/java/com/thoughtworks/xstream/mapper/ClassAliasingMapper.java' (4

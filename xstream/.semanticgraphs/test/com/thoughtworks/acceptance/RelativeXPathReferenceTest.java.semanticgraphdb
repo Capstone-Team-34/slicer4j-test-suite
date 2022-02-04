@@ -1,356 +1,0 @@
-
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaâ
-6com.thoughtworks.acceptance.RelativeXPathReferenceTestCLASSN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java ('"
-inner classfalse*RelativeXPathReferenceTest2
->com.thoughtworks.acceptance.RelativeXPathReferenceTest.setUp()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java (2µ
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java! 7(2°
-Qcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java9 I(2¶
-Wcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaK V(2 
-Acom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()DECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaX n(2¡
-Acom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()DECLARATIONO
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javap Ž(2¯
-Ncom.thoughtworks.acceptance.RelativeXPathReferenceTest.testReplacedReference()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java ž(2À
-_com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java  «(2¢
-Acom.thoughtworks.acceptance.RelativeXPathReferenceTest.hashCode()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java³ µ(	2¦
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.equals(Object)DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¸(	2®
-Mcom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java» Ì(2®
-Mcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing(String)DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° ²(	2o
-AbstractReferenceTestEXTENDN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java0 (E²
-acom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(String)!name	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java°% °()*name2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° °($Ò
->com.thoughtworks.acceptance.RelativeXPathReferenceTest.setUp()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java ("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java" (+ý	
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java! !(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testXmlContainsReferencePaths2¿
-`com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?sameThingDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java# #(,2Â
-ccom.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?anotherThingDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java$ $(/2º
-[com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?listDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java& &(#2¾
-_com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?expectedDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java+ 4(2w
-java.util.ArrayList.ArrayList()CALLN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java& &(#2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java! !( 
-Qcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java9 9(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCircularReferenceXml2´
-Ucom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?bobDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java: :(&2µ
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?janeDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java; ;((2¹
-Zcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?expectedDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java? F(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java9 9(€
-Wcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaK K(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCircularReferenceToSelfXml2º
-[com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()?bobDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaL L(&2¿
-`com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()?expectedDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaO S(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaK K(ù
-Acom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaX X("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRing2¤
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?tomDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaY Y(42¥
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?dickDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaZ Z(62¦
-Gcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?harryDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java[ [(82©
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?expectedDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaa k(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaX X(û
-Acom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()METHODN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javap p("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testTree2¥
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?rootDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaq q(/2¥
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?leftDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javar r(/2¦
-Gcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?rightDECLARATIONN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javas s(02ª
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?expectedDECLARATIONO
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java{ ‹(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javap p(±
-Ncom.thoughtworks.acceptance.RelativeXPathReferenceTest.testReplacedReference()METHODP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java (%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReplacedReference2»
-Zcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testReplacedReference()?expectedXmlDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java‘ ›(2e
-voidRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java (û
-_com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()METHODP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java   (6"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*&testCanReferenceDeserializedNullValues2Ä
-ccom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()?xmlDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¢ ¦(2Å
-dcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()?listDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java§ §(.2o
-java.util.List.size()CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¨ ¨(#2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java© ©(2q
-java.util.List.get(int)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaª ª(2e
-voidRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java   (˜
-Mcom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()METHODP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java» »($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*todoTestRecursiveMap2´
-Scom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()?thingDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¼ ¼(82·
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()?expectedDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaÁ Ê( 2q
-java.util.Map.put(K, V)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java½ ½(&2À
-fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(java.lang.String)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¼ ¼(82e
-voidRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java» »(¨
-Xcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(Object)!obj	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶% ¶((*obj2j
-java.lang.ObjectTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¶($¶
-`com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?sameThingVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java# #("
-type Thing*	sameThing2]
-ThingTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java# #(¼
-ccom.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?anotherThingVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java$ $("
-type Thing*anotherThing2]
-ThingTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java$ $(­
-[com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?listVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java& &("
-type List*list2f
-java.util.ListTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java& &(2w
-java.util.ArrayList.ArrayList()CALLN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java& &(#À
-_com.thoughtworks.acceptance.RelativeXPathReferenceTest.testXmlContainsReferencePaths()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java+ +("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java+ +(§
-Ucom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?bobVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java: :("
-type Person*bob2^
-PersonTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java: :(©
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?janeVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java; ;("
-type Person*jane2^
-PersonTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java; ;(»
-Zcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceXml()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java? ?("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java? ?(­
-[com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()?bobVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaL L("
-type Person*bob2^
-PersonTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaL L(Á
-`com.thoughtworks.acceptance.RelativeXPathReferenceTest.testCircularReferenceToSelfXml()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaO O("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaO O(¥
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?tomVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaY Y("
-type LinkedElement*tom2e
-LinkedElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaY Y(§
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?dickVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaZ Z("
-type LinkedElement*dick2e
-LinkedElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaZ Z(©
-Gcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?harryVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java[ [("
-type LinkedElement*harry2e
-LinkedElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java[ [(«
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testRing()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaa a("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaa a(£
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?rootVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaq q("
-type TreeElement*root2c
-TreeElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaq q(£
-Fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?leftVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javar r("
-type TreeElement*left2c
-TreeElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javar r(¥
-Gcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?rightVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javas s("
-type TreeElement*right2c
-TreeElementTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javas s(«
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testTree()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java{ {("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java{ {(Â
-Zcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testReplacedReference()?expectedXmlVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java‘ ‘("
-type String*expectedXml2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java‘ ‘(Ã
-ccom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()?xmlVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¢ ¢("
-type String*xml2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¢ ¢(Á
-dcom.thoughtworks.acceptance.RelativeXPathReferenceTest.testCanReferenceDeserializedNullValues()?listVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java§ §("
-type List*list2h
-java.util.ListTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java§ §(¶
-Scom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()?thingVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¼ ¼("
-type RecursiveThing*thing2Ÿ
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThingTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¼ ¼(2À
-fcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(java.lang.String)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¼ ¼(8»
-Vcom.thoughtworks.acceptance.RelativeXPathReferenceTest.todoTestRecursiveMap()?expectedVARIABLEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaÁ Á("
-type String*expected2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.javaÁ Á(Í
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThingCLASSP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java­ ­("
-inner classfalse*RecursiveThing2±
-Pcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.hashCode()DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java³ µ(	2µ
-Tcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(Object)DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¸(	2½
-\com.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(String)DECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° ²(	2ª
-Icom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?mapDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java® ®(%2«
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?nameDECLARATIONP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¯ ¯(
-\com.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(String)CONSTRUCTORP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° °(*RecursiveThing2À
-acom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(String)!name	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° °()2Å
-kcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(java.lang.String)!nameCALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java± ±(2¦
-Ecom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThingRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° °(²
-acom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.RecursiveThing(String)!name	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java°% °()*name2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java° °($„
-Pcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.hashCode()METHODP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java³ ³("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*hashCode2u
-java.lang.String.hashCode()CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java´ ´("2¤
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?nameCALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java´ ´(2d
-intRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java³ ³(Ò
-Tcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(Object)METHODP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¶("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2·
-Xcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(Object)!obj	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¶((2ƒ
-)java.lang.Object.equals(java.lang.Object)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java· ·(>2u
-java.lang.Object.getClass()CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java· ·(!2ƒ
-)java.lang.String.equals(java.lang.Object)CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java·C ·(j2¼
-bcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(java.lang.Object)!objCALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java· ·(2¤
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?nameCALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java·C ·(G2¼
-bcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(java.lang.Object)!objCALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java·` ·(c2h
-booleanRETURN_TYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¶(¨
-Xcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing.equals(Object)!obj	PARAMETERP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶% ¶((*obj2j
-java.lang.ObjectTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¶ ¶($—
-Icom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?mapVALUEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java® ®("
-type Map*map2g
-java.util.MapTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java® ®(2u
-java.util.HashMap.HashMap()CALLP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java® ®(%¨
-Jcom.thoughtworks.acceptance.RelativeXPathReferenceTest.RecursiveThing?nameVALUEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¯ ¯("
-type String*name2j
-java.lang.StringTYPEP
-Dsrc/test/com/thoughtworks/acceptance/RelativeXPathReferenceTest.java¯ ¯(

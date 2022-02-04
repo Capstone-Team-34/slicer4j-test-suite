@@ -1,212 +1,0 @@
-
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaú	
-*com.thoughtworks.acceptance.DataHolderTestCLASSB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java ("
-inner classfalse*DataHolderTest2
-<com.thoughtworks.acceptance.DataHolderTest.canConvert(Class)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java (	2¹
-fcom.thoughtworks.acceptance.DataHolderTest.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! '(	2¶
-ccom.thoughtworks.acceptance.DataHolderTest.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java) ,(	2§
-Tcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java0 =(2©
-Vcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java? K(2d
-AbstractAcceptanceTestEXTENDB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java$ (:2—
-Dcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverterDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java .(•
-
-Tcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()METHODB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java0 0(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*'testCanBePassedInToMarshallerExternally2®
-[com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?writerDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java3 3(02²
-_com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?dataHolderDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java4 4(72°
-]com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?expectedDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java; ;(R2k
-java.io.StringWriter.toString()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java< <(02¬
-`com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.StringWithPrefixConverter()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java2" 2(A2o
-#java.io.StringWriter.StringWriter()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java3 3(02W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java0 0(½	
-Vcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()METHODB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java? ?(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testCanBePassedInToUnmarshallerExternally2´
-acom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?dataHolderDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaB B(72­
-Zcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?xmlDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaE E(H2°
-]com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?resultDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaF F(a2¬
-`com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.StringWithPrefixConverter()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaA" A(A2
-3java.io.StringReader.StringReader(java.lang.String)CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaF8 F(M2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java? ?(
-[com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(Class)!type	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java( (,*type2[
-java.lang.ClassTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" ('¿
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!# !()*source2\
-java.lang.ObjectTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! !("Ç
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!D !(J*writer2d
-HierarchicalStreamWriterTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!+ !(CÃ
-ˆcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!_ !(f*context2^
-MarshallingContextTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!L !(^Ä
-„com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)9 )(?*reader2d
-HierarchicalStreamReaderTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)  )(8Â
-…com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)V )(]*context2`
-UnmarshallingContextTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)A )(UÏ
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?prefixVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" "("
-type String*prefix2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" "(
-[com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?writerVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java3 3("
-type StringWriter*writer2`
-java.io.StringWriterTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java3 3(2o
-#java.io.StringWriter.StringWriter()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java3 3(0¨
-_com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?dataHolderVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java4 4("
-type 
-DataHolder*
-dataHolder2V
-
-DataHolderTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java4 4(¦
-]com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToMarshallerExternally()?expectedVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java; ;("
-type String*expected2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java; ;(ª
-acom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?dataHolderVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaB B("
-type 
-DataHolder*
-dataHolder2V
-
-DataHolderTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaB B(
-Zcom.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?xmlVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaE E("
-type String*xml2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaE E(¥
-]com.thoughtworks.acceptance.DataHolderTest.testCanBePassedInToUnmarshallerExternally()?resultVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaF F("
-type Object*result2\
-java.lang.ObjectTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaF F(2
-3java.io.StringReader.StringReader(java.lang.String)CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.javaF8 F(Mğ
-Dcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverterCLASSB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java
- (#"
-inner classtrue*StringWithPrefixConverter2©
-Vcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(Class)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java (	2Ô
-€com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! '(	2Ğ
-}com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java) ,(	2W
-	ConverterEXTENDB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java/ (8½
-Vcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(Class)METHODB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java (!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2¬
-[com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(Class)!type	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" (,2±
-ecom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(java.lang.Class)!typeCALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java (2Z
-booleanRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java (Ø
-
-€com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! !("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2Ù
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! !()2Ù
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!+ !(J2Ú
-ˆcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!L !(f2Û
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?prefixDECLARATIONB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" "(:2g
-java.lang.Object.toString()CALLB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java& &(-2W
-voidRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! !(»
-}com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java) )("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2Ö
-„com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)  )(?2×
-…com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)A )(]2c
-java.lang.ObjectRETURN_TYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java) )(
-[com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.canConvert(Class)!type	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java( (,*type2[
-java.lang.ClassTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" ('¿
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!# !()*source2\
-java.lang.ObjectTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java! !("Ç
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!D !(J*writer2d
-HierarchicalStreamWriterTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!+ !(CÃ
-ˆcom.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!_ !(f*context2^
-MarshallingContextTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java!L !(^Ä
-„com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)9 )(?*reader2d
-HierarchicalStreamReaderTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)  )(8Â
-…com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)V )(]*context2`
-UnmarshallingContextTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java)A )(UÏ
-‡com.thoughtworks.acceptance.DataHolderTest.StringWithPrefixConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?prefixVARIABLEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" "("
-type String*prefix2\
-java.lang.StringTYPEB
-8src/test/com/thoughtworks/acceptance/DataHolderTest.java" "(

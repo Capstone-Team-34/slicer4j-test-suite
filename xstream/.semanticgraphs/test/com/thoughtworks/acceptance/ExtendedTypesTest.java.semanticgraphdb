@@ -1,266 +1,0 @@
-
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java
--com.thoughtworks.acceptance.ExtendedTypesTestCLASSE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java ("
-inner classfalse*ExtendedTypesTest2ã
-5com.thoughtworks.acceptance.ExtendedTypesTest.setUp()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java #(2é
-8com.thoughtworks.acceptance.ExtendedTypesTest.tearDown()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java% ((2í
-<com.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java* 9(2ñ
-@com.thoughtworks.acceptance.ExtendedTypesTest.testSqlTimestamp()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java; >(2ë
-;com.thoughtworks.acceptance.ExtendedTypesTest.testSqlTime()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java@ C(2ë
-;com.thoughtworks.acceptance.ExtendedTypesTest.testSqlDate()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaE H(2é
-8com.thoughtworks.acceptance.ExtendedTypesTest.testFile()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaJ X(2£
-Mcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ d(2ê
-:com.thoughtworks.acceptance.ExtendedTypesTest.testLocale()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaf i(2ü
-Hcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()DECLARATIONF
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javak É(2g
-AbstractAcceptanceTestEXTENDE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java' (=∑
-5com.thoughtworks.acceptance.ExtendedTypesTest.setUp()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java ("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java" (+Ω
-8com.thoughtworks.acceptance.ExtendedTypesTest.tearDown()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java% %("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*tearDown2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java%% %(.ì
-
-<com.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java* *("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAwtColor2ù
-Gcom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?isHeadlessDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(m2ò
-Bcom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?colorDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java- -(22õ
-Ecom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?expectedDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java/ 5("2o
- java.lang.Boolean.booleanValue()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(m2z
-+java.lang.Boolean.valueOf(java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(^2è
-@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+- +(]2w
-(java.awt.Color.Color(int, int, int, int)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java- -(22Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java* *(Ω
-@com.thoughtworks.acceptance.ExtendedTypesTest.testSqlTimestamp()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java; ;( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSqlTimestamp2q
-"java.sql.Timestamp.Timestamp(long)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java< <(*2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java; ;(≤
-;com.thoughtworks.acceptance.ExtendedTypesTest.testSqlTime()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java@ @("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSqlTime2p
-!java.sql.Time.Time(int, int, int)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaA A(*2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java@ @(≤
-;com.thoughtworks.acceptance.ExtendedTypesTest.testSqlDate()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaE E("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSqlDate2p
-!java.sql.Date.Date(int, int, int)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaF F(*2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaE E(Ï
-8com.thoughtworks.acceptance.ExtendedTypesTest.testFile()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaJ J("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testFile2ñ
-@com.thoughtworks.acceptance.ExtendedTypesTest.testFile()?absFileDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaL L(:2ö
-Dcom.thoughtworks.acceptance.ExtendedTypesTest.testFile()?expectedXmlDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaO O(E2ñ
-@com.thoughtworks.acceptance.ExtendedTypesTest.testFile()?relFileDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaS S(+2é
-?java.io.File.createTempFile(java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaL L(:2j
-java.io.File.deleteOnExit()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaM M(2h
-java.io.File.isAbsolute()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaN N('2e
-java.io.File.getPath()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaO( O(92Ø
-`com.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaP P(02j
-java.io.File.deleteOnExit()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaT T(2h
-java.io.File.isAbsolute()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaU U((2e
-java.io.File.getPath()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaV! V(22Ø
-`com.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaW W(02r
-#java.io.File.File(java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaS S(+2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaJ" J(-º
-Mcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ Z(#"
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*assertFilesBothWay2£
-Ocom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)!f	PARAMETERE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ$ Z(*2≠
-Ycom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)!expectedXml	PARAMETERE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ, Z(>2≠
-Wcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)?resultXmlDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java[ [(+2≠
-Wcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)?resultObjDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java] ](52j
-java.lang.Object.getClass()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java^! ^(52m
-java.io.File.getAbsolutePath()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javab b((2m
-java.io.File.getAbsolutePath()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javab* b(M2h
-java.io.File.isAbsolute()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javac c(#2h
-java.io.File.isAbsolute()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javac% c(C2±
-bcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!fCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java[) [(*2ª
-lcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!expectedXmlCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java\ \( 2±
-bcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!fCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java_ _(2±
-bcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!fCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javab b(2±
-bcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!fCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javac c(2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ Z(¸
-:com.thoughtworks.acceptance.ExtendedTypesTest.testLocale()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaf f("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*
-testLocale2ú
-Mjava.util.Locale.Locale(java.lang.String, java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javag g(/2ú
-Mjava.util.Locale.Locale(java.lang.String, java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javah h(12Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaf f(Æ
-Hcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()METHODE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javak k(("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanHandleJDomElement2¶
-Pcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()?elementDECLARATIONE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javal l(.2®
-Qcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()?expectedDECLARATIONF
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javan Ä(%2Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javak k(É
-Ocom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)!f	PARAMETERE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ) Z(**f2[
-java.io.FileTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ$ Z((õ
-Ycom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)!expectedXml	PARAMETERE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ3 Z(>*expectedXml2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaZ, Z(2è
-Gcom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?isHeadlessVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +("
-type boolean*
-isHeadless2V
-booleanTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(2o
- java.lang.Boolean.booleanValue()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(m2z
-+java.lang.Boolean.valueOf(java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+ +(^2è
-@java.lang.System.getProperty(java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java+- +(]Ñ
-Bcom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?colorVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java- -("
-type Color*color2]
-java.awt.ColorTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java- -(2w
-(java.awt.Color.Color(int, int, int, int)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java- -(2î
-Ecom.thoughtworks.acceptance.ExtendedTypesTest.testAwtColor()?expectedVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java/ /("
-type String*expected2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java/ /(ô
-@com.thoughtworks.acceptance.ExtendedTypesTest.testFile()?absFileVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaL L("
-type File*absFile2[
-java.io.FileTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaL L(2é
-?java.io.File.createTempFile(java.lang.String, java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaL L(:˝
-Dcom.thoughtworks.acceptance.ExtendedTypesTest.testFile()?expectedXmlVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaO O("
-type String*expectedXml2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaO O(2e
-java.io.File.getPath()CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaO( O(9¸
-@com.thoughtworks.acceptance.ExtendedTypesTest.testFile()?relFileVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaS S("
-type File*relFile2[
-java.io.FileTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaS S(2r
-#java.io.File.File(java.lang.String)CALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javaS S(+€
-Wcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)?resultXmlVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java[ [("
-type String*	resultXml2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java[ [(2±
-bcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(java.io.File, java.lang.String)!fCALLE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java[) [(*ß
-Wcom.thoughtworks.acceptance.ExtendedTypesTest.assertFilesBothWay(File,String)?resultObjVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java] ]("
-type Object*	resultObj2_
-java.lang.ObjectTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.java] ](ñ
-Pcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()?elementVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javal l("
-type Element*element2V
-ElementTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javal l(†
-Qcom.thoughtworks.acceptance.ExtendedTypesTest.testCanHandleJDomElement()?expectedVARIABLEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javan n("
-type String*expected2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/ExtendedTypesTest.javan n(

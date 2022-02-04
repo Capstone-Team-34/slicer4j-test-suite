@@ -1,841 +1,0 @@
-
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java˛*
-/com.thoughtworks.xstream.persistence.XmlMapTestCLASSG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ("
-inner classfalse*
-XmlMapTest2è
-7com.thoughtworks.xstream.persistence.XmlMapTest.setUp()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (2°
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testWritesASingleObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java !(2û
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesTwoObjects()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java# )(2£
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java+ 2(2§
-Lcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java4 8(2õ
-Ccom.thoughtworks.xstream.persistence.XmlMapTest.testHasZeroLength()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java: =(2ò
-@com.thoughtworks.xstream.persistence.XmlMapTest.testHasOneItem()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java? C(2ô
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testHasTwoItems()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaE J(2ò
-@com.thoughtworks.xstream.persistence.XmlMapTest.testIsNotEmpty()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaL P(2ü
-Gcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainKey()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaR U(2ô
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testContainsKey()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaW [(2ö
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java] b(2°
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javad h(2£
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesASingleObject()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaj p(2ï
-=com.thoughtworks.xstream.persistence.XmlMapTest.testIsEmpty()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javar u(2û
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testClearsItsObjects()DECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaw }(2¢
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()DECLARATIONH
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java Ü(2¶
-Lcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaà ç(2¨
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainASpecificValue()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaè í(2®
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaî û(2√
-icom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java° ™(2≈
-kcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≠ ∂(2∂
-\com.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java∏ ¬(2≠
-Scom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaƒ œ(2ü
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesAObject()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java— ÷(2π
-_com.thoughtworks.xstream.persistence.XmlMapTest.testPutReturnsTheOldValueWhenRewritingAObject()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÿ ‹(2î
-:com.thoughtworks.xstream.persistence.XmlMapTest.iterator()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‚ ‰(2ê
-6com.thoughtworks.xstream.persistence.XmlMapTest.size()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÊ Ë(2ï
-;com.thoughtworks.xstream.persistence.XmlMapTest.get(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Ï(2ú
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.put(Object,Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ (2ò
->com.thoughtworks.xstream.persistence.XmlMapTest.remove(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ù(2ê
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ( 2[
-TestCaseEXTENDG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java  ((È
-7com.thoughtworks.xstream.persistence.XmlMapTest.setUp()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setUp2†
-Ocom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.MockedStrategy()CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (!2â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (
-2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (%ê
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testWritesASingleObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWritesASingleObject2•
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesASingleObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java	 ((2|
-+java.util.Map.containsKey(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java   (22â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java   (2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (ë
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesTwoObjects()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java# #(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWritesTwoObjects2¢
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesTwoObjects()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java$	 $((2|
-+java.util.Map.containsKey(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java' '(22|
-+java.util.Map.containsKey(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java( ((12â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java' '(2â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java( ((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java# #(“	
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java+ +(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRemovesAWrittenObject2ß
-Ocom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java,	 ,((2Ø
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()?aCuteStringDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java/	 /(72|
-+java.util.Map.containsKey(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java. .(22|
-+java.util.Map.containsKey(java.lang.Object)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java1 1(32â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java. .(2â
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyCALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java1 1(2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java+ +(¬
-Lcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java4 4('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRemovesAnInvalidObject2®
-Pcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java5	 5((2∞
-Xcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()?aCuteStringDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java6	 6(72\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java4 4(Ù
-Ccom.thoughtworks.xstream.persistence.XmlMapTest.testHasZeroLength()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java: :("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasZeroLength2ü
-Gcom.thoughtworks.xstream.persistence.XmlMapTest.testHasZeroLength()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java;	 ;((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java: :(Î
-@com.thoughtworks.xstream.persistence.XmlMapTest.testHasOneItem()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java? ?("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasOneItem2ú
-Dcom.thoughtworks.xstream.persistence.XmlMapTest.testHasOneItem()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java@	 @((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java? ?(Ó
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testHasTwoItems()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaE E("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHasTwoItems2ù
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testHasTwoItems()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaF	 F((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaE E(Î
-@com.thoughtworks.xstream.persistence.XmlMapTest.testIsNotEmpty()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaL L("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIsNotEmpty2ú
-Dcom.thoughtworks.xstream.persistence.XmlMapTest.testIsNotEmpty()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaM	 M((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaL L(Ä
-Gcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainKey()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaR R(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesNotContainKey2£
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainKey()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaS	 S((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaR R(Ó
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testContainsKey()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaW W("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testContainsKey2ù
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testContainsKey()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaX	 X((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaW W(Ñ
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java] ]("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testGetsAnObject2û
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java^	 ^((2¶
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()?aCuteStringDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java`	 `(42h
-java.util.Map.put(K, V)CALLG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java_ _(32\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java] ](∂
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javad d($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testGetsAnInvalidObject2•
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javae	 e((2≠
-Ucom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()?aCuteStringDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaf	 f(42\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javad d(å
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesASingleObject()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaj j(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRewritesASingleObject2ß
-Ocom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesASingleObject()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javak	 k((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaj j(‚
-=com.thoughtworks.xstream.persistence.XmlMapTest.testIsEmpty()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javar r("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIsEmpty2ô
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testIsEmpty()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javas	 s((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javar r(˝
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testClearsItsObjects()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaw w(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testClearsItsObjects2¢
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.testClearsItsObjects()?mapDECLARATIONG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javax	 x((2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaw w(ˇ
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()METHODG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testPutsAllAddsTwoItems2¨
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()?originalDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÄ Ä(2ß
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÉ	 É((2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÅ Å(*2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÇ Ç(/2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÄ Ä(2\
-voidRETURN_TYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (ƒ
-Lcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaà à('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testContainsASpecificValue2™
-Pcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaâ	 â((2¨
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()?valueDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaä	 ä(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaà à(ß
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainASpecificValue()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaè è(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testDoesNotContainASpecificValue2∞
-Vcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainASpecificValue()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaê	 ê((2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaè è(ã
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaî î()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEntrySetContainsAllItems2±
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?originalDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaï ï(2¥
-Zcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?originalSetDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaò ò('2¨
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaô	 ô((2¨
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?setDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaú ú(2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javañ ñ(*2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaó ó(/2k
-java.util.Map.entrySet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaò ò('2û
-Kjava.util.Set.containsAll(java.util.Collection<? extends java.lang.Object>)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaù ù()2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaï ï(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaî î(ü
-icom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java° °(D"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*7testIteratesOverEntryAndChecksItsKeyWithAnotherInstance2«
-mcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¢	 ¢((2…
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?builtDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java•	 •(*2»
-ncom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¶ ¶(02…
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaß ß(,2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¶2 ¶(@2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaß! ß(,2o
-java.util.Map.Entry.getKey()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java®  ®(.2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java° °(≠
-kcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≠ ≠(F"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*9testIteratesOverEntryAndChecksItsValueWithAnotherInstance2…
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÆ	 Æ((2À
-qcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?builtDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java±	 ±(*2 
-pcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≤ ≤(02À
-qcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≥ ≥(,2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≤2 ≤(@2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≥! ≥(,2q
-java.util.Map.Entry.getValue()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¥" ¥(22^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≠ ≠(†
-\com.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java∏ ∏(7"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void**testIteratesOverEntrySetContainingTwoItems2∫
-`com.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaπ	 π((2º
-bcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?builtDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaº º(2ª
-acom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaΩ Ω(02º
-bcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaæ æ(,2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaΩ2 Ω(@2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaæ! æ(,2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaø ø(.2o
-java.util.Map.Entry.getKey()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaø ø(2q
-java.util.Map.Entry.getValue()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaø ø(-2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaº º(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java∏ ∏(”
-Scom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaƒ ƒ(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testRemovesAnItemThroughIteration2±
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≈	 ≈((2≤
-Xcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?iterDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java» »(02≥
-Ycom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?entryDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java… …(,2o
-java.util.Iterator.hasNext()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java»2 »(@2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java…! …(,2|
-)java.lang.Object.equals(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java   ()2o
-java.util.Map.Entry.getKey()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java   (2n
-java.util.Iterator.remove()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÀ À(2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaƒ ƒ(Ä
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesAObject()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java— —( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testRewritesAObject2£
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesAObject()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java“	 “((2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java— —(Œ
-_com.thoughtworks.xstream.persistence.XmlMapTest.testPutReturnsTheOldValueWhenRewritingAObject()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÿ ÿ(:"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*-testPutReturnsTheOldValueWhenRewritingAObject2Ω
-ccom.thoughtworks.xstream.persistence.XmlMapTest.testPutReturnsTheOldValueWhenRewritingAObject()?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaŸ	 Ÿ((2^
-voidRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÿ ÿ(ê
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í(ó
-Ucom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó(õ
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ' Ó(,*value2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ  Ó(&ì
-Qcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú(!*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú(ë
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesASingleObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java	 ("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java (é
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.testWritesTwoObjects()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java$	 $("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java$ $(ì
-Ocom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java,	 ,("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java, ,(≠
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAWrittenObject()?aCuteStringVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java/	 /("
-type String*aCuteString2a
-java.lang.StringTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java/ /(î
-Pcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java5	 5("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java5 5(Æ
-Xcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnInvalidObject()?aCuteStringVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java6	 6("
-type String*aCuteString2a
-java.lang.StringTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java6 6(ã
-Gcom.thoughtworks.xstream.persistence.XmlMapTest.testHasZeroLength()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java;	 ;("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java; ;(à
-Dcom.thoughtworks.xstream.persistence.XmlMapTest.testHasOneItem()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java@	 @("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java@ @(â
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testHasTwoItems()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaF	 F("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaF F(à
-Dcom.thoughtworks.xstream.persistence.XmlMapTest.testIsNotEmpty()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaM	 M("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaM M(è
-Kcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainKey()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaS	 S("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaS S(â
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.testContainsKey()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaX	 X("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaX X(ä
-Fcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java^	 ^("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java^ ^(§
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnObject()?aCuteStringVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java`	 `("
-type String*aCuteString2a
-java.lang.StringTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java` `(ë
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javae	 e("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javae e(´
-Ucom.thoughtworks.xstream.persistence.XmlMapTest.testGetsAnInvalidObject()?aCuteStringVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaf	 f("
-type String*aCuteString2a
-java.lang.StringTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaf f(ì
-Ocom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesASingleObject()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javak	 k("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javak k(Ö
-Acom.thoughtworks.xstream.persistence.XmlMapTest.testIsEmpty()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javas	 s("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javas s(é
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.testClearsItsObjects()?mapVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javax	 x("
-type XmlMap*map2W
-XmlMapTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javax x(ì
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()?originalVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÄ Ä("
-type Map*original2`
-java.util.MapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÄ Ä(2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÄ Ä(ï
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.testPutsAllAddsTwoItems()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÉ	 É("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÉ É(ò
-Pcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaâ	 â("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaâ â(¶
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testContainsASpecificValue()?valueVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaä	 ä("
-type String*value2c
-java.lang.StringTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaä ä(û
-Vcom.thoughtworks.xstream.persistence.XmlMapTest.testDoesNotContainASpecificValue()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaê	 ê("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaê ê(ò
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?originalVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaï ï("
-type Map*original2`
-java.util.MapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaï ï(2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaï ï(õ
-Zcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?originalSetVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaò ò("
-type Set*originalSet2`
-java.util.SetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaò ò(2k
-java.util.Map.entrySet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaò ò('ö
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaô	 ô("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaô ô(û
-Rcom.thoughtworks.xstream.persistence.XmlMapTest.testEntrySetContainsAllItems()?setVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaú ú(	"
-type Set*set2`
-java.util.SetTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaú ú(µ
-mcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¢	 ¢("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¢ ¢(π
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?builtVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java•	 •("
-type XmlMap*built2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java• •(≈
-ncom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¶ ¶("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java¶ ¶(∑
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsKeyWithAnotherInstance()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaß ß("
-type 	Map.Entry*entry2f
-java.util.Map.EntryTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaß ß(2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaß! ß(,∑
-ocom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÆ	 Æ("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÆ Æ(ª
-qcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?builtVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java±	 ±("
-type XmlMap*built2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java± ±(«
-pcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≤ ≤("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≤ ≤(π
-qcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntryAndChecksItsValueWithAnotherInstance()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≥ ≥("
-type 	Map.Entry*entry2f
-java.util.Map.EntryTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≥ ≥(2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≥! ≥(,®
-`com.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaπ	 π("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaπ π(†
-bcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?builtVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaº º("
-type Map*built2`
-java.util.MapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaº º(2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaº º(∏
-acom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaΩ Ω("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaΩ Ω(™
-bcom.thoughtworks.xstream.persistence.XmlMapTest.testIteratesOverEntrySetContainingTwoItems()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaæ æ("
-type 	Map.Entry*entry2f
-java.util.Map.EntryTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaæ æ(2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaæ! æ(,ü
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≈	 ≈("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java≈ ≈(Ø
-Xcom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?iterVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java» »("
-type Iterator*iter2e
-java.util.IteratorTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java» »(°
-Ycom.thoughtworks.xstream.persistence.XmlMapTest.testRemovesAnItemThroughIteration()?entryVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java… …("
-type 	Map.Entry*entry2f
-java.util.Map.EntryTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java… …(2l
-java.util.Iterator.next()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java…! …(,ë
-Icom.thoughtworks.xstream.persistence.XmlMapTest.testRewritesAObject()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java“	 “("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java“ “(´
-ccom.thoughtworks.xstream.persistence.XmlMapTest.testPutReturnsTheOldValueWhenRewritingAObject()?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaŸ	 Ÿ("
-type XmlMap*map2Y
-XmlMapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaŸ Ÿ(¬
-8com.thoughtworks.xstream.persistence.XmlMapTest?strategyVARIABLEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java ( "
-type MockedStrategy*strategy2è
->com.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategyTYPEG
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java	 (à
-
->com.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategyCLASSI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaﬁ ﬁ($"
-inner classfalse*MockedStrategy2£
-Icom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.iterator()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‚ ‰(2ü
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.size()DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÊ Ë(2§
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Ï(2´
-Qcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ (2ß
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(Object)DECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ù(2ú
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapDECLARATIONI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‡ ‡(!2h
-PersistenceStrategyEXTENDI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaﬁ0 ﬁ(C◊
-Icom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.iterator()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‚ ‚("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Iterator*iterator2k
-java.util.Set.iterator()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java„
- „(#2k
-java.util.Map.entrySet()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java„
- „(2ï
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java„
- „(2l
-java.util.IteratorRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‚	 ‚( 
-Ecom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.size()METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÊ Ê("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*size2g
-java.util.Map.size()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÁ
- Á(2ï
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÁ
- Á(2]
-intRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÊ	 Ê(ƒ
-Jcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*get2¶
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í(2v
-#java.util.Map.get(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÎ
- Î(2ï
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÎ
- Î(2´
-Xcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÎ Î(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ	 Í(Ã
-
-Qcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*put2≠
-Ucom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó(2Ø
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ  Ó(,2j
-java.util.Map.put(K, V)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÔ
- Ô(2ï
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÔ
- Ô(2Ω
-jcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÔ Ô(2ø
-lcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(java.lang.Object, java.lang.Object)!valueCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÔ Ô(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ	 Ó(”
-Mcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(Object)METHODI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*remove2©
-Qcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú(!2y
-&java.util.Map.remove(java.lang.Object)CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÛ
- Û(2ï
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÛ
- Û(2Æ
-[com.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(java.lang.Object)!keyCALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÛ Û(2j
-java.lang.ObjectRETURN_TYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ	 Ú(ê
-Ncom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.get(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÍ Í(ó
-Ucom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó(*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ Ó(õ
-Wcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.put(Object,Object)!value	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ' Ó(,*value2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÓ  Ó(&ì
-Qcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy.remove(Object)!key	PARAMETERI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú(!*key2c
-java.lang.ObjectTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.javaÚ Ú(˛
-Bcom.thoughtworks.xstream.persistence.XmlMapTest.MockedStrategy?mapVARIABLEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‡ ‡("
-type Map*map2`
-java.util.MapTYPEI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‡
- ‡(2n
-java.util.HashMap.HashMap()CALLI
-=src/test/com/thoughtworks/xstream/persistence/XmlMapTest.java‡ ‡(!

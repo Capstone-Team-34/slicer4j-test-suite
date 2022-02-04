@@ -1,107 +1,0 @@
-
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.javaÈ
-7com.thoughtworks.xstream.core.util.ClassLoaderReferenceCLASSO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (!"
-inner classfalse*ClassLoaderReference2©
-Icom.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass(String)DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (2¶
-Fcom.thoughtworks.xstream.core.util.ClassLoaderReference.getReference()DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java! #(2±
-Qcom.thoughtworks.xstream.core.util.ClassLoaderReference.setReference(ClassLoader)DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java% '(2¶
-Fcom.thoughtworks.xstream.core.util.ClassLoaderReference.writeReplace()DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java) +(2•
-Ecom.thoughtworks.xstream.core.util.ClassLoaderReference.readResolve()DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java/ 1(	2π
-Ycom.thoughtworks.xstream.core.util.ClassLoaderReference.ClassLoaderReference(ClassLoader)DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (2°
-Acom.thoughtworks.xstream.core.util.ClassLoaderReference?referenceDECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java" (+2p
-java.lang.ClassLoaderEXTENDO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java* (5ˆ
-Ycom.thoughtworks.xstream.core.util.ClassLoaderReference.ClassLoaderReference(ClassLoader)CONSTRUCTORO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (*ClassLoaderReference2¡
-ccom.thoughtworks.xstream.core.util.ClassLoaderReference.ClassLoaderReference(ClassLoader)!reference	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java  (52∆
-mcom.thoughtworks.xstream.core.util.ClassLoaderReference.ClassLoaderReference(java.lang.ClassLoader)!referenceCALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java ("2ó
-7com.thoughtworks.xstream.core.util.ClassLoaderReferenceRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (º
-ccom.thoughtworks.xstream.core.util.ClassLoaderReference.ClassLoaderReference(ClassLoader)!reference	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java, (5*	reference2n
-java.lang.ClassLoaderTYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java  (+˘
-Icom.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass(String)METHODO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Class*	loadClass2¨
-Ncom.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass(String)!name	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (&2ä
-1java.lang.ClassLoader.loadClass(java.lang.String)CALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java ((2ö
-Acom.thoughtworks.xstream.core.util.ClassLoaderReference?referenceCALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (2±
-Xcom.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass(java.lang.String)!nameCALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java# ('2o
-java.lang.ClassRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java/ (Eï
-Fcom.thoughtworks.xstream.core.util.ClassLoaderReference.getReference()METHODO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java! !(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type ClassLoader*getReference2ö
-Acom.thoughtworks.xstream.core.util.ClassLoaderReference?referenceCALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java" "(2u
-java.lang.ClassLoaderRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java! !(Ë
-Qcom.thoughtworks.xstream.core.util.ClassLoaderReference.setReference(ClassLoader)METHODO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java% %("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setReference2π
-[com.thoughtworks.xstream.core.util.ClassLoaderReference.setReference(ClassLoader)!reference	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java% %(22æ
-ecom.thoughtworks.xstream.core.util.ClassLoaderReference.setReference(java.lang.ClassLoader)!referenceCALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java& &("2d
-voidRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java% %(ú
-Fcom.thoughtworks.xstream.core.util.ClassLoaderReference.writeReplace()METHODO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java) )("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*writeReplace2™
-Qcom.thoughtworks.xstream.core.util.ClassLoaderReference.Replacement.Replacement()CALLO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java* *( 2p
-java.lang.ObjectRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java) )(ù
-Ncom.thoughtworks.xstream.core.util.ClassLoaderReference.loadClass(String)!name	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java" (&*name2i
-java.lang.StringTYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (!¥
-[com.thoughtworks.xstream.core.util.ClassLoaderReference.setReference(ClassLoader)!reference	PARAMETERO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java%) %(2*	reference2n
-java.lang.ClassLoaderTYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java% %((Ø
-Acom.thoughtworks.xstream.core.util.ClassLoaderReference?referenceVARIABLEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java" (+"
-type ClassLoader*	reference2n
-java.lang.ClassLoaderTYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java (!Ù
-Ccom.thoughtworks.xstream.core.util.ClassLoaderReference.ReplacementCLASSO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java- -("
-inner classfalse*Replacement2±
-Qcom.thoughtworks.xstream.core.util.ClassLoaderReference.Replacement.readResolve()DECLARATIONO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java/ 1(	˘
-Qcom.thoughtworks.xstream.core.util.ClassLoaderReference.Replacement.readResolve()METHODO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java/ /(""
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2p
-java.lang.ObjectRETURN_TYPEO
-Esrc/java/com/thoughtworks/xstream/core/util/ClassLoaderReference.java/ /(

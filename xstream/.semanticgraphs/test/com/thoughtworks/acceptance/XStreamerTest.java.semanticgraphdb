@@ -1,198 +1,0 @@
-
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java°
-
-)com.thoughtworks.acceptance.XStreamerTestCLASSA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java! !("
-inner classfalse*XStreamerTest2É
-1com.thoughtworks.acceptance.XStreamerTest.setUp()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java% +(2ò
-Fcom.thoughtworks.acceptance.XStreamerTest.testDetectsSelfMarshalling()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java1 9(2õ
-Icom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java; A(2ù
-Kcom.thoughtworks.acceptance.XStreamerTest.testCanBeUsedAfterSerialization()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaC F(2õ
-Icom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaH M(2ò
-Fcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)DECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO S(2á
-5com.thoughtworks.acceptance.XStreamerTest?transformerDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java# #(#2c
-AbstractAcceptanceTestEXTENDA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java!# !(9Ó	
-1com.thoughtworks.acceptance.XStreamerTest.setUp()METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java% %("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2ñ
-Dcom.thoughtworks.acceptance.XStreamerTest.setUp()?transformerFactoryDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java(! ((V2á
-5com.thoughtworks.acceptance.XStreamerTest.setUp()?urlDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java) )(?2
-4javax.xml.transform.TransformerFactory.newInstance()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java(6 ((V2ú
-Qjavax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java* *([2d
-java.net.URL.openStream()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java*I *(Y2î
-Ijavax.xml.transform.stream.StreamSource.StreamSource(java.io.InputStream)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java*8 *(Z2Ä
-5com.thoughtworks.acceptance.XStreamerTest?transformerCALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java* *(2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java%" %(+ö
-Fcom.thoughtworks.acceptance.XStreamerTest.testDetectsSelfMarshalling()METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java1 1(*"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDetectsSelfMarshalling2ö
-Hcom.thoughtworks.acceptance.XStreamerTest.testDetectsSelfMarshalling()?cDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java2! 2(C2®
-]com.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainer.ImplicitXStreamContainer()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java2% 2(C2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java1 1(Ô
-Icom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java; ;(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanConvertAnotherInstance2ù
-Kcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java< <(#2ü
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xmlDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java= =(A2¶
-Tcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?serializedDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java> >(@2©
-Wcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xmlSerializedDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java? ?(T2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java;7 ;(KÛ
-Kcom.thoughtworks.acceptance.XStreamerTest.testCanBeUsedAfterSerialization()METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaC C(/"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanBeUsedAfterSerialization2î
-Icom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaE E('2V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaC9 C(Mú
-Icom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaH H(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCanSerializeSelfContained2ü
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()?oosDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaI! I(Y2ü
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()?xmlDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaK K(82V
-voidRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaH7 H(MÓ
-Fcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)METHODA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO O('"
-staticfalse"
-finalfalse"
-access modifierprivate"
-type String*normalizedXStreamXML2ö
-Jcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)!xml	PARAMETERA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO( O(22ü
-Mcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)?writerDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaP P(62¨
-ajavax.xml.transform.Transformer.transform(javax.xml.transform.Source, javax.xml.transform.Result)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQ Q(`2j
-java.io.StringWriter.toString()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaR R( 2n
-#java.io.StringWriter.StringWriter()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaP$ P(62è
-Djavax.xml.transform.stream.StreamSource.StreamSource(java.io.Reader)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQ Q(E2~
-3java.io.StringReader.StringReader(java.lang.String)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQ/ Q(D2è
-Djavax.xml.transform.stream.StreamResult.StreamResult(java.io.Writer)CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQG Q(_2Ä
-5com.thoughtworks.acceptance.XStreamerTest?transformerCALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQ Q(2ü
-Tcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(java.lang.String)!xmlCALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaQ@ Q(C2b
-java.lang.StringRETURN_TYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO; O(O¸
-Jcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)!xml	PARAMETERA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO/ O(2*xml2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaO( O(.µ
-Dcom.thoughtworks.acceptance.XStreamerTest.setUp()?transformerFactoryVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java(! ((3"
-type TransformerFactory*transformerFactory2q
-&javax.xml.transform.TransformerFactoryTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java( (( 2
-4javax.xml.transform.TransformerFactory.newInstance()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java(6 ((VÌ
-5com.thoughtworks.acceptance.XStreamerTest.setUp()?urlVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java) )("
-type URL*url2W
-java.net.URLTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java) )(¯
-Hcom.thoughtworks.acceptance.XStreamerTest.testDetectsSelfMarshalling()?cVARIABLEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java2! 2(""!
-type ImplicitXStreamContainer*c2ç
-Bcom.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainerTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java2 2( 2®
-]com.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainer.ImplicitXStreamContainer()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java2% 2(CÉ
-Kcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xVARIABLEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java< <("
-type XStream*x2R
-XStreamTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java< <(å
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xmlVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java= =("
-type String*xml2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java= =(í
-Tcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?serializedVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java> >( "
-type XStream*
-serialized2R
-XStreamTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java> >(†
-Wcom.thoughtworks.acceptance.XStreamerTest.testCanConvertAnotherInstance()?xmlSerializedVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java? ?(""
-type String*xmlSerialized2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java? ?(ö
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()?oosVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaI! I($"
-type OpenSourceSoftware*oos2]
-OpenSourceSoftwareTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaI I( è
-Mcom.thoughtworks.acceptance.XStreamerTest.testCanSerializeSelfContained()?xmlVARIABLEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaK K("
-type String*xml2[
-java.lang.StringTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaK K(â
-Mcom.thoughtworks.acceptance.XStreamerTest.normalizedXStreamXML(String)?writerVALUEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaP P(!"
-type StringWriter*writer2_
-java.io.StringWriterTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaP P(2n
-#java.io.StringWriter.StringWriter()CALLA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.javaP$ P(6ì
-5com.thoughtworks.acceptance.XStreamerTest?transformerVARIABLEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java# #(#"
-type Transformer*transformer2j
-javax.xml.transform.TransformerTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java# #(ﬂ
-Bcom.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainerCLASSA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java- -(/"
-inner classfalse*ImplicitXStreamContainer2û
-Lcom.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainer?myXStreamDECLARATIONA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java. .(!å
-Lcom.thoughtworks.acceptance.XStreamerTest.ImplicitXStreamContainer?myXStreamVARIABLEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java. .(!"
-type XStream*	myXStream2R
-XStreamTYPEA
-7src/test/com/thoughtworks/acceptance/XStreamerTest.java. .(

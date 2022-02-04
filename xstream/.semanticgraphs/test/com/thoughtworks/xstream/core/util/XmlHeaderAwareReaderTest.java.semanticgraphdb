@@ -1,271 +1,0 @@
-
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java÷
-;com.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTestCLASSS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (%"
-inner classfalse*XmlHeaderAwareReaderTest2ª
-Wcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java  (2≥
-Ocom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java" '(2∂
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java) -(2∑
-Scom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java/ 3(2≥
-Ocom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java5 9(2œ
-kcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java; ?(2≤
-Ncom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()DECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaA K(2g
-TestCaseEXTENDS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java. (6∂
-
-Wcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java ()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testKeepsAllBytesInStream2æ
-Zcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (n2¬
-^com.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (T2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java; (m2Ä
-#java.io.LineNumberReader.readLine()CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (*2Ä
-#java.io.LineNumberReader.readLine()CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java2 (C2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java" (n2h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java3 (>…
-
-Ocom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java" "(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDefaultValues2∂
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java# #(]2∫
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java$ $(B2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java#; #(\2Ñ
-'java.io.InputStreamReader.getEncoding()CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java& &(E2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java#" #(]2Ø
-Rjava.io.InputStreamReader.InputStreamReader(java.io.InputStream, java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java& &(72h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java"+ "(6ú
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java) )($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEvaluatesVersion2π
-Ucom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java* *(w2Ω
-Ycom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java+ +(B2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java*; *(v2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java*" *(w2h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java). )(9Ÿ
-
-Scom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java/ /(%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEvaluatesEncoding2∫
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0 0(t2æ
-Zcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java1 1(B2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0; 0(s2Ñ
-'java.io.InputStreamReader.getEncoding()CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java2 2(K2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0" 0(t2Ø
-Rjava.io.InputStreamReader.InputStreamReader(java.io.InputStream, java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java2 2(=2h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java// /(:ê
-Ocom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java5 5(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testValueEscaping2∂
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6 6(k2∫
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java7 7(B2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6; 6(j2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6" 6(k2h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java5+ 5(6©
-
-kcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java; ;(="
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*-testCanHandleImproperSizedPushbackInputStream2“
-ncom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java< <(b2÷
-rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java= =(^2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java<2 <(a2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java< <(b2¶
-Ijava.io.PushbackInputStream.PushbackInputStream(java.io.InputStream, int)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java=? =(]2h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java;G ;(RÍ
-Ncom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()METHODS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaA A( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSkipsUtf8BOM2∏
-Tcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?bytesDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaB B(I2∫
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?inBytesDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaC C(12µ
-Qcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?inDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaH H(A2π
-Ucom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?readerDECLARATIONS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaI I(B2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaB B(I2™
-Mjava.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaG G(<2Ñ
-'java.io.InputStreamReader.getEncoding()CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaJ J(E2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaH" H(A2Ø
-Rjava.io.InputStreamReader.InputStreamReader(java.io.InputStream, java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaJ J(72h
-voidRETURN_TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaA* A(5˝
-Zcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java ("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java; (m2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java" (nŸ
-^com.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testKeepsAllBytesInStream()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java ("
-type LineNumberReader*reader2u
-java.io.LineNumberReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java (ı
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java# #("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java# #(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java#; #(\2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java#" #(]—
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testDefaultValues()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java$ $(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java$ $(¯
-Ucom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java* *("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java* *(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java*; *(v2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java*" *(w‘
-Ycom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesVersion()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java+ +(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java+ +(˘
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0 0("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0 0(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0; 0(s2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java0" 0(t’
-Zcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testEvaluatesEncoding()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java1 1(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java1 1(ı
-Rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6 6("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6 6(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6; 6(j2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java6" 6(k—
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testValueEscaping()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java7 7(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java7 7(ˇ
-ncom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java< <("
-type InputStream*in2p
-java.io.InputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java< <(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java<2 <(a2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java< <(bñ
-rcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testCanHandleImproperSizedPushbackInputStream()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java= =(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java= =(2¶
-Ijava.io.PushbackInputStream.PushbackInputStream(java.io.InputStream, int)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.java=? =(]Ω
-Tcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?bytesVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaB B("
-type byte[]*bytes2c
-byte[]TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaB B(2à
-+java.lang.String.getBytes(java.lang.String)CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaB B(I∂
-Vcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?inBytesVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaC C("
-type byte[]*inBytes2c
-byte[]TYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaC C(È
-Qcom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?inVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaH H("
-type ByteArrayInputStream*in2y
-java.io.ByteArrayInputStreamTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaH H(2ñ
-9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLS
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaH" H(A–
-Ucom.thoughtworks.xstream.core.util.XmlHeaderAwareReaderTest.testSkipsUtf8BOM()?readerVARIABLES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaI I(#"
-type XmlHeaderAwareReader*reader2q
-XmlHeaderAwareReaderTYPES
-Isrc/test/com/thoughtworks/xstream/core/util/XmlHeaderAwareReaderTest.javaI I(

@@ -1,4 +1,5 @@
-package EmailSystem; 
+package EmailSystem;
+import tests.TestCommand;
 
 public   class  Email {
 	
@@ -57,7 +58,7 @@ public   class  Email {
 	
 	boolean
 isReadable() {
-    if (tests.EmailTEST.SINGLETON.get_ENCRYPT___()) {
+    if (TestCommand.get_ENCRYPT___()) {
         return isReadable__role__encrypt();
     } else {
         return isReadable__before__encrypt();
@@ -89,7 +90,7 @@ isReadable() {
 	
 	static void 
 printMail__before__sign(Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_ENCRYPT___()) {
+    if (TestCommand.get_ENCRYPT___()) {
         printMail__role__encrypt(msg);
     } else {
         printMail__before__encrypt(msg);
@@ -110,7 +111,7 @@ printMail__before__sign(Email msg) {
 	
 	static void 
 printMail__before__verify(Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_SIGN___()) {
+    if (TestCommand.get_SIGN___()) {
         printMail__role__sign(msg);
     } else {
         printMail__before__sign(msg);
@@ -130,16 +131,12 @@ printMail__before__verify(Email msg) {
 	
 	static void
 printMail(Email msg) {
-    if (tests.EmailTEST.SINGLETON.get_VERIFY___()) {
+    if (TestCommand.get_VERIFY___()) {
         printMail__role__verify(msg);
     } else {
         printMail__before__verify(msg);
     }
 }
-
-
-
-	
 
 	Email cloneEmail(Email msg) {
 		try {
@@ -278,6 +275,5 @@ printMail(Email msg) {
 	void setIsSignatureVerified(boolean value) {
 		this.isSignatureVerified = value;
 	}
-
 
 }

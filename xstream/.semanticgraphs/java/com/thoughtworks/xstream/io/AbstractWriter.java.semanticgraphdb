@@ -1,108 +1,0 @@
-
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaò
-
-*com.thoughtworks.xstream.io.AbstractWriterCLASSB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java ($"
-inner classfalse*AbstractWriter2ï
-Bcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3 5(2ê
-=com.thoughtworks.xstream.io.AbstractWriter.underlyingWriter()DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java: <(2ê
-=com.thoughtworks.xstream.io.AbstractWriter.encodeNode(String)DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE G(2ï
-Bcom.thoughtworks.xstream.io.AbstractWriter.encodeAttribute(String)DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP R(2é
-;com.thoughtworks.xstream.io.AbstractWriter.AbstractWriter()DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java" $(2ó
-Dcom.thoughtworks.xstream.io.AbstractWriter.AbstractWriter(NameCoder)DECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java, .(2á
-4com.thoughtworks.xstream.io.AbstractWriter?nameCoderDECLARATIONB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java (2n
- ExtendedHierarchicalStreamWriterEXTENDB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java0 (Pù
-;com.thoughtworks.xstream.io.AbstractWriter.AbstractWriter()CONSTRUCTORB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java" "(*AbstractWriter2}
-*com.thoughtworks.xstream.io.AbstractWriterRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java" "(»
-Dcom.thoughtworks.xstream.io.AbstractWriter.AbstractWriter(NameCoder)CONSTRUCTORB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java, ,(*AbstractWriter2ü
-Ncom.thoughtworks.xstream.io.AbstractWriter.AbstractWriter(NameCoder)!nameCoder	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java, ,(02}
-*com.thoughtworks.xstream.io.AbstractWriterRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java, ,(Å
-Ncom.thoughtworks.xstream.io.AbstractWriter.AbstractWriter(NameCoder)!nameCoder	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java,' ,(0*	nameCoder2U
-	NameCoderTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java, ,(&°
-Bcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)METHODB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3 3("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*	startNode2ò
-Gcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3 3(%2ô
-Hcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)!clazz	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3' 3(22®
-\com.thoughtworks.xstream.io.AbstractWriter.startNode(java.lang.String, java.lang.Class)!nameCALLB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java4 4(2W
-voidRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3 3(È
-=com.thoughtworks.xstream.io.AbstractWriter.underlyingWriter()METHODB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java:$ :(4"
-staticfalse"
-finalfalse"
-access modifierpublic"!
-type HierarchicalStreamWriter*underlyingWriter2k
-HierarchicalStreamWriterRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java: :(#˝
-=com.thoughtworks.xstream.io.AbstractWriter.encodeNode(String)METHODB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE E("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*
-encodeNode2ì
-Bcom.thoughtworks.xstream.io.AbstractWriter.encodeNode(String)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE E((2Ä
-4com.thoughtworks.xstream.io.AbstractWriter?nameCoderCALLB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaF F(2ò
-Lcom.thoughtworks.xstream.io.AbstractWriter.encodeNode(java.lang.String)!nameCALLB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaF$ F((2c
-java.lang.StringRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE E(ë
-Bcom.thoughtworks.xstream.io.AbstractWriter.encodeAttribute(String)METHODB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP P(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*encodeAttribute2ò
-Gcom.thoughtworks.xstream.io.AbstractWriter.encodeAttribute(String)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP" P(-2Ä
-4com.thoughtworks.xstream.io.AbstractWriter?nameCoderCALLB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaQ Q(2ù
-Qcom.thoughtworks.xstream.io.AbstractWriter.encodeAttribute(java.lang.String)!nameCALLB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaQ) Q(-2c
-java.lang.StringRETURN_TYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP P(¸
-Gcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3! 3(%*name2\
-java.lang.StringTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3 3( ˝
-Hcom.thoughtworks.xstream.io.AbstractWriter.startNode(String,Class)!clazz	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3- 3(2*clazz2[
-java.lang.ClassTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java3' 3(,˜
-Bcom.thoughtworks.xstream.io.AbstractWriter.encodeNode(String)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE$ E((*name2\
-java.lang.StringTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaE E(#¸
-Gcom.thoughtworks.xstream.io.AbstractWriter.encodeAttribute(String)!name	PARAMETERB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP) P(-*name2\
-java.lang.StringTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.javaP" P((˙
-4com.thoughtworks.xstream.io.AbstractWriter?nameCoderVARIABLEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java ("
-type 	NameCoder*	nameCoder2U
-	NameCoderTYPEB
-8src/java/com/thoughtworks/xstream/io/AbstractWriter.java (

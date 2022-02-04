@@ -1,980 +1,0 @@
-
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÍ*
-1com.thoughtworks.acceptance.annotations.AliasTestCLASSI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java% %("
-inner classfalse*	AliasTest2õ
-Acom.thoughtworks.acceptance.annotations.AliasTest.createXStream()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java' ,(2∫
-`com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java. >(2≤
-Xcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java@ H(2§
-Jcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaP `(2ö
-@com.thoughtworks.acceptance.annotations.AliasTest.equals(Object)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau x(	2ó
-<com.thoughtworks.acceptance.annotations.AliasTest.toString()DECLARATIONJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaz á(	2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.equals(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ô(	2ò
-<com.thoughtworks.acceptance.annotations.AliasTest.toString()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaõ †(	2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.getAddresses()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¶ ¶(02≠
-Qcom.thoughtworks.acceptance.annotations.AliasTest.setAddresses(List<AddressInfo>)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java® ®(<2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.getAddresses()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java∑ π(	2≠
-Qcom.thoughtworks.acceptance.annotations.AliasTest.setAddresses(List<AddressInfo>)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª æ(	2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.equals(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ √(	2î
-8com.thoughtworks.acceptance.annotations.AliasTest.addr()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java… …(2ó
-;com.thoughtworks.acceptance.annotations.AliasTest.zipcode()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÀ À(2î
-8com.thoughtworks.acceptance.annotations.AliasTest.addr()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaŸ €(	2ó
-;com.thoughtworks.acceptance.annotations.AliasTest.zipcode()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java› ﬂ(	2û
-Bcom.thoughtworks.acceptance.annotations.AliasTest.toString(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ È(	2†
-Dcom.thoughtworks.acceptance.annotations.AliasTest.fromString(String)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ Ì(	2ü
-Ccom.thoughtworks.acceptance.annotations.AliasTest.canConvert(Class)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ Ò(	2…
-mcom.thoughtworks.acceptance.annotations.AliasTest.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ ˆ(	2∆
-jcom.thoughtworks.acceptance.annotations.AliasTest.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯ ˙(	2…
-mcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAttributeDefinitionForFieldType()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÉ à(2¿
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationIsInheritedTogetherWithAsAttribute()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java† £(2∏
-^com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson(String,String,int,List<String>)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javam s(	2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.Person(String)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë î(	2õ
-?com.thoughtworks.acceptance.annotations.AliasTest.AddressBook()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java± µ(	2°
-Ecom.thoughtworks.acceptance.annotations.AliasTest.Address(String,int)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ◊(	2ü
-Ccom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‰ Â(	2õ
-?com.thoughtworks.acceptance.annotations.AliasTest.Aged(Integer)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè ë(	2ß
-Kcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing(String,Integer)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ù(	2k
-AbstractAcceptanceTestEXTENDI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java% %(5Ω
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!firstName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(*	firstName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(ª
-tcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!lastName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan% n(-*lastName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n($≤
-vcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!ageInYears	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan3 n(=*
-ageInYears2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan/ n(2Õ
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!nickNames	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javanL n(U*	nickNames2s
- java.util.List<java.lang.String>TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan? n(Kì
-Lcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(String)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(!*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(ô
-Rcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!addr	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘("*addr2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘(í
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!zipcode	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘( ‘(/*zipcode2X
-intTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘$ ‘('ç
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(*id2f
-java.lang.IntegerTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(°
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö' ö()*id2f
-java.lang.IntegerTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(&ˇ
-Acom.thoughtworks.acceptance.annotations.AliasTest.createXStream()METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java( ((#"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type XStream*createXStream2£
-Icom.thoughtworks.acceptance.annotations.AliasTest.createXStream()?xstreamDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java) )(/2a
-XStreamRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java( ((¶
-`com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java. .(<"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*,testAnnotationForClassWithAnnotatedConverter2æ
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()?mapDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java/ /(?2æ
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()?xmlDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java2 <(2j
-java.util.Map.put(K, V)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java0 0(72j
-java.util.Map.put(K, V)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java1 1(82n
-java.util.HashMap.HashMap()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java/" /(?2§
-Qcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java0  0(62§
-Qcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java1! 1(72^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java. .(á
-Xcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java@ @(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testAnnotationForFieldWithAliasCycle2∏
-^com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()?cycleDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaA A(!2∂
-\com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()?xmlDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaC F(2í
-?com.thoughtworks.acceptance.annotations.AliasTest.Cycle.Cycle()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaA A(!2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java@ @(©
-Jcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaP P(&"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAnnotationForField2Æ
-Tcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?nickNamesDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaQ Q(82´
-Qcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?personDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaT T(L2∞
-Vcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?expectedXmlDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaU ^(2h
-java.util.List.add(E)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaR R(2h
-java.util.List.add(E)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaS S(2r
-java.util.ArrayList.ArrayList()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaQ! Q(82Í
-ñcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaT T(L2^
-voidRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaP P(ë
-mcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAttributeDefinitionForFieldType()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÉ É(I"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*9testAnnotationForFieldWithAttributeDefinitionForFieldType2Õ
-qcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAttributeDefinitionForFieldType()?xmlDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÜ Ü(/2í
-=com.thoughtworks.acceptance.annotations.AliasTest.Dash.Dash()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaá á(!2`
-voidRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÉ É(£
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationIsInheritedTogetherWithAsAttribute()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java† †(@"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*0testAnnotationIsInheritedTogetherWithAsAttribute2ƒ
-hcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationIsInheritedTogetherWithAsAttribute()?xmlDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java° °(82ø
-jcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(java.lang.String, java.lang.Integer)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¢ ¢(02`
-voidRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java† †(ì
-Qcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(Object)!obj	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau% u((*obj2c
-java.lang.ObjectTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau u($ë
-Kcom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ% ñ((*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ñ($Ò
-icom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.setAddresses(List<AddressInfo>)!address	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java®3 ®(:*address2¢
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java®! ®(2Ò
-gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(List<AddressInfo>)!addresses	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª3 ª(<*	addresses2¢
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª! ª(2ñ
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿% ¿((*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ ¿($ú
-Vcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ& Á()*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ Á(%û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(String)!str	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ( Î(+*str2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ! Î('û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(Class)!type	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ( Ô(,*type2d
-java.lang.ClassTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ" Ô('Œ
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ# Û()*source2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ Û("÷
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛD Û(J*writer2m
-HierarchicalStreamWriterTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ+ Û(C“
-Öcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÙ Ù(&*context2g
-MarshallingContextTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÙ Ù(”
-Åcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯9 ¯(?*reader2m
-HierarchicalStreamReaderTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯  ¯(8—
-Çcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯V ¯(]*context2i
-UnmarshallingContextTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯A ¯(Uó
-Icom.thoughtworks.acceptance.annotations.AliasTest.createXStream()?xstreamVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java) )("
-type XStream*xstream2Z
-XStreamTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java) )(¸
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()?mapVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java/ /("
-type Map<String,Person>*map2¨
-Yjava.util.Map<java.lang.String, com.thoughtworks.acceptance.annotations.AliasTest.Person>TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java/ /(2n
-java.util.HashMap.HashMap()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java/" /(?∂
-dcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForClassWithAnnotatedConverter()?xmlVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java2 2("
-type String*xml2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java2 2(Ó
-^com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()?cycleVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaA A("
-type Cycle*cycle2ä
-7com.thoughtworks.acceptance.annotations.AliasTest.CycleTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaA A(2í
-?com.thoughtworks.acceptance.annotations.AliasTest.Cycle.Cycle()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaA A(!Æ
-\com.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAliasCycle()?xmlVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaC C("
-type String*xml2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaC C(∂
-Tcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?nickNamesVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaQ Q("
-type List<String>*	nickNames2s
- java.util.List<java.lang.String>TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaQ Q(2r
-java.util.ArrayList.ArrayList()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaQ! Q(8»
-Qcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?personVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaT T("
-type CustomPerson*person2ë
->com.thoughtworks.acceptance.annotations.AliasTest.CustomPersonTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaT T(2Í
-ñcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaT T(L∞
-Vcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForField()?expectedXmlVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaU U("
-type String*expectedXml2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaU U(ß
-Lcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()?sbVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |("
-type StringBuilder*sb2j
-java.lang.StringBuilderTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(2z
-'java.lang.StringBuilder.StringBuilder()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(2ß
-Fcom.thoughtworks.acceptance.annotations.AliasTest.Person.toString()?sbVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù("
-type StringBuilder*sb2l
-java.lang.StringBuilderTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(2|
-'java.lang.StringBuilder.StringBuilder()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(2«
-qcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationForFieldWithAttributeDefinitionForFieldType()?xmlVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÜ Ü("
-type String*xml2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÜ Ü(æ
-hcom.thoughtworks.acceptance.annotations.AliasTest.testAnnotationIsInheritedTogetherWithAsAttribute()?xmlVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java° °("
-type String*xml2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java° °(≈
-7com.thoughtworks.acceptance.annotations.AliasTest.CycleCLASSI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaK K("
-inner classfalse*Cycle2ö
-@com.thoughtworks.acceptance.annotations.AliasTest.Cycle?internalDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaM M(æ
-@com.thoughtworks.acceptance.annotations.AliasTest.Cycle?internalVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaM M("
-type Cycle*internal2ä
-7com.thoughtworks.acceptance.annotations.AliasTest.CycleTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaM M(„
-
->com.thoughtworks.acceptance.annotations.AliasTest.CustomPersonCLASSI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javac c($"
-inner classfalse*CustomPerson2ß
-Mcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(Object)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau x(	2§
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()DECLARATIONJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaz á(	2≈
-kcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)DECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javam s(	2¢
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?firstNameDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javae e(2°
-Gcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?lastNameDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javag g(2£
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?ageInYearsDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javai i(2¢
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?nickNamesDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javak k(ä
-kcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)CONSTRUCTORI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javam m(*CustomPerson2Õ
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!firstName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(2Ã
-tcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!lastName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(-2Œ
-vcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!ageInYears	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan/ n(=2Õ
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!nickNames	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan? n(U2Ù
-†com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)!firstNameCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javao o(&2Û
-ücom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)!lastNameCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javap p($2ı
-°com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)!ageInYearsCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaq q((2Ù
-†com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(java.lang.String, java.lang.String, int, java.util.List<java.lang.String>)!nickNamesCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javar r(&2ò
->com.thoughtworks.acceptance.annotations.AliasTest.CustomPersonRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javam m(Ω
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!firstName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(*	firstName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n(ª
-tcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!lastName	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan% n(-*lastName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan n($≤
-vcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!ageInYears	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan3 n(=*
-ageInYears2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan/ n(2Õ
-ucom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.CustomPerson(String,String,int,List<String>)!nickNames	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javanL n(U*	nickNames2s
- java.util.List<java.lang.String>TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javan? n(Kß
-Mcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(Object)METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau u("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2©
-Qcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(Object)!obj	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau u((2|
-)java.lang.String.equals(java.lang.Object)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaw w(42ú
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaw w(2n
-java.lang.Object.toString()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaw% w(32Æ
-[com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(java.lang.Object)!objCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javav v(2Æ
-[com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(java.lang.Object)!objCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javav# v(&2Æ
-[com.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(java.lang.Object)!objCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaw% w((2a
-booleanRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau u(•
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()METHODI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java{ {("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2¶
-Lcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()?sbDECLARATIONI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(22Ñ
-0java.lang.StringBuilder.append(java.lang.Object)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} Ö("2Ñ
-0java.lang.StringBuilder.append(java.lang.String)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} Ñ(&2w
-#java.lang.StringBuilder.append(int)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} É(#2Ñ
-0java.lang.StringBuilder.append(java.lang.String)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} Ç('2Ñ
-0java.lang.StringBuilder.append(java.lang.String)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} Å(!2Ñ
-0java.lang.StringBuilder.append(java.lang.String)CALLJ
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} Ä(%2É
-0java.lang.StringBuilder.append(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} ("2É
-0java.lang.StringBuilder.append(java.lang.String)CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java} ~(%2w
-"java.lang.StringBuilder.toString()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÜ Ü( 2z
-'java.lang.StringBuilder.StringBuilder()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(22õ
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?firstNameCALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java (!2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?lastNameCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÅ Å( 2û
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?ageInYearsCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÉ É("2ù
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?nickNamesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÖ Ö(!2j
-java.lang.StringRETURN_TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java{ {(ì
-Qcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.equals(Object)!obj	PARAMETERI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau% u((*obj2c
-java.lang.ObjectTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javau u($ß
-Lcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson.toString()?sbVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |("
-type StringBuilder*sb2j
-java.lang.StringBuilderTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(2z
-'java.lang.StringBuilder.StringBuilder()CALLI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java| |(2†
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?firstNameVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javae e("
-type String*	firstName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javae e(û
-Gcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?lastNameVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javag g("
-type String*lastName2c
-java.lang.StringTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javag g(í
-Icom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?ageInYearsVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javai i("
-type int*
-ageInYears2V
-intTYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javai i(∂
-Hcom.thoughtworks.acceptance.annotations.AliasTest.CustomPerson?nickNamesVARIABLEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javak k("
-type List<String>*	nickNames2s
- java.util.List<java.lang.String>TYPEI
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javak k(Ÿ
-8com.thoughtworks.acceptance.annotations.AliasTest.PersonCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaç ç("
-inner classfalse*Person2£
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ô(	2ü
-Ccom.thoughtworks.acceptance.annotations.AliasTest.Person.toString()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaõ †(	2£
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(String)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë î(	2ô
-=com.thoughtworks.acceptance.annotations.AliasTest.Person?nameDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaé é(2†
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Person?addressBookDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(#ÿ
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(String)CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(*Person2¶
-Lcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(String)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(!2†
-Kcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.AddressBook()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaì ì(+2´
-Vcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(java.lang.String)!nameCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaí í(2ô
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Person?addressBookCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaì ì(2î
-8com.thoughtworks.acceptance.annotations.AliasTest.PersonRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(ì
-Lcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(String)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(!*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaë ë(§
-
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(Object)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ñ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2•
-Kcom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ñ((2~
-)java.lang.Object.equals(java.lang.Object)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò ò(@2™
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaó ó(2™
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaó# ó(&2ô
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Person?addressBookCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò ò(2™
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò/ ò(22c
-booleanRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ñ(Ã
-Ccom.thoughtworks.acceptance.annotations.AliasTest.Person.toString()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaú ú("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2¢
-Fcom.thoughtworks.acceptance.annotations.AliasTest.Person.toString()?sbDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(22Ö
-0java.lang.StringBuilder.append(java.lang.Object)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaû û(U2Ö
-0java.lang.StringBuilder.append(java.lang.String)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaû û(A2Ö
-0java.lang.StringBuilder.append(java.lang.String)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaû û(+2Ö
-0java.lang.StringBuilder.append(java.lang.String)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaû û(2w
-"java.lang.StringBuilder.toString()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaü ü( 2|
-'java.lang.StringBuilder.StringBuilder()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(22í
-=com.thoughtworks.acceptance.annotations.AliasTest.Person?nameCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaû& û(*2ô
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Person?addressBookCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaûI û(T2l
-java.lang.StringRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaú ú(ë
-Kcom.thoughtworks.acceptance.annotations.AliasTest.Person.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ% ñ((*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javañ ñ($ß
-Fcom.thoughtworks.acceptance.annotations.AliasTest.Person.toString()?sbVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù("
-type StringBuilder*sb2l
-java.lang.StringBuilderTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(2|
-'java.lang.StringBuilder.StringBuilder()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaù ù(2î
-=com.thoughtworks.acceptance.annotations.AliasTest.Person?nameVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaé é("
-type String*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaé é(›
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Person?addressBookVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(#"
-type AddressBookInfo*addressBook2ñ
-Acom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfoTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(≠
-Acom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfoTRAITK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java• •($"
-inner classfalse*AddressBookInfo2¨
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.getAddresses()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¶ ¶(02Ω
-acom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.setAddresses(List<AddressInfo>)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java® ®(<π
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.getAddresses()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¶! ¶(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type List<AddressInfo>*getAddresses2©
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>RETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¶ ¶( π
-acom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.setAddresses(List<AddressInfo>)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java® ®( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setAddresses2√
-icom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.setAddresses(List<AddressInfo>)!address	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java®! ®(:2`
-voidRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java® ®(Ò
-icom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.setAddresses(List<AddressInfo>)!address	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java®3 ®(:*address2¢
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java®! ®(2≥	
-=com.thoughtworks.acceptance.annotations.AliasTest.AddressBookCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¨ ¨(#"
-inner classfalse*AddressBook2®
-Lcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.getAddresses()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java∑ π(	2π
-]com.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(List<AddressInfo>)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª æ(	2®
-Lcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ √(	2ß
-Kcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.AddressBook()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java± µ(	2£
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaØ" Ø(+2ò
-Acom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfoEXTENDK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¨/ ¨(>€
-Kcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.AddressBook()CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java± ±(*AddressBook2j
-java.util.List.add(E)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java≥ ≥(;2j
-java.util.List.add(E)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¥ ¥(=2t
-java.util.ArrayList.ArrayList()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java≤ ≤(42≠
-Xcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(java.lang.String, int)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java≥ ≥(:2≠
-Xcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(java.lang.String, int)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¥ ¥(<2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java≤ ≤(2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java≥ ≥(2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¥ ¥(2ô
-=com.thoughtworks.acceptance.annotations.AliasTest.AddressBookRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java± ±(‘
-Lcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.getAddresses()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java∑! ∑(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type List<AddressInfo>*getAddresses2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java∏ ∏(2©
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>RETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java∑ ∑( Ø
-]com.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(List<AddressInfo>)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª ª( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setAddresses2¡
-gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(List<AddressInfo>)!addresses	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª! ª(<2˘
-£com.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(java.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>)!addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaº º(&2`
-voidRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª ª(å
-Lcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(Object)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ ¿("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2™
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ ¿((2°
-Ljava.util.List.containsAll(java.util.Collection<? extends java.lang.Object>)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¬ ¬(O2•
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBookInfo.getAddresses()CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¬) ¬(N2Ø
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¡ ¡(2Ø
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¡# ¡(&2ú
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¬ ¬(2Ø
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¬; ¬(>2c
-booleanRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ ¿(Ò
-gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.setAddresses(List<AddressInfo>)!addresses	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª3 ª(<*	addresses2¢
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaª! ª(2ñ
-Pcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook.equals(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿% ¿((*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¿ ¿($Ï
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressBook?addressesVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaØ" Ø(+"
-type List<AddressInfo>*	addresses2¢
-Mjava.util.List<com.thoughtworks.acceptance.annotations.AliasTest.AddressInfo>TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaØ Ø(!ˇ
-=com.thoughtworks.acceptance.annotations.AliasTest.AddressInfoTRAITK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java» »( "
-inner classfalse*AddressInfo2†
-Dcom.thoughtworks.acceptance.annotations.AliasTest.AddressInfo.addr()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java… …(2£
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressInfo.zipcode()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÀ À(‹
-Dcom.thoughtworks.acceptance.annotations.AliasTest.AddressInfo.addr()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java… …("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*addr2l
-java.lang.StringRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java… …(“
-Gcom.thoughtworks.acceptance.annotations.AliasTest.AddressInfo.zipcode()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÀ À("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*zipcode2_
-intRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÀ À(Ô
-9com.thoughtworks.acceptance.annotations.AliasTest.AddressCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaœ œ("
-inner classfalse*Address2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.Address.addr()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaŸ €(	2ü
-Ccom.thoughtworks.acceptance.annotations.AliasTest.Address.zipcode()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java› ﬂ(	2©
-Mcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ◊(	2ö
->com.thoughtworks.acceptance.annotations.AliasTest.Address?addrDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java— —(2ù
-Acom.thoughtworks.acceptance.annotations.AliasTest.Address?zipcodeDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java“ “(2î
-=com.thoughtworks.acceptance.annotations.AliasTest.AddressInfoEXTENDK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaœ+ œ(6ò
-Mcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘(*Address2¨
-Rcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!addr	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘("2Ø
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!zipcode	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘$ ‘(/2≤
-]com.thoughtworks.acceptance.annotations.AliasTest.Address.Address(java.lang.String, int)!addrCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java’ ’(2µ
-`com.thoughtworks.acceptance.annotations.AliasTest.Address.Address(java.lang.String, int)!zipcodeCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java÷ ÷("2ï
-9com.thoughtworks.acceptance.annotations.AliasTest.AddressRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘(ô
-Rcom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!addr	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘("*addr2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘ ‘(í
-Ucom.thoughtworks.acceptance.annotations.AliasTest.Address.Address(String,int)!zipcode	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘( ‘(/*zipcode2X
-intTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‘$ ‘('Ó
-@com.thoughtworks.acceptance.annotations.AliasTest.Address.addr()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaŸ Ÿ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*addr2ì
->com.thoughtworks.acceptance.annotations.AliasTest.Address?addrCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java⁄ ⁄(2l
-java.lang.StringRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaŸ Ÿ(Á
-Ccom.thoughtworks.acceptance.annotations.AliasTest.Address.zipcode()METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java› ›("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type int*zipcode2ñ
-Acom.thoughtworks.acceptance.annotations.AliasTest.Address?zipcodeCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaﬁ ﬁ(2_
-intRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java› ›(ï
->com.thoughtworks.acceptance.annotations.AliasTest.Address?addrVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java— —("
-type String*addr2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java— —(ã
-Acom.thoughtworks.acceptance.annotations.AliasTest.Address?zipcodeVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java“ “("
-type int*zipcode2X
-intTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java“ “(ù
-Acom.thoughtworks.acceptance.annotations.AliasTest.PersonConverterCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java„ „('"
-inner classfalse*PersonConverter2Æ
-Rcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(Object)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ È(	2∞
-Tcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(String)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ Ì(	2Ø
-Scom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(Class)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ Ò(	2Ÿ
-}com.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ ˆ(	2÷
-zcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯ ˙(	2Ø
-Scom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.PersonConverter()DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‰ Â(	2`
-	ConverterEXTENDK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java„3 „(<‡
-Scom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.PersonConverter()CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‰ ‰(*PersonConverter2ù
-Acom.thoughtworks.acceptance.annotations.AliasTest.PersonConverterRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java‰ ‰(Ÿ
-Rcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(Object)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ Á("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2∞
-Vcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ Á()2µ
-`com.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(java.lang.Object)!objCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaË Ë(2l
-java.lang.StringRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ Á(ä
-Tcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(String)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ Î( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*
-fromString2≤
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(String)!str	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ! Î(+2¶
-Qcom.thoughtworks.acceptance.annotations.AliasTest.Person.Person(java.lang.String)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÏ Ï("2∑
-bcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(java.lang.String)!strCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÏ Ï(!2l
-java.lang.ObjectRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ Î(ÿ
-Scom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(Class)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ Ô(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2≤
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(Class)!type	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ" Ô(,2∑
-bcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(java.lang.Class)!typeCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java (2c
-booleanRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ Ô(Â	
-}com.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ Û("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2ﬂ
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ Û()2ﬂ
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ+ Û(J2‡
-Öcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÙ Ù(&2±
-\com.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(java.lang.Object)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaı ı(,2`
-voidRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ Û(÷
-zcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯ ¯("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2‹
-Åcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯  ¯(?2›
-Çcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯A ¯(]2l
-java.lang.ObjectRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯ ¯(ú
-Vcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.toString(Object)!obj	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ& Á()*obj2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÁ Á(%û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.fromString(String)!str	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ( Î(+*str2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÎ! Î('û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.canConvert(Class)!type	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ( Ô(,*type2d
-java.lang.ClassTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÔ" Ô('Œ
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ# Û()*source2e
-java.lang.ObjectTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ Û("÷
-Ñcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛD Û(J*writer2m
-HierarchicalStreamWriterTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÛ+ Û(C“
-Öcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÙ Ù(&*context2g
-MarshallingContextTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÙ Ù(”
-Åcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯9 ¯(?*reader2m
-HierarchicalStreamReaderTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯  ¯(8—
-Çcom.thoughtworks.acceptance.annotations.AliasTest.PersonConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯V ¯(]*context2i
-UnmarshallingContextTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java¯A ¯(U«
-6com.thoughtworks.acceptance.annotations.AliasTest.DashCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.java˝ ˝("
-inner classfalse*Dash2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.Dash?camelCaseDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÄ Ä(å
-@com.thoughtworks.acceptance.annotations.AliasTest.Dash?camelCaseVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÄ Ä("
-type int*	camelCase2X
-intTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaÄ Ä(„
-6com.thoughtworks.acceptance.annotations.AliasTest.AgedCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaä! ä(%"
-inner classfalse*Aged2†
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(Integer)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè ë(	2ï
-9com.thoughtworks.acceptance.annotations.AliasTest.Aged?idDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaç ç(à
-Dcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(Integer)CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(*Aged2°
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(2¶
-Qcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(java.lang.Integer)!idCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaê ê(2í
-6com.thoughtworks.acceptance.annotations.AliasTest.AgedRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(ç
-Gcom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(*id2f
-java.lang.IntegerTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaè è(ê
-9com.thoughtworks.acceptance.annotations.AliasTest.Aged?idVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaç ç("
-type Integer*id2f
-java.lang.IntegerTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaç ç(ï
-;com.thoughtworks.acceptance.annotations.AliasTest.AgedThingCLASSK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaï ï(!"
-inner classfalse*	AgedThing2±
-Ucom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)DECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ù(	2ú
-@com.thoughtworks.acceptance.annotations.AliasTest.AgedThing?nameDECLARATIONK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò ò(2ç
-6com.thoughtworks.acceptance.annotations.AliasTest.AgedEXTENDK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaï* ï(.Ù	
-Ucom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)CONSTRUCTORK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(*	AgedThing2¥
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(2≤
-Xcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö()2£
-Ncom.thoughtworks.acceptance.annotations.AliasTest.Aged.Aged(java.lang.Integer)CALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaõ õ(2¬
-mcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(java.lang.String, java.lang.Integer)!idCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaõ õ(2ƒ
-ocom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(java.lang.String, java.lang.Integer)!nameCALLK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaú ú(2ó
-;com.thoughtworks.acceptance.annotations.AliasTest.AgedThingRETURN_TYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(°
-Zcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!name	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(û
-Xcom.thoughtworks.acceptance.annotations.AliasTest.AgedThing.AgedThing(String,Integer)!id	PARAMETERK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö' ö()*id2f
-java.lang.IntegerTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaö ö(&ó
-@com.thoughtworks.acceptance.annotations.AliasTest.AgedThing?nameVARIABLEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò ò("
-type String*name2e
-java.lang.StringTYPEK
-?src/test/com/thoughtworks/acceptance/annotations/AliasTest.javaò ò(

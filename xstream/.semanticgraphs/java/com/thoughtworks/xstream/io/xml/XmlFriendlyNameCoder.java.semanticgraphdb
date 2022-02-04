@@ -1,764 +1,0 @@
-
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java"
-4com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoderCLASSL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java/ /(!"
-inner classfalse*XmlFriendlyNameCoder2û
-Acom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.add(int,int)DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 6(2õ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.add(char)DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 :(2´
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeAttribute(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé ê(2¶
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeNode(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ó(2´
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeAttribute(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú û(2¶
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeNode(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£ •(2¶
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß ÷(2¶
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ ë(2õ
-<com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.clone()DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaì ú(2°
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.readResolve()DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaû ¢(2´
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ ∞(2¶
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤ ∑(2µ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ ¡(2®
-Kcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder()DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaj l(2µ
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav x(2æ
-_com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÉ â(2§
-Ecom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair(int,int)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ´(	2¨
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_START_CHAR_BOUNDSDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java0# 0(=2¨
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_CHAR_EXTRA_BOUNDSDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java1# 1(=2£
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java_ _(*2ß
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java` `(.2ù
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaa a(%2ü
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javab b('2õ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixDECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javac c("2a
-	NameCoderEXTENDL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java/- /(62k
-java.lang.CloneableEXTENDL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java/8 /(A“
-Kcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder()CONSTRUCTORL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaj j(*XmlFriendlyNameCoder2ë
-4com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoderRETURN_TYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaj j(®	
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)CONSTRUCTORL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav v(*XmlFriendlyNameCoder2≈
-jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)!dollarReplacement	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav  v(82…
-ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)!escapeCharReplacement	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav: v(V2’
-com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(java.lang.String, java.lang.String)!dollarReplacementCALLL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaw w(2⁄
-Écom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(java.lang.String, java.lang.String)!escapeCharReplacementCALLL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaw  w(52ë
-4com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoderRETURN_TYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav v(π
-_com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)CONSTRUCTORN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÉ É(*XmlFriendlyNameCoder2Œ
-qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!dollarReplacement	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ Ñ( 2“
-ucom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!escapeCharReplacement	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ" Ñ(>2∆
-icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!hexPrefix	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ@ Ñ(P2ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.readResolve()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaà à(2Í
-ëcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(java.lang.String, java.lang.String, java.lang.String)!dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÖ! Ö(22Ó
-ïcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(java.lang.String, java.lang.String, java.lang.String)!escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÜ% Ü(:2‚
-âcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(java.lang.String, java.lang.String, java.lang.String)!hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaá á("2ì
-4com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoderRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÉ É(¿
-jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)!dollarReplacement	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav' v(8*dollarReplacement2f
-java.lang.StringTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav  v(&»
-ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String)!escapeCharReplacement	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javavA v(V*escapeCharReplacement2f
-java.lang.StringTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javav: v(@À
-qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!dollarReplacement	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ Ñ( *dollarReplacement2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ Ñ(”
-ucom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!escapeCharReplacement	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ) Ñ(>*escapeCharReplacement2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ" Ñ((ª
-icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.XmlFriendlyNameCoder(String,String,String)!hexPrefix	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑG Ñ(P*	hexPrefix2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÑ@ Ñ(Fê
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!min	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(*min2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(ê
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!max	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®$ ®('*max2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®  ®(#ö
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeAttribute(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé é(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*decodeAttribute2∑
-Zcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeAttribute(String)!attributeName	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé" é(62©
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaè è((2º
-dcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeAttribute(java.lang.String)!attributeNameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaè è('2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé é(Ç
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeNode(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ï("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*
-decodeNode2∞
-Scom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeNode(String)!elementName	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ï(/2©
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javañ ñ(&2µ
-]com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeNode(java.lang.String)!elementNameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javañ ñ(%2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ï(à
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeAttribute(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú ú(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*encodeAttribute2Æ
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeAttribute(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú" ú(-2©
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaù ù(2≥
-[com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeAttribute(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaù ù(2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú ú(Ù
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeNode(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£ £("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*
-encodeNode2©
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeNode(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£ £((2©
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java§ §(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeNode(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java§ §(2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£ £(Î0
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß ß("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type String*
-encodeName2©
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß ß()2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?sDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(02≠
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?lengthDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(,2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?iDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≠ ≠(2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?cDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞('2≠
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?resultDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(D2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?cDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √('2{
-#java.util.Map.get(java.lang.Object)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(02q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(,2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞('2á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaø ø(32|
-$java.lang.String.substring(int, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaø ø(22t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √('2á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≈ ≈(42á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java« «(82§
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java»' »(<2ü
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java»L »(\2á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java… …(,2á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java    (42á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÀ& À(92á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÃ' Ã(92á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÕ Õ(92z
-"java.lang.Integer.toHexString(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÕ" Õ(82{
-#java.lang.StringBuffer.append(char)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaœ œ($2y
-!java.lang.StringBuffer.toString()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java“ “(!2o
-java.util.Map.put(K, V)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java” ”($2Ä
-(java.lang.StringBuffer.StringBuffer(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª( ª(D2ò
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(&2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®+ ®(/2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(#2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∑ ∑(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaø ø("2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √(2û
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≈" ≈(32¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java«" «(72ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java…" …(+2ò
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java” ”(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java” ”( 2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß ß(çE
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ ÿ("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type String*
-decodeName2©
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ ÿ()2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?sDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ(22¡
-bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?dollarReplacementFirstCharDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€ €(O2¡
-bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?escapeReplacementFirstCharDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹ ‹(S2π
-Zcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?hexPrefixFirstCharDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java› ›(?2≠
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?lengthDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(,2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?iDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java· ·(2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?cDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰('2≠
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?resultDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÛ Û(D2®
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?cDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚('2{
-#java.util.Map.get(java.lang.Object)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ(22t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€4 €(O2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹4 ‹(S2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java›, ›(?2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(,2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰('2á
-/java.lang.StringBuffer.append(java.lang.String)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˜ ˜(32|
-$java.lang.String.substring(int, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˜ ˜(22t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚('2ä
-2java.lang.String.startsWith(java.lang.String, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¸7 ¸(\2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˝ ˝(32{
-#java.lang.StringBuffer.append(char)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˛ ˛(&2ä
-2java.lang.String.startsWith(java.lang.String, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaˇ6 ˇ(S2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÄ Ä(+2â
-1java.lang.Integer.parseInt(java.lang.String, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÅ Å(L2|
-$java.lang.String.substring(int, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÅ/ Å(G2{
-#java.lang.StringBuffer.append(char)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÉ É($2ä
-2java.lang.String.startsWith(java.lang.String, int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÖ Ö(@2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÜ Ü(72{
-#java.lang.StringBuffer.append(char)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaá á(&2{
-#java.lang.StringBuffer.append(char)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaâ â($2y
-!java.lang.StringBuffer.toString()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaç ç(!2o
-java.util.Map.put(K, V)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé é(&2Ä
-(java.lang.StringBuffer.StringBuffer(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÛ( Û(D2ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ((2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ- Ÿ(12û
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€4 €(E2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹4 ‹(I2ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java›, ›(52Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(#2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÔ Ô(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˜ ˜("2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¸7 ¸(;2û
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¸G ¸(X2û
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˝ ˝(*2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaˇ6 ˇ(:2ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaˇF ˇ(O2ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÄ Ä("2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÅ/ Å(32Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÖ Ö(2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÖ' Ö(<2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÜ Ü(.2ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé é(2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé é("2o
-java.lang.StringRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ ÿ(é
-<com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.clone()METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaì ì("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*clone2°
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.clone()?coderDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï! ï(L2p
-java.lang.Object.clone()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï? ï(L2ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.readResolve()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javañ ñ(2o
-java.lang.ObjectRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaì ì(†
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.readResolve()METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaû û("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2ò
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaü ü(2ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java† †(2o
-java.lang.ObjectRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaû û(€
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ Æ(-"
-statictrue"
-finalfalse"
-access modifierprivate"
-type boolean*isXmlNameStartChar2¨
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ. Æ(42Â
-åcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaØ Ø(A2ß
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)!cpCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaØ" Ø($2ß
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_START_CHAR_BOUNDSCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaØ& Ø(@2f
-booleanRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ Æ(ì
-Gcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤ ≤(("
-statictrue"
-finalfalse"
-access modifierprivate"
-type boolean*isXmlNameChar2ß
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤) ≤(/2§
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≥ ≥("2Â
-åcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∂ ∂(A2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)!cpCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≥ ≥(!2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)!cpCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∂" ∂($2ß
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_CHAR_EXTRA_BOUNDSCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∂& ∂(@2f
-booleanRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤ ≤(∞
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])METHODN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ π(-"
-statictrue"
-finalfalse"
-access modifierprivate"
-type boolean*isInNameCharBounds2∂
-Ycom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ. π(42¬
-ecom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])!nameCharBounds	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ6 π(N2∑
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])?iDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∫ ∫(2∑
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])?pDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª()2Ù
-õcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])!nameCharBoundsCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∫ ∫(*2Ù
-õcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])!nameCharBoundsCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(&2Ë
-ècom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])!cpCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaº º(2Ë
-ècom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])!cpCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaº º(!2f
-booleanRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ π(◊
-IntPairList.add(int,int)!min	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(*min2Y
-intTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(◊
-IntPairList.add(int,int)!max	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4" 4(%*max2Y
-intTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(!”
-IntPairList.add(char)!cp	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 8(*cp2Z
-charTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 8(∞
-Zcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeAttribute(String)!attributeName	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé) é(6*attributeName2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaé" é((ß
-Scom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeNode(String)!elementName	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï$ ï(/*elementName2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ï(#û
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeAttribute(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú) ú(-*name2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaú" ú((ô
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeNode(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£$ £((*name2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java£ £(#ô
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß% ß()*name2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaß ß($ô
-Lcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)!name	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ% ÿ()*name2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÿ ÿ($ç
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameStartChar(int)!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ2 Æ(4*cp2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÆ. Æ(1à
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isXmlNameChar(int)!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤- ≤(/*cp2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≤) ≤(,ó
-Ycom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])!cp	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ2 π(4*cp2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ. π(1Î
-ecom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])!nameCharBounds	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ@ π(N*nameCharBounds2ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[]TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaπ6 π(?Ï
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?sVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®("
-type String*s2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(2{
-#java.util.Map.get(java.lang.Object)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(02ò
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(&2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®+ ®(/æ
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?lengthVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™("
-type int*length2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(,2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(#ì
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?iVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≠ ≠("
-type int*i2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java≠ ≠(º
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?cVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞("
-type char*c2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞('2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∞ ∞(π
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?resultVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(%"
-type StringBuffer*result2n
-java.lang.StringBufferTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(2Ä
-(java.lang.StringBuffer.StringBuffer(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª( ª(Dº
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(String)?cVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √("
-type char*c2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √('2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.encodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java√ √(Ó
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?sVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ("
-type String*s2h
-java.lang.StringTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ(2{
-#java.util.Map.get(java.lang.Object)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ(22ö
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ Ÿ((2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaŸ- Ÿ(1€
-bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?dollarReplacementFirstCharVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€ €(1"
-type char*dollarReplacementFirstChar2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€ €(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€4 €(O2û
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java€4 €(Eﬂ
-bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?escapeReplacementFirstCharVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹ ‹(1"
-type char*escapeReplacementFirstChar2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹ ‹(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹4 ‹(S2¢
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‹4 ‹(I√
-Zcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?hexPrefixFirstCharVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java› ›()"
-type char*hexPrefixFirstChar2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java› ›(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java›, ›(?2ñ
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java›, ›(5æ
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?lengthVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ("
-type int*length2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(2q
-java.lang.String.length()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(,2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaﬁ ﬁ(#ì
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?iVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java· ·("
-type int*i2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java· ·(º
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?cVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰("
-type char*c2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰('2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java‰ ‰(π
-Ncom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?resultVALUEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÛ Û(%"
-type StringBuffer*result2n
-java.lang.StringBufferTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÛ Û(2Ä
-(java.lang.StringBuffer.StringBuffer(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaÛ( Û(Dº
-Icom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(String)?cVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚("
-type char*c2\
-charTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚(2t
-java.lang.String.charAt(int)CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚('2Æ
-Vcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.decodeName(java.lang.String)!nameCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java˚ ˚(≈
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.clone()?coderVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï! ï(&"
-type XmlFriendlyNameCoder*coder2å
-4com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoderTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï ï( 2p
-java.lang.Object.clone()CALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaï? ï(L¢
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])?iVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∫ ∫("
-type int*i2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java∫ ∫(◊
-Xcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int,IntPair[])?pVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª("
-type IntPair*p2î
-<com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPairTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(2Ù
-õcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.isInNameCharBounds(int, com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[])!nameCharBoundsCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaª ª(&Ì
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_START_CHAR_BOUNDSVALUEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java0# 0(="
-type 	IntPair[]*XML_NAME_START_CHAR_BOUNDS2î
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[]TYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java0 0("Ì
-Ocom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?XML_NAME_CHAR_EXTRA_BOUNDSVALUEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java1# 1(="
-type 	IntPair[]*XML_NAME_CHAR_EXTRA_BOUNDS2î
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair[]TYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java1 1("©
-Fcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?dollarReplacementVALUEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java_ _(*"
-type String*dollarReplacement2f
-java.lang.StringTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java_ _(±
-Jcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCharReplacementVALUEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java` `(."
-type String*escapeCharReplacement2f
-java.lang.StringTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java` `(ö
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?escapeCacheVARIABLEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaa a(%"
-type Map*escapeCache2c
-java.util.MapTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javaa a(û
-Bcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?unescapeCacheVARIABLEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javab b('"
-type Map*unescapeCache2c
-java.util.MapTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javab b(ô
->com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder?hexPrefixVALUEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javac c(""
-type String*	hexPrefix2f
-java.lang.StringTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.javac c(›
-IntPairListCLASSL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java3 3("
-inner classfalse*IntPairList2u
-IntPairList.add(int,int)DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 6(2r
-IntPairList.add(char)DECLARATIONL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 :(2k
-java.util.ArrayListEXTENDL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java3" 3(+◊
-IntPairList.add(int,int)!min	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(*min2Y
-intTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(◊
-IntPairList.add(int,int)!max	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4" 4(%*max2Y
-intTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java4 4(!”
-IntPairList.add(char)!cp	PARAMETERL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 8(*cp2Z
-charTYPEL
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java8 8(ß
-<com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPairCLASSN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java§ §( "
-inner classfalse*IntPair2¨
-Mcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)DECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ´(	2ü
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair?minDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java• •(2ü
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair?maxDECLARATIONN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¶ ¶(è
-Mcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)CONSTRUCTORN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(*IntPair2Æ
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!min	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(2Æ
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!max	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®  ®('2™
-Rcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int, int)!minCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java© ©(2™
-Rcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int, int)!maxCALLN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java™ ™(2õ
-<com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPairRETURN_TYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(ê
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!min	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(*min2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java® ®(ê
-Qcom.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair.IntPair(int,int)!max	PARAMETERN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®$ ®('*max2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java®  ®(#å
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair?minVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java• •("
-type int*min2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java• •(å
-@com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.IntPair?maxVARIABLEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¶ ¶("
-type int*max2[
-intTYPEN
-Bsrc/java/com/thoughtworks/xstream/io/xml/XmlFriendlyNameCoder.java¶ ¶(

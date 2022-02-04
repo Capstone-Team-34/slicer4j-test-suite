@@ -1,86 +1,0 @@
-
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java©
->com.thoughtworks.xstream.converters.extended.DurationConverterCLASSV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java ("
-inner classfalse*DurationConverter2²
-Kcom.thoughtworks.xstream.converters.extended.DurationConverter.getFactory()DECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java$ *(2·
-Pcom.thoughtworks.xstream.converters.extended.DurationConverter.canConvert(Class)DECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2 4(2¸
-Qcom.thoughtworks.xstream.converters.extended.DurationConverter.fromString(String)DECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6 8(2¹
-Rcom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter()DECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java" ,(2È
-acom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter(DatatypeFactory)DECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java. 0(2­
-Fcom.thoughtworks.xstream.converters.extended.DurationConverter?factoryDECLARATIONV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java "  ()2~
-AbstractSingleValueConverterEXTENDV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java' (C‚
-Rcom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter()CONSTRUCTORV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java" "(*DurationConverter2
-0javax.xml.datatype.DatatypeFactory.newInstance()CALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java& &(82y
-java.lang.Object.Object()CALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java# +(	2¥
->com.thoughtworks.xstream.converters.extended.DurationConverterRETURN_TYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java" "(³
-acom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter(DatatypeFactory)CONSTRUCTORV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java. .(*DurationConverter2Î
-icom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter(DatatypeFactory)!factory	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java. .(42Ü
-|com.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter(javax.xml.datatype.DatatypeFactory)!factoryCALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java/ /(2¥
->com.thoughtworks.xstream.converters.extended.DurationConverterRETURN_TYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java. .(Ü
-icom.thoughtworks.xstream.converters.extended.DurationConverter.DurationConverter(DatatypeFactory)!factory	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java.- .(4*factory2‚
-"javax.xml.datatype.DatatypeFactoryTYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java. .(,Î
-Pcom.thoughtworks.xstream.converters.extended.DurationConverter.canConvert(Class)METHODV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2 2("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2·
-Rcom.thoughtworks.xstream.converters.extended.DurationConverter.canConvert(Class)!c	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2 2(%2­
-Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java3" 3(D2¦
-Fcom.thoughtworks.xstream.converters.extended.DurationConverter?factoryCALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java3 3(2¼
-\com.thoughtworks.xstream.converters.extended.DurationConverter.canConvert(java.lang.Class)!cCALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java3B 3(C2n
-booleanRETURN_TYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2 2(Ì
-Qcom.thoughtworks.xstream.converters.extended.DurationConverter.fromString(String)METHODV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6 6("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*
-fromString2¸
-Scom.thoughtworks.xstream.converters.extended.DurationConverter.fromString(String)!s	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6 6(%2 
-@javax.xml.datatype.DatatypeFactory.newDuration(java.lang.String)CALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java7 7(%2¦
-Fcom.thoughtworks.xstream.converters.extended.DurationConverter?factoryCALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java7 7(2½
-]com.thoughtworks.xstream.converters.extended.DurationConverter.fromString(java.lang.String)!sCALLV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java7# 7($2w
-java.lang.ObjectRETURN_TYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6 6(«
-Rcom.thoughtworks.xstream.converters.extended.DurationConverter.canConvert(Class)!c	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2$ 2(%*c2o
-java.lang.ClassTYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java2 2(#­
-Scom.thoughtworks.xstream.converters.extended.DurationConverter.fromString(String)!s	PARAMETERV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6$ 6(%*s2p
-java.lang.StringTYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java6 6(#Ï
-Fcom.thoughtworks.xstream.converters.extended.DurationConverter?factoryVALUEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java "  ()"
-type DatatypeFactory*factory2‚
-"javax.xml.datatype.DatatypeFactoryTYPEV
-Lsrc/java/com/thoughtworks/xstream/converters/extended/DurationConverter.java   (!

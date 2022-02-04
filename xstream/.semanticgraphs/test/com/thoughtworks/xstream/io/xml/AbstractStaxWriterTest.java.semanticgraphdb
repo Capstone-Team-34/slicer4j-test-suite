@@ -1,317 +1,0 @@
-
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java½
-6com.thoughtworks.xstream.io.xml.AbstractStaxWriterTestCLASSN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (,"
-inner classfalse*AbstractStaxWriterTest2¤
-Ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.getXMLHeader()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (-2¥
-Fcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.getStaxDriver()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (22
->com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.setUp()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java! .(2³
-Tcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java0 7(2¶
-Wcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java9 @(2¸
-Ycom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaB O(2Ä
-ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ T(2·
-Xcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV Y(2º
-[com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[ ^(2°
-Qcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)DECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java` f(2œ
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (!2ž
-?com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?perlUtilDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java ( 2 
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (#2Ÿ
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (2o
-AbstractXMLWriterTestEXTENDN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java5 (Jî
-Ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.getXMLHeader()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (*"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type String*getXMLHeader2o
-java.lang.StringRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (î
-Fcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.getStaxDriver()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java" (/"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type 
-StaxDriver*getStaxDriver2i
-
-StaxDriverRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (!•
->com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.setUp()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java! !("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2ž
-Fcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.getStaxDriver()CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java# #($2{
-#java.io.StringWriter.StringWriter()CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java% %(#2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java# #(2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java$ $(2•
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java% %(2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java& &(2•
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java&) &(/2—
-?com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?perlUtilCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java' '(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java) )(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java* *(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java+ +(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java, ,(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java- -(2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java!" !(+æ
-Tcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java0 0(+"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testNamespacedXmlWithPrefix2¼
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?qnameMapDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java1 1(*2¹
-Zcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?qnameDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java2 2(A2½
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?expectedDECLARATIONO
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java5 5(º2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java2 2(A2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java05 0(>ã
-Wcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java9 9(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testNamespacedXmlWithoutPrefix2¿
-`com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?qnameMapDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java: :(*2¼
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?qnameDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java; ;(82À
-`com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?expectedDECLARATIONO
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java> >(ª2›
-Cjavax.xml.namespace.QName.QName(java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java; ;(82c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java98 9(Aß
-Ycom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaB B(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testNamespacedXmlWithPrefixTwice2Á
-bcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?qnameMapDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaC C(*2¾
-_com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?qnameDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaD D(A2Â
-bcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?expectedDECLARATIONO
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaM M(ô2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaD D(A2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaG G(<2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaJ J(<2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaB: B(C­
-ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ Q(0"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*marshalWithBothRepairingModes2Ë
-ncom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ1 Q(B2Ë
-ncom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQD Q(S2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ Q(ù
-Xcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV V(#"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*marshalRepairing2¾
-acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV$ V(52¾
-acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV7 V(F2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV V(…
-[com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[ [(&"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*marshalNonRepairing2Á
-dcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[' [(82Á
-dcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[: [(I2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[ [(¾
-Qcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)METHODN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java` `("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*marshall2·
-Zcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java` `(-2Â
-ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)!repairNamespaceMode	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java`/ `(J2¸
-Ycom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)?xstreamDECLARATIONN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javac c(12{
-#java.io.StringWriter.StringWriter()CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javad d(#2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaa a(2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javab b(2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javac& c(02•
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javad d(2˜
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javae e(2•
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javae! e('2c
-voidRETURN_TYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java` `(·
-ncom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ: Q(B*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQ1 Q(9¿
-ncom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalWithBothRepairingModes(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQK Q(S*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaQD Q(Jª
-acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV- V(5*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV$ V(,²
-acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalRepairing(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV> V(F*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaV7 V(=­
-dcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[0 [(8*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[' [(/µ
-dcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshalNonRepairing(QNameMap,String)!expected	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[A [(I*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java[: [(@£
-Zcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)!qnameMap	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java`% `(-*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java` `($¸
-ecom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)!repairNamespaceMode	PARAMETERN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java`7 `(J*repairNamespaceMode2_
-booleanTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java`/ `(6¸
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?qnameMapVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java1 1("
-type QNameMap*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java1 1(ð
-Zcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?qnameVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java2 2("
-type QName*qname2q
-javax.xml.namespace.QNameTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java2 2(2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java2 2(A¾
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefix()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java5 5("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java5 5(»
-`com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?qnameMapVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java: :("
-type QNameMap*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java: :(á
-]com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?qnameVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java; ;("
-type QName*qname2q
-javax.xml.namespace.QNameTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java; ;(2›
-Cjavax.xml.namespace.QName.QName(java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java; ;(8Á
-`com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithoutPrefix()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java> >("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java> >(½
-bcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?qnameMapVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaC C("
-type QNameMap*qnameMap2`
-QNameMapTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaC C(õ
-_com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?qnameVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaD D("
-type QName*qname2q
-javax.xml.namespace.QNameTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaD D(2­
-Ujavax.xml.namespace.QName.QName(java.lang.String, java.lang.String, java.lang.String)CALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaD D(AÃ
-bcom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.testNamespacedXmlWithPrefixTwice()?expectedVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaM M("
-type String*expected2h
-java.lang.StringTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javaM M(Í
-Ycom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest.marshall(QNameMap,boolean)?xstreamVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javac c("
-type XStream*xstream2_
-XStreamTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javac c(2™
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverCALLN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.javac& c(0¦
-=com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?bufferVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (!"
-type StringWriter*buffer2l
-java.io.StringWriterTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (œ
-?com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?perlUtilVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java ( "
-type 	Perl5Util*perlUtil2a
-	Perl5UtilTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (¢
-Acom.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?staxDriverVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (#"
-type 
-StaxDriver*
-staxDriver2b
-
-StaxDriverTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (Ž
-@com.thoughtworks.xstream.io.xml.AbstractStaxWriterTest?testInputVARIABLEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java ("
-
-type X*	testInput2Y
-XTYPEN
-Dsrc/test/com/thoughtworks/xstream/io/xml/AbstractStaxWriterTest.java (

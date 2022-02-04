@@ -1,304 +1,0 @@
-
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaÂ
-5com.thoughtworks.xstream.io.binary.BinaryStreamWriterCLASSM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java ("
-inner classfalse*BinaryStreamWriter2•
-Gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$ &(2´
-Mcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java( *(2Ø
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java, .(2§
-Fcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.setValue(String)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0 2(2ù
-?com.thoughtworks.xstream.io.binary.BinaryStreamWriter.endNode()DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java4 6(2õ
-=com.thoughtworks.xstream.io.binary.BinaryStreamWriter.flush()DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java8 >(2õ
-=com.thoughtworks.xstream.io.binary.BinaryStreamWriter.close()DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java@ F(2¶
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.underlyingWriter()DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaH J(2†
-Bcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.write(Token)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL R(2°
-Ccom.thoughtworks.xstream.io.binary.BinaryStreamWriter.getId(String)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY a(	2¥
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.BinaryStreamWriter(OutputStream)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java  "(2û
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter?idRegistryDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java (:2ó
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java# (&2¢
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter?tokenFormatterDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java" (H2y
- ExtendedHierarchicalStreamWriterEXTENDM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java+ (K2û
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistryDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaT c(ë
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.BinaryStreamWriter(OutputStream)CONSTRUCTORM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java   (*BinaryStreamWriter2ø
-ccom.thoughtworks.xstream.io.binary.BinaryStreamWriter.BinaryStreamWriter(OutputStream)!outputStream	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java   (72ñ
-?java.io.DataOutputStream.DataOutputStream(java.io.OutputStream)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java! !(02ê
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java! !(2¬
-kcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.BinaryStreamWriter(java.io.OutputStream)!outputStreamCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java!# !(/2ì
-5com.thoughtworks.xstream.io.binary.BinaryStreamWriterRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java   (∫
-ccom.thoughtworks.xstream.io.binary.BinaryStreamWriter.BinaryStreamWriter(OutputStream)!outputStream	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java +  (7*outputStream2k
-java.io.OutputStreamTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java   (*Å
-Gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$ $("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*	startNode2®
-Lcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$ $(%2Ø
-Xcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java%" %(82ó
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter?idRegistryCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java%" %(,2≠
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(java.lang.String)!nameCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java%3 %(72b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$ $(Ø
-Mcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java( (("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*	startNode2Æ
-Rcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java( ((%2Ø
-Scom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)!clazz	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java(' ((22®
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(java.lang.String)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java) )(2æ
-gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(java.lang.String, java.lang.Class)!nameCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java) )(2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java( ((©
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java, ,("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addAttribute2≤
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java, ,((2≥
-Wcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)!value	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java,* ,(62Ø
-Xcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java-" -(82ó
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter?idRegistryCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java-" -(,2¬
-kcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(java.lang.String, java.lang.String)!nameCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java-3 -(72√
-lcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(java.lang.String, java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java-: -(?2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java, ,(±
-Fcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.setValue(String)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0 0("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setValue2ß
-Kcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.setValue(String)!text	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0 0($2¨
-Ucom.thoughtworks.xstream.io.binary.BinaryStreamWriter.setValue(java.lang.String)!textCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java1 1("2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0 0(–
-?com.thoughtworks.xstream.io.binary.BinaryStreamWriter.endNode()METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java4 4("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*endNode2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java4 4(ÿ
-=com.thoughtworks.xstream.io.binary.BinaryStreamWriter.flush()METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java8 8("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*flush2w
- java.io.DataOutputStream.flush()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java: :(2ê
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java: :(2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java8 8(⁄
-=com.thoughtworks.xstream.io.binary.BinaryStreamWriter.close()METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java@ @("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*close2y
-"java.io.FilterOutputStream.close()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaB B(2ê
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaB B(2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java@ @(ä
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.underlyingWriter()METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaH$ H(4"
-staticfalse"
-finalfalse"
-access modifierpublic"!
-type HierarchicalStreamWriter*underlyingWriter2v
-HierarchicalStreamWriterRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaH H(#™
-Bcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.write(Token)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL L("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*write2§
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.write(Token)!token	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL L("2õ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter?tokenFormatterCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaN N(2ê
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaN! N($2b
-voidRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL L(ó
-Lcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$! $(%*name2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java$ $( ù
-Rcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java(! ((%*name2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java( (( û
-Scom.thoughtworks.xstream.io.binary.BinaryStreamWriter.startNode(String,Class)!clazz	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java(- ((2*clazz2f
-java.lang.ClassTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java(' ((,°
-Vcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)!name	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java,$ ,((*name2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java, ,(#£
-Wcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.addAttribute(String,String)!value	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java,1 ,(6*value2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java,* ,(0ñ
-Kcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.setValue(String)!text	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0  0($*text2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java0 0(â
-Hcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.write(Token)!token	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL L("*token2\
-TokenTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaL L(†
-Tcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)!value	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY! Y(&*value2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY Y( ¯
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)?idVARIABLEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z("
-type Long*id2e
-java.lang.LongTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(2z
-#java.util.Map.get(java.lang.Object)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(+2õ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z( 2µ
-^com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ% Z(*˙
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter?idRegistryVALUEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java ('"
-type 
-IdRegistry*
-idRegistry2ó
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistryTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java (2§
-Mcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.IdRegistry()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java* (:¢
-9com.thoughtworks.xstream.io.binary.BinaryStreamWriter?outVALUEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java# (&"
-type DataOutputStream*out2o
-java.io.DataOutputStreamTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java ("Æ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter?tokenFormatterVALUEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java" (0"
-type Token.Formatter*tokenFormatter2f
-Token.FormatterTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java (!µ
-@com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistryCLASSM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaT T("
-inner classtrue*
-IdRegistry2¨
-Ncom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)DECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY a(	2•
-Gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?nextIdDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaV V(2¢
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaW W('ã
-Ncom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)METHODM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY Y("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type long*getId2∞
-Tcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)!value	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY Y(&2Ø
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)?idDECLARATIONM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(+2z
-#java.util.Map.get(java.lang.Object)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(+2n
-java.util.Map.put(K, V)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java] ]("2q
-java.lang.Long.longValue()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java^- ^(;2q
-java.lang.Long.longValue()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java` `(!2p
-java.lang.Long.Long(long)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java\ \('2õ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z( 2µ
-^com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ% Z(*2û
-Gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?nextIdCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java\  \(&2õ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java] ](2µ
-^com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java] ](2µ
-^com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.java^= ^(B2b
-longRETURN_TYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY Y(†
-Tcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)!value	PARAMETERM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY! Y(&*value2g
-java.lang.StringTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaY Y( ¯
-Qcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(String)?idVARIABLEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z("
-type Long*id2e
-java.lang.LongTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(2z
-#java.util.Map.get(java.lang.Object)CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z(+2õ
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ Z( 2µ
-^com.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry.getId(java.lang.String)!valueCALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaZ% Z(*ñ
-Gcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?nextIdVARIABLEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaV V("
-type long*nextId2[
-longTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaV V(å
-Dcom.thoughtworks.xstream.io.binary.BinaryStreamWriter.IdRegistry?idsVARIABLEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaW W("
-type Map*ids2d
-java.util.MapTYPEM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaW W(2r
-java.util.HashMap.HashMap()CALLM
-Csrc/java/com/thoughtworks/xstream/io/binary/BinaryStreamWriter.javaW W('

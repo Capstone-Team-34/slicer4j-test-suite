@@ -1,304 +1,0 @@
-
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java¯
-8com.thoughtworks.xstream.testutil.DynamicSecurityManagerCLASSP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java (#"
-inner classfalse*DynamicSecurityManager2æ
-]com.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$ -(2…
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java/ :(2•
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java< J(2ß
-Fcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setReadOnly()DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaL N(2µ
-Tcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP b(2∞
-Ocom.thoughtworks.xstream.testutil.DynamicSecurityManager.getFailedPermissions()DECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javad f(2•
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java   (+2ù
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java!! !(+2´
-Jcom.thoughtworks.xstream.testutil.DynamicSecurityManager?failedPermissionsDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java" "(42u
-java.lang.SecurityManagerEXTENDP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java, (;‚
-]com.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$ $("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*addPermission2«
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)!codeSource	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$ $(92«
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)!permission	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$; $(V2”
-rcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)?permissionCollectionDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java% &( 2}
-#java.util.Map.get(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java%J &( 2q
-java.util.Map.put(K, V)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java) )(=2ö
-@java.security.PermissionCollection.add(java.security.Permission)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java+ +(,2Å
-'java.security.Permissions.Permissions()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java(# ((42û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java%J %(U2‡
-Öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(java.security.CodeSource, java.security.Permission)!codeSourceCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java& &(2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java) )(2‡
-Öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(java.security.CodeSource, java.security.Permission)!codeSourceCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java) )(&2‡
-Öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(java.security.CodeSource, java.security.Permission)!permissionCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java+! +(+2e
-voidRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$ $(æ
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java/ /("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setPermissions2“
-scom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)!codeSource	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0 0('2‹
-}com.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)!permissionCollection	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0) 0(X2Ä
-&java.util.Map.remove(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java2 2(.2q
-java.util.Map.put(K, V)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java6 6(A2ı
-öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(java.security.CodeSource, java.security.PermissionCollection)!permissionCollectionCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java1 1( 2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java2 2(2Î
-êcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(java.security.CodeSource, java.security.PermissionCollection)!codeSourceCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java2# 2(-2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java6 6(2Î
-êcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(java.security.CodeSource, java.security.PermissionCollection)!codeSourceCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java6  6(*2ı
-öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(java.security.CodeSource, java.security.PermissionCollection)!permissionCollectionCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java6, 6(@2e
-voidRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java/ /(Ω
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java< <("
-staticfalse"
-finalfalse"
-access modifierprivate"
-type void*	updateACC2≠
-Lcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?domainsDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@% @(W2ß
-Fcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?iDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaA A(2™
-Icom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?iterDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB  B(F2∞
-Ocom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?codeSourceDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaC! C(E2∫
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?permissionCollectionDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaD+ E((2n
-java.util.Map.size()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java= =(2n
-java.util.Map.size()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@D @(V2r
-java.util.Set.iterator()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(F2p
-java.util.Map.keySet()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(;2v
-java.util.Iterator.hasNext()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaBH B(V2s
-java.util.Iterator.next()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaC: C(E2}
-#java.util.Map.get(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaDX E((2«
-mjava.security.ProtectionDomain.ProtectionDomain(java.security.CodeSource, java.security.PermissionCollection)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaF F(U2≥
-Yjava.security.AccessControlContext.AccessControlContext(java.security.ProtectionDomain[])CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaH H(32û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java= =(2ñ
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java> >(2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@D @(O2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(22û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaDX D(c2ñ
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaH H(2e
-voidRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java< <(Ç
-Fcom.thoughtworks.xstream.testutil.DynamicSecurityManager.setReadOnly()METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaL L("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*setReadOnly2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaM M(2e
-voidRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaL L(◊
-Tcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP P("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*checkPermission2∏
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)!perm	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP  P(/2∫
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)?nameDECLARATIONP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T(,2É
-)java.lang.String.equals(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaS2 S(R2
-%java.security.Permission.getActions()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaS@ S(Q2|
-"java.security.Permission.getName()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T(,2Ñ
-*java.lang.String.indexOf(java.lang.String)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaU U(42Ö
-+java.lang.String.endsWith(java.lang.String)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaV V(U2Ö
-+java.lang.String.endsWith(java.lang.String)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaW# W(V2Ø
-Ujava.lang.SecurityManager.checkPermission(java.security.Permission, java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java\ \(*2o
-java.util.List.add(E)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java^ ^(+2ñ
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaQ Q(2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaS S(2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaS@ S(D2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T("2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java\  \($2ñ
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java\& \()2§
-Jcom.thoughtworks.xstream.testutil.DynamicSecurityManager?failedPermissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java^ ^(!2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java^& ^(*2e
-voidRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP P(ƒ
-Ocom.thoughtworks.xstream.testutil.DynamicSecurityManager.getFailedPermissions()METHODP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javad d($"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type List*getFailedPermissions2ù
-Cjava.util.Collections.unmodifiableList(java.util.List<? extends T>)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javae e(>2§
-Jcom.thoughtworks.xstream.testutil.DynamicSecurityManager?failedPermissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javae, e(=2o
-java.util.ListRETURN_TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javad d(«
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)!codeSource	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$/ $(9*
-codeSource2r
-java.security.CodeSourceTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$$ $(.«
-hcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)!permission	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$L $(V*
-permission2r
-java.security.PermissionTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java$A $(K“
-scom.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)!codeSource	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0 0('*
-codeSource2r
-java.security.CodeSourceTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0 0(
-}com.thoughtworks.xstream.testutil.DynamicSecurityManager.setPermissions(CodeSource,PermissionCollection)!permissionCollection	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0D 0(X*permissionCollection2|
-"java.security.PermissionCollectionTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java0/ 0(C≤
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)!perm	PARAMETERP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP+ P(/*perm2r
-java.security.PermissionTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaP  P(*Ü
-rcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(CodeSource,Permission)?permissionCollectionVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java% %(1"
-type PermissionCollection*permissionCollection2|
-"java.security.PermissionCollectionTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java% %(2}
-#java.util.Map.get(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java%J &( 2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java%J %(U2‡
-Öcom.thoughtworks.xstream.testutil.DynamicSecurityManager.addPermission(java.security.CodeSource, java.security.Permission)!codeSourceCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java& &(⁄
-Lcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?domainsVALUEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@% @(,"
-type ProtectionDomain[]*domains2z
- java.security.ProtectionDomain[]TYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@ @($2n
-java.util.Map.size()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@D @(V2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java@D @(Oî
-Fcom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?iVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaA A("
-type int*i2]
-intTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaA A(≤
-Icom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?iterVALUEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB  B($"
-type Iterator*iter2l
-java.util.IteratorTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB B(2r
-java.util.Set.iterator()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(F2p
-java.util.Map.keySet()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(;2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaB' B(2¥
-Ocom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?codeSourceVALUEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaC! C(+"
-type 
-CodeSource*
-codeSource2r
-java.security.CodeSourceTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaC C( 2s
-java.util.Iterator.next()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaC: C(Eá
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.updateACC()?permissionCollectionVALUEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaD+ D(?"
-type PermissionCollection*permissionCollection2|
-"java.security.PermissionCollectionTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaD D(*2}
-#java.util.Map.get(java.lang.Object)CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaDX E((2û
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaDX D(c¸
-Ycom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(Permission)?nameVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T("
-type String*name2j
-java.lang.StringTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T(2|
-"java.security.Permission.getName()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T(,2¡
-gcom.thoughtworks.xstream.testutil.DynamicSecurityManager.checkPermission(java.security.Permission)!permCALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.javaT T("ù
-Dcom.thoughtworks.xstream.testutil.DynamicSecurityManager?permissionsVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java   ("
-type Map*permissions2g
-java.util.MapTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java   (2u
-java.util.HashMap.HashMap()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java   (+º
-<com.thoughtworks.xstream.testutil.DynamicSecurityManager?accVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java!! !($"
-type AccessControlContext*acc2|
-"java.security.AccessControlContextTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java! !( Ø
-Jcom.thoughtworks.xstream.testutil.DynamicSecurityManager?failedPermissionsVARIABLEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java" "(""
-type List*failedPermissions2h
-java.util.ListTYPEP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java" "(2y
-java.util.ArrayList.ArrayList()CALLP
-Fsrc/test/com/thoughtworks/xstream/testutil/DynamicSecurityManager.java"% "(4

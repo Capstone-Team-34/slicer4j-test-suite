@@ -1,976 +1,0 @@
-
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaæ%
-<com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTestCLASST
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java( ((("
-inner classfalse*JettisonMappedXmlDriverTest2©
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.setUp()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java6 <(2¨
-Gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.tearDown()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java> A(2≤
-Mcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadSimple()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaC H(2≥
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaJ N(2∂
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaP Y(2∑
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java[ c(2∂
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javae t(2µ
-Pcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()DECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javav }(2µ
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()DECLARATIONU
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java ä(2ƒ
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaå ô(2 
-ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesEscapeValuesAccordingRfc4627()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaõ û(2«
-`com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java† ©(2ø
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java´ ∂(2»
-acom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∏ √(2∆
-_com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java≈ ’(2∑
-Pcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java◊ ›(2∂
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÂ Ò(2µ
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÛ ˛(2≥
-Lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ ç(2∂
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaì ú(2Œ
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaû ©(2®
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLEDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java*  +(2´
-Fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?HIERARCHYDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java,  /(2©
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java1 1(2h
-TestCaseEXTENDT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java(1 ((9”
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.setUp()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java6 6("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java9 9(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java: :(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java; ;(2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java6" 6(+Í
-Gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.tearDown()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java> >("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*tearDown2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java>% >(.˘
-Mcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadSimple()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaC C("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReadSimple2∫
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadSimple()?productDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD D(:2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD# D(*2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD3 D(92i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaC C(π
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaJ J("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWriteSimple2ª
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()?productDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaK K(=2∫
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()?resultDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaL L(.2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaL L(2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaM M(2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaJ J(è
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaP P(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testReadConfigured2Ω
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()?configDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaQ Q(22æ
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()?productDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU U(:2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaS S(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaT T(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU# U(*2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU3 U(92i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaP P(‘
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java[ [(#"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWriteConfigured2æ
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?configDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java\ \(22ø
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?productDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java` `(=2æ
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?resultDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaa a(.2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java^ ^(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java_ _(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaa a(2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javab b(2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java[ [(∫
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javae e(""
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testWriteHierarchy2ø
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?categoryDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaf f(82ø
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?productsDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javag g(,2Ω
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?bananaDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javah h(<2¡
-\com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?bananaTagsDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javai i(.2º
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?mangoDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javao o(:2Ω
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?resultDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javar r(/2x
-java.util.ArrayList.add(E)CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaj j( 2x
-java.util.ArrayList.add(E)CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javak k(2x
-java.util.ArrayList.add(E)CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javal l(2}
-java.util.ArrayList.ArrayList()CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javag g(,2}
-java.util.ArrayList.ArrayList()CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javai i(.2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javar r(2§
-Fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?HIERARCHYCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javas s(2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javae e(—
-Pcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javav v(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testHierarchyRead2ƒ
-_com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()?parsedCategoryDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw w(F2¬
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()?parsedBananaDECLARATIONT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javax x(K2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw, w(32§
-Fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?HIERARCHYCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw< w(E2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javav v(ñ
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()METHODT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java ( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testObjectStream2æ
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?productDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ Ä(=2Ω
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?writerDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÅ Å(02∫
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?oosDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(P2ª
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÖ Ö('2∫
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?oisDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá á(W2ƒ
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?parsedProductDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(92Ç
-"java.io.ObjectOutputStream.close()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÑ Ñ(2
-java.io.StringWriter.toString()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÖ Ö('2Ü
-&java.io.ObjectInputStream.readObject()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà) à(92É
-#java.io.StringWriter.StringWriter()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÅ Å(02ì
-3java.io.StringReader.StringReader(java.lang.String)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá@ á(V2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ! Ç((2£
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÜ# Ü()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá  á('2i
-voidRETURN_TYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java* (5‰
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaå å(."
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDoesHandleQuotesAndEscapes2Ã
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()?stringsDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaç è(2Õ
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()?expectedDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ó(T2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ó(T2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaò ò(&2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaå å(ß
-ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesEscapeValuesAccordingRfc4627()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaõ õ(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testDoesEscapeValuesAccordingRfc46272”
-lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesEscapeValuesAccordingRfc4627()?expectedDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaú ú(X2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaú ú(X2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaù ù(&2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaõ õ(Ö
-`com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java† †(1"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testSingletonListWithSimpleObject2Õ
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °()2Ã
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(*2Õ
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß ß(:2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¢ ¢(2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java§ ¶(?2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß% ß(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java® ®("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java† †(’
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java´ ´()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testListWithSimpleObjects2≈
-^com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¨ ¨()2ƒ
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∞ ∞(*2≈
-^com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¥ ¥(:2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java≠ ≠(2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÆ Æ(2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaØ Ø(2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java± ≥(M2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¨ ¨()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∞ ∞(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¥% ¥(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaµ µ("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java´ ´(·
-acom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∏ ∏(2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testSingletonListWithComplexObject2–
-icom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?productDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaπ π(=2Œ
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∫ ∫()2Õ
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaº º(*2Œ
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¡ ¡(:2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaΩ ¿(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∫ ∫()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaº º(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¡% ¡(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¬ ¬("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∏ ∏(—
-_com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java≈ ≈(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testListWithComplexNestedObjects2Ã
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∆ ∆()2À
-dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?tagsDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java   ((2À
-dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÕ Õ(*2Ã
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java” ”(:2|
-java.util.ArrayList.get(int)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÀ À(2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaœ “(#2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∆ ∆()2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java   ((2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÕ Õ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java”% ”(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‘ ‘("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java≈ ≈(π
-Pcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java◊ ◊(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*todoTestEmptyList2Ω
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÿ ÿ()2º
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaŸ Ÿ(*2Ω
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java€ €(:2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java⁄ ⁄(52
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÿ ÿ()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaŸ Ÿ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java€% €(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‹ ‹("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java◊ ◊(é
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÂ Â( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testDefaultValue2Ω
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?topic1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÊ Ê("2ª
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÎ Î(+2Ω
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?topic2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÔ Ô(32Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÌ Ó(#2™
-Jcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic.Topic()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÊ Ê("2Ç
-"java.sql.Timestamp.Timestamp(long)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÈ È(.2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÍ Í(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÎ Î(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÔ Ô(%2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java ("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÂ Â(§
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÛ Û("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testEmbeddedXml2ª
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÙ Ù()2∫
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaˆ ˆ(*2ª
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¸ ¸(:2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaı ı(J2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÙ Ù()2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaˆ ˆ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¸% ¸(,2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java˝ ˝("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÛ Û(è
-Lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ Ä("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testArrayList2π
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?list1DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(-2∏
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(.2π
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?list2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaä ä(>2{
-java.util.ArrayList.clear()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÉ É(2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÑ Ñ(&2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÜ Ü(2z
-java.util.ArrayList.add(E)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá á(&2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(-2~
-java.lang.Integer.Integer(int)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÑ Ñ(%2~
-java.lang.Integer.Integer(int)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá á(%2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(!2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaä) ä(02§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaã ã(&2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ Ä(Û
-Ocom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaì ì( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSpecialNames2π
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?scDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaî î(62ª
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javañ ñ('2∫
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?sc2DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaö ö(H2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaò ô(#2¬
-bcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharacters.SpecialCharacters()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaî î(62§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javañ ñ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaö3 ö(:2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaõ õ("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaì ì(œ
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()METHODV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaû û(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(todoTestCanMarshalEmbeddedExternalizable2—
-jcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?inDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °(>2”
-lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?jsonDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £('2‘
-mcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?ownerDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¶ ¶(R2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java• •(s2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaü ü(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¶= ¶(D2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß ß("2k
-voidRETURN_TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaû û(Ç
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadSimple()?productVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD D("
-type Product*product2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD D(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD# D(*2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaD3 D(9∫
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()?productVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaK K("
-type Product*product2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaK K(Â
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteSimple()?resultVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaL L("
-type String*result2n
-java.lang.StringTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaL L(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaL L(«
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()?configVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaQ Q("
-type Configuration*config2k
-ConfigurationTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaQ Q(Ü
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testReadConfigured()?productVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU U("
-type Product*product2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU U(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU# U(*2°
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLECALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaU3 U(9»
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?configVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java\ \("
-type Configuration*config2k
-ConfigurationTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java\ \(æ
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?productVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java` `("
-type Product*product2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java` `(È
-Ycom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteConfigured()?resultVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaa a("
-type String*result2n
-java.lang.StringTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaa a(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaa a(¡
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?categoryVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaf f("
-type Category*category2f
-CategoryTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaf f(Ã
-Zcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?productsVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javag g("
-type 	ArrayList*products2q
-java.util.ArrayListTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javag g(2}
-java.util.ArrayList.ArrayList()CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javag g(,ª
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?bananaVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javah h("
-type Product*banana2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javah h(–
-\com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?bananaTagsVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javai i("
-type 	ArrayList*
-bananaTags2q
-java.util.ArrayListTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javai i(2}
-java.util.ArrayList.ArrayList()CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javai i(.π
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?mangoVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javao o("
-type Product*mango2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javao o(Ë
-Xcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testWriteHierarchy()?resultVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javar r("
-type String*result2n
-java.lang.StringTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javar r(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javar r(ò
-_com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()?parsedCategoryVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw w("
-type Category*parsedCategory2f
-CategoryTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw w(2¢
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw, w(32§
-Fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?HIERARCHYCALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaw< w(E∆
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testHierarchyRead()?parsedBananaVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javax x("
-type Product*parsedBanana2e
-ProductTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javax x(ø
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?productVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ Ä("
-type Product*product2g
-ProductTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÄ Ä(’
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?writerVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÅ Å("
-type StringWriter*writer2t
-java.io.StringWriterTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÅ Å(2É
-#java.io.StringWriter.StringWriter()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÅ Å(0¸
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?oosVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç("
-type ObjectOutputStream*oos2z
-java.io.ObjectOutputStreamTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ! Ç((¬
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÖ Ö("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÖ Ö(2
-java.io.StringWriter.toString()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÖ Ö('ê
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?oisVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá á("
-type ObjectInputStream*ois2y
-java.io.ObjectInputStreamTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá á(2ì
-3java.io.StringReader.StringReader(java.lang.String)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá@ á(V2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaá  á('‘
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testObjectStream()?parsedProductVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à("
-type Product*parsedProduct2g
-ProductTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(2Ü
-&java.io.ObjectInputStream.readObject()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà) à(9Ÿ
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()?stringsVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaç ç("
-type String[]*strings2r
-java.lang.String[]TYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaç ç(ﬁ
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesHandleQuotesAndEscapes()?expectedVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ê("
-type String*expected2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ê(2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ó(T‰
-lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDoesEscapeValuesAccordingRfc4627()?expectedVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaú ú("
-type String*expected2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaú ú(2Ñ
-$java.lang.String.replace(char, char)CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaú ú(X€
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °()˘
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(Å
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithSimpleObject()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß ß("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß ß(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaß% ß(,”
-^com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¨ ¨("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¨ ¨(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¨ ¨()Ò
-]com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∞ ∞("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∞ ∞(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∞ ∞(˘
-^com.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithSimpleObjects()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¥ ¥("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¥ ¥(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¥% ¥(,—
-icom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?productVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaπ π("
-type Product*product2g
-ProductTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaπ π(‹
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∫ ∫("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∫ ∫(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∫ ∫()˙
-fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaº º("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaº º(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaº º(Ç
-gcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSingletonListWithComplexObject()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¡ ¡("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¡ ¡(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¡% ¡(,⁄
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∆ ∆("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∆ ∆(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java∆ ∆()ÿ
-dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?tagsVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java   ("
-type 	ArrayList*tags2s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java   (2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java   ((¯
-dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÕ Õ("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÕ Õ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÕ Õ(Ä
-ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testListWithComplexNestedObjects()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java” ”("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java” ”(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java”% ”(,À
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÿ ÿ("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÿ ÿ(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÿ ÿ()È
-Ucom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaŸ Ÿ("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaŸ Ÿ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaŸ Ÿ(Ò
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestEmptyList()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java€ €("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java€ €(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java€% €(,§
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?topic1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÊ Ê("
-type Topic*topic12¢
-Bcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.TopicTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÊ Ê(2™
-Jcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic.Topic()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÊ Ê("Ë
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÎ Î("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÎ Î(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÎ Î(û
-Vcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testDefaultValue()?topic2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÔ Ô("
-type Topic*topic22¢
-Bcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.TopicTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÔ Ô(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÔ Ô(%…
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÙ Ù("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÙ Ù(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÙ Ù()Á
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaˆ ˆ("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaˆ ˆ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaˆ ˆ(Ô
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testEmbeddedXml()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¸ ¸("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¸ ¸(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¸% ¸(,«
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?list1VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç("
-type 	ArrayList*list12s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(2
-java.util.ArrayList.ArrayList()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaÇ Ç(-Â
-Qcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaà à(!Ì
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testArrayList()?list2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaä ä("
-type 	ArrayList*list22s
-java.util.ArrayListTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaä ä(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaä) ä(0Ã
-Rcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?scVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaî î("
-type SpecialCharacters*sc2Æ
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharactersTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaî î(2¬
-bcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharacters.SpecialCharacters()CALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaî î(6Ë
-Tcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javañ ñ("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javañ ñ(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javañ ñ(∞
-Scom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.testSpecialNames()?sc2VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaö ö("
-type SpecialCharacters*sc22Æ
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharactersTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaö ö(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaö3 ö(:È
-jcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?inVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °( "
-type OwnerOfExternalizable*in2u
-OwnerOfExternalizableTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java° °(Ä
-lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?jsonVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £("
-type String*json2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java£ £(ñ
-mcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.todoTestCanMarshalEmbeddedExternalizable()?ownerVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¶ ¶(#"
-type OwnerOfExternalizable*owner2u
-OwnerOfExternalizableTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¶ ¶(2§
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamCALLV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java¶= ¶(D∞
-Ccom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?SIMPLEVALUET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java*  *(&"
-type String*SIMPLE2n
-java.lang.StringTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java* *(2Ç
-$java.lang.String.replace(char, char)CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java*) +(∂
-Fcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?HIERARCHYVALUET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java,  ,()"
-type String*	HIERARCHY2n
-java.lang.StringTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java, ,(2Ç
-$java.lang.String.replace(char, char)CALLT
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java,, /(®
-Dcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest?xstreamVARIABLET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java1 1("
-type XStream*xstream2e
-XStreamTYPET
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java1 1(œ
-Bcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.TopicCLASSV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaﬂ ﬂ("
-inner classfalse*Topic2¨
-Ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?idDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‡ ‡(2µ
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?descriptionDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java· ·(2≥
-Lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?createdOnDECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‚ ‚(2p
-StandardObjectEXTENDV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaﬂ& ﬂ(4¢
-Ecom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?idVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‡ ‡("
-type long*id2d
-longTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‡ ‡(¬
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?descriptionVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java· ·("
-type String*description2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java· ·(∫
-Lcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.Topic?createdOnVARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‚ ‚("
-type Date*	createdOn2n
-java.util.DateTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.java‚ ‚(ã
-Ncom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharactersCLASSV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaè è(*"
-inner classfalse*SpecialCharacters2æ
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharacters?_foo__$_DECLARATIONV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ê(2p
-StandardObjectEXTENDV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaè3 è(A»
-Wcom.thoughtworks.xstream.io.json.JettisonMappedXmlDriverTest.SpecialCharacters?_foo__$_VARIABLEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ê("
-type String*_foo__$_2p
-java.lang.StringTYPEV
-Jsrc/test/com/thoughtworks/xstream/io/json/JettisonMappedXmlDriverTest.javaê ê(

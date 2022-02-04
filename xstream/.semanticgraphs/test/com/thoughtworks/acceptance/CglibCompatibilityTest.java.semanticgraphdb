@@ -1,907 +1,0 @@
-
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaã%
-2com.thoughtworks.acceptance.CglibCompatibilityTestCLASSJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java) )(#"
-inner classfalse*CglibCompatibilityTest2ù
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest.createXStream()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java+ 4(2ß
-Lcom.thoughtworks.acceptance.CglibCompatibilityTest.wrapMapper(MapperWrapper)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java- /(2¨
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.invoke(Object,Method,Object[])DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= ?(	2ª
-`com.thoughtworks.acceptance.CglibCompatibilityTest.intercept(Object,Method,Object[],MethodProxy)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ M(	2ì
-8com.thoughtworks.acceptance.CglibCompatibilityTest.run()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaO P(	2ö
-?com.thoughtworks.acceptance.CglibCompatibilityTest.loadObject()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaZ \(	2∏
-]com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java_ y(2º
-`com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()DECLARATIONK
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java{ ï(2∆
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaó ¨(2ª
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÆ ¡(2≈
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java√ ‡(2û
-Acom.thoughtworks.acceptance.CglibCompatibilityTest.accept(Method)DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÕ “(2”
-vcom.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‚ ¸(2û
-Acom.thoughtworks.acceptance.CglibCompatibilityTest.accept(Method)DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÏ Ò(2¡
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˛ ç(2Æ
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaè •(2Ω
-`com.thoughtworks.acceptance.CglibCompatibilityTest.intercept(Object,Method,Object[],MethodProxy)DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java© ¨(	2∫
-]com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≤ ◊(2≤
-Ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬁ ˜(2´
-Ncom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˘ è(2ß
-Lcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9 ;(	2´
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF H(	2™
-Ocom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV X(	2ü
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest?THRESHOLD_PARAMDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ  Ø(?2û
-Acom.thoughtworks.acceptance.CglibCompatibilityTest?CAPACITY_PARAMDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∞  ∞(=2l
-AbstractAcceptanceTestEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java), )(B∞
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9( 9(0*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9! 9('∏
-ocom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF, F(4*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF% F(+∂
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV+ V(3*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV$ V(*Ñ
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest.createXStream()METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java+ +(#"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type XStream*createXStream2•
-Jcom.thoughtworks.acceptance.CglibCompatibilityTest.createXStream()?xstreamDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java, 0(	2b
-XStreamRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java+ +(ﬂ
-]com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java_ _(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testSupportsClassBasedProxiesWithFactory2¡
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?enhancerDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaa a(02Ω
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?origDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javae e(/2º
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?urlDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaf f(>2º
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?xmlDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javah u('2√
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?serializedDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaw w(=2k
-java.util.Map.put(K, V)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javag g(2w
-#java.util.Map.get(java.lang.Object)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javax x(/2º
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javac c(A2o
-java.util.HashMap.HashMap()CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javac3 c(@2v
-"java.net.URL.URL(java.lang.String)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaf f(>2_
-voidRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java` `(#Ç
-`com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java{ {(;"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*+testSupportsClassBasedProxiesWithoutFactory2ƒ
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?enhancerDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java} }(02¬
-ecom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÅ Å(/2¡
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?urlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(>2¡
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ ë('2»
-kcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaì ì(=2m
-java.util.Map.put(K, V)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÉ É(2y
-#java.util.Map.get(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaî î(/2º
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java (A2o
-java.util.HashMap.HashMap()CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java3 (@2x
-"java.net.URL.URL(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(>2_
-voidRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java| |(#Ê	
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaó ó(D"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*4testSupportForClassBasedProxyWithAdditionalInterface2œ
-rcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaô ô(02À
-ncom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaù ù(/2 
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaû ¶('2—
-tcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java® ®(;2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaò ò(#§	
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÆ Æ(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testSupportsProxiesWithMultipleInterfaces2ƒ
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ Ø(02¿
-ccom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≤ ≤(/2ø
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≥ º('2∆
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaæ æ(;2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÆC Æ(WÖ
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java√ √(C"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*3testSupportProxiesUsingFactoryWithMultipleCallbacks2Œ
-qcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≈ ≈(02 
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java÷ ÷(92…
-lcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java◊ ◊(.2“
-ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?deserializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÿ ÿ(B2œ
-rcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?callbacksDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄(:2∆
-pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java» »(+2æ
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java»- »(H2ƒ
-ncom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java… …(*2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaƒ ƒ(# 
-vcom.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‚ ‚(Q"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*AtestThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks2‹
-com.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰(02ÿ
-{com.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı(92∆
-pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÁ Á(+2æ
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÁ- Á(H2ƒ
-ncom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaË Ë(*2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java„ „(#˘
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˛ ˛(?"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*/testSupportProxiesWithMultipleCallbackSetToNull2 
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaˇ ˇ(02∆
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(72≈
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ ä('2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˛I ˛(]ç
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaè è(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testSupportsSerialVersionUID2∑
-Zcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaë ë(02≥
-Vcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaï ï(92≤
-Ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javañ ü('2π
-\com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java° °(;2¥
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?fieldDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(V2à
-2java.lang.Class.getDeclaredField(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(V2q
-java.lang.Object.getClass()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(12Ñ
-.java.lang.reflect.Field.setAccessible(boolean)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java£ £(!2á
-1java.lang.reflect.Field.getLong(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java§  §(32o
-java.lang.Long.Long(long)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaî% î(82a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaê ê(#‘
-]com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≤ ≤(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testSupportsInterceptedClassBasedProxies2√
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¥ ¥(02ø
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∏ ∏(/2æ
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∫ Õ((2æ
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?idxDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –(92≈
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java’ ’(B2m
-java.util.Map.put(K, V)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaπ π(?2Ä
-*java.lang.String.indexOf(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –(92w
-!java.lang.StringBuffer.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –( 2ê
-:java.lang.StringBuffer.replace(int, int, java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java— —(Q2o
-java.lang.String.length()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java— —(72Ä
-*java.lang.String.indexOf(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java“ “(42w
-!java.lang.StringBuffer.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java“ “(2ê
-:java.lang.StringBuffer.replace(int, int, java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java” ”(Q2o
-java.lang.String.length()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java” ”(62w
-!java.lang.StringBuffer.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java’3 ’(A2q
-java.lang.Object.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java÷ ÷($2q
-java.lang.Object.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java÷& ÷(;2≤
-\com.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.InterceptingHandler()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∂ ∂(62x
-"java.net.URL.URL(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaπ π(>2ã
-5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∫! Õ((2ò
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest?THRESHOLD_PARAMCALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java–) –(82ò
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest?THRESHOLD_PARAMCALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java— —(.2ó
-Acom.thoughtworks.acceptance.CglibCompatibilityTest?CAPACITY_PARAMCALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java“% “(32ó
-Acom.thoughtworks.acceptance.CglibCompatibilityTest?CAPACITY_PARAMCALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java” ”(-2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≥ ≥(#„
-Ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬁ ﬁ(0"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void* testSupportsProxiesAsFieldMember2ª
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?expectedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬂ ﬂ(B2ª
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java· ·(02∑
-Zcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰(/2∂
-Ycom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?xmlDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÁ Û(2Ω
-`com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?serializedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı(?2¥
-^com.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember.ClassWithProxyMember()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬂ( ﬂ(B2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬁ: ﬁ(N≠
-Ncom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˘ ˘()"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testProxyTypeCanBeAliased2¥
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?enhancerDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˙ ˙(02∞
-Scom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?origDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˝ ˝(/2¥
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?expectedDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÄ ç(2m
-java.util.Map.put(K, V)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˛ ˛(?2æ
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¸ ¸(A2q
-java.util.HashMap.HashMap()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¸3 ¸(@2x
-"java.net.URL.URL(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˛ ˛(>2a
-voidRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˘3 ˘(H´
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=$ =('*obj2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= =(#π
-jcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=0 =(6*method2l
-java.lang.reflect.MethodTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=) =(/Ø
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=A =(E*args2f
-java.lang.Object[]TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=8 =(@æ
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ' J(**obj2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ  J(&Ã
-}com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ3 J(9*method2l
-java.lang.reflect.MethodTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ, J(2¬
-{com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJD J(H*args2f
-java.lang.Object[]TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ; J(CΩ
-|com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJV J([*proxy2_
-MethodProxyTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJJ J(U¿
-xcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©' ©(**obj2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©  ©(&Œ
-{com.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©3 ©(9*method2n
-java.lang.reflect.MethodTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©, ©(2ƒ
-ycom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©D ©(H*args2h
-java.lang.Object[]TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©; ©(Cø
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©V ©([*proxy2a
-MethodProxyTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©J ©(Uö
-Jcom.thoughtworks.acceptance.CglibCompatibilityTest.createXStream()?xstreamVARIABLEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java, ,("
-type XStream*xstream2[
-XStreamTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java, ,(∂
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?enhancerVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaa a("
-type Enhancer*enhancer2\
-EnhancerTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaa a(Æ
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?origVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javae e("
-type Map*orig2a
-java.util.MapTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javae e(£
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?urlVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaf f("
-type URL*url2`
-java.net.URLTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaf f(2v
-"java.net.URL.URL(java.lang.String)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaf f(>≤
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?xmlVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javah h("
-type String*xml2d
-java.lang.StringTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javah h(∫
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithFactory()?serializedVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaw w("
-type Map*
-serialized2a
-java.util.MapTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaw w(π
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?enhancerVALUEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java} }("
-type Enhancer*enhancer2\
-EnhancerTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java} }(µ
-ecom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÅ Å("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÅ Å(¨
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?urlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç("
-type URL*url2b
-java.net.URLTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(2x
-"java.net.URL.URL(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(>π
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ Ñ("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ Ñ(¡
-kcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsClassBasedProxiesWithoutFactory()?serializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaì ì("
-type Map*
-serialized2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaì ì(∆
-rcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaô ô("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaô ô(æ
-ncom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaù ù("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaù ù(¬
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaû û("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaû û(–
-tcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportForClassBasedProxyWithAdditionalInterface()?serializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java® ®("
-type Object*
-serialized2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java® ®(ª
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ Ø("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ Ø(≥
-ccom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≤ ≤("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≤ ≤(∑
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≥ ≥("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≥ ≥(≈
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesWithMultipleInterfaces()?serializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaæ æ("
-type Object*
-serialized2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaæ æ(≈
-qcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≈ ≈("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java≈ ≈(«
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java÷ ÷("
-type Runnable*orig2h
-java.lang.RunnableTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java÷ ÷(¡
-lcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java◊ ◊("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java◊ ◊(À
-ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?deserializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÿ ÿ(""
-type Factory*deserialized2]
-FactoryTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÿ ÿ(Œ
-rcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesUsingFactoryWithMultipleCallbacks()?callbacksVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄("
-type 
-Callback[]*	callbacks2`
-
-Callback[]TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄(”
-com.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰(’
-{com.thoughtworks.acceptance.CglibCompatibilityTest.testThrowsExceptionForProxiesNotUsingFactoryWithMultipleCallbacks()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı("
-type Runnable*orig2h
-java.lang.RunnableTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı(¡
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaˇ ˇ("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaˇ ˇ(¡
-icom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç("
-type HashMap*orig2g
-java.util.HashMapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÇ Ç(Ω
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportProxiesWithMultipleCallbackSetToNull()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ Ñ("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÑ Ñ(Æ
-Zcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaë ë("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaë ë(∞
-Vcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaï ï("
-type Runnable*orig2h
-java.lang.RunnableTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaï ï(™
-Ucom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javañ ñ("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javañ ñ(∏
-\com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?serializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java° °("
-type Object*
-serialized2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java° °(≤
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsSerialVersionUID()?fieldVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢("
-type Field*field2m
-java.lang.reflect.FieldTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(2à
-2java.lang.Class.getDeclaredField(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(V2q
-java.lang.Object.getClass()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¢ ¢(1∫
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¥ ¥("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java¥ ¥(≤
-bcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∏ ∏("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∏ ∏(–
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∫ ∫("
-type StringBuffer*xml2l
-java.lang.StringBufferTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∫ ∫(2ã
-5java.lang.StringBuffer.StringBuffer(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∫! Õ((¿
-acom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?idxVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –("
-type int*idx2Y
-intTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –(2Ä
-*java.lang.String.indexOf(java.lang.String)CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –(92w
-!java.lang.StringBuffer.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java– –( 2ò
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest?THRESHOLD_PARAMCALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java–) –(8∫
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsInterceptedClassBasedProxies()?serializedVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java’ ’("
-type Map*
-serialized2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java’ ’(2w
-!java.lang.StringBuffer.toString()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java’3 ’(A∏
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?expectedVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬂ ﬂ(%"
-type ClassWithProxyMember*expected2ù
-Gcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMemberTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬂ ﬂ(2¥
-^com.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember.ClassWithProxyMember()CALLL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaﬂ( ﬂ(B≤
-^com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java· ·("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java· ·(™
-Zcom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java‰ ‰(Æ
-Ycom.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?xmlVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÁ Á("
-type String*xml2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÁ Á(º
-`com.thoughtworks.acceptance.CglibCompatibilityTest.testSupportsProxiesAsFieldMember()?serializedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı("
-type Object*
-serialized2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaı ı(´
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?enhancerVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˙ ˙("
-type Enhancer*enhancer2^
-EnhancerTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˙ ˙(£
-Scom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?origVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˝ ˝("
-type Map*orig2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java˝ ˝(±
-Wcom.thoughtworks.acceptance.CglibCompatibilityTest.testProxyTypeCanBeAliased()?expectedVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÄ Ä("
-type String*expected2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaÄ Ä(£
-Bcom.thoughtworks.acceptance.CglibCompatibilityTest?THRESHOLD_PARAMVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ  Ø(/"
-type String*THRESHOLD_PARAM2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaØ Ø(°
-Acom.thoughtworks.acceptance.CglibCompatibilityTest?CAPACITY_PARAMVALUEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∞  ∞(."
-type String*CAPACITY_PARAM2f
-java.lang.StringTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java∞ ∞(ø
-Dcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandlerCLASSJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java6 6()"
-inner classfalse*DelegatingHandler2æ
-ccom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= ?(	2π
-^com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9 ;(	2®
-Mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler?delegateDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java7 7(2g
-InvocationHandlerEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java65 6(F2j
-java.io.SerializableEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java6H 6(T˘
-^com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(Object)CONSTRUCTORJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9 9( *DelegatingHandler2¿
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9! 9(02≈
-qcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(java.lang.Object)!delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java: :($2ü
-Dcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandlerRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9 9( ∞
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.DelegatingHandler(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9( 9(0*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java9! 9('€
-ccom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= =("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*invoke2¿
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= =('2√
-jcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=) =(62¡
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=8 =(E2ö
-Fjava.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object...)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java> >(02Á
-ícom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])!methodCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java> >(2°
-Mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler?delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java>! >()2Â
-êcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])!argsCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java>+ >(/2k
-java.lang.ObjectRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=N =(W´
-gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=$ =('*obj2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java= =(#π
-jcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=0 =(6*method2l
-java.lang.reflect.MethodTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=) =(/Ø
-hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler.invoke(Object,Method,Object[])!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=A =(E*args2f
-java.lang.Object[]TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java=8 =(@¶
-Mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingHandler?delegateVARIABLEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java7 7("
-type Object*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java7 7(¸	
-Hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptorCLASSJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaB B(-"
-inner classfalse*DelegatingInterceptor2—
-vcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ M(	2©
-Ncom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.run()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaO P(	2¡
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF H(	2¨
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor?delegateDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaD D(2g
-MethodInterceptorEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaB9 B(J2j
-java.io.SerializableEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaBL B(X2h
-java.lang.RunnableEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaC C(ô
-fcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(Object)CONSTRUCTORJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF F($*DelegatingInterceptor2»
-ocom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF% F(42Õ
-ycom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(java.lang.Object)!delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaG G($2£
-Hcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptorRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF F($∏
-ocom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.DelegatingInterceptor(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF, F(4*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaF% F(+¥
-vcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ J("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	intercept2”
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ  J(*2÷
-}com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ, J(92‘
-{com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ; J(H2’
-|com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJJ J([2ö
-Fjava.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object...)CALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaL L(02•
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor?delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaL! L()2k
-java.lang.ObjectRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaK K(’
-Ncom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.run()METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaO O("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*run2_
-voidRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaO O(æ
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ' J(**obj2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ  J(&Ã
-}com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ3 J(9*method2l
-java.lang.reflect.MethodTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ, J(2¬
-{com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJD J(H*args2f
-java.lang.Object[]TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJ; J(CΩ
-|com.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJV J([*proxy2_
-MethodProxyTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaJJ J(U™
-Qcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingInterceptor?delegateVARIABLEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaD D("
-type Object*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaD D(∏
-Gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcherCLASSJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaS S(,"
-inner classfalse*DelegatingDispatcher2Ø
-Tcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.loadObject()DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaZ \(	2ø
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(Object)DECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV X(	2´
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher?delegateDECLARATIONJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaT T(2`
-
-DispatcherEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaS8 S(B2j
-java.io.SerializableEXTENDJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaSD S(Pë
-dcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(Object)CONSTRUCTORJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV V(#*DelegatingDispatcher2∆
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV$ V(32À
-wcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(java.lang.Object)!delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaW W($2¢
-Gcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcherRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV V(#∂
-mcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.DelegatingDispatcher(Object)!delegate	PARAMETERJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV+ V(3*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaV$ V(*ó
-Tcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher.loadObject()METHODJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaZ Z( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*
-loadObject2§
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher?delegateCALLJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java[ [(2k
-java.lang.ObjectRETURN_TYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaZ* Z(3©
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.DelegatingDispatcher?delegateVARIABLEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaT T("
-type Object*delegate2d
-java.lang.ObjectTYPEJ
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaT T(á
-Fcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandlerCLASSL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaß ß(+"
-inner classfalse*InterceptingHandler2—
-tcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)DECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java© ¨(	2i
-MethodInterceptorEXTENDL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaß7 ß(HÒ	
-tcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)METHODL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java© ©("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	intercept2”
-xcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©  ©(*2÷
-{com.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©, ©(92‘
-ycom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©; ©(H2’
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©J ©([2m
-java.lang.ObjectRETURN_TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java™ ™(¿
-xcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!obj	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©' ©(**obj2f
-java.lang.ObjectTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©  ©(&Œ
-{com.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!method	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©3 ©(9*method2n
-java.lang.reflect.MethodTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©, ©(2ƒ
-ycom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!args	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©D ©(H*args2h
-java.lang.Object[]TYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©; ©(Cø
-zcom.thoughtworks.acceptance.CglibCompatibilityTest.InterceptingHandler.intercept(Object,Method,Object[],MethodProxy)!proxy	PARAMETERL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©V ©([*proxy2a
-MethodProxyTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java©J ©(U•
-Gcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMemberCLASSL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.javaŸ Ÿ(,"
-inner classfalse*ClassWithProxyMember2≠
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember?runnableDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄(2®
-Kcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember?mapDECLARATIONL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java€ €(±
-Pcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember?runnableVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄("
-type Runnable*runnable2h
-java.lang.RunnableTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java⁄ ⁄(ù
-Kcom.thoughtworks.acceptance.CglibCompatibilityTest.ClassWithProxyMember?mapVARIABLEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java€ €("
-type Map*map2c
-java.util.MapTYPEL
-@src/test/com/thoughtworks/acceptance/CglibCompatibilityTest.java€ €(

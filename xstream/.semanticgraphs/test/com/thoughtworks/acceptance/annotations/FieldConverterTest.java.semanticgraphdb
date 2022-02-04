@@ -1,840 +1,0 @@
-
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaˆ%
-:com.thoughtworks.acceptance.annotations.FieldConverterTestCLASSR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java   ("
-inner classfalse*FieldConverterTest2≠
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.createXStream()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java" '(2•
-Bcom.thoughtworks.acceptance.annotations.FieldConverterTest.setUp()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java) .(2¡
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java0 8(2Ω
-Zcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java: D(2º
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaF R(2¨
-Icom.thoughtworks.acceptance.annotations.FieldConverterTest.equals(Object)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javad k(	2≠
-Icom.thoughtworks.acceptance.annotations.FieldConverterTest.equals(Object)DECLARATIONS
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaz Å(	2Æ
-Icom.thoughtworks.acceptance.annotations.FieldConverterTest.equals(Object)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaá å(	2€
-vcom.thoughtworks.acceptance.annotations.FieldConverterTest.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë ï(	2ÿ
-scom.thoughtworks.acceptance.annotations.FieldConverterTest.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó õ(	2±
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù ü(	2±
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§ ¶(	2≤
-Mcom.thoughtworks.acceptance.annotations.FieldConverterTest.fromString(String)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java® ™(	2∞
-Kcom.thoughtworks.acceptance.annotations.FieldConverterTest.toString(Object)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ Æ(	2€
-vcom.thoughtworks.acceptance.annotations.FieldConverterTest.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ ª(	2ÿ
-scom.thoughtworks.acceptance.annotations.FieldConverterTest.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ ø(	2±
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡ √(	2∑
-Rcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaŸ ﬁ(2 
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‡ Ê(2«
-dcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations(String,String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^ b(	2ø
-\com.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask(String,String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat x(	2±
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaµ ∑(	2©
-Dcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÀ Õ(	2®
-Ccom.thoughtworks.acceptance.annotations.FieldConverterTest.Client()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‘ ÷(	2t
-AbstractAcceptanceTestEXTENDR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java (  (>‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^0 ^(5*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^) ^(/‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^D ^(I*name22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^= ^(C‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^X ^(]*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^Q ^(Wƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat( t(-*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat! t('ƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat< t(A*name22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat5 t(;ƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javatP t(U*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javatI t(O¨
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.createXStream()METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java# #(#"
-staticfalse"
-finalfalse"
-access modifier	protected"
-type XStream*createXStream2µ
-Rcom.thoughtworks.acceptance.annotations.FieldConverterTest.createXStream()?xstreamDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java$ $(/2j
-XStreamRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java# #(ﬁ
-Bcom.thoughtworks.acceptance.annotations.FieldConverterTest.setUp()METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java) )("
-staticfalse"
-finalfalse"
-access modifier	protected"
-type void*setUp2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java)" )(+ú
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java0 0(1"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*!testAnnotationForFieldsOfSameType2∆
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()?taskDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java1" 1(X2≈
-bcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()?xmlDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java2 6( 2ı
-òcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java1) 1(X2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java0 0(¸
-Zcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java: :(-"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAnnotationForHiddenFields2¬
-_com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()?taskDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java; ;(H2¡
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()?xmlDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java< B(2Â
-àcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java;! ;(H2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java: :(–
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaF F(,"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testIsFoundInReferencedTypes2 
-gcom.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()?taskContainerDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaG G(?2¿
-]com.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()?xmlDECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaH P( 2¥
-Xcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.TaskContainer()CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaG, G(?2g
-voidRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaF F(≠
-Rcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaŸ Ÿ(%"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testAreCachedPerField2æ
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()?beforeDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java⁄ ⁄(*2Ω
-Xcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()?afterDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‹ ‹()2™
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account.Account()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java€ €(2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaŸ Ÿ(§	
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‡ ‡(8"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*(testAreCachedPerFieldInDifferentContexts2—
-lcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()?beforeDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java· ·(*2–
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()?afterDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‰ ‰()2™
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account.Account()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‚ ‚(2®
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.Client.Client()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java„ „(2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‡ ‡(µ
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae+ e(.*obj2l
-java.lang.ObjectTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae$ e(*≠
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{+ {(.*obj2l
-java.lang.ObjectTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{$ {(*≥
-[com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(Object)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà+ à(.*obj2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà$ à(*Ë
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë) ë(/*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë" ë((
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaëP ë(V*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë7 ë(OÏ
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaí% í(,*context2p
-MarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaí í($Ì
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó? ó(E*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó& ó(>Î
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaò' ò(.*context2r
-UnmarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaò ò(&∏
-`com.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù. ù(2*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù( ù(-º
-dcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§. §(2*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§( §(-¿
-fcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(String)!value	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java®( ®(-*value2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java®! ®('¿
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(Object)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨& ¨(,*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ ¨(%È
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ# π()*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ π("Ò
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπD π(J*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ+ π(CÌ
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∫ ∫(&*context2p
-MarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∫ ∫(Ó
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ9 Ω(?*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ  Ω(8Ï
-ãcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩV Ω(]*context2r
-UnmarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩA Ω(Uπ
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡( ¡(,*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡" ¡('≤
-Rcom.thoughtworks.acceptance.annotations.FieldConverterTest.createXStream()?xstreamVARIABLER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java$ $("
-type XStream*xstream2c
-XStreamTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java$ $(â
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()?taskVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java1" 1(&"
-type TaskWithAnnotations*task2™
-Ncom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotationsTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java1 1(!2ı
-òcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java1) 1(X√
-bcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForFieldsOfSameType()?xmlVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java2 2("
-type String*xml2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java2 2(Â
-_com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()?taskVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java; ;("
-type DerivedTask*task2¢
-Fcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTaskTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java; ;(2Â
-àcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java;! ;(Hø
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.testAnnotationForHiddenFields()?xmlVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java< <("
-type String*xml2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java< <(…
-gcom.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()?taskContainerVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaG G()"
-type TaskContainer*taskContainer2§
-Hcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainerTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaG G(2¥
-Xcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.TaskContainer()CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaG, G(?æ
-]com.thoughtworks.acceptance.annotations.FieldConverterTest.testIsFoundInReferencedTypes()?xmlVALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaH H("
-type String*xml2l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaH H(Í
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?strVALUET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì("
-type String*str2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(2y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(0Ï
-Ücom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?strVALUET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaô ô("
-type String*str2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaô ô(¥
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()?beforeVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java⁄ ⁄("
-type int*before2a
-intTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java⁄ ⁄(≤
-Xcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerField()?afterVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‹ ‹("
-type int*after2a
-intTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‹ ‹(«
-lcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()?beforeVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java· ·("
-type int*before2a
-intTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java· ·(≈
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.testAreCachedPerFieldInDifferentContexts()?afterVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‰ ‰("
-type int*after2a
-intTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‰ ‰(•	
-Ncom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotationsCLASSR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaT T(+"
-inner classfalse*TaskWithAnnotations2¿
-]com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(Object)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javad k(	2€
-xcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^ b(	2∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name1DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaW W("2∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name2DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java[ [("2∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name3DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java\ \("ƒ
-xcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)CONSTRUCTORR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^ ^("*TaskWithAnnotations2ﬂ
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^# ^(52ﬂ
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^7 ^(I2ﬂ
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^K ^(]2˚
-ûcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)!name1CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java_ _(2˚
-ûcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)!name2CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java` `(2˚
-ûcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)!name3CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaa a(2±
-Ncom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotationsRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^ ^("‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^0 ^(5*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^) ^(/‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^D ^(I*name22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^= ^(C‘
-~com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^X ^(]*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java^Q ^(Wä
-]com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(Object)METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae e("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2¬
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae e(.2©
-Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javag g(M2w
-java.lang.Object.getClass()CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javag> g(L2Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javah h(A2Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javai i(A2Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaj j(A2«
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaf f(2«
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javag> g(A2«
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javah) h(,2∞
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name1CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javah; h(@2«
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javai) i(,2∞
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name2CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javai; i(@2«
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaj) j(,2∞
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name3CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaj; j(@2j
-booleanRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae e(µ
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae+ e(.*obj2l
-java.lang.ObjectTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javae$ e(*∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name1VALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaW W(""
-type String*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaW W(∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name2VALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java[ [(""
-type String*name22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java[ [(∑
-Tcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations?name3VALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java\ \(""
-type String*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java\ \(„
-Fcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTaskCLASSR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javan n(#"
-inner classfalse*DerivedTask2π
-Ucom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(Object)DECLARATIONS
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaz Å(	2À
-hcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat x(	2Ø
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name1DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javao o("2Ø
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name3DECLARATIONR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javar r("2¨
-Ncom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotationsEXTENDR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javan, n(?ò
-hcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)CONSTRUCTORR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat t(*DerivedTask2œ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat t(-2œ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat/ t(A2œ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javatC t(U2ı
-òcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.TaskWithAnnotations(java.lang.String, java.lang.String, java.lang.String)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javau u('2Î
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)!name1CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javau u(2Î
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)!name2CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javau u(2Î
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)!name3CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javau  u(%2Î
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)!name3CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javav v(2Î
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)!name1CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaw w(2©
-Fcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTaskRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat t(ƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name1	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat( t(-*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat! t('ƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name2	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat< t(A*name22l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javat5 t(;ƒ
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(String,String,String)!name3	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javatP t(U*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javatI t(O—
-Ucom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(Object)METHODR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{ {("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2∫
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{ {(.2©
-Mjava.lang.Class.isAssignableFrom(java.lang.Class<? extends java.lang.Object>)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java} }(E2w
-java.lang.Object.getClass()CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java}6 }(D2Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java~ ~(92Ö
-)java.lang.String.equals(java.lang.Object)CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java (92≈
-gcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskWithAnnotations.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÄ Ä($2ø
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java| |(2ø
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java}6 }(92ø
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java~! ~($2®
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name1CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java~3 ~(82ø
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)!objCALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java! ($2®
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name3CALLR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java3 (82¡
-ccom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)!objCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÄ  Ä(#2j
-booleanRETURN_TYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{ {(≠
-Ycom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(Object)!obj	PARAMETERR
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{+ {(.*obj2l
-java.lang.ObjectTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java{$ {(*Ø
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name1VALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javao o(""
-type String*name12l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javao o(Ø
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask?name3VALUER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javar r(""
-type String*name32l
-java.lang.StringTYPER
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javar r(¿
-Hcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainerCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÑ Ñ(%"
-inner classfalse*TaskContainer2º
-Wcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(Object)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaá å(	2≤
-Mcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer?taskDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÖ" Ö(PÅ
-Wcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(Object)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà à("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2æ
-[com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(Object)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà à(.2á
-)java.lang.Object.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaä ä(=2y
-java.lang.Object.getClass()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaä. ä(<2Ω
-_com.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaã ã(92√
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(java.lang.Object)!objCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaâ â(2√
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(java.lang.Object)!objCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaä. ä(12´
-Mcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer?taskCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaã ã(2√
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(java.lang.Object)!objCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaã/ ã(22l
-booleanRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà à(≥
-[com.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer.equals(Object)!obj	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà+ à(.*obj2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaà$ à(*Ÿ
-Mcom.thoughtworks.acceptance.annotations.FieldConverterTest.TaskContainer?taskVALUET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÖ" Ö(&"
-type DerivedTask*task2§
-Fcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTaskTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÖ Ö(!2Á
-àcom.thoughtworks.acceptance.annotations.FieldConverterTest.DerivedTask.DerivedTask(java.lang.String, java.lang.String, java.lang.String)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÖ) Ö(P’
-Icom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverterCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaè è(&"
-inner classfalse*FirstConverter2Î
-Öcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë ï(	2Ë
-Çcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó õ(	2¿
-[com.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù ü(	2i
-	ConverterEXTENDT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaè2 è(;Ï
-Öcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë ë("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë ë(/2
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë1 ë(V2Ò
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaí í(,2Ô
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?strDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(02y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(02i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë ë(Ç	
-Çcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó ó("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2Ì
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó  ó(E2Ó
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaò ò(.2Ï
-Ücom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?strDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaô ô(92u
-java.lang.ObjectRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó ó(û
-[com.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(Class)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù ù(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2√
-`com.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù" ù(22á
-)java.lang.Object.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaû û(,2»
-jcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(java.lang.Class)!typeCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaû û(2l
-booleanRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù ù(Ë
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë) ë(/*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë" ë((
-åcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaëP ë(V*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaë7 ë(OÏ
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaí% í(,*context2p
-MarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaí í($Ì
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó? ó(E*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaó& ó(>Î
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaò' ò(.*context2r
-UnmarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaò ò(&∏
-`com.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù. ù(2*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaù( ù(-Í
-âcom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)?strVALUET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì("
-type String*str2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(2y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaì ì(0Ï
-Ücom.thoughtworks.acceptance.annotations.FieldConverterTest.FirstConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)?strVALUET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaô ô("
-type String*str2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaô ô(°
-Mcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverterCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¢ ¢(*"
-inner classfalse*SecondaryConverter2ƒ
-_com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§ ¶(	2≈
-`com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(String)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java® ™(	2√
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(Object)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ Æ(	2t
-SingleValueConverterEXTENDT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¢6 ¢(J™
-_com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(Class)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§ §(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2«
-dcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§" §(22á
-)java.lang.Object.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java• •(,2Ã
-ncom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(java.lang.Class)!typeCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java• •(2l
-booleanRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§ §(¸	
-`com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(String)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java® ®( "
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*
-fromString2…
-fcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(String)!value	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java®! ®(-2Ç
-$java.lang.String.substring(int, int)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java© ©(92w
-java.lang.String.length()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java©& ©(42Œ
-pcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(java.lang.String)!valueCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java© ©(2Œ
-pcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(java.lang.String)!valueCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java©& ©(+2u
-java.lang.ObjectRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java® ®(¢
-^com.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(Object)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ ¨("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type String*toString2»
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(Object)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ ¨(,2y
-java.lang.Object.toString()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java≠ ≠(*2Õ
-ocom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(java.lang.Object)!sourceCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java≠ ≠(2u
-java.lang.StringRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ ¨(º
-dcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§. §(2*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java§( §(-¿
-fcom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.fromString(String)!value	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java®( ®(-*value2n
-java.lang.StringTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java®! ®('¿
-ecom.thoughtworks.acceptance.annotations.FieldConverterTest.SecondaryConverter.toString(Object)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨& ¨(,*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¨ ¨(%÷
-
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverterCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java± ±('"
-inner classfalse*CustomConverter2Ï
-Ücom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ ª(	2È
-Écom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ ø(	2¡
-\com.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(Class)DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡ √(	2¡
-\com.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.CustomConverter()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaµ ∑(	2µ
-Pcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter?totalDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java≥ ≥($2i
-	ConverterEXTENDT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java±3 ±(<µ
-\com.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.CustomConverter()CONSTRUCTORT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaµ µ(*CustomConverter2Æ
-Pcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter?totalCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∂ ∂(2Ø
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverterRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaµ µ(É	
-Ücom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ π("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*marshal2Ò
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ π()2Ò
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ+ π(J2Ú
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∫ ∫(&2i
-voidRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ π(ñ
-Écom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ Ω("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*	unmarshal2Ó
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ  Ω(?2Ô
-ãcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩA Ω(]2u
-java.lang.ObjectRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ Ω(°
-\com.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(Class)METHODT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡ ¡(!"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*
-canConvert2ƒ
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡" ¡(,2á
-)java.lang.Object.equals(java.lang.Object)CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¬ ¬(,2…
-kcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(java.lang.Class)!typeCALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¬ ¬(2l
-booleanRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡ ¡(È
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!source	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ# π()*source2n
-java.lang.ObjectTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ π("Ò
-çcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!writer	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπD π(J*writer2v
-HierarchicalStreamWriterTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaπ+ π(CÌ
-écom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.marshal(Object,HierarchicalStreamWriter,MarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∫ ∫(&*context2p
-MarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java∫ ∫(Ó
-äcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!reader	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ9 Ω(?*reader2v
-HierarchicalStreamReaderTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩ  Ω(8Ï
-ãcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.unmarshal(HierarchicalStreamReader,UnmarshallingContext)!context	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩV Ω(]*context2r
-UnmarshallingContextTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaΩA Ω(Uπ
-acom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter.canConvert(Class)!type	PARAMETERT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡( ¡(,*type2m
-java.lang.ClassTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java¡" ¡('™
-Pcom.thoughtworks.acceptance.annotations.FieldConverterTest.CustomConverter?totalVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java≥ ≥( "
-type int*total2a
-intTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java≥ ≥(§
-Bcom.thoughtworks.acceptance.annotations.FieldConverterTest.AccountCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java« «("
-inner classfalse*Account2±
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account.Account()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÀ Õ(	2≠
-Hcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account?valueDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java… …(€
-Lcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account.Account()CONSTRUCTORT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÀ À(*Account2u
-java.lang.Math.random()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÃ Ã(&2ß
-Bcom.thoughtworks.acceptance.annotations.FieldConverterTest.AccountRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.javaÀ À(≤
-Hcom.thoughtworks.acceptance.annotations.FieldConverterTest.Account?valueVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java… …("
-type Double*value2n
-java.lang.DoubleTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java… …(ü
-Acom.thoughtworks.acceptance.annotations.FieldConverterTest.ClientCLASST
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java– –("
-inner classfalse*Client2Ø
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.Client.Client()DECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‘ ÷(	2¨
-Gcom.thoughtworks.acceptance.annotations.FieldConverterTest.Client?valueDECLARATIONT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java“ “(◊
-Jcom.thoughtworks.acceptance.annotations.FieldConverterTest.Client.Client()CONSTRUCTORT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‘ ‘(*Client2u
-java.lang.Math.random()CALLT
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java’ ’(&2¶
-Acom.thoughtworks.acceptance.annotations.FieldConverterTest.ClientRETURN_TYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java‘ ‘(±
-Gcom.thoughtworks.acceptance.annotations.FieldConverterTest.Client?valueVARIABLET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java“ “("
-type Double*value2n
-java.lang.DoubleTYPET
-Hsrc/test/com/thoughtworks/acceptance/annotations/FieldConverterTest.java“ “(

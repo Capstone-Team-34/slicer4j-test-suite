@@ -1,107 +1,0 @@
-
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.javaæ	
-1com.thoughtworks.xstream.core.MapBackedDataHolderCLASSI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ( "
-inner classfalse*MapBackedDataHolder2ó
-=com.thoughtworks.xstream.core.MapBackedDataHolder.get(Object)DECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java !(2û
-Dcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)DECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# %(2í
-8com.thoughtworks.xstream.core.MapBackedDataHolder.keys()DECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java' )(2°
-Gcom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder()DECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (2§
-Jcom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder(Map)DECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (2è
-5com.thoughtworks.xstream.core.MapBackedDataHolder?mapDECLARATIONI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (2_
-
-DataHolderEXTENDI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java, (6¥
-Gcom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder()CONSTRUCTORI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (*MapBackedDataHolder2n
-java.util.HashMap.HashMap()CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (2ã
-1com.thoughtworks.xstream.core.MapBackedDataHolderRETURN_TYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (û
-Jcom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder(Map)CONSTRUCTORI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (*MapBackedDataHolder2¶
-Ncom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder(Map)!map	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (&2´
-Xcom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder(java.util.Map)!mapCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (2ã
-1com.thoughtworks.xstream.core.MapBackedDataHolderRETURN_TYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (ç
-Ncom.thoughtworks.xstream.core.MapBackedDataHolder.MapBackedDataHolder(Map)!map	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# (&*map2`
-java.util.MapTYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ("ê
-=com.thoughtworks.xstream.core.MapBackedDataHolder.get(Object)METHODI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Object*get2ô
-Acom.thoughtworks.xstream.core.MapBackedDataHolder.get(Object)!key	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ( 2v
-#java.util.Map.get(java.lang.Object)CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java   (2à
-5com.thoughtworks.xstream.core.MapBackedDataHolder?mapCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java   (2û
-Kcom.thoughtworks.xstream.core.MapBackedDataHolder.get(java.lang.Object)!keyCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java   (2j
-java.lang.ObjectRETURN_TYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (	
-Dcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)METHODI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# #("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*put2†
-Hcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)!key	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# #(2¢
-Jcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)!value	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java#  #(,2j
-java.util.Map.put(K, V)CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java$ $(2à
-5com.thoughtworks.xstream.core.MapBackedDataHolder?mapCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java$ $(2∞
-]com.thoughtworks.xstream.core.MapBackedDataHolder.put(java.lang.Object, java.lang.Object)!keyCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java$ $(2≤
-_com.thoughtworks.xstream.core.MapBackedDataHolder.put(java.lang.Object, java.lang.Object)!valueCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java$ $(2^
-voidRETURN_TYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# #(ﬂ
-8com.thoughtworks.xstream.core.MapBackedDataHolder.keys()METHODI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java' '("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type Iterator*keys2r
-java.util.Collection.iterator()CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java( ((J2¢
-Ojava.util.Collections.unmodifiableCollection(java.util.Collection<? extends T>)CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java( ((?2i
-java.util.Map.keySet()CALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java(2 ((>2à
-5com.thoughtworks.xstream.core.MapBackedDataHolder?mapCALLI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java(2 ((52l
-java.util.IteratorRETURN_TYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java' '(É
-Acom.thoughtworks.xstream.core.MapBackedDataHolder.get(Object)!key	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ( *key2c
-java.lang.ObjectTYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (ä
-Hcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)!key	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# #(*key2c
-java.lang.ObjectTYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java# #(é
-Jcom.thoughtworks.xstream.core.MapBackedDataHolder.put(Object,Object)!value	PARAMETERI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java#' #(,*value2c
-java.lang.ObjectTYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java#  #(&˛
-5com.thoughtworks.xstream.core.MapBackedDataHolder?mapVALUEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java ("
-type Map*map2`
-java.util.MapTYPEI
-?src/java/com/thoughtworks/xstream/core/MapBackedDataHolder.java (

@@ -1,601 +1,0 @@
-
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÙ
--com.thoughtworks.acceptance.CustomClassesTestCLASSE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java ("
-inner classfalse*CustomClassesTest2•
-Ocom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java /(2í
-<com.thoughtworks.acceptance.CustomClassesTest.equals(Object)DECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 9(	2´
-Ucom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java< V(2µ
-_com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()DECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaX p(2«
-pcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()DECLARATIONF
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javar è(2∑
-_com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaë £(2¿
-hcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java© º(2≈
-mcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ ⁄(2≠
-Ucom.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‹ Â(2¨
-Tcom.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÁ Û(2±
-Ycom.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˙ Ü(2ü
-Gcom.thoughtworks.acceptance.CustomClassesTest.testFieldWithObjectType()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaé ó(2™
-Rcom.thoughtworks.acceptance.CustomClassesTest.testFailsFastIfFieldIsDefinedTwice()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaû Æ(2ì
-;com.thoughtworks.acceptance.CustomClassesTest.readResolve()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≤ µ(	2∏
-`com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∏ ¬(2g
-AbstractAcceptanceTestEXTENDE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java' (=„
-Ocom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()METHODE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (/"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testCustomObjectWithBasicFields2¨
-Vcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()?personDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java! !(02Æ
-Xcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()?expectedDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java& +(2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java! !(02Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (›	
-Ucom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()METHODE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java< <(5"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*%testCustomObjectWithCustomObjectField2∏
-bcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?personHolderDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java@ @(B2≤
-\com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?personDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaC C(02¥
-^com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?expectedDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaJ R(!2§
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java@* @(B2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaC C(02Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java< <(è
-
-_com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()METHODE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaX X(?"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*/testCustomObjectWithCustomObjectFieldsSetToNull2¬
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?personHolderDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java\ \(B2º
-fcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?personDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java_ _(02æ
-hcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?expectedDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaf l(!2§
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java\* \(B2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java_ _(02Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaX X(Å
-pcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()METHODE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javar r(P"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*@testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization2 
-tcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?xmlDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javav ~(!2›
-Ñcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?alreadyInstantiatedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å(I2◊
-com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?expectedResultDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÖ Ö(D2◊
-com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?expectedPersonDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà à(82¶
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ1 Å(I2Ñ
-3java.io.StringReader.StringReader(java.lang.String)CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÇ( Ç(=2¶
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÖ, Ö(D2ö
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà& à(82Z
-voidRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javar r(ã
-_com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaë ë(?"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*/testCustomObjectWillNotUnmarshalTransientFields2ª
-ccom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()?xmlDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaï õ(2æ
-fcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()?personDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaù ù(@2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaë ë(¨
-hcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java© ©(H"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*8testCustomObjectWillNotUnmarshalInheritedTransientFields2ƒ
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()?xmlDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≠ ¥(2ƒ
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()?joeDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∂ ∂(+2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java© ©(√
-mcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ æ(M"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*=testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes2…
-qcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()?xmlDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¬ «(2Ã
-tcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()?personDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java   (@2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ æ(Ü
-Ucom.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‹ ‹(5"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*%testNullObjectsDoNotHaveFieldsWritten2±
-Ycom.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()?objDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‡ ‡(12∂
-^com.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()?expectedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‚ ‚("2û
-Mcom.thoughtworks.acceptance.CustomClassesTest.WithSomeFields.WithSomeFields()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‡ ‡(12\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‹ ‹(Ç
-Tcom.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÁ Á(4"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*$testEmptyStringsAreNotTreatedAsNulls2∞
-Xcom.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()?objDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÍ Í(12µ
-]com.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()?expectedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÌ (2û
-Mcom.thoughtworks.acceptance.CustomClassesTest.WithSomeFields.WithSomeFields()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÍ Í(12\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÁ Á(∆
-Ycom.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˙ ˙(9"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*)testNullsAreDistinguishedFromEmptyStrings2¥
-\com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?inDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˚ ˚(.2µ
-]com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?xmlDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÄ Ä(&2µ
-]com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?outDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å(@2ú
-Kcom.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings.LotsOfStrings()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˚ ˚(.2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˙ ˙(≤
-Gcom.thoughtworks.acceptance.CustomClassesTest.testFieldWithObjectType()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaé é('"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*testFieldWithObjectType2®
-Pcom.thoughtworks.acceptance.CustomClassesTest.testFieldWithObjectType()?expectedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaè ì(2®
-Wcom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectType.FieldWithObjectType()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javañ ñ(02\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaé é(•
-Rcom.thoughtworks.acceptance.CustomClassesTest.testFailsFastIfFieldIsDefinedTwice()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaû û(2"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*"testFailsFastIfFieldIsDefinedTwice2∞
-Xcom.thoughtworks.acceptance.CustomClassesTest.testFailsFastIfFieldIsDefinedTwice()?inputDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaü £(2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaû û(ë	
-`com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∏ ∏(@"
-staticfalse"
-finalfalse"
-access modifierpublic"
-type void*0testCustomObjectWithTransientFieldInitialization2Ω
-ecom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?tranDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaº# º(J2¡
-icom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?expectedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ æ(#2√
-kcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?serializedDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¿# ¿(j2∂
-ecom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass.TransientInitializingClass()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaº* º(J2\
-voidRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∏ ∏(ç
-Scom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)!obj	PARAMETERE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5% 5((*obj2_
-java.lang.ObjectTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 5($Ô
-Vcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()?personVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java! !("
-type SamplePerson*person2â
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java! !(2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java! !(0ß
-Xcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithBasicFields()?expectedVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java& &("
-type String*expected2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java& &(°
-_com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)?containerObjectVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6 6(."
-type SamplePersonHolder*containerObject2è
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6 6(2¨
-]com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(java.lang.Object)!objCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6F 6(Iô
-bcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?personHolderVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java@ @('"
-type SamplePersonHolder*personHolder2è
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java@ @(2§
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java@* @(Bı
-\com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?personVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaC C("
-type SamplePerson*person2â
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaC C(2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaC C(0≠
-^com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectField()?expectedVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaJ J("
-type String*expected2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaJ J(£
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?personHolderVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java\ \('"
-type SamplePersonHolder*personHolder2è
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java\ \(2§
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java\* \(Bˇ
-fcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?personVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java_ _("
-type SamplePerson*person2â
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java_ _(2ò
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java_ _(0∑
-hcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithCustomObjectFieldsSetToNull()?expectedVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaf f("
-type String*expected2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaf f(æ
-tcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?xmlVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javav v("
-type String*xml2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javav v(…
-Ñcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?alreadyInstantiatedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å(."
-type SamplePersonHolder*alreadyInstantiated2ë
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å(2¶
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ1 Å(Iæ
-com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?expectedResultVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÖ Ö()"
-type SamplePersonHolder*expectedResult2ë
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÖ Ö(2¶
-Ucom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.SamplePersonHolder()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÖ, Ö(D¶
-com.thoughtworks.acceptance.CustomClassesTest.testCustomObjectCanBeInstantiatedExternallyBeforeDeserialization()?expectedPersonVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà à(#"
-type SamplePerson*expectedPerson2ã
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà à(2ö
-Icom.thoughtworks.acceptance.CustomClassesTest.SamplePerson.SamplePerson()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà& à(8±
-ccom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()?xmlVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaï ï("
-type String*xml2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaï ï(Ë
-fcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFields()?personVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaù ù("
-type SamplePerson*person2ã
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaù ù(∫
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()?xmlVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≠ ≠("
-type String*xml2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≠ ≠(Ÿ
-lcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalInheritedTransientFields()?joeVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∂ ∂("
-type Joe*joe2Ç
-1com.thoughtworks.acceptance.CustomClassesTest.JoeTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∂ ∂(ø
-qcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()?xmlVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¬ ¬("
-type String*xml2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¬ ¬(ˆ
-tcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWillNotUnmarshalTransientFieldsFromAttributes()?personVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java   ("
-type SamplePerson*person2ã
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java   (˝
-Ycom.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()?objVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‡ ‡("
-type WithSomeFields*obj2ç
-<com.thoughtworks.acceptance.CustomClassesTest.WithSomeFieldsTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‡ ‡(2û
-Mcom.thoughtworks.acceptance.CustomClassesTest.WithSomeFields.WithSomeFields()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‡ ‡(1±
-^com.thoughtworks.acceptance.CustomClassesTest.testNullObjectsDoNotHaveFieldsWritten()?expectedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‚ ‚("
-type String*expected2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java‚ ‚(¸
-Xcom.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()?objVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÍ Í("
-type WithSomeFields*obj2ç
-<com.thoughtworks.acceptance.CustomClassesTest.WithSomeFieldsTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÍ Í(2û
-Mcom.thoughtworks.acceptance.CustomClassesTest.WithSomeFields.WithSomeFields()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÍ Í(1∞
-]com.thoughtworks.acceptance.CustomClassesTest.testEmptyStringsAreNotTreatedAsNulls()?expectedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÌ Ì("
-type String*expected2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÌ Ì(˚
-\com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?inVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˚ ˚("
-type LotsOfStrings*in2å
-;com.thoughtworks.acceptance.CustomClassesTest.LotsOfStringsTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˚ ˚(2ú
-Kcom.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings.LotsOfStrings()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˚ ˚(.´
-]com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?xmlVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÄ Ä("
-type String*xml2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÄ Ä(ﬁ
-]com.thoughtworks.acceptance.CustomClassesTest.testNullsAreDistinguishedFromEmptyStrings()?outVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å("
-type LotsOfStrings*out2å
-;com.thoughtworks.acceptance.CustomClassesTest.LotsOfStringsTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaÅ Å(£
-Pcom.thoughtworks.acceptance.CustomClassesTest.testFieldWithObjectType()?expectedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaè è("
-type String*expected2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaè è(®
-Xcom.thoughtworks.acceptance.CustomClassesTest.testFailsFastIfFieldIsDefinedTwice()?inputVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaü ü("
-type String*input2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaü ü(∫
-ecom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?tranVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaº# º('"#
-type TransientInitializingClass*tran2ô
-Hcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClassTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaº º("2∂
-ecom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass.TransientInitializingClass()CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaº* º(Jº
-icom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?expectedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ æ("
-type String*expected2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaæ æ(ç
-kcom.thoughtworks.acceptance.CustomClassesTest.testCustomObjectWithTransientFieldInitialization()?serializedVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¿# ¿(-"#
-type TransientInitializingClass*
-serialized2ô
-Hcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClassTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¿ ¿("˝
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonCLASSE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java ($"
-inner classfalse*SamplePerson2ñ
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePerson?anIntDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (2ö
-Dcom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?firstNameDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (2ô
-Ccom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?lastNameDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (2ô
-Ccom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?aCommentDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (&2_
-StandardObjectEXTENDE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java- (;¸
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePerson?anIntVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java ("
-type int*anInt2R
-intTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (î
-Dcom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?firstNameVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java ("
-type String*	firstName2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (í
-Ccom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?lastNameVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java ("
-type String*lastName2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (í
-Ccom.thoughtworks.acceptance.CustomClassesTest.SamplePerson?aCommentVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (!"
-type String*aComment2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java (§
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderCLASSE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java1 1(*"
-inner classfalse*SamplePersonHolder2•
-Ocom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)DECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 9(	2û
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?aStringDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java2 2(2û
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?brotherDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java3 3(Æ
-Ocom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)METHODE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 5("
-staticfalse"
-finalfalse"
-access modifierpublic"
-type boolean*equals2ß
-Scom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)!obj	PARAMETERE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 5((2µ
-_com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)?containerObjectDECLARATIONE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6 6(I2x
-)java.lang.String.equals(java.lang.Object)CALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java7H 7(o2¨
-]com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(java.lang.Object)!objCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6F 6(I2ó
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?aStringCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java7 7(2ó
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?aStringCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java7H 7(O2ó
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?brotherCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java8 8(2]
-booleanRETURN_TYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 5(ç
-Scom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)!obj	PARAMETERE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5% 5((*obj2_
-java.lang.ObjectTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java5 5($°
-_com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(Object)?containerObjectVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6 6(."
-type SamplePersonHolder*containerObject2è
-@com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolderTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6 6(2¨
-]com.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder.equals(java.lang.Object)!objCALLE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java6F 6(Iñ
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?aStringVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java2 2("
-type String*aString2_
-java.lang.StringTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java2 2(«
-Hcom.thoughtworks.acceptance.CustomClassesTest.SamplePersonHolder?brotherVARIABLEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java3 3("
-type SamplePerson*brother2â
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonTYPEE
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java3 3(√
-1com.thoughtworks.acceptance.CustomClassesTest.JoeCLASSG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java• •("
-inner classfalse*Joe2í
-:com.thoughtworks.acceptance.CustomClassesTest.Joe?aBooleanDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¶ ¶(2ç
-:com.thoughtworks.acceptance.CustomClassesTest.SamplePersonEXTENDG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java• •()Ö
-:com.thoughtworks.acceptance.CustomClassesTest.Joe?aBooleanVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¶ ¶("
-type boolean*aBoolean2X
-booleanTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java¶ ¶(…
-<com.thoughtworks.acceptance.CustomClassesTest.WithSomeFieldsCLASSG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaı ı(&"
-inner classfalse*WithSomeFields2ñ
->com.thoughtworks.acceptance.CustomClassesTest.WithSomeFields?aDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaˆ ˆ(2ñ
->com.thoughtworks.acceptance.CustomClassesTest.WithSomeFields?bDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˜ ˜(2a
-StandardObjectEXTENDG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaı/ ı(=ä
->com.thoughtworks.acceptance.CustomClassesTest.WithSomeFields?aVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaˆ ˆ("
-type Object*a2a
-java.lang.ObjectTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaˆ ˆ(ä
->com.thoughtworks.acceptance.CustomClassesTest.WithSomeFields?bVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˜ ˜("
-type String*b2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java˜ ˜(˙
-;com.thoughtworks.acceptance.CustomClassesTest.LotsOfStringsCLASSG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaà à(%"
-inner classfalse*LotsOfStrings2ï
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?aDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaâ â(2ï
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?bDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaä ä(2ï
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?cDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaã ã(â
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?aVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaâ â("
-type String*a2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaâ â(â
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?bVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaä ä("
-type String*b2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaä ä(â
-=com.thoughtworks.acceptance.CustomClassesTest.LotsOfStrings?cVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaã ã("
-type String*c2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaã ã(·
-Acom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectTypeCLASSG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaô ô(+"
-inner classfalse*FieldWithObjectType2ù
-Ecom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectType?oneDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaö ö($2ù
-Ecom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectType?twoDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaõ õ($2a
-StandardObjectEXTENDG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaô4 ô(BÖ
-Ecom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectType?oneVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaö ö("
-type Double*one2a
-java.lang.DoubleTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaö ö(2p
-java.lang.Double.Double(double)CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaö ö($Ö
-Ecom.thoughtworks.acceptance.CustomClassesTest.FieldWithObjectType?twoVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaõ õ("
-type Object*two2a
-java.lang.ObjectTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaõ õ(2p
-java.lang.Double.Double(double)CALLG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.javaõ õ($Ö
-Hcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClassCLASSG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∞ ∞(2"
-inner classfalse*TransientInitializingClass2Æ
-Vcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass.readResolve()DECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≤ µ(	2¢
-Jcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass?sDECLARATIONG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java±! ±('2a
-StandardObjectEXTENDG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java∞; ∞(IÓ
-Vcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass.readResolve()METHODG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≤ ≤(""
-staticfalse"
-finalfalse"
-access modifierprivate"
-type Object*readResolve2h
-java.lang.ObjectRETURN_TYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java≤ ≤(ñ
-Jcom.thoughtworks.acceptance.CustomClassesTest.TransientInitializingClass?sVARIABLEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java±! ±(""
-type String*s2a
-java.lang.StringTYPEG
-;src/test/com/thoughtworks/acceptance/CustomClassesTest.java± ±( 
