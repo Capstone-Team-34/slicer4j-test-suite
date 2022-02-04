@@ -8,7 +8,7 @@ public   class  Environment {
 
 	
 
-	private WaterLevelEnum waterLevel = WaterLevelEnum.normal;
+	private WaterLevelEnum waterLevel;
 
 	
 
