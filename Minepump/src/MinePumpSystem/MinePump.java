@@ -149,7 +149,7 @@ activatePump() {
 
 	@Override
 	public String toString() {
-		return "Pump(System:" + (systemActive?"On":"Off") + ",Pump:" + (pumpRunning?"On":"Off") +") " + env.toString(); 
+		return "Pump(System:" + "On" + ",Pump:" + (pumpRunning?"On":"Off") +") " + env.toString();
 	}
 
 	
@@ -172,10 +172,6 @@ activatePump() {
 
 	
 	public void stopSystem() {
-		if (pumpRunning) {
-			deactivatePump();
-		}
-		assert !pumpRunning;
 		systemActive = false;
 	}
 

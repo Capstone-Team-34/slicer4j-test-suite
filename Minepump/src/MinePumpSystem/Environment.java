@@ -49,7 +49,7 @@ public   class  Environment {
 	
 
 	boolean isMethaneLevelCritical() {
-		return methaneLevelCritical;
+		return methaneLevelCritical = false;
 	}
 
 	
