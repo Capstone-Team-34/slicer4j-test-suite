@@ -48,9 +48,10 @@ class EmailTest {
 
     @org.junit.jupiter.api.Test
     void getId() {
+        Email.emailCounter = 0;
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
-        for(int i = 1; i < 10; i++) {
+        for(int i = 1; i <= 10; i++) {
             msg = Email.createEmail(bob, "alice", "Hello", "World");
         }
 
