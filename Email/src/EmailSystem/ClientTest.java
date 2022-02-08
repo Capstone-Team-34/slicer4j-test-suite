@@ -4,10 +4,11 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ClientTest {
+public class ClientTest {
+    public ClientTest() {}
 
     @Test
-    void getId() {
+    public void getId() {
         Client c = Client.createClient("bob");
 
         for(int i = 0; i < 10; i++){
@@ -18,25 +19,25 @@ class ClientTest {
     }
 
     @Test
-    void incoming() {
+    public void incoming() {
     }
 
     @Test
-    void outgoing() {
+    public void outgoing() {
     }
 
     @Test
-    void sendEmail() {
+    public void sendEmail() {
     }
 
     @Test
-    void getName() {
+    public void getName() {
         Client c = Client.createClient("bob");
         assert(c.getName().equals("bob"));
     }
 
     @Test
-    void createClient() {
+    public void createClient() {
         Client c = Client.createClient("bob");
         assert(c.name.equals("bob"));
         assert(c.id == 0);
@@ -47,7 +48,7 @@ class ClientTest {
     }
 
     @Test
-    void getClientById() {
+    public void getClientById() {
         Client[] c = new Client[100];
         for(int i = 0; i < 100; i++){
             c[i] = Client.createClient(String.valueOf(i));
@@ -58,7 +59,7 @@ class ClientTest {
     }
 
     @Test
-    void getClientByAdress() {
+    public void getClientByAdress() {
         Client[] c = new Client[100];
         for(int i = 0; i < 100; i++){
             c[i] = Client.createClient(String.valueOf(i));
@@ -69,7 +70,7 @@ class ClientTest {
     }
 
     @Test
-    void resetClients() {
+    public void resetClients() {
         Client c = Client.createClient("bob");
 
         for(int i = 0; i < 10; i++){
@@ -85,73 +86,73 @@ class ClientTest {
     }
 
     @Test
-    void testToString() {
+    public void testToString() {
         Client c =  Client.createClient("bob");
 
         assert(c.toString().equals("bob"));
     }
 
     @Test
-    void setPrivateKey() {
+    public void setPrivateKey() {
     }
 
     @Test
-    void getPrivateKey() {
+    public void getPrivateKey() {
     }
 
     @Test
-    void generateKeyPair() {
+    public void generateKeyPair() {
     }
 
     @Test
-    void addKeyringEntry() {
+    public void addKeyringEntry() {
     }
 
     @Test
-    void getKeyringPublicKeyByClient() {
+    public void getKeyringPublicKeyByClient() {
     }
 
     @Test
-    void isKeyPairValid() {
+    public void isKeyPairValid() {
     }
 
     @Test
-    void setAutoResponse() {
+    public void setAutoResponse() {
     }
 
     @Test
-    void isAutoResponse() {
+    public void isAutoResponse() {
     }
 
     @Test
-    void autoRespond() {
+    public void autoRespond() {
     }
 
     @Test
-    void getAddressBookReceiversForAlias() {
+    public void getAddressBookReceiversForAlias() {
     }
 
     @Test
-    void addAddressbookEntry() {
+    public void addAddressbookEntry() {
     }
 
     @Test
-    void sign() {
+    public void sign() {
     }
 
     @Test
-    void setForwardReceiver() {
+    public void setForwardReceiver() {
     }
 
     @Test
-    void getForwardReceiver() {
+    public void getForwardReceiver() {
     }
 
     @Test
-    void forward() {
+    public void forward() {
     }
 
     @Test
-    void verify() {
+    public void verify() {
     }
 }

@@ -5,10 +5,11 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class EmailTest {
+public class EmailTest {
+    public EmailTest() {}
 
     @Test
-    void createEmail() {
+    public void createEmail() {
         Client bob = Client.createClient("bob");
 
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -20,7 +21,7 @@ class EmailTest {
     }
 
     @Test
-    void isReadable() {
+    public void isReadable() {
         TestCommand tc = new TestCommand();
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -33,12 +34,12 @@ class EmailTest {
     }
 
     @Test
-    void printMail() {
+    public void printMail() {
 
     }
 
     @Test
-    void getEmailFrom() {
+    public void getEmailFrom() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -46,7 +47,7 @@ class EmailTest {
     }
 
     @Test
-    void getId() {
+    public void getId() {
         Email.emailCounter = 0;
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -59,7 +60,7 @@ class EmailTest {
     }
 
     @Test
-    void getEmailSubject() {
+    public void getEmailSubject() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -67,7 +68,7 @@ class EmailTest {
     }
 
     @Test
-    void getEmailTo() {
+    public void getEmailTo() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -75,7 +76,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailBody() {
+    public void setEmailBody() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -83,7 +84,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailFrom() {
+    public void setEmailFrom() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -97,7 +98,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailSubject() {
+    public void setEmailSubject() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -109,7 +110,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailTo() {
+    public void setEmailTo() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -121,7 +122,7 @@ class EmailTest {
     }
 
     @Test
-    void getEmailBody() {
+    public void getEmailBody() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -133,7 +134,7 @@ class EmailTest {
     }
 
     @Test
-    void isEncrypted() {
+    public void isEncrypted() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -145,7 +146,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailIsEncrypted() {
+    public void setEmailIsEncrypted() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -157,7 +158,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailEncryptionKey() {
+    public void setEmailEncryptionKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -167,7 +168,7 @@ class EmailTest {
     }
 
     @Test
-    void getEmailEncryptionKey() {
+    public void getEmailEncryptionKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -177,7 +178,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailIsSigned() {
+    public void setEmailIsSigned() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -187,7 +188,7 @@ class EmailTest {
     }
 
     @Test
-    void setEmailSignKey() {
+    public void setEmailSignKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -197,7 +198,7 @@ class EmailTest {
     }
 
     @Test
-    void isSigned() {
+    public void isSigned() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -209,7 +210,7 @@ class EmailTest {
     }
 
     @Test
-    void getEmailSignKey() {
+    public void getEmailSignKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -221,7 +222,7 @@ class EmailTest {
     }
 
     @Test
-    void isSignatureVerified() {
+    public void isSignatureVerified() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
@@ -233,7 +234,7 @@ class EmailTest {
     }
 
     @Test
-    void setIsSignatureVerified() {
+    public void setIsSignatureVerified() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
