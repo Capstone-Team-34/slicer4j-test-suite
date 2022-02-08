@@ -1,12 +1,13 @@
 package EmailSystem;
 
 import tests.TestCommand;
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class EmailTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void createEmail() {
         Client bob = Client.createClient("bob");
 
@@ -18,7 +19,7 @@ class EmailTest {
         assert(msg.getEmailBody().equals("World"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isReadable() {
         TestCommand tc = new TestCommand();
         Client bob = Client.createClient("bob");
@@ -31,12 +32,12 @@ class EmailTest {
         assert(!msg.isReadable());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void printMail() {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailFrom() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -44,7 +45,7 @@ class EmailTest {
         assert(msg.getEmailFrom().equals(bob));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getId() {
         Email.emailCounter = 0;
         Client bob = Client.createClient("bob");
@@ -57,7 +58,7 @@ class EmailTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailSubject() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -65,7 +66,7 @@ class EmailTest {
         assert(msg.getEmailSubject().equals("Hello"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailTo() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -73,7 +74,7 @@ class EmailTest {
         assert(msg.getEmailTo().equals("alice"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailBody() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -81,7 +82,7 @@ class EmailTest {
         assert(msg.getEmailBody().equals("World"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailFrom() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -95,7 +96,7 @@ class EmailTest {
         assert(msg.getEmailFrom().equals(fred));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailSubject() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -107,7 +108,7 @@ class EmailTest {
         assert(msg.getEmailSubject().equals("foo"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailTo() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -119,7 +120,7 @@ class EmailTest {
         assert(msg.getEmailTo().equals("fred"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailBody() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -131,7 +132,7 @@ class EmailTest {
         assert(msg.getEmailBody().equals("bar"));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isEncrypted() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -143,7 +144,7 @@ class EmailTest {
         assert(msg.isEncrypted());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailIsEncrypted() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -155,7 +156,7 @@ class EmailTest {
         assert(msg.isEncrypted());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailEncryptionKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -165,7 +166,7 @@ class EmailTest {
         assert(msg.getEmailEncryptionKey() == 24);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailEncryptionKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -175,7 +176,7 @@ class EmailTest {
         assert(msg.getEmailEncryptionKey() == 24);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailIsSigned() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -185,7 +186,7 @@ class EmailTest {
         assert(msg.isSigned());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setEmailSignKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -195,7 +196,7 @@ class EmailTest {
         assert(msg.getEmailSignKey() == 26);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isSigned() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -207,7 +208,7 @@ class EmailTest {
         assert(msg.isSigned());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getEmailSignKey() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -219,7 +220,7 @@ class EmailTest {
         assert(msg.isSigned());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isSignatureVerified() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -231,7 +232,7 @@ class EmailTest {
         assert(msg.isSignatureVerified());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setIsSignatureVerified() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");

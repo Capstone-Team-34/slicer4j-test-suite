@@ -1,6 +1,6 @@
 package EmailSystem;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -31,22 +31,57 @@ class ClientTest {
 
     @Test
     void getName() {
+        Client c = Client.createClient("bob");
+        assert(c.getName().equals("bob"));
     }
 
     @Test
     void createClient() {
+        Client c = Client.createClient("bob");
+        assert(c.name.equals("bob"));
+        assert(c.id == 0);
+
+        c = Client.createClient("alice");
+        assert(c.name.equals("alice"));
+        assert(c.id == 1);
     }
 
     @Test
     void getClientById() {
+        Client[] c = new Client[100];
+        for(int i = 0; i < 100; i++){
+            c[i] = Client.createClient(String.valueOf(i));
+        }
+        for(int i = 0; i < 100; i++){
+            assert(Client.getClientById(i).getName().equals(String.valueOf(i)));
+        }
     }
 
     @Test
     void getClientByAdress() {
+        Client[] c = new Client[100];
+        for(int i = 0; i < 100; i++){
+            c[i] = Client.createClient(String.valueOf(i));
+        }
+        for(int i = 0; i < 100; i++){
+            assert(Client.getClientByAdress(String.valueOf(i)).getId() == i);
+        }
     }
 
     @Test
     void resetClients() {
+        Client c = Client.createClient("bob");
+
+        for(int i = 0; i < 10; i++){
+            c = Client.createClient("bob");
+        }
+
+        Client.resetClients();
+
+        c = Client.createClient("bob");
+        assert(c.name.equals("bob"));
+        assert(c.id == 0);
+
     }
 
     @Test

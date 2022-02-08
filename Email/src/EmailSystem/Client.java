@@ -319,13 +319,7 @@ outgoing(Client client, Email msg) {
 		clientCounter = 1;
 		for (int i = 0; i < clients.length; i++) {
 			clients[i] = null;
-			clients[i].forwardReceiver = null;
-			clients[i].name = null;
-			clients[i].addressbook = null;
-			clients[i].keyring = null;
 			clients[i].id = -1;
-			clients[i].autoResponse = false;
-			clients[i].privateKey = -1;
 		}
 	}
 
