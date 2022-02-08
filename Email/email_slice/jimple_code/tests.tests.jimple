@@ -1,0 +1,183 @@
+public class tests.tests extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        tests.tests this;
+
+        this := @this: tests.tests;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.io.PrintStream $stack1;
+        java.util.List $stack2;
+        java.lang.String[] args;
+
+        args := @parameter0: java.lang.String[];
+
+        staticinvoke <tests.tests: void test1()>();
+
+        staticinvoke <tests.tests: void test2()>();
+
+        staticinvoke <tests.tests: void test3()>();
+
+        staticinvoke <tests.tests: void test4()>();
+
+        staticinvoke <tests.tests: void test5()>();
+
+        staticinvoke <tests.tests: void test6()>();
+
+        staticinvoke <tests.tests: void test7()>();
+
+        staticinvoke <tests.tests: void test8()>();
+
+        staticinvoke <tests.tests: void test9()>();
+
+        $stack1 = <java.lang.System: java.io.PrintStream out>;
+
+        $stack2 = staticinvoke <tests.tests: java.util.List getExecutedActions()>();
+
+        virtualinvoke $stack1.<java.io.PrintStream: void println(java.lang.Object)>($stack2);
+
+        return;
+    }
+
+    public static java.util.List getExecutedActions()
+    {
+        java.util.List $stack0;
+
+        $stack0 = <Actions.Action: java.util.List actionHistory>;
+
+        return $stack0;
+    }
+
+    static void test1()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void bobSetAddressBook()>();
+
+        staticinvoke <Actions.Action: void bobToAlias()>();
+
+        return;
+    }
+
+    static void test2()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void rjhKeyAdd()>();
+
+        staticinvoke <Actions.Action: void bobKeyChange()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test3()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void rjhDeletePrivateKey()>();
+
+        staticinvoke <Actions.Action: void rjhKeyAdd()>();
+
+        staticinvoke <Actions.Action: void chuckKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhEnableForwarding()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test4()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhKeyChange()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test5()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhKeyChange()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test6()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhSetAutoRespond()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test7()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhEnableForwarding()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test8()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void bobKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhSetAutoRespond()>();
+
+        staticinvoke <Actions.Action: void rjhKeyChange()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+
+    static void test9()
+    {
+        staticinvoke <Actions.Action: void setup()>();
+
+        staticinvoke <Actions.Action: void rjhDeletePrivateKey()>();
+
+        staticinvoke <Actions.Action: void rjhKeyAdd()>();
+
+        staticinvoke <Actions.Action: void rjhEnableForwarding()>();
+
+        staticinvoke <Actions.Action: void bobToRjh()>();
+
+        return;
+    }
+}

@@ -1,0 +1,70 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/danica/Desktop/Research/Slicer4J/Slicer4J/target/slicer4j-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/danica/Desktop/Research/Slicer4J/Slicer4J/target/lib/soot-infoflow-2.9.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/danica/Desktop/Research/Slicer4J/Slicer4J/target/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO Parser - expandTrace (48): Abs path for static-log /Users/danica/Desktop/capstone/slicer4j-test-suite/Email/email_slice/static-log.log
+[main] INFO Parser - expandTrace (97): Expanded trace size: 94
+[main] INFO Parser - expandTrace (102): Done parsing
+[main] INFO DynamicControlFlowGraph - createDCFG (85): Trace size: 94
+[main] INFO DynamicControlFlowGraph - createDCFG (95): Progress: 0/94 (0), time: 0.0
+[main] INFO SlicePrinter - printSlices (207): Printing dynamic slice:
+[main] INFO SlicePrinter - printSlices (209): Pair 0, void <clinit>(), EmailSystem.EmailTest, $stack0 = class "LEmailSystem/EmailTest;":LINENO:8:FILE:EmailSystem.EmailTest,(:0:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest,(stack0:1:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest,(stack0:1:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest,(stack1:2:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest,(stack1:2:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest,(:3:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest,(:3:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest,(stack2:5:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest,(stack2:5:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(:85:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 0, void <clinit>(), EmailSystem.EmailTest, $stack0 = class "LEmailSystem/EmailTest;":LINENO:8:FILE:EmailSystem.EmailTest,(:0:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest,(stack0:1:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest,(stack0:1:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest,(stack1:2:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest,(stack1:2:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest,(:3:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest,(:3:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest,(stack2:5:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest,(stack2:5:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(:85:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 86, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:29:FILE:EmailSystem.EmailTest,(stack7:86:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 86, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:29:FILE:EmailSystem.EmailTest,(stack7:86:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 86, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:29:FILE:EmailSystem.EmailTest,(:86:-1)
+[main] INFO SlicePrinter - printSlices (211): Printing static slice:
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void <clinit>()>:8--1:$stack0 = class "LEmailSystem/EmailTest;"
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest,(stack0:1:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void <clinit>()>:8--1:$stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>()
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest,(stack1:2:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void <clinit>()>:8--1:if $stack1 != 0 goto $stack2 = 0
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest,(:3:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void <clinit>()>:8--1:$stack2 = 1
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest,(stack2:5:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void <clinit>()>:8--1:<EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void isReadable()>:29--1:$stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest,(:85:-1)
+[main] INFO SlicePrinter - printSlices (213): <EmailSystem.EmailTest: void isReadable()>:29--1:if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1)
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 86, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:29:FILE:EmailSystem.EmailTest,(:86:-1)
+[main] INFO SlicePrinter - printSliceGraph (219): Graph:
+[main] INFO SlicePrinter - printSliceGraph (223): 85 --> 5
+[main] INFO SlicePrinter - printSliceGraph (223): 5 --> 3
+[main] INFO SlicePrinter - printSliceGraph (223): 3 --> 2
+[main] INFO SlicePrinter - printSliceGraph (223): 2 --> 1
+[main] INFO SlicePrinter - printSliceGraph (223): 1 --> 0
+[main] INFO SlicePrinter - printSliceGraph (223): 86 --> 85
+[main] INFO SlicePrinter - printSliceGraph (226): Graph End
+[main] INFO guru.nidi.graphviz.engine.AbstractGraphvizEngine - Could not initialize guru.nidi.graphviz.engine.GraphvizCmdLineEngine
+guru.nidi.graphviz.engine.GraphvizException: [dot] command not found
+[main] INFO guru.nidi.graphviz.engine.V8JavascriptEngine - Starting V8 runtime...
+[main] INFO guru.nidi.graphviz.engine.V8JavascriptEngine - Started V8 runtime. Initializing javascript...
+[main] INFO guru.nidi.graphviz.engine.V8JavascriptEngine - Initialized javascript.
+[main] WARN SlicePrinter - printDotGraph (121): Exception when writing slice graph file: Built-in Rasterizer can only be used together with GraphvizCmdLineEngine.
+[main] INFO SlicePrinter - printToCSV (251): Number of lines: 7

@@ -1,0 +1,94 @@
+0, void <clinit>(), EmailSystem.EmailTest, $stack0 = class "LEmailSystem/EmailTest;":LINENO:8:FILE:EmailSystem.EmailTest:PRED:[]:SUCC:[1 (FLOW_EDGE)]:TID:1
+1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>():LINENO:8:FILE:EmailSystem.EmailTest:PRED:[0 (FLOW_EDGE)]:SUCC:[2 (FLOW_EDGE)]:TID:1
+2, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0:LINENO:8:FILE:EmailSystem.EmailTest:PRED:[1 (FLOW_EDGE)]:SUCC:[3 (FLOW_EDGE)]:TID:1
+3, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1:LINENO:8:FILE:EmailSystem.EmailTest:PRED:[2 (FLOW_EDGE)]:SUCC:[4 (FLOW_EDGE)]:TID:1
+4, void <clinit>(), EmailSystem.EmailTest, goto [?= <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2]:LINENO:8:FILE:EmailSystem.EmailTest:PRED:[3 (FLOW_EDGE)]:SUCC:[5 (FLOW_EDGE)]:TID:1
+5, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2:LINENO:8:FILE:EmailSystem.EmailTest:PRED:[4 (FLOW_EDGE)]:SUCC:[6 (FLOW_EDGE)]:TID:1
+6, void <clinit>(), EmailSystem.EmailTest, return:LINENO:8:FILE:EmailSystem.EmailTest:PRED:[5 (FLOW_EDGE)]:SUCC:[]:TID:1
+7, void <init>(), EmailSystem.EmailTest, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:9:FILE:EmailSystem.EmailTest:PRED:[]:SUCC:[8 (FLOW_EDGE)]:TID:1
+8, void <init>(), EmailSystem.EmailTest, return:LINENO:9:FILE:EmailSystem.EmailTest:PRED:[7 (FLOW_EDGE)]:SUCC:[]:TID:1
+9, void isReadable(), EmailSystem.EmailTest, $stack4 = new tests.TestCommand:LINENO:25:FILE:EmailSystem.EmailTest:PRED:[]:SUCC:[10 (FLOW_EDGE)]:TID:1
+10, void isReadable(), EmailSystem.EmailTest, specialinvoke $stack4.<tests.TestCommand: void <init>()>():LINENO:25:FILE:EmailSystem.EmailTest:PRED:[9 (FLOW_EDGE)]:SUCC:[11 (CALL_EDGE), 13 (FLOW_EDGE)]:TID:1
+11, void <init>(), tests.TestCommand, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:tests.TestCommand:PRED:[10 (CALL_EDGE)]:SUCC:[12 (FLOW_EDGE)]:TID:1
+12, void <init>(), tests.TestCommand, return:LINENO:3:FILE:tests.TestCommand:PRED:[11 (FLOW_EDGE)]:SUCC:[]:TID:1
+13, void isReadable(), EmailSystem.EmailTest, $stack5 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob"):LINENO:26:FILE:EmailSystem.EmailTest:PRED:[10 (FLOW_EDGE)]:SUCC:[17 (CALL_EDGE), 38 (FLOW_EDGE), 14 (CALL_EDGE)]:TID:1
+14, void <clinit>(), EmailSystem.Client, $stack0 = newarray (EmailSystem.Client)[2000000]:LINENO:291:FILE:EmailSystem.Client:PRED:[13 (CALL_EDGE)]:SUCC:[15 (FLOW_EDGE)]:TID:1
+15, void <clinit>(), EmailSystem.Client, <EmailSystem.Client: EmailSystem.Client[] clients> = $stack0:LINENO:291:FILE:EmailSystem.Client:PRED:[14 (FLOW_EDGE)]:SUCC:[16 (FLOW_EDGE)]:TID:1
+16, void <clinit>(), EmailSystem.Client, return:LINENO:291:FILE:EmailSystem.Client:PRED:[15 (FLOW_EDGE)]:SUCC:[]:TID:1
+17, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack2 = new EmailSystem.Client:LINENO:284:FILE:EmailSystem.Client:PRED:[13 (CALL_EDGE)]:SUCC:[18 (FLOW_EDGE)]:TID:1
+18, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack3 = <EmailSystem.Client: int clientCounter>:LINENO:284:FILE:EmailSystem.Client:PRED:[17 (FLOW_EDGE)]:SUCC:[19 (FLOW_EDGE)]:TID:1
+19, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack4 = $stack3 + 1:LINENO:284:FILE:EmailSystem.Client:PRED:[18 (FLOW_EDGE)]:SUCC:[20 (FLOW_EDGE)]:TID:1
+20, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, <EmailSystem.Client: int clientCounter> = $stack4:LINENO:284:FILE:EmailSystem.Client:PRED:[19 (FLOW_EDGE)]:SUCC:[21 (FLOW_EDGE)]:TID:1
+21, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, specialinvoke $stack2.<EmailSystem.Client: void <init>(int;java.lang.String)>($stack3; name):LINENO:284:FILE:EmailSystem.Client:PRED:[20 (FLOW_EDGE)]:SUCC:[32 (FLOW_EDGE), 22 (CALL_EDGE)]:TID:1
+22, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:266:FILE:EmailSystem.Client:PRED:[21 (CALL_EDGE)]:SUCC:[23 (FLOW_EDGE)]:TID:1
+23, void <init>(int;java.lang.String), EmailSystem.Client, $stack3 = new java.util.ArrayList:LINENO:337:FILE:EmailSystem.Client:PRED:[22 (FLOW_EDGE)]:SUCC:[24 (FLOW_EDGE)]:TID:1
+24, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke $stack3.<java.util.ArrayList: void <init>()>():LINENO:337:FILE:EmailSystem.Client:PRED:[23 (FLOW_EDGE)]:SUCC:[25 (FLOW_EDGE)]:TID:1
+25, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.util.ArrayList keyring> = $stack3:FIELD:396180261:LINENO:337:FILE:EmailSystem.Client:PRED:[24 (FLOW_EDGE)]:SUCC:[26 (FLOW_EDGE)]:TID:1
+26, void <init>(int;java.lang.String), EmailSystem.Client, $stack4 = new java.util.ArrayList:LINENO:455:FILE:EmailSystem.Client:PRED:[25 (FLOW_EDGE)]:SUCC:[27 (FLOW_EDGE)]:TID:1
+27, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke $stack4.<java.util.ArrayList: void <init>()>():LINENO:455:FILE:EmailSystem.Client:PRED:[26 (FLOW_EDGE)]:SUCC:[28 (FLOW_EDGE)]:TID:1
+28, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.util.ArrayList addressbook> = $stack4:FIELD:396180261:LINENO:455:FILE:EmailSystem.Client:PRED:[27 (FLOW_EDGE)]:SUCC:[29 (FLOW_EDGE)]:TID:1
+29, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: int id> = id:FIELD:396180261:LINENO:267:FILE:EmailSystem.Client:PRED:[28 (FLOW_EDGE)]:SUCC:[30 (FLOW_EDGE)]:TID:1
+30, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.lang.String name> = name:FIELD:396180261:LINENO:268:FILE:EmailSystem.Client:PRED:[29 (FLOW_EDGE)]:SUCC:[31 (FLOW_EDGE)]:TID:1
+31, void <init>(int;java.lang.String), EmailSystem.Client, return:LINENO:269:FILE:EmailSystem.Client:PRED:[30 (FLOW_EDGE)]:SUCC:[]:TID:1
+32, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack5 = <EmailSystem.Client: EmailSystem.Client[] clients>:LINENO:285:FILE:EmailSystem.Client:PRED:[21 (FLOW_EDGE)]:SUCC:[33 (FLOW_EDGE)]:TID:1
+33, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack6 = virtualinvoke $stack2.<EmailSystem.Client: int getId()>():LINENO:285:FILE:EmailSystem.Client:PRED:[32 (FLOW_EDGE)]:SUCC:[34 (CALL_EDGE), 36 (FLOW_EDGE)]:TID:1
+34, int getId(), EmailSystem.Client, $stack1 = this.<EmailSystem.Client: int id>:FIELD:396180261:LINENO:18:FILE:EmailSystem.Client:PRED:[33 (CALL_EDGE)]:SUCC:[35 (FLOW_EDGE)]:TID:1
+35, int getId(), EmailSystem.Client, return $stack1:LINENO:18:FILE:EmailSystem.Client:PRED:[34 (FLOW_EDGE)]:SUCC:[]:TID:1
+36, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack5[$stack6] = $stack2:LINENO:285:FILE:EmailSystem.Client:PRED:[33 (FLOW_EDGE)]:SUCC:[37 (FLOW_EDGE)]:TID:1
+37, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, return $stack2:LINENO:286:FILE:EmailSystem.Client:PRED:[36 (FLOW_EDGE)]:SUCC:[]:TID:1
+38, void isReadable(), EmailSystem.EmailTest, $stack6 = staticinvoke <EmailSystem.Email: EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String)>($stack5; "alice"; "Hello"; "World"):LINENO:27:FILE:EmailSystem.EmailTest:PRED:[13 (FLOW_EDGE)]:SUCC:[85 (FLOW_EDGE), 39 (CALL_EDGE), 41 (CALL_EDGE)]:TID:1
+39, void <clinit>(), EmailSystem.Email, <EmailSystem.Email: int emailCounter> = 1:LINENO:23:FILE:EmailSystem.Email:PRED:[38 (CALL_EDGE)]:SUCC:[40 (FLOW_EDGE)]:TID:1
+40, void <clinit>(), EmailSystem.Email, return:LINENO:23:FILE:EmailSystem.Email:PRED:[39 (FLOW_EDGE)]:SUCC:[]:TID:1
+41, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, $stack5 = new EmailSystem.Email:LINENO:34:FILE:EmailSystem.Email:PRED:[38 (CALL_EDGE)]:SUCC:[42 (FLOW_EDGE)]:TID:1
+42, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, $stack6 = <EmailSystem.Email: int emailCounter>:LINENO:34:FILE:EmailSystem.Email:PRED:[41 (FLOW_EDGE)]:SUCC:[43 (FLOW_EDGE)]:TID:1
+43, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, $stack7 = $stack6 + 1:LINENO:34:FILE:EmailSystem.Email:PRED:[42 (FLOW_EDGE)]:SUCC:[44 (FLOW_EDGE)]:TID:1
+44, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, <EmailSystem.Email: int emailCounter> = $stack7:LINENO:34:FILE:EmailSystem.Email:PRED:[43 (FLOW_EDGE)]:SUCC:[45 (FLOW_EDGE)]:TID:1
+45, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, specialinvoke $stack5.<EmailSystem.Email: void <init>(int)>($stack7):LINENO:34:FILE:EmailSystem.Email:PRED:[44 (FLOW_EDGE)]:SUCC:[49 (FLOW_EDGE), 46 (CALL_EDGE)]:TID:1
+46, void <init>(int), EmailSystem.Email, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:27:FILE:EmailSystem.Email:PRED:[45 (CALL_EDGE)]:SUCC:[47 (FLOW_EDGE)]:TID:1
+47, void <init>(int), EmailSystem.Email, this.<EmailSystem.Email: int id> = id:FIELD:939047783:LINENO:28:FILE:EmailSystem.Email:PRED:[46 (FLOW_EDGE)]:SUCC:[48 (FLOW_EDGE)]:TID:1
+48, void <init>(int), EmailSystem.Email, return:LINENO:29:FILE:EmailSystem.Email:PRED:[47 (FLOW_EDGE)]:SUCC:[]:TID:1
+49, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, virtualinvoke $stack5.<EmailSystem.Email: void setEmailFrom(EmailSystem.Client)>(from):LINENO:35:FILE:EmailSystem.Email:PRED:[45 (FLOW_EDGE)]:SUCC:[50 (CALL_EDGE), 75 (FLOW_EDGE)]:TID:1
+50, void setEmailFrom(EmailSystem.Client), EmailSystem.Email, $stack2 = value.<EmailSystem.Client: java.lang.String name>:FIELD:396180261:LINENO:178:FILE:EmailSystem.Email:PRED:[49 (CALL_EDGE)]:SUCC:[51 (FLOW_EDGE)]:TID:1
+51, void setEmailFrom(EmailSystem.Client), EmailSystem.Email, $stack3 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>($stack2):LINENO:178:FILE:EmailSystem.Email:PRED:[50 (FLOW_EDGE)]:SUCC:[52 (CALL_EDGE), 73 (FLOW_EDGE)]:TID:1
+52, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack2 = new EmailSystem.Client:LINENO:284:FILE:EmailSystem.Client:PRED:[51 (CALL_EDGE)]:SUCC:[53 (FLOW_EDGE)]:TID:1
+53, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack3 = <EmailSystem.Client: int clientCounter>:LINENO:284:FILE:EmailSystem.Client:PRED:[52 (FLOW_EDGE)]:SUCC:[54 (FLOW_EDGE)]:TID:1
+54, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack4 = $stack3 + 1:LINENO:284:FILE:EmailSystem.Client:PRED:[53 (FLOW_EDGE)]:SUCC:[55 (FLOW_EDGE)]:TID:1
+55, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, <EmailSystem.Client: int clientCounter> = $stack4:LINENO:284:FILE:EmailSystem.Client:PRED:[54 (FLOW_EDGE)]:SUCC:[56 (FLOW_EDGE)]:TID:1
+56, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, specialinvoke $stack2.<EmailSystem.Client: void <init>(int;java.lang.String)>($stack3; name):LINENO:284:FILE:EmailSystem.Client:PRED:[55 (FLOW_EDGE)]:SUCC:[67 (FLOW_EDGE), 57 (CALL_EDGE)]:TID:1
+57, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:266:FILE:EmailSystem.Client:PRED:[56 (CALL_EDGE)]:SUCC:[58 (FLOW_EDGE)]:TID:1
+58, void <init>(int;java.lang.String), EmailSystem.Client, $stack3 = new java.util.ArrayList:LINENO:337:FILE:EmailSystem.Client:PRED:[57 (FLOW_EDGE)]:SUCC:[59 (FLOW_EDGE)]:TID:1
+59, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke $stack3.<java.util.ArrayList: void <init>()>():LINENO:337:FILE:EmailSystem.Client:PRED:[58 (FLOW_EDGE)]:SUCC:[60 (FLOW_EDGE)]:TID:1
+60, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.util.ArrayList keyring> = $stack3:FIELD:1237514926:LINENO:337:FILE:EmailSystem.Client:PRED:[59 (FLOW_EDGE)]:SUCC:[61 (FLOW_EDGE)]:TID:1
+61, void <init>(int;java.lang.String), EmailSystem.Client, $stack4 = new java.util.ArrayList:LINENO:455:FILE:EmailSystem.Client:PRED:[60 (FLOW_EDGE)]:SUCC:[62 (FLOW_EDGE)]:TID:1
+62, void <init>(int;java.lang.String), EmailSystem.Client, specialinvoke $stack4.<java.util.ArrayList: void <init>()>():LINENO:455:FILE:EmailSystem.Client:PRED:[61 (FLOW_EDGE)]:SUCC:[63 (FLOW_EDGE)]:TID:1
+63, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.util.ArrayList addressbook> = $stack4:FIELD:1237514926:LINENO:455:FILE:EmailSystem.Client:PRED:[62 (FLOW_EDGE)]:SUCC:[64 (FLOW_EDGE)]:TID:1
+64, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: int id> = id:FIELD:1237514926:LINENO:267:FILE:EmailSystem.Client:PRED:[63 (FLOW_EDGE)]:SUCC:[65 (FLOW_EDGE)]:TID:1
+65, void <init>(int;java.lang.String), EmailSystem.Client, this.<EmailSystem.Client: java.lang.String name> = name:FIELD:1237514926:LINENO:268:FILE:EmailSystem.Client:PRED:[64 (FLOW_EDGE)]:SUCC:[66 (FLOW_EDGE)]:TID:1
+66, void <init>(int;java.lang.String), EmailSystem.Client, return:LINENO:269:FILE:EmailSystem.Client:PRED:[65 (FLOW_EDGE)]:SUCC:[]:TID:1
+67, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack5 = <EmailSystem.Client: EmailSystem.Client[] clients>:LINENO:285:FILE:EmailSystem.Client:PRED:[56 (FLOW_EDGE)]:SUCC:[68 (FLOW_EDGE)]:TID:1
+68, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack6 = virtualinvoke $stack2.<EmailSystem.Client: int getId()>():LINENO:285:FILE:EmailSystem.Client:PRED:[67 (FLOW_EDGE)]:SUCC:[69 (CALL_EDGE), 71 (FLOW_EDGE)]:TID:1
+69, int getId(), EmailSystem.Client, $stack1 = this.<EmailSystem.Client: int id>:FIELD:1237514926:LINENO:18:FILE:EmailSystem.Client:PRED:[68 (CALL_EDGE)]:SUCC:[70 (FLOW_EDGE)]:TID:1
+70, int getId(), EmailSystem.Client, return $stack1:LINENO:18:FILE:EmailSystem.Client:PRED:[69 (FLOW_EDGE)]:SUCC:[]:TID:1
+71, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, $stack5[$stack6] = $stack2:LINENO:285:FILE:EmailSystem.Client:PRED:[68 (FLOW_EDGE)]:SUCC:[72 (FLOW_EDGE)]:TID:1
+72, EmailSystem.Client createClient(java.lang.String), EmailSystem.Client, return $stack2:LINENO:286:FILE:EmailSystem.Client:PRED:[71 (FLOW_EDGE)]:SUCC:[]:TID:1
+73, void setEmailFrom(EmailSystem.Client), EmailSystem.Email, this.<EmailSystem.Email: EmailSystem.Client 'from'> = $stack3:FIELD:939047783:LINENO:178:FILE:EmailSystem.Email:PRED:[51 (FLOW_EDGE)]:SUCC:[74 (FLOW_EDGE)]:TID:1
+74, void setEmailFrom(EmailSystem.Client), EmailSystem.Email, return:LINENO:179:FILE:EmailSystem.Email:PRED:[73 (FLOW_EDGE)]:SUCC:[]:TID:1
+75, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, virtualinvoke $stack5.<EmailSystem.Email: void setEmailTo(java.lang.String)>(to):LINENO:36:FILE:EmailSystem.Email:PRED:[49 (FLOW_EDGE)]:SUCC:[76 (CALL_EDGE), 78 (FLOW_EDGE)]:TID:1
+76, void setEmailTo(java.lang.String), EmailSystem.Email, this.<EmailSystem.Email: java.lang.String 'to'> = value:FIELD:939047783:LINENO:190:FILE:EmailSystem.Email:PRED:[75 (CALL_EDGE)]:SUCC:[77 (FLOW_EDGE)]:TID:1
+77, void setEmailTo(java.lang.String), EmailSystem.Email, return:LINENO:191:FILE:EmailSystem.Email:PRED:[76 (FLOW_EDGE)]:SUCC:[]:TID:1
+78, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, virtualinvoke $stack5.<EmailSystem.Email: void setEmailSubject(java.lang.String)>(subject):LINENO:37:FILE:EmailSystem.Email:PRED:[75 (FLOW_EDGE)]:SUCC:[81 (FLOW_EDGE), 79 (CALL_EDGE)]:TID:1
+79, void setEmailSubject(java.lang.String), EmailSystem.Email, this.<EmailSystem.Email: java.lang.String subject> = value:FIELD:939047783:LINENO:184:FILE:EmailSystem.Email:PRED:[78 (CALL_EDGE)]:SUCC:[80 (FLOW_EDGE)]:TID:1
+80, void setEmailSubject(java.lang.String), EmailSystem.Email, return:LINENO:185:FILE:EmailSystem.Email:PRED:[79 (FLOW_EDGE)]:SUCC:[]:TID:1
+81, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, virtualinvoke $stack5.<EmailSystem.Email: void setEmailBody(java.lang.String)>(body):LINENO:38:FILE:EmailSystem.Email:PRED:[78 (FLOW_EDGE)]:SUCC:[82 (CALL_EDGE), 84 (FLOW_EDGE)]:TID:1
+82, void setEmailBody(java.lang.String), EmailSystem.Email, this.<EmailSystem.Email: java.lang.String body> = value:FIELD:939047783:LINENO:172:FILE:EmailSystem.Email:PRED:[81 (CALL_EDGE)]:SUCC:[83 (FLOW_EDGE)]:TID:1
+83, void setEmailBody(java.lang.String), EmailSystem.Email, return:LINENO:173:FILE:EmailSystem.Email:PRED:[82 (FLOW_EDGE)]:SUCC:[]:TID:1
+84, EmailSystem.Email createEmail(EmailSystem.Client;java.lang.String;java.lang.String;java.lang.String), EmailSystem.Email, return $stack5:LINENO:39:FILE:EmailSystem.Email:PRED:[81 (FLOW_EDGE)]:SUCC:[]:TID:1
+85, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:29:FILE:EmailSystem.EmailTest:PRED:[38 (FLOW_EDGE)]:SUCC:[86 (FLOW_EDGE)]:TID:1
+86, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:29:FILE:EmailSystem.EmailTest:PRED:[85 (FLOW_EDGE)]:SUCC:[87 (FLOW_EDGE)]:TID:1
+87, void isReadable(), EmailSystem.EmailTest, virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1):LINENO:31:FILE:EmailSystem.EmailTest:PRED:[86 (FLOW_EDGE)]:SUCC:[88 (CALL_EDGE), 91 (FLOW_EDGE)]:TID:1
+88, void setEmailIsEncrypted(boolean), EmailSystem.Email, <tests.TestCommand: boolean ENCRYPT___> = value:LINENO:213:FILE:EmailSystem.Email:PRED:[87 (CALL_EDGE)]:SUCC:[89 (FLOW_EDGE)]:TID:1
+89, void setEmailIsEncrypted(boolean), EmailSystem.Email, this.<EmailSystem.Email: boolean isEncrypted> = value:FIELD:939047783:LINENO:214:FILE:EmailSystem.Email:PRED:[88 (FLOW_EDGE)]:SUCC:[90 (FLOW_EDGE)]:TID:1
+90, void setEmailIsEncrypted(boolean), EmailSystem.Email, return:LINENO:215:FILE:EmailSystem.Email:PRED:[89 (FLOW_EDGE)]:SUCC:[]:TID:1
+91, void isReadable(), EmailSystem.EmailTest, $stack8 = <EmailSystem.EmailTest: boolean $assertionsDisabled>:LINENO:33:FILE:EmailSystem.EmailTest:PRED:[87 (FLOW_EDGE)]:SUCC:[92 (FLOW_EDGE)]:TID:1
+92, void isReadable(), EmailSystem.EmailTest, if $stack8 != 0 goto return:LINENO:33:FILE:EmailSystem.EmailTest:PRED:[91 (FLOW_EDGE)]:SUCC:[93 (FLOW_EDGE)]:TID:1
+93, void isReadable(), EmailSystem.EmailTest, return:LINENO:34:FILE:EmailSystem.EmailTest:PRED:[92 (FLOW_EDGE)]:SUCC:[]:TID:1

@@ -1,0 +1,1153 @@
+public class EmailSystem.Client extends java.lang.Object
+{
+    protected int id;
+    protected java.lang.String name;
+    public static int clientCounter;
+    static EmailSystem.Client[] clients;
+    protected java.util.ArrayList keyring;
+    protected int privateKey;
+    protected boolean autoResponse;
+    protected java.util.ArrayList addressbook;
+    protected EmailSystem.Client forwardReceiver;
+
+    public int getId()
+    {
+        EmailSystem.Client this;
+        int $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: int id>;
+
+        return $stack1;
+    }
+
+    static void deliver(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>("mail delivered\n");
+
+        return;
+    }
+
+    static void incoming__before__autoresponder(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Client: void deliver(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void incoming__role__autoresponder(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Client: void incoming__before__autoresponder(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        $stack2 = virtualinvoke client.<EmailSystem.Client: boolean isAutoResponse()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void autoRespond(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label1:
+        return;
+    }
+
+    static void incoming__before__forward(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_AUTORESPONDER___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void incoming__role__autoresponder(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void incoming__before__autoresponder(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void incoming__role__forward(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client, $stack3;
+        EmailSystem.Email msg;
+        java.lang.String $stack4;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Client: void incoming__before__forward(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        $stack3 = virtualinvoke client.<EmailSystem.Client: EmailSystem.Client getForwardReceiver()>();
+
+        if $stack3 == null goto label1;
+
+        $stack4 = virtualinvoke $stack3.<EmailSystem.Client: java.lang.String getName()>();
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailTo(java.lang.String)>($stack4);
+
+        staticinvoke <EmailSystem.Client: void forward(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        staticinvoke <EmailSystem.Client: void incoming(EmailSystem.Client,EmailSystem.Email)>($stack3, msg);
+
+     label1:
+        return;
+    }
+
+    static void incoming__before__verify(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_FORWARD___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void incoming__role__forward(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void incoming__before__forward(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void incoming__role__verify(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Client: void verify(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        staticinvoke <EmailSystem.Client: void incoming__before__verify(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void incoming__before__decrypt(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_VERIFY___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void incoming__role__verify(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void incoming__before__verify(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void incoming__role__decrypt(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        int $stack3, $stack7;
+        EmailSystem.Email msg;
+        boolean $stack4, $stack8;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack3 = virtualinvoke client.<EmailSystem.Client: int getPrivateKey()>();
+
+        if $stack3 == 0 goto label1;
+
+        $stack4 = virtualinvoke msg.<EmailSystem.Email: boolean isEncrypted()>();
+
+        if $stack4 == 0 goto label1;
+
+        $stack7 = virtualinvoke msg.<EmailSystem.Email: int getEmailEncryptionKey()>();
+
+        $stack8 = staticinvoke <EmailSystem.Client: boolean isKeyPairValid(int,int)>($stack7, $stack3);
+
+        if $stack8 == 0 goto label1;
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(0);
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailEncryptionKey(int)>(0);
+
+     label1:
+        staticinvoke <EmailSystem.Client: void incoming__before__decrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    public static void incoming(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_DECRYPT___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void incoming__role__decrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void incoming__before__decrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void mail(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>("mail sent");
+
+        return;
+    }
+
+    static void outgoing__before__encrypt(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailFrom(EmailSystem.Client)>(client);
+
+        staticinvoke <EmailSystem.Client: void mail(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void outgoing__role__encrypt(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client $stack5, client;
+        EmailSystem.Email msg;
+        int $stack6, $stack9;
+        java.lang.StringBuilder $stack7, $stack8, $stack10;
+        java.lang.String $stack4, $stack11;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack4 = virtualinvoke msg.<EmailSystem.Email: java.lang.String getEmailTo()>();
+
+        $stack5 = staticinvoke <EmailSystem.Client: EmailSystem.Client getClientByAdress(java.lang.String)>($stack4);
+
+        $stack6 = virtualinvoke client.<EmailSystem.Client: int getKeyringPublicKeyByClient(EmailSystem.Client)>($stack5);
+
+        if $stack6 == 0 goto label1;
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailEncryptionKey(int)>($stack6);
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1);
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Encrypted Mail ");
+
+        $stack9 = virtualinvoke msg.<EmailSystem.Email: int getId()>();
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>($stack11);
+
+     label1:
+        staticinvoke <EmailSystem.Client: void outgoing__before__encrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void outgoing__before__addressbook(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_ENCRYPT___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void outgoing__role__encrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void outgoing__before__encrypt(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void outgoing__role__addressbook(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client, $stack12;
+        EmailSystem.Email msg;
+        java.util.List $stack6;
+        int $stack8, i;
+        java.lang.Object $stack9, $stack11;
+        java.lang.String $stack5, $stack10, receiverAddress;
+        boolean $stack7;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack5 = virtualinvoke msg.<EmailSystem.Email: java.lang.String getEmailTo()>();
+
+        $stack6 = virtualinvoke client.<EmailSystem.Client: java.util.List getAddressBookReceiversForAlias(java.lang.String)>($stack5);
+
+        $stack7 = interfaceinvoke $stack6.<java.util.List: boolean isEmpty()>();
+
+        if $stack7 != 0 goto label3;
+
+        i = 1;
+
+     label1:
+        $stack8 = interfaceinvoke $stack6.<java.util.List: int size()>();
+
+        if i >= $stack8 goto label2;
+
+        $stack11 = interfaceinvoke $stack6.<java.util.List: java.lang.Object get(int)>(i);
+
+        receiverAddress = (java.lang.String) $stack11;
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailTo(java.lang.String)>(receiverAddress);
+
+        staticinvoke <EmailSystem.Client: void outgoing(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        $stack12 = staticinvoke <EmailSystem.Client: EmailSystem.Client getClientByAdress(java.lang.String)>(receiverAddress);
+
+        staticinvoke <EmailSystem.Client: void incoming(EmailSystem.Client,EmailSystem.Email)>($stack12, msg);
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        $stack9 = interfaceinvoke $stack6.<java.util.List: java.lang.Object get(int)>(0);
+
+        $stack10 = (java.lang.String) $stack9;
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailTo(java.lang.String)>($stack10);
+
+        staticinvoke <EmailSystem.Client: void outgoing__before__addressbook(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label4;
+
+     label3:
+        staticinvoke <EmailSystem.Client: void outgoing__before__addressbook(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label4:
+        return;
+    }
+
+    static void outgoing__before__sign(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_ADDRESSBOOK___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void outgoing__role__addressbook(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void outgoing__before__addressbook(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    static void outgoing__role__sign(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Client: void sign(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        staticinvoke <EmailSystem.Client: void outgoing__before__sign(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void outgoing(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+        boolean $stack2;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack2 = staticinvoke <tests.TestCommand: boolean get_SIGN___()>();
+
+        if $stack2 == 0 goto label1;
+
+        staticinvoke <EmailSystem.Client: void outgoing__role__sign(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        goto label2;
+
+     label1:
+        staticinvoke <EmailSystem.Client: void outgoing__before__sign(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+     label2:
+        return;
+    }
+
+    public static int sendEmail(EmailSystem.Client, java.lang.String, java.lang.String, java.lang.String)
+    {
+        EmailSystem.Client sender, $stack13;
+        EmailSystem.Email $stack6;
+        int $stack9;
+        java.lang.String receiverAddress, subject, body, $stack11, $stack12, $stack19;
+        java.lang.IllegalArgumentException $stack14;
+        java.lang.StringBuilder $stack7, $stack8, $stack10, $stack15, $stack16, $stack17, $stack18;
+
+        sender := @parameter0: EmailSystem.Client;
+
+        receiverAddress := @parameter1: java.lang.String;
+
+        subject := @parameter2: java.lang.String;
+
+        body := @parameter3: java.lang.String;
+
+        $stack6 = staticinvoke <EmailSystem.Email: EmailSystem.Email createEmail(EmailSystem.Client,java.lang.String,java.lang.String,java.lang.String)>(sender, receiverAddress, subject, body);
+
+        $stack7 = new java.lang.StringBuilder;
+
+        specialinvoke $stack7.<java.lang.StringBuilder: void <init>()>();
+
+        $stack8 = virtualinvoke $stack7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("sending Mail ");
+
+        $stack9 = virtualinvoke $stack6.<EmailSystem.Email: int getId()>();
+
+        $stack10 = virtualinvoke $stack8.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>($stack9);
+
+        $stack11 = virtualinvoke $stack10.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>($stack11);
+
+        staticinvoke <EmailSystem.Client: void outgoing(EmailSystem.Client,EmailSystem.Email)>(sender, $stack6);
+
+        $stack12 = virtualinvoke $stack6.<EmailSystem.Email: java.lang.String getEmailTo()>();
+
+        $stack13 = staticinvoke <EmailSystem.Client: EmailSystem.Client getClientByAdress(java.lang.String)>($stack12);
+
+        if $stack13 == null goto label1;
+
+        staticinvoke <EmailSystem.Client: void incoming(EmailSystem.Client,EmailSystem.Email)>($stack13, $stack6);
+
+        goto label2;
+
+     label1:
+        $stack14 = new java.lang.IllegalArgumentException;
+
+        $stack15 = new java.lang.StringBuilder;
+
+        specialinvoke $stack15.<java.lang.StringBuilder: void <init>()>();
+
+        $stack16 = virtualinvoke $stack15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Receiver ");
+
+        $stack17 = virtualinvoke $stack16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(receiverAddress);
+
+        $stack18 = virtualinvoke $stack17.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" Unknown");
+
+        $stack19 = virtualinvoke $stack18.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        specialinvoke $stack14.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack19);
+
+        throw $stack14;
+
+     label2:
+        return 0;
+    }
+
+    private void <init>(int, java.lang.String)
+    {
+        EmailSystem.Client this;
+        int id;
+        java.lang.String name;
+        java.util.ArrayList $stack3, $stack4;
+
+        this := @this: EmailSystem.Client;
+
+        id := @parameter0: int;
+
+        name := @parameter1: java.lang.String;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        $stack3 = new java.util.ArrayList;
+
+        specialinvoke $stack3.<java.util.ArrayList: void <init>()>();
+
+        this.<EmailSystem.Client: java.util.ArrayList keyring> = $stack3;
+
+        $stack4 = new java.util.ArrayList;
+
+        specialinvoke $stack4.<java.util.ArrayList: void <init>()>();
+
+        this.<EmailSystem.Client: java.util.ArrayList addressbook> = $stack4;
+
+        this.<EmailSystem.Client: int id> = id;
+
+        this.<EmailSystem.Client: java.lang.String name> = name;
+
+        return;
+    }
+
+    public java.lang.String getName()
+    {
+        EmailSystem.Client this;
+        java.lang.String $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public static EmailSystem.Client createClient(java.lang.String)
+    {
+        EmailSystem.Client $stack2;
+        int $stack3, $stack4, $stack6;
+        java.lang.String name;
+        EmailSystem.Client[] $stack5;
+
+        name := @parameter0: java.lang.String;
+
+        $stack2 = new EmailSystem.Client;
+
+        $stack3 = <EmailSystem.Client: int clientCounter>;
+
+        $stack4 = $stack3 + 1;
+
+        <EmailSystem.Client: int clientCounter> = $stack4;
+
+        specialinvoke $stack2.<EmailSystem.Client: void <init>(int,java.lang.String)>($stack3, name);
+
+        $stack5 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack6 = virtualinvoke $stack2.<EmailSystem.Client: int getId()>();
+
+        $stack5[$stack6] = $stack2;
+
+        return $stack2;
+    }
+
+    static EmailSystem.Client getClientById(int)
+    {
+        int id;
+        EmailSystem.Client $stack2;
+        EmailSystem.Client[] $stack1;
+
+        id := @parameter0: int;
+
+        $stack1 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack2 = $stack1[id];
+
+        return $stack2;
+    }
+
+    public static EmailSystem.Client getClientByAdress(java.lang.String)
+    {
+        EmailSystem.Client $stack5, $stack8, $stack12;
+        int $stack3, i;
+        EmailSystem.Client[] $stack2, $stack4, $stack7, $stack11;
+        java.lang.String $stack9, address;
+        boolean $stack10;
+
+        address := @parameter0: java.lang.String;
+
+        i = 0;
+
+     label1:
+        $stack2 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack3 = lengthof $stack2;
+
+        if i >= $stack3 goto label3;
+
+        $stack4 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack5 = $stack4[i];
+
+        if $stack5 == null goto label2;
+
+        $stack7 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack8 = $stack7[i];
+
+        $stack9 = virtualinvoke $stack8.<EmailSystem.Client: java.lang.String getName()>();
+
+        $stack10 = virtualinvoke $stack9.<java.lang.String: boolean equals(java.lang.Object)>(address);
+
+        if $stack10 == 0 goto label2;
+
+        $stack11 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack12 = $stack11[i];
+
+        return $stack12;
+
+     label2:
+        i = i + 1;
+
+        goto label1;
+
+     label3:
+        return null;
+    }
+
+    public static void resetClients()
+    {
+        int $stack2, i, $i0;
+        EmailSystem.Client $stack5;
+        EmailSystem.Client[] $stack1, $stack3, $stack4;
+
+        <EmailSystem.Client: int clientCounter> = 1;
+
+        i = 0;
+
+     label1:
+        $stack1 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack2 = lengthof $stack1;
+
+        if i >= $stack2 goto label2;
+
+        $stack3 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack3[i] = null;
+
+        $stack4 = <EmailSystem.Client: EmailSystem.Client[] clients>;
+
+        $stack5 = $stack4[i];
+
+        $i0 = (int) -1;
+
+        $stack5.<EmailSystem.Client: int id> = $i0;
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        return;
+    }
+
+    public java.lang.String toString()
+    {
+        EmailSystem.Client this;
+        java.lang.String $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: java.lang.String name>;
+
+        return $stack1;
+    }
+
+    public void setPrivateKey(int)
+    {
+        EmailSystem.Client this;
+        int privateKey;
+
+        this := @this: EmailSystem.Client;
+
+        privateKey := @parameter0: int;
+
+        this.<EmailSystem.Client: int privateKey> = privateKey;
+
+        return;
+    }
+
+    public int getPrivateKey()
+    {
+        EmailSystem.Client this;
+        int $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: int privateKey>;
+
+        return $stack1;
+    }
+
+    public static void generateKeyPair(EmailSystem.Client, int)
+    {
+        EmailSystem.Client client;
+        int seed;
+
+        client := @parameter0: EmailSystem.Client;
+
+        seed := @parameter1: int;
+
+        virtualinvoke client.<EmailSystem.Client: void setPrivateKey(int)>(seed);
+
+        return;
+    }
+
+    public void addKeyringEntry(EmailSystem.Client, int)
+    {
+        EmailSystem.Client this, client;
+        int publicKey;
+        EmailSystem.Client$KeyringEntry $stack3;
+        java.util.ArrayList $stack4;
+
+        this := @this: EmailSystem.Client;
+
+        client := @parameter0: EmailSystem.Client;
+
+        publicKey := @parameter1: int;
+
+        $stack4 = this.<EmailSystem.Client: java.util.ArrayList keyring>;
+
+        $stack3 = new EmailSystem.Client$KeyringEntry;
+
+        specialinvoke $stack3.<EmailSystem.Client$KeyringEntry: void <init>(EmailSystem.Client,int)>(client, publicKey);
+
+        virtualinvoke $stack4.<java.util.ArrayList: boolean add(java.lang.Object)>($stack3);
+
+        return;
+    }
+
+    public int getKeyringPublicKeyByClient(EmailSystem.Client)
+    {
+        java.util.Iterator $stack5;
+        EmailSystem.Client this, $stack8, client;
+        EmailSystem.Client$KeyringEntry e;
+        java.util.ArrayList $stack4;
+        int $stack11;
+        java.lang.Object $stack7;
+        boolean $stack6, $stack9;
+
+        this := @this: EmailSystem.Client;
+
+        client := @parameter0: EmailSystem.Client;
+
+        $stack4 = this.<EmailSystem.Client: java.util.ArrayList keyring>;
+
+        $stack5 = virtualinvoke $stack4.<java.util.ArrayList: java.util.Iterator iterator()>();
+
+     label1:
+        $stack6 = interfaceinvoke $stack5.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack6 == 0 goto label3;
+
+        $stack7 = interfaceinvoke $stack5.<java.util.Iterator: java.lang.Object next()>();
+
+        e = (EmailSystem.Client$KeyringEntry) $stack7;
+
+        $stack8 = virtualinvoke e.<EmailSystem.Client$KeyringEntry: EmailSystem.Client getKeyOwner()>();
+
+        $stack9 = virtualinvoke $stack8.<java.lang.Object: boolean equals(java.lang.Object)>(client);
+
+        if $stack9 == 0 goto label2;
+
+        $stack11 = virtualinvoke e.<EmailSystem.Client$KeyringEntry: int getPublicKey()>();
+
+        return $stack11;
+
+     label2:
+        goto label1;
+
+     label3:
+        return 0;
+    }
+
+    public static boolean isKeyPairValid(int, int)
+    {
+        int publicKey, privateKey;
+        java.lang.StringBuilder $stack2, $stack3, $stack4, $stack5, $stack6;
+        java.lang.String $stack7;
+        boolean $stack8;
+
+        publicKey := @parameter0: int;
+
+        privateKey := @parameter1: int;
+
+        $stack2 = new java.lang.StringBuilder;
+
+        specialinvoke $stack2.<java.lang.StringBuilder: void <init>()>();
+
+        $stack3 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("keypair valid ");
+
+        $stack4 = virtualinvoke $stack3.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(publicKey);
+
+        $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" ");
+
+        $stack6 = virtualinvoke $stack5.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(privateKey);
+
+        $stack7 = virtualinvoke $stack6.<java.lang.StringBuilder: java.lang.String toString()>();
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>($stack7);
+
+        if publicKey == 0 goto label1;
+
+        if privateKey != 0 goto label2;
+
+     label1:
+        return 0;
+
+     label2:
+        if privateKey != publicKey goto label3;
+
+        $stack8 = 1;
+
+        goto label4;
+
+     label3:
+        $stack8 = 0;
+
+     label4:
+        return $stack8;
+    }
+
+    public void setAutoResponse(boolean)
+    {
+        EmailSystem.Client this;
+        boolean autoResponse;
+
+        this := @this: EmailSystem.Client;
+
+        autoResponse := @parameter0: boolean;
+
+        this.<EmailSystem.Client: boolean autoResponse> = autoResponse;
+
+        return;
+    }
+
+    public boolean isAutoResponse()
+    {
+        EmailSystem.Client this;
+        boolean $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: boolean autoResponse>;
+
+        return $stack1;
+    }
+
+    static void autoRespond(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client $stack3, client;
+        EmailSystem.Email msg;
+        java.lang.String $stack4;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>("sending autoresponse\n");
+
+        $stack3 = virtualinvoke msg.<EmailSystem.Email: EmailSystem.Client getEmailFrom()>();
+
+        $stack4 = virtualinvoke $stack3.<EmailSystem.Client: java.lang.String getName()>();
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailTo(java.lang.String)>($stack4);
+
+        staticinvoke <EmailSystem.Client: void outgoing(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        staticinvoke <EmailSystem.Client: void incoming(EmailSystem.Client,EmailSystem.Email)>($stack3, msg);
+
+        return;
+    }
+
+    public java.util.List getAddressBookReceiversForAlias(java.lang.String)
+    {
+        java.util.Iterator $stack5;
+        EmailSystem.Client this;
+        java.util.ArrayList $stack4, $stack12;
+        java.util.List $stack7;
+        java.lang.Object $stack8;
+        EmailSystem.Client$AddressBookEntry e;
+        java.lang.String $stack9, alias;
+        boolean $stack6, $stack10;
+
+        this := @this: EmailSystem.Client;
+
+        alias := @parameter0: java.lang.String;
+
+        $stack4 = this.<EmailSystem.Client: java.util.ArrayList addressbook>;
+
+        $stack5 = virtualinvoke $stack4.<java.util.ArrayList: java.util.Iterator iterator()>();
+
+     label1:
+        $stack6 = interfaceinvoke $stack5.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack6 == 0 goto label3;
+
+        $stack8 = interfaceinvoke $stack5.<java.util.Iterator: java.lang.Object next()>();
+
+        e = (EmailSystem.Client$AddressBookEntry) $stack8;
+
+        $stack9 = virtualinvoke e.<EmailSystem.Client$AddressBookEntry: java.lang.String getAlias()>();
+
+        $stack10 = virtualinvoke $stack9.<java.lang.String: boolean equals(java.lang.Object)>(alias);
+
+        if $stack10 == 0 goto label2;
+
+        $stack12 = virtualinvoke e.<EmailSystem.Client$AddressBookEntry: java.util.ArrayList getReceivers()>();
+
+        return $stack12;
+
+     label2:
+        goto label1;
+
+     label3:
+        $stack7 = staticinvoke <java.util.Collections: java.util.List emptyList()>();
+
+        return $stack7;
+    }
+
+    public void addAddressbookEntry(java.lang.String, java.lang.String)
+    {
+        java.util.Iterator $stack6;
+        EmailSystem.Client this;
+        java.util.ArrayList $stack5, $stack9;
+        EmailSystem.Client$AddressBookEntry $stack8, e;
+        java.lang.Object $stack11;
+        java.lang.String alias, receiver, $stack12;
+        boolean $stack7, $stack13;
+
+        this := @this: EmailSystem.Client;
+
+        alias := @parameter0: java.lang.String;
+
+        receiver := @parameter1: java.lang.String;
+
+        $stack5 = this.<EmailSystem.Client: java.util.ArrayList addressbook>;
+
+        $stack6 = virtualinvoke $stack5.<java.util.ArrayList: java.util.Iterator iterator()>();
+
+     label1:
+        $stack7 = interfaceinvoke $stack6.<java.util.Iterator: boolean hasNext()>();
+
+        if $stack7 == 0 goto label3;
+
+        $stack11 = interfaceinvoke $stack6.<java.util.Iterator: java.lang.Object next()>();
+
+        e = (EmailSystem.Client$AddressBookEntry) $stack11;
+
+        $stack12 = virtualinvoke e.<EmailSystem.Client$AddressBookEntry: java.lang.String getAlias()>();
+
+        $stack13 = virtualinvoke $stack12.<java.lang.String: boolean equals(java.lang.Object)>(alias);
+
+        if $stack13 == 0 goto label2;
+
+        virtualinvoke e.<EmailSystem.Client$AddressBookEntry: void addReceiver(java.lang.String)>(receiver);
+
+        return;
+
+     label2:
+        goto label1;
+
+     label3:
+        $stack8 = new EmailSystem.Client$AddressBookEntry;
+
+        specialinvoke $stack8.<EmailSystem.Client$AddressBookEntry: void <init>(java.lang.String)>(alias);
+
+        virtualinvoke $stack8.<EmailSystem.Client$AddressBookEntry: void addReceiver(java.lang.String)>(receiver);
+
+        $stack9 = this.<EmailSystem.Client: java.util.ArrayList addressbook>;
+
+        virtualinvoke $stack9.<java.util.ArrayList: boolean add(java.lang.Object)>($stack8);
+
+        return;
+    }
+
+    static void sign(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        int $stack3;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack3 = virtualinvoke client.<EmailSystem.Client: int getPrivateKey()>();
+
+        if $stack3 != 0 goto label1;
+
+        return;
+
+     label1:
+        virtualinvoke msg.<EmailSystem.Email: void setEmailIsSigned(boolean)>(1);
+
+        virtualinvoke msg.<EmailSystem.Email: void setEmailSignKey(int)>($stack3);
+
+        return;
+    }
+
+    public void setForwardReceiver(EmailSystem.Client)
+    {
+        EmailSystem.Client this, forwardReceiver;
+
+        this := @this: EmailSystem.Client;
+
+        forwardReceiver := @parameter0: EmailSystem.Client;
+
+        this.<EmailSystem.Client: EmailSystem.Client forwardReceiver> = forwardReceiver;
+
+        return;
+    }
+
+    public EmailSystem.Client getForwardReceiver()
+    {
+        EmailSystem.Client this, $stack1;
+
+        this := @this: EmailSystem.Client;
+
+        $stack1 = this.<EmailSystem.Client: EmailSystem.Client forwardReceiver>;
+
+        return $stack1;
+    }
+
+    static void forward(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client;
+        EmailSystem.Email msg;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>("Forwarding message.\n");
+
+        staticinvoke <EmailSystem.Email: void printMail(EmailSystem.Email)>(msg);
+
+        staticinvoke <EmailSystem.Client: void outgoing(EmailSystem.Client,EmailSystem.Email)>(client, msg);
+
+        return;
+    }
+
+    static void verify(EmailSystem.Client, EmailSystem.Email)
+    {
+        EmailSystem.Client client, $stack3;
+        int $stack4, $stack5;
+        EmailSystem.Email msg;
+        boolean $stack6;
+
+        client := @parameter0: EmailSystem.Client;
+
+        msg := @parameter1: EmailSystem.Email;
+
+        $stack3 = virtualinvoke msg.<EmailSystem.Email: EmailSystem.Client getEmailFrom()>();
+
+        $stack4 = virtualinvoke client.<EmailSystem.Client: int getKeyringPublicKeyByClient(EmailSystem.Client)>($stack3);
+
+        if $stack4 == 0 goto label1;
+
+        $stack5 = virtualinvoke msg.<EmailSystem.Email: int getEmailSignKey()>();
+
+        $stack6 = staticinvoke <EmailSystem.Client: boolean isKeyPairValid(int,int)>($stack5, $stack4);
+
+        if $stack6 == 0 goto label1;
+
+        virtualinvoke msg.<EmailSystem.Email: void setIsSignatureVerified(boolean)>(1);
+
+     label1:
+        return;
+    }
+
+    static void <clinit>()
+    {
+        EmailSystem.Client[] $stack0;
+
+        $stack0 = newarray (EmailSystem.Client)[2000000];
+
+        <EmailSystem.Client: EmailSystem.Client[] clients> = $stack0;
+
+        return;
+    }
+}
