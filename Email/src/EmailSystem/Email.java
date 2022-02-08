@@ -31,7 +31,7 @@ public   class  Email {
 	
 
 	static Email createEmail(Client from, String to, String subject, String body) {
-		Email msg = new Email(emailCounter++);
+		Email msg = new Email(++emailCounter);
 		msg.setEmailFrom(from);
 		msg.setEmailTo(to);
 		msg.setEmailSubject(subject);
@@ -58,11 +58,7 @@ public   class  Email {
 	
 	boolean
 isReadable() {
-    if (TestCommand.get_ENCRYPT___()) {
-        return isReadable__role__encrypt();
-    } else {
-        return isReadable__before__encrypt();
-    }
+    return isEncrypted;
 }
 
 
@@ -179,7 +175,7 @@ printMail(Email msg) {
 	
 
 	void setEmailFrom(Client value) {
-		this.from = value;
+		this.from = Client.createClient(value.name);
 	}
 
 	
@@ -212,10 +208,9 @@ printMail(Email msg) {
 		return isEncrypted;
 	}
 
-	
-
 
 	void setEmailIsEncrypted(boolean value) {
+		TestCommand.ENCRYPT___ = value;
 		isEncrypted = value;
 	}
 

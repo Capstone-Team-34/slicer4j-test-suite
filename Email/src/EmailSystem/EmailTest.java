@@ -28,8 +28,6 @@ class EmailTest {
 
         msg.setEmailIsEncrypted(true);
 
-        tc.ENCRYPT___ = true;
-
         assert(!msg.isReadable());
     }
 
