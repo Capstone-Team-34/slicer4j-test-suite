@@ -1,6 +1,6 @@
-tests.tests:12    1    7:$stack5 = new MinePumpSystem.MinePump
-tests.tests:11    1    2:$stack4 = new MinePumpSystem.Environment
-tests.tests:11    1    3:specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>()
-MinePumpSystem.Environment:3    1    4:specialinvoke this.<java.lang.Object: void <init>()>()
-MinePumpSystem.Environment:15    1    5:this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0
-tests.tests:12    1    15:specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4)
+MinePumpSystem.MinePumpTest:17    1    14:$stack4 = new MinePumpSystem.MinePump
+MinePumpSystem.MinePumpTest:16    1    9:$stack3 = new MinePumpSystem.Environment
+MinePumpSystem.MinePumpTest:16    1    10:specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>()
+MinePumpSystem.Environment:3    1    11:specialinvoke this.<java.lang.Object: void <init>()>()
+MinePumpSystem.Environment:15    1    12:this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0
+MinePumpSystem.MinePumpTest:17    1    22:specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3)

@@ -1,8 +1,8 @@
-class MinePumpSystem.MinePumpTest extends java.lang.Object
+public class MinePumpSystem.MinePumpTest extends java.lang.Object
 {
     static final boolean $assertionsDisabled;
 
-    void <init>()
+    public void <init>()
     {
         MinePumpSystem.MinePumpTest this;
 
@@ -13,7 +13,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void setUp()
+    public void setUp()
     {
         MinePumpSystem.MinePumpTest this;
 
@@ -22,7 +22,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void isHighWaterLevel()
+    public void isHighWaterLevel()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack10, $stack16, $stack22, $stack26;
@@ -125,7 +125,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void isLowWaterLevel()
+    public void isLowWaterLevel()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack8, $stack13;
@@ -184,7 +184,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void isMethaneAlarm()
+    public void isMethaneAlarm()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack8, $stack11;
@@ -237,7 +237,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void timeShift()
+    public void timeShift()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack9, $stack14, $stack19;
@@ -323,7 +323,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void activatePump()
+    public void activatePump()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack8, $stack11;
@@ -376,7 +376,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void deactivatePump()
+    public void deactivatePump()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack9, $stack12, $stack15;
@@ -446,7 +446,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void testToString()
+    public void testToString()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack14, $stack18, $stack22, $stack26, $stack30, $stack34, $stack38;
@@ -599,7 +599,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void stopSystem()
+    public void stopSystem()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack8, $stack11;
@@ -664,7 +664,7 @@ class MinePumpSystem.MinePumpTest extends java.lang.Object
         return;
     }
 
-    void startSystem()
+    public void startSystem()
     {
         MinePumpSystem.MinePump $stack4;
         java.lang.AssertionError $stack8, $stack11;

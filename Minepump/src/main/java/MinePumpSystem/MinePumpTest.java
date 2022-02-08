@@ -1,17 +1,18 @@
 package MinePumpSystem;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MinePumpTest {
+public class MinePumpTest {
+    public MinePumpTest() {}
 
-    @org.junit.jupiter.api.BeforeEach
-    void setUp() {
+    @Test
+    public void setUp() {
     }
 
-    @org.junit.jupiter.api.Test
-    void isHighWaterLevel() {
+    @Test
+    public void isHighWaterLevel() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
         env.lowerWaterLevel();
@@ -36,8 +37,8 @@ class MinePumpTest {
         assert(!p.isHighWaterLevel());
     }
 
-    @org.junit.jupiter.api.Test
-    void isLowWaterLevel() {
+    @Test
+    public void isLowWaterLevel() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -52,7 +53,7 @@ class MinePumpTest {
     }
 
     @Test
-    void isMethaneAlarm() {
+    public void isMethaneAlarm() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -64,7 +65,7 @@ class MinePumpTest {
     }
 
     @Test
-    void timeShift() {
+    public void timeShift() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -91,7 +92,7 @@ class MinePumpTest {
     }
 
     @Test
-    void activatePump() {
+    public void activatePump() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -103,7 +104,7 @@ class MinePumpTest {
     }
 
     @Test
-    void deactivatePump() {
+    public void deactivatePump() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -119,7 +120,7 @@ class MinePumpTest {
     }
 
     @Test
-    void testToString() {
+    public void testToString() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -151,7 +152,7 @@ class MinePumpTest {
     }
 
     @Test
-    void stopSystem() {
+    public void stopSystem() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
@@ -165,7 +166,7 @@ class MinePumpTest {
     }
 
     @Test
-    void startSystem() {
+    public void startSystem() {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 

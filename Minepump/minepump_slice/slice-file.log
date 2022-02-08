@@ -5,67 +5,66 @@ SLF4J: Found binding in [jar:file:/Users/danica/Desktop/Research/Slicer4J/Slicer
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO Parser - expandTrace (48): Abs path for static-log /Users/danica/Desktop/capstone/slicer4j-test-suite/Minepump/minepump_slice/static-log.log
-[main] INFO Parser - expandTrace (97): Expanded trace size: 75
-[main] INFO Parser - expandTrace (97): Expanded trace size: 75
+[main] INFO Parser - expandTrace (97): Expanded trace size: 82
 [main] INFO Parser - expandTrace (102): Done parsing
-[main] INFO DynamicControlFlowGraph - createDCFG (85): Trace size: 75
-[main] INFO DynamicControlFlowGraph - createDCFG (95): Progress: 0/75 (0), time: 0.0
+[main] INFO DynamicControlFlowGraph - createDCFG (85): Trace size: 82
+[main] INFO DynamicControlFlowGraph - createDCFG (95): Progress: 0/82 (0), time: 0.0
 [main] INFO SlicePrinter - printSlices (207): Printing dynamic slice:
-[main] INFO SlicePrinter - printSlices (209): Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 2, void main(java.lang.String[]), tests.tests, $stack4 = new MinePumpSystem.Environment:LINENO:11:FILE:tests.tests,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 2, void main(java.lang.String[]), tests.tests, $stack4 = new MinePumpSystem.Environment:LINENO:11:FILE:tests.tests,(:2:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 4, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 3, void main(java.lang.String[]), tests.tests, specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>():LINENO:11:FILE:tests.tests,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 3, void main(java.lang.String[]), tests.tests, specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>():LINENO:11:FILE:tests.tests,(:3:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 5, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1163157884:LINENO:15:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 3, void main(java.lang.String[]), tests.tests, specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>():LINENO:11:FILE:tests.tests,(:3:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 4, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 3, void main(java.lang.String[]), tests.tests, specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>():LINENO:11:FILE:tests.tests,(:3:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 6, void <init>(), MinePumpSystem.Environment, return:LINENO:15:FILE:MinePumpSystem.Environment,(r0:6:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 4, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 4, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 5, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1163157884:LINENO:15:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 5, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1163157884:LINENO:15:FILE:MinePumpSystem.Environment,(this:4:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack5:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack5:15:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(:15:-1)
-[main] INFO SlicePrinter - printSlices (209): Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(:15:-1)
-[main] INFO SlicePrinter - printSlices (209):    from:Pair 20, void <init>(MinePumpSystem.Environment), MinePumpSystem.MinePump, return:LINENO:22:FILE:MinePumpSystem.MinePump,(:20:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 9, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack3 = new MinePumpSystem.Environment:LINENO:16:FILE:MinePumpSystem.MinePumpTest,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 9, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack3 = new MinePumpSystem.Environment:LINENO:16:FILE:MinePumpSystem.MinePumpTest,(:9:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 11, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 10, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>():LINENO:16:FILE:MinePumpSystem.MinePumpTest,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 10, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>():LINENO:16:FILE:MinePumpSystem.MinePumpTest,(:10:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 12, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1128032093:LINENO:15:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 10, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>():LINENO:16:FILE:MinePumpSystem.MinePumpTest,(:10:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 11, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 10, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>():LINENO:16:FILE:MinePumpSystem.MinePumpTest,(:10:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 13, void <init>(), MinePumpSystem.Environment, return:LINENO:15:FILE:MinePumpSystem.Environment,(r0:13:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 11, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 11, void <init>(), MinePumpSystem.Environment, specialinvoke this.<java.lang.Object: void <init>()>():LINENO:3:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 12, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1128032093:LINENO:15:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 12, void <init>(), MinePumpSystem.Environment, this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0:FIELD:1128032093:LINENO:15:FILE:MinePumpSystem.Environment,(this:11:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack4:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack4:22:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:22:-1)
+[main] INFO SlicePrinter - printSlices (209): Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:22:-1)
+[main] INFO SlicePrinter - printSlices (209):    from:Pair 27, void <init>(MinePumpSystem.Environment), MinePumpSystem.MinePump, return:LINENO:22:FILE:MinePumpSystem.MinePump,(:27:-1)
 [main] INFO SlicePrinter - printSlices (211): Printing static slice:
-[main] INFO SlicePrinter - printSlices (213): <tests.tests: void main(java.lang.String[])>:12--1:$stack5 = new MinePumpSystem.MinePump
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 7, void main(java.lang.String[]), tests.tests, $stack5 = new MinePumpSystem.MinePump:LINENO:12:FILE:tests.tests,(:7:-1)
-[main] INFO SlicePrinter - printSlices (213): <tests.tests: void main(java.lang.String[])>:11--1:$stack4 = new MinePumpSystem.Environment
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (213): <tests.tests: void main(java.lang.String[])>:11--1:specialinvoke $stack4.<MinePumpSystem.Environment: void <init>()>()
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
+[main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.MinePumpTest: void isHighWaterLevel()>:17--1:$stack4 = new MinePumpSystem.MinePump
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 14, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, $stack4 = new MinePumpSystem.MinePump:LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:14:-1)
+[main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.MinePumpTest: void isHighWaterLevel()>:16--1:$stack3 = new MinePumpSystem.Environment
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.MinePumpTest: void isHighWaterLevel()>:16--1:specialinvoke $stack3.<MinePumpSystem.Environment: void <init>()>()
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
 [main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.Environment: void <init>()>:3--1:specialinvoke this.<java.lang.Object: void <init>()>()
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
 [main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.Environment: void <init>()>:15--1:this.<MinePumpSystem.Environment: boolean methaneLevelCritical> = 0
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(stack4:15:-1)
-[main] INFO SlicePrinter - printSlices (213): <tests.tests: void main(java.lang.String[])>:12--1:specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4)
-[main] INFO SlicePrinter - printSlices (213):    from:Pair 15, void main(java.lang.String[]), tests.tests, specialinvoke $stack5.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack4):LINENO:12:FILE:tests.tests,(:15:-1)
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(stack3:22:-1)
+[main] INFO SlicePrinter - printSlices (213): <MinePumpSystem.MinePumpTest: void isHighWaterLevel()>:17--1:specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3)
+[main] INFO SlicePrinter - printSlices (213):    from:Pair 22, void isHighWaterLevel(), MinePumpSystem.MinePumpTest, specialinvoke $stack4.<MinePumpSystem.MinePump: void <init>(MinePumpSystem.Environment)>($stack3):LINENO:17:FILE:MinePumpSystem.MinePumpTest,(:22:-1)
 [main] INFO SlicePrinter - printSliceGraph (219): Graph:
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 20
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 7
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 3
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 5
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 4
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 2
-[main] INFO SlicePrinter - printSliceGraph (223): 15 --> 6
-[main] INFO SlicePrinter - printSliceGraph (223): 20 --> 15
-[main] INFO SlicePrinter - printSliceGraph (223): 5 --> 3
-[main] INFO SlicePrinter - printSliceGraph (223): 5 --> 4
-[main] INFO SlicePrinter - printSliceGraph (223): 4 --> 3
-[main] INFO SlicePrinter - printSliceGraph (223): 4 --> 2
-[main] INFO SlicePrinter - printSliceGraph (223): 6 --> 3
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 27
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 14
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 10
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 12
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 11
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 9
+[main] INFO SlicePrinter - printSliceGraph (223): 22 --> 13
+[main] INFO SlicePrinter - printSliceGraph (223): 27 --> 22
+[main] INFO SlicePrinter - printSliceGraph (223): 12 --> 10
+[main] INFO SlicePrinter - printSliceGraph (223): 12 --> 11
+[main] INFO SlicePrinter - printSliceGraph (223): 11 --> 10
+[main] INFO SlicePrinter - printSliceGraph (223): 11 --> 9
+[main] INFO SlicePrinter - printSliceGraph (223): 13 --> 10
 [main] INFO SlicePrinter - printSliceGraph (226): Graph End
 [main] INFO guru.nidi.graphviz.engine.AbstractGraphvizEngine - Could not initialize guru.nidi.graphviz.engine.GraphvizCmdLineEngine
 guru.nidi.graphviz.engine.GraphvizException: [dot] command not found
