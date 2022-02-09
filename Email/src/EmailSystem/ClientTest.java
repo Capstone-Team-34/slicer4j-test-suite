@@ -28,6 +28,13 @@ public class ClientTest {
 
     @Test
     public void sendEmail() {
+        Client bob = Client.createClient("bob");
+        Client alice = Client.createClient("alice");
+        assert(Client.sendEmail(bob, "alice", "Hello", "World") == 0);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            Client.sendEmail(alice, "carl", "Hello", "World");
+        });
     }
 
     @Test

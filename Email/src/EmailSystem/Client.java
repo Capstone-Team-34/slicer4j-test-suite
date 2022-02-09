@@ -253,11 +253,7 @@ outgoing(Client client, Email msg) {
 		Util.prompt("sending Mail " + email.getId());
 		outgoing(sender, email);
 		Client receiver = Client.getClientByAdress(email.getEmailTo());
-		if (receiver != null) {
-			incoming(receiver, email);
-		} else {
-			throw new IllegalArgumentException("Receiver " + receiverAddress + " Unknown");
-		}
+		incoming(receiver, email);
 		return 0; // die Zeile kommt von mir
 	}
 

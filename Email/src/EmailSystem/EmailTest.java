@@ -1,6 +1,5 @@
 package EmailSystem;
 
-import tests.TestCommand;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,7 +21,6 @@ public class EmailTest {
 
     @Test
     public void isReadable() {
-        TestCommand tc = new TestCommand();
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
