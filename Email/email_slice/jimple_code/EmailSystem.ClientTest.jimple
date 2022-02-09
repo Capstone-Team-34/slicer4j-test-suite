@@ -1,0 +1,588 @@
+public class EmailSystem.ClientTest extends java.lang.Object
+{
+    static final boolean $assertionsDisabled;
+
+    public void <init>()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void getId()
+    {
+        EmailSystem.ClientTest this;
+        int $stack5, i;
+        EmailSystem.Client c;
+        java.lang.AssertionError $stack6;
+        boolean $stack4;
+
+        this := @this: EmailSystem.ClientTest;
+
+        c = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        i = 0;
+
+     label1:
+        if i >= 10 goto label2;
+
+        c = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        $stack4 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack4 != 0 goto label3;
+
+        $stack5 = c.<EmailSystem.Client: int id>;
+
+        if $stack5 == 10 goto label3;
+
+        $stack6 = new java.lang.AssertionError;
+
+        specialinvoke $stack6.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack6;
+
+     label3:
+        return;
+    }
+
+    public void incoming()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void outgoing()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void sendEmail()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void getName()
+    {
+        EmailSystem.ClientTest this;
+        EmailSystem.Client $stack2;
+        java.lang.String $stack4;
+        java.lang.AssertionError $stack6;
+        boolean $stack3, $stack5;
+
+        this := @this: EmailSystem.ClientTest;
+
+        $stack2 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        $stack3 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack3 != 0 goto label1;
+
+        $stack4 = virtualinvoke $stack2.<EmailSystem.Client: java.lang.String getName()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>("bob");
+
+        if $stack5 != 0 goto label1;
+
+        $stack6 = new java.lang.AssertionError;
+
+        specialinvoke $stack6.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack6;
+
+     label1:
+        return;
+    }
+
+    public void createClient()
+    {
+        EmailSystem.Client $stack2, $stack5;
+        java.lang.AssertionError $stack9, $stack12, $stack15, $stack18;
+        EmailSystem.ClientTest this;
+        int $stack8, $stack13;
+        java.lang.String $stack10, $stack16;
+        boolean $stack3, $stack4, $stack6, $stack7, $stack11, $stack17;
+
+        this := @this: EmailSystem.ClientTest;
+
+        $stack2 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        $stack3 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack3 != 0 goto label1;
+
+        $stack16 = $stack2.<EmailSystem.Client: java.lang.String name>;
+
+        $stack17 = virtualinvoke $stack16.<java.lang.String: boolean equals(java.lang.Object)>("bob");
+
+        if $stack17 != 0 goto label1;
+
+        $stack18 = new java.lang.AssertionError;
+
+        specialinvoke $stack18.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack18;
+
+     label1:
+        $stack4 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack4 != 0 goto label2;
+
+        $stack13 = $stack2.<EmailSystem.Client: int id>;
+
+        if $stack13 == 0 goto label2;
+
+        $stack15 = new java.lang.AssertionError;
+
+        specialinvoke $stack15.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack15;
+
+     label2:
+        $stack5 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("alice");
+
+        $stack6 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label3;
+
+        $stack10 = $stack5.<EmailSystem.Client: java.lang.String name>;
+
+        $stack11 = virtualinvoke $stack10.<java.lang.String: boolean equals(java.lang.Object)>("alice");
+
+        if $stack11 != 0 goto label3;
+
+        $stack12 = new java.lang.AssertionError;
+
+        specialinvoke $stack12.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack12;
+
+     label3:
+        $stack7 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack7 != 0 goto label4;
+
+        $stack8 = $stack5.<EmailSystem.Client: int id>;
+
+        if $stack8 == 1 goto label4;
+
+        $stack9 = new java.lang.AssertionError;
+
+        specialinvoke $stack9.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack9;
+
+     label4:
+        return;
+    }
+
+    public void getClientById()
+    {
+        EmailSystem.Client $stack6, $stack12;
+        java.lang.AssertionError $stack10;
+        EmailSystem.ClientTest this;
+        int i;
+        EmailSystem.Client[] c;
+        java.lang.String $stack7, $stack8, $stack11;
+        boolean $stack3, $stack9;
+
+        this := @this: EmailSystem.ClientTest;
+
+        c = newarray (EmailSystem.Client)[100];
+
+        i = 0;
+
+     label1:
+        if i >= 100 goto label2;
+
+        $stack11 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i);
+
+        $stack12 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>($stack11);
+
+        c[i] = $stack12;
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        i = 0;
+
+     label3:
+        if i >= 100 goto label5;
+
+        $stack3 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack3 != 0 goto label4;
+
+        $stack6 = staticinvoke <EmailSystem.Client: EmailSystem.Client getClientById(int)>(i);
+
+        $stack7 = virtualinvoke $stack6.<EmailSystem.Client: java.lang.String getName()>();
+
+        $stack8 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i);
+
+        $stack9 = virtualinvoke $stack7.<java.lang.String: boolean equals(java.lang.Object)>($stack8);
+
+        if $stack9 != 0 goto label4;
+
+        $stack10 = new java.lang.AssertionError;
+
+        specialinvoke $stack10.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack10;
+
+     label4:
+        i = i + 1;
+
+        goto label3;
+
+     label5:
+        return;
+    }
+
+    public void getClientByAdress()
+    {
+        EmailSystem.Client $stack7, $stack11;
+        java.lang.AssertionError $stack9;
+        EmailSystem.ClientTest this;
+        int $stack8, i;
+        EmailSystem.Client[] c;
+        java.lang.String $stack6, $stack10;
+        boolean $stack3;
+
+        this := @this: EmailSystem.ClientTest;
+
+        c = newarray (EmailSystem.Client)[100];
+
+        i = 0;
+
+     label1:
+        if i >= 100 goto label2;
+
+        $stack10 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i);
+
+        $stack11 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>($stack10);
+
+        c[i] = $stack11;
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        i = 0;
+
+     label3:
+        if i >= 100 goto label5;
+
+        $stack3 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack3 != 0 goto label4;
+
+        $stack6 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i);
+
+        $stack7 = staticinvoke <EmailSystem.Client: EmailSystem.Client getClientByAdress(java.lang.String)>($stack6);
+
+        $stack8 = virtualinvoke $stack7.<EmailSystem.Client: int getId()>();
+
+        if $stack8 == i goto label4;
+
+        $stack9 = new java.lang.AssertionError;
+
+        specialinvoke $stack9.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack9;
+
+     label4:
+        i = i + 1;
+
+        goto label3;
+
+     label5:
+        return;
+    }
+
+    public void resetClients()
+    {
+        EmailSystem.Client $stack4;
+        java.lang.AssertionError $stack8, $stack11;
+        EmailSystem.ClientTest this;
+        int $stack7, i;
+        java.lang.String $stack9;
+        boolean $stack5, $stack6, $stack10;
+
+        this := @this: EmailSystem.ClientTest;
+
+        staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        i = 0;
+
+     label1:
+        if i >= 10 goto label2;
+
+        staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        i = i + 1;
+
+        goto label1;
+
+     label2:
+        staticinvoke <EmailSystem.Client: void resetClients()>();
+
+        $stack4 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        $stack5 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack5 != 0 goto label3;
+
+        $stack9 = $stack4.<EmailSystem.Client: java.lang.String name>;
+
+        $stack10 = virtualinvoke $stack9.<java.lang.String: boolean equals(java.lang.Object)>("bob");
+
+        if $stack10 != 0 goto label3;
+
+        $stack11 = new java.lang.AssertionError;
+
+        specialinvoke $stack11.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack11;
+
+     label3:
+        $stack6 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack6 != 0 goto label4;
+
+        $stack7 = $stack4.<EmailSystem.Client: int id>;
+
+        if $stack7 == 0 goto label4;
+
+        $stack8 = new java.lang.AssertionError;
+
+        specialinvoke $stack8.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack8;
+
+     label4:
+        return;
+    }
+
+    public void testToString()
+    {
+        EmailSystem.ClientTest this;
+        EmailSystem.Client $stack2;
+        java.lang.String $stack4;
+        java.lang.AssertionError $stack6;
+        boolean $stack3, $stack5;
+
+        this := @this: EmailSystem.ClientTest;
+
+        $stack2 = staticinvoke <EmailSystem.Client: EmailSystem.Client createClient(java.lang.String)>("bob");
+
+        $stack3 = <EmailSystem.ClientTest: boolean $assertionsDisabled>;
+
+        if $stack3 != 0 goto label1;
+
+        $stack4 = virtualinvoke $stack2.<EmailSystem.Client: java.lang.String toString()>();
+
+        $stack5 = virtualinvoke $stack4.<java.lang.String: boolean equals(java.lang.Object)>("bob");
+
+        if $stack5 != 0 goto label1;
+
+        $stack6 = new java.lang.AssertionError;
+
+        specialinvoke $stack6.<java.lang.AssertionError: void <init>()>();
+
+        throw $stack6;
+
+     label1:
+        return;
+    }
+
+    public void setPrivateKey()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void getPrivateKey()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void generateKeyPair()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void addKeyringEntry()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void getKeyringPublicKeyByClient()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void isKeyPairValid()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void setAutoResponse()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void isAutoResponse()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void autoRespond()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void getAddressBookReceiversForAlias()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void addAddressbookEntry()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void sign()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void setForwardReceiver()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void getForwardReceiver()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void forward()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    public void verify()
+    {
+        EmailSystem.ClientTest this;
+
+        this := @this: EmailSystem.ClientTest;
+
+        return;
+    }
+
+    static void <clinit>()
+    {
+        java.lang.Class $stack0;
+        boolean $stack1, $stack2;
+
+        $stack0 = class "LEmailSystem/ClientTest;";
+
+        $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>();
+
+        if $stack1 != 0 goto label1;
+
+        $stack2 = 1;
+
+        goto label2;
+
+     label1:
+        $stack2 = 0;
+
+     label2:
+        <EmailSystem.ClientTest: boolean $assertionsDisabled> = $stack2;
+
+        return;
+    }
+}

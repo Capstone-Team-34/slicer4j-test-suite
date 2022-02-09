@@ -2,7 +2,7 @@ package EmailSystem;
 
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertThrows;
 
 public class ClientTest {
     public ClientTest() {}

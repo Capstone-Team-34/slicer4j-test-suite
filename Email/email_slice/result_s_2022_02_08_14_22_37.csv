@@ -1,0 +1,8 @@
+ID, Method, Class, Line, Source, Var
+-1, void <clinit>(), EmailSystem.EmailTest, $stack0 = class "LEmailSystem/EmailTest;", 8, -1, (stack0:1:-1)
+-1, void <clinit>(), EmailSystem.EmailTest, $stack1 = virtualinvoke $stack0.<java.lang.Class: boolean desiredAssertionStatus()>(), 8, -1, (stack1:2:-1)
+-1, void <clinit>(), EmailSystem.EmailTest, if $stack1 != 0 goto $stack2 = 0, 8, -1, (:3:-1)
+-1, void <clinit>(), EmailSystem.EmailTest, $stack2 = 1, 8, -1, (stack2:5:-1)
+-1, void <clinit>(), EmailSystem.EmailTest, <EmailSystem.EmailTest: boolean $assertionsDisabled> = $stack2, 8, -1, (EmailSystem.EmailTest.$assertionsDisabled:85:-1)
+-1, void isReadable(), EmailSystem.EmailTest, $stack7 = <EmailSystem.EmailTest: boolean $assertionsDisabled>, 29, -1, (:85:-1)
+-1, void isReadable(), EmailSystem.EmailTest, if $stack7 != 0 goto virtualinvoke $stack6.<EmailSystem.Email: void setEmailIsEncrypted(boolean)>(1), 29, -1, (:86:-1)

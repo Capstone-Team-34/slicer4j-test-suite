@@ -1,0 +1,37 @@
+public class EmailSystem.Util extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        EmailSystem.Util this;
+
+        this := @this: EmailSystem.Util;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void prompt(java.lang.String)
+    {
+        java.lang.String msg;
+
+        msg := @parameter0: java.lang.String;
+
+        return;
+    }
+
+    public static void prompt(int)
+    {
+        int msg;
+        java.lang.String $stack1;
+
+        msg := @parameter0: int;
+
+        $stack1 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(msg);
+
+        staticinvoke <EmailSystem.Util: void prompt(java.lang.String)>($stack1);
+
+        return;
+    }
+}
