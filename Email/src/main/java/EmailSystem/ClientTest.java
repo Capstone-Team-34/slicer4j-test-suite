@@ -2,7 +2,7 @@ package EmailSystem;
 
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertThrows;
 
 public class ClientTest {
     public ClientTest() {}
@@ -28,6 +28,13 @@ public class ClientTest {
 
     @Test
     public void sendEmail() {
+        Client bob = Client.createClient("bob");
+        Client alice = Client.createClient("alice");
+        assert(Client.sendEmail(bob, "alice", "Hello", "World") == 0);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            Client.sendEmail(alice, "carl", "Hello", "World");
+        });
     }
 
     @Test
