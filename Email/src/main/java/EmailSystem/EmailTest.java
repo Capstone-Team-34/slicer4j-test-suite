@@ -1,9 +1,15 @@
 package EmailSystem;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class EmailTest {
     public EmailTest() {}
+
+    @Before
+    public void resestCounter(){
+        Email.emailCounter = 0;
+    }
 
     @Test
     public void createEmail() {
@@ -30,11 +36,6 @@ public class EmailTest {
     }
 
     @Test
-    public void printMail() {
-
-    }
-
-    @Test
     public void getEmailFrom() {
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
@@ -44,13 +45,11 @@ public class EmailTest {
 
     @Test
     public void getId() {
-        Email.emailCounter = 0;
         Client bob = Client.createClient("bob");
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
         for(int i = 1; i <= 10; i++) {
             msg = Email.createEmail(bob, "alice", "Hello", "World");
         }
-
         assert(msg.getId() == 10);
 
     }

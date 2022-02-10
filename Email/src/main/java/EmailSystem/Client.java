@@ -313,7 +313,7 @@ outgoing(Client client, Email msg) {
 
 	public static void resetClients() {
 		clientCounter = 1;
-		for (int i = 0; i <= clients.length; i++) {
+		for (int i = 0; i <= clients.length - 1; i++) {
 			clients[i].id = -1;
 		}
 	}
