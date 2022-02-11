@@ -43,13 +43,17 @@ import util.TokenizerException;
 
 /**<p>
  * This interface must be implemented by classes that should be used as a 
- * special sequence and comment start sequence handler pluggin in the 
+ * special sequence and comment start sequence handler plugin in the 
  * {@link PluginTokenizer}.
+ *</p><p>
+ * This interface is deprecated. Use the new {@link jtopas.spi.SequenceHandler}
+ * interface instead.
  *</p>
  *
  * @see     util.Tokenizer
  * @see     util.AbstractTokenizer
  * @author  Heiko Blau
+ * @deprecated  replaced by the new {@link jtopas.spi.SequenceHandler} interface
  */
 public interface SequenceHandler extends Plugin {
   
@@ -63,13 +67,14 @@ public interface SequenceHandler extends Plugin {
    * Use the {@link util.AbstractTokenizer#getCharUnchecked} to
    * retrieve a character from the tokenizers input buffer.
    *
-   * @param  startingAtPos check from this position in the tokenizers input buffer
+   * @param  startingAtPos  check from this position in the tokenizers input buffer
+   * @param  maxChars       analyze at most that number of characters 
    * @throws {@link util.TokenizerException} for any problems
    * @return a <code>TokenizerProperty</code> instance describing the special sequence,
    *         comment etc. or <code>null</code> if no such thing was found. 
    */
-  public TokenizerProperty isSequenceCommentOrString(int startingAtPos, int maxChars)     
-    throws TokenizerException;
+  public util.TokenizerProperty isSequenceCommentOrString(int startingAtPos, int maxChars)     
+    throws util.TokenizerException;
   
   /**
    * This method is called by the parent {@link PluginTokenizer} to learn how

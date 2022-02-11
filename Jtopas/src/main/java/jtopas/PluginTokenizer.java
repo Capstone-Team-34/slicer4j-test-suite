@@ -58,11 +58,15 @@ import util.AbstractTokenizer;
  * of this class. Only the enumeration methods like 
  * {@link util.Tokenizer#getSpecialSequences} won't generally 
  * return anything.
+ *</p><p>
+ * Using this class is deprecated in favour of the new {@link Tokenizer} and
+ * {@link TokenizerProperties} interfaces and their implementations.
  *</p>
  *
  * @see     util.Tokenizer
  * @see     util.AbstractTokenizer
  * @author  Heiko Blau
+ * @deprecated  replaced by the implementations of {@link Tokenizer} and {@link TokenizerProperties}
  */
 public class PluginTokenizer extends AbstractTokenizer {
   
@@ -121,8 +125,8 @@ public class PluginTokenizer extends AbstractTokenizer {
    * For the tokenizer control flags use a combination of the <CODE>F_...</CODE>
    * constants from the {@link Tokenizer} for this parameter.
    *
-   * @param reader   input stream to be used for reading
-   * @param flags    tokenizer control flags
+   * @param dataSource  input stream to be used for reading
+   * @param flags       tokenizer control flags
    * @see   java.lang.InputStream
    * @see   Tokenizer
    */
@@ -143,12 +147,10 @@ public class PluginTokenizer extends AbstractTokenizer {
    * With this method it is possible to use one tokenizer on more than one
    * source. A common example is a list of files that are to be processed.
    *
-   * @param reader    the new source for the {@link util.AbstractTokenizer#read} method
+   * @param dataSource    the new source for the {@link util.AbstractTokenizer#read} method
    */
   public void setSource(TokenizerSource dataSource) {
-    if ((_source = dataSource) != null) {
-      _source.setTokenizer(this);
-    }
+    _source = dataSource;
     reset();
   }
   

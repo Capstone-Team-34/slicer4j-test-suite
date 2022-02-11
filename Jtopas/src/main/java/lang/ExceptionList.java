@@ -45,27 +45,12 @@ import lang.ExceptionMessageFormatter;
 //
 
 /**<p>
- * This interface should be implemented by exception classes that may contain
- * a stacked, additional or wrapped exception.
- *</p><p>
- * Such cases are common when
- *<ul><li>
- *   a method implements a certain interface method that allows for a specific
- *   exception like IOException, but the method itself may encounter a different
- *   exception type like SQLException (wrapped exception)
- *</li><li>
- *   one application layer catches an exception only to add its specific
- *   information in form of another exception (exception stack, nested exception
- *   like in SQLException or MessagingException).
- *</li></ul>
- *</p><p>
- * We provide the expected code in block comments starting with --&gt;, terminated
- * by --&gt;. Note that the provided code also includes a new implementation of
- * the base class method {@link java.lang.Throwable#getMessage} using the text
- * formatting capabilities of {@link java.text.MessageFormat}.
+ * Usage of this interface is deprecated in favour of the new {@link ThrowableList}
+ * interface.
+ *</p>
  *
- * @version	1.00, 2001/06/26
  * @author 	Heiko Blau
+ * @deprecated
  */
 public interface ExceptionList {
   

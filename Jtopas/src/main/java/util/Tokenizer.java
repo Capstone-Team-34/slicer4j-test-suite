@@ -110,6 +110,8 @@ import java.util.Iterator;
  * or UNICODE data. Parsing binary data has other characteristics that do not
  * nessecarily fit in a scheme of comments, keywords, strings, identifiers and 
  * operators.
+ *</p><p>
+ * This class is deprecated. Use {@link jtopas.Tokenizer} instead.
  *</p>
  *
  * @see     Token
@@ -117,6 +119,7 @@ import java.util.Iterator;
  * @see     AbstractTokenizer
  * @see     InputStreamTokenizer
  * @author  Heiko Blau
+ * @deprecated
  */
 public interface Tokenizer
 {
@@ -941,12 +944,29 @@ public interface Tokenizer
    * Retrieve text from the currently available range. The start and length
    * parameters must be inside {@link getRangeStart} and
    * {@link getRangeStart} + {@link currentlyAvailable}.
+   *<br>
+   * Example:
+   *<block><pre>
+   *    int     startPos = tokenizer.getReadPosition();
+   *    String  source;
    *
-   * @param start position where the text begins
-   * @param length length of the text
-   * @return the text beginning at the given position ith the given length
-   * @throws IndexOutOfBoundsException if the starting position or the length is out of the current
-   * text window
+   *    while (tokenizer.hasMoreToken()) {
+   *      Token token = tokenizer.nextToken();
+   *      
+   *      switch (token.getType()) {
+   *      case Token.LINE_COMMENT:
+   *      case Token.BLOCK_COMMENT:
+   *        source   = tokenizer.getText(startPos, token.getStartPos() - startPos);
+   *        startPos = token.getStartPos();
+   *      }
+   *    }
+   *</pre></block>
+   *
+   * @param   start   position where the text begins
+   * @param   length  length of the text
+   * @return  the text beginning at the given position ith the given length
+   * @throws  IndexOutOfBoundsException if the starting position or the length is 
+   *          out of the current text window
    */
   public String getText(int start, int length) throws IndexOutOfBoundsException;
   
@@ -965,7 +985,7 @@ public interface Tokenizer
    * useful when a method needs to look ahead of the available data or a skip
    * operation should be performed.<br>
    * The method returns the same value than an immediately following call to 
-   * {@link currentlyAvailable} would return.<br>
+   * {@link #currentlyAvailable} would return.<br>
    *
    * @return  the number of character now available
    * @throws  TokenizerException generic exception (list) for all problems that 
@@ -977,9 +997,48 @@ public interface Tokenizer
    * This method tells the tokenizer to skip the given number of characters
    * starting on the current read position as can be retrieved by {@link getReadPosition}.
    * The given number of characters must be less or equal to 
-   * {@link currentlyAvailable} - ({@link getReadPosition} - {@link getRangeStart}).
+   * {@link #currentlyAvailable} - ({@link #getReadPosition} - {@link #getRangeStart}).
+   *<br>
+   * The method is deprecated since its functionality is doubled in {@link #setReadPositionRelative}.
    *
-   * @param numberOfChars   Number of characters to skip
+   * @param  numberOfChars   Number of characters to skip
+   * @throws IndexOutOfBoundsException if the parameter <CODE>numberOfChars</CODE> 
+   *         exceeds the number of characters ahead of the current read position
+   * @deprecated
    */
   public void skip(int numberOfChars) throws IndexOutOfBoundsException;
+
+  /**
+   * This method sets the tokenizers current read position to the given absolute 
+   * read position. It realizes one type of rewind / forward operations. The 
+   * given position must be inside the intervall {@link #getRangeStart} and 
+   * {@link #getRangeStart} + {@link #currentlyAvailable} - 1.
+   *<br>
+   * The operation does not affect the return values of {@link #current} and
+   * {@link #currentToken}.
+   *
+   * @param   position  absolute position for the next parse operation
+   * @throws  IndexOutOfBoundsException if the parameter <code>position</code> is 
+   *          not in the available text range (text window)
+   * @see     #setReadPositionRelative
+   */
+  public void setReadPositionAbsolute(int position) throws IndexOutOfBoundsException;
+  
+  /**
+   * This method sets the tokenizers new read position the given number of characters
+   * forward (positive value) or backward (negative value) starting from the current
+   * read position. It realizes one type of rewind / forward operations. The 
+   * given offset must be greater or equal than {@link #getRangeStart} - {@link #getReadPosition}
+   * and lower than {@link #currentlyAvailable} - {@link #getReadPosition}.
+   *<br>
+   * The operation does not affect the return values of {@link #current} and
+   * {@link #currentToken}.
+   *
+   * @param   offset  number of characters to move forward (positive offset) or
+   *                  backward (negative offset)
+   * @throws  IndexOutOfBoundsException if the parameter <code>offset</code> would
+   *          move the read position out of the available text range (text window)
+   * @see     #setReadPositionAbsolute
+   */
+  public void setReadPositionRelative(int offset) throws IndexOutOfBoundsException;
 }

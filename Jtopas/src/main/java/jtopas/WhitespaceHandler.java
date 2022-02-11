@@ -44,11 +44,15 @@ import util.TokenizerException;
 /**<p>
  * This interface must be implemented by classes that should be used as a 
  * whitespace handler pluggin in the {@link PluginTokenizer}.
+ *</p><p>
+ * This interface is deprecated. Use the new {@link jtopas.spi.WhitespaceHandler}
+ * interface instead.
  *</p>
  *
  * @see     util.Tokenizer
  * @see     util.AbstractTokenizer
  * @author  Heiko Blau
+ * @deprecated
  */
 public interface WhitespaceHandler extends Plugin {
   

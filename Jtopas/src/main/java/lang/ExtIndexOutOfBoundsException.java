@@ -35,29 +35,35 @@ package lang;
 //
 import java.lang.IndexOutOfBoundsException;
 
-import lang.ExceptionList;
-import lang.ExceptionMessageFormatter;
-
-
 //------------------------------------------------------------------------------
 // ExtIndexOutOfBoundsException - definition
 //
 
 /**
- * Implementation of the ExceptionList interface for the JDK IOException.
+ * Implementation of the {@link ThrowableList} interface for the JDK ExtIndexOutOfBoundsException.
  *
  * @version	1.00, 2001/06/26
  * @author 	Heiko Blau
  */
 public class ExtIndexOutOfBoundsException
   extends     IndexOutOfBoundsException 
-  implements  ExceptionList 
+  implements  ThrowableList, ExceptionList 
 {
   
   //---------------------------------------------------------------------------
-  // methods of the ExceptionList interface
+  // methods of the ThrowableList interface
   //
   
+  /**
+   * Method to traverse the list of {@link java.lang.Throwable}. 
+   * See {@link ThrowableList#nextThrowable} for details.
+   *
+   * @return the "earlier" throwable
+   */
+  public Throwable nextThrowable() {
+    return _next;
+  }
+
   /**
    * Method to traverse the exception list. See {@link ExceptionList#nextException}
    * for details.
@@ -65,22 +71,39 @@ public class ExtIndexOutOfBoundsException
    * @return the "earlier" exception
    */
   public Exception nextException() {
-    return _next;
+    if (_next == null) {
+      return null;
+    } else if (_next instanceof Exception) {
+      return (Exception)_next;
+    } else {
+      return new RuntimeException(_next.toString());
+    }
   }
   
   /**
-   * Check if <CODE>this</CODE> is only a exception that wraps the real one. This
-   * might be nessecary to pass an exception incompatible to a method declaration.
+   * Check if <code>this</code> is only a throwable that wraps the real one. See 
+   * {@link ThrowableList#isWrapper} for details.
    *
-   * @return <CODE>true</CODE> if this is a wrapper exception,
-   *         <CODE>false</CODE> otherwise
+   * @return <code>true</code> if this is a wrapper throwable,
+   *         <code>false</code> otherwise
    */
-  public boolean isWrapperException() {
+  public boolean isWrapper() {
     return _isWrapper;
   }
   
   /**
-   * Getting the format string of a exception message. This can also be the
+   * Check if <code>this</code> is only an exception that wraps the real one. This
+   * might be nessecary to pass an exception incompatible to a method declaration.
+   *
+   * @return <code>true</code> if this is a wrapper exception,
+   *         <code>false</code> otherwise
+   */
+  public boolean isWrapperException() {
+    return isWrapper();
+  }
+  
+  /**
+   * Getting the format string of a throwable message. This can also be the
    * message itself if there are no arguments.
    *
    * @return  the format string being used by {@link java.text.MessageFormat}
@@ -107,7 +130,18 @@ public class ExtIndexOutOfBoundsException
   //
   
   /**
-   * This constructor should be used for wrapping another exception. While reading
+   * This constructor takes a simple message string like ordinary Java 
+   * {@link java.lang.Throwable} classes. This is the most convenient form to 
+   * construct an <code>ThrowableList</code> throwable.
+   *
+   * @param msg   message for this <code>Throwable</code> instance
+   */
+  public ExtIndexOutOfBoundsException(String msg) {
+    this(null, msg, null);
+  }
+  
+  /**
+   * This constructor should be used for wrapping another throwable. While reading
    * data an IOException may occur, but a certain interface requires a
    * {@link java.sql.SQLException}. Simply use:
    *<blockquote><pre>
@@ -118,15 +152,15 @@ public class ExtIndexOutOfBoundsException
    * }
    *</pre></blockquote>
    *
-   * @param ex the exception to wrap
+   * @param ex the throwable to wrap
    */
-  public ExtIndexOutOfBoundsException(Exception ex) {
+  public ExtIndexOutOfBoundsException(Throwable ex) {
     this(ex, null, null);
   }
   
   /**
-   * If one likes to add ones own information to an exception, this constructor is
-   * the easiest way to do so. By using such an approach a exception trace with useful
+   * If one likes to add ones own information to a throwable, this constructor is
+   * the easiest way to do so. By using such an approach a throwable trace with useful
    * additional informations (which file could be found, what username is unknown)
    * can be realized:
    *<blockquote><pre>
@@ -137,10 +171,10 @@ public class ExtIndexOutOfBoundsException
    * }
    *</pre></blockquote>
    *
-   * @param ex    the inner exception
-   * @param msg   exception message
+   * @param ex    the inner throwable
+   * @param msg   throwable message
    */
-  public ExtIndexOutOfBoundsException(Exception ex, String msg) {
+  public ExtIndexOutOfBoundsException(Throwable ex, String msg) {
     this(ex, msg, null);
   }
   
@@ -156,7 +190,7 @@ public class ExtIndexOutOfBoundsException
    *    new MyException(fmt, args).getMessage();
    *</pre></blockquote>
    *
-   * @param fmt   exception message
+   * @param fmt   throwable message
    * @param args  arguments for the given format string
    */
   public ExtIndexOutOfBoundsException(String fmt, Object[] args) {
@@ -164,17 +198,17 @@ public class ExtIndexOutOfBoundsException
   }
   
   /**
-   * This is the most complex way to construct an <CODE>ExceptionList</CODE>-
-   * Exception.<br>
-   * An inner exception is accompanied by a format string and its arguments.
+   * This is the most complex way to construct an <code>ThrowableList</code>-
+   * Throwable.<br>
+   * An inner throwable is accompanied by a format string and its arguments.
    * Use this constructor in language-sensitive contexts or for formalized messages.
    * The meaning of the parameters is explained in the other constructors.
    *
-   * @param ex    the inner exception
-   * @param fmt   exception message
+   * @param ex    the inner throwable
+   * @param fmt   throwable message
    * @param args  arguments for the given format string
    */
-  public ExtIndexOutOfBoundsException(Exception ex, String fmt, Object[] args) {
+  public ExtIndexOutOfBoundsException(Throwable ex, String fmt, Object[] args) {
     super(fmt);
    
     if (ex != null && fmt == null) {
@@ -196,11 +230,11 @@ public class ExtIndexOutOfBoundsException
    * delegates the call to the central {@link ExceptionMessageFormatter#getMessage}
    * method.
    *
-   * @return  the formatted exception message
+   * @return  the formatted throwable message
    * @see     ExceptionMessageFormatter
    */
   public String getMessage() {
-    return ExceptionMessageFormatter.getMessage(this);
+    return ThrowableMessageFormatter.getMessage(this);
   }
   
 
@@ -209,17 +243,17 @@ public class ExtIndexOutOfBoundsException
   //
 
   /**
-   * the parameters to be used when formatting the exception message
+   * the parameters to be used when formatting the throwable message
    */
   protected Object[]  _args       = null;
 
   /**
-   * The wrapped, nested of next exception.
+   * The wrapped, nested of next throwable.
    */
-  protected Exception _next       = null;
+  protected Throwable _next       = null;
   
   /**
-   * If <code>true</code> this is only a wrapper exception with the real one
+   * If <code>true</code> this is only a wrapper throwable with the real one
    * being returned by {@link #nextException}, <code>false</code> for standalone, 
    * nested or subsequent exceptions
    */

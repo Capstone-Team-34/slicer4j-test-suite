@@ -1,7 +1,7 @@
 /*
- * SeparatorHandler.java: Pluggin for the PluginTokenizer.
+ * KeywordHandler.java: Interface for keyword-aware tokenizers.
  *
- * Copyright (C) 2001 Heiko Blau
+ * Copyright (C) 2002 Heiko Blau
  *
  * This file belongs to the JTopas Library.
  * JTopas is free software; you can redistribute it and/or modify it 
@@ -28,34 +28,42 @@
  *   email: heiko@susebox.de 
  */
 
-package jtopas;
+package jtopas.spi;
+
+//-----------------------------------------------------------------------------
+// Imports
+//
+import jtopas.TokenizerProperty;
+import jtopas.TokenizerException;
 
 
 //-----------------------------------------------------------------------------
-// Interface SeparatorHandler
+// Interface KeywordHandler
 //
 
 /**<p>
  * This interface must be implemented by classes that should be used as a 
- * separator handler plugin in the {@link PluginTokenizer}.
- *</p><p>
- * This interface is deprecated. Use the new {@link jtopas.spi.SeparatorHandler}
- * interface instead.
+ * keyword handler for a {@link jtopas.Tokenizer}. 
  *</p>
  *
- * @see     util.Tokenizer
- * @see     util.AbstractTokenizer
+ * @see     jtopas.Tokenizer
+ * @see     jtopas.TokenizerProperties
+ * @see     jtopas.spi.DataMapper
  * @author  Heiko Blau
- * @deprecated  replaced by the new {@link jtopas.spi.SeparatorHandler} interface
  */
-public interface SeparatorHandler extends Plugin {
+public interface KeywordHandler {
   
   /**
-   * This method checks if the character is a separator.
+   * This method checks if the character range given through the 
+   * {@link DataProvider} comprises a keyword. An implementation should use
+   * a {@link  jtopas.TokenizerException} to report problems.
    *
-   * @param testChar  check this character
-   * @return <CODE>true</CODE> if the given character is a separator,
-   *         <CODE>false</CODE> otherwise
+   * @param   dataProvider  the source to get the data from, that are checked
+   * @return  a {@link jtopas.TokenizerProperty} if a keyword could be 
+   *          found, <code>null</code> otherwise
+   * @throws  TokenizerException    generic exception
+   * @throws  NullPointerException  if no {@link DataProvider} is given
    */
-  public boolean isSeparator(char testChar);
+  public TokenizerProperty isKeyword(DataProvider dataProvider)
+    throws TokenizerException, NullPointerException;
 }
