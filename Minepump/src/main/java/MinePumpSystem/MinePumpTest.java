@@ -156,13 +156,28 @@ public class MinePumpTest {
         Environment env = new Environment();
         MinePump p = new MinePump(env);
 
-        assert(!p.pumpRunning && p.systemActive);
+        assert(!p.pumpRunning);
+        assert(p.systemActive);
 
         p.stopSystem();
 
+        assert(!p.pumpRunning);
+        assert(!p.systemActive);
+
         p.startSystem();
 
-        assert(!p.pumpRunning && p.systemActive);
+        assert(!p.pumpRunning);
+        assert(p.systemActive);
+
+        p.activatePump();
+
+        assert(p.pumpRunning);
+        assert(p.systemActive);
+
+        p.stopSystem();
+
+        assert(!p.pumpRunning);
+        assert(!p.systemActive);
     }
 
     @Test
