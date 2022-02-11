@@ -39,11 +39,17 @@ package jtopas;
  * This is the base interface for all handler pluggins in the {@link PluginTokenizer}.
  * Since generally plugins need to know their parent <code>Tokenizer</code>, this
  * interface is provided to pass that instance to the plugin.
+ *</p><p>
+ * With the introduction of {@link Tokenizer}, {@link TokenizerProperties},
+ * {@link StandardTokenizer} {@link StandardTokenizerProperties}, this interface 
+ * is not longer in use. The functionality is more or less transfered to the
+ * {@link jtopas.spi} package and its interfaces.
  *</p>
  *
  * @see     util.Tokenizer
  * @see     util.AbstractTokenizer
  * @author  Heiko Blau
+ * @deprecated  replaced by the {@link jtopas.spi} package
  */
 public interface Plugin {
   

@@ -1,5 +1,5 @@
 /*
- * ExceptionMessageFormatter.java: formatting an exception message
+ * ThrowableMessageFormatter.java: formatting a throwable message
  *
  * Copyright (C) 2001 Heiko Blau
  *
@@ -34,21 +34,26 @@ package lang;
 // Imports
 //
 import java.text.MessageFormat;
-import lang.ExceptionList;
+import lang.ThrowableList;
 
 
 //------------------------------------------------------------------------------
-// Class ExceptionMessageFormatter
+// Class ThrowableMessageFormatter
 //
 
 /**<p>
- * Usage of this class is deprecated in favour of the new {@link ThrowableMessageFormatter}
+ * This class is used by the implementations of the {@link ThrowableList} interface.
+ * Its method {@link #getMessage} formats the message that should be returned by 
+ * the {@link java.lang.Throwable#getMessage} overridden by implementations of the 
+ * {@link ThrowableList} interface.
  *</p>
  *
+ * @see     ThrowableList
+ * @see     java.lang.Throwable
+ * @see     java.text.MessageFormat
  * @author 	Heiko Blau
- * @deprecated
  */
-public final class ExceptionMessageFormatter {
+public final class ThrowableMessageFormatter {
   
   /**
    * Message indentation for nested exceptions.
@@ -56,51 +61,50 @@ public final class ExceptionMessageFormatter {
   public static final String MSG_IDENTATION = "    ";
   
   /**
-   * This method should be called by all implementations of the {@link ExceptionList}
+   * This method should be called by all implementations of the {@link ThrowableList}
    * interface in their {@link java.lang.Throwable#getMessage} implementation. It
-   * ensures that the formatting of exception lists, nested or wrapped exceptions 
+   * ensures that the formatting of throwable lists, nested or wrapped exceptions 
    * is done in a consistent way.
    * <br>
-   * The method returns an exception message assembled in this way:
+   * The method returns an throwable message assembled in this way:
    * <br><ol><li>
-   *  If the calling exception is a wrapper exception (see {@link ExceptionList#isWrapperException}),
-   *  it delegates the call to the wrapped exception (<code>wrappedEx.getMessage()</code>).
+   *  If the calling throwable is a wrapper throwable (see {@link ThrowableList#isWrapper}),
+   *  it delegates the call to the wrapped throwable (<code>wrappedEx.getMessage()</code>).
    * </li><li>
-   *  If there is a nested exception (the calling exception has a message of its own),
+   *  If there is a nested throwable (the calling throwable has a message of its own),
    *  the returned message starts with the string returned by the {@link java.lang.Object#toString}
    *  method, followed and separated by a end-of-line sequence by the formatted message
-   *  of the calling exception.
+   *  of the calling throwable.
    * </li><li>
-   *  If the calling exception has only a message without parameters, this message
-   *  is either appended to the string produced by processing a nested exception or
-   *  is taken as the entire return value if there is no nested or subsequent exception
+   *  If the calling throwable has only a message without parameters, this message
+   *  is either appended to the string produced by processing a nested throwable or
+   *  is taken as the entire return value if there is no nested or subsequent throwable
    *  present.
    * </li><li>
-   *  If the calling exception provides parameters along with a format string (the
+   *  If the calling throwable provides parameters along with a format string (the
    *  return value of <code>super.getMessage</code> is interpreted as a format string),
    *  a formatted message produced by {@link java.text.MessageFormat#format} is either
-   *  appended to the string produced by processing a nested exception or is taken as
-   *  the entire return value if there is no nested or subsequent exception present.
+   *  appended to the string produced by processing a nested throwable or is taken as
+   *  the entire return value if there is no nested or subsequent throwable present.
    * </li><ol>
    *
-   * @param   ex  the calling exception
-   * @return  the formatted exception message
+   * @param   ex  the calling throwable
+   * @return  the formatted throwable message
    * @see     java.text.MessageFormat
-   * @see     ExceptionList
+   * @see     ThrowableList
    */
-  public static final String getMessage(ExceptionList ex) {
+  public static final String getMessage(ThrowableList ex) {
     // wrapped exceptions return theri own message
-    if (ex.isWrapperException()) {
-      return ex.nextException().getMessage();
+    if (ex.isWrapper()) {
+      return ex.nextThrowable().getMessage();
     }
     
     // prepare the formatting
     StringBuffer  msg  = new StringBuffer();
     String        fmt  = ex.getFormat();
-    String        nl   = System.getProperty("line.separator");
-    Exception     next = ex.nextException();
+    Throwable     next = ex.nextThrowable();
     
-    // message of the nested or next exception first
+    // message of the nested or next throwable first
     if (next != null) {
       msg.append(_eolSequence);
       msg.append(MSG_IDENTATION);
@@ -118,7 +122,15 @@ public final class ExceptionMessageFormatter {
       if (args == null) {
         msg.append(fmt);
       } else {
-        msg.append(MessageFormat.format(fmt, args));
+        try {
+          msg.append(MessageFormat.format(fmt, args));
+        } catch (IllegalArgumentException argEx) {
+          msg.append(argEx.getMessage());
+          msg.append(_eolSequence);
+          msg.append("While formatting this message:");
+          msg.append(_eolSequence);
+          msg.append(fmt);
+        }
       }
     }
     return msg.toString();

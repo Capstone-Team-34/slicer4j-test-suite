@@ -42,13 +42,17 @@ import util.TokenizerException;
 //
 
 /**<p>
- * This interface must be implemented by classes that should be used as a 
+ * This interface must be implemented by classes that should be used as a
  * keyword handler plugin in the {@link PluginTokenizer}.
+ *</p><p>
+ * This interface is deprecated. Use the new {@link jtopas.spi.KeywordHandler}
+ * interface instead.
  *</p>
  *
- * @see     util.Tokenizer
- * @see     util.AbstractTokenizer
- * @author  Heiko Blau
+ * @see util.Tokenizer
+ * @see util.AbstractTokenizer
+ * @author Heiko Blau
+ * @deprecated replaced by {@link jtopas.spi.KeywordHandler}
  */
 public interface KeywordHandler extends Plugin {
   
@@ -57,7 +61,8 @@ public interface KeywordHandler extends Plugin {
    * with a given length is a keyword. If so, it returns the keyword description
    * as {@link TokenizerProperty} object.
    * If the method needs to build a string from the character sequence it may
-   * use {@link #getText} or {@link #getTextUnchecked} to retrieve it.
+   * use {@link util.Tokenizer#getText} or 
+   * {@link util.AbstractTokenizer#getTextUnchecked} to retrieve it.
    *
    * @param   startingAtPos   check at this position
    * @param   length          number of characters in the token to be tested

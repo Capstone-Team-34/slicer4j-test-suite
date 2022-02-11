@@ -1216,26 +1216,23 @@ __MAIN_LOOP__:
    * starting on the current read position as can be retrieved by {@link #getReadPosition}.
    * The given number of characters must be less or equal to 
    * {@link #currentlyAvailable} - ({@link #getReadPosition} - {@link #getRangeStart}).
+   *<br>
+   * The method is deprecated according to the deprecation in the {@link Tokenizer}
+   * interface.
    *
    * @param numberOfChars   Number of characters to skip
+   * @deprecated
    */
   public void skip(int numberOfChars) throws IndexOutOfBoundsException {
     int available = _currentWritePos - _currentReadPos;
     
-    if (numberOfChars > available) {
-      throw new ExtIndexOutOfBoundsException(
-                  "Number of characters to skip ({0}) exceeds the available number ({1}).", 
-                  new Object[] { new Integer(numberOfChars), new Integer(available) } 
-                );
-    } else if (numberOfChars < 0) {
+    if (numberOfChars < 0) {
       throw new ExtIndexOutOfBoundsException(
                   "Number of characters to skip ({0}) is negative.", 
                   new Object[] { new Integer(numberOfChars) } 
                 );
     }
-    
-    _currentReadPos += numberOfChars;
-    _lookAheadToken  = null;
+    setReadPositionRelative(numberOfChars);
   }
   
 
@@ -1326,6 +1323,67 @@ __MAIN_LOOP__:
   }
 
   
+  /**
+   * This method sets the tokenizers current read position to the given absolute
+   * read position. It realizes one type of rewind / forward operations. The
+   * given position must be inside the intervall {@link #getRangeStart} and
+   * {@link #getRangeStart} + {@link #currentlyAvailable} - 1.
+   * <br>
+   * The operation does not affect the return values of {@link #current} and
+   * {@link #currentToken}.
+   *<br>
+   * When using this method with embedded tokenizers, the user is responsible to
+   * set the read position in the currently used tokenizer. It will be propagated
+   * by the next call to {@link #switchTo}. Until that point, a call to this
+   * method has no effect on the other tokenizers sharing the same data source.
+   *
+   * @param   position  absolute position for the next parse operation
+   * @throws  IndexOutOfBoundsException if the parameter <code>position</code> is
+   *          not in the available text range (text window)
+   * @see     setReadPositionRelative
+   */
+  public void setReadPositionAbsolute(int position) throws IndexOutOfBoundsException {
+    if (position < _rangeStart) {
+      throw new ExtIndexOutOfBoundsException(
+                  "Invalid read position {0} below the current text window start {1}.", 
+                  new Object[] { new Integer(position), new Integer(_rangeStart) } 
+                );
+    } else if (position >= _rangeStart + _currentWritePos) {
+      throw new ExtIndexOutOfBoundsException(
+                  "Invalid read position {0} above the current text window end {1}.", 
+                  new Object[] { new Integer(position), new Integer(currentlyAvailable() - _rangeStart - 1) }
+                );
+    }
+    _currentReadPos = position;
+    _lookAheadToken.setType(Token.UNKNOWN);
+  }  
+
+  /**
+   * This method sets the tokenizers new read position the given number of characters
+   * forward (positive value) or backward (negative value) starting from the current
+   * read position. It realizes one type of rewind / forward operations. The
+   * given offset must be greater or equal than {@link #getRangeStart} - {@link #getReadPosition}
+   * and lower than {@link #currentlyAvailable} - {@link #getReadPosition}.
+   * <br>
+   * The operation does not affect the return values of {@link #current} and
+   * {@link #currentToken}.
+   *<br>
+   * When using this method with embedded tokenizers, the user is responsible to
+   * set the read position in the currently used tokenizer. It will be propagated
+   * by the next call to {@link #switchTo}. Until that point, a call to this
+   * method has no effect on the other tokenizers sharing the same data source.
+   *
+   * @param   offset  number of characters to move forward (positive offset) or
+   *                 backward (negative offset)
+   * @throws  IndexOutOfBoundsException if the parameter <code>offset</code> would
+   *          move the read position out of the available text range (text window)
+   * @see     setReadPositionAbsolute
+   */
+  public void setReadPositionRelative(int offset) throws IndexOutOfBoundsException {
+    setReadPositionAbsolute(getReadPosition() + offset);
+  }
+  
+
   //---------------------------------------------------------------------------
   // embedded tokenizer support
   //
@@ -2269,7 +2327,6 @@ __MAIN_LOOP__:
     }
   }
   
-
   //---------------------------------------------------------------------------
   // Members
   //

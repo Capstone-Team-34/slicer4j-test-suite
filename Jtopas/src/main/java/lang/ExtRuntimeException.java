@@ -1,5 +1,5 @@
 /*
- * ExtRuntimeException.java: Extended standard exception for stacks
+ * ExtRuntimeException.java: Extended standard throwable for stacks
  *
  * Copyright (C) 2001 Heiko Blau
  *
@@ -34,7 +34,6 @@ package lang;
 // Imports
 //
 import java.lang.RuntimeException;
-import java.text.MessageFormat;
 
 
 //------------------------------------------------------------------------------
@@ -42,20 +41,29 @@ import java.text.MessageFormat;
 //
 
 /**
- * Implementation of the {@link ExceptionList} interface for the well-knwon JDK 
+ * Implementation of the {@link ThrowableList} interface for the well-known JDK 
  * {@link java.lang.RuntimeException}.
  *
- * @version	1.00, 2001/06/26
  * @author 	Heiko Blau
  */
 public class ExtRuntimeException
   extends     RuntimeException
-  implements  ExceptionList 
+  implements  ThrowableList, ExceptionList
 {
   //---------------------------------------------------------------------------
-  // methods of the ExceptionList interface
+  // methods of the ThrowableList interface
   //
   
+  /**
+   * Method to traverse the list of {@link java.lang.Throwable}. 
+   * See {@link ThrowableList#nextThrowable} for details.
+   *
+   * @return the "earlier" throwable
+   */
+  public Throwable nextThrowable() {
+    return _next;
+  }
+
   /**
    * Method to traverse the exception list. See {@link ExceptionList#nextException}
    * for details.
@@ -63,18 +71,35 @@ public class ExtRuntimeException
    * @return the "earlier" exception
    */
   public Exception nextException() {
-    return _next;
+    if (_next == null) {
+      return null;
+    } else if (_next instanceof Exception) {
+      return (Exception)_next;
+    } else {
+      return new RuntimeException(_next.toString());
+    }
   }
   
   /**
-   * Check if <CODE>this</CODE> is only a exception that wraps the real one. This
+   * Check if <code>this</code> is only a throwable that wraps the real one. See 
+   * {@link ThrowableList#isWrapper} for details.
+   *
+   * @return <code>true</code> if this is a wrapper exception,
+   *         <code>false</code> otherwise
+   */
+  public boolean isWrapper() {
+    return _isWrapper;
+  }
+  
+  /**
+   * Check if <code>this</code> is only a exception that wraps the real one. This
    * might be nessecary to pass an exception incompatible to a method declaration.
    *
-   * @return <CODE>true</CODE> if this is a wrapper exception,
-   *         <CODE>false</CODE> otherwise
+   * @return <code>true</code> if this is a wrapper exception,
+   *         <code>false</code> otherwise
    */
   public boolean isWrapperException() {
-    return _isWrapper;
+    return isWrapper();
   }
   
   /**
@@ -105,21 +130,32 @@ public class ExtRuntimeException
   //
   
   /**
-   * This constructor should be used for wrapping another exception. While reading
-   * data an IOException may occur, but a certain interface requires a
-   * <CODE>SQLException</CODE>. Simply use:
+   * This constructor takes a simple message string like ordinary Java 
+   * {@link java.lang.Throwable} classes. This is the most convenient form to 
+   * construct an <code>ThrowableList</code> throwable.
+   *
+   * @param msg   message for this <code>Throwable</code> instance
+   */
+  public ExtRuntimeException(String msg) {
+    this(null, msg, null);
+  }
+  
+  /**
+   * This constructor should be used for wrapping another {@link java.lang.Throwable}. 
+   * While reading data an <code>IOException</code> may occur, but a certain interface 
+   * requires a <code>SQLException</code>. Simply use:
    *<blockquote><pre>
    * try {
    *   ...
    * } catch (NullPointerException ex) {
-   *   throw new ExtRuntimeException(ex);
+   *   throw new ExtNoSuchMethodException(ex);
    * }
    *</pre></blockquote>
    *
-   * @param ex the exception to wrap
+   * @param throwable  the <code>Throwable</code> to wrap
    */
-  public ExtRuntimeException(Exception ex) {
-    this(ex, null, null);
+  public ExtRuntimeException(Throwable throwable) {
+    this(throwable, null, null);
   }
   
   /**
@@ -135,11 +171,11 @@ public class ExtRuntimeException
    * }
    *</pre></blockquote>
    *
-   * @param ex    the inner exception
-   * @param msg   exception message
+   * @param throwable the inner throwable
+   * @param msg       throwable message
    */
-  public ExtRuntimeException(Exception ex, String msg) {
-    this(ex, msg, null);
+  public ExtRuntimeException(Throwable throwable, String msg) {
+    this(throwable, msg, null);
   }
   
   /**
@@ -154,7 +190,7 @@ public class ExtRuntimeException
    *    new MyException(fmt, args).getMessage();
    *</pre></blockquote>
    *
-   * @param fmt   exception message
+   * @param fmt   throwable message
    * @param args  arguments for the given format string
    */
   public ExtRuntimeException(String fmt, Object[] args) {
@@ -162,25 +198,25 @@ public class ExtRuntimeException
   }
   
   /**
-   * This is the most complex way to construct an <CODE>ExceptionList</CODE>-
-   * Exception.<br>
-   * An inner exception is accompanied by a format string and its arguments.
+   * This is the most complex way to construct an <code>ExceptionList</code>-
+   * Throwable.<br>
+   * An inner throwable is accompanied by a format string and its arguments.
    * Use this constructor in language-sensitive contexts or for formalized messages.
    * The meaning of the parameters is explained in the other constructors.
    *
-   * @param ex    the inner exception
-   * @param fmt   exception message
-   * @param args  arguments for the given format string
+   * @param throwable the inner throwable
+   * @param fmt       throwable message
+   * @param args      arguments for the given format string
    */
-  public ExtRuntimeException(Exception ex, String fmt, Object[] args) {
+  public ExtRuntimeException(Throwable throwable, String fmt, Object[] args) {
     super(fmt);
    
-    if (ex != null && fmt == null) {
+    if (throwable != null && fmt == null) {
       _isWrapper = true;
     } else {
       _isWrapper = false;
     }
-    _next = ex;
+    _next = throwable;
     _args = args;
   }
   
@@ -194,11 +230,11 @@ public class ExtRuntimeException
    * delegates the call to the central {@link ExceptionMessageFormatter#getMessage}
    * method.
    *
-   * @return  the formatted exception message
+   * @return  the formatted throwable message
    * @see     ExceptionMessageFormatter
    */
   public String getMessage() {
-    return ExceptionMessageFormatter.getMessage(this);
+    return ThrowableMessageFormatter.getMessage(this);
   }
   
   //---------------------------------------------------------------------------
@@ -206,17 +242,17 @@ public class ExtRuntimeException
   //
   
   /**
-   * the parameters to be used when formatting the exception message
+   * the parameters to be used when formatting the throwable message
    */
   protected Object[]  _args       = null;
 
   /**
-   * The wrapped, nested of next exception.
+   * The wrapped, nested of next throwable.
    */
-  protected Exception _next       = null;
+  protected Throwable _next       = null;
   
   /**
-   * If <code>true</code> this is only a wrapper exception with the real one
+   * If <code>true</code> this is only a wrapper throwable with the real one
    * being returned by {@link #nextException}, <code>false</code> for standalone, 
    * nested or subsequent exceptions
    */

@@ -1,66 +1,52 @@
 /*
- * TokenizerException.java: Generic exception used by the Tokenizer interface
+ * ExtIllegalArgumentException.java: Extended standard throwable for stacks
  *
  * Copyright (C) 2001 Heiko Blau
  *
  * This file belongs to the Susebox Java Core Library (Susebox JCL).
- * The Susebox JCL is free software; you can redistribute it and/or modify it 
- * under the terms of the GNU Lesser General Public License as published by the 
- * Free Software Foundation; either version 2.1 of the License, or (at your 
+ * The Susebox JCL is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as published by the
+ * Free Software Foundation; either version 2.1 of the License, or (at your
  * option) any later version.
  *
  * This software is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
- * FITNESS FOR A PARTICULAR PURPOSE. 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License along
  * with the Susebox JCL. If not, write to the
  *
  *   Free Software Foundation, Inc.
- *   59 Temple Place, Suite 330, 
- *   Boston, MA 02111-1307 
+ *   59 Temple Place, Suite 330,
+ *   Boston, MA 02111-1307
  *   USA
  *
  * or check the Internet: http://www.fsf.org
  *
  * Contact:
- *   email: heiko@susebox.de 
+ *   email: heiko@susebox.de
  */
 
-package util;
+package lang;
 
 //------------------------------------------------------------------------------
 // Imports
 //
-import lang.ExceptionList;
-import lang.ThrowableList;
-import lang.ThrowableMessageFormatter;
+import java.lang.IllegalArgumentException;
 
 
 //------------------------------------------------------------------------------
-// TokenizerException - definition
+// ExtIllegalArgumentException - definition
 //
 
-/**<p>
- * Wrapper exception for all the problems that may occur while parsing. There
- * are IOExceptions, SQLExceptions etc. that can all happen when a {@link Tokenizer}
- * tries to extract the next token.
- *</p><p>
- * The class supports formats and format arguments beside the usual plain 
- * throwable message string.
- *</p><p>
- * This class is deprecated. Use {@link jtopas.TokenizerException}
- * instead.
- *</p>
+/**
+ * Implementation of the {@link ThrowableList} interface for the well-known JDK 
+ * {@link java.lang.IllegalArgumentException}.
  *
- * @version	1.00, 2001/07/10
  * @author 	Heiko Blau
- * @deprecated
  */
-public class TokenizerException 
-  extends     Exception 
-  implements  ThrowableList, ExceptionList 
+public class ExtIllegalArgumentException extends IllegalArgumentException implements ThrowableList
 {
   //---------------------------------------------------------------------------
   // methods of the ThrowableList interface
@@ -77,26 +63,10 @@ public class TokenizerException
   }
 
   /**
-   * Method to traverse the exception list. See {@link ExceptionList#nextException}
-   * for details.
-   *
-   * @return the "earlier" exception
-   */
-  public Exception nextException() {
-    if (_next == null) {
-      return null;
-    } else if (_next instanceof Exception) {
-      return (Exception)_next;
-    } else {
-      return new RuntimeException(_next.toString());
-    }
-  }
-  
-  /**
    * Check if <code>this</code> is only a throwable that wraps the real one. See 
    * {@link ThrowableList#isWrapper} for details.
    *
-   * @return <code>true</code> if this is a wrapper throwable,
+   * @return <code>true</code> if this is a wrapper exception,
    *         <code>false</code> otherwise
    */
   public boolean isWrapper() {
@@ -104,18 +74,7 @@ public class TokenizerException
   }
   
   /**
-   * Check if <code>this</code> is only an exception that wraps the real one. This
-   * might be nessecary to pass an exception incompatible to a method declaration.
-   *
-   * @return <code>true</code> if this is a wrapper exception,
-   *         <code>false</code> otherwise
-   */
-  public boolean isWrapperException() {
-    return isWrapper();
-  }
-  
-  /**
-   * Getting the format string of a throwable message. This can also be the
+   * Getting the format string of a exception message. This can also be the 
    * message itself if there are no arguments.
    *
    * @return  the format string being used by {@link java.text.MessageFormat}
@@ -123,7 +82,7 @@ public class TokenizerException
    */
   public String getFormat() {
     return super.getMessage();
-  }  
+  }
   
   /**
    * Retrieving the arguments for message formats. These arguments are used by
@@ -148,48 +107,48 @@ public class TokenizerException
    *
    * @param msg   message for this <code>Throwable</code> instance
    */
-  public TokenizerException(String msg) {
+  public ExtIllegalArgumentException(String msg) {
     this(null, msg, null);
   }
   
   /**
-   * This constructor should be used for wrapping another throwable. While reading
-   * data an IOException may occur, but the {@link Tokenizer} interface requires a
-   * <code>TokenizerException</code>. Simply use:
+   * This constructor should be used for wrapping another {@link java.lang.Throwable}. 
+   * While reading data an <code>IOException</code> may occur, but a certain interface 
+   * requires a <code>SQLException</code>. Simply use:
    *<blockquote><pre>
    * try {
    *   ...
-   * } catch (IOException ex) {
-   *   throw new TokenizerException(ex);
+   * } catch (NullPointerException ex) {
+   *   throw new ExtIllegalArgumentException(ex);
    * }
    *</pre></blockquote>
    *
-   * @param ex the throwable to wrap
-   */  
-	public TokenizerException(Throwable ex) {
-		this(ex, null, null);
-	}
-
+   * @param trowable  the <code>Throwable</code> to wrap
+   */
+  public ExtIllegalArgumentException(Throwable trowable) {
+    this(trowable, null, null);
+  }
+  
   /**
-   * If one likes to add ones own information to an throwable, this constructor is
-   * the easiest way to do so. By using such an approach a throwable trace with useful
-   * additional informations (which file could be found, what username is unknown)
-   * can be realized:
+   * If one likes to add ones own information to a {@link java.lang.Throwable}, 
+   * this constructor is the easiest way to do so. By using such an approach a 
+   * <code>Throwable</code> trace with useful additional informations (which file 
+   * could not be found, what username is unknown) can be realized:
    *<blockquote><pre>
    * try {
    *   ...
-   * } catch (IOException ex) {
-   *   throw new TokenizerException(ex, "while tokenizing " + path);
+   * } catch (SQLException ex) {
+   *   throw new IOException(ex, "while connecting to " + url);
    * }
    *</pre></blockquote>
    *
-   * @param ex    the inner throwable
-   * @param msg   throwable message
-   */  
-	public TokenizerException(Throwable ex, String msg) {
-		this(ex, msg, null);
-	}
-
+   * @param throwable the inner throwable
+   * @param msg       throwable message
+   */
+  public ExtIllegalArgumentException(Throwable throwable, String msg) {
+    this(throwable, msg, null);
+  }
+  
   /**
    * This constructor takes a format string and its arguments. The format string
    * must have a form that can be used by {@link java.text.MessageFormat} methods.
@@ -199,59 +158,61 @@ public class TokenizerException
    *</pre></blockquote>
    * is similar to
    *<blockquote><pre>
-   *    new TokenizerException(fmt, args).getMessage();
+   *    new MyException(fmt, args).getMessage();
    *</pre></blockquote>
    *
    * @param fmt   throwable message
    * @param args  arguments for the given format string
-   */  
-	public TokenizerException(String fmt, Object[] args) {
+   */
+  public ExtIllegalArgumentException(String fmt, Object[] args) {
     this(null, fmt, args);
-	}
-
+  }
+  
   /**
-   * This is the most complex way to construct a <CODE>TokenizerException</CODE>.
-   * An inner throwable is accompanied by a format string and its arguments.
+   * This is the most complex way to construct an <code>ThrowableList</code>-
+   * Throwable. An inner {@link java.lang.Throwable} is accompanied by a format 
+   * string and its arguments.
+   *<br>
    * Use this constructor in language-sensitive contexts or for formalized messages.
    * The meaning of the parameters is explained in the other constructors.
    *
-   * @param ex    the inner throwable
-   * @param fmt   throwable message
-   * @param args  arguments for the given format string
-   */  
-	public TokenizerException(Throwable ex, String fmt, Object[] args) {
+   * @param throwable the inner throwable
+   * @param fmt       throwable message
+   * @param args      arguments for the given format string
+   */
+  public ExtIllegalArgumentException(Throwable throwable, String fmt, Object[] args) {
     super(fmt);
    
-    if (ex != null && fmt == null) {
+    if (throwable != null && fmt == null) {
       _isWrapper = true;
     } else {
       _isWrapper = false;
     }
-    _next = ex;
+    _next = throwable;
     _args = args;
-	}
-
-
+  }
+  
+  
   //---------------------------------------------------------------------------
   // overridden methods
   //
   
   /**
-   * Implementation of the standard {@link java.langThrowable#getMessage} method. It
-   * delegates the call to the central 
-   * {@link lang.ThrowableMessageFormatter#getMessage} method.
+   * Implementation of the standard {@link java.Throwable#getMessage} method. It
+   * delegates the call to the central {@link ExceptionMessageFormatter#getMessage}
+   * method.
    *
    * @return  the formatted throwable message
-   * @see     lang.ThrowableMessageFormatter
+   * @see     ExceptionMessageFormatter
    */
-	public String getMessage() {
+  public String getMessage() {
     return ThrowableMessageFormatter.getMessage(this);
-	}
-
+  }
+  
   //---------------------------------------------------------------------------
   // members
   //
-
+  
   /**
    * the parameters to be used when formatting the throwable message
    */

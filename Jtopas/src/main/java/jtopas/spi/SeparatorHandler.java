@@ -1,7 +1,7 @@
 /*
- * TokenizerSource.java: Data source for the Tokenizer.
+ * SeparatorHandler.java: separator handling in tokenizers
  *
- * Copyright (C) 2001 Heiko Blau
+ * Copyright (C) 2002 Heiko Blau
  *
  * This file belongs to the JTopas Library.
  * JTopas is free software; you can redistribute it and/or modify it 
@@ -28,34 +28,31 @@
  *   email: heiko@susebox.de 
  */
 
-package jtopas;
+package jtopas.spi;
 
 
 //-----------------------------------------------------------------------------
-// Interface TokenizerSource
+// Interface SeparatorHandler
 //
 
 /**<p>
- * This interface describes the data source for a {@link Tokenizer}. It is a
- * simplification of the {@link java.io.Reader} class.
+ * This interface declares the methods a {@link jtopas.Tokenizer} needs
+ * to deal with separators.
  *</p>
  *
- * @see     util.Tokenizer
- * @see     util.AbstractTokenizer
+ * @see     jtopas.Tokenizer
+ * @see     jtopas.TokenizerProperties
+ * @see     jtopas.spi.DataMapper
  * @author  Heiko Blau
  */
-public interface TokenizerSource {
+public interface SeparatorHandler {
   
   /**
-   * A basic method to supply character data to a {@link Tokenizer}. Note that 
-   * the more complicated operations of buffering, skipping etc. are done by
-   * the <code>Tokenizer</code> implementation using this data source.
+   * This method checks if the character is a separator.
    *
-   * @param cbuf      buffer to receive data
-   * @param offset    position from where the data should be inserted in <CODE>cbuf</CODE>
-   * @param maxChars  maximum number of characters to be read into <CODE>cbuf</CODE>
-   * @return actually read characters or -1 on an end-of-file condition
-   * @throws Exception anything that could happen during read, most likely {@link java.io.IOException}
+   * @param testChar  check this character
+   * @return <code>true</code> if the given character is a separator,
+   *         <code>false</code> otherwise
    */
-  int read(char[] cbuf, int offset, int maxChars) throws Exception;
+  public boolean isSeparator(char testChar);
 }

@@ -39,13 +39,17 @@ package util;
 // Class TokenizerProperty
 //
 
-/**
+/**<p>
  * This class is used by {@link Tokenizer} implementations to return enumerations
  * of their various properties (keywords, special sequences etc.).
+ *</p><p>
+ * This class is deprecated. Use {@link jtopas.Tokenizer} instead.
+ *</p>
  *
  * @see Token
  * @see Tokenizer
  * @author Heiko Blau
+ * @deprecated
  */
 public class TokenizerProperty {
   

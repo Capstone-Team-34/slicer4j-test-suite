@@ -105,12 +105,10 @@ public class InputStreamSource implements TokenizerSource {
     this(null, 0);
   }
 
-  /**
-   * Constructor that takes a instantiated {@link java.io.Reader}. If 
+  /** Constructor that takes a instantiated {@link java.io.Reader}. If
    * <code>null</code> is given then standard input is used (see {@link java.lang.System#in}).
-   *
-   * @param Reader   input stream to be used for reading
-   * @see   java.io.Reader
+   * @param reader input stream to be used for reading
+   * @see java.io.Reader
    */
   public InputStreamSource(Reader reader) {
     this(reader, 0);

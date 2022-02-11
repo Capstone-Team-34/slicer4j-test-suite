@@ -1,10 +1,10 @@
 /*
- * ExtIOException.java: Extended standard exception for stacks
+ * TokenizerException.java: Generic exception used by the Tokenizer interface
  *
  * Copyright (C) 2001 Heiko Blau
  *
- * This file belongs to the Susebox Java Core Library (Susebox JCL).
- * The Susebox JCL is free software; you can redistribute it and/or modify it 
+ * This file belongs to the JTopas Library.
+ * JTopas is free software; you can redistribute it and/or modify it 
  * under the terms of the GNU Lesser General Public License as published by the 
  * Free Software Foundation; either version 2.1 of the License, or (at your 
  * option) any later version.
@@ -15,7 +15,7 @@
  * See the GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License along
- * with the Susebox JCL. If not, write to the
+ * with JTopas. If not, write to the
  *
  *   Free Software Foundation, Inc.
  *   59 Temple Place, Suite 330, 
@@ -28,32 +28,34 @@
  *   email: heiko@susebox.de 
  */
 
-package io;
+package jtopas;
 
 //------------------------------------------------------------------------------
 // Imports
 //
-import java.io.IOException;
-
-import lang.ExceptionList;
 import lang.ThrowableList;
 import lang.ThrowableMessageFormatter;
 
 
 //------------------------------------------------------------------------------
-// ExtIOException - definition
+// TokenizerException - definition
 //
 
-/** 
- * Implementation of the {@link ThrowableList} interface for the JDK exception
- * {@link java.io.IOException}.
+/**<p>
+ * Wrapper exception for all the problems that may occur while parsing. There
+ * are IOExceptions, SQLExceptions etc. that can all happen when a {@link Tokenizer}
+ * tries to extract the next token.
+ *</p><p>
+ * The class supports formats and format arguments beside the usual plain 
+ * throwable message string.
+ *</p>
  *
- * @version	1.00, 2001/06/26
+ * @version	1.00, 2001/07/10
  * @author 	Heiko Blau
  */
-public class ExtIOException 
-  extends    IOException 
-  implements ThrowableList, ExceptionList 
+public class TokenizerException 
+  extends     Exception
+  implements  ThrowableList
 {
   //---------------------------------------------------------------------------
   // methods of the ThrowableList interface
@@ -70,22 +72,6 @@ public class ExtIOException
   }
 
   /**
-   * Method to traverse the exception list. See {@link ExceptionList#nextException}
-   * for details.
-   *
-   * @return the "earlier" exception
-   */
-  public Exception nextException() {
-    if (_next == null) {
-      return null;
-    } else if (_next instanceof Exception) {
-      return (Exception)_next;
-    } else {
-      return new RuntimeException(_next.toString());
-    }
-  }
-  
-  /**
    * Check if <code>this</code> is only a throwable that wraps the real one. See 
    * {@link ThrowableList#isWrapper} for details.
    *
@@ -94,17 +80,6 @@ public class ExtIOException
    */
   public boolean isWrapper() {
     return _isWrapper;
-  }
-  
-  /**
-   * Check if <code>this</code> is only an exception that wraps the real one. This
-   * might be nessecary to pass an exception incompatible to a method declaration.
-   *
-   * @return <code>true</code> if this is a wrapper exception,
-   *         <code>false</code> otherwise
-   */
-  public boolean isWrapperException() {
-    return isWrapper();
   }
   
   /**
@@ -129,46 +104,57 @@ public class ExtIOException
     return _args;
   }
   
-
+  
   //---------------------------------------------------------------------------
   // constructors
   //
   
   /**
-   * This constructor should be used for wrapping another exception. While reading
-   * data an IOException may occur, but a certain interface requires a
-   * {@link java.sql.SQLException}. Simply use:
+   * This constructor takes a simple message string like ordinary Java 
+   * {@link java.lang.Throwable} classes. This is the most convenient form to 
+   * construct an <code>ThrowableList</code> throwable.
+   *
+   * @param msg   message for this <code>Throwable</code> instance
+   */
+  public TokenizerException(String msg) {
+    this(null, msg, null);
+  }
+  
+  /**
+   * This constructor should be used for wrapping another throwable. While reading
+   * data an IOException may occur, but the {@link Tokenizer} interface requires a
+   * <code>TokenizerException</code>. Simply use:
    *<blockquote><pre>
    * try {
    *   ...
-   * } catch (SQLException ex) {
-   *   throw new ExtIOException(ex);
+   * } catch (IOException ex) {
+   *   throw new TokenizerException(ex);
    * }
    *</pre></blockquote>
    *
-   * @param ex the exception to wrap
+   * @param ex the throwable to wrap
    */  
-	public ExtIOException(Throwable ex) {
+	public TokenizerException(Throwable ex) {
 		this(ex, null, null);
 	}
 
   /**
-   * If one likes to add ones own information to an exception, this constructor is
-   * the easiest way to do so. By using such an approach a exception trace with useful
+   * If one likes to add ones own information to an throwable, this constructor is
+   * the easiest way to do so. By using such an approach a throwable trace with useful
    * additional informations (which file could be found, what username is unknown)
    * can be realized:
    *<blockquote><pre>
    * try {
    *   ...
-   * } catch (SQLException ex) {
-   *   throw new ExtIOException(ex, "while connecting to " + url);
+   * } catch (IOException ex) {
+   *   throw new TokenizerException(ex, "while tokenizing " + path);
    * }
    *</pre></blockquote>
    *
-   * @param ex    the inner exception
-   * @param msg   exception message
+   * @param ex    the inner throwable
+   * @param msg   throwable message
    */  
-	public ExtIOException(Throwable ex, String msg) {
+	public TokenizerException(Throwable ex, String msg) {
 		this(ex, msg, null);
 	}
 
@@ -181,28 +167,27 @@ public class ExtIOException
    *</pre></blockquote>
    * is similar to
    *<blockquote><pre>
-   *    new MyException(fmt, args).getMessage();
+   *    new TokenizerException(fmt, args).getMessage();
    *</pre></blockquote>
    *
-   * @param fmt   exception message
+   * @param fmt   throwable message
    * @param args  arguments for the given format string
    */  
-	public ExtIOException(String fmt, Object[] args) {
+	public TokenizerException(String fmt, Object[] args) {
     this(null, fmt, args);
 	}
-  
+
   /**
-   * This is the most complex way to construct an <CODE>ThrowableList</CODE>-
-   * Throwable.<br>
-   * An inner exception is accompanied by a format string and its arguments.
+   * This is the most complex way to construct a <CODE>TokenizerException</CODE>.
+   * An inner throwable is accompanied by a format string and its arguments.
    * Use this constructor in language-sensitive contexts or for formalized messages.
    * The meaning of the parameters is explained in the other constructors.
    *
-   * @param ex    the inner exception
-   * @param fmt   exception message
+   * @param ex    the inner throwable
+   * @param fmt   throwable message
    * @param args  arguments for the given format string
    */  
-	public ExtIOException(Throwable ex, String fmt, Object[] args) {
+	public TokenizerException(Throwable ex, String fmt, Object[] args) {
     super(fmt);
    
     if (ex != null && fmt == null) {
@@ -224,30 +209,29 @@ public class ExtIOException
    * delegates the call to the central 
    * {@link lang.ThrowableMessageFormatter#getMessage} method.
    *
-   * @return  the formatted exception message
+   * @return  the formatted throwable message
    * @see     lang.ThrowableMessageFormatter
    */
 	public String getMessage() {
     return ThrowableMessageFormatter.getMessage(this);
 	}
 
-  
   //---------------------------------------------------------------------------
   // members
   //
 
   /**
-   * the parameters to be used when formatting the exception message
+   * the parameters to be used when formatting the throwable message
    */
   protected Object[]  _args       = null;
 
   /**
-   * The wrapped, nested of next exception.
+   * The wrapped, nested of next throwable.
    */
   protected Throwable _next       = null;
   
   /**
-   * If <code>true</code> this is only a wrapper exception with the real one
+   * If <code>true</code> this is only a wrapper throwable with the real one
    * being returned by {@link #nextException}, <code>false</code> for standalone, 
    * nested or subsequent exceptions
    */
