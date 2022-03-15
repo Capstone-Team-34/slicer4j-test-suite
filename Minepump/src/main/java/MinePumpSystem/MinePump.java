@@ -180,6 +180,4 @@ activatePump() {
 		assert !pumpRunning;
 		systemActive = true;
 	}
-
-
 }

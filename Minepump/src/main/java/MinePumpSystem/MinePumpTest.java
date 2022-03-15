@@ -1,6 +1,7 @@
 package MinePumpSystem;
 
 import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
 public class MinePumpTest {
     public MinePumpTest() {}
@@ -11,226 +12,186 @@ public class MinePumpTest {
 
     @Test
     public void isHighWaterLevel() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-            env.lowerWaterLevel();
-    
-            assert(!p.isHighWaterLevel());
-    
-            env.waterRise();
-            env.waterRise();
-            assert(p.isHighWaterLevel());
-    
-            p.startSystem();
-            p.activatePump();
-    
-            env.lowerWaterLevel();
-            env.lowerWaterLevel();
-            assert(!p.isHighWaterLevel());
-    
-            env.waterRise();
-            env.waterRise();
-            p.timeShift();
-            p.timeShift();
-            assert(!p.isHighWaterLevel());
-        } catch (Throwable T) {
-            System.out.println("isHighWaterLevel failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
+        env.lowerWaterLevel();
+
+        assertTrue(!p.isHighWaterLevel());
+
+        env.waterRise();
+        env.waterRise();
+        assertTrue(p.isHighWaterLevel());
+
+        p.startSystem();
+        p.activatePump();
+
+        env.lowerWaterLevel();
+        env.lowerWaterLevel();
+        assertTrue(!p.isHighWaterLevel());
+
+        env.waterRise();
+        env.waterRise();
+        p.timeShift();
+        p.timeShift();
+        assertTrue(!p.isHighWaterLevel());
     }
 
     @Test
     public void isLowWaterLevel() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            env.lowerWaterLevel();
-            assert(p.isLowWaterLevel());
-    
-            env.waterRise();
-            env.waterRise();
-            env.waterRise();
-    
-            assert(!p.isLowWaterLevel());
-        } catch (Throwable T) {
-            System.out.println("isLowWaterLevel failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
 
+        env.lowerWaterLevel();
+        assertTrue(p.isLowWaterLevel());
+
+        env.waterRise();
+        env.waterRise();
+        env.waterRise();
+
+        assertTrue(!p.isLowWaterLevel());
     }
 
     @Test
     public void isMethaneAlarm() {
-        try{
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            assert(!p.isMethaneAlarm());
-    
-            env.changeMethaneLevel();
-    
-            assert(p.isMethaneAlarm());
-        } catch (Throwable T) {
-            System.out.println("isMethaneAlarm failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
+
+        assertTrue(!p.isMethaneAlarm());
+
+        env.changeMethaneLevel();
+
+        assertTrue(p.isMethaneAlarm());
     }
 
     @Test
     public void timeShift() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            env.waterRise();
-            env.waterRise();
-    
-            p.timeShift();
-            p.timeShift();
-    
-            assert(p.isHighWaterLevel());
-    
-            p.startSystem();
-            p.timeShift();
-            p.timeShift();
-    
-            assert(p.isHighWaterLevel());
-    
-            p.activatePump();
-            p.timeShift();
-            p.timeShift();
-    
-            assert(!p.isHighWaterLevel());
-        } catch (Throwable T) {
-            System.out.println("timeShift failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
+
+        env.waterRise();
+        env.waterRise();
+
+        p.timeShift();
+        p.timeShift();
+
+        assertTrue(p.isHighWaterLevel());
+
+        p.startSystem();
+        p.timeShift();
+        p.timeShift();
+
+        assertTrue(p.isHighWaterLevel());
+
+        p.activatePump();
+        p.timeShift();
+        p.timeShift();
+
+        assertTrue(!p.isHighWaterLevel());
     }
 
     @Test
     public void activatePump() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            assert(!p.pumpRunning);
-    
-            p.activatePump();
-    
-            assert(p.pumpRunning);
-        } catch (Throwable T) {
-            System.out.println("activatePump failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
 
+        assertTrue(!p.pumpRunning);
+
+        p.activatePump();
+
+        assertTrue(p.pumpRunning);
     }
 
     @Test
     public void deactivatePump() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            assert(!p.pumpRunning);
-    
-            p.activatePump();
-    
-            assert(p.pumpRunning);
-    
-            p.deactivatePump();
-    
-            assert(!p.pumpRunning);
-        } catch (Throwable T) {
-            System.out.println("deactivatePump failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
+
+        assertTrue(!p.pumpRunning);
+
+        p.activatePump();
+
+        assertTrue(p.pumpRunning);
+
+        p.deactivatePump();
+
+        assertTrue(!p.pumpRunning);
     }
 
     @Test
     public void testToString() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            assert(p.toString().equals("Pump(System:On,Pump:Off) Env(Water:normal,Meth:OK)"));
-    
-            p.activatePump();
-    
-            assert(p.toString().equals("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)"));
-    
-            env.waterRise();
-    
-            assert(p.toString().equals("Pump(System:On,Pump:On) Env(Water:high,Meth:OK)"));
-    
-            env.lowerWaterLevel();
-    
-            assert(p.toString().equals("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)"));
-    
-            env.lowerWaterLevel();
-    
-            assert(p.toString().equals("Pump(System:On,Pump:On) Env(Water:low,Meth:OK)"));
-    
-            env.changeMethaneLevel();
-    
-            assert(p.toString().equals("Pump(System:On,Pump:On) Env(Water:low,Meth:CRIT)"));
-    
-            p.stopSystem();
-    
-            assert(p.toString().equals("Pump(System:Off,Pump:Off) Env(Water:low,Meth:CRIT)"));
-        } catch (Throwable T) {
-            System.out.println("testToString failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:Off) Env(Water:normal,Meth:OK)"));
+
+        p.activatePump();
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)"));
+
+        env.waterRise();
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:On) Env(Water:high,Meth:OK)"));
+
+        env.lowerWaterLevel();
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:On) Env(Water:normal,Meth:OK)"));
+
+        env.lowerWaterLevel();
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:On) Env(Water:low,Meth:OK)"));
+
+        env.changeMethaneLevel();
+
+        assertTrue(p.toString().equals("Pump(System:On,Pump:On) Env(Water:low,Meth:CRIT)"));
+
+        p.stopSystem();
+
+        assertTrue(p.toString().equals("Pump(System:Off,Pump:Off) Env(Water:low,Meth:CRIT)"));
     }
 
     @Test
     public void stopSystem() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            assert(!p.pumpRunning);
-            assert(p.systemActive);
-    
-            p.stopSystem();
-    
-            assert(!p.pumpRunning);
-            assert(!p.systemActive);
-    
-            p.startSystem();
-    
-            assert(!p.pumpRunning);
-            assert(p.systemActive);
-    
-            p.activatePump();
-    
-            assert(p.pumpRunning);
-            assert(p.systemActive);
-    
-            p.stopSystem();
-    
-            assert(!p.pumpRunning);
-            assert(!p.systemActive);
-        } catch (Throwable T) {
-            System.out.println("stopSystem failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
 
+        assertTrue(!p.pumpRunning);
+        assertTrue(p.systemActive);
+
+        p.stopSystem();
+
+        assertTrue(!p.pumpRunning);
+        assertTrue(!p.systemActive);
+
+        p.startSystem();
+
+        assertTrue(!p.pumpRunning);
+        assertTrue(p.systemActive);
+
+        p.activatePump();
+
+        assertTrue(p.pumpRunning);
+        assertTrue(p.systemActive);
+
+        p.stopSystem();
+
+        assertTrue(!p.pumpRunning);
+        assertTrue(!p.systemActive);
     }
 
     @Test
     public void startSystem() {
-        try {
-            Environment env = new Environment();
-            MinePump p = new MinePump(env);
-    
-            p.stopSystem();
-    
-            assert(!p.pumpRunning && !p.systemActive);
-    
-            p.startSystem();
-            p.activatePump();
-    
-            p.stopSystem();
-    
-            assert(!p.pumpRunning && !p.systemActive);
-        } catch (Throwable T) {
-            System.out.println("startSystem failed!");
-        }
+        Environment env = new Environment();
+        MinePump p = new MinePump(env);
 
+        p.stopSystem();
+
+        assertTrue(!p.pumpRunning && !p.systemActive);
+
+        p.startSystem();
+        p.activatePump();
+
+        p.stopSystem();
+
+        assertTrue(!p.pumpRunning && !p.systemActive);
     }
 }
