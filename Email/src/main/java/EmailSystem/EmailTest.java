@@ -2,6 +2,7 @@ package EmailSystem;
 
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
 public class EmailTest {
     public EmailTest() {}
@@ -18,10 +19,10 @@ public class EmailTest {
 
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
             
-            assert(msg.getEmailFrom().equals(bob));
-            assert(msg.getEmailTo().equals("alice") );
-            assert(msg.getEmailSubject().equals("Hello"));
-            assert(msg.getEmailBody().equals("World"));
+            assertTrue(msg.getEmailFrom().equals(bob));
+            assertTrue(msg.getEmailTo().equals("alice") );
+            assertTrue(msg.getEmailSubject().equals("Hello"));
+            assertTrue(msg.getEmailBody().equals("World"));
         } catch (Throwable T) {
             System.out.println("createEmail failed!");
         }
@@ -33,11 +34,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.isReadable());
+            assertTrue(msg.isReadable());
     
             msg.setEmailIsEncrypted(true);
     
-            assert(!msg.isReadable());
+            assertTrue(!msg.isReadable());
         } catch (Throwable T) {
             System.out.println("isReadable failed");
         }
@@ -49,7 +50,7 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailFrom().equals(bob));
+            assertTrue(msg.getEmailFrom().equals(bob));
         } catch (Throwable T) {
             System.out.println("getEmailFrom failed!");
         }
@@ -63,7 +64,7 @@ public class EmailTest {
             for(int i = 1; i <= 10; i++) {
                 msg = Email.createEmail(bob, "alice", "Hello", "World");
             }
-            assert(msg.getId() == 10);
+            assertTrue(msg.getId() == 10);
         } catch (Throwable T) {
             System.out.println("getId failed!");
         }
@@ -75,7 +76,7 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailSubject().equals("Hello"));
+            assertTrue(msg.getEmailSubject().equals("Hello"));
         } catch (Throwable T) {
             System.out.println("getEmailSubject failed!");
         }
@@ -87,7 +88,7 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailTo().equals("alice"));
+            assertTrue(msg.getEmailTo().equals("alice"));
         } catch (Throwable T) {
             System.out.println("getEmailTo failed!");
         }
@@ -100,7 +101,7 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailBody().equals("World"));
+            assertTrue(msg.getEmailBody().equals("World"));
         } catch (Throwable T) {
             System.out.println("setEmailBody failed!");
         }
@@ -112,13 +113,13 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailFrom().equals(bob));
+            assertTrue(msg.getEmailFrom().equals(bob));
     
             Client fred = Client.createClient("fred");
     
             msg.setEmailFrom(fred);
     
-            assert(msg.getEmailFrom().equals(fred));
+            assertTrue(msg.getEmailFrom().equals(fred));
         } catch (Throwable T) {
             System.out.println("setEmailFrom failed!");
         }
@@ -131,11 +132,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailSubject().equals("Hello"));
+            assertTrue(msg.getEmailSubject().equals("Hello"));
     
             msg.setEmailSubject("foo");
     
-            assert(msg.getEmailSubject().equals("foo"));
+            assertTrue(msg.getEmailSubject().equals("foo"));
         } catch (Throwable T) {
             System.out.println("setEmailSubject failed!");
         }
@@ -148,11 +149,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailTo().equals("alice"));
+            assertTrue(msg.getEmailTo().equals("alice"));
     
             msg.setEmailTo("fred");
     
-            assert(msg.getEmailTo().equals("fred"));
+            assertTrue(msg.getEmailTo().equals("fred"));
         } catch (Throwable T) {
             System.out.println("setEmailTo failed!");
         }
@@ -164,11 +165,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(msg.getEmailBody().equals("World"));
+            assertTrue(msg.getEmailBody().equals("World"));
     
             msg.setEmailBody("bar");
     
-            assert(msg.getEmailBody().equals("bar"));
+            assertTrue(msg.getEmailBody().equals("bar"));
         } catch (Throwable T) {
             System.out.println("getEmailBody failed!");
         }
@@ -180,11 +181,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isEncrypted());
+            assertTrue(!msg.isEncrypted());
     
             msg.setEmailIsEncrypted(true);
     
-            assert(msg.isEncrypted());
+            assertTrue(msg.isEncrypted());
         } catch (Throwable T) {
             System.out.println("isEncrypted failed!");
         }
@@ -197,11 +198,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isEncrypted());
+            assertTrue(!msg.isEncrypted());
     
             msg.setEmailIsEncrypted(true);
     
-            assert(msg.isEncrypted());
+            assertTrue(msg.isEncrypted());
         } catch (Throwable T) {
             System.out.println("setEmailIsEncrypted failed!");
         }
@@ -216,7 +217,7 @@ public class EmailTest {
     
             msg.setEmailEncryptionKey(24);
     
-            assert(msg.getEmailEncryptionKey() == 24);
+            assertTrue(msg.getEmailEncryptionKey() == 24);
         } catch (Throwable T) {
             System.out.println("setEmailEncryptionKey failed!");
         }
@@ -231,7 +232,7 @@ public class EmailTest {
     
             msg.setEmailEncryptionKey(24);
     
-            assert(msg.getEmailEncryptionKey() == 24);
+            assertTrue(msg.getEmailEncryptionKey() == 24);
         } catch (Throwable T) {
             System.out.println("getEmailEncryptionKey failed!");
         }
@@ -245,7 +246,7 @@ public class EmailTest {
     
             msg.setEmailIsSigned(true);
     
-            assert(msg.isSigned());
+            assertTrue(msg.isSigned());
         } catch (Throwable T) {
             System.out.println("setEmailIsSigned failed!");
         }
@@ -259,7 +260,7 @@ public class EmailTest {
     
             msg.setEmailSignKey(26);
     
-            assert(msg.getEmailSignKey() == 26);
+            assertTrue(msg.getEmailSignKey() == 26);
         } catch (Throwable T) {
             System.out.println("setEmailSignKey failed!");
         }
@@ -271,11 +272,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isSigned());
+            assertTrue(!msg.isSigned());
     
             msg.setEmailIsSigned(true);
     
-            assert(msg.isSigned());
+            assertTrue(msg.isSigned());
         } catch (Throwable T) {
             System.out.println("isSigned failed!");
         }
@@ -288,11 +289,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isSigned());
+            assertTrue(!msg.isSigned());
     
             msg.setEmailIsSigned(true);
     
-            assert(msg.isSigned());
+            assertTrue(msg.isSigned());
         } catch (Throwable T) {
             System.out.println("getEmailSignKey failed!");
         }
@@ -305,11 +306,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isSignatureVerified());
+            assertTrue(!msg.isSignatureVerified());
     
             msg.setIsSignatureVerified(true);
     
-            assert(msg.isSignatureVerified());
+            assertTrue(msg.isSignatureVerified());
         } catch (Throwable T) {
             System.out.println("isSignatureVerified failed!");
         }
@@ -322,11 +323,11 @@ public class EmailTest {
             Client bob = Client.createClient("bob");
             Email msg = Email.createEmail(bob, "alice", "Hello", "World");
     
-            assert(!msg.isSignatureVerified());
+            assertTrue(!msg.isSignatureVerified());
     
             msg.setIsSignatureVerified(true);
     
-            assert(msg.isSignatureVerified());
+            assertTrue(msg.isSignatureVerified());
         } catch (Throwable T) {
             System.out.println("setIsSignatureVerified failed!");
         }

@@ -16,7 +16,6 @@ public class tests {
         test8();
         test9();
         System.out.println(getExecutedActions());
-
     }
 
 
@@ -100,5 +99,4 @@ public class tests {
         Action.rjhEnableForwarding();
         Action.bobToRjh();
     }
-
 }
