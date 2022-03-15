@@ -244,6 +244,7 @@ public class EmailClientTest {
 
     @Test
     public void getClientId() {
+        Client.clientCounter = 0;
         Email.emailCounter = 0;
         Client c = Client.createClient("bob");
 
@@ -276,6 +277,8 @@ public class EmailClientTest {
 
     @Test
     public void createClient() {
+        Client.clientCounter = 0;
+        Email.emailCounter = 0;
         Client c = Client.createClient("bob");
         assert(c.name.equals("bob"));
         assert(c.id == 0);
@@ -287,6 +290,8 @@ public class EmailClientTest {
 
     @Test
     public void getClientById() {
+        Client.clientCounter = 0;
+        Email.emailCounter = 0;
         Client[] c = new Client[100];
         for(int i = 0; i < 100; i++){
             c[i] = Client.createClient(String.valueOf(i));
@@ -298,6 +303,8 @@ public class EmailClientTest {
 
     @Test
     public void getClientByAdress() {
+        Client.clientCounter = 0;
+        Email.emailCounter = 0;
         Client[] c = new Client[100];
         for(int i = 0; i < 100; i++){
             c[i] = Client.createClient(String.valueOf(i));
