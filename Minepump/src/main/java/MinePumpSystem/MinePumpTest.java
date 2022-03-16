@@ -1,14 +1,16 @@
 package MinePumpSystem;
 
 import org.junit.Test;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Date;
+
 import static org.junit.Assert.assertTrue;
 
 public class MinePumpTest {
     public MinePumpTest() {}
-
-    @Test
-    public void setUp() {
-    }
 
     @Test
     public void isHighWaterLevel() {
@@ -34,6 +36,8 @@ public class MinePumpTest {
         p.timeShift();
         p.timeShift();
         assertTrue(!p.isHighWaterLevel());
+
+        logTestPassed("isHighWaterLevel");
     }
 
     @Test
@@ -49,6 +53,7 @@ public class MinePumpTest {
         env.waterRise();
 
         assertTrue(!p.isLowWaterLevel());
+        logTestPassed("isLowWaterLevel");
     }
 
     @Test
@@ -61,6 +66,7 @@ public class MinePumpTest {
         env.changeMethaneLevel();
 
         assertTrue(p.isMethaneAlarm());
+        logTestPassed("isMethaneAlarm");
     }
 
     @Test
@@ -87,6 +93,8 @@ public class MinePumpTest {
         p.timeShift();
 
         assertTrue(!p.isHighWaterLevel());
+        logTestPassed("timeShift");
+
     }
 
     @Test
@@ -99,6 +107,7 @@ public class MinePumpTest {
         p.activatePump();
 
         assertTrue(p.pumpRunning);
+        logTestPassed("activatePump");
     }
 
     @Test
@@ -115,6 +124,7 @@ public class MinePumpTest {
         p.deactivatePump();
 
         assertTrue(!p.pumpRunning);
+        logTestPassed("deactivatePump");
     }
 
     @Test
@@ -147,6 +157,7 @@ public class MinePumpTest {
         p.stopSystem();
 
         assertTrue(p.toString().equals("Pump(System:Off,Pump:Off) Env(Water:low,Meth:CRIT)"));
+        logTestPassed("testToString");
     }
 
     @Test
@@ -176,6 +187,7 @@ public class MinePumpTest {
 
         assertTrue(!p.pumpRunning);
         assertTrue(!p.systemActive);
+        logTestPassed("stopSystem");
     }
 
     @Test
@@ -193,5 +205,22 @@ public class MinePumpTest {
         p.stopSystem();
 
         assertTrue(!p.pumpRunning && !p.systemActive);
+        logTestPassed("startSystem");
+    }
+
+    private void logTestPassed(String testName) {
+        Date date = new Date(System.currentTimeMillis());
+        File dir = new File("slicer4j-stats/");
+        dir.mkdir();
+        File f = new File(dir, "PassingTest.log");
+        try {
+            f.createNewFile();
+            String text = "Test passed: " + testName + "\t--------\t" + date.toString() + "\n";
+            FileWriter fw = new FileWriter(f, true);
+            fw.write(text);
+            fw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -3,6 +3,11 @@ package EmailSystem;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Date;
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertThrows;
 
@@ -24,6 +29,7 @@ public class EmailClientTest {
         assertTrue(msg.getEmailTo().equals("alice") );
         assertTrue(msg.getEmailSubject().equals("Hello"));
         assertTrue(msg.getEmailBody().equals("World"));
+        logTestPassed("createEmail");
     }
 
     @Test
@@ -36,6 +42,7 @@ public class EmailClientTest {
         msg.setEmailIsEncrypted(true);
 
         assertTrue(!msg.isReadable());
+        logTestPassed("isReadable");
     }
 
     @Test
@@ -44,6 +51,7 @@ public class EmailClientTest {
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
         assertTrue(msg.getEmailFrom().equals(bob));
+        logTestPassed("getEmailFrom");
     }
 
     @Test
@@ -54,7 +62,7 @@ public class EmailClientTest {
             msg = Email.createEmail(bob, "alice", "Hello", "World");
         }
         assertTrue(msg.getId() == 10);
-
+        logTestPassed("getId");
     }
 
     @Test
@@ -63,6 +71,7 @@ public class EmailClientTest {
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
         assertTrue(msg.getEmailSubject().equals("Hello"));
+        logTestPassed("getEmailSubject");
     }
 
     @Test
@@ -71,6 +80,7 @@ public class EmailClientTest {
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
         assertTrue(msg.getEmailTo().equals("alice"));
+        logTestPassed("getEmailTo");
     }
 
     @Test
@@ -79,6 +89,7 @@ public class EmailClientTest {
         Email msg = Email.createEmail(bob, "alice", "Hello", "World");
 
         assertTrue(msg.getEmailBody().equals("World"));
+        logTestPassed("setEmailBody");
     }
 
     @Test
@@ -93,6 +104,7 @@ public class EmailClientTest {
         msg.setEmailFrom(fred);
 
         assertTrue(msg.getEmailFrom().equals(fred));
+        logTestPassed("setEmailFrom");
     }
 
     @Test
@@ -105,6 +117,7 @@ public class EmailClientTest {
         msg.setEmailSubject("foo");
 
         assertTrue(msg.getEmailSubject().equals("foo"));
+        logTestPassed("setEmailSubject");
     }
 
     @Test
@@ -117,6 +130,7 @@ public class EmailClientTest {
         msg.setEmailTo("fred");
 
         assertTrue(msg.getEmailTo().equals("fred"));
+        logTestPassed("setEmailTo");
     }
 
     @Test
@@ -129,6 +143,7 @@ public class EmailClientTest {
         msg.setEmailBody("bar");
 
         assertTrue(msg.getEmailBody().equals("bar"));
+        logTestPassed("getEmailBody");
     }
 
     @Test
@@ -141,6 +156,7 @@ public class EmailClientTest {
         msg.setEmailIsEncrypted(true);
 
         assertTrue(msg.isEncrypted());
+        logTestPassed("isEncrypted");
     }
 
     @Test
@@ -153,6 +169,7 @@ public class EmailClientTest {
         msg.setEmailIsEncrypted(true);
 
         assertTrue(msg.isEncrypted());
+        logTestPassed("setEmailIsEncrypted");
     }
 
     @Test
@@ -163,6 +180,7 @@ public class EmailClientTest {
         msg.setEmailEncryptionKey(24);
 
         assertTrue(msg.getEmailEncryptionKey() == 24);
+        logTestPassed("setEmailEncryptionKey");
     }
 
     @Test
@@ -173,6 +191,7 @@ public class EmailClientTest {
         msg.setEmailEncryptionKey(24);
 
         assertTrue(msg.getEmailEncryptionKey() == 24);
+        logTestPassed("getEmailEncryptionKey");
     }
 
     @Test
@@ -183,6 +202,7 @@ public class EmailClientTest {
         msg.setEmailIsSigned(true);
 
         assertTrue(msg.isSigned());
+        logTestPassed("setEmailIsSigned");
     }
 
     @Test
@@ -193,6 +213,7 @@ public class EmailClientTest {
         msg.setEmailSignKey(26);
 
         assertTrue(msg.getEmailSignKey() == 26);
+        logTestPassed("setEmailSignKey");
     }
 
     @Test
@@ -205,6 +226,7 @@ public class EmailClientTest {
         msg.setEmailIsSigned(true);
 
         assertTrue(msg.isSigned());
+        logTestPassed("isSigned");
     }
 
     @Test
@@ -217,6 +239,7 @@ public class EmailClientTest {
         msg.setEmailIsSigned(true);
 
         assertTrue(msg.isSigned());
+        logTestPassed("getEmailSignKey");
     }
 
     @Test
@@ -229,6 +252,7 @@ public class EmailClientTest {
         msg.setIsSignatureVerified(true);
 
         assertTrue(msg.isSignatureVerified());
+        logTestPassed("isSignatureVerified");
     }
 
     @Test
@@ -241,6 +265,7 @@ public class EmailClientTest {
         msg.setIsSignatureVerified(true);
 
         assertTrue(msg.isSignatureVerified());
+        logTestPassed("setIsSignatureVerified");
     }
 
     @Test
@@ -254,6 +279,7 @@ public class EmailClientTest {
         }
 
         assertTrue(c.id == 10);
+        logTestPassed("getClientId");
     }
 
     @Test
@@ -268,12 +294,14 @@ public class EmailClientTest {
         assertThrows(IllegalArgumentException.class, () -> {
             Client.sendEmail(alice, "carl", "Hello", "World");
         });
+        logTestPassed("sendEmail");
     }
 
     @Test
     public void getName() {
         Client c = Client.createClient("bob");
         assertTrue(c.getName().equals("bob"));
+        logTestPassed("getName");
     }
 
     @Test
@@ -287,6 +315,7 @@ public class EmailClientTest {
         c = Client.createClient("alice");
         assertTrue(c.name.equals("alice"));
         assertTrue(c.id == 1);
+        logTestPassed("createClient");
     }
 
     @Test
@@ -300,6 +329,7 @@ public class EmailClientTest {
         for(int i = 0; i < 100; i++){
             assertTrue(Client.getClientById(i).getName().equals(String.valueOf(i)));
         }
+        logTestPassed("getClientById");
     }
 
     @Test
@@ -313,6 +343,7 @@ public class EmailClientTest {
         for(int i = 0; i < 100; i++){
             assertTrue(Client.getClientByAdress(String.valueOf(i)).getId() == i);
         }
+        logTestPassed("getClientByAdress");
     }
 
     @Test
@@ -332,6 +363,7 @@ public class EmailClientTest {
         c = Client.createClient("bob");
         assertTrue(c.name.equals("bob"));
         assertTrue(c.id == 0);
+        logTestPassed("resetClients");
     }
 
     @Test
@@ -339,6 +371,7 @@ public class EmailClientTest {
         Client c =  Client.createClient("bob");
 
         assertTrue(c.toString().equals("bob"));
+        logTestPassed("testToString");
     }
 
     @Test
@@ -346,6 +379,7 @@ public class EmailClientTest {
         Client c = Client.createClient("bob");
         c.setPrivateKey(12);
         assertTrue(c.getPrivateKey() == 12);
+        logTestPassed("setPrivateKey");
     }
 
     @Test
@@ -353,6 +387,7 @@ public class EmailClientTest {
         Client c = Client.createClient("bob");
         c.setPrivateKey(12);
         assertTrue(c.getPrivateKey() == 12);
+        logTestPassed("getPrivateKey");
     }
 
     @Test
@@ -360,6 +395,7 @@ public class EmailClientTest {
         Client c = Client.createClient("bob");
         Client.generateKeyPair(c,25);
         assertTrue(c.getPrivateKey() == 25);
+        logTestPassed("generateKeyPair");
     }
 
     @Test
@@ -374,6 +410,7 @@ public class EmailClientTest {
         for(int i = 0; i < 100; i++) {
             assertTrue (c.keyring.get(i).getPublicKey() == i);
         }
+        logTestPassed("addKeyringEntry");
     }
 
     @Test
@@ -399,13 +436,14 @@ public class EmailClientTest {
 
         assertTrue(fred.getKeyringPublicKeyByClient(bob) == 24);
         assertTrue(fred.getKeyringPublicKeyByClient(alice) == 33);
-
+        logTestPassed("getKeyringPublicKeyByClient");
     }
 
     @Test
     public void isKeyPairValid() {
         assertTrue(Client.isKeyPairValid(12, 12));
         assertTrue(!Client.isKeyPairValid(24, 38));
+        logTestPassed("isKeyPairValid");
     }
 
     @Test
@@ -418,6 +456,7 @@ public class EmailClientTest {
         c.setAutoResponse(false);
 
         assertTrue(!c.isAutoResponse());
+        logTestPassed("setAutoResponse");
     }
 
     @Test
@@ -430,6 +469,7 @@ public class EmailClientTest {
         c.setAutoResponse(false);
 
         assertTrue(!c.isAutoResponse());
+        logTestPassed("isAutoResponse");
     }
 
     @Test
@@ -444,6 +484,7 @@ public class EmailClientTest {
         assertTrue(c.getAddressBookReceiversForAlias("craig").get(0).equals("alice"));
         assertTrue(c.getAddressBookReceiversForAlias("craig").get(1).equals("fred"));
         assertTrue(b.getAddressBookReceiversForAlias("berry").get(0).equals("bob"));
+        logTestPassed("getAddressBookReceiversForAlias");
     }
 
     @Test
@@ -458,6 +499,7 @@ public class EmailClientTest {
         assertTrue(c.getAddressBookReceiversForAlias("craig").get(0).equals("alice"));
         assertTrue(c.getAddressBookReceiversForAlias("craig").get(1).equals("fred"));
         assertTrue(b.getAddressBookReceiversForAlias("berry").get(0).equals("bob"));
+        logTestPassed("addAddressbookEntry");
     }
 
     @Test
@@ -475,6 +517,7 @@ public class EmailClientTest {
         Client.sign(c, msg);
 
         assertTrue(msg.isSigned());
+        logTestPassed("sign");
     }
 
     @Test
@@ -483,6 +526,7 @@ public class EmailClientTest {
         Client b = Client.createClient("alice");
         c.setForwardReceiver(b);
         assertTrue(c.getForwardReceiver().equals(b));
+        logTestPassed("setForwardReceiver");
     }
 
     @Test
@@ -491,6 +535,7 @@ public class EmailClientTest {
         Client b = Client.createClient("alice");
         c.setForwardReceiver(b);
         assertTrue(c.getForwardReceiver().equals(b));
+        logTestPassed("getForwardReceiver");
     }
 
     @Test
@@ -511,5 +556,22 @@ public class EmailClientTest {
         Client.verify(c, msg);
 
         assertTrue(msg.isSignatureVerified());
+        logTestPassed("verify");
+    }
+
+    private void logTestPassed(String testName) {
+        Date date = new Date(System.currentTimeMillis());
+        File dir = new File("slicer4j-stats/");
+        dir.mkdir();
+        File f = new File(dir, "PassingTest.log");
+        try {
+            f.createNewFile();
+            String text = "Test passed: " + testName + "\t--------\t" + date.toString() + "\n";
+            FileWriter fw = new FileWriter(f, true);
+            fw.write(text);
+            fw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
